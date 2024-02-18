@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/ede9c2b12d224b288ca0f62abfb590fd/artifacts
+end_time: 1708297060248
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: ede9c2b12d224b288ca0f62abfb590fd
+run_name: crawling-bat-390
+run_uuid: ede9c2b12d224b288ca0f62abfb590fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708297055803
+status: 3
+tags: []
+user_id: georg

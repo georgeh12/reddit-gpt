@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/7660af9fe80b42ca9ae503e62b861167/artifacts
+end_time: 1708297984962
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: 7660af9fe80b42ca9ae503e62b861167
+run_name: crawling-goose-398
+run_uuid: 7660af9fe80b42ca9ae503e62b861167
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708297984836
+status: 4
+tags: []
+user_id: georg

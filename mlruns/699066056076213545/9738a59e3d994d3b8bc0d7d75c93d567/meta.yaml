@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/9738a59e3d994d3b8bc0d7d75c93d567/artifacts
+end_time: 1708296638990
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: 9738a59e3d994d3b8bc0d7d75c93d567
+run_name: blushing-deer-17
+run_uuid: 9738a59e3d994d3b8bc0d7d75c93d567
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708296638871
+status: 4
+tags: []
+user_id: georg

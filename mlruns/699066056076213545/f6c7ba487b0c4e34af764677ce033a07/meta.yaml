@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/f6c7ba487b0c4e34af764677ce033a07/artifacts
+end_time: 1708298015980
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: f6c7ba487b0c4e34af764677ce033a07
+run_name: languid-swan-41
+run_uuid: f6c7ba487b0c4e34af764677ce033a07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708298012202
+status: 3
+tags: []
+user_id: georg

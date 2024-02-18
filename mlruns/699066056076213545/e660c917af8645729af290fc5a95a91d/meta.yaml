@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/e660c917af8645729af290fc5a95a91d/artifacts
+end_time: 1708297030706
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: e660c917af8645729af290fc5a95a91d
+run_name: bustling-colt-751
+run_uuid: e660c917af8645729af290fc5a95a91d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708297025995
+status: 3
+tags: []
+user_id: georg

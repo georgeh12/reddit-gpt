@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/662048165983814732/430a8f172d2b42b181a22a9c9520a16b/artifacts
+end_time: 1708296387213
+entry_point_name: ''
+experiment_id: '662048165983814732'
+lifecycle_stage: active
+run_id: 430a8f172d2b42b181a22a9c9520a16b
+run_name: aged-shrike-864
+run_uuid: 430a8f172d2b42b181a22a9c9520a16b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708296377324
+status: 3
+tags: []
+user_id: georg

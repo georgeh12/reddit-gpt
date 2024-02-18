@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/662048165983814732/d2dde93639f4469d900a2e3db680a951/artifacts
+end_time: 1708296003915
+entry_point_name: ''
+experiment_id: '662048165983814732'
+lifecycle_stage: active
+run_id: d2dde93639f4469d900a2e3db680a951
+run_name: nimble-cod-574
+run_uuid: d2dde93639f4469d900a2e3db680a951
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708296003709
+status: 4
+tags: []
+user_id: georg

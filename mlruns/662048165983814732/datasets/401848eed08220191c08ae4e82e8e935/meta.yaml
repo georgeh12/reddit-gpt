@@ -1,0 +1,13 @@
+digest: 7cf2187f
+name: dataset
+profile: '{"num_rows": 1821, "num_elements": 16389}'
+schema: '{"mlflow_colspec": [{"type": "boolean", "name": "stickied", "required": true},
+  {"type": "double", "name": "upvote_ratio", "required": true}, {"type": "long", "name":
+  "num_comments", "required": true}, {"type": "double", "name": "created", "required":
+  true}, {"type": "double", "name": "launch_distance_f", "required": true}, {"type":
+  "double", "name": "pos", "required": true}, {"type": "double", "name": "neg", "required":
+  true}, {"type": "double", "name": "neu", "required": true}, {"type": "double", "name":
+  "compound", "required": true}]}'
+source: '{"tags": {"mlflow.user": "georg", "mlflow.source.name": "c:\\Users\\georg\\Documents\\GitHub\\reddit-gpt\\.venv\\lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

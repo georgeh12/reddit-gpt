@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/b2ce8ce709f34eeeafe5dc94114f96aa/artifacts
+end_time: 1708298285795
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: b2ce8ce709f34eeeafe5dc94114f96aa
+run_name: carefree-sheep-214
+run_uuid: b2ce8ce709f34eeeafe5dc94114f96aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708298281825
+status: 3
+tags: []
+user_id: georg

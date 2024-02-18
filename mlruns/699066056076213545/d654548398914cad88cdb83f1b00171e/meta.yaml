@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/d654548398914cad88cdb83f1b00171e/artifacts
+end_time: 1708298243914
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: d654548398914cad88cdb83f1b00171e
+run_name: rogue-fly-95
+run_uuid: d654548398914cad88cdb83f1b00171e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708298240205
+status: 3
+tags: []
+user_id: georg

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/georg/Documents/GitHub/reddit-gpt/mlruns/699066056076213545/e13c48b13b724be0a7daf5dc0e1a0f74/artifacts
+end_time: 1708298289605
+entry_point_name: ''
+experiment_id: '699066056076213545'
+lifecycle_stage: active
+run_id: e13c48b13b724be0a7daf5dc0e1a0f74
+run_name: abrasive-trout-139
+run_uuid: e13c48b13b724be0a7daf5dc0e1a0f74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708298286004
+status: 3
+tags: []
+user_id: georg
