@@ -1,7 +1,0 @@
-digest: fc4ab09e
-name: dataset
-profile: '{"num_rows": 3936, "num_elements": 35424}'
-schema: null
-source: '{"tags": {"mlflow.user": "georg", "mlflow.source.name": "c:\\Users\\georg\\Documents\\GitHub\\reddit-gpt\\.venv\\lib\\site-packages\\ipykernel_launcher.py",
-  "mlflow.source.type": "LOCAL"}}'
-source_type: code
