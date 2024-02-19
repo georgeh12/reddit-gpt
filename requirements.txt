@@ -8,3 +8,5 @@ notebook
 praw
 nltk
 wordcloud
+tabulate
+prettytable
