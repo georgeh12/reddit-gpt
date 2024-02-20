@@ -1,4 +1,5 @@
 .venv/**
 #data/**
 reddit.json
+login.json
 mlruns/**
