@@ -1,0 +1,1581 @@
+id,index,Unnamed: 0,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body,score_weighted,num_comments_weighted,clean,launch_distance,launch_distance_f,pos,neg,neu,compound,label,log_score_weighted,log_num_comments,log_launch_distance_f,log_created
+yzomfj,523,198,artificial,gpt-3,comments,2022-11-19 23:00:06,Non-transformer chatbot AI,masfly,False,0.89,7,https://www.reddit.com/r/artificial/comments/yzomfj/nontransformer_chatbot_ai/,12,1668898806.0,"Hi everyone! In the past, I have messed around with a lot of chatbots like GPT-2, 3, and recently these [Character.AI](https://Character.AI) chatbots, but they're all just transformers that predict what text should come next. I know this might be delving a bit into the general intelligence space, but have there been any attempts at non-transformer AI chatbots that might stand a better chance at having consistent memory, for instance?",659.1813729827828,1130.0252108276277,"Hi everyone! In the past, I have messed around with a lot of chatbots like GPT-2, 3, and recently these [Character.AI]( chatbots, but they're all just transformers that predict what text should come next. I know this might be delving a bit into the general intelligence space, but have there been any attempts at non-transformer AI chatbots that might stand a better chance at having consistent memory, for instance?",10 days 00:59:54,10.041597222222222,0.023,0.806,0.171,0.8966,pos,6.492514604817464,2.5649493574615367,2.4016697063103227,21.235429848871263
+z4mdab,570,245,artificial,gpt-3,relevance,2022-11-25 19:49:06,Looking for feedback: We built an AI powered business name generator using GPT-3,joeyjojo6161,False,0.73,7,https://www.reddit.com/r/artificial/comments/z4mdab/looking_for_feedback_we_built_an_ai_powered/,5,1669405746.0,"Hey all,
+
+You might remember the [AI website builder](https://durable.co/ai-website-builder) my company, Durable, launched a few months back (worth a try if you haven't yet given it a go, we made a handful of updates which I'll post below, based on feedback in this subreddit).
+
+We're doing a lot with AI, and the latest is a [business name generator](https://durable.co/name-generator). If you've got a second, give it a go and let me know what you think (and share any weird/good ideas it comes up with).
+
+My favourite so far:
+
+Trustworthy Locksmith (I certainly hope so!)  
+The Hoarder Helpers (cleaning business)  
+The Spiffy Headlight (car detailing business)
+
+This is V1, so lots to improve over time. Appreciate it, and hope someone finds it helpful!",659.1813729827828,470.84383784484487,"Hey all,
+
+You might remember the [AI website builder]( my company, Durable, launched a few months back (worth a try if you haven't yet given it a go, we made a handful of updates which I'll post below, based on feedback in this subreddit).
+
+We're doing a lot with AI, and the latest is a [business name generator]( If you've got a second, give it a go and let me know what you think (and share any weird/good ideas it comes up with).
+
+My favourite so far
+
+Trustworthy Locksmith (I certainly hope so!)  
+The Hoarder Helpers (cleaning business)  
+The Spiffy Headlight (car detailing business)
+
+This is V1, so lots to improve over time. Appreciate it, and hope someone finds it helpful!",4 days 04:10:54,4.174236111111111,0.0,0.792,0.208,0.9754,pos,6.492514604817464,1.791759469228055,1.6436917168763054,21.235733559929194
+z8730v,803,178,artificial,gpt-4,comments,2022-11-29 21:40:40,What will Gpt-4 mean for developers?,SylviaSelva,False,0.8,15,https://www.reddit.com/r/artificial/comments/z8730v/what_will_gpt4_mean_for_developers/,17,1669758040.0,"I know this post has been done before, but looking for fresh opinions since everything seems to be changing so fast. I'm a mid-level developer and I can't help but to feel that GPT-4 will be my doom. Am I crazy?
+
+Edit: I appreciate all the thoughtful comments. At least, I'm not alone.",1412.5315135345345,1600.8690486724727,"I know this post has been done before, but looking for fresh opinions since everything seems to be changing so fast. I'm a mid-level developer and I can't help but to feel that GPT-4 will be my doom. Am I crazy?
+
+Edit I appreciate all the thoughtful comments. At least, I'm not alone.",0 days 02:19:20,0.09675925925925925,0.152,0.656,0.192,0.3555,pos,7.2538464715682025,2.8903717578961645,0.09235970348057473,21.235944567249394
+z3j9pr,1659,134,artificial,open-ai,comments,2022-11-24 12:56:46,Are We Ready for AI-Generated Code?,ricks_cloud,False,0.87,62,https://www.reddit.com/r/artificial/comments/z3j9pr/are_we_ready_for_aigenerated_code/,59,1669294606.0,"I recently read an article regarding artificial intelligence-generated code. The quality of computer-generated visuals, such as portraits, pet shots, videos, essays, and works of art, has grown on us. GitHub Copilot, Tabnine, Polycode, and more tools have taken the next logical step by augmenting the present code autocomplete capability with #AI.
+
+As a result, #artificial intelligence (AI) and #machine learning (ML) have been gradually introduced into software development. Unlike cat pictures, however, research shows that there is a real risk connected with the origin, quality, and security of application code.
+
+Copilot's autocompletion, for example, is trained on open-source code to provide relevant snippets. This makes the quality and security of suggestions contingent on the training set. The greater concern is with AI-generated software code, not with Copilot. Similar generators are likely to gain popularity in the coming years. The computer industry must consider how such code is created, how it is used, and who is held accountable when things go wrong.
+
+If you have any thoughts on the subject and believe it will benefit your organization, please share them with me.
+
+  
+[https://www.darkreading.com/edge-articles/ai-generated-code-is-coming-are-you-ready-](https://www.darkreading.com/edge-articles/ai-generated-code-is-coming-are-you-ready-)",5838.463589276076,5555.95728656917,"I recently read an article regarding artificial intelligence-generated code. The quality of computer-generated visuals, such as portraits, pet shots, videos, essays, and works of art, has grown on us. GitHub Copilot, Tabnine, Polycode, and more tools have taken the next logical step by augmenting the present code autocomplete capability with AI.
+
+As a result, artificial intelligence (AI) and machine learning (ML) have been gradually introduced into software development. Unlike cat pictures, however, research shows that there is a real risk connected with the origin, quality, and security of application code.
+
+Copilot's autocompletion, for example, is trained on open-source code to provide relevant snippets. This makes the quality and security of suggestions contingent on the training set. The greater concern is with AI-generated software code, not with Copilot. Similar generators are likely to gain popularity in the coming years. The computer industry must consider how such code is created, how it is used, and who is held accountable when things go wrong.
+
+If you have any thoughts on the subject and believe it will benefit your organization, please share them with me.
+
+  
+[",5 days 11:03:14,5.460578703703704,0.026,0.84,0.134,0.9595,pos,8.672394220452341,4.0943445622221,1.8657188963989,21.235666983124897
+ylj1ux,4629,13,deeplearning,gpt-3,top,2022-11-03 23:55:15,BlogNLP: AI Writing Tool,britdev,False,1.0,37,https://www.reddit.com/r/deeplearning/comments/ylj1ux/blognlp_ai_writing_tool/,9,1667519715.0,"Hey everyone,
+
+I created this web app using Open AI's GPT-3 (Davinci model). The purpose here is to provide a free tool to allow people to generate blog content/outlines/headlines and help with writer's block. Will continue to improve it over time, but just a side project I figured would provide some value to you all. Hope you all enjoy and please share ❤️
+
+[https://www.blognlp.com/](https://www.blognlp.com/)",3655.125355379284,889.084545903069,"Hey everyone,
+
+I created this web app using Open AI's GPT-3 (Davinci model). The purpose here is to provide a free tool to allow people to generate blog content/outlines/headlines and help with writer's block. Will continue to improve it over time, but just a side project I figured would provide some value to you all. Hope you all enjoy and please share 
+
+[",26 days 00:04:45,26.003298611111113,0.026,0.628,0.346,0.968,pos,8.204159219562627,2.302585092994046,3.29595902932398,21.23460315937231
+yzwzp0,4656,40,deeplearning,gpt-3,top,2022-11-20 06:20:53,How do various content-generating services work?,th3luck,False,0.74,5,https://www.reddit.com/r/deeplearning/comments/yzwzp0/how_do_various_contentgenerating_services_work/,1,1668925253.0,"Right now sites like [https://www.jasper.ai/](https://www.jasper.ai/) offer text generation for emails, ads, social media posts and etc. I wonder, do they simply tune a separate gpt-3-like model for each of these tasks? Or there is a new approach to solving this?",493.9358588350384,98.78717176700768,"Right now sites like [ offer text generation for emails, ads, social media posts and etc. I wonder, do they simply tune a separate gpt-3-like model for each of these tasks? Or there is a new approach to solving this?",9 days 17:39:07,9.735497685185186,0.0,0.866,0.134,0.644,pos,6.204428176061688,0.6931471805599453,2.3735557912421514,21.235445695722095
+yu8oru,4713,97,deeplearning,gpt-3,top,2022-11-13 17:50:42,"Can we possibly get access to large language models (PaLM 540B, etc) like GPT-3 but no cost?",NLP2829,False,0.56,1,https://www.reddit.com/r/deeplearning/comments/yu8oru/can_we_possibly_get_access_to_large_language/,3,1668361842.0,"(I only want to do inference, I don't need to finetune it.)
+
+I want to use very-large language model (#parameters > 100B) to do some experiments, is that true the only very-large language model we can get access to is GPT3 API? Can we possibly get access to PaLM and Flan-PaLM 540B with no cost by chance?
+
+I have searched over the internet but can't find a definite answer. As GPT-3 pricing for text-davinci-2 is not cheap, I am wondering if there's a chance to use other models.
+
+Also, I can request up to 372GB VRAM, is there any large language model (#parameters > 100B) that I can actually download and run ""locally""?",98.78717176700768,296.361515301023,"(I only want to do inference, I don't need to finetune it.)
+
+I want to use very-large language model (parameters > 100B) to do some experiments, is that true the only very-large language model we can get access to is GPT3 API? Can we possibly get access to PaLM and Flan-PaLM 540B with no cost by chance?
+
+I have searched over the internet but can't find a definite answer. As GPT-3 pricing for text-davinci-2 is not cheap, I am wondering if there's a chance to use other models.
+
+Also, I can request up to 372GB VRAM, is there any large language model (parameters > 100B) that I can actually download and run ""locally""?",16 days 06:09:18,16.256458333333335,0.035,0.884,0.081,0.444,pos,4.6030396356467795,1.3862943611198906,2.84818646954389,21.235108049610762
+yyrfgt,5508,53,deeplearning,llm,top,2022-11-18 18:47:28,AMD MI200 vs Nvidia A100 for LLM,thuzp,False,1.0,6,https://www.reddit.com/r/deeplearning/comments/yyrfgt/amd_mi200_vs_nvidia_a100_for_llm/,7,1668797248.0,"I am considering building a large language model GPU server for a project I am working on. I am currently weighing my options. The AMD MI200 looks like an attractive option based on the price and the VRAM. However, I am worried about it being capable of running popular large language models without much hassle and trouble shooting on my path. The models I intend to run were made using pytorch. 
+
+I would like to hear some inputs about these options and if anyone has successfully used AMD MI200 for DL stuff. 
+
+Thanks",592.723030602046,691.5102023690538,"I am considering building a large language model GPU server for a project I am working on. I am currently weighing my options. The AMD MI200 looks like an attractive option based on the price and the VRAM. However, I am worried about it being capable of running popular large language models without much hassle and trouble shooting on my path. The models I intend to run were made using pytorch. 
+
+I would like to hear some inputs about these options and if anyone has successfully used AMD MI200 for DL stuff. 
+
+Thanks",11 days 05:12:32,11.217037037037038,0.049,0.758,0.193,0.926,pos,6.386412932173312,2.0794415416798357,2.5028314560156772,21.23536899371949
+ymwjvr,5628,173,deeplearning,llm,comments,2022-11-05 15:05:32,LLM that can run on a single Titan Xp 12GB?,chip_0,False,0.5,0,https://www.reddit.com/r/deeplearning/comments/ymwjvr/llm_that_can_run_on_a_single_titan_xp_12gb/,2,1667660732.0,"Is there any open source Large Language Model that can run on a single Titan Xp 12GB GPU?
+
+Also, same question for vision models (DALL-E, Stable Diffusion, etc)",0.0,197.57434353401536,"Is there any open source Large Language Model that can run on a single Titan Xp 12GB GPU?
+
+Also, same question for vision models (DALL-E, Stable Diffusion, etc)",24 days 08:54:28,24.371157407407406,0.0,0.779,0.221,0.7003,pos,0.0,1.0986122886681098,3.2336129936745373,21.234687722712877
+ysfpib,6131,76,deeplearning,openai,top,2022-11-11 16:42:07,We just release a complete open-source solution for accelerating Stable Diffusion pretraining and fine-tuning!,HPCAI-Tech,False,0.86,5,https://www.reddit.com/r/deeplearning/comments/ysfpib/we_just_release_a_complete_opensource_solution/,0,1668184927.0,"Hey folks. We just release a **complete open-source solution** for accelerating Stable Diffusion pretraining and fine-tuning. It help **reduce the pretraining cost by 6.5 times, and the hardware cost of fine-tuning by 7 times, while simultaneously speeding up the processes.**
+
+Open source address: [**https://github.com/hpcaitech/ColossalAI/tree/main/examples/images/diffusion**](https://github.com/hpcaitech/ColossalAI/tree/main/examples/images/diffusion)
+
+Our codebase for the diffusion models builds heavily on [OpenAI's ADM codebase](https://github.com/openai/guided-diffusion) , [lucidrains](https://github.com/lucidrains/denoising-diffusion-pytorch), [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [Lightning](https://github.com/Lightning-AI/lightning) and [Hugging Face](https://huggingface.co/CompVis/stable-diffusion). Thanks for open-sourcing!
+
+We also write a blog post about it. [https://medium.com/@yangyou\_berkeley/diffusion-pretraining-and-hardware-fine-tuning-can-be-almost-7x-cheaper-85e970fe207b](https://medium.com/@yangyou_berkeley/diffusion-pretraining-and-hardware-fine-tuning-can-be-almost-7x-cheaper-85e970fe207b)
+
+Glad to know your thoughts about our work!",493.9358588350384,0.0,"Hey folks. We just release a **complete open-source solution** for accelerating Stable Diffusion pretraining and fine-tuning. It help **reduce the pretraining cost by 6.5 times, and the hardware cost of fine-tuning by 7 times, while simultaneously speeding up the processes.**
+
+Open source address [**
+
+Our codebase for the diffusion models builds heavily on [OpenAI's ADM codebase]( , [lucidrains]( [Stable Diffusion]( [Lightning]( and [Hugging Face]( Thanks for open-sourcing!
+
+We also write a blog post about it. [
+
+Glad to know your thoughts about our work!",18 days 07:17:53,18.30408564814815,0.0,0.868,0.132,0.8856,pos,6.204428176061688,0.0,2.9603167651212257,21.235002002843068
+yl7mie,6891,221,learnmachinelearning,gpt-3,relevance,2022-11-03 16:43:09,GPT-3 Powered Mac Writing App - Live on ProductHunt,juliarmg,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/yl7mie/gpt3_powered_mac_writing_app_live_on_producthunt/,0,1667493789.0,"Hello everyone,  
+
+I have been building this Mac AI app for 4 months now. Elephas is the only AI writer that works on all your Mac apps. No need to switch windows.  
+
+It helps business professionals and content writers use GPT-3 for their day-to-day tasks.
+
+It differs from other AI tools in that,
+
+1. It works on all apps on Mac.
+2. You use your own OpenAI key, so you pay for what you use.
+3. It doubles as a productivity tool, starting from Google Sheets formulas to creating presentations.
+
+I have launched it on ProductHunt. If you know ProductHunt, then your support will mean a lot to me, 
+
+ [https://www.producthunt.com/posts/elephas](https://www.producthunt.com/posts/elephas)",96.86930727855304,0.0,"Hello everyone,  
+
+I have been building this Mac AI app for 4 months now. Elephas is the only AI writer that works on all your Mac apps. No need to switch windows.  
+
+It helps business professionals and content writers use GPT-3 for their day-to-day tasks.
+
+It differs from other AI tools in that,
+
+1. It works on all apps on Mac.
+2. You use your own OpenAI key, so you pay for what you use.
+3. It doubles as a productivity tool, starting from Google Sheets formulas to creating presentations.
+
+I have launched it on ProductHunt. If you know ProductHunt, then your support will mean a lot to me, 
+
+ [",26 days 07:16:51,26.303368055555556,0.035,0.884,0.081,0.6275,pos,4.583632989437334,0.0,3.3070100665795867,21.234587611609186
+z80iww,7946,76,learnmachinelearning,open-ai,top,2022-11-29 17:39:16,How To: Automatically Detect Annotation Errors in Image/Text Tagging Datasets,cmauck10,False,0.97,42,https://www.reddit.com/r/learnmachinelearning/comments/z80iww/how_to_automatically_detect_annotation_errors_in/,0,1669743556.0,"Hey guys! Many of us in ML work with **multi-label data**, where the image or text is tagged with multiple labels. Often these datasets contain **frequent label errors** and/or **missing tags** (check what we found below in the CelebA dataset) that make it hard to train highly accurate ML models. Support for multi-label data was one of the top features requested — so we [added it](https://docs.cleanlab.ai/stable/tutorials/multilabel_classification.html), [benchmarked it](https://cleanlab.ai/blog/multilabel/), and published all of the [research](https://cleanlab.ai/blog/multilabel/).
+
+[Find errors and missing labels in multi-label datasets.](https://preview.redd.it/av14p6ko7x2a1.png?width=1250&format=png&auto=webp&s=63f63bd93e4195e070e08a088cbc5c630c333430)
+
+We are excited to share this newest research on algorithms to automatically find label errors in multi-label classification datasets.  Image/document tagging represents important instances of **multi-label classification** tasks, where each example can belong to multiple (or none) of K possible classes.  Because annotating such data requires many decisions for each example, often multi-label classification datasets contain tons of label errors, which harm the performance of ML models.
+
+We’ve open-sourced our algorithms in the [recent release of cleanlab v2.2](https://github.com/cleanlab/cleanlab/releases/tag/v2.2.0). All you need to do to use them is write one line of open-source code via [cleanlab.filter.find\_label\_issues](https://docs.cleanlab.ai/stable/tutorials/multilabel_classification.html).
+
+    from cleanlab.filter import find_label_issues
+    
+    ranked_label_issues = find_label_issues(
+        labels=labels,
+        pred_probs=pred_probs,
+        multi_label=True,
+        return_indices_ranked_by=""self_confidence"",
+    )
+    # labels: list of lists of (multiple) labels of each example
+    # pred_probs: predicted class probabilities from any trained classifier
+
+Running the new `find_label_issues()` function on the [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) image tagging dataset reveals around **30,000 mislabeled images**! Check out a few of them in the blog post!
+
+Resources:
+
+* Blog post: [https://cleanlab.ai/blog/multilabel/](https://cleanlab.ai/blog/multilabel/)
+* Paper: [https://arxiv.org/abs/2211.13895](https://arxiv.org/abs/2211.13895)
+* Tutorial: [https://docs.cleanlab.ai/stable/tutorials/multilabel\_classification.html](https://docs.cleanlab.ai/stable/tutorials/multilabel_classification.html)
+* Benchmarks: [https://github.com/cleanlab/multilabel-error-detection-benchmarks](https://github.com/cleanlab/multilabel-error-detection-benchmarks)
+* Code: [https://github.com/cleanlab/cleanlab](https://github.com/cleanlab/cleanlab)
+
+Hope you find these practical tools useful in your real-world ML applications!",4068.510905699228,0.0,"Hey guys! Many of us in ML work with **multi-label data**, where the image or text is tagged with multiple labels. Often these datasets contain **frequent label errors** and/or **missing tags** (check what we found below in the CelebA dataset) that make it hard to train highly accurate ML models. Support for multi-label data was one of the top features requested — so we [added it]( [benchmarked it]( and published all of the [research](
+
+[Find errors and missing labels in multi-label datasets.](
+
+We are excited to share this newest research on algorithms to automatically find label errors in multi-label classification datasets.  Image/document tagging represents important instances of **multi-label classification** tasks, where each example can belong to multiple (or none) of K possible classes.  Because annotating such data requires many decisions for each example, often multi-label classification datasets contain tons of label errors, which harm the performance of ML models.
+
+We’ve open-sourced our algorithms in the [recent release of cleanlab v2.2]( All you need to do to use them is write one line of open-source code via [cleanlab.filter.find\_label\_issues](
+
+    from cleanlab.filter import find_label_issues
+    
+    ranked_label_issues = find_label_issues(
+        labels=labels,
+        pred_probs=pred_probs,
+        multi_label=True,
+        return_indices_ranked_by=""self_confidence"",
+    )
+     labels list of lists of (multiple) labels of each example
+     pred_probs predicted class probabilities from any trained classifier
+
+Running the new `find_label_issues()` function on the [CelebA]( image tagging dataset reveals around **30,000 mislabeled images**! Check out a few of them in the blog post!
+
+Resources
+
+* Blog post [
+* Paper [
+* Tutorial [
+* Benchmarks [
+* Code [
+
+Hope you find these practical tools useful in your real-world ML applications!",0 days 06:20:44,0.26439814814814816,0.054,0.879,0.067,0.5526,pos,8.311278100625707,0.0,0.23459623674906935,21.2359358929011
+yl35gk,8149,279,learnmachinelearning,open-ai,relevance,2022-11-03 13:40:24,How to install and deploy OpenAI Whisper,juliensalinas,False,1.0,6,https://www.reddit.com/r/learnmachinelearning/comments/yl35gk/how_to_install_and_deploy_openai_whisper/,0,1667482824.0,"Hello,
+
+If you are interested in automatic speech recognition (speech-to-text), you are most likely going to try OpenAI Whisper.
+
+If that's the case, here is an article I just made about how to install and deploy Whisper: [https://nlpcloud.com/how-to-install-and-deploy-whisper-the-best-open-source-alternative-to-google-speech-to-text.html](https://nlpcloud.com/how-to-install-and-deploy-whisper-the-best-open-source-alternative-to-google-speech-to-text.html?utm_source=reddit&utm_campaign=h4d7a9cc-3816-11ed-a261-0242ac120002)
+
+I hope it will be useful!
+
+Julien",581.2158436713182,0.0,"Hello,
+
+If you are interested in automatic speech recognition (speech-to-text), you are most likely going to try OpenAI Whisper.
+
+If that's the case, here is an article I just made about how to install and deploy Whisper [
+
+I hope it will be useful!
+
+Julien",26 days 10:19:36,26.43027777777778,0.0,0.816,0.184,0.8313,pos,6.366841244392495,0.0,3.311647431685614,21.234581035850933
+ywavuo,8153,283,learnmachinelearning,open-ai,relevance,2022-11-15 21:58:49,Best way to do distributed inference of OpenAI Whisper?,SCUSKU,False,1.0,2,https://www.reddit.com/r/learnmachinelearning/comments/ywavuo/best_way_to_do_distributed_inference_of_openai/,3,1668549529.0,"I have 100 episodes of a podcast that I want to transcribe using OpenAI's Whisper model. I could just use a single machine and run this serially, but this is slow, and also doesn't scale.
+
+What is the best way to go about running distributed inference? I have read a bit about Spark but am not convinced that this would be the right tool. The best solution I can think of right now is to do something with Kubernetes + autoscaling, but I'm not sure that's a good idea either.",193.73861455710608,290.6079218356591,"I have 100 episodes of a podcast that I want to transcribe using OpenAI's Whisper model. I could just use a single machine and run this serially, but this is slow, and also doesn't scale.
+
+What is the best way to go about running distributed inference? I have read a bit about Spark but am not convinced that this would be the right tool. The best solution I can think of right now is to do something with Kubernetes + autoscaling, but I'm not sure that's a good idea either.",14 days 02:01:11,14.084155092592592,0.086,0.731,0.183,0.8912,pos,5.271658221204189,1.3862943611198906,2.7136448612706316,21.23522054106122
+yk37d3,8157,287,learnmachinelearning,open-ai,relevance,2022-11-02 11:55:31,"What is ""previous text tokens"" in the OpenAI Whisper",Pritish-Mishra,False,1.0,3,https://www.reddit.com/r/learnmachinelearning/comments/yk37d3/what_is_previous_text_tokens_in_the_openai_whisper/,0,1667390131.0,"&#x200B;
+
+https://preview.redd.it/73xy4yz30jx91.png?width=556&format=png&auto=webp&s=2b4c00c9d7b921648349c32c60d88e5b83a5f0f7
+
+ 
+
+I stumbled upon this diagram while reading Whisper's paper. There is a ""previous text tokens"" before the ""Start of Transcript (SOT)"" special token, and I'm not sure what that means.
+
+According to my understanding:
+
+Because the transformer encoder only accepts audio files of up to 30 seconds in length, we need to divide longer audio files into 30-second chunks. 
+
+So, ""previous text tokens"" will include ALL of the text that whisper predicted previously?
+
+Thanks for your time.",290.6079218356591,0.0,"&x200B;
+
+
+
+ 
+
+I stumbled upon this diagram while reading Whisper's paper. There is a ""previous text tokens"" before the ""Start of Transcript (SOT)"" special token, and I'm not sure what that means.
+
+According to my understanding
+
+Because the transformer encoder only accepts audio files of up to 30 seconds in length, we need to divide longer audio files into 30-second chunks. 
+
+So, ""previous text tokens"" will include ALL of the text that whisper predicted previously?
+
+Thanks for your time.",27 days 12:04:29,27.503113425925925,0.024,0.88,0.097,0.713,pos,5.675410166554447,0.0,3.350013324322966,21.234525445727282
+yk8h3t,8238,68,learnmachinelearning,openai,top,2022-11-02 15:37:28,Deep Reinforcement Learning examples are Cartpole all the way down,ProbablySuspicious,False,0.92,10,https://www.reddit.com/r/learnmachinelearning/comments/yk8h3t/deep_reinforcement_learning_examples_are_cartpole/,9,1667403448.0,"I built my own little board game and I'm trying to figure out how to build a neural network agent to learn and play it. There's a lot written about the theory, which I think I get, but practical examples seem limited to running pre-packaged OpenAI Gym setups and I don't see how to apply any of it to a new game. Where could I find an example coded from first principles?",968.6930727855304,871.8237655069773,"I built my own little board game and I'm trying to figure out how to build a neural network agent to learn and play it. There's a lot written about the theory, which I think I get, but practical examples seem limited to running pre-packaged OpenAI Gym setups and I don't see how to apply any of it to a new game. Where could I find an example coded from first principles?",27 days 08:22:32,27.34898148148148,0.036,0.939,0.026,-0.1655,neu,6.8769796016173865,2.302585092994046,3.3445911029492494,21.234533432428513
+ystctm,8244,74,learnmachinelearning,openai,top,2022-11-12 01:43:24,We just release a complete open-source solution for accelerating Stable Diffusion pretraining and fine-tuning!,HPCAI-Tech,False,0.76,8,https://www.reddit.com/r/learnmachinelearning/comments/ystctm/we_just_release_a_complete_opensource_solution/,0,1668217404.0,"Hey folks. We just release a **complete open-source solution** for accelerating Stable Diffusion pretraining and fine-tuning. It help **reduce the pretraining cost by 6.5 times, and the hardware cost of fine-tuning by 7 times, while simultaneously speeding up the processes.**
+
+Open source address: [**https://github.com/hpcaitech/ColossalAI/tree/main/examples/images/diffusion**](https://github.com/hpcaitech/ColossalAI/tree/main/examples/images/diffusion)
+
+Our codebase for the diffusion models builds heavily on [OpenAI's ADM codebase](https://github.com/openai/guided-diffusion) , [lucidrains](https://github.com/lucidrains/denoising-diffusion-pytorch), [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [Lightning](https://github.com/Lightning-AI/lightning) and [Hugging Face](https://huggingface.co/CompVis/stable-diffusion). Thanks for open-sourcing!
+
+We also write a blog post about it. [https://medium.com/@yangyou\_berkeley/diffusion-pretraining-and-hardware-fine-tuning-can-be-almost-7x-cheaper-85e970fe207b](https://medium.com/@yangyou_berkeley/diffusion-pretraining-and-hardware-fine-tuning-can-be-almost-7x-cheaper-85e970fe207b)
+
+Glad to know your thoughts about our work!
+
+[Images Generated by Stable Diffusion](https://preview.redd.it/o43uyyjzcfz91.jpg?width=3306&format=pjpg&auto=webp&s=881e44d0b3d2577142fa0a1a8cf6cc4e5b759ea2)",774.9544582284243,0.0,"Hey folks. We just release a **complete open-source solution** for accelerating Stable Diffusion pretraining and fine-tuning. It help **reduce the pretraining cost by 6.5 times, and the hardware cost of fine-tuning by 7 times, while simultaneously speeding up the processes.**
+
+Open source address [**
+
+Our codebase for the diffusion models builds heavily on [OpenAI's ADM codebase]( , [lucidrains]( [Stable Diffusion]( [Lightning]( and [Hugging Face]( Thanks for open-sourcing!
+
+We also write a blog post about it. [
+
+Glad to know your thoughts about our work!
+
+[Images Generated by Stable Diffusion](",17 days 22:16:36,17.928194444444443,0.0,0.853,0.147,0.9115,pos,6.654093830611051,0.0,2.940652580030077,21.23502147111863
+z66tb1,8361,191,learnmachinelearning,openai,comments,2022-11-27 17:20:01,How to generate example sentences from list of words (1 sentence per word),mamibe,False,0.83,4,https://www.reddit.com/r/learnmachinelearning/comments/z66tb1/how_to_generate_example_sentences_from_list_of/,4,1669569601.0,"How can I generate example sentences from a list of ~3000 words? Every sentence should be short (4-6 words) and every word should have an own sentence?
+
+I tried with OpenAI's Playground (max length) and the following command (""Create an example sentence for every word in this list in first person singular and present tense. Do not use from other lines for the example sentences.""). The words were in separate lines (simulated with comma separated: south, wood, woman, first, laptop, money, spring (season)).
+
+An example for a sentence that I'd like to generate would be: ""It's warm in the south."" (where south is the word)
+
+OpenAI did the following things wrongly:
+
+- It used words from multiple lines and combined them into one sentence (I don't want this)
+- After around 20 lines, it did not generate new sentences but just repeat the word
+
+My questions:
+
+- What is the term for this type of text generation? Everything I find, e.g. on nlpcloud, is about generating full text from keywords, not text that includes those keywords
+- Can I tweak OpenAI to do it the way I want?
+- Which alternatives (free or paid, preferably hosted) do I have to do this sort of text generation?
+
+Thanks!",387.47722911421215,387.47722911421215,"How can I generate example sentences from a list of ~3000 words? Every sentence should be short (4-6 words) and every word should have an own sentence?
+
+I tried with OpenAI's Playground (max length) and the following command (""Create an example sentence for every word in this list in first person singular and present tense. Do not use from other lines for the example sentences.""). The words were in separate lines (simulated with comma separated south, wood, woman, first, laptop, money, spring (season)).
+
+An example for a sentence that I'd like to generate would be ""It's warm in the south."" (where south is the word)
+
+OpenAI did the following things wrongly
+
+- It used words from multiple lines and combined them into one sentence (I don't want this)
+- After around 20 lines, it did not generate new sentences but just repeat the word
+
+My questions
+
+- What is the term for this type of text generation? Everything I find, e.g. on nlpcloud, is about generating full text from keywords, not text that includes those keywords
+- Can I tweak OpenAI to do it the way I want?
+- Which alternatives (free or paid, preferably hosted) do I have to do this sort of text generation?
+
+Thanks!",2 days 06:39:59,2.277766203703704,0.021,0.899,0.081,0.7968,pos,5.962234555771303,1.6094379124341003,1.1871621549298743,21.23583170680541
+z6ixg4,8438,268,learnmachinelearning,openai,relevance,2022-11-28 01:26:10,How can a beginner make a beginners version of OpenAI's Playground?,Extension_Fan_8904,False,0.72,3,https://www.reddit.com/r/learnmachinelearning/comments/z6ixg4/how_can_a_beginner_make_a_beginners_version_of/,1,1669598770.0,"I want to be able to create a prompt and have it respond with a completion that attempts to match the context or pattern that was provided. 
+
+How can I do this as a beginner? Or is their a beginners version of this that I can do? How do I start? What do I need to learn?",290.6079218356591,96.86930727855304,"I want to be able to create a prompt and have it respond with a completion that attempts to match the context or pattern that was provided. 
+
+How can I do this as a beginner? Or is their a beginners version of this that I can do? How do I start? What do I need to learn?",1 days 22:33:50,1.940162037037037,0.0,0.913,0.087,0.5204,pos,5.675410166554447,0.6931471805599453,1.0784646944702823,21.235849177622537
+yw2l3b,8445,275,learnmachinelearning,openai,relevance,2022-11-15 16:44:54,Question regarding OpenAI embeddings model for text clustering (or any other model),SemperZero,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/yw2l3b/question_regarding_openai_embeddings_model_for/,1,1668530694.0,"Hi there. I'm new to NLP, i've only read a few articles, watched some videos and worked on some simple text summarizing projects. 
+
+I want to go to the next level and work on a project which clusters pieces of text together based on meaning. I've read some articles and understood what word embeddings are and a high level idea on how they are computed. For now let's say OpenAI or another tool is a black box which takes as input text and outputs embeddings. But hold on. I'm lost. What is the input and output again? I read multiple articles and guides, read code examples and i still don't get it. I have some questions:
+
+1. Does OpenAI api return word embeddings or text embeddings? Does it simply average the word embeddings to return the text one? If not, what techniques does it use? One of their code examples shows one vector embedding per one text.
+
+2. Does OpenAI train on my texts and return word embeddings based on their meaning in my text? if not then why doesn't it have a public cache with all words in the english dictionary and their corresponding vectors?
+
+3. What does OpenAI have pre-trained? A model which returns one vector embedding based on an entire text? where can i find information about what this model is? this seems like the most plausible explanation based on what i've read (except 5.)
+
+4. If i send multiple texts will the output be the same for all of them? if i send them in batches or all at once, will the results be the same. meaning, does it re-train something based on my examples? 
+
+5. In pinecone's documentation it says ""If you want to use OpenAI Embeddings in your own project, the first step is to train a word2vec model on a large corpus of text"" -> what? isn't OpenAI model some kind of word2vec already trained?
+
+6. Is it possible to make the model more specialised in a specific domain? such as medical texts or legal texts or programming documentations or whatever class of texts my dataset is composed of.
+
+7. What other models would you suggest using for text clusters?
+
+I'm not lost in the mathematical, algorithmic or programming concepts. I just don't understand what this api is and what it does even if i were to treat it as a black box. Please help. I'd also appreciate a lot some resources/guides to read and learn more about this <3",96.86930727855304,96.86930727855304,"Hi there. I'm new to NLP, i've only read a few articles, watched some videos and worked on some simple text summarizing projects. 
+
+I want to go to the next level and work on a project which clusters pieces of text together based on meaning. I've read some articles and understood what word embeddings are and a high level idea on how they are computed. For now let's say OpenAI or another tool is a black box which takes as input text and outputs embeddings. But hold on. I'm lost. What is the input and output again? I read multiple articles and guides, read code examples and i still don't get it. I have some questions
+
+1. Does OpenAI api return word embeddings or text embeddings? Does it simply average the word embeddings to return the text one? If not, what techniques does it use? One of their code examples shows one vector embedding per one text.
+
+2. Does OpenAI train on my texts and return word embeddings based on their meaning in my text? if not then why doesn't it have a public cache with all words in the english dictionary and their corresponding vectors?
+
+3. What does OpenAI have pre-trained? A model which returns one vector embedding based on an entire text? where can i find information about what this model is? this seems like the most plausible explanation based on what i've read (except 5.)
+
+4. If i send multiple texts will the output be the same for all of them? if i send them in batches or all at once, will the results be the same. meaning, does it re-train something based on my examples? 
+
+5. In pinecone's documentation it says ""If you want to use OpenAI Embeddings in your own project, the first step is to train a word2vec model on a large corpus of text"" -> what? isn't OpenAI model some kind of word2vec already trained?
+
+6. Is it possible to make the model more specialised in a specific domain? such as medical texts or legal texts or programming documentations or whatever class of texts my dataset is composed of.
+
+7. What other models would you suggest using for text clusters?
+
+I'm not lost in the mathematical, algorithmic or programming concepts. I just don't understand what this api is and what it does even if i were to treat it as a black box. Please help. I'd also appreciate a lot some resources/guides to read and learn more about this <3",14 days 07:15:06,14.302152777777778,0.014,0.921,0.065,0.9653,pos,4.583632989437334,0.6931471805599453,2.7279935229303702,21.235209252750046
+z26fui,9031,227,machinelearning,gpt-3,relevance,2022-11-22 21:59:28,[R] Getting GPT-3 quality with a model 1000x smaller via distillation plus Snorkel,bradenjh,False,0.64,26,https://www.reddit.com/r/MachineLearning/comments/z26fui/r_getting_gpt3_quality_with_a_model_1000x_smaller/,9,1669154368.0,"[This post](https://snorkel.ai/better-not-bigger-how-to-get-gpt-3-quality-at-0-1-the-cost/) describes a case study where several different large language models (GPT-3, FLAN, Cohere, AI21) were used to label training data for a dramatically smaller model (RoBERTa) that gets the same score on a tough benchmark task, but is 1000x cheaper to deploy. It's interesting to note that using just one of the large language models to label the training data leaves quite a few points on the table; best results come from combining their various proposed labels. So it's not just model distillation—it's classic weak supervision (combining multiple noisy sources of signal to produce higher quality labels in large quantities). Has anyone else tried something similar?",1991.0889960827053,689.2231140286287,"[This post]( describes a case study where several different large language models (GPT-3, FLAN, Cohere, AI21) were used to label training data for a dramatically smaller model (RoBERTa) that gets the same score on a tough benchmark task, but is 1000x cheaper to deploy. It's interesting to note that using just one of the large language models to label the training data leaves quite a few points on the table; best results come from combining their various proposed labels. So it's not just model distillation—it's classic weak supervision (combining multiple noisy sources of signal to produce higher quality labels in large quantities). Has anyone else tried something similar?",7 days 02:00:32,7.083703703703704,0.062,0.857,0.081,0.6369,pos,7.596939113894913,2.302585092994046,2.089850146680615,21.23558296926032
+yu8nna,9052,248,machinelearning,gpt-3,relevance,2022-11-13 17:49:39,"[Research] Can we possibly get access to large language models (PaLM 540B, etc) like GPT-3 but no cost?",NLP2829,False,0.84,40,https://www.reddit.com/r/MachineLearning/comments/yu8nna/research_can_we_possibly_get_access_to_large/,11,1668361779.0,"(I only want to do inference, I don't need to finetune it.)
+
+I want to use very-large language model (#parameters > 100B) to do some experiments, is that true the only very-large language model we can get access to is GPT3 API? Can we possibly get access to PaLM and Flan-PaLM 540B with no cost by chance?
+
+I have searched over the internet but can't find a definite answer. As GPT-3 pricing for text-davinci-2 is not cheap, I am wondering if there's a chance to use other models.
+
+Also, I can request up to 372GB VRAM, is there any large language model (#parameters > 100B) that I can actually download and run ""locally""?",3063.213840127239,842.3838060349908,"(I only want to do inference, I don't need to finetune it.)
+
+I want to use very-large language model (parameters > 100B) to do some experiments, is that true the only very-large language model we can get access to is GPT3 API? Can we possibly get access to PaLM and Flan-PaLM 540B with no cost by chance?
+
+I have searched over the internet but can't find a definite answer. As GPT-3 pricing for text-davinci-2 is not cheap, I am wondering if there's a chance to use other models.
+
+Also, I can request up to 372GB VRAM, is there any large language model (parameters > 100B) that I can actually download and run ""locally""?",16 days 06:10:21,16.2571875,0.035,0.884,0.081,0.444,pos,8.027546319589435,2.4849066497880004,2.848228723362585,21.23510801184917
+yxt8sa,9160,56,machinelearning,gpt-4,top,2022-11-17 15:32:23,[R] RWKV-4 7B release: an attention-free RNN language model matching GPT-J performance (14B training in progress),bo_peng,False,0.98,173,https://www.reddit.com/r/MachineLearning/comments/yxt8sa/r_rwkv4_7b_release_an_attentionfree_rnn_language/,23,1668699143.0,"Hi everyone. I have finished training RWKV-4 7B (an attention-free RNN LLM) and it can match GPT-J (6B params) performance. **Maybe RNN is already all you need** :)
+
+https://preview.redd.it/71cce2y75j0a1.png?width=1336&format=png&auto=webp&s=5af76abc4f42fd63f0194ee93f78db01c1b21d97
+
+These are RWKV BF16 numbers. RWKV 3B is better than GPT-neo 2.7B on everything (smaller RWKV lags behind on LAMBADA). Note GPT-J is using rotary and thus quite better than GPT-neo, so I expect RWKV to surpass it when both are at 14B.
+
+Previous discussion: [https://www.reddit.com/r/MachineLearning/comments/xfup9f/r\_rwkv4\_scaling\_rnn\_to\_7b\_params\_and\_beyond\_with/](https://www.reddit.com/r/MachineLearning/comments/xfup9f/r_rwkv4_scaling_rnn_to_7b_params_and_beyond_with/)
+
+RWKV has both RNN & GPT mode. The RNN mode is great for inference. The GPT mode is great for training. Both modes are faster than usual transformer and saves VRAM, because the self-attention mechanism is replaced by simpler (almost linear) formulas. Moreover the hidden state is tiny in the RNN mode and you can use it as an embedding of the whole context.
+
+Github: [https://github.com/BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM)
+
+Checkpt: [https://huggingface.co/BlinkDL/rwkv-4-pile-7b](https://huggingface.co/BlinkDL/rwkv-4-pile-7b)
+
+14B in progress (thanks to EleutherAI and Stability). Nice spike-free loss curves:
+
+https://preview.redd.it/w4g7oqmi5j0a1.png?width=868&format=png&auto=webp&s=346d420fb879fd06470079eeaf2e4d3739536406",13248.399858550309,1761.3479580731625,"Hi everyone. I have finished training RWKV-4 7B (an attention-free RNN LLM) and it can match GPT-J (6B params) performance. **Maybe RNN is already all you need** )
+
+
+
+These are RWKV BF16 numbers. RWKV 3B is better than GPT-neo 2.7B on everything (smaller RWKV lags behind on LAMBADA). Note GPT-J is using rotary and thus quite better than GPT-neo, so I expect RWKV to surpass it when both are at 14B.
+
+Previous discussion [
+
+RWKV has both RNN & GPT mode. The RNN mode is great for inference. The GPT mode is great for training. Both modes are faster than usual transformer and saves VRAM, because the self-attention mechanism is replaced by simpler (almost linear) formulas. Moreover the hidden state is tiny in the RNN mode and you can use it as an embedding of the whole context.
+
+Github [
+
+Checkpt [
+
+14B in progress (thanks to EleutherAI and Stability). Nice spike-free loss curves
+
+",12 days 08:27:37,12.352511574074073,0.029,0.851,0.12,0.9413,pos,9.491707536694262,3.1780538303479458,2.5917045000409296,21.235310204142827
+z7rabn,9488,84,machinelearning,gpt,top,2022-11-29 11:20:56,[r] The Singular Value Decompositions of Transformer Weight Matrices are Highly Interpretable - LessWrong,visarga,False,0.95,299,https://www.reddit.com/r/MachineLearning/comments/z7rabn/r_the_singular_value_decompositions_of/,43,1669720856.0,"https://www.lesswrong.com/posts/mkbGjzxD8d8XqKHzA/the-singular-value-decompositions-of-transformer-weight
+
+> If we take the SVD of the weight matrices of the OV circuit and of MLP layers of GPT models, and project them to token embedding space, we notice this results in highly interpretable semantic clusters. This means that the network learns to align the principal directions of each MLP weight matrix or attention head to read from or write to semantically interpretable directions in the residual stream.
+
+> We can use this to both improve our understanding of transformer language models and edit their representations. We use this finding to design both a natural language query locator, where you can write a set of natural language concepts and find all weight directions in the network which correspond to it, and also to edit the network's representations by deleting specific singular vectors, which results in relatively large effects on the logits related to the semantics of that vector and relatively small effects on semantically different clusters
+
+Looks like a thoughtful article and it has nice visuals.",22897.52345495111,3292.954878136782,"
+
+> If we take the SVD of the weight matrices of the OV circuit and of MLP layers of GPT models, and project them to token embedding space, we notice this results in highly interpretable semantic clusters. This means that the network learns to align the principal directions of each MLP weight matrix or attention head to read from or write to semantically interpretable directions in the residual stream.
+
+> We can use this to both improve our understanding of transformer language models and edit their representations. We use this finding to design both a natural language query locator, where you can write a set of natural language concepts and find all weight directions in the network which correspond to it, and also to edit the network's representations by deleting specific singular vectors, which results in relatively large effects on the logits related to the semantics of that vector and relatively small effects on semantically different clusters
+
+Looks like a thoughtful article and it has nice visuals.",0 days 12:39:04,0.5271296296296296,0.0,0.908,0.092,0.93,pos,10.038827709513805,3.784189633918261,0.4233899143358412,21.2359222979067
+yli0r7,10070,66,machinelearning,open-ai,top,2022-11-03 23:12:45,"[D] DALL·E to be made available as API, OpenAI to give users full ownership rights to generated images",TiredOldCrow,False,0.98,422,https://www.reddit.com/r/MachineLearning/comments/yli0r7/d_dalle_to_be_made_available_as_api_openai_to/,55,1667517165.0,"Email announcement from OpenAI below:
+
+
+> DALL·E is now available as an API
+
+
+> You can now integrate state of the art image generation capabilities directly into your apps and products through our new DALL·E API.
+
+
+> You own the generations you create with DALL·E.
+
+
+> We’ve simplified our [Terms of Use](https://openai.com/api/policies/terms/) and you now have full ownership rights to the images you create with DALL·E — in addition to the usage rights you’ve already had to use and monetize your creations however you’d like. This update is possible due to improvements to our safety systems which minimize the ability to generate content that violates our content policy.
+
+
+> Sort and showcase with collections.
+
+
+> You can now organize your DALL·E creations in multiple collections. Share them publicly or keep them private. Check out our [sea otter collection](https://labs.openai.com/sc/w3Q8nqVN69qkEA3ePSmrGb5t)!
+
+
+> We’re constantly amazed by the innovative ways you use DALL·E and love seeing your creations out in the world. Artists who would like their work to be shared on our Instagram can request to be featured using Instagram’s collab tool. DM us there to show off how you’re using the API!  
+
+> \- The OpenAI Team",32316.906013342374,4211.919030174954,"Email announcement from OpenAI below
+
+
+> DALL·E is now available as an API
+
+
+> You can now integrate state of the art image generation capabilities directly into your apps and products through our new DALL·E API.
+
+
+> You own the generations you create with DALL·E.
+
+
+> We’ve simplified our [Terms of Use]( and you now have full ownership rights to the images you create with DALL·E — in addition to the usage rights you’ve already had to use and monetize your creations however you’d like. This update is possible due to improvements to our safety systems which minimize the ability to generate content that violates our content policy.
+
+
+> Sort and showcase with collections.
+
+
+> You can now organize your DALL·E creations in multiple collections. Share them publicly or keep them private. Check out our [sea otter collection](
+
+
+> We’re constantly amazed by the innovative ways you use DALL·E and love seeing your creations out in the world. Artists who would like their work to be shared on our Instagram can request to be featured using Instagram’s collab tool. DM us there to show off how you’re using the API!  
+
+> \- The OpenAI Team",26 days 00:47:15,26.0328125,0.016,0.799,0.186,0.9852,pos,10.383376721344982,4.02535169073515,3.2970514059298046,21.23460163015384
+yw6s1i,10098,94,machinelearning,open-ai,top,2022-11-15 19:17:19,[D] AMA: The Stability AI Team,stabilityai,False,0.96,359,https://www.reddit.com/r/MachineLearning/comments/yw6s1i/d_ama_the_stability_ai_team/,216,1668539839.0,"Hi all,
+
+We are the Stability AI team supporting open source ML models, code and communities.
+
+Ask away!
+
+Edit 1 (UTC+0 21:30): Thanks for the great questions! Taking a short break, will come back later and answer as we have time.
+
+Edit 2 (UTC+0 22:24): Closing new questions, still answering some existing Q's posted before now.",27492.34421514197,16541.35473668709,"Hi all,
+
+We are the Stability AI team supporting open source ML models, code and communities.
+
+Ask away!
+
+Edit 1 (UTC+0 2130) Thanks for the great questions! Taking a short break, will come back later and answer as we have time.
+
+Edit 2 (UTC+0 2224) Closing new questions, still answering some existing Q's posted before now.",14 days 04:42:41,14.19630787037037,0.0,0.827,0.173,0.8881,pos,10.221699225820737,5.37989735354046,2.7210524950813473,21.235214733605126
+ysc7gs,10196,192,machinelearning,open-ai,comments,2022-11-11 14:32:39,[D] Current Job Market in ML,diffusion-xgb,False,0.96,240,https://www.reddit.com/r/MachineLearning/comments/ysc7gs/d_current_job_market_in_ml/,100,1668177159.0,"Hi,
+
+We all have heard about the layoffs in tech companies. How about ML/AI jobs? Do you observe a decrease in the number of job openings etc? 
+
+I am a bit confused because there are so many AI startups now announcing getting funded. Someone in the industry who has more experience can maybe shed some light?",18379.283040763436,7658.034600318098,"Hi,
+
+We all have heard about the layoffs in tech companies. How about ML/AI jobs? Do you observe a decrease in the number of job openings etc? 
+
+I am a bit confused because there are so many AI startups now announcing getting funded. Someone in the industry who has more experience can maybe shed some light?",18 days 09:27:21,18.393993055555555,0.052,0.925,0.024,-0.3695,neg,9.819033795179761,4.61512051684126,2.9649633818104926,21.23499734627415
+yu7i81,34980,56,gpt3,GPT,controversial,2022-11-13 17:05:36,Could GPT-3 get hired for being creative? (just sayin),The8thHabit,False,0.56,1,https://www.reddit.com/r/GPT3/comments/yu7i81/could_gpt3_get_hired_for_being_creative_just_sayin/,1,1668359136.0,"If you've been interviewed by a large company, especially tech firms, there are often a round of questions with **no right or wrong answer** where the interviewer wants to see ""how yout think"" and if you're capable of thinking ""**out of the box**"". By that standard, GPT-3 seems rather creative.
+
+How can this creativity be harnessed as a ""problem solving module"" by other software solutions?
+
+The questions below progress from simple to weird. I typed them into the Playground. Here is how I evaluate the quality of GPT-3's responses:
+
+1) Could Google Search give the same concise answer?
+
+2) Could I have given the same concise, coherent answer in a split second?
+
+&#x200B;
+
+**What is a hobby?**
+
+GPT3: A hobby is an activity that is undertaken for pleasure, typically done in one's spare time.
+
+**What are common hobbies?**
+
+Some common hobbies include reading, writing, playing sports, playing musical instruments, gardening, and collecting things.
+
+**Explain why hobbies reduce stress.**
+
+Hobbies can help reduce stress because they provide a break from the everyday routine and can be a source of enjoyment. When people are engaged in activities that they enjoy, they are more likely to feel relaxed and happier, which can lead to reduced stress levels.
+
+**Are hobbies good for mental health?**
+
+Yes, hobbies can be good for mental health. They can help reduce stress, provide a sense of accomplishment, and give people a break from the everyday routine. Hobbies can also help people connect with others who have similar interests.
+
+**How can a hobby help to raise awareness about testing for breast cancer?**
+
+A hobby can help to raise awareness about testing for breast cancer by providing a platform to talk about the importance of early detection. For example, someone who enjoys scrapbooking could create a page about their personal experience with breast cancer or about a loved one who has been affected by the disease. This page could then be shared with friends and family, sparking a conversation about the importance of breast cancer testing.
+
+**How can a hobby change the electoral college?**
+
+A hobby can change the electoral college by becoming a part of the election process. For example, if someone enjoys gardening, they may campaign for a candidate who promises to invest in more green spaces.",94.13107867143086,94.13107867143086,"If you've been interviewed by a large company, especially tech firms, there are often a round of questions with **no right or wrong answer** where the interviewer wants to see ""how yout think"" and if you're capable of thinking ""**out of the box**"". By that standard, GPT-3 seems rather creative.
+
+How can this creativity be harnessed as a ""problem solving module"" by other software solutions?
+
+The questions below progress from simple to weird. I typed them into the Playground. Here is how I evaluate the quality of GPT-3's responses
+
+1) Could Google Search give the same concise answer?
+
+2) Could I have given the same concise, coherent answer in a split second?
+
+&x200B;
+
+**What is a hobby?**
+
+GPT3 A hobby is an activity that is undertaken for pleasure, typically done in one's spare time.
+
+**What are common hobbies?**
+
+Some common hobbies include reading, writing, playing sports, playing musical instruments, gardening, and collecting things.
+
+**Explain why hobbies reduce stress.**
+
+Hobbies can help reduce stress because they provide a break from the everyday routine and can be a source of enjoyment. When people are engaged in activities that they enjoy, they are more likely to feel relaxed and happier, which can lead to reduced stress levels.
+
+**Are hobbies good for mental health?**
+
+Yes, hobbies can be good for mental health. They can help reduce stress, provide a sense of accomplishment, and give people a break from the everyday routine. Hobbies can also help people connect with others who have similar interests.
+
+**How can a hobby help to raise awareness about testing for breast cancer?**
+
+A hobby can help to raise awareness about testing for breast cancer by providing a platform to talk about the importance of early detection. For example, someone who enjoys scrapbooking could create a page about their personal experience with breast cancer or about a loved one who has been affected by the disease. This page could then be shared with friends and family, sparking a conversation about the importance of breast cancer testing.
+
+**How can a hobby change the electoral college?**
+
+A hobby can change the electoral college by becoming a part of the election process. For example, if someone enjoys gardening, they may campaign for a candidate who promises to invest in more green spaces.",16 days 06:54:24,16.287777777777777,0.071,0.723,0.207,0.9945,pos,4.555255716073779,0.6931471805599453,2.849999764990652,21.235106427659144
+yoownv,35059,72,gpt3,GPT-3,comments,2022-11-07 14:40:11,Does anybody have a copy of David Shapiro's AutoMuse 2 code? Seems he deleted.,AidenMetallist,False,0.93,12,https://www.reddit.com/r/GPT3/comments/yoownv/does_anybody_have_a_copy_of_david_shapiros/,31,1667832011.0,"In case you remember [this thread](https://www.reddit.com/r/GPT3/comments/ut5ayy/finetuning_gpt3_to_write_a_novel_part_1_and_2/?utm_source=share&utm_medium=web2x&context=3), there was a user here named David Shapiro, a  who was experimenting with creating a bot that could write novels and even imitate authors, using GPT-3 and Python. He named it AutoMuse 2 project. He has a [Youtube channe](https://www.youtube.com/c/DavidShapiroAutomator)l and was uploading his progress there. Seems he was fairly succesful with it...but it seems he deleted it or made it unavailable behind a paywall.
+
+It's weird, because it seems the guy even deleted his Reddit Account, if you checked the thread I linked. He also took the code files down from his GitHub page and made private all the Yt videos where he showed his progress and linked to his Github. I thought at first that he put it behind a paywall, but I checked his Patreon and its not there either.
+
+I also checked his [most recent vid](https://youtu.be/lV7DSQT5_7c) where he talked about the AutoMuse2 project and it seems he completely overhauled it out of fear of putting writers and editors out of bussiness (just my interpretation, lol)...so he repurposed the project into something less powerful, more of a writing coach.
+
+If that's the case, it's a pity such code was lost. Just in case, did anybody save the code back when it was public? I tried to look for it in the Wayback Machine and found the [GitHub previews](https://web.archive.org/web/20220621113258/https://github.com/daveshap/AutoMuse2) of the AutoMuse 2 code files, but could not access them cuz apparently they were never saved.
+
+I also looked for the Youtube vids using the WB....and voila, found [some of the vids](https://web.archive.org/web/20220518174612/https://www.youtube.com/watch?v=223ELutchs0) linked in the [original thread](https://www.reddit.com/r/GPT3/comments/ut5ayy/finetuning_gpt3_to_write_a_novel_part_1_and_2/?utm_source=share&utm_medium=web2x&context=3) I first mentioned. Just in case sombody else knows how to work around that and retrieve the information, it will be infinitely appreciated.",1129.5729440571704,2918.0634388143567,"In case you remember [this thread]( there was a user here named David Shapiro, a  who was experimenting with creating a bot that could write novels and even imitate authors, using GPT-3 and Python. He named it AutoMuse 2 project. He has a [Youtube channe]( and was uploading his progress there. Seems he was fairly succesful with it...but it seems he deleted it or made it unavailable behind a paywall.
+
+It's weird, because it seems the guy even deleted his Reddit Account, if you checked the thread I linked. He also took the code files down from his GitHub page and made private all the Yt videos where he showed his progress and linked to his Github. I thought at first that he put it behind a paywall, but I checked his Patreon and its not there either.
+
+I also checked his [most recent vid]( where he talked about the AutoMuse2 project and it seems he completely overhauled it out of fear of putting writers and editors out of bussiness (just my interpretation, lol)...so he repurposed the project into something less powerful, more of a writing coach.
+
+If that's the case, it's a pity such code was lost. Just in case, did anybody save the code back when it was public? I tried to look for it in the Wayback Machine and found the [GitHub previews]( of the AutoMuse 2 code files, but could not access them cuz apparently they were never saved.
+
+I also looked for the Youtube vids using the WB....and voila, found [some of the vids]( linked in the [original thread]( I first mentioned. Just in case sombody else knows how to work around that and retrieve the information, it will be infinitely appreciated.",22 days 09:19:49,22.388761574074074,0.05,0.891,0.06,0.4611,pos,7.030479813349126,3.4657359027997265,3.1522556323826447,21.234790423580932
+z4c6ek,35066,79,gpt3,GPT-3,comments,2022-11-25 12:26:12,Clone yourself with a GPT3 AI persona & write your own content for less than $0.04 per article,Jeff-in-Bournemouth,False,0.9,49,https://www.reddit.com/r/GPT3/comments/z4c6ek/clone_yourself_with_a_gpt3_ai_persona_write_your/,28,1669379172.0,"# You don't need to pay for expensive Human writers to create your content OR waste your money on crappy generic AI article writer subscriptions! CLONE YOURSELF into an AI persona or CREATE your own AI NICHE WRITER PERSONA to generate as much business content and as many articles as you want for $.04 each (no subscription either)
+
+You don't need to pay professional writers ( who do not fully understand your business or your idea in the way you do) OR waste loads of money on crappy generic AI article writer subscriptions.
+
+With Davinci 2 **you can now clone our own persona OR create our own AI writer personas and create your own AI tools** in just a few minutes **(or copy, paste, and customize the persona writer below to get off to a quick start and get a feel for the process)**.
+
+**You can clone your own persona and your preferred writing style** to create whatever type of articles or business content you want for $0.04 each. Plus you will pay zero subscription fees.
+
+So here it is, clone yourself or create your own AI writer (for your niche/business speciality) in a couple of minutes and become a creator:
+
+**Create a free account at open AI.**
+
+**Go to the playground.**
+
+**Select Davinci 2 model.**
+
+**Set T= 0.7**
+
+**Set frequency = 0.6**
+
+**Set presence = 0.6**
+
+**See the full prompt and the generated article shown below, further down this page.**
+
+Paste the whole of the top block of text into the playground editor(in Italics).
+
+You can substitute in your own persona (writer) title, etc - edit it however you want to generate what you need. Then press **SUBMIT** and the AI ""persona"" will write your article.
+
+Remember: When you have refined your ""writer persona"" to write in your preferred style, you can simply substitute new titles (within the niche of the persona) to write any number of articles.
+
+**IMPORTANT: The writing style and character of your persona will be transferred to your generated article.** This is super important to get right if you intend to use the persona for multiple articles/content.
+
+# The full prompt and the generated article are shown below (Prompt in italics, AI generated output in bold):
+
+*I love jewellery, and I love beautiful things! It is often viewed as a fashion accessory for completing an outfit, but it is so much more than that, in fact, for many women, a look is not complete until the right accessories are added. A ""classic"" look, for instance, demands pearls and diamonds for completion, but it is so much more than that! I feel at my most beautiful and confident when adorned by my favourite pieces.*
+
+&#x200B;
+
+*Jewellery has played an important role in human life for thousands of years and we learn from history that ancient civilisations appreciated jewellery and it was used to highlight the natural beauty of its wearers. Different pieces were worn to symbolise different messages such as security, wisdom, elegance, and prosperity.*
+
+&#x200B;
+
+*Many women like to wear jewellery as a symbol of femininity or to showcase social status, for me personally, it helps me to feel confident and beautiful.*
+
+&#x200B;
+
+*I recently wrote a comprehensive and elaborate Vogue opinion piece on the 7 reasons why I consider jewellery to be a powerful and timeless symbol of feminine beauty and the reasons why I consider jewellery to be so important for modern-day women:*
+
+&#x200B;
+
+*So  here it is,  my full and comprehensive elaborate article as featured in Vogue, I loved writing it for you and I hope you absolutely love reading it!*
+
+&#x200B;
+
+*The 7 reasons why I consider jewellery to be a powerful and timeless symbol of feminine beauty and so important for modern-day women:*
+
+&#x200B;
+
+**1. Jewellery has been used for centuries to highlight the natural beauty of its wearers**
+
+&#x200B;
+
+**Jewellery has been worn by humans for thousands of years and we can learn a great deal about ancient civilisations by studying the pieces that they created and wore. It is clear that these cultures appreciated jewellery and saw it as an important way to highlight the natural beauty of their women.**
+
+&#x200B;
+
+**Different pieces were worn to symbolise different messages such as security, wisdom, elegance, and prosperity. In many cases, jewellery was also used as a form of currency or as a way to showcase social status.**
+
+&#x200B;
+
+**For modern women, jewellery can still be seen as a way to highlight our natural beauty. We may not need to wear it to symbolise our status or wealth in the same way that our ancestors did, but it can still be used to accentuate our best features and make us feel more confident and beautiful.**
+
+&#x200B;
+
+**2. Jewellery is a timeless symbol of femininity**
+
+&#x200B;
+
+**In a world where women are often expected to conform to masculine standards, jewellery can be seen as a powerful symbol of femininity. By adorning ourselves with beautiful and delicate pieces, we are asserting our femininity and celebrating our womanhood.**
+
+&#x200B;
+
+**In many cultures, jewellery is still seen as being primarily for women. This is because it is traditionally seen as being more decorative than functional, which is in line with traditional gender roles. However, there is no reason why men cannot also enjoy wearing jewellery. After all, it is an expression of personal style and taste rather than a statement about gender identity.**
+
+&#x200B;
+
+**3. Jewellery can be used to express our individual style**
+
+&#x200B;
+
+**One of the great things about jewellery is that it allows us to express our individual style. Whether we prefer classic or contemporary pieces, dainty or statement-making items, there is sure to be something out there that reflects our unique taste.**
+
+&#x200B;
+
+**Jewellery can be used to show off our personality and sense of fashion. It can also be used to make a statement about who we are or what we believe in. For example, many women choose to wear ethically-sourced jewellery as a way of supporting sustainable practices. Others may opt for vintage or antique pieces as a way of expressing their love for history and tradition. Whatever our individual style may be, there is sure to be some jewellery out there that speaks to us on a personal level.**
+
+&#x200B;
+
+**4) Jewelling enhances your mood**
+
+&#x200B;
+
+**Studies have shown that adorning yourself with beautiful jewelry has an immediate impact on your happiness levels – making you feel more joyful within seconds! The mere act of putting on a piece of jewelry can instantly lift your mood and make you feel more confident and beautiful.**
+
+&#x200B;
+
+**In our fast-paced and often stressful lives, it is important to take a moment to treat ourselves every now and then. And what better way to do that than by surrounding ourselves with things that make us happy? So, next time you’re feeling down, try putting on your favourite piece of jewelry and see how it makes you feel.**
+
+&#x200B;
+
+**5) Jewellery can be used as a form of self-care**
+
+&#x200B;
+
+**In today’s busy world, it can be easy to forget to take care of ourselves. We often put the needs of others before our own, which can lead to us feeling overwhelmed and stressed out. That’s why it’s so important to make time for self-care – even if it’s just a few minutes each day.**
+
+&#x200B;
+
+**One simple way to practice self-care is by taking the time to choose pieces of jewelry that make you feel good. Whether it’s a pair of earrings that make you smile or a necklace that reminds you of a special memory, selecting items that bring you joy can help to boost your mood and reduce stress levels.**
+
+&#x200B;
+
+**6) Jewellery makes great gifts**
+
+&#x200B;
+
+**Jewelry also makes an excellent gift for someone special in your life. Whether you’re marking a milestone birthday, an anniversary, or another significant event, giving the gift of jewelry is a thoughtful way to show how much you care.**
+
+&#x200B;
+
+**It’s also worth considering giving second-hand or vintage jewelry as a gift. Not only will this save you money, but it will also add a personal touch that is sure to be appreciated. Just be sure to check that the piece is in good condition before giving it as a present!**
+
+&#x200B;
+
+**7) Jewellery has the power**
+
+&#x200B;
+
+**Last but not least , I believe that jewellery has the power  to transform the way we feel about ourselves . It can be used as a tool for boosting confidence and self-esteem , or as a reminder of our unique beauty . Whatever its purpose may be, jewellery has the ability  impact our lives in a positive way .**
+
+**So there you have it , my 7 reasons why I consider jewellery to be such an important part of feminine beauty ! Do you agree with me ? What are your thoughts ? I would love  hear from you in the comments below !**
+
+End of article.
+
+&#x200B;
+
+&#x200B;
+
+**Best practice tips & and some advice for professional writers.**
+
+The critical part of the process is creating the persona (clone yourself, or get into the persona role as much as you are able (or clone the style from another source)). When this step is completed (the most important step) you can then use the persona for additional articles within the same niche/speciality(simply change article title (still needs to be jewellery related for this specific persona).
+
+You can generate all types of content with this approach. Whatever you can imagine.
+
+A re-usable persona writing articles for me? Yes, exactly :-) (but within a specific niche). The quality of your articles will depend on the authenticity/style of the persona you create (as a function of your prompt and prompt writing style).
+
+And I recommend you do clone your own personality and stay within your domain of expertise if you desire exceptional results (you will be better able to moderate/edit the output for topics you are familiar with and your passion will shine through the writing of your ""persona"").
+
+Btw, the article above scores 99.7% Real on the Hugging Face GPT detector.
+
+**Important:**
+
+**Quick heads up for professional article writers** **who write articles/business content/blogs/ads/copy for clients:**
+
+**Your world is about to change, and rapidly.**
+
+My apologies to all ""writers"" but the future belongs to niche experts.
+
+Experts and those passionate about their career/specialization/hobby/business etc will be the new writers. AI assistance means that everyone can now excel at conveying their experience/knowledge/opinions in well written pieces (assisted by AI).
+
+No ""professional writer"" will be able to compete with the AI assisted true aficionado's and those with personal and expert knowledge on a topic.
+
+So, what should writers do?
+
+Simple: follow your passion and write about it. Stay within your domain of expertise and you will thrive (maybe utilize AI to increase your productivity too).",4612.422854900112,2635.670202800064," You don't need to pay for expensive Human writers to create your content OR waste your money on crappy generic AI article writer subscriptions! CLONE YOURSELF into an AI persona or CREATE your own AI NICHE WRITER PERSONA to generate as much business content and as many articles as you want for $.04 each (no subscription either)
+
+You don't need to pay professional writers ( who do not fully understand your business or your idea in the way you do) OR waste loads of money on crappy generic AI article writer subscriptions.
+
+With Davinci 2 **you can now clone our own persona OR create our own AI writer personas and create your own AI tools** in just a few minutes **(or copy, paste, and customize the persona writer below to get off to a quick start and get a feel for the process)**.
+
+**You can clone your own persona and your preferred writing style** to create whatever type of articles or business content you want for $0.04 each. Plus you will pay zero subscription fees.
+
+So here it is, clone yourself or create your own AI writer (for your niche/business speciality) in a couple of minutes and become a creator
+
+**Create a free account at open AI.**
+
+**Go to the playground.**
+
+**Select Davinci 2 model.**
+
+**Set T= 0.7**
+
+**Set frequency = 0.6**
+
+**Set presence = 0.6**
+
+**See the full prompt and the generated article shown below, further down this page.**
+
+Paste the whole of the top block of text into the playground editor(in Italics).
+
+You can substitute in your own persona (writer) title, etc - edit it however you want to generate what you need. Then press **SUBMIT** and the AI ""persona"" will write your article.
+
+Remember When you have refined your ""writer persona"" to write in your preferred style, you can simply substitute new titles (within the niche of the persona) to write any number of articles.
+
+**IMPORTANT The writing style and character of your persona will be transferred to your generated article.** This is super important to get right if you intend to use the persona for multiple articles/content.
+
+ The full prompt and the generated article are shown below (Prompt in italics, AI generated output in bold)
+
+*I love jewellery, and I love beautiful things! It is often viewed as a fashion accessory for completing an outfit, but it is so much more than that, in fact, for many women, a look is not complete until the right accessories are added. A ""classic"" look, for instance, demands pearls and diamonds for completion, but it is so much more than that! I feel at my most beautiful and confident when adorned by my favourite pieces.*
+
+&x200B;
+
+*Jewellery has played an important role in human life for thousands of years and we learn from history that ancient civilisations appreciated jewellery and it was used to highlight the natural beauty of its wearers. Different pieces were worn to symbolise different messages such as security, wisdom, elegance, and prosperity.*
+
+&x200B;
+
+*Many women like to wear jewellery as a symbol of femininity or to showcase social status, for me personally, it helps me to feel confident and beautiful.*
+
+&x200B;
+
+*I recently wrote a comprehensive and elaborate Vogue opinion piece on the 7 reasons why I consider jewellery to be a powerful and timeless symbol of feminine beauty and the reasons why I consider jewellery to be so important for modern-day women*
+
+&x200B;
+
+*So  here it is,  my full and comprehensive elaborate article as featured in Vogue, I loved writing it for you and I hope you absolutely love reading it!*
+
+&x200B;
+
+*The 7 reasons why I consider jewellery to be a powerful and timeless symbol of feminine beauty and so important for modern-day women*
+
+&x200B;
+
+**1. Jewellery has been used for centuries to highlight the natural beauty of its wearers**
+
+&x200B;
+
+**Jewellery has been worn by humans for thousands of years and we can learn a great deal about ancient civilisations by studying the pieces that they created and wore. It is clear that these cultures appreciated jewellery and saw it as an important way to highlight the natural beauty of their women.**
+
+&x200B;
+
+**Different pieces were worn to symbolise different messages such as security, wisdom, elegance, and prosperity. In many cases, jewellery was also used as a form of currency or as a way to showcase social status.**
+
+&x200B;
+
+**For modern women, jewellery can still be seen as a way to highlight our natural beauty. We may not need to wear it to symbolise our status or wealth in the same way that our ancestors did, but it can still be used to accentuate our best features and make us feel more confident and beautiful.**
+
+&x200B;
+
+**2. Jewellery is a timeless symbol of femininity**
+
+&x200B;
+
+**In a world where women are often expected to conform to masculine standards, jewellery can be seen as a powerful symbol of femininity. By adorning ourselves with beautiful and delicate pieces, we are asserting our femininity and celebrating our womanhood.**
+
+&x200B;
+
+**In many cultures, jewellery is still seen as being primarily for women. This is because it is traditionally seen as being more decorative than functional, which is in line with traditional gender roles. However, there is no reason why men cannot also enjoy wearing jewellery. After all, it is an expression of personal style and taste rather than a statement about gender identity.**
+
+&x200B;
+
+**3. Jewellery can be used to express our individual style**
+
+&x200B;
+
+**One of the great things about jewellery is that it allows us to express our individual style. Whether we prefer classic or contemporary pieces, dainty or statement-making items, there is sure to be something out there that reflects our unique taste.**
+
+&x200B;
+
+**Jewellery can be used to show off our personality and sense of fashion. It can also be used to make a statement about who we are or what we believe in. For example, many women choose to wear ethically-sourced jewellery as a way of supporting sustainable practices. Others may opt for vintage or antique pieces as a way of expressing their love for history and tradition. Whatever our individual style may be, there is sure to be some jewellery out there that speaks to us on a personal level.**
+
+&x200B;
+
+**4) Jewelling enhances your mood**
+
+&x200B;
+
+**Studies have shown that adorning yourself with beautiful jewelry has an immediate impact on your happiness levels – making you feel more joyful within seconds! The mere act of putting on a piece of jewelry can instantly lift your mood and make you feel more confident and beautiful.**
+
+&x200B;
+
+**In our fast-paced and often stressful lives, it is important to take a moment to treat ourselves every now and then. And what better way to do that than by surrounding ourselves with things that make us happy? So, next time you’re feeling down, try putting on your favourite piece of jewelry and see how it makes you feel.**
+
+&x200B;
+
+**5) Jewellery can be used as a form of self-care**
+
+&x200B;
+
+**In today’s busy world, it can be easy to forget to take care of ourselves. We often put the needs of others before our own, which can lead to us feeling overwhelmed and stressed out. That’s why it’s so important to make time for self-care – even if it’s just a few minutes each day.**
+
+&x200B;
+
+**One simple way to practice self-care is by taking the time to choose pieces of jewelry that make you feel good. Whether it’s a pair of earrings that make you smile or a necklace that reminds you of a special memory, selecting items that bring you joy can help to boost your mood and reduce stress levels.**
+
+&x200B;
+
+**6) Jewellery makes great gifts**
+
+&x200B;
+
+**Jewelry also makes an excellent gift for someone special in your life. Whether you’re marking a milestone birthday, an anniversary, or another significant event, giving the gift of jewelry is a thoughtful way to show how much you care.**
+
+&x200B;
+
+**It’s also worth considering giving second-hand or vintage jewelry as a gift. Not only will this save you money, but it will also add a personal touch that is sure to be appreciated. Just be sure to check that the piece is in good condition before giving it as a present!**
+
+&x200B;
+
+**7) Jewellery has the power**
+
+&x200B;
+
+**Last but not least , I believe that jewellery has the power  to transform the way we feel about ourselves . It can be used as a tool for boosting confidence and self-esteem , or as a reminder of our unique beauty . Whatever its purpose may be, jewellery has the ability  impact our lives in a positive way .**
+
+**So there you have it , my 7 reasons why I consider jewellery to be such an important part of feminine beauty ! Do you agree with me ? What are your thoughts ? I would love  hear from you in the comments below !**
+
+End of article.
+
+&x200B;
+
+&x200B;
+
+**Best practice tips & and some advice for professional writers.**
+
+The critical part of the process is creating the persona (clone yourself, or get into the persona role as much as you are able (or clone the style from another source)). When this step is completed (the most important step) you can then use the persona for additional articles within the same niche/speciality(simply change article title (still needs to be jewellery related for this specific persona).
+
+You can generate all types of content with this approach. Whatever you can imagine.
+
+A re-usable persona writing articles for me? Yes, exactly -) (but within a specific niche). The quality of your articles will depend on the authenticity/style of the persona you create (as a function of your prompt and prompt writing style).
+
+And I recommend you do clone your own personality and stay within your domain of expertise if you desire exceptional results (you will be better able to moderate/edit the output for topics you are familiar with and your passion will shine through the writing of your ""persona"").
+
+Btw, the article above scores 99.7% Real on the Hugging Face GPT detector.
+
+**Important**
+
+**Quick heads up for professional article writers** **who write articles/business content/blogs/ads/copy for clients**
+
+**Your world is about to change, and rapidly.**
+
+My apologies to all ""writers"" but the future belongs to niche experts.
+
+Experts and those passionate about their career/specialization/hobby/business etc will be the new writers. AI assistance means that everyone can now excel at conveying their experience/knowledge/opinions in well written pieces (assisted by AI).
+
+No ""professional writer"" will be able to compete with the AI assisted true aficionado's and those with personal and expert knowledge on a topic.
+
+So, what should writers do?
+
+Simple follow your passion and write about it. Stay within your domain of expertise and you will thrive (maybe utilize AI to increase your productivity too).",4 days 11:33:48,4.481805555555556,0.021,0.751,0.228,0.9999,pos,8.436725345279173,3.367295829986474,1.7014345276337934,21.2357176415633
+z49dxm,35084,97,gpt3,GPT-3,relevance,2022-11-25 09:44:29,GPT-3 on games?,Hollow_Lens,False,0.85,13,https://www.reddit.com/r/GPT3/comments/z49dxm/gpt3_on_games/,16,1669369469.0,"Hey, I wanna start a discussion on why gpt3 has not been bigger, at least as big as I thought it would be.
+
+I thought by now gpt3 would be used in video games and branch out a lot more. I don’t really understand the tech but I get what the possibilities are with gpt3, like procedural npc’s which is a big leap from today’s standards.Are there any factors on why it has not happen yet or limitation that makes it not possible?",1223.704022728601,1506.0972587428937,"Hey, I wanna start a discussion on why gpt3 has not been bigger, at least as big as I thought it would be.
+
+I thought by now gpt3 would be used in video games and branch out a lot more. I don’t really understand the tech but I get what the possibilities are with gpt3, like procedural npc’s which is a big leap from today’s standards.Are there any factors on why it has not happen yet or limitation that makes it not possible?",4 days 14:15:31,4.594108796296296,0.035,0.923,0.041,0.1154,neu,7.110454479686338,2.833213344056216,1.7217140433386406,21.235711829206014
+z6p1j1,35104,117,gpt3,GPT-3,relevance,2022-11-28 06:29:30,Streaming GPT-3 response in python,jeromeharper,False,1.0,3,https://www.reddit.com/r/GPT3/comments/z6p1j1/streaming_gpt3_response_in_python/,11,1669616970.0,Is there any example of streaming GPT-3 completion using python. I know that we can set the stream=True in the prompt request and handled it with generator. But it seem difficult to do this. Is there any tutorial there to stream the GPT-3 completion using python?,282.3932360142926,1035.4418653857394,Is there any example of streaming GPT-3 completion using python. I know that we can set the stream=True in the prompt request and handled it with generator. But it seem difficult to do this. Is there any tutorial there to stream the GPT-3 completion using python?,1 days 17:30:30,1.7295138888888888,0.069,0.931,0.0,-0.5023,neg,5.64683545969685,2.4849066497880004,1.0041235306637648,21.235860078385716
+z0yp58,35105,118,gpt3,GPT-3,relevance,2022-11-21 13:13:31,Help with GPT-3 prompt,1Kernel,False,0.75,2,https://www.reddit.com/r/GPT3/comments/z0yp58/help_with_gpt3_prompt/,7,1669036411.0,"I have quite a bit of transcriptions from shows, and I was wanting to see if GPT-3 could help me find products that are discussed in them. The transcriptions are huge so it would take a long time to go through.
+
+I tried prompts similar to: Create a list of all products mentioned in the text on this website: <link>
+
+I never got any good results, and I don't think that GPT-3 actually viewed the web page. Would there be an easier way to do this? To clarify, I am trying to extract a list of products that were discussed during a TV show that is already in text format.
+
+Thank you so much for any help.",188.2621573428617,658.917550700016,"I have quite a bit of transcriptions from shows, and I was wanting to see if GPT-3 could help me find products that are discussed in them. The transcriptions are huge so it would take a long time to go through.
+
+I tried prompts similar to Create a list of all products mentioned in the text on this website <link>
+
+I never got any good results, and I don't think that GPT-3 actually viewed the web page. Would there be an easier way to do this? To clarify, I am trying to extract a list of products that were discussed during a TV show that is already in text format.
+
+Thank you so much for any help.",8 days 10:46:29,8.44894675925926,0.021,0.85,0.13,0.8932,pos,5.243133129846684,2.0794415416798357,2.2459032812475486,21.23551229804481
+z1p6wk,35109,122,gpt3,GPT-3,relevance,2022-11-22 09:22:05,Can GPT-3 talk on the phone?,Kin_Cheung,False,0.67,1,https://www.reddit.com/r/GPT3/comments/z1p6wk/can_gpt3_talk_on_the_phone/,11,1669108925.0,"I am thinking about building a GPT-3 powered phone answering AI.
+If we use Openai whisper to make speech into text, input it to GPT-3, then use a Text to speech interface for output.
+Would that allow GPT-3 to talk on the phone at real time?
+Any thoughts?",94.13107867143086,1035.4418653857394,"I am thinking about building a GPT-3 powered phone answering AI.
+If we use Openai whisper to make speech into text, input it to GPT-3, then use a Text to speech interface for output.
+Would that allow GPT-3 to talk on the phone at real time?
+Any thoughts?",7 days 14:37:55,7.609664351851852,0.0,0.951,0.049,0.3094,pos,4.555255716073779,2.4849066497880004,2.1528853341550063,21.23555574372657
+z1upzb,35113,126,gpt3,GPT-3,relevance,2022-11-22 14:18:06,GPT-3 SayCan NPC (Roblox experience),JavaFXpert,False,0.94,12,https://www.reddit.com/r/GPT3/comments/z1upzb/gpt3_saycan_npc_roblox_experience/,11,1669126686.0,"I created a Roblox experience of the ""Few-shot exemplars for full chain of thought prompt for SayCan robot planning tasks"" (Table 28) from the ""Chain of Thought Prompting Elicits Reasoning in Large Language Models"" paper [\[1\]](https://arxiv.org/abs/2201.11903) by Jason Wei et al.
+
+Here is a link to the Roblox experience [\[2\]](https://www.roblox.com/games/11462889413/GPT-3-SayCan-NPC). It will run on most any platform and Roblox is super easy to install (just follow the prompting). Here's a sample screenshot of the demo:
+
+[GPT-3 SayCan NPC \(Roblox experience\)](https://preview.redd.it/cfgkhlf3gi1a1.png?width=3192&format=png&auto=webp&s=201fe38ea290003ada4ee9c5093e5bfc244f09bd)
+
+Here's an excellent [let's play video by Dr. Alan D. Thompson](https://www.youtube.com/watch?v=cLFrxJ_TfMs). 
+
+Questions and feedback welcome.
+
+Regards,
+
+James Weaver",1129.5729440571704,1035.4418653857394,"I created a Roblox experience of the ""Few-shot exemplars for full chain of thought prompt for SayCan robot planning tasks"" (Table 28) from the ""Chain of Thought Prompting Elicits Reasoning in Large Language Models"" paper [\[1\]]( by Jason Wei et al.
+
+Here is a link to the Roblox experience [\[2\]]( It will run on most any platform and Roblox is super easy to install (just follow the prompting). Here's a sample screenshot of the demo
+
+[GPT-3 SayCan NPC \(Roblox experience\)](
+
+Here's an excellent [let's play video by Dr. Alan D. Thompson]( 
+
+Questions and feedback welcome.
+
+Regards,
+
+James Weaver",7 days 09:41:54,7.404097222222222,0.0,0.831,0.169,0.9509,pos,7.030479813349126,2.4849066497880004,2.128719351481072,21.235566384677096
+yyqw0t,35117,130,gpt3,GPT-3,relevance,2022-11-18 18:23:46,GPT-3 vs AlexaTM,1EvilSexyGenius,False,1.0,17,https://www.reddit.com/r/GPT3/comments/yyqw0t/gpt3_vs_alexatm/,3,1668795826.0,"AlexaTM (Teacher Model) was just released for non commerical use via Amazon SageMarker.
+
+https://github.com/amazon-science/alexa-teacher-models
+
+Someone please take one for the team and try this out then report back your opinions.
+
+I really don't have it in me at the moment to learn another Amazon product (SageMarker)
+
+I suspect that AlexaTM will excel in the use-cases it was developed for. But, it would be nice to see how GPT-3 stacks up next to models premiering one year after it's release.",1600.2283374143246,282.3932360142926,"AlexaTM (Teacher Model) was just released for non commerical use via Amazon SageMarker.
+
+
+
+Someone please take one for the team and try this out then report back your opinions.
+
+I really don't have it in me at the moment to learn another Amazon product (SageMarker)
+
+I suspect that AlexaTM will excel in the use-cases it was developed for. But, it would be nice to see how GPT-3 stacks up next to models premiering one year after it's release.",11 days 05:36:14,11.23349537037037,0.02,0.857,0.123,0.7543,pos,7.3785263245725625,1.3862943611198906,2.5041777118390565,21.235368141608422
+yt3e44,35492,188,gpt3,GPT,relevance,2022-11-12 10:35:02,GPT prompt directory,nikhil_webfosters,False,0.97,24,https://www.reddit.com/r/GPT3/comments/yt3e44/gpt_prompt_directory/,29,1668249302.0,"Prompts are the single most important thing while working with GPT3.
+
+Is there any prompt directory for copywriting & other tasks in GPT?
+
+Similar to what is present for Stable diffusion",2259.145888114341,2729.801281471495,"Prompts are the single most important thing while working with GPT3.
+
+Is there any prompt directory for copywriting & other tasks in GPT?
+
+Similar to what is present for Stable diffusion",17 days 13:24:58,17.55900462962963,0.0,0.867,0.133,0.5095,pos,7.723184642445907,3.4011973816621555,2.9209550960508284,21.235040591944816
+z2i5rh,35541,47,gpt3,LLM,top,2022-11-23 07:00:28,What LLM do you recommend?,Legal-Dragonfruit845,False,0.86,5,https://www.reddit.com/r/GPT3/comments/z2i5rh/what_llm_do_you_recommend/,12,1669186828.0,"There are so many alternatives today (GPT3, jumbo J1, bloom, etc). How do you know to choose what’s best in terms of performance (accuracy, computation time, etc)?",470.65539335715425,1129.5729440571704,"There are so many alternatives today (GPT3, jumbo J1, bloom, etc). How do you know to choose what’s best in terms of performance (accuracy, computation time, etc)?",6 days 16:59:32,6.708009259259259,0.0,0.861,0.139,0.6369,pos,6.156248620114027,2.5649493574615367,2.042259951804546,21.235602416044262
+yjasl8,35645,2,gpt3,Open-AI,top,2022-11-01 14:55:41,STOP wasting your money on crappy generic AI article writer subscriptions and do this instead to get as many articles as you want for $.04 each (no subscription either),Jeff-in-Bournemouth,False,0.96,201,https://www.reddit.com/r/GPT3/comments/yjasl8/stop_wasting_your_money_on_crappy_generic_ai/,128,1667314541.0,"# C'mon people, let's stop wasting loads of money on crappy generic AI article writer subscriptions. With Davinci 2 (or Davinci 3) we can now write our own AI tools in just a few minutes (or copy and paste this one).
+
+You can build your own AI writer in a couple of minutes and create whatever type of articles you want for $0.04 each. Even better than that you will pay zero subscription. It took me months of testing and a LOT of money on AI costs to refine this approach - and I'm sharing it because it's time Humanity stopped swallowing pre-packaged shite and begins to realize they can create their own AI stuff now.
+
+So here it is, build your own AI writer in a couple of minutes and save the world from the stupidity pandemic.
+
+&#x200B;
+
+**Create a free account at open AI.**
+
+**Go to the playground.**
+
+**Select Davinci 2 (or Davinci 3) model. (Davinci 3 seems superior from my initial tests)**
+
+**Set T= 0.5**
+
+**Set frequency = 0.5**
+
+**Set presence = 0.5**
+
+Check the prompt and the generated article shown further down this page.
+
+Paste the whole of the top block of text into the playground editor(in  Italics).
+
+You can substitute in your own title, topic, expert name, etc - edit it however you want to generate what you need.
+
+Then press **SUBMIT** and the AI will generate paragraph headings (shown here in bold).Now you can edit your paragraph headings/delete some/add some, however you wish depending on what you want your article to focus on.
+
+When you are happy then paste in the following: ""Now expand the outline to create an interesting and informative full and comprehensive article:*""*
+
+And click submit. The generated article is shown below the prompt.
+
+# The full prompt and the generated article are shown below:
+
+*I need an expert to demonstrate how GPT3 can be used to write an interesting and informative article about the business benefits of rewards & loyalty programs.*
+
+*The name of the expert is Richard M. Brooks, CEO of Zumiez.*
+
+*What information do you need from me to generate an article Richard?*
+
+*For me to generate an article you will need to provide:*
+
+*The topic of the article*
+
+*The length of the article*
+
+*Any desired keywords or topics to focus on*
+
+*Once you have provided this information, I will create a FULL & COMPREHENSIVE informative article that meets your specifications.*
+
+*Ok, here you go:*
+
+*Topic: “The business benefits of rewards & loyalty programs”*
+
+*Length: 1000 words MINIMUM*
+
+*Focus topic: “Go over & above to help your customers and you will benefit too”*
+
+*First create an 11 paragraph article outline and then generate the article:*
+
+**1. Introduction**
+
+**2. What are rewards and loyalty programs?**
+
+**3. The benefits of rewards and loyalty programs.**
+
+**4. How do rewards and loyalty programs work?**
+
+**5. The different types of rewards and loyalty programs.**
+
+**6. The advantages of rewards and loyalty programs.**
+
+**7. The disadvantages of rewards and loyalty programs.**
+
+**8. The bottom line: the benefits of rewards and loyalty programs outweigh the disadvantages.**
+
+**9. How to get the most out of rewards and loyalty programs.**
+
+**10.**  **How to get customers onboard with your rewards and loyalty program.**
+
+**11. Conclusion**
+
+*Now expand the outline to create an interesting and informative full and comprehensive article:*
+
+&#x200B;
+
+**Introduction**
+
+In today's business world, customer loyalty is more important than ever. With so many businesses vying for attention, it's essential to find ways to keep your customers coming back. That's where rewards and loyalty programs come in.
+
+**What are rewards and loyalty programs?**
+
+Rewards and loyalty programs are incentives offered by businesses to encourage customer loyalty. They can take many different forms, but typically involve offering points or discounts to customers who make repeated purchases or meet certain criteria.
+
+**The benefits of rewards and loyalty programs.**
+
+There are numerous benefits of rewards and loyalty programs for both businesses and customers. For businesses, these programs can help to increase sales, build brand awareness, and create a sense of community around the business. For customers, they can provide savings on their favorite products or services, as well as a sense of satisfaction from knowing they are valued by the businesses they patronize.
+
+**How do rewards and loyalty programs work?**
+
+There are a few different ways that rewards and loyalty programs can be structured. The most common type is a points-based system, where customers earn points for every purchase they make. These points can then be redeemed for discounts or freebies at a later date. Other types of programs include tiered systems, where customers move up to different levels based on their spending, and subscription-based programs, where customers pay a monthly fee in exchange for access to exclusive deals and discounts.
+
+**The different types of rewards and loyalty programs.**
+
+There are many different types of rewards and loyalty programs available, so businesses have a lot of flexibility when it comes to choosing one that best suits their needs. Some common options include cash back programs, points-based systems, tiered membership levels, and subscription-based services. Each type has its own advantages and disadvantages that should be considered before making a decision.
+
+**The advantages of rewards and loyalty programs.**
+
+There are several advantages that rewards and loyalty programs offer businesses. Perhaps the most significant is the potential to increase sales by encouraging customers to make repeat purchases. These programs can also help to build brand awareness and create a sense of community around the business. Additionally, they can be used to gather data about customer behavior which can be helpful in making marketing decisions. Finally, these programs can provide a competitive edge over businesses that don't offer them.
+
+**The disadvantages of rewards and loyalty programs.**
+
+Despite the many advantages of rewards and loyalty programs, there are also some potential disadvantages that businesses should be aware of before implementing one. Perhaps the most significant downside is the cost associated with running the program, which can include things like administrative costs, software fees, and promotional expenses. There is also the risk that customers will sign up for the program but never actually use it, which means the business will have spent money without seeing any return on investment. Additionally, there is the possibility that customers will be disappointed if they don't receive the rewards they feel they've earned, which could lead to them leaving the program altogether.
+
+**The bottom line: the benefits of rewards and loyalty programs outweigh the disadvantages.**
+
+Overall, the benefits of rewards and loyalty programs far outweigh the potential disadvantages. These programs can help businesses to increase sales, build brand awareness, and gather valuable customer data. They can also provide customers with savings on their favorite products or services, as well as a sense of satisfaction from knowing they are valued by the businesses they patronize. When implemented correctly, rewards and loyalty programs can be a powerful tool for businesses of all sizes.
+
+**How to get the most out of rewards and loyalty programs.**
+
+There are a few key things businesses should keep in mind if they want to get the most out of their rewards and loyalty programs. First, it's important to clearly define the goals of the program and what you hope to achieve with it. Next, you'll need to choose a program structure that makes sense for your business and your customers. Finally, you'll need to promote the program heavily to ensure that customers are aware of it and sign up for it.
+
+**How to get customers onboard with your rewards and loyalty program.**
+
+There are a few different ways you can go about getting customers onboard with your rewards and loyalty program. One option is to offer an incentive for signing up, such as a discount on their next purchase or a freebie with every purchase over a certain amount. Another option is to make signing up for the program easy and convenient, such as by offering online registration or in-store sign-up at the point of purchase. Finally, you'll need to make sure you promote the program heavily so that customers are aware of it and understand how it works.
+
+**Conclusion**
+
+Rewards and loyalty programs can be extremely beneficial for businesses, but only if they are implemented correctly. These programs can help businesses increase sales, build brand awareness, and gather valuable customer data. They can also provide customers with savings on their favorite products or services, as well as a sense of satisfaction from knowing they are valued by the businesses they patronize. When done right, rewards and loyalty programs can be a powerful tool for any business
+
+&#x200B;
+
+&#x200B;",18920.346812957603,12048.77806994315," C'mon people, let's stop wasting loads of money on crappy generic AI article writer subscriptions. With Davinci 2 (or Davinci 3) we can now write our own AI tools in just a few minutes (or copy and paste this one).
+
+You can build your own AI writer in a couple of minutes and create whatever type of articles you want for $0.04 each. Even better than that you will pay zero subscription. It took me months of testing and a LOT of money on AI costs to refine this approach - and I'm sharing it because it's time Humanity stopped swallowing pre-packaged shite and begins to realize they can create their own AI stuff now.
+
+So here it is, build your own AI writer in a couple of minutes and save the world from the stupidity pandemic.
+
+&x200B;
+
+**Create a free account at open AI.**
+
+**Go to the playground.**
+
+**Select Davinci 2 (or Davinci 3) model. (Davinci 3 seems superior from my initial tests)**
+
+**Set T= 0.5**
+
+**Set frequency = 0.5**
+
+**Set presence = 0.5**
+
+Check the prompt and the generated article shown further down this page.
+
+Paste the whole of the top block of text into the playground editor(in  Italics).
+
+You can substitute in your own title, topic, expert name, etc - edit it however you want to generate what you need.
+
+Then press **SUBMIT** and the AI will generate paragraph headings (shown here in bold).Now you can edit your paragraph headings/delete some/add some, however you wish depending on what you want your article to focus on.
+
+When you are happy then paste in the following ""Now expand the outline to create an interesting and informative full and comprehensive article*""*
+
+And click submit. The generated article is shown below the prompt.
+
+ The full prompt and the generated article are shown below
+
+*I need an expert to demonstrate how GPT3 can be used to write an interesting and informative article about the business benefits of rewards & loyalty programs.*
+
+*The name of the expert is Richard M. Brooks, CEO of Zumiez.*
+
+*What information do you need from me to generate an article Richard?*
+
+*For me to generate an article you will need to provide*
+
+*The topic of the article*
+
+*The length of the article*
+
+*Any desired keywords or topics to focus on*
+
+*Once you have provided this information, I will create a FULL & COMPREHENSIVE informative article that meets your specifications.*
+
+*Ok, here you go*
+
+*Topic “The business benefits of rewards & loyalty programs”*
+
+*Length 1000 words MINIMUM*
+
+*Focus topic “Go over & above to help your customers and you will benefit too”*
+
+*First create an 11 paragraph article outline and then generate the article*
+
+**1. Introduction**
+
+**2. What are rewards and loyalty programs?**
+
+**3. The benefits of rewards and loyalty programs.**
+
+**4. How do rewards and loyalty programs work?**
+
+**5. The different types of rewards and loyalty programs.**
+
+**6. The advantages of rewards and loyalty programs.**
+
+**7. The disadvantages of rewards and loyalty programs.**
+
+**8. The bottom line the benefits of rewards and loyalty programs outweigh the disadvantages.**
+
+**9. How to get the most out of rewards and loyalty programs.**
+
+**10.**  **How to get customers onboard with your rewards and loyalty program.**
+
+**11. Conclusion**
+
+*Now expand the outline to create an interesting and informative full and comprehensive article*
+
+&x200B;
+
+**Introduction**
+
+In today's business world, customer loyalty is more important than ever. With so many businesses vying for attention, it's essential to find ways to keep your customers coming back. That's where rewards and loyalty programs come in.
+
+**What are rewards and loyalty programs?**
+
+Rewards and loyalty programs are incentives offered by businesses to encourage customer loyalty. They can take many different forms, but typically involve offering points or discounts to customers who make repeated purchases or meet certain criteria.
+
+**The benefits of rewards and loyalty programs.**
+
+There are numerous benefits of rewards and loyalty programs for both businesses and customers. For businesses, these programs can help to increase sales, build brand awareness, and create a sense of community around the business. For customers, they can provide savings on their favorite products or services, as well as a sense of satisfaction from knowing they are valued by the businesses they patronize.
+
+**How do rewards and loyalty programs work?**
+
+There are a few different ways that rewards and loyalty programs can be structured. The most common type is a points-based system, where customers earn points for every purchase they make. These points can then be redeemed for discounts or freebies at a later date. Other types of programs include tiered systems, where customers move up to different levels based on their spending, and subscription-based programs, where customers pay a monthly fee in exchange for access to exclusive deals and discounts.
+
+**The different types of rewards and loyalty programs.**
+
+There are many different types of rewards and loyalty programs available, so businesses have a lot of flexibility when it comes to choosing one that best suits their needs. Some common options include cash back programs, points-based systems, tiered membership levels, and subscription-based services. Each type has its own advantages and disadvantages that should be considered before making a decision.
+
+**The advantages of rewards and loyalty programs.**
+
+There are several advantages that rewards and loyalty programs offer businesses. Perhaps the most significant is the potential to increase sales by encouraging customers to make repeat purchases. These programs can also help to build brand awareness and create a sense of community around the business. Additionally, they can be used to gather data about customer behavior which can be helpful in making marketing decisions. Finally, these programs can provide a competitive edge over businesses that don't offer them.
+
+**The disadvantages of rewards and loyalty programs.**
+
+Despite the many advantages of rewards and loyalty programs, there are also some potential disadvantages that businesses should be aware of before implementing one. Perhaps the most significant downside is the cost associated with running the program, which can include things like administrative costs, software fees, and promotional expenses. There is also the risk that customers will sign up for the program but never actually use it, which means the business will have spent money without seeing any return on investment. Additionally, there is the possibility that customers will be disappointed if they don't receive the rewards they feel they've earned, which could lead to them leaving the program altogether.
+
+**The bottom line the benefits of rewards and loyalty programs outweigh the disadvantages.**
+
+Overall, the benefits of rewards and loyalty programs far outweigh the potential disadvantages. These programs can help businesses to increase sales, build brand awareness, and gather valuable customer data. They can also provide customers with savings on their favorite products or services, as well as a sense of satisfaction from knowing they are valued by the businesses they patronize. When implemented correctly, rewards and loyalty programs can be a powerful tool for businesses of all sizes.
+
+**How to get the most out of rewards and loyalty programs.**
+
+There are a few key things businesses should keep in mind if they want to get the most out of their rewards and loyalty programs. First, it's important to clearly define the goals of the program and what you hope to achieve with it. Next, you'll need to choose a program structure that makes sense for your business and your customers. Finally, you'll need to promote the program heavily to ensure that customers are aware of it and sign up for it.
+
+**How to get customers onboard with your rewards and loyalty program.**
+
+There are a few different ways you can go about getting customers onboard with your rewards and loyalty program. One option is to offer an incentive for signing up, such as a discount on their next purchase or a freebie with every purchase over a certain amount. Another option is to make signing up for the program easy and convenient, such as by offering online registration or in-store sign-up at the point of purchase. Finally, you'll need to make sure you promote the program heavily so that customers are aware of it and understand how it works.
+
+**Conclusion**
+
+Rewards and loyalty programs can be extremely beneficial for businesses, but only if they are implemented correctly. These programs can help businesses increase sales, build brand awareness, and gather valuable customer data. They can also provide customers with savings on their favorite products or services, as well as a sense of satisfaction from knowing they are valued by the businesses they patronize. When done right, rewards and loyalty programs can be a powerful tool for any business
+
+&x200B;
+
+&x200B;",28 days 09:04:19,28.377997685185186,0.023,0.692,0.285,0.9999,pos,9.848046024689575,4.859812404361672,3.3802460161150605,21.234480110378335
+yu97zh,35765,122,gpt3,Open-AI,relevance,2022-11-13 18:09:02,Jasper VS OpenAI playground (for copywriting),idoop9,False,0.5,0,https://www.reddit.com/r/GPT3/comments/yu97zh/jasper_vs_openai_playground_for_copywriting/,12,1668362942.0,"I'm looking for a tool to help me generate ideas and content in my copywriting job.
+
+Been looking around and wanted to ask if you think Jasper is worth the extra price.
+
+I have no problem spending time learning how to use the playground effectively, and I don't care about the simplicity of the UI - as long as the performance is equal (or close).
+
+I understood that out of all the AI copy software jasper is the best, so it's just a question of if it's worth it, or if should I stick with the source. 
+
+What do you guys think? Who should get my credit card?
+
+[View Poll](https://www.reddit.com/poll/yu97zh)",0.0,1129.5729440571704,"I'm looking for a tool to help me generate ideas and content in my copywriting job.
+
+Been looking around and wanted to ask if you think Jasper is worth the extra price.
+
+I have no problem spending time learning how to use the playground effectively, and I don't care about the simplicity of the UI - as long as the performance is equal (or close).
+
+I understood that out of all the AI copy software jasper is the best, so it's just a question of if it's worth it, or if should I stick with the source. 
+
+What do you guys think? Who should get my credit card?
+
+[View Poll](",16 days 05:50:58,16.243726851851854,0.064,0.796,0.14,0.8415,pos,0.0,2.5649493574615367,2.847448416574547,21.23510870893994
+yprnig,35773,130,gpt3,Open-AI,relevance,2022-11-08 16:44:03,Data Visualization with OpenAI Dalle2,pauerrrr,False,1.0,24,https://www.reddit.com/r/GPT3/comments/yprnig/data_visualization_with_openai_dalle2/,4,1667925843.0,"After almost a year of tinkering with Dalle2 tools, we thought it might be good to share some of our knowledge with the community. Here is a quick toolkit with thoughts, tricks, and AI concerns for you 🔥
+
+https://preview.redd.it/09g8y9bcary91.png?width=958&format=png&auto=webp&s=2ea2185dc3636a72318c13f531c24203b0b880cf
+
+Here a first experimental prompt book for data visualization: [https://docs.google.com/presentation/d/1V8d6TIlKqB1j5xPFH7cCmgKOV\_fMs4Cb4dwgjD5GIsg/edit?usp=sharing](https://docs.google.com/presentation/d/1V8d6TIlKqB1j5xPFH7cCmgKOV_fMs4Cb4dwgjD5GIsg/edit?usp=sharing)
+
+Here a prompt book of materials: 
+
+[https://docs.google.com/presentation/d/1eAQ2vKU1esP\_bBV\_XYfNbS-BUYaBDXS2dFj7NC8sJDw/edit?usp=sharing](https://docs.google.com/presentation/d/1eAQ2vKU1esP_bBV_XYfNbS-BUYaBDXS2dFj7NC8sJDw/edit?usp=sharing)
+
+And here an article of the general tools you could use with some of the main concerns behind:
+
+[https://domesticdatastreamers.medium.com/a-quick-artificial-intelligence-tooguide-for-designers-and-data-designers-c99fe643c102](https://domesticdatastreamers.medium.com/a-quick-artificial-intelligence-tooguide-for-designers-and-data-designers-c99fe643c102)",2259.145888114341,376.5243146857234,"After almost a year of tinkering with Dalle2 tools, we thought it might be good to share some of our knowledge with the community. Here is a quick toolkit with thoughts, tricks, and AI concerns for you 
+
+
+
+Here a first experimental prompt book for data visualization [
+
+Here a prompt book of materials 
+
+[
+
+And here an article of the general tools you could use with some of the main concerns behind
+
+[",21 days 07:15:57,21.302743055555556,0.022,0.905,0.073,0.5574,pos,7.723184642445907,1.6094379124341003,3.104709677876921,21.234846681861104
+yq3pdr,40125,15,datascience,Open-AI,top,2022-11-09 00:39:02,Modern Forecasting in Practice with Jan Gasthaus (AWS) and Tim Januschowski (Zalando),lorenzo_1999,False,0.8,6,https://www.reddit.com/r/datascience/comments/yq3pdr/modern_forecasting_in_practice_with_jan_gasthaus/,4,1667954342.0,"Just wanted to give a heads up that we’ve got an upcoming course on Time Series & Forecasting. The goal is to help you solve complex business problems by making more accurate predictions with modern forecasting techniques.
+
+ This course will be led by two industry leaders: Jan Gasthaus (AWS) and Tim Januschowski (ex-AWS, Zalando).
+
+In the past, Tim and his team built multiple AI services for AWS such as SageMaker, Forecast, Lookout for Metrics, and DevOps Guru. Jan was part of the teams pushing these projects forward, and also co-created the open-source deep learning forecasting library Gluon TS.
+
+Plus, like all of our courses, Time Series & Forecasting qualifies for coverage from your org’s L&D budget or personal learning stipend.
+
+Come join Tim and Jan live for 5-days of hands-on training. You can learn more about the course by clicking here: https://www.getsphere.com/cohorts/modern-forecasting-in-practice?source=Sphere-Communities-r-datascience",533.3866000908387,355.5910667272258,"Just wanted to give a heads up that we’ve got an upcoming course on Time Series & Forecasting. The goal is to help you solve complex business problems by making more accurate predictions with modern forecasting techniques.
+
+ This course will be led by two industry leaders Jan Gasthaus (AWS) and Tim Januschowski (ex-AWS, Zalando).
+
+In the past, Tim and his team built multiple AI services for AWS such as SageMaker, Forecast, Lookout for Metrics, and DevOps Guru. Jan was part of the teams pushing these projects forward, and also co-created the open-source deep learning forecasting library Gluon TS.
+
+Plus, like all of our courses, Time Series & Forecasting qualifies for coverage from your org’s L&D budget or personal learning stipend.
+
+Come join Tim and Jan live for 5-days of hands-on training. You can learn more about the course by clicking here ",20 days 23:20:58,20.972893518518518,0.019,0.918,0.063,0.6705,pos,6.281119547227744,1.6094379124341003,3.089809580888666,21.23486376820618
+yqocx2,40126,16,datascience,Open-AI,top,2022-11-09 16:48:59,"Is AGI, as defined by Sam Altman from OpenAI, a real possibility in the near future?",deepfuckingbass,False,0.61,4,https://www.reddit.com/r/datascience/comments/yqocx2/is_agi_as_defined_by_sam_altman_from_openai_a/,14,1668012539.0,"I saw [this interview](https://m.youtube.com/watch?v=WHoWGNQRXb0) with Sam Altman, CEO of OpenAI, and I was surprised to hear several bold claims about the capabilities of AGI in the near future. He defines AGI as an AI/ML model with human-level intelligence. He seems to imply that current neural network architectures and techniques will get us there. At one point there’s an aside about whether we (humans) should still have kids with AGI an inevitability.
+
+I’m struggling to understand how he can make the leap from where we are today to this sci-fi-like AGI future he describes. I’m very impressed by the work at OpenAI, so maybe Sam has access to tech that most practitioners in data science haven’t seen yet. With that being said, his interview rang a couple hype alarm bells with me.
+
+What am I missing? Is AGI really around the corner?",355.5910667272258,1244.5687335452903,"I saw [this interview]( with Sam Altman, CEO of OpenAI, and I was surprised to hear several bold claims about the capabilities of AGI in the near future. He defines AGI as an AI/ML model with human-level intelligence. He seems to imply that current neural network architectures and techniques will get us there. At one point there’s an aside about whether we (humans) should still have kids with AGI an inevitability.
+
+I’m struggling to understand how he can make the leap from where we are today to this sci-fi-like AGI future he describes. I’m very impressed by the work at OpenAI, so maybe Sam has access to tech that most practitioners in data science haven’t seen yet. With that being said, his interview rang a couple hype alarm bells with me.
+
+What am I missing? Is AGI really around the corner?",20 days 07:11:01,20.299317129629628,0.05,0.874,0.076,0.6063,pos,5.876589653873597,2.70805020110221,3.0586750125596565,21.23489865884032
+z81m6m,40128,18,datascience,Open-AI,top,2022-11-29 18:19:43,Automatically Detect Annotation Errors in Image/Text Tagging Datasets,cmauck10,False,0.76,4,https://www.reddit.com/r/datascience/comments/z81m6m/automatically_detect_annotation_errors_in/,0,1669745983.0,"Hey guys! Many of us in the data science and ML space work with **multi-label data**, where the image or text is tagged with multiple labels. Often these datasets contain **frequent label errors** and/or **missing tags** (check what we found below in the CelebA dataset) that make it hard to train highly accurate ML models. Support for multi-label data was one of the top features requested — so we [added it](https://docs.cleanlab.ai/stable/tutorials/multilabel_classification.html), [benchmarked it](https://cleanlab.ai/blog/multilabel/), and published all of the [research](https://cleanlab.ai/blog/multilabel/).
+
+[Find errors and missing labels in multi-label datasets.](https://preview.redd.it/tn0m9lg8mx2a1.png?width=1250&format=png&auto=webp&s=80d4d09a24b6929894a5ce994042f491a6b8f544)
+
+We are excited to share this newest research on algorithms to automatically find label errors in multi-label classification datasets. Image/document tagging represents important instances of **multi-label classification** tasks, where each example can belong to multiple (or none) of K possible classes. Because annotating such data requires many decisions for each example, often multi-label classification datasets contain tons of label errors, which harm the performance of ML models.
+
+We’ve open-sourced our algorithms in the [recent release of cleanlab v2.2](https://github.com/cleanlab/cleanlab/releases/tag/v2.2.0). All you need to do to use them is write one line of open-source code via [cleanlab.filter.find\_label\_issues](https://docs.cleanlab.ai/stable/tutorials/multilabel_classification.html).
+
+    from cleanlab.filter import find_label_issues
+    
+    ranked_label_issues = find_label_issues(
+        labels=labels,
+        pred_probs=pred_probs,
+        multi_label=True,
+        return_indices_ranked_by=""self_confidence"",
+    )
+    # labels: list of lists of (multiple) labels of each example
+    # pred_probs: predicted class probabilities from any trained classifier
+
+Running the new `find_label_issues()`function on the [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) image tagging dataset reveals around **30,000 mislabeled images**! Check out a few of them in the blog post!
+
+Resources:
+
+* Blog post: [https://cleanlab.ai/blog/multilabel/](https://cleanlab.ai/blog/multilabel/)
+* Paper: [https://arxiv.org/abs/2211.13895](https://arxiv.org/abs/2211.13895)
+* Tutorial: [https://docs.cleanlab.ai/stable/tutorials/multilabel\_classification.html](https://docs.cleanlab.ai/stable/tutorials/multilabel_classification.html)
+* Benchmarks: [https://github.com/cleanlab/multilabel-error-detection-benchmarks](https://github.com/cleanlab/multilabel-error-detection-benchmarks)
+* Code: [https://github.com/cleanlab/cleanlab](https://github.com/cleanlab/cleanlab)
+
+Hope you find these practical tools useful in your real-world data science and ML applications!",355.5910667272258,0.0,"Hey guys! Many of us in the data science and ML space work with **multi-label data**, where the image or text is tagged with multiple labels. Often these datasets contain **frequent label errors** and/or **missing tags** (check what we found below in the CelebA dataset) that make it hard to train highly accurate ML models. Support for multi-label data was one of the top features requested — so we [added it]( [benchmarked it]( and published all of the [research](
+
+[Find errors and missing labels in multi-label datasets.](
+
+We are excited to share this newest research on algorithms to automatically find label errors in multi-label classification datasets. Image/document tagging represents important instances of **multi-label classification** tasks, where each example can belong to multiple (or none) of K possible classes. Because annotating such data requires many decisions for each example, often multi-label classification datasets contain tons of label errors, which harm the performance of ML models.
+
+We’ve open-sourced our algorithms in the [recent release of cleanlab v2.2]( All you need to do to use them is write one line of open-source code via [cleanlab.filter.find\_label\_issues](
+
+    from cleanlab.filter import find_label_issues
+    
+    ranked_label_issues = find_label_issues(
+        labels=labels,
+        pred_probs=pred_probs,
+        multi_label=True,
+        return_indices_ranked_by=""self_confidence"",
+    )
+     labels list of lists of (multiple) labels of each example
+     pred_probs predicted class probabilities from any trained classifier
+
+Running the new `find_label_issues()`function on the [CelebA]( image tagging dataset reveals around **30,000 mislabeled images**! Check out a few of them in the blog post!
+
+Resources
+
+* Blog post [
+* Paper [
+* Tutorial [
+* Benchmarks [
+* Code [
+
+Hope you find these practical tools useful in your real-world data science and ML applications!",0 days 05:40:17,0.23630787037037038,0.052,0.882,0.065,0.5526,pos,5.876589653873597,0.0,0.2121294140788871,21.235937346416655
+yusu7c,40151,41,datascience,Open-AI,comments,2022-11-14 08:23:52,R/Python usage in the supply chain industry?,levenshteinn,False,0.6,1,https://www.reddit.com/r/datascience/comments/yusu7c/rpython_usage_in_the_supply_chain_industry/,5,1668414232.0,"From my reading, the supply chain industry has a lot of fully integrated supply chain management solutions. These solution typically have some modules related to data science out of the box. Take for example Kinaxis, which has its Planning.AI within its ecosystem. Others like Blue Yonder, SAP and O9 also feature some readily built-in data science solutions to tackle supply chain problems. 
+
+Sure other industries also have their own popular proprietary solutions bought from the market.
+
+However, for supply chain specifically, I kinda have the impression that the usage of open source solutions like R/Python/Julia is lesser known. Python has PuLP, R has ROI package and Julia has JuliaOpt. But choosing which one over the other is not always clear. You have more resources online debating the merits of R vs Python, say for deep learning with concrete examples of how they are being used in the industry. 
+
+I just joined the supply chain industry and there is a lot of focus on getting certified on these paid solutions (Kinaxis, Blue Yonder, O9, etc). While the opportunity to learn the proprietary systems is great, I hope to ensure my previously acquired skills in R/Python remain relevant in this industry. For example, previously I used R forecast package to perform demand forecasting. This was because the client was mainly using Excel tool and the SAP system has very basic forecasting feature. 
+
+But now it seems that this proprietary systems are gettibg more sophisticated with the supply chain offering that you can run some level of AI within their integrated systems.
+
+So how is R/Python being used alongside the proprietary solution in the supply chain industry?",88.89776668180644,444.4888334090322,"From my reading, the supply chain industry has a lot of fully integrated supply chain management solutions. These solution typically have some modules related to data science out of the box. Take for example Kinaxis, which has its Planning.AI within its ecosystem. Others like Blue Yonder, SAP and O9 also feature some readily built-in data science solutions to tackle supply chain problems. 
+
+Sure other industries also have their own popular proprietary solutions bought from the market.
+
+However, for supply chain specifically, I kinda have the impression that the usage of open source solutions like R/Python/Julia is lesser known. Python has PuLP, R has ROI package and Julia has JuliaOpt. But choosing which one over the other is not always clear. You have more resources online debating the merits of R vs Python, say for deep learning with concrete examples of how they are being used in the industry. 
+
+I just joined the supply chain industry and there is a lot of focus on getting certified on these paid solutions (Kinaxis, Blue Yonder, O9, etc). While the opportunity to learn the proprietary systems is great, I hope to ensure my previously acquired skills in R/Python remain relevant in this industry. For example, previously I used R forecast package to perform demand forecasting. This was because the client was mainly using Excel tool and the SAP system has very basic forecasting feature. 
+
+But now it seems that this proprietary systems are gettibg more sophisticated with the supply chain offering that you can run some level of AI within their integrated systems.
+
+So how is R/Python being used alongside the proprietary solution in the supply chain industry?",15 days 15:36:08,15.650092592592593,0.021,0.812,0.167,0.9902,pos,4.498673098919907,1.791759469228055,2.812415777527662,21.23513945117851
+z3cys6,40321,1,datasets,Open-AI,top,2022-11-24 06:55:59,100 frames Football Semantic Segmentation of the Real vs. ManU matchup for the UEFA Super Cup in 2017 (of course dedicated towards the 2022 FIFA season),SithisR,False,0.89,7,https://www.reddit.com/r/datasets/comments/z3cys6/100_frames_football_semantic_segmentation_of_the/,0,1669272959.0,"**DEDICATING THIS FULL SEMANTIC DATASET TO THE ONGOING FIFA 2022 IN QATAR.**
+
+Checkout the dataset here: [https://www.kaggle.com/datasets/sadhliroomyprime/football-semantic-segmentation](https://www.kaggle.com/datasets/sadhliroomyprime/football-semantic-segmentation)
+
+The 100 frames are taken at every 12th frame (with some blurred frames and outliers replaced) from the match between Real Madrid and Manchester United from open media. The dataset is appropriate for training detection models in respect to sports analytics, of course biased towards soccer.
+
+The source data was collected from the UEFA Super Cup match between Real Madrid and Manchester United in 2017 (Highlights).
+
+11 standard classes are used which includes: **Goal Bar**, **Referee**, **Advertisement**, **Ground**, **Ball**, **Coaches & Officials**, **Audience**, **Goalkeeper A**, **Goalkeeper B**, **Team A**, and **Team B**.
+
+We used SuperAnnotate’s pixel editor to label and classify the images following instance segmentation principles. Export was made in COCO with fused labels to optimise interoperability and visual understanding.
+
+Dataset is created by Acme AI Ltd. ([www.acmeai.tech](http://www.acmeai.tech/)) and is #openaccess 😊 😊",689.2801983822101,0.0,"**DEDICATING THIS FULL SEMANTIC DATASET TO THE ONGOING FIFA 2022 IN QATAR.**
+
+Checkout the dataset here [
+
+The 100 frames are taken at every 12th frame (with some blurred frames and outliers replaced) from the match between Real Madrid and Manchester United from open media. The dataset is appropriate for training detection models in respect to sports analytics, of course biased towards soccer.
+
+The source data was collected from the UEFA Super Cup match between Real Madrid and Manchester United in 2017 (Highlights).
+
+11 standard classes are used which includes **Goal Bar**, **Referee**, **Advertisement**, **Ground**, **Ball**, **Coaches & Officials**, **Audience**, **Goalkeeper A**, **Goalkeeper B**, **Team A**, and **Team B**.
+
+We used SuperAnnotate’s pixel editor to label and classify the images following instance segmentation principles. Export was made in COCO with fused labels to optimise interoperability and visual understanding.
+
+Dataset is created by Acme AI Ltd. ([www.acmeai.tech]( and is openaccess  ",5 days 17:04:01,5.7111226851851855,0.013,0.877,0.11,0.9371,pos,6.537097599773163,0.0,1.9037662522167493,21.235654015287903
+z3cw9p,40323,3,datasets,Open-AI,top,2022-11-24 06:52:02,100 frames Football Semantic Segmentation of the Real vs. ManU matchup for the UEFA Super Cup in 2017 (of course dedicated towards the 2022 FIFA season),SithisR,False,1.0,1,https://www.reddit.com/r/datasets/comments/z3cw9p/100_frames_football_semantic_segmentation_of_the/,1,1669272722.0,"**DEDICATING THIS FULL SEMANTIC DATASET TO THE ONGOING FIFA 2022 IN QATAR.**
+
+Checkout the dataset here: [https://www.kaggle.com/datasets/sadhliroomyprime/football-semantic-segmentation](https://www.kaggle.com/datasets/sadhliroomyprime/football-semantic-segmentation)
+
+The 100 frames are taken at every 12th frame (with some blurred frames and outliers replaced) from the match between Real Madrid and Manchester United from open media. The dataset is appropriate for training detection models in respect to sports analytics, of course biased towards soccer.
+
+The source data was collected from the [UEFA Super Cup match between Real Madrid and Manchester United in 2017 (Highlights)](https://youtu.be/I8RoMceZ7W8).
+
+11 standard classes are used which includes: **Goal Bar**, **Referee**, **Advertisement**, **Ground**, **Ball**, **Coaches & Officials**, **Audience**, **Goalkeeper A**, **Goalkeeper B**, **Team A**, and **Team B**.
+
+We used SuperAnnotate’s pixel editor to label and classify the images following instance segmentation principles. Export was made in COCO with fused labels to optimise interoperability and visual understanding.
+
+Dataset is created by Acme AI Ltd. ([www.acmeai.tech](http://www.acmeai.tech/)) and is #openaccess 😊 😊",98.46859976888715,98.46859976888715,"**DEDICATING THIS FULL SEMANTIC DATASET TO THE ONGOING FIFA 2022 IN QATAR.**
+
+Checkout the dataset here [
+
+The 100 frames are taken at every 12th frame (with some blurred frames and outliers replaced) from the match between Real Madrid and Manchester United from open media. The dataset is appropriate for training detection models in respect to sports analytics, of course biased towards soccer.
+
+The source data was collected from the [UEFA Super Cup match between Real Madrid and Manchester United in 2017 (Highlights)](
+
+11 standard classes are used which includes **Goal Bar**, **Referee**, **Advertisement**, **Ground**, **Ball**, **Coaches & Officials**, **Audience**, **Goalkeeper A**, **Goalkeeper B**, **Team A**, and **Team B**.
+
+We used SuperAnnotate’s pixel editor to label and classify the images following instance segmentation principles. Export was made in COCO with fused labels to optimise interoperability and visual understanding.
+
+Dataset is created by Acme AI Ltd. ([www.acmeai.tech]( and is openaccess  ",5 days 17:07:58,5.713865740740741,0.013,0.877,0.11,0.9371,pos,4.599842014146444,0.6931471805599453,1.9041749014470803,21.235653873309914
+ym868z,40324,4,datasets,Open-AI,top,2022-11-04 19:36:24,[self-promotion] Spatial Vehicle Detection (Bounding Box); featuring 10 class labels in 100 images taken from open media to enable testing for vehicle detection and/or urban mobility AI solutions.,SithisR,False,1.0,1,https://www.reddit.com/r/datasets/comments/ym868z/selfpromotion_spatial_vehicle_detection_bounding/,0,1667590584.0,"**BOUNDING BOXES TO DETECT VEHICLE FORMS FROM 700 FEET ABOVE.**
+
+Checkout the dataset on Kaggle: [https://www.kaggle.com/datasets/sadhliroomyprime/spatial-vehicle-detection](https://www.kaggle.com/datasets/sadhliroomyprime/spatial-vehicle-detection)
+
+100 images taken from **Google Earth Pro** appropriate for training spatial and computer vision-based detection models focused on urban mobility and traffic concentrations. The source data was collected from open media, as mentioned previously, from satellite imagery available in Google Earth Pro. We collected this particular dataset from **Edogawa, Tokyo in Japan**. A total of 10 classes were used which are: **Car, Motorbike, Truck, Pickup Truck, Van, Truck with Trailer, Bus, Bicycle, Miscellaneous, Car-Trailer**.
+
+We used SuperAnnotate’s vector editor to label and classify the images using bounding boxes. Export was made in COCO with fused labels to optimise interoperability and visual understanding.
+
+Dataset is created by Acme AI Ltd. ([www.acmeai.tech](https://www.acmeai.tech/)) and is #openaccess 😊 😊",98.46859976888715,0.0,"**BOUNDING BOXES TO DETECT VEHICLE FORMS FROM 700 FEET ABOVE.**
+
+Checkout the dataset on Kaggle [
+
+100 images taken from **Google Earth Pro** appropriate for training spatial and computer vision-based detection models focused on urban mobility and traffic concentrations. The source data was collected from open media, as mentioned previously, from satellite imagery available in Google Earth Pro. We collected this particular dataset from **Edogawa, Tokyo in Japan**. A total of 10 classes were used which are **Car, Motorbike, Truck, Pickup Truck, Van, Truck with Trailer, Bus, Bicycle, Miscellaneous, Car-Trailer**.
+
+We used SuperAnnotate’s vector editor to label and classify the images using bounding boxes. Export was made in COCO with fused labels to optimise interoperability and visual understanding.
+
+Dataset is created by Acme AI Ltd. ([www.acmeai.tech]( and is openaccess  ",25 days 04:23:36,25.183055555555555,0.0,0.943,0.057,0.7579,pos,4.599842014146444,0.0,3.265112467023288,21.234645658116648
+ykboto,50001,84,openai,GPT-3,relevance,2022-11-02 17:41:10,Fact Sheet for GPT-3 by GPT-3,ImSkiZzy,False,0.9,8,https://www.reddit.com/r/OpenAI/comments/ykboto/fact_sheet_for_gpt3_by_gpt3/,11,1667410870.0,I was planning on pitching some of the stuff that GPT-3 can do to my company to make some of our day-to-day tasks easier. I thought it would be cool to present a fact sheet about GPT-3 created by GPT-3. Has this been done / Could someone point me in the direction to get it done?,727.0967255311139,999.7579976052816,I was planning on pitching some of the stuff that GPT-3 can do to my company to make some of our day-to-day tasks easier. I thought it would be cool to present a fact sheet about GPT-3 created by GPT-3. Has this been done / Could someone point me in the direction to get it done?,27 days 06:18:50,27.263078703703705,0.0,0.873,0.127,0.7269,pos,6.590433904111489,2.4849066497880004,3.3415563134211252,21.23453788365085
+ynjkju,50004,87,openai,GPT-3,relevance,2022-11-06 07:20:40,Paraphrasing with GPT-3,ironmen12345,False,0.87,11,https://www.reddit.com/r/OpenAI/comments/ynjkju/paraphrasing_with_gpt3/,21,1667719240.0,"Any good guides on how to paraphrase text effectively to avoid plagiarism?
+
+Found some others with this problem from a year back and since then it doesn't look like the AI is still able to paraphrase effectively: [https://community.openai.com/t/paraphrasing-with-gpt-3/3984/1](https://community.openai.com/t/paraphrasing-with-gpt-3/3984/1). Often, entire sentences still appear in the output.
+
+Thanks",999.7579976052816,1908.6289045191738,"Any good guides on how to paraphrase text effectively to avoid plagiarism?
+
+Found some others with this problem from a year back and since then it doesn't look like the AI is still able to paraphrase effectively [ Often, entire sentences still appear in the output.
+
+Thanks",23 days 16:39:20,23.693981481481483,0.13,0.646,0.224,0.6559,pos,6.908512989452324,3.091042453358316,3.206559549225512,21.234722805972034
+yrqwkp,50006,89,openai,GPT-3,relevance,2022-11-10 20:27:53,GPT-3 vs Bloom,Evoke_App,False,1.0,31,https://www.reddit.com/r/OpenAI/comments/yrqwkp/gpt3_vs_bloom/,15,1668112073.0,"Apparently, Bloom was trained on more parameters than GPT-3 and is open source, but I've heard many say its results are overall less coherent than GPT-3.
+
+What advantages does GPT-3 have over Bloom and vice versa?",2817.499811433066,1363.3063603708385,"Apparently, Bloom was trained on more parameters than GPT-3 and is open source, but I've heard many say its results are overall less coherent than GPT-3.
+
+What advantages does GPT-3 have over Bloom and vice versa?",19 days 03:32:07,19.14730324074074,0.0,0.915,0.085,0.5023,pos,7.943960040618333,2.772588722239781,3.0030704452296804,21.234958329273258
+ywtrss,50033,116,openai,GPT-3,relevance,2022-11-16 13:45:45,Using GPT-3 to repurpose content for social media,juliarmg,False,0.96,24,https://www.reddit.com/r/OpenAI/comments/ywtrss/using_gpt3_to_repurpose_content_for_social_media/,8,1668606345.0," Hello folks, 
+
+It's crazy how versatile GPT-3 is.
+
+This post is a combination of both information and promotion, so please bear with me. 
+
+Many of our users had been asking for the ability to repurpose their existing blog and newsletter content into social media posts.
+
+They are mostly busy content writers so this can be really useful to them in their day-to-day work.
+
+So I tried a simple prompt - ""Summarize this for a tweet""
+
+I took the content from an [OpenAI Blog](https://openai.com/blog/our-approach-to-alignment-research/) and summarized it into a tweet.
+
+&#x200B;
+
+https://preview.redd.it/rgchlohneb0a1.jpg?width=800&format=pjpg&auto=webp&s=2d969d04330282b869991e4be3a1c5527d94500b
+
+Next, I tried another prompt - ""Summarize this into a LinkedIn post""
+
+And that worked alright as well.
+
+&#x200B;
+
+https://preview.redd.it/5d3e2bqweb0a1.jpg?width=800&format=pjpg&auto=webp&s=111f80466e1a185175d09cc2e51de95b6de882ba
+
+Finally, I tried this prompt - ""Summarize this into a Facebook post.""
+
+&#x200B;
+
+https://preview.redd.it/qckoxkl6fb0a1.jpg?width=800&format=pjpg&auto=webp&s=0e9de795830f11e6deeccdd57a3b08712d2e3704
+
+These prompts worked well so I decided to integrate them into our Mac app, and the users loved it.
+
+Here is the final demo of how it works inside my app - 
+
+&#x200B;
+
+https://reddit.com/link/ywtrss/video/jsoche6phb0a1/player
+
+It can be difficult to copy and paste the content into the playground.  
+
+If you have a Mac and want to do this more straightforward way then please try out my app [Elephas](https://elephas.app?ref=ropenAI-socialrepurpose)
+
+Do share your feedback. 
+
+Thanks",2181.2901765933416,727.0967255311139," Hello folks, 
+
+It's crazy how versatile GPT-3 is.
+
+This post is a combination of both information and promotion, so please bear with me. 
+
+Many of our users had been asking for the ability to repurpose their existing blog and newsletter content into social media posts.
+
+They are mostly busy content writers so this can be really useful to them in their day-to-day work.
+
+So I tried a simple prompt - ""Summarize this for a tweet""
+
+I took the content from an [OpenAI Blog]( and summarized it into a tweet.
+
+&x200B;
+
+
+
+Next, I tried another prompt - ""Summarize this into a LinkedIn post""
+
+And that worked alright as well.
+
+&x200B;
+
+
+
+Finally, I tried this prompt - ""Summarize this into a Facebook post.""
+
+&x200B;
+
+
+
+These prompts worked well so I decided to integrate them into our Mac app, and the users loved it.
+
+Here is the final demo of how it works inside my app - 
+
+&x200B;
+
+
+
+It can be difficult to copy and paste the content into the playground.  
+
+If you have a Mac and want to do this more straightforward way then please try out my app [Elephas](
+
+Do share your feedback. 
+
+Thanks",13 days 10:14:15,13.4265625,0.025,0.833,0.142,0.9642,pos,7.688130144074163,2.1972245773362196,2.66907112541891,21.235254591613316
