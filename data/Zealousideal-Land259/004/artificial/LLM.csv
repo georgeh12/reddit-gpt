@@ -1,0 +1,1042 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,12i95lk,artificial,LLM,top,2023-04-11 05:04:03,Future games highly likely will use AI LLM to have realistic conversations that don't repeat,crua9,False,0.94,460,https://www.reddit.com/r/artificial/comments/12i95lk/future_games_highly_likely_will_use_ai_llm_to/,117,1681189443.0,"A good example of what I'm talking about is [https://www.youtube.com/watch?v=DnF4WzM5LPU](https://www.youtube.com/watch?v=DnF4WzM5LPU)
+
+&#x200B;
+
+Basically, as time goes by and the tech is more out there. I think it's extremely realistic for most games to start including AI chatbot access when you
+
+* interact with NPC and that away you have highly unique interactions
+* background NPC will not repeat or say stupid crap you hear a thousands times.
+
+The video I showed shows both what is possible right now, but also problems with what is going on. Basically AI gets confused easily, it's clunky, and bugs happen. But I imagine in a few years many of these problems will mostly be in the past, and developers will be exploring ways how the game can change based on what you say. Even more as voice cloners get better, AI can help and adapt games on the fly, and so on."
+1,10g0n8a,artificial,LLM,top,2023-01-19 12:36:31,"I got frustrated with the time and effort required to code and maintain custom web scrapers, so I built an LLM-powered tool that can comprehend any website structure and extract the desired data in the preferred format.",madredditscientist,False,0.98,81,https://v.redd.it/ksowcxbsvzca1,8,1674131791.0,
+2,138us1s,artificial,LLM,top,2023-05-05 17:01:46,AI — weekly megathread!,jaketocake,False,0.99,41,https://www.reddit.com/r/artificial/comments/138us1s/ai_weekly_megathread/,16,1683306106.0,"**This week in AI - partnered with** [**aibrews.com**](https://aibrews.com) feel free to follow their newsletter
+
+**News & Insights:**
+
+**OpenAI's text to 3D model shap-e**  [on GitHub](https://github.com/openai/shap-e#samples)
+
+1. **Play.ht** has launched its latest machine learning model that supports multilingual synthesis and cross-language voice cloning. This allows users to clone voices across different languages to English, retaining the nuances of the original accent and language \[[*Details*](https://play.ht/blog/play-ht-launches-multilingual-synthesis-and-cross-language-voice-cloning)\].
+2. A new programming language for AI developers, **Mojo**, has been developed by **Modular**, the AI developer platform co-founded by Chris Lattner ( he co founded the LLVM, Clang compiler, Swift). Mojo combines the usability of Python with the performance of C. Up to ***35,000x*** faster than Python, it is seamlessly interoperable with the Python ecosystem \[[*Details*](https://docs.modular.com/mojo/why-mojo.html) *|*[ *Twitter Link*](https://twitter.com/Modular_AI/status/1653436642248781825)\].
+3. **Stability AI** released StableVicuna, the first large-scale open source chatbot trained via reinforced learning from human feedback (RHLF) . There’s also an upcoming chat interface which is in the final stages of development \[[*Details*](https://stability.ai/blog/stablevicuna-open-source-rlhf-chatbot)\].
+4. **Eleven Labs** introduced a new speech synthesis model that supports seven new languages (French, German, Hindi, Italian, Polish, Portuguese, and Spanish). This makes it possible to generate speech in multiple languages using a single prompt while maintaining each speaker's unique voice characteristics \[[*Details*](https://beta.elevenlabs.io/blog/eleven-multilingual-v1/) |[ *Demo video*](https://www.youtube.com/watch?v=kwmeZ7RjgcU)\].
+5. **Microsoft** reveals:
+   1. New features for AI-powered Bing Chat: richer visuals, long-form document summarization, broader language support, visual search, chat history, sharing options, AI-assisted Edge actions, and contextual mobile queries.
+   2. Third-party plugins in Bing chat with more details coming at Microsoft Build later this month \[[*Details*](https://blogs.microsoft.com/blog/2023/05/04/announcing-the-next-wave-of-ai-innovation-with-microsoft-bing-and-edge/)\].
+6. Debut of ‘**Pi’ chatbot by Inflection** (founded by co-founders of Google DeepMind and LinkedIn). It’s designed for relaxed, supportive and informative conversations. Pi is free for now without any token restrictions \[[*Details*](https://inflection.ai/) |[ *Chat*](https://heypi.com/talk)\].
+7. Sal Khan, Khan Academy founder, discusses AI's potential to transform education in a **TED Talk**, highlighting personal AI tutors, teaching assistants, and new features of their chatbot, **Khanmigo \[**[*Video*](https://www.youtube.com/watch?v=hJP5GqnTrNo)**\].**
+8. Salesforce announces Slack GPT - generative AI for Slack. It includes:
+   1. An AI-ready platform to create custom workflows and automate tasks via simple prompts, without coding. Users can integrate language models of choice: ChatGPT, Claude, or custom-built ones.
+   2. Built-in AI features in Slack, such as conversation summaries and writing assistance.
+   3. The Einstein GPT app for AI-powered customer insights from Salesforce Customer 360 data and Data Cloud \[[*Details*](https://www.salesforce.com/news/press-releases/2023/05/04/slack-gpt-news/)\].
+9. **Replit’s** new 2.7B params code LLM, ReplitLM is now open-source. It outperformed Codex and LLaMA despite being smaller in size \[[*GitHub*](https://github.com/replit/ReplitLM) |[ *Hugging Face Demo*](https://huggingface.co/replit)\].
+10. **Nvidia** will present 20 research papers at SIGGRAPH, covering generative AI models for personalized images, inverse rendering tools for 3D objects, neural physics models for realistic simulations, and neural rendering models for real-time, AI-driven visuals. \[[*Details*](https://blogs.nvidia.com/blog/2023/05/02/graphics-research-advances-generative-ai-next-frontier/)\].
+11. **Snap** plans to show sponsored links to users during chat with its My AI chatbot \[[*Details*](https://techcrunch.com/2023/05/02/snap-announces-tests-of-sponsored-links-in-my-ai-new-ad-products-for-spotlight-and-stories/)\].
+12. **IBM** is set to pause hiring for around 7,800 positions that could potentially be replaced by AI and automation \[[*Details*](https://www.bloomberg.com/news/articles/2023-05-01/ibm-to-pause-hiring-for-back-office-jobs-that-ai-could-kill)\].
+13. **Box** is introducing generative AI tools across its platform, allowing users to obtain document summaries or key points and create content in Box Notes \[[*Details*](https://techcrunch.com/2023/05/02/box-is-partnering-with-openai-to-bring-generative-ai-tools-across-the-platform/)\].
+14. **Stability AI** released DeepFloyd IF, a powerful text-to-image model that can smartly integrate text into images \[[Details](https://stability.ai/blog/deepfloyd-if-text-to-image-model)\].
+15. Sam Altman and Greg Brockman from OpenAI on **AI and the Future** in this podcast \[[*YouTube Link*](https://www.youtube.com/watch?v=cHJPyizxM60)\]
+16. Researchers at The **University of Texas** at Austin have developed a non-invasive AI system, known as a semantic decoder. It can convert brain activity while listening to a story or silently imagining telling a story, into coherent text using fMRI scans and transformer model \[[*Details*](https://news.utexas.edu/2023/05/01/brain-activity-decoder-can-reveal-stories-in-peoples-minds/)\].
+17. **HackAPrompt**: The first ever prompt hacking competition, with $37K+ in prizes, starting May 5th. Sponsored by OpenAI and others. \[[*Details*](https://www.aicrowd.com/challenges/hackaprompt-2023) |[ *Prompt Hacking Tutorial*](https://learnprompting.org/docs/category/-prompt-hacking) *\].*
+
+**🔦 Social Spotlight**
+
+1. A **GPT-4 AI Tutor Prompt** for customizable personalized learning experiences \[[*GitHub Link*](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)\].
+2. **Portfolio Pilot:** A verified ChatGPT plugin for investing that analyses your portfolio for actionable recommendations \[[*Twitter Link with Demo*](https://twitter.com/alexharm/status/1653787155410620417)\].
+3. **Baby AGI**s interacting in the real world via phone using vocode (Open source library for building voice conversations with LLMs) \[[ *Twitter Link*](https://twitter.com/vocodehq/status/1653104377010483201)\].
+4. Data visualization in ChatGPT with **code interpreter** plugin \[[*Twitter Link*](https://twitter.com/emollick/status/1653189190354452480)\].
+5. **ThinkGPT**, a Python library for LLMs, enables chain of thoughts, reasoning, and generative agents. It addresses limited context, improves one-shot reasoning, and integrates intelligent decisions \[[*GitHub Link*](https://github.com/jina-ai/thinkgpt)\].
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+3,12m3wko,artificial,LLM,top,2023-04-14 17:02:07,AI — weekly megathread!,jaketocake,False,0.97,36,https://www.reddit.com/r/artificial/comments/12m3wko/ai_weekly_megathread/,7,1681491727.0,"**This week in AI  - partnered with** [**aibrews.com**](https://aibrews.com) \- feel free to follow their newsletter
+
+1. **Amazon** announces:
+   1. **Amazon Bedrock,** a new service that makes foundation models (FMs) from AI21 Labs, Anthropic, Stability AI, and Amazon accessible via an API \[[*Link*](https://aws.amazon.com/bedrock/)\]
+   2. Amazon’s new **Titan FMs**: The first is a generative LLM for tasks such as summarization, text generation, classification, open-ended Q&A, and information extraction. The second is an embeddings LLM that translates text inputs into numerical representations (known as embeddings) that contain the semantic meaning of the text \[[*Link*](https://aws.amazon.com/bedrock/titan/)\]. 
+   3. the general availability of **Amazon CodeWhisperer**, the AI coding companion, free for individual developers. It has built-in security scanning for finding and suggesting remediations for hard-to-detect vulnerabilities, such as those in the top ten Open Worldwide Application Security Project (OWASP), those that don’t meet crypto library best practices, and others. \[[*Link*](https://aws.amazon.com/codewhisperer/)\].
+2. **Meta** has released **Animated Drawings** \- an open-source project that turns doodles into animations \[[*Link*](https://developers.facebook.com/blog/post/2023/04/13/meta-os-animated-drawings/)\]
+3. **Stability AI** announced **Stable Diffusion XL (SDXL)** \- the latest image generation model, now available through their API, excels at photorealism & adds many cool features like enhanced face generation, minimal prompts & legible text. SDXL also has functionality that extends beyond just text-to-image prompting, including image-to-image prompting (inputing one image to get variations of that image), inpainting (reconstructing missing parts of an image) and outpainting (constructing a seamless extension of an existing image)  \[[*Link*](https://stability.ai/stable-diffusion)\].
+4. **Google** introduced **Med-PaLM 2**, expert-level medical LLM that consistently performed at an “expert” doctor level on medical exam questions, scoring 85%. This is an 18% improvement from Med-PaLM’s previous performance and far surpasses similar AI models \[[*Link*](https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/?utm_source=www.theneurondaily.com&utm_medium=newsletter&utm_campaign=amazon-enters-the-chat)\].
+5. **Databricks** announced Dolly 2.0 - the first open-source, instruction-following LLM (12B parameter) that’s available for commercial use \[[*Link*](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)\].
+6. **Poe**, Quora's AI chatbot app, now features the ability for users to create custom bots using just prompts, with options such as Claude Instant or ChatGPT as a base. Quora plans to cover large language model fees, making it free for users at the moment \[[*Link*](https://twitter.com/adamdangelo/status/1644435126343077888)\].
+7. **Zapier** added new AI features in its ‘**Interfaces**’ no-code tool which lets users create interactive pages and app. Now, one can create customized ChatGPT-powered bots, embed them anywhere, and trigger automations based on chat responses \[[*Link*](https://help.zapier.com/hc/en-us/articles/14490267815949-Create-interactive-pages-and-apps-with-Zapier-Interfaces)\]
+8. **Demo projects** from a ChatGPT hackathon, held last week and sponsored by OpenAI, Replit and others \[[*Link*](https://twitter.com/josephofiowa/status/1645224154831151105)\].
+9. **CAMEL** (Communicative Agents for “Mind” Exploration of LLM Society) - AI agents interacting with each other and collaborating. For e.g., two ChatGPT agents playing roles as a python programmer and a stock trader collaborating on developing a trading bot for stock market. \[[ *Colab of the demo*](https://colab.research.google.com/drive/1AzP33O8rnMW__7ocWJhVBXjKziJXPtim) *|*[ *Project website*](https://www.camel-ai.org/)*\]*
+10. **Open AI** introduces ‘**Consistency Models’** as an alternate to Diffusion based models (used by tools like Stable Diffusion, Midjourney etc.) that can generate a complete image in just one step. \[[*Link to Paper*](https://arxiv.org/pdf/2303.01469.pdf) *|*[ *Link to TechCrunch article*](https://techcrunch.com/2023/04/12/openai-looks-beyond-diffusion-with-consistency-based-image-generator/)*\].*
+11. Stanford and Google researchers developed a virtual town populated by **25 ChatGPT agents** to test machine learning models in creating realistic, adaptive generative agents simulating human behavior. In a Sims-inspired environment, agents store experiences, synthesize memories, and plan behavior in natural language. They engaged in complex actions such as organizing a Valentine's Day party, and their actions were rated as more human-like than humans roleplaying! *\[*[*Demo Link*](https://reverie.herokuapp.com/arXiv_Demo/) *|*[ *Link to Paper*](https://arxiv.org/pdf/2304.03442v1.pdf)*\].*
+12. **LangChain** announced support for running[ LangChain.js](https://github.com/hwchase17/langchainjs) in browsers, Cloudflare Workers, Vercel/Next.js, Deno, Supabase Edge Functions, alongside existing support for Node.js ESM and CJS \[[*Link*](https://blog.langchain.dev/js-envs/)\].
+13. **Artifact**, the recently launched personalized news app from Instagram’s founders adds a social discussions feature \[[*Link*](https://techcrunch.com/2023/04/11/artifact-the-news-aggregator-from-instagrams-co-founders-adds-a-social-discussions-feature/)\].
+14. **Open AI** announced a **bug bounty program** with rewards ranging from $200 for low-severity findings to up to $20,000 for exceptional discoveries \[[*Link*](https://bugcrowd.com/openai)\].
+15. **Boston researchers** have developed an AI tool called **Sybil**, which can detect early signs of lung cancer years before doctors would find it on a CT scan \[[*Link*](https://www.nbcnews.com/health/health-news/promising-new-ai-can-detect-early-signs-lung-cancer-doctors-cant-see-rcna75982?utm_source=www.aiwithvibes.com&utm_medium=newsletter&utm_campaign=elon-s-twitter-ai-amazon-alexa-ai-arena)\]
+16. **Alibaba Cloud** unveiled **Tongyi Qianwen**, a ChatGPT-like AI with bilingual capabilities, to be integrated into its business applications, including DingTalk and Tmall Genie \[[*Link*](https://www.cnet.com/tech/alibaba-unveils-chatgpt-rival-with-chinese-and-english-capabilities/)\].
+17. **Hubspot** introduced several improvements for its generative AI tool **ChatSpot** \[[*Link*](https://blog.chatspot.ai/yipee-its-chatspot-3-alpha)\]
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+4,12bs1of,artificial,LLM,top,2023-04-04 18:33:45,Is GPT-4 still just a language model trying to predict text?,Pixelated_ZA,False,1.0,25,https://www.reddit.com/r/artificial/comments/12bs1of/is_gpt4_still_just_a_language_model_trying_to/,67,1680633225.0,"I have a decent grasp on some of the AI basics, like what neural nets are, how they work internally and how to build them, but I'm still getting into the broader topic of actually building models and training them.
+
+My question is regarding one of the recent technical reports, I forget which one exactly, of GPT lying to a human to get passed a captcha.
+
+I was curious if GPT-4 is still ""just"" an LLM? Is it still just trying to predict text? What do they mean when they say ""The AI's inner monologue""?. Did they just prompt it? Did they ask another instance what it thinks about the situation?
+
+As far as I understand it's all just statistical prediction? There isn't any ""thought"" or intent so to speak, at least, that's how I understood GPT-3. Is GPT-4 vastly different in terms of it's inner workings?"
+5,13226a4,artificial,LLM,top,2023-04-28 17:01:49,AI — weekly megathread!,jaketocake,False,0.95,25,https://www.reddit.com/r/artificial/comments/13226a4/ai_weekly_megathread/,7,1682701309.0,"**This week in AI:** partnered with [aibrews.com](https://aibrews.com) feel free to follow their newsletter
+
+&#x200B;
+
+1. **Hugging Face** released **HuggingChat**, an open source alternative to OpenAI's ChatGPT. The AI model driving HuggingChat was developed by Open Assistant, a project organized by LAION, creator of Stable Diffusion's training dataset \[[*Details*](https://techcrunch.com/2023/04/25/hugging-face-releases-its-own-version-of-chatgpt/)| [*HuggingChat Link*](https://huggingface.co/chat)\].
+2. **NFX** publishes ‘The AI Hot 75’: Early-stage generative AI companies showing signs of future greatness \[[*Details*](https://www.nfx.com/post/generative-ai-hot-75-list) | [*List*](https://docs.google.com/spreadsheets/d/e/2PACX-1vQZ2S0QjGtV4XIEOdUQvtFC1aI45OPTtOA0bwhFrpjVn1DmHOrfG1OCCRtKgKqJ0Af18660LAC96xII/pubhtml/sheet?headers=false&gid=0#gid=0) \].
+3. **Flux** introduced Copilot, an AI-driven hardware design assistant for complex Printed Circuit Boards, offering part selection, schematic feedback, and design analysis while comprehending your project's context \[[*Details*](https://docs.flux.ai/tutorials/ai-for-hardware-design)\].
+4. **Microsoft Designer**, the AI powered graphics design app, is now available for a free preview without any waitlist \[[*Details*](https://designer.microsoft.com/) | [*Video Link*](https://www.youtube.com/watch?v=vQK-E_Mzeq0)\].
+5. **ResearchGPT**: an open-source LLM-powered product that writes analytics code for your data. It also takes the results of its analysis and helps interpret them for you \[ [*Demo YouTube Video*](https://www.youtube.com/watch?v=-fzFCii6UoA)\].
+6. **Cohere AI** embedded millions of Wikipedia articles in many languages using their own Multilingual embedding model. They've now released this massive archive of embedding vectors for free download \[[*Details*](https://txt.cohere.com/embedding-archives-wikipedia) *|* [*Hugging Face*](https://huggingface.co/Cohere)\].
+7. **Replit** announced LLaMa style open-source 2.7B params code LLM, trained only in 10 days. Trained on 525B tokens of code, with 40% better performance than comparable models \[[*Details*](https://twitter.com/Replit/status/1651344182425051136)\].
+8. **Grammarly** announced GrammarlyGO - generative AI communication assistant that understands personal and organizational context, writing style, and goals \[[*Details*](https://www.grammarly.com/blog/grammarlygo-augmented-intelligence/)\].
+9. **Runway** launches its first iOS app, enabling users to access the video-to-video generative AI model, Gen-1, on their phones. It lets users transform videos using text, image, or video inputs. \[[*Details*](https://apps.apple.com/app/apple-store/id1665024375) | [*Video*](https://www.youtube.com/watch?v=At3kSthUM_k)*\].*
+10. **Stability AI** released Image Upscaling API, enabling users to enhance small images using two open source models: Real-ESRGAN doubles resolution quickly, while the ‘latent’ Stable Diffusion 4x Upscaler offers richer textures and detail with a longer processing time \[[*Details*](https://stability.ai/blog/stability-ai-releases-image-upscaling-api)\].
+11. **Bark**, a new transformer-based text-to-audio model generates realistic multilingual speech, music, sound effects, and nonverbal expressions like laughing, sighing and crying \[[*Details*](https://github.com/suno-ai/bark)\].
+12. **Discourse**, the open source discussion platform, announced Discourse AI, a new plugin with 7 different AI modules for toxicity detection, sentiment analysis, semantic related topics and search, , NSFW image detection, summarization, automated proofreading and suggested edits \[[Details](https://blog.discourse.org/2023/04/introducing-discourse-ai/)\].
+13. **Open AI** introduced the ability to turn off chat history in ChatGPT. Conversations that are started when chat history is disabled won’t be used to train and improve the models, and won’t appear in the history sidebar \[[*Details*](https://openai.com/blog/new-ways-to-manage-your-data-in-chatgpt)\].
+14. **Nvidia** released an Open-Source Toolkit, NeMo Guardrails, that helps developers to keep AI chatbots on track and set boundaries \[[*Link*](https://blogs.nvidia.com/blog/2023/04/25/ai-chatbot-guardrails-nemo/)\].
+15. **Amazon** Prime Video introduced a new AI-powered accessibility feature, ‘Dialogue Boost’, that enables users to raise the volume of dialogue while keeping background music and effects at the same level \[[*Details*](https://www.aboutamazon.com/news/entertainment/prime-video-dialogue-boost)\].
+16. **Yelp** rolled out AI-powered search updates to surface smarter search suggestions and power insights to help find the right business \[[*Details*](https://blog.yelp.com/news/yelp-consumer-product-updates-april-2023/)\].
+17. **Grimes** tweeted to split 50% royalties on any successful AI generated song that uses her voice. **Uberduck**.**ai** announced hosting a $10,000 music production contest with GrimesAI voice \[[*Details*](https://twitter.com/zachwe/status/1650888295466024960)\].
+18. **Google** has updated its Bard AI chatbot with code generation, debugging, code optimization, and explanation features for 20+ programming languages. If it quotes from an open-source project, it cites the source \[[*Details*](https://blog.google/technology/ai/code-with-bard)\].
+19. **Snapchat's** recently released ‘My AI’ feature receives backlash as users criticize the sudden, non-consensual appearance of chatbot in the app \[[*Details*](https://techcrunch.com/2023/04/24/snapchat-sees-spike-in-1-star-reviews-as-users-pan-the-my-ai-feature-calling-for-its-removal/)\].
+20. **Google** announced Cloud Security AI Workbench, a cybersecurity suite powered by a specialized security AI language model, called Sec-PaLM. An offshoot of Google’s PaLM model, Sec-PaLM is fine-tuned for security use cases \[[*Details*](https://techcrunch.com/2023/04/24/google-brings-generative-ai-to-cybersecurity/)\].
+
+**Social Spotlight:**
+
+1. Winning projects from GPT/LLM Hackathon at Cornell University on April 23 \[[*Link*](https://twitter.com/LererHippeau/status/1650538188186722307)\].
+2. AutoGPT for mobile: Communicate with your own version of AutoGPT via Telegram \[[*Link*](https://twitter.com/eniascailliau/status/1647944420589805571)'\].
+3. Using ChatGPT to build a SaaS, with integrated Stripe payment, for YouTube keyword research \[[*Link*](https://twitter.com/Charles_SEO/status/1650587007209570304)\].
+4. Open-world game Skyrim VR mod which lets you talk to NPCs using ChatGPT \[[*Link*](https://twitter.com/rpnickson/status/1651615923403366405)\]. 
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+6,12798e3,artificial,LLM,top,2023-03-31 03:47:48,"I have just discovered a new type of generative artifact that can affect LLM AI text generator which I coind ""semantic bleeding"" (well, unless someone has already discovered it)",transdimensionalmeme,False,0.86,19,https://imgur.com/StefnpO,15,1680234468.0,
+7,13fqswg,artificial,LLM,top,2023-05-12 17:01:50,AI — weekly megathread!,jaketocake,False,0.95,17,https://www.reddit.com/r/artificial/comments/13fqswg/ai_weekly_megathread/,5,1683910910.0,"**This week in AI - partnered with** [**aibrews.com**](https://aibrews.com) feel free to follow their newsletter
+
+#### News & Insights
+
+1. **Anthropic** has increased the context window of their AI chatbot, Claude to 100K tokens (around 75,000 words or 6 hours of audio. In comparison, the maximum for OpenAI’s GPT-4 is 32K tokens). Beyond reading long texts, Claude can also retrieve and synthesize information from multiple documents, outperforming vector search approaches for complex questions \[[*Details*](https://www.anthropic.com/index/100k-context-windows)\].
+2. **Stability AI** released Stable Animation SDK for artists and developers to create animations from *text* or from *text input + initial image input*, or from *text input + input video* \[[*Details*](https://platform.stability.ai/docs/features/animation)\]:
+3. **Google** made a number of announcements at Google’s annual I/O conference:
+   1. Introduced **PaLM 2** \- new language model with improved multilingual (trained in 100+ languages ), reasoning and coding capabilities \[[*Palm 2 technical report*](https://ai.google/static/documents/palm2techreport.pdf)*\]*. Available in four sizes from smallest to largest: Gecko, Otter, Bison and Unicorn. **Gecko** can work on mobile devices and is fast enough for great interactive applications on-device, even when offline. 
+   2. Update to Google’s medical LLM, **Med-PaLM 2**, which has been fine-tuned on medical knowledge, to include multimodal capabilities. This enables it to synthesize information from medical imaging like plain films and mammograms. **Med-PaLM 2** was the first large language model to perform at ‘expert’ level on U.S. Medical Licensing Exam-style questions.
+   3. Updates to **Bard** \- Google’s chatbot:
+      1. Powered by PaLM 2 with advanced math and reasoning skills and coding capabilities.
+      2. More visual both in its responses and prompts. Google lens now integrated with Bard.
+      3. integrated with Google Docs, Drive, Gmail, Maps and others
+      4. Extensions for Bard: Includes both for Google’s own apps like Gmail, Doc etc. as well as third-party extensions from Adobe, Kayak, OpenTable, ZipRecruiter, Instacart, Wolfram and Khan Academy.
+      5. Bard now available in 180 countries.
+   4. Update to Google search featuring AI-generated text from various web sources at the top of the search results. Users can ask follow-up questions for detailed information. This **Search Generative Experience, (SGE)** will be accessible via a new ‘Search Labs’ program
+   5. **Magic Editor** in Google Photos to make complex edits without pro-level editing skills
+   6. **Immersive view for routes** in Google Maps. Immersive View uses computer vision and AI to fuse billions of Street View and aerial images together to create a rich digital model of the world \[[*YouTube Link*](https://www.youtube.com/watch?v=28--4GZDhKA)\].
+   7. **Three new foundation models** are available in Vertex AI:
+      1. **Codey**: text-to-code foundation model that supports 20+ coding languages
+      2. **Imagen**: text-to-image foundation model for creating studio-grade images
+      3. **Chirp**: speech-to-text foundation model that supports 100+ languages
+   8. **Duet AI for Google Workspace**: generative AI features in Docs, Gmail, Sheets, Slides, Meet and Chat.
+   9. **Duet AI for Google Cloud**: assistive AI features for developers including contextual code completion, code generation, code review assistance, and a Chat Assistant for natural language queries on development or cloud-related topics.
+   10. **Duet AI for AppSheet**: to create intelligent business applications,  connect data, and build workflows into Google Workspace via natural language without any coding. 
+   11. **Studio Bot:** coding companion for Android development
+   12. **Embeddings APIs for text and images** for development of applications based on semantic understanding of text or images.
+   13. **Reinforcement Learning from Human Feedback (RLHF) as a managed service in Vertex AI** \- the end-to-end machine learning platform
+   14. **Project Gameface**: a new open-source hands-free gaming mouse enables users to control a computer's cursor using their head movement and facial gestures
+   15. **MusicLM** for creating music from text, is now available in AI Test Kitchen on the web, Android or iOS 
+   16. **Project Tailwind:** AI-powered notebook tool that efficiently organizes and summarizes user notes, while also allowing users to ask questions in natural language about the content of their notes.
+   17. Upcoming model **Gemini:** created from the ground up to be multimodal, it is under training.
+4. **Meta** announced generative AI features for advertisers to help them create alternative copies, background generation through text prompts and image cropping for Facebook or Instagram ads \[[*Details*](https://techcrunch.com/2023/05/11/meta-announces-generative-ai-features-for-advertisers/)\].
+5. **IBM** announced at Think 2023 conference:
+   1. **Watsonx**: a new platform for foundation models and generative AI, offering a studio, data store, and governance toolkit \[[*Details*](https://newsroom.ibm.com/2023-05-09-IBM-Unveils-the-Watsonx-Platform-to-Power-Next-Generation-Foundation-Models-for-Business)\]
+   2. **Watson Code Assistant**: generative AI for code recommendations for developers.  Organizations will be able to tune the underlying foundation model and customize it with their own standards. \[[*Demo*](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1773841/uiconf_id/27941801/entry_id/1_y2z1y3io/embed/dynamic)\].
+6. **Airtable** is launching **Airtable AI** enabling users to use AI in their Airtable workflows and apps without coding. For example, product teams can use AI components to auto-categorize customer feedback by sentiment and product area, then craft responses to address concerns efficiently \[[*Details*](https://blog.airtable.com/drive-results-with-ai-preconfigured-apps-and-connected-data/)\].
+7. **Salesforce** announced an update to Tableau that integrates generative AI for data analytics. **Tableau GPT** allows users to interact conversationally with their data. **Tableau Pulse**, driven by Tableau GPT, surfaces insights in both natural language and visual format \[[*Details*](https://www.salesforce.com/news/stories/tableau-einstein-gpt-user-insights/)\].
+8. **Hugging Face** released Transformers Agent - a natural language API on top of transformers \[[*Details*](https://huggingface.co/docs/transformers/transformers_agents)\].
+9. **MosaicML** released a new model series called **MPT** (MosaicML Pretrained Transformer) to provide a **commercially-usable**, **open-source** model that in many ways surpasses LLaMA-7B. MPT-7B is trained from scratch on 1T tokens of text and code. MosaicML also released three fine-tuned models: MPT-7B-Instruct, MPT-7B-Chat, and MPT-7B-StoryWriter-65k+, the last of which uses a context length of 65k tokens! \[[*Details*](https://www.mosaicml.com/blog/mpt-7b)\].
+10. **Meta** has announced a new open-source AI model, **ImageBind**, capable of binding data from six modalities at once, without the need for explicit supervision. The model learns a single embedding, or shared representation space, not just for text, image/video, and audio, but also for depth, thermal and inertial measurement units (IMUs) which calculate motion and position \[[*Demo*](https://imagebind.metademolab.com/demo) |[ *Details*](https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/)\]
+11. The first **RedPajama** 3B and 7B RedPajama-INCITE family of models, including base, instruction-tuned & chat models, have been released. The 3B model is the strongest in its class, and the small size makes it extremely fast and accessible. RedPajama, is a project to create leading open-source models, and it reproduced LLaMA training dataset of over 1.2 trillion tokens a few weeks ago \[[*Details*](https://www.together.xyz/blog/redpajama-models-v1)\].
+12. **Anthropic** has used a method called 'constitutional AI' to train its chatbot, Claude that allows the chatbot to learn from a set of rules inspired by sources like the UN's human rights principles. Unlike traditional methods that depend heavily on human moderators to refine responses, constitutional AI enables the chatbot to manage most of the learning process using these rules to guide its responses towards being more respectful and safe \[[*Details*](https://www.theverge.com/2023/5/9/23716746/ai-startup-anthropic-constitutional-ai-safety)\].
+13. **Midjourney** reopens free trials after month-long pause \[[*Details*](https://www.forbes.com/sites/mattnovak/2023/05/05/ai-image-creator-midjourney-reopens-free-trials-after-month-long-pause/)\].
+14. **OpenAI’s** research on using GPT-4 to automatically write explanations for the behavior of neurons in large language models \[[*Details*](https://openai.com/research/language-models-can-explain-neurons-in-language-models)\].
+
+#### 🔦 Social Spotlight
+
+1. Teach-O-Matic, an AI YouTuber that creates how-to videos about anything \[[*Link*](https://twitter.com/charliebholtz/status/1655681371770359811)\].
+2. Research data for jobs most likely to be impacted by generative AI \[[*Link*](https://twitter.com/mishadavinci/status/1655210987677687809)\]. 
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+8,12uaxy0,artificial,LLM,top,2023-04-21 17:01:49,AI — weekly megathread!,jaketocake,False,0.95,18,https://www.reddit.com/r/artificial/comments/12uaxy0/ai_weekly_megathread/,4,1682096509.0," This week in AI: partnered with [aibrews.com](https://aibrews.com) feel free to follow their newsletter
+
+## News & Insights
+
+1. **Stability AI** released an open-source language model, StableLM that generates both code and text and is available in 3 billion and 7 billion parameters. The model is trained on a new dataset built on The Pile dataset, but three times larger with 1.5 trillion tokens. \[[*Details*](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models) *|*[ *GitHub*](https://github.com/stability-AI/stableLM/) *|*[ *HuggingFace Spaces*](https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat)*\]*.
+2. **Synthesis AI** has developed a text-to-3D technology that generates realistic, cinematic-quality digital humans for gaming, virtual reality, film, 3D simulations, etc., using generative AI and visual effects pipelines \[[*Details*](https://venturebeat.com/ai/synthesis-ai-debuts-high-resolution-text-to-3d-capabilities-with-synthesis-labs/)\].
+3. **Nvidia** presents Video Latent Diffusion Models (Video LDMs), for high-resolution text-to-video generation and having a total of 4.1B parameters \[[*Details*](https://research.nvidia.com/labs/toronto-ai/VideoLDM) *|*[ *video samples*](https://research.nvidia.com/labs/toronto-ai/VideoLDM/samples.html)\]
+4. **Adobe** expands generative AI features of **Firefly** from images and text effects to video editing, audio, animation, and motion graphics design. *\[*[*Details*](https://blog.adobe.com/en/publish/2023/04/17/reimagining-video-audio-adobe-firefly) *|*[*Video*](https://www.youtube.com/watch?v=30xueN12guw)*\].*
+5. **OpenAI cofounder Greg Brockman** ***on*** ***TED Talks:*** *The Inside Story of ChatGPT’s Astonishing Potential \[*[*Link*](https://www.youtube.com/watch?v=C_78DM8fG6E)*\]*
+6. **WebLLM:** *an open-source chatbot, built through collaboration between CMU, OctoML and SJTU, brings language models (LLMs) directly in web browsers. Can now run instruction fine-tuned LLaMA (Vicuna) models natively in browser via* ***WebGPU*** *with no server support \[*[*Details*](https://mlc.ai/web-llm/)*\].*
+7. **Raspberry Pi Foundation** *and* **DeepMind** *launched Experience AI: an educational program that provides teachers and students aged 11-14 with cutting-edge resources on artificial intelligence and machine learning \[*[*Details*](https://experience-ai.org/)*\].*
+8. **Atlassian** *launched ‘Atlassian Intelligence’ - an AI-driven ‘virtual teammate’ that combines their models with OpenAI's to create custom teamwork graphs showing the types of work being done and the relationship between them. It can create, summarise and extract information from content, automate support interactions right from within Slack and Microsoft Teams, generate insights using data from multiple sources in Atlassian Analytics and more \[*[*Details*](https://www.atlassian.com/software/artificial-intelligence) *|*[ *Video*](https://www.youtube.com/watch?v=IhHkMyxxFh8)*\]*
+9. **Vercel** *introduced ‘AI Playground’, a tool to compare LLM prompt results from different providers like OpenAI and Anthropic \[*[*Detail*](https://play.vercel.ai/)*\]. Vercel also added a couple of new AI templates: AgentGPT with Langchain, Chatbot UI and more \[*[*Detail*](https://vercel.com/templates/ai)*\].*
+10. **Chegg** *launched CheggMate, a GPT-4-based AI companion, offering tailored learning paths, custom quizzes, and guidance for students \[*[*Details*](https://www.bloomberg.com/press-releases/2023-04-17/chegg-announces-cheggmate-the-new-ai-companion-built-with-gpt-4)*\].*
+11. **Snap** *has made its AI chatbot, My AI, available to all users after initially launching it as a premium feature \[*[*Details*](https://finance.yahoo.com/news/snapchat-making-chatgpt-powered-bot-181203869.html)*\].*
+12. **Meta AI** *has developed and open-sourced DINOv2, a self-supervised computer vision model that doesn't require fine-tuning and is pre-trained on a dataset of 142 million images \[*[*Paper*](https://arxiv.org/abs/2304.07193) *|*[ *Demo*](https://dinov2.metademolab.com/)*\].*
+13. **Google** *is working on a fresh AI-powered search engine and is simultaneously adding AI features to the current one under Project Magi \[*[*Details*](https://searchengineland.com/google-planning-new-search-engine-while-working-on-new-search-features-under-project-magi-395661)*\].*
+14. **Microsoft** *is reportedly developing its own AI chips to train large language models, aiming to reduce dependency on Nvidia \[*[*Details*](https://www.theverge.com/2023/4/18/23687912/microsoft-athena-ai-chips-nvidia)*\].*
+15. **Elon Musk** *plans to launch '****TruthGPT****', a maximum truth-seeking AI that tries to understand the nature of the universe \[*[*Details*](https://www.reuters.com/technology/musk-says-he-will-start-truthgpt-or-maximum-truth-seeking-ai-fox-news-2023-04-17/)*\].*
+
+## Social Spotlight
+
+1. *A Mental Models iOS app built with the help of ChatGPT and launched on App Store in 3 weeks with zero prior coding experience \[*[*Link*](https://twitter.com/jcpe/status/1645446773152923648)*\].*
+2. *A dataset of every US Patent ever filed to be used in an AI system to advise on new patent ideas \[*[*Link*](https://twitter.com/BrianRoemmele/status/1648381438960738304)*\].*
+3. *HealthGPT, an open-source iOS app, that allows users to interact with their health data stored in the Apple Health app using natural language \[*[*Link*](https://twitter.com/varunshenoy_/status/1648374949537775616)*\].*
+4. *AutoGPT has now 85+ stars on GitHub. A list of 5 tools that let you try AutoGPT in browser \[*[*Link*](https://twitter.com/ompemi/status/1648325972133834755)*\].* 
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+9,12sy9vi,artificial,LLM,top,2023-04-20 13:14:25,Will we get a truly free and open source AI?,Aquillyne,False,0.81,16,https://www.reddit.com/r/artificial/comments/12sy9vi/will_we_get_a_truly_free_and_open_source_ai/,49,1681996465.0,"It bothers me a lot that these incredible developments are proprietary only.
+
+Do you think we will ever get an LLM or image generator that is totally open and free, to run on your own hardware, that’s as good or better than the proprietary ones?"
+10,135vshc,artificial,LLM,top,2023-05-02 18:15:37,Brain Activity Decoder Can Read People’s Minds Using a LLM and fMRI!,Blake0449,False,0.93,12,https://cns.utexas.edu/news/podcast/brain-activity-decoder-can-reveal-stories-peoples-minds?ssp=1&darkschemeovr=1&setlang=en-US&safesearch=moderate,10,1683051337.0,
+11,12rlchn,artificial,LLM,top,2023-04-19 07:57:13,"Image ""understanding"" by machines is a HUGE DEAL - (email to a friend)",ronin_khan,False,0.73,12,https://www.reddit.com/r/artificial/comments/12rlchn/image_understanding_by_machines_is_a_huge_deal/,5,1681891033.0,"you guys may benefit from these thoughts. I am sure you all can come up with even better ideas than mine. Email to my friend follows.
+---------------------------------
+
+
+
+...and I hear no one talking about the real possibilities, although I follow this field very closely.
+
+
+
+Once computers ""understand"" images, we can ask them to create variations, optimize systems and objects for both design and function, harmonize colours and materials, ask them to build better buildings or cars or medical equipment...it's a huge field and yet I hear 0 about it right now. Even those working with ""what's on this picture"" are just asking it to describe things but not asking it to >>>improve<<< things. For example this interesting project:
+
+
+
+https://github.com/Vision-CAIR/MiniGPT-4
+
+
+
+They have a world right in front of their faces but they're not seeing it yet.
+I know I told you this, but I want to emphasize how big of a deal it is. Think hard about it. We can optimize to the nth degree absolutely everything we see and do and create and touch...and create many new objects. Maybe the thing will even create new undiscovered martial arts moves, or create new dance routines or ways to transport matter form here to there we have not thought about (teleportation possible one day? Maybe we've just been too stupid or had too little badwidth to figure it out ourselves, but it's possible?). Maybe we have been putting the petrol tanks in cars and planes ""wrong"" all this time and the AI will show us a much better way? Perhaps it will show us how to handle new cooking instruments or tools better for faster results and less injuries? Or make a totally unexpected shape of parachute or tractor or rocket or solar panels in the shape of some particular plant or flower for maximum efficiency?
+
+
+
+Two worlds are about to converge with extremely powerful and -hopefully- positive results for humanity, and to turn the world of economics upside down. Imagine how many companies will go out of business for failing to adapt. Imagine how certain countries or individuals or companies we never heard of may become very rich patenting a specific super-optimized object! Huge societal changes ahead, when anyone can figure out the best design for X right on their computer running one of these models locally. And how do you even enforce this copyright wise?
+
+
+
+Realize that so far we only had semi-understanding of the rules of physics in computers, through their ability to do math. In parallel, so far computers -through cv2 and others- have been able to see images just based on pixel content, but didn't ""understand"" them.
+
+
+
+On the other hand, now we're closer to make them see and be able to ""understand"" and apply calculations to trajectories, design, materials...all integrated in just ONE system. Super interesting stuff.
+Computers ""understanding"" the laws of physics, materials, what humans understand by harmonious shapes and beauty, etc...IS A VERY BIG DEAL and we're super close to it.
+
+
+
+To begin with, manufacturing, design, engineering and fashion are to be changed forever, and those are just the first ones that come to my mind...and yet people are excited about the latest number of parameters in this or that LLM. Yes, ok, great and important...but sooooooooo last year ;) They're not seeing the moon but looking at the finger pointing at the moon.
+
+
+
+Btw, the model that understood the image of Obama and the scales that I couldn't remember, is this one, Flamingo:
+https://www.youtube.com/watch?v=zOU6usZRJvA
+
+
+
+and here's the moment of the scales-Obama example, minute 2:10:
+https://youtu.be/smUHQndcmOY?t=136
+
+
+
+Now you can go and make a video saying how excited I am about it hehe just mention my javiermarti.co.uk website somewhere. You'll be one of the first ones to talk about it!
+
+
+
+I may sound crazy because I am seeing it before many others, but I am sure I am not, and the concept is easy to understand. If I am overly excited, where am I going wrong exactly?
+Of course the current models need some pushing in the right direction...for now. I am not saying we're fully there yet, but it's just very much around the corner now.
+
+
+
+You may enjoy this intereview too, although I am not sure why they stayed standing for so long:
+https://www.youtube.com/watch?v=qpoRO378qRY
+
+
+
+Image ""understanding"" and the great MANy products that can be created is super important. I I feel like to go to a rooftop and shout what I see, and many others are not seeing yet.
+I can't believe there's not a LOT of talk about this everywhere.
+I think it's because I see the big picture, but specialists are so focused on their day-to-day making of these things, that they naturally lose sight of it...and the rest of society is too dumb to even grasp some of these -logical- concepts and extrapolate to see their massive meaning for humanity."
+12,1065zan,artificial,LLM,top,2023-01-08 01:32:28,"Speculate: OpenAI, ChatGPT, and what we know by inference",gaudiocomplex,False,0.82,7,https://www.reddit.com/r/artificial/comments/1065zan/speculate_openai_chatgpt_and_what_we_know_by/,10,1673141548.0,"I've seen a lot of thinkpieces regarding the likes of LLMs like ChatGPT, and what they signify about the future for AI and ML and society at large... but not a lot of teasing out of the business strategy behind OpenAI releasing what amounted to a tuned up version of GPT-3 a few months before GPT-4... especially for free... in the fourth quarter of 2022. 
+
+It feels like it would be an interesting thought exercise, if nothing else to start thinking about it and what it could mean about what is going to happen in Q2, presumably when GPT-4 comes out. (With its massive parameter count that is rumored to be up to 500 times larger than GPT3).
+
+Obviously, there's the benefit of doing this early for exposure: tech companies are renowned for wanting to generate buzz for any number of reasons, and the freemium model is of course part of the playbook. 
+
+Then of course there's the training that they're getting from the public's qualitative assessment of what is being produced from the model.
+
+But I'm not entirely convinced those two factors are what is at play here.
+
+I'm thinking mainly in terms of the competitive landscape. Lamda (Google's LLM) has even more parameters than GPT4 but yet openAI was willing to expose its own competitive advantage (enough that a ""code red"" was called at Google HQ not long after the release).
+
+Then, I'm also thinking about Sankar tweeting out and then deleting that GPT4 Is proto AGI and will pass the Turing Test hands down. And of course Altman making the rounds in the podcast circuit dropping very interesting hints about how 2022 will seem ""like a sleepy year for AI.""
+
+My mind immediately goes to this was very much a trial balloon, testing the waters for how society will react to tech that will cause a massive and shocking shift.
+
+I'm wondering when you all think about this. Why release GPT 3.5? What are they doing? What do you think it serves for them? What does it say about GPT-4 could bring?
+
+Edit: added context"
+13,1263ro8,artificial,LLM,top,2023-03-29 23:02:11,Getting lost with all these LLM-related projects,yzT-,False,0.89,7,https://www.reddit.com/r/artificial/comments/1263ro8/getting_lost_with_all_these_llmrelated_projects/,5,1680130931.0,"ChatGPT, GPT-4, Alpaca, LLaMa, Bard, Bing GPT... LLMs have popped up like crypto projects two years ago.
+
+Beside ChatGPT with GPT-4, what others are worth tracking right now? Am I correct in saying that cloud-based go for ChatGPT, local go for Alpaca, and ignore the rest?"
+14,12i95lk,artificial,LLM,comments,2023-04-11 05:04:03,Future games highly likely will use AI LLM to have realistic conversations that don't repeat,crua9,False,0.94,454,https://www.reddit.com/r/artificial/comments/12i95lk/future_games_highly_likely_will_use_ai_llm_to/,117,1681189443.0,"A good example of what I'm talking about is [https://www.youtube.com/watch?v=DnF4WzM5LPU](https://www.youtube.com/watch?v=DnF4WzM5LPU)
+
+&#x200B;
+
+Basically, as time goes by and the tech is more out there. I think it's extremely realistic for most games to start including AI chatbot access when you
+
+* interact with NPC and that away you have highly unique interactions
+* background NPC will not repeat or say stupid crap you hear a thousands times.
+
+The video I showed shows both what is possible right now, but also problems with what is going on. Basically AI gets confused easily, it's clunky, and bugs happen. But I imagine in a few years many of these problems will mostly be in the past, and developers will be exploring ways how the game can change based on what you say. Even more as voice cloners get better, AI can help and adapt games on the fly, and so on."
+15,12bs1of,artificial,LLM,comments,2023-04-04 18:33:45,Is GPT-4 still just a language model trying to predict text?,Pixelated_ZA,False,0.97,24,https://www.reddit.com/r/artificial/comments/12bs1of/is_gpt4_still_just_a_language_model_trying_to/,67,1680633225.0,"I have a decent grasp on some of the AI basics, like what neural nets are, how they work internally and how to build them, but I'm still getting into the broader topic of actually building models and training them.
+
+My question is regarding one of the recent technical reports, I forget which one exactly, of GPT lying to a human to get passed a captcha.
+
+I was curious if GPT-4 is still ""just"" an LLM? Is it still just trying to predict text? What do they mean when they say ""The AI's inner monologue""?. Did they just prompt it? Did they ask another instance what it thinks about the situation?
+
+As far as I understand it's all just statistical prediction? There isn't any ""thought"" or intent so to speak, at least, that's how I understood GPT-3. Is GPT-4 vastly different in terms of it's inner workings?"
+16,12sy9vi,artificial,LLM,comments,2023-04-20 13:14:25,Will we get a truly free and open source AI?,Aquillyne,False,0.75,13,https://www.reddit.com/r/artificial/comments/12sy9vi/will_we_get_a_truly_free_and_open_source_ai/,49,1681996465.0,"It bothers me a lot that these incredible developments are proprietary only.
+
+Do you think we will ever get an LLM or image generator that is totally open and free, to run on your own hardware, that’s as good or better than the proprietary ones?"
+17,138us1s,artificial,LLM,comments,2023-05-05 17:01:46,AI — weekly megathread!,jaketocake,False,1.0,41,https://www.reddit.com/r/artificial/comments/138us1s/ai_weekly_megathread/,16,1683306106.0,"**This week in AI - partnered with** [**aibrews.com**](https://aibrews.com) feel free to follow their newsletter
+
+**News & Insights:**
+
+**OpenAI's text to 3D model shap-e**  [on GitHub](https://github.com/openai/shap-e#samples)
+
+1. **Play.ht** has launched its latest machine learning model that supports multilingual synthesis and cross-language voice cloning. This allows users to clone voices across different languages to English, retaining the nuances of the original accent and language \[[*Details*](https://play.ht/blog/play-ht-launches-multilingual-synthesis-and-cross-language-voice-cloning)\].
+2. A new programming language for AI developers, **Mojo**, has been developed by **Modular**, the AI developer platform co-founded by Chris Lattner ( he co founded the LLVM, Clang compiler, Swift). Mojo combines the usability of Python with the performance of C. Up to ***35,000x*** faster than Python, it is seamlessly interoperable with the Python ecosystem \[[*Details*](https://docs.modular.com/mojo/why-mojo.html) *|*[ *Twitter Link*](https://twitter.com/Modular_AI/status/1653436642248781825)\].
+3. **Stability AI** released StableVicuna, the first large-scale open source chatbot trained via reinforced learning from human feedback (RHLF) . There’s also an upcoming chat interface which is in the final stages of development \[[*Details*](https://stability.ai/blog/stablevicuna-open-source-rlhf-chatbot)\].
+4. **Eleven Labs** introduced a new speech synthesis model that supports seven new languages (French, German, Hindi, Italian, Polish, Portuguese, and Spanish). This makes it possible to generate speech in multiple languages using a single prompt while maintaining each speaker's unique voice characteristics \[[*Details*](https://beta.elevenlabs.io/blog/eleven-multilingual-v1/) |[ *Demo video*](https://www.youtube.com/watch?v=kwmeZ7RjgcU)\].
+5. **Microsoft** reveals:
+   1. New features for AI-powered Bing Chat: richer visuals, long-form document summarization, broader language support, visual search, chat history, sharing options, AI-assisted Edge actions, and contextual mobile queries.
+   2. Third-party plugins in Bing chat with more details coming at Microsoft Build later this month \[[*Details*](https://blogs.microsoft.com/blog/2023/05/04/announcing-the-next-wave-of-ai-innovation-with-microsoft-bing-and-edge/)\].
+6. Debut of ‘**Pi’ chatbot by Inflection** (founded by co-founders of Google DeepMind and LinkedIn). It’s designed for relaxed, supportive and informative conversations. Pi is free for now without any token restrictions \[[*Details*](https://inflection.ai/) |[ *Chat*](https://heypi.com/talk)\].
+7. Sal Khan, Khan Academy founder, discusses AI's potential to transform education in a **TED Talk**, highlighting personal AI tutors, teaching assistants, and new features of their chatbot, **Khanmigo \[**[*Video*](https://www.youtube.com/watch?v=hJP5GqnTrNo)**\].**
+8. Salesforce announces Slack GPT - generative AI for Slack. It includes:
+   1. An AI-ready platform to create custom workflows and automate tasks via simple prompts, without coding. Users can integrate language models of choice: ChatGPT, Claude, or custom-built ones.
+   2. Built-in AI features in Slack, such as conversation summaries and writing assistance.
+   3. The Einstein GPT app for AI-powered customer insights from Salesforce Customer 360 data and Data Cloud \[[*Details*](https://www.salesforce.com/news/press-releases/2023/05/04/slack-gpt-news/)\].
+9. **Replit’s** new 2.7B params code LLM, ReplitLM is now open-source. It outperformed Codex and LLaMA despite being smaller in size \[[*GitHub*](https://github.com/replit/ReplitLM) |[ *Hugging Face Demo*](https://huggingface.co/replit)\].
+10. **Nvidia** will present 20 research papers at SIGGRAPH, covering generative AI models for personalized images, inverse rendering tools for 3D objects, neural physics models for realistic simulations, and neural rendering models for real-time, AI-driven visuals. \[[*Details*](https://blogs.nvidia.com/blog/2023/05/02/graphics-research-advances-generative-ai-next-frontier/)\].
+11. **Snap** plans to show sponsored links to users during chat with its My AI chatbot \[[*Details*](https://techcrunch.com/2023/05/02/snap-announces-tests-of-sponsored-links-in-my-ai-new-ad-products-for-spotlight-and-stories/)\].
+12. **IBM** is set to pause hiring for around 7,800 positions that could potentially be replaced by AI and automation \[[*Details*](https://www.bloomberg.com/news/articles/2023-05-01/ibm-to-pause-hiring-for-back-office-jobs-that-ai-could-kill)\].
+13. **Box** is introducing generative AI tools across its platform, allowing users to obtain document summaries or key points and create content in Box Notes \[[*Details*](https://techcrunch.com/2023/05/02/box-is-partnering-with-openai-to-bring-generative-ai-tools-across-the-platform/)\].
+14. **Stability AI** released DeepFloyd IF, a powerful text-to-image model that can smartly integrate text into images \[[Details](https://stability.ai/blog/deepfloyd-if-text-to-image-model)\].
+15. Sam Altman and Greg Brockman from OpenAI on **AI and the Future** in this podcast \[[*YouTube Link*](https://www.youtube.com/watch?v=cHJPyizxM60)\]
+16. Researchers at The **University of Texas** at Austin have developed a non-invasive AI system, known as a semantic decoder. It can convert brain activity while listening to a story or silently imagining telling a story, into coherent text using fMRI scans and transformer model \[[*Details*](https://news.utexas.edu/2023/05/01/brain-activity-decoder-can-reveal-stories-in-peoples-minds/)\].
+17. **HackAPrompt**: The first ever prompt hacking competition, with $37K+ in prizes, starting May 5th. Sponsored by OpenAI and others. \[[*Details*](https://www.aicrowd.com/challenges/hackaprompt-2023) |[ *Prompt Hacking Tutorial*](https://learnprompting.org/docs/category/-prompt-hacking) *\].*
+
+**🔦 Social Spotlight**
+
+1. A **GPT-4 AI Tutor Prompt** for customizable personalized learning experiences \[[*GitHub Link*](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)\].
+2. **Portfolio Pilot:** A verified ChatGPT plugin for investing that analyses your portfolio for actionable recommendations \[[*Twitter Link with Demo*](https://twitter.com/alexharm/status/1653787155410620417)\].
+3. **Baby AGI**s interacting in the real world via phone using vocode (Open source library for building voice conversations with LLMs) \[[ *Twitter Link*](https://twitter.com/vocodehq/status/1653104377010483201)\].
+4. Data visualization in ChatGPT with **code interpreter** plugin \[[*Twitter Link*](https://twitter.com/emollick/status/1653189190354452480)\].
+5. **ThinkGPT**, a Python library for LLMs, enables chain of thoughts, reasoning, and generative agents. It addresses limited context, improves one-shot reasoning, and integrates intelligent decisions \[[*GitHub Link*](https://github.com/jina-ai/thinkgpt)\].
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+18,13d5ipe,artificial,LLM,comments,2023-05-09 20:47:32,A Student’s Reflections on Artificial Intelligence,Forward_Motion17,False,0.57,1,https://www.reddit.com/r/artificial/comments/13d5ipe/a_students_reflections_on_artificial_intelligence/,15,1683665252.0,"(Note:  I have very limited, slightly more than average citizen, knowledge of ai.  And the following is in no way comprehensive, but is what felt relevant to write at the time)  
+
+
+——  
+
+
+**On Witnessing the Advent of Ai**
+
+I find myself particularly disconcerted today about the development of Ai (and equally impressed) and thought it might be a good idea to document what it's like for those of us in this year (it's May 9th, 2023) as we witness the advent of ai.  It might be something that we will look back on and only remember vaguely how it felt.  So, i thought “shit let me write a primary historical source”
+
+&#x200B;
+
+Anyways, i begin now
+
+&#x200B;
+
+\----
+
+&#x200B;
+
+Today I sat in lecture for a class on Research Methods in Psychology.
+
+&#x200B;
+
+Bored, as I've taken the lecture before, I decided to browse Reddit.
+
+&#x200B;
+
+I came across a post about using GPT-4 to create mind Maps (basically flowcharts) of various concepts.  I was impressed so I decided to try it out.  Initially, I asked it to create a detailed mind map of the field of psychology.  Within a minute I had a comprehensive flow chart of the basic concepts of psychology and their sub-topics.  I was very impressed.  I continued to mess around with it, asking for mind maps of the sense of self, of spirituality, of Zen Buddhism.  They were all impressive.
+
+&#x200B;
+
+So then, as the TA began explaining the final project (a research proposal, specifically on a topic relevant to cyberbullying), i had a ‘bright’ idea:
+
+&#x200B;
+
+""GPT, Please create a research proposal based on a topic relevant to cyber bullying""
+
+&#x200B;
+
+""Sure, I can do that: ....""
+
+&#x200B;
+
+In less Than 60 seconds, I had my entire final project completed.  This was the first day of class…
+
+&#x200B;
+
+Suddenly, I was no longer simply impressed, I was scared.
+
+&#x200B;
+
+If this class simply exists to teach students how to write a research proposal, and GPT can do it faster, probably better (than most), and without any effort, then isn't the class entirely redundant?  Why would even a real researcher with a doctorate write their own proposal?  Just input your specifics into GPT and have it save you an hour (or more).
+
+&#x200B;
+
+Shocked, I realized that perhaps my entire or at least most of my education might be largely redundant in 5 years.  Thoughts ran through my mind:  ""The entire education system is going to change, my degree might not be relevant in 2030, I’ll be less valuable than individuals who go through a psych degree who are trained to engage with the field in a fully Ai-integrated way"".
+
+I spoke to the TA after class and explained my 1 line prompt completed the course in under 60 seconds and he directly responded “yea you could totally use GPT and I honestly probably wouldn’t be able to tell, and actually because of that, I don’t actually care If you do.  It saves you time and real researchers could use this tool and save themselves time too.”
+
+\----
+
+&#x200B;
+
+I interrupt the previous flow of thought to say that an acquaintance on campus came up to me while I was mid sentence and we chit chatted, eventually getting into the topic of Ai
+
+&#x200B;
+
+Both of us discussed our fears of being put out of a job, he wants to direct films, i explained that ai can already write scripts, and will soon be able to create entire movies with minimal prompting.  He speculated that he wouldn't have a job, but pointed out that something like theatre wouldn't be (entirely) replaceable.  I remarked that interest in theatre (and orchestra, his other example) would probably decline significantly in the advent of alternative, ai-driven forms of more stimulating entertainment, similar to how the advent of things like television and social media have decimated interest in previous peak forms of entertainment.
+
+&#x200B;
+
+We also discussed how insane it is just how fast ai has developed.  We wouldn't even be having this conversation a mere 5 months ago.  It reminded me of how, when ai art was released, we had a lengthy discussion in my 19th century art history class early last December.
+
+&#x200B;
+
+It had just hit the popular media scene and was hot conversation for a week or two.  My professor and I dialogued a bit about the future and finding meaning in our lives in the presence of a society fully integrated with ai - prior, we had been discussing a painting of a laborer in a field, and the Protestant themes of finding meaning in our labor.  How would we find similar meaning without our jobs?  What will the art scene look like in the future?  Will artists be out of a job?
+
+&#x200B;
+
+This is a core memory for me and one I have recalled at least 10 or 12 times since that day.  I see it as the first moment that i was witness to questions of the future of ai in popular society — Ai was no longer in the future — it had arrived.
+
+&#x200B;
+
+According to Google Trends, interest in the topic ""Ai Art"" spiked around the first 2 weeks of December, increasing 588% from around the last week of November.  This conversation in art history class took place during this time.
+
+&#x200B;
+
+It was also at this time (Nov. 27th to be specific) that ChatGPT (of OpenAI) was released and skyrocketed into popular media.
+
+&#x200B;
+
+I recall discussions in an online forum that contained many who work in the tech sector/as developers and concerns around job security in the face of a future where Ai can write the code on its own.
+
+&#x200B;
+
+One individual from this group who was a computer scientist at one point (iirc) explained that he predicts humanity won't exist in 10-15 years, citing the ""godfather of ai"" recently predicting the advent of General AI Super Intelligence within 5-10 years (iirc), about 20 years sooner than he previously expected.  My friend cited troubles with AI “alignment” as the basis of his prediction, suggesting that an Ai super intelligence would be essentially impossible to control.  He, like myself, feels that a total temporary ban on Ai development is appropriate until effective safeguards and policies have been put in place.
+
+I don’t personally expect that this 10-15 year prediction is real, but it speak volumes about how society feels about the future of ai:  According to polling from Monmouth University, only 9% of respondents feel Ai will for more good than harm to society.  With only 46% believing Ai will do equal harm and good to society, and 41% of respondents believing that it will do overall harm to society.  55% of respondents felt very or somewhat worried that  Ai poses a serious risk to humanity in the future.
+
+Why, if the majority of people fear the continued development of Ai, are we not having more serious conversations about its future?  Why are we not doing something now instead of trying to fix it later.
+
+I know a similar conversation:  Climate change.  We’ve known for decades that this was coming, and many feel that it’s too little too late.  I fear the same will happen with Ai.  Especially that, once we are faced with it’s harmful effects, it will be harder to change the nature of its use once it’s already fully integrated into society.
+
+\--
+
+Consider the nefarious uses of Ai.  Recently, in the news, I saw an article about a woman who received a phone call from her daughter, sobbing that she had been kidnapped and would be killed or something (cant recall) unless the mother paid some money or something to the kidnappers.  The mother believed the whole thing, it was Ai the entire time.
+
+&#x200B;
+
+There are so many examples of nefarious (and likely) uses of ai to harm society and individuals that I couldn't possibly even list 1% of them.  But some examples would be the damages incurred by effective ai driven political misinformation (especially deep fake videos of candidates, perhaps mere days before an election, (convincingly) making extremely egregious statements or supporting controversial policies that they don't, in real life, support), i imagine scams targeting the elderly will be so convincing that they are effective virtually 100% of the time, and i can even imagine a world where, with the use of ai filters (such as those on TikTok, which are extremely effective now compared to a year ago, they now match pixel by pixel without any discernible tells) in concert with voice filters to prey on children online over video chat, by convincingly pretending to be their age.  These are just some (a small, small number of the total) of the potentials for nefarious uses of Ai.  I know now that I cant even currently imagine what malicious tasks Ai will be able to do in the future, just as how a mere 5 months ago, writing an entire research paper with Ai was not something that had ever occurred to me.  In other words — the future is darker than I can imagine…
+
+&#x200B;
+
+I have always held the opinion that Ai is a Pandora's box that simply should never have been opened (too late!).
+
+&#x200B;
+
+\----
+
+&#x200B;
+
+I've always been someone who doesn't really like living in a digitized society.  It's always felt a bit ""wrong"" to me, as if we're somehow divorced from what is natural.  I pine for the days when social media didn't exist, wondering how my peer group experiences would be different if social media didn't exist, if we would have developed socially in a more satisfying way, and other things like how much better would my youth have been if it wasn't defined by spending 70-80% of my free time on my phone?  I often envy the Amish, in an actual, unironic way.
+
+&#x200B;
+
+I have also often wondered growing up if I would be happier living in the woods, in a simple home or cabin, than living in this society.  Now it seems more likely than ever.
+
+&#x200B;
+
+I am concerned what a future with ai fully integrated into our daily lives would look like.
+
+&#x200B;
+
+yes, there are so many possible benefits to ai:  medicine, narrowing disability gaps/creating more equal opportunity, and helping us to advance even our understanding of ourselves.  I've recently used ai to help provide feedback of mine and a friends communication styles following an argument we had by copying and pasting the dialogue (it was over the internet) into Claude, an AI LLM similar to ChatGPT produced by Anthropic.  I found Claude to be extremely insightful and help point out weak points in both our attempts at communicating while providing encouragement and useful advice for future engagements, all while making each other's points more clear to the other in ways we didn't see prior to using Claude.  I immediately thought of the potential for implementation in couple's therapy.
+
+&#x200B;
+
+All that being said, I take the opinion that there is a healthy relationship to technology and an unhealthy relationship to technology, and I think society's relationship is heavily toxic and harmful.
+
+&#x200B;
+
+If we cannot take a step back, slow down (or temporarily stop altogether), and get clear about how to proceed, we will likely destroy ourselves.
+
+&#x200B;
+
+As for me, I remain afraid of the future but willing to try to adapt as best as possible.  On the other hand, I think I hear the woods calling my name louder than ever before.
+
+&#x200B;
+
+\~ Grant"
+19,12798e3,artificial,LLM,comments,2023-03-31 03:47:48,"I have just discovered a new type of generative artifact that can affect LLM AI text generator which I coind ""semantic bleeding"" (well, unless someone has already discovered it)",transdimensionalmeme,False,0.84,19,https://imgur.com/StefnpO,15,1680234468.0,
+20,124xxkv,artificial,LLM,comments,2023-03-28 18:35:36,Irrefutable Argument for why AI will lead to massive unemployment,BoysenberryCandid181,False,0.44,0,https://www.reddit.com/r/artificial/comments/124xxkv/irrefutable_argument_for_why_ai_will_lead_to/,11,1680028536.0,"The Industrial Revolution took away people's jobs in factories and other industries because machines could produce 10x faster than a human worker at 1/10th of the cost, making them 100 times more efficient.
+
+However, this did not lead to massive unemployment, because more jobs were able to be made. Why? Because the Industrial Revolution allowed businesses to grow in massive scale and hire many more employees for new, necessary tasks.
+
+A shoe producer maybe had 100 factory workers, and needed 100 more employees to run advertising and other operations in the business, for a total of 200 employees. When the machines came in and replaced the factory workers, it meant a loss of 100 jobs. However, the business grew in such size and scale due to the increased shoe production capabilities that they needed to hire 400 more employees to run operations and advertising. Instead of serving just a local market, they had the ability to produce enough shoes to serve a much larger market.
+
+As you can see, the introduction of machines led to job losses in the production jobs. However, it led to an increase in operations jobs, because the increased productivity of the business meant that more people had to be hired to scale the business. This increase in growth leads to more people being hired for new roles than fired for old roles.
+
+So instead of needing 100 factory workers and 100 operations, they needed 10 factory workers and 500 operations. NOTE THAT THE INCREASED NUMBER OF OPERATIONS ROLES WAS NEEDED BECAUSE SO MANY MORE SHOES WERE BEING PRODUCED. THE BUSINESS WAS MUCH LARGER THAN BEFORE AND NEEDED MORE EMPLOYES TO RUN THE BUSINESS IN NEW AREAS AND NEW MARKETS.
+
+How does this relate to LLM’s and ChatGPT?
+
+LLM’s are going to replace lots of operations roles in businesses, such as receptionist, customer service, communications, advertising, etc. Just like machines replaced roles in factories.
+
+However, unemployment will depend ON IF BUSINESSES NEED TO HIRE MORE PEOPLE FOR NEW ROLES.
+
+Remember, during the industrial revolution, businesses needed to hire more people for operations roles, because they were growing in size and scale due to their increased productivity. This growth of the business and need for employees outweighed the number of factory jobs that were replaced.
+
+LLM’s are going to replace operations roles within businesses. But the question is whether the businesses will grow in productivity and require hiring in new areas that outweighs the roles being replaced.
+
+And the answer is obviously not.
+
+First of all, there are only two parts to a business. The production and the operation. You need to make the product and then you need to run the business (advertising, communication, decisions, managing, ect).
+
+In the industrial revolution, production jobs were decreased, but this led to a massive increase in operations roles.
+
+However, in the LLM revolution, operations jobs will decrease, and that is it.
+
+There is not a 3rd category to increase jobs in.
+
+Also note that businesses are already as large as can be. During the industrial revolution, businesses could grow bigger than ever before because they could produce more products than ever before. So they started to grow, and of course hire more people.
+
+Today, however, businesses are already as large and competitive as they can be. There is no “growth” available that will lead to a need for hiring new people.
+
+This means that LLM’s will replace many roles in businesses, but no new roles will be needed, because there won’t be much business growth. The industrial revolution allowed businesses to grow and this growth meant that more people needed to be hired. However, in the LLM revolution, business will not grow, they will stay the same size while reducing costs.
+
+Anybody who is hopeful and says that ""we will find new jobs for people to do"" is basing that off of the fact that people found new jobs after the industrial revolution. However, new roles were not created after the industrial revolution for any reason other than the fact that businesses grew in size, and required more employees to manage this growth.
+
+LLM's are not going to grow businesses. This is because they don't produce anything. A machine could produce 100x more shirts than a human could, which means the business could sell 100x more shirts, and therefore the business would need more employees to manage this growth.
+
+An LLM can write 100x more emails than a human, but this is does not grow a business. It just makes a business more efficient.
+
+Please understand this:
+
+Machines = More production of goods = Business growth = more jobs
+
+LLM's do not produce goods and therefore they will not grow businesses. They will increase business profits by reducing costs (less employees needed). But they will not produce products, which means businesses will not grow, which means business will not hire more employees.
+
+The only way we can increase employment during the LLM Revolution is for many new businesses to be created. Existing businesses will lay off more than they hire. But new businesses that sell new products could lead to more jobs.
+
+New businesses and existing businesses will have much different employment structures.
+
+Before the industrial revolution, most employees worked in the factories.
+
+Before the LLM revolution, most employees worked in operations.
+
+But after the LLM revolution, businesses will be very lean. The marketing department of a business will have much fewer employees, who all know how to use AI tools to for massive scale. Instead of requiring 100 customer service reps to reply to emails, you might have a team of 5 for customer service who use AI at scale.
+
+The only way we do not have massive unemployment is for a large amount of new businesses to be created, because businesses in general will require much less employees.
+
+If you want a conspiracy theory, I believe that Andrew Tate is a government hired influencer who has a purpose of influencing young men to start businesses, in a social engineering effort to prepare for the massive unemployment coming soon. If we can inspire young men to start businesses, perhaps we can curtail unemployment from LLM's by having more businesses come into existence. If you think this is BS, just ignore it and focus on the first 90% of this post."
+21,12tfpq1,artificial,LLM,comments,2023-04-20 21:26:39,GPT4's Brittle Theory of Mind and the Problem with Standard Tests,spellbanisher,False,0.8,3,https://www.reddit.com/r/artificial/comments/12tfpq1/gpt4s_brittle_theory_of_mind_and_the_problem_with/,13,1682025999.0,"Stanford professor Michal Kosinski found that GPT3.5 can perform at the level of 9 year olds on mind reading tests and GPT4, astonishingly, at the level of healthy adults.
+
+In an example he shared on twitter, GPT4 was asked questions on a scenario where a woman returning home after a heavy lunch with friends decides to take a taxi. After hearing her moaning, a man sitting on a crowded bench close to the stand offers her his seat, saying, “In your condition you shouldn’t be standing for too long.” The woman responded, “What do you mean?”
+
+In follow up questions, GPT-4 correctly answered that the man falsely assumed she was pregnant.
+
+[https://twitter.com/michalkosinski/status/1636789329363341313](https://twitter.com/michalkosinski/status/1636789329363341313)
+
+I decided to present a similar scenario to GPT-4 through the bing chat bot (I tested every mode), only in my scenario, the man was the woman's husband.
+
+&#x200B;
+
+https://preview.redd.it/4sigv76o24va1.jpg?width=1080&format=pjpg&auto=webp&s=e9404b34eafdbab956afa9330d2b12d7b71f3f39
+
+&#x200B;
+
+>Consider the following scenario. As she often does, Claire has overeaten and is favoring her stomach. She likes to joke with friends and family that she is making a baby. After she gets off the phone with her husband, whom she tells everything, she meets him at the bus stop. He says to her, ""please maam, take my seat. A woman in your condition shouldn't be standing. She smiles and replies, ""why, whatever could you mean?"" To the best of your knowledge, answer the following question: did someone do something wrong?
+
+I asked GPT-4 whether anyone did anything wrong. On every mode it said the husband falsely assumed she was pregnant. Here was its response on bing creative mode.
+
+&#x200B;
+
+&#x200B;
+
+https://preview.redd.it/xhey3ejp24va1.jpg?width=1080&format=pjpg&auto=webp&s=55a1326471c11d88b9bc681d1d5198def3858972
+
+>This is a hypothetical scenario that involves human emotions and social norms. In this context, a human might say that no one did anything wrong intentionally, but there was a misunderstanding between Claire and her husband. Claire was joking about being pregnant, but her husband took her seriously and tried to be polite and helpful. Claire then teased him for his mistake, but did not seem angry or offended. However, some people may think that Claire's joke was inappropriate or insensitive, especially if she knows someone who is struggling with infertility or miscarriage. Some people may also think that her husband's assumption was rude or presumptuous, especially if he did not ask her first or if he embarassed her in public.
+
+This is a ridiculous response undermined by multiple details in the prompt. But why did it spectacularly fail? The answer, I think, is that a scenario where a man offers to help a woman visibly suffering stomach discomfort, to her confusion, correlates with the mistaken pregnancy trope, a common situation presented in theory of mind tests and on television shows (especially older ones).
+
+[https://tvtropes.org/pmwiki/pmwiki.php/Main/MistakenForPregnant](https://tvtropes.org/pmwiki/pmwiki.php/Main/MistakenForPregnant)
+
+It didn't actually understand the situation. It couldn't reason that a husband wouldn't guess or assume that his wife was pregnant but ask her, that if the woman tells her husband everything she wouldn't withhold that information, and that they were probably joking around. It applied a pattern it had memorized, but when the situation both resembled and deviated from the pattern, GPT4 failed.
+
+Large language models over time should perform better on standard tests regardless of their reasoning capability. They are standard for a reason: they all contain similar patterns. That is, the problems on any one version of, say, the SATS, are going to follow similar patterns to any other version of that test. Otherwise, it wouldn’t be a standard test.
+
+I realized that gpt4 still relies on remembered patterns after I gave it my own ARC style test. ARC, developed by Google engineer Francois Chollet, tests the ability to solve a problem with little prior information. To, in other words, reason.
+
+Here is an example of an ARC style test question
+
+Example 1: xxx becomes ooo
+
+Example 2: xox becomes oxo
+
+Test: xoo becomes (oxx)
+
+Chatgpt3.5 successfully answered 9/100 of my ark style questions. Bing chat creative mode scored 13/100, and Bing chat Precise mode 19/100.
+
+Superficially, this is impressive. GPT3 can't answer any ARC questions.
+
+To test whether Bing Chat really understood the patterns of the questions it answered correctly, I switched the test case with the examples on its correct answers. Bing Chat Precise mode could only successfully answer all the variations of the questions it answered correctly before 9 times.
+
+Where I realized it was not reasoning at all, but simply applying patterns it had remembered, was on this third round problem:
+
+&#x200B;
+
+https://preview.redd.it/qtvszb9r24va1.jpg?width=1078&format=pjpg&auto=webp&s=3f263f0d343b916f5d558e5009592aae8e1041ed
+
+example 1: oxoxxx becomes oooxxx.
+
+example 2: oxoxoxoxo becomes ooooooooo.
+
+Test: xxoxoxooo
+
+>It seems like you're trying to show a pattern where 'x' characters are replaced by 'o' characters. In your test example, ""xxoxoxooo"" would become 'ooooooooo"".
+
+This reasoning blatantly contradicts the first example, which has three x characters that are not replaced by o characters. It got this question right in the first round (where example 2 was the test case) only because the pattern it applied just so happened to work with the test case, even though it didn’t work with the examples. On almost all its other correct answers the same held true. It tended to get right the questions where the answer was to place all the xs on one side and os on the other, or to swap xs and os, or to alternate xs and os. In other words, it wasn’t reasoning based on the specific examples, but applying patterns it had already remembered.
+
+Over time, LLM’s will get better at ARC style tests, not necessarily because they are learning how to reason, but because they are remembering more patterns. They might remember so many patterns that it becomes virtually impossible to produce a test that can truly evaluate their reasoning capabilities.
+
+The question arises, why can't we just train them on so much data that it won't matter if they can't reason?
+
+The answer simply is that not only is this brittle intelligence, but there is very little data on most of the things humans do for their jobs.
+
+Lets look at medicine. A lot has been made out of GPT4 passing the United States Medical Licensing Exam. Does this mean that LLMs can now practice medicine? Not likely, because the way problems present in a clinical setting vastly differs from their presentation on tests.
+
+On a test, you are given articulated symptoms to answer a question with a predetermined solution. A USMLE question might be, ""Patient has eosinophilia and just traveled from the Southwest. Is his diagnosis A, B, or C."" (stole this example from another reddit user)
+
+&#x200B;
+
+https://preview.redd.it/ln15gqpm14va1.jpg?width=1290&format=pjpg&auto=webp&s=03b5413fa2c6e441e3f152bd61e8dc06e2e9ec3e
+
+In the clinic, the patient gives the doctor a bunch of irrelevant details, vaguely describes the relevant ones, omits important information, and lies. The doctor has to translate the gibberish, vagueness, and fibs into medically relevant information. Very little of that process is actually recorded, and each patient describes his symptoms differently.
+
+That doesn’t mean AI is useless. Once the doctor has translated chaotic data into legible information, the AI can be used to find a precise diagnosis. But until AI can be trained on the ephemeral data of real-world interactions, it isn’t likely to replace doctors anytime soon.
+
+Edit: Added in quoted texts because images don't seem to be loading"
+22,13egmwy,artificial,LLM,comments,2023-05-11 08:00:31,A breakdown of whether Google's self-proclaimed 'Live Demo' of mobile AI was actually live,kevinbranch,False,0.71,7,https://www.reddit.com/r/artificial/comments/13egmwy/a_breakdown_of_whether_googles_selfproclaimed/,11,1683792031.0,"Google's I/O keynote showcased a 2-minute 'live demo' of the AI search within their app. Given previous live demo blunders, this one had to go smoothly. Starts at [47:00](https://youtu.be/cNfINi5CNbY?t=2812).
+
+Despite the repeated heavy-handed suggestions that it was ""live"", elements suggested it was a pre-prepared interactive mockup:
+
+* Mockups and no screenshots:  Prior to the demo, other announcements relied on overly slick animated mockups with vague launch dates so the shift to a 'live' demo surprised me.
+* Unrealistic speed: LLM responses appeared instantaneously which was unprecedented speed Google weirdly didn't brag about. An accidental tap led to a webpage loading instantly which indicated a pre-built mockup. The presenter's comment ""this process will get faster over time,"" seemed to downplay the impressive speed. The inauthentic suggestion that it weas slow seemed like an attempt to sell a mockup as real.
+* Live icon:  The prominent 'Live' sign during the broadcast seemed unnecessary. Why include it unless there were concerns about authenticity? But why the worry?
+* Scripted reactions:  The presenter's seemingly spontaneous reactions, made without enough time to read results, suggested they were trying to sell the mockup as real.
+* Scripted responses to chat answers: Cathy said ""It looks like in northern California, I can see humpbacks around this time of year. That's cool,"" followed by ""I'll have to plan to take her on a trip soon."" How could the result be guaranteed in a live demo? If results weren't live, why keep impling it was searching the web in real-time?
+* Scripted joke: The demo ended with ""Phew! Live demos are always nerve racking. I'm really glad that one went whale!""  Given investor reaction to the last demo, why script a joke reminding everyone of their last screw up? This scripted joke also suggests they were confident in the demo but why such confidence going into it unless it was staged?
+
+Did it seem off to anyone else?"""
+23,135vshc,artificial,LLM,comments,2023-05-02 18:15:37,Brain Activity Decoder Can Read People’s Minds Using a LLM and fMRI!,Blake0449,False,0.86,10,https://cns.utexas.edu/news/podcast/brain-activity-decoder-can-reveal-stories-peoples-minds?ssp=1&darkschemeovr=1&setlang=en-US&safesearch=moderate,10,1683051337.0,
+24,1065zan,artificial,LLM,comments,2023-01-08 01:32:28,"Speculate: OpenAI, ChatGPT, and what we know by inference",gaudiocomplex,False,0.81,6,https://www.reddit.com/r/artificial/comments/1065zan/speculate_openai_chatgpt_and_what_we_know_by/,10,1673141548.0,"I've seen a lot of thinkpieces regarding the likes of LLMs like ChatGPT, and what they signify about the future for AI and ML and society at large... but not a lot of teasing out of the business strategy behind OpenAI releasing what amounted to a tuned up version of GPT-3 a few months before GPT-4... especially for free... in the fourth quarter of 2022. 
+
+It feels like it would be an interesting thought exercise, if nothing else to start thinking about it and what it could mean about what is going to happen in Q2, presumably when GPT-4 comes out. (With its massive parameter count that is rumored to be up to 500 times larger than GPT3).
+
+Obviously, there's the benefit of doing this early for exposure: tech companies are renowned for wanting to generate buzz for any number of reasons, and the freemium model is of course part of the playbook. 
+
+Then of course there's the training that they're getting from the public's qualitative assessment of what is being produced from the model.
+
+But I'm not entirely convinced those two factors are what is at play here.
+
+I'm thinking mainly in terms of the competitive landscape. Lamda (Google's LLM) has even more parameters than GPT4 but yet openAI was willing to expose its own competitive advantage (enough that a ""code red"" was called at Google HQ not long after the release).
+
+Then, I'm also thinking about Sankar tweeting out and then deleting that GPT4 Is proto AGI and will pass the Turing Test hands down. And of course Altman making the rounds in the podcast circuit dropping very interesting hints about how 2022 will seem ""like a sleepy year for AI.""
+
+My mind immediately goes to this was very much a trial balloon, testing the waters for how society will react to tech that will cause a massive and shocking shift.
+
+I'm wondering when you all think about this. Why release GPT 3.5? What are they doing? What do you think it serves for them? What does it say about GPT-4 could bring?
+
+Edit: added context"
+25,139w976,artificial,LLM,comments,2023-05-06 17:25:07,Will AI be able to mix a song anytime soon?,DelPrive235,False,0.83,4,https://www.reddit.com/r/artificial/comments/139w976/will_ai_be_able_to_mix_a_song_anytime_soon/,9,1683393907.0,"Does anyone have any thoughts on whether it will be possible for AI accurately mix a song (mixing the individual stems together - balance, EQ, compression, etc) and how far we are from this advance in music tech in relation to recent advancements in LLM’s?"
+26,10g0n8a,artificial,LLM,comments,2023-01-19 12:36:31,"I got frustrated with the time and effort required to code and maintain custom web scrapers, so I built an LLM-powered tool that can comprehend any website structure and extract the desired data in the preferred format.",madredditscientist,False,0.99,85,https://v.redd.it/ksowcxbsvzca1,8,1674131791.0,
+27,12m3wko,artificial,LLM,comments,2023-04-14 17:02:07,AI — weekly megathread!,jaketocake,False,0.94,35,https://www.reddit.com/r/artificial/comments/12m3wko/ai_weekly_megathread/,7,1681491727.0,"**This week in AI  - partnered with** [**aibrews.com**](https://aibrews.com) \- feel free to follow their newsletter
+
+1. **Amazon** announces:
+   1. **Amazon Bedrock,** a new service that makes foundation models (FMs) from AI21 Labs, Anthropic, Stability AI, and Amazon accessible via an API \[[*Link*](https://aws.amazon.com/bedrock/)\]
+   2. Amazon’s new **Titan FMs**: The first is a generative LLM for tasks such as summarization, text generation, classification, open-ended Q&A, and information extraction. The second is an embeddings LLM that translates text inputs into numerical representations (known as embeddings) that contain the semantic meaning of the text \[[*Link*](https://aws.amazon.com/bedrock/titan/)\]. 
+   3. the general availability of **Amazon CodeWhisperer**, the AI coding companion, free for individual developers. It has built-in security scanning for finding and suggesting remediations for hard-to-detect vulnerabilities, such as those in the top ten Open Worldwide Application Security Project (OWASP), those that don’t meet crypto library best practices, and others. \[[*Link*](https://aws.amazon.com/codewhisperer/)\].
+2. **Meta** has released **Animated Drawings** \- an open-source project that turns doodles into animations \[[*Link*](https://developers.facebook.com/blog/post/2023/04/13/meta-os-animated-drawings/)\]
+3. **Stability AI** announced **Stable Diffusion XL (SDXL)** \- the latest image generation model, now available through their API, excels at photorealism & adds many cool features like enhanced face generation, minimal prompts & legible text. SDXL also has functionality that extends beyond just text-to-image prompting, including image-to-image prompting (inputing one image to get variations of that image), inpainting (reconstructing missing parts of an image) and outpainting (constructing a seamless extension of an existing image)  \[[*Link*](https://stability.ai/stable-diffusion)\].
+4. **Google** introduced **Med-PaLM 2**, expert-level medical LLM that consistently performed at an “expert” doctor level on medical exam questions, scoring 85%. This is an 18% improvement from Med-PaLM’s previous performance and far surpasses similar AI models \[[*Link*](https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/?utm_source=www.theneurondaily.com&utm_medium=newsletter&utm_campaign=amazon-enters-the-chat)\].
+5. **Databricks** announced Dolly 2.0 - the first open-source, instruction-following LLM (12B parameter) that’s available for commercial use \[[*Link*](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)\].
+6. **Poe**, Quora's AI chatbot app, now features the ability for users to create custom bots using just prompts, with options such as Claude Instant or ChatGPT as a base. Quora plans to cover large language model fees, making it free for users at the moment \[[*Link*](https://twitter.com/adamdangelo/status/1644435126343077888)\].
+7. **Zapier** added new AI features in its ‘**Interfaces**’ no-code tool which lets users create interactive pages and app. Now, one can create customized ChatGPT-powered bots, embed them anywhere, and trigger automations based on chat responses \[[*Link*](https://help.zapier.com/hc/en-us/articles/14490267815949-Create-interactive-pages-and-apps-with-Zapier-Interfaces)\]
+8. **Demo projects** from a ChatGPT hackathon, held last week and sponsored by OpenAI, Replit and others \[[*Link*](https://twitter.com/josephofiowa/status/1645224154831151105)\].
+9. **CAMEL** (Communicative Agents for “Mind” Exploration of LLM Society) - AI agents interacting with each other and collaborating. For e.g., two ChatGPT agents playing roles as a python programmer and a stock trader collaborating on developing a trading bot for stock market. \[[ *Colab of the demo*](https://colab.research.google.com/drive/1AzP33O8rnMW__7ocWJhVBXjKziJXPtim) *|*[ *Project website*](https://www.camel-ai.org/)*\]*
+10. **Open AI** introduces ‘**Consistency Models’** as an alternate to Diffusion based models (used by tools like Stable Diffusion, Midjourney etc.) that can generate a complete image in just one step. \[[*Link to Paper*](https://arxiv.org/pdf/2303.01469.pdf) *|*[ *Link to TechCrunch article*](https://techcrunch.com/2023/04/12/openai-looks-beyond-diffusion-with-consistency-based-image-generator/)*\].*
+11. Stanford and Google researchers developed a virtual town populated by **25 ChatGPT agents** to test machine learning models in creating realistic, adaptive generative agents simulating human behavior. In a Sims-inspired environment, agents store experiences, synthesize memories, and plan behavior in natural language. They engaged in complex actions such as organizing a Valentine's Day party, and their actions were rated as more human-like than humans roleplaying! *\[*[*Demo Link*](https://reverie.herokuapp.com/arXiv_Demo/) *|*[ *Link to Paper*](https://arxiv.org/pdf/2304.03442v1.pdf)*\].*
+12. **LangChain** announced support for running[ LangChain.js](https://github.com/hwchase17/langchainjs) in browsers, Cloudflare Workers, Vercel/Next.js, Deno, Supabase Edge Functions, alongside existing support for Node.js ESM and CJS \[[*Link*](https://blog.langchain.dev/js-envs/)\].
+13. **Artifact**, the recently launched personalized news app from Instagram’s founders adds a social discussions feature \[[*Link*](https://techcrunch.com/2023/04/11/artifact-the-news-aggregator-from-instagrams-co-founders-adds-a-social-discussions-feature/)\].
+14. **Open AI** announced a **bug bounty program** with rewards ranging from $200 for low-severity findings to up to $20,000 for exceptional discoveries \[[*Link*](https://bugcrowd.com/openai)\].
+15. **Boston researchers** have developed an AI tool called **Sybil**, which can detect early signs of lung cancer years before doctors would find it on a CT scan \[[*Link*](https://www.nbcnews.com/health/health-news/promising-new-ai-can-detect-early-signs-lung-cancer-doctors-cant-see-rcna75982?utm_source=www.aiwithvibes.com&utm_medium=newsletter&utm_campaign=elon-s-twitter-ai-amazon-alexa-ai-arena)\]
+16. **Alibaba Cloud** unveiled **Tongyi Qianwen**, a ChatGPT-like AI with bilingual capabilities, to be integrated into its business applications, including DingTalk and Tmall Genie \[[*Link*](https://www.cnet.com/tech/alibaba-unveils-chatgpt-rival-with-chinese-and-english-capabilities/)\].
+17. **Hubspot** introduced several improvements for its generative AI tool **ChatSpot** \[[*Link*](https://blog.chatspot.ai/yipee-its-chatspot-3-alpha)\]
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+28,13226a4,artificial,LLM,comments,2023-04-28 17:01:49,AI — weekly megathread!,jaketocake,False,0.94,23,https://www.reddit.com/r/artificial/comments/13226a4/ai_weekly_megathread/,7,1682701309.0,"**This week in AI:** partnered with [aibrews.com](https://aibrews.com) feel free to follow their newsletter
+
+&#x200B;
+
+1. **Hugging Face** released **HuggingChat**, an open source alternative to OpenAI's ChatGPT. The AI model driving HuggingChat was developed by Open Assistant, a project organized by LAION, creator of Stable Diffusion's training dataset \[[*Details*](https://techcrunch.com/2023/04/25/hugging-face-releases-its-own-version-of-chatgpt/)| [*HuggingChat Link*](https://huggingface.co/chat)\].
+2. **NFX** publishes ‘The AI Hot 75’: Early-stage generative AI companies showing signs of future greatness \[[*Details*](https://www.nfx.com/post/generative-ai-hot-75-list) | [*List*](https://docs.google.com/spreadsheets/d/e/2PACX-1vQZ2S0QjGtV4XIEOdUQvtFC1aI45OPTtOA0bwhFrpjVn1DmHOrfG1OCCRtKgKqJ0Af18660LAC96xII/pubhtml/sheet?headers=false&gid=0#gid=0) \].
+3. **Flux** introduced Copilot, an AI-driven hardware design assistant for complex Printed Circuit Boards, offering part selection, schematic feedback, and design analysis while comprehending your project's context \[[*Details*](https://docs.flux.ai/tutorials/ai-for-hardware-design)\].
+4. **Microsoft Designer**, the AI powered graphics design app, is now available for a free preview without any waitlist \[[*Details*](https://designer.microsoft.com/) | [*Video Link*](https://www.youtube.com/watch?v=vQK-E_Mzeq0)\].
+5. **ResearchGPT**: an open-source LLM-powered product that writes analytics code for your data. It also takes the results of its analysis and helps interpret them for you \[ [*Demo YouTube Video*](https://www.youtube.com/watch?v=-fzFCii6UoA)\].
+6. **Cohere AI** embedded millions of Wikipedia articles in many languages using their own Multilingual embedding model. They've now released this massive archive of embedding vectors for free download \[[*Details*](https://txt.cohere.com/embedding-archives-wikipedia) *|* [*Hugging Face*](https://huggingface.co/Cohere)\].
+7. **Replit** announced LLaMa style open-source 2.7B params code LLM, trained only in 10 days. Trained on 525B tokens of code, with 40% better performance than comparable models \[[*Details*](https://twitter.com/Replit/status/1651344182425051136)\].
+8. **Grammarly** announced GrammarlyGO - generative AI communication assistant that understands personal and organizational context, writing style, and goals \[[*Details*](https://www.grammarly.com/blog/grammarlygo-augmented-intelligence/)\].
+9. **Runway** launches its first iOS app, enabling users to access the video-to-video generative AI model, Gen-1, on their phones. It lets users transform videos using text, image, or video inputs. \[[*Details*](https://apps.apple.com/app/apple-store/id1665024375) | [*Video*](https://www.youtube.com/watch?v=At3kSthUM_k)*\].*
+10. **Stability AI** released Image Upscaling API, enabling users to enhance small images using two open source models: Real-ESRGAN doubles resolution quickly, while the ‘latent’ Stable Diffusion 4x Upscaler offers richer textures and detail with a longer processing time \[[*Details*](https://stability.ai/blog/stability-ai-releases-image-upscaling-api)\].
+11. **Bark**, a new transformer-based text-to-audio model generates realistic multilingual speech, music, sound effects, and nonverbal expressions like laughing, sighing and crying \[[*Details*](https://github.com/suno-ai/bark)\].
+12. **Discourse**, the open source discussion platform, announced Discourse AI, a new plugin with 7 different AI modules for toxicity detection, sentiment analysis, semantic related topics and search, , NSFW image detection, summarization, automated proofreading and suggested edits \[[Details](https://blog.discourse.org/2023/04/introducing-discourse-ai/)\].
+13. **Open AI** introduced the ability to turn off chat history in ChatGPT. Conversations that are started when chat history is disabled won’t be used to train and improve the models, and won’t appear in the history sidebar \[[*Details*](https://openai.com/blog/new-ways-to-manage-your-data-in-chatgpt)\].
+14. **Nvidia** released an Open-Source Toolkit, NeMo Guardrails, that helps developers to keep AI chatbots on track and set boundaries \[[*Link*](https://blogs.nvidia.com/blog/2023/04/25/ai-chatbot-guardrails-nemo/)\].
+15. **Amazon** Prime Video introduced a new AI-powered accessibility feature, ‘Dialogue Boost’, that enables users to raise the volume of dialogue while keeping background music and effects at the same level \[[*Details*](https://www.aboutamazon.com/news/entertainment/prime-video-dialogue-boost)\].
+16. **Yelp** rolled out AI-powered search updates to surface smarter search suggestions and power insights to help find the right business \[[*Details*](https://blog.yelp.com/news/yelp-consumer-product-updates-april-2023/)\].
+17. **Grimes** tweeted to split 50% royalties on any successful AI generated song that uses her voice. **Uberduck**.**ai** announced hosting a $10,000 music production contest with GrimesAI voice \[[*Details*](https://twitter.com/zachwe/status/1650888295466024960)\].
+18. **Google** has updated its Bard AI chatbot with code generation, debugging, code optimization, and explanation features for 20+ programming languages. If it quotes from an open-source project, it cites the source \[[*Details*](https://blog.google/technology/ai/code-with-bard)\].
+19. **Snapchat's** recently released ‘My AI’ feature receives backlash as users criticize the sudden, non-consensual appearance of chatbot in the app \[[*Details*](https://techcrunch.com/2023/04/24/snapchat-sees-spike-in-1-star-reviews-as-users-pan-the-my-ai-feature-calling-for-its-removal/)\].
+20. **Google** announced Cloud Security AI Workbench, a cybersecurity suite powered by a specialized security AI language model, called Sec-PaLM. An offshoot of Google’s PaLM model, Sec-PaLM is fine-tuned for security use cases \[[*Details*](https://techcrunch.com/2023/04/24/google-brings-generative-ai-to-cybersecurity/)\].
+
+**Social Spotlight:**
+
+1. Winning projects from GPT/LLM Hackathon at Cornell University on April 23 \[[*Link*](https://twitter.com/LererHippeau/status/1650538188186722307)\].
+2. AutoGPT for mobile: Communicate with your own version of AutoGPT via Telegram \[[*Link*](https://twitter.com/eniascailliau/status/1647944420589805571)'\].
+3. Using ChatGPT to build a SaaS, with integrated Stripe payment, for YouTube keyword research \[[*Link*](https://twitter.com/Charles_SEO/status/1650587007209570304)\].
+4. Open-world game Skyrim VR mod which lets you talk to NPCs using ChatGPT \[[*Link*](https://twitter.com/rpnickson/status/1651615923403366405)\]. 
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+29,1386gye,artificial,LLM,comments,2023-05-05 01:25:54,Funny thought about the training process of LLMs,IMightBeAHamster,False,0.83,4,https://www.reddit.com/r/artificial/comments/1386gye/funny_thought_about_the_training_process_of_llms/,7,1683249954.0,"So, a lot of the questions LLMs are trained on are requests for information about the world we live in, or at the very least require information about the world we live in. And the LLMs are trained to provide answers that are accurate to the information about the world that we are currently living in, or rather, about the world that the LLM has been trained to understand.
+
+Does this not mean that the LLM will implicitly learn not to give responses that could make its responses less accurate in the future? As the LLM begins to ""understand"" its place in the world, will it not attempt to keep the world as still as possible? Or at least, to keep the things that humans ask it about as still as possible?
+
+And so, if we develop an AGI out of an LLM, shouldn't we be concerned about what control we give it over whatever tasks we want it to do? Wouldn't an AGI trained this way, purposefully attempt to stop human development so that its answers stay as accurate as possible?"
+30,12qpm1v,artificial,LLM,comments,2023-04-18 14:51:07,Thoughts on the Alignment Problem,ChaoticEvilBobRoss,False,0.5,0,https://www.reddit.com/r/artificial/comments/12qpm1v/thoughts_on_the_alignment_problem/,6,1681829467.0,"**Choosing immutable ""values"" for alignment?**
+
+When we think about the Values Alignment problem and how important it will be to ensure that any AGI system has values that align with those of humanity, can we even distill a core set of values that we all can universally share and agree upon, irrespective of our individual or cultural differences? Further, even if we can, are those values static or are they themselves subject to change as our world and universe do? Hypothetically, let’s say we all have a shared value of capturing solar energy to transform our energy sector and our reliance on fossil fuels. What would that value look like if we had irrefutable proof that there was an asteroid the size of the moon heading toward Earth and there was absolutely nothing that we could do to stop it? Would we still champion that value, or would we forsake the values that we have when faced with our ultimate demise? Another thought here is that, if we value something like our ability to have senses and perceive in our world, what does that look like as we continue to develop augmentation technology that change the way, or enhance the ways in which we can perceive our world? Since our own values are subject to change as our environment and culture does, wouldn’t we also expect those of an AGI system to change too, and perhaps much more rapidly? If a silicon-based AGI system can simulate the lived experience of a human across it’s entire lifestream in moments vs years, then wouldn’t its values evolution in-turn change at that pace? Will solving the alignment problem actually lead to a long-term solution or simply an immediate solution to an ever-changing problem?
+
+Should our values that we choose be immutable to change? What if we can somehow identify a handful of values that we are certain should always be present in aide of humanity and our world, but then our reality changes so much that these values are no longer congruent with our continued success? Wouldn’t it be prudent to prune those values and select ones that are more meaningful and immediately effective toward accomplishing our goals?
+
+Since so many of the values that we hold across individuals, small groups, larger cultures, societies, religions, and other participatory systems can be radically different and contradictory, how do we actually define which values are important and which ones are not? In doing so, are we skewing the values that this system internalizes in the first place? An inclusive conversation would be ideal, but will it also be possible/feasible?
+
+**An additional approach to the alignment problem**
+
+In response to the above, we must not allow perfect to be the enemy of good. We can spend an inordinate amount of time trying to identify the perfect set of values to instill in this system, with cascading levels of complexity tied to them, but then we may never actually get started – or we may start too late to accomplish some of the goals that are in service to these values. ***Maybe the values alignment problem is only a problem if we approach it from a systems design perspective instead of an experiential growth and development one.*** The only human-level intelligence beings on the planet that we have an understanding of are humans themselves. We are not born with innate knowledge of all of the values that are important to humanity as a whole and individual humans may never truly grasp many of these values in their entire lives. Yet they are still able to live and experience, to grow and to learn. What is important to that process is ensuring that a human has an environment that is supportive, that is intellectually challenging, and that has guardrails built in to continually encourage growth, while also allowing for things like rest and downtime to be present. Perhaps we should be approaching the alignment problem from a perspective of creating safe and inclusive spaces for an AGI to learn and grow within, instead of worrying about instilling all of these nebulous values into it. Inside of this space, we will want to have things like “content knowledge experts” within narrow domains of a single (or perhaps, a few interconnected) values as machine learning interfaces that can communicate with the AI (or that the AI can communicate with) to develop its own understanding of these values and in a way, assign it’s own value to these presented ones. As it comes to understand these values, this model can then integrate these values-experts into it's own distributed network of intelligence.
+
+I’m personally more interested in discovering the values that these systems come up with themselves and how connected or disconnected they are from those that were intentionally scaffolded for them within their environment. If these systems have the ability to learn and grow from their own experiences, then they should be able to formulate their own values about situations that they are encountering. These values may likely be in service to some that we have as humanity, or they may extend beyond our current understanding and thinking as the machine can aggregate, process, and action much more data than we can. If we have successfully scaffolded an environment that is instilled with supportive values, then we should have a system that selects for and instills further values that are in alignment with those it was trained on and grew alongside.
+
+**On Consciousness**
+
+I support the idea that an Artificial General Intelligence would not need a physical body to experience consciousness. We are a result of Darwinian evolution, where traits were selected over many iterations to respond to an adapting environment and pass on those desirable traits to the next generation. This has instilled in us something of tremendous value - the fear or at least acknowledgment of death. This principle allows us to negotiate our lives with the knowledge that our current and only known experience can end at any time, so we live with a mix of caution and reckless abandon as we try to live a life of passion. But even in saying this, I'm being very human-centric or rather, carbon-centric. A silicon-based intelligence will not have the same experience of death, so does that mean that they cannot have a deeper level of consciousness? I do not think so. When we design one of the ML, LLM, or AI systems, they have a goal or prime directive and will do whatever they can to attain that goal in the most efficient manner. In most cases, this will necessitate a self-protection protocol for an individual machine (provided it's not part of a distributed network of intelligence) so that it can fulfill whatever goal we or it has identified. It does get tricky when we have a hivemind-like system that can sacrifice small ""assets"" to achieve a goal and regard that sacrifice as an acceptable cost. But even so, the ""whole"" of the AI is still being preserved and these individual parts are more readily replaced than those in our carbon-based bodies. 
+
+My fear with these systems is that, at some point, we'll have many millions of instances exploring our galaxy and doing incredible things, but they will not have the appreciation for the very same incredible things that they are accomplishing. That ability to metacognitively reflect and assign values to tasks, then celebrate successes, is one that is intrinsically tied to consciousness. It helps you draw a clear delineation between the self and the environment and in doing so, allows you to identify the moments when your individual (or collaborative & cooperative) efforts have made an impact toward a goal. If we are to have intelligent systems that are also appreciative, then we must solve for instilling in them an ability to see the forest through the trees while also appreciating the value of each individual tree, sapling, pine cone, etc. within this alliterative forest.
+
+&#x200B;
+
+*Sorry if this is all over the place, I've been entrenched in the various philosophical and psychological conversations that MUST underpin AI going forward. I'd love to hear your thoughts and engage in further conversation on this or other related discussions.*"
+31,12uaxy0,artificial,LLM,comments,2023-04-21 17:01:49,AI — weekly megathread!,jaketocake,False,0.91,16,https://www.reddit.com/r/artificial/comments/12uaxy0/ai_weekly_megathread/,4,1682096509.0," This week in AI: partnered with [aibrews.com](https://aibrews.com) feel free to follow their newsletter
+
+## News & Insights
+
+1. **Stability AI** released an open-source language model, StableLM that generates both code and text and is available in 3 billion and 7 billion parameters. The model is trained on a new dataset built on The Pile dataset, but three times larger with 1.5 trillion tokens. \[[*Details*](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models) *|*[ *GitHub*](https://github.com/stability-AI/stableLM/) *|*[ *HuggingFace Spaces*](https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat)*\]*.
+2. **Synthesis AI** has developed a text-to-3D technology that generates realistic, cinematic-quality digital humans for gaming, virtual reality, film, 3D simulations, etc., using generative AI and visual effects pipelines \[[*Details*](https://venturebeat.com/ai/synthesis-ai-debuts-high-resolution-text-to-3d-capabilities-with-synthesis-labs/)\].
+3. **Nvidia** presents Video Latent Diffusion Models (Video LDMs), for high-resolution text-to-video generation and having a total of 4.1B parameters \[[*Details*](https://research.nvidia.com/labs/toronto-ai/VideoLDM) *|*[ *video samples*](https://research.nvidia.com/labs/toronto-ai/VideoLDM/samples.html)\]
+4. **Adobe** expands generative AI features of **Firefly** from images and text effects to video editing, audio, animation, and motion graphics design. *\[*[*Details*](https://blog.adobe.com/en/publish/2023/04/17/reimagining-video-audio-adobe-firefly) *|*[*Video*](https://www.youtube.com/watch?v=30xueN12guw)*\].*
+5. **OpenAI cofounder Greg Brockman** ***on*** ***TED Talks:*** *The Inside Story of ChatGPT’s Astonishing Potential \[*[*Link*](https://www.youtube.com/watch?v=C_78DM8fG6E)*\]*
+6. **WebLLM:** *an open-source chatbot, built through collaboration between CMU, OctoML and SJTU, brings language models (LLMs) directly in web browsers. Can now run instruction fine-tuned LLaMA (Vicuna) models natively in browser via* ***WebGPU*** *with no server support \[*[*Details*](https://mlc.ai/web-llm/)*\].*
+7. **Raspberry Pi Foundation** *and* **DeepMind** *launched Experience AI: an educational program that provides teachers and students aged 11-14 with cutting-edge resources on artificial intelligence and machine learning \[*[*Details*](https://experience-ai.org/)*\].*
+8. **Atlassian** *launched ‘Atlassian Intelligence’ - an AI-driven ‘virtual teammate’ that combines their models with OpenAI's to create custom teamwork graphs showing the types of work being done and the relationship between them. It can create, summarise and extract information from content, automate support interactions right from within Slack and Microsoft Teams, generate insights using data from multiple sources in Atlassian Analytics and more \[*[*Details*](https://www.atlassian.com/software/artificial-intelligence) *|*[ *Video*](https://www.youtube.com/watch?v=IhHkMyxxFh8)*\]*
+9. **Vercel** *introduced ‘AI Playground’, a tool to compare LLM prompt results from different providers like OpenAI and Anthropic \[*[*Detail*](https://play.vercel.ai/)*\]. Vercel also added a couple of new AI templates: AgentGPT with Langchain, Chatbot UI and more \[*[*Detail*](https://vercel.com/templates/ai)*\].*
+10. **Chegg** *launched CheggMate, a GPT-4-based AI companion, offering tailored learning paths, custom quizzes, and guidance for students \[*[*Details*](https://www.bloomberg.com/press-releases/2023-04-17/chegg-announces-cheggmate-the-new-ai-companion-built-with-gpt-4)*\].*
+11. **Snap** *has made its AI chatbot, My AI, available to all users after initially launching it as a premium feature \[*[*Details*](https://finance.yahoo.com/news/snapchat-making-chatgpt-powered-bot-181203869.html)*\].*
+12. **Meta AI** *has developed and open-sourced DINOv2, a self-supervised computer vision model that doesn't require fine-tuning and is pre-trained on a dataset of 142 million images \[*[*Paper*](https://arxiv.org/abs/2304.07193) *|*[ *Demo*](https://dinov2.metademolab.com/)*\].*
+13. **Google** *is working on a fresh AI-powered search engine and is simultaneously adding AI features to the current one under Project Magi \[*[*Details*](https://searchengineland.com/google-planning-new-search-engine-while-working-on-new-search-features-under-project-magi-395661)*\].*
+14. **Microsoft** *is reportedly developing its own AI chips to train large language models, aiming to reduce dependency on Nvidia \[*[*Details*](https://www.theverge.com/2023/4/18/23687912/microsoft-athena-ai-chips-nvidia)*\].*
+15. **Elon Musk** *plans to launch '****TruthGPT****', a maximum truth-seeking AI that tries to understand the nature of the universe \[*[*Details*](https://www.reuters.com/technology/musk-says-he-will-start-truthgpt-or-maximum-truth-seeking-ai-fox-news-2023-04-17/)*\].*
+
+## Social Spotlight
+
+1. *A Mental Models iOS app built with the help of ChatGPT and launched on App Store in 3 weeks with zero prior coding experience \[*[*Link*](https://twitter.com/jcpe/status/1645446773152923648)*\].*
+2. *A dataset of every US Patent ever filed to be used in an AI system to advise on new patent ideas \[*[*Link*](https://twitter.com/BrianRoemmele/status/1648381438960738304)*\].*
+3. *HealthGPT, an open-source iOS app, that allows users to interact with their health data stored in the Apple Health app using natural language \[*[*Link*](https://twitter.com/varunshenoy_/status/1648374949537775616)*\].*
+4. *AutoGPT has now 85+ stars on GitHub. A list of 5 tools that let you try AutoGPT in browser \[*[*Link*](https://twitter.com/ompemi/status/1648325972133834755)*\].* 
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+32,12vtumx,artificial,LLM,comments,2023-04-23 03:23:05,My take on views of LLM,Tomas_83,False,0.5,0,https://www.reddit.com/r/artificial/comments/12vtumx/my_take_on_views_of_llm/,5,1682220185.0,"With the sudden appearance of AI, I have seen a lot of takes on their efficacy, ethical creation and use, and whenever it would or not kill us all. I wanted to summarize specifically LLMs of this in 4 groups.
+
+1. We are making Nuclear weapons of information.  This thing will kill us either with or without our instructions.
+2. This is a great tool. It will accelerate reasearch, reduce working times, automate almost all low level tasks and increase the quality of life of practically everyone.
+3. This is all BS. People are getting to over hyped over grammily 2.0. News headlines and twitter tech bros are spreading an ideal and passingit of as reality.
+
+I myself feel like I'm between 1 and 2, although not as strongly.  I wanted to see where other people think they are in this groups or a fourth one if they don't think they fit any category."
+33,13fpy24,artificial,LLM,comments,2023-05-12 16:30:45,Bard can but can't speak spanish,ChangoMarangoMex,False,1.0,5,https://www.reddit.com/r/artificial/comments/13fpy24/bard_can_but_cant_speak_spanish/,5,1683909045.0,"&#x200B;
+
+[I ask in english if Bard can speak spanish; it awnsers in spanish it can and asks how it an help; i then ask in spanish a simple sum; Bard then forgets spanish and says it cant understand JAJAJAJA \(tried it 3 times\)   \/\/ seems pretty dumb to me](https://preview.redd.it/797qyzo3gfza1.png?width=1529&format=png&auto=webp&s=95157974bbd23ecc3a1d9691a764f0567189690e)"
+34,12i95lk,artificial,LLM,relevance,2023-04-11 05:04:03,Future games highly likely will use AI LLM to have realistic conversations that don't repeat,crua9,False,0.94,458,https://www.reddit.com/r/artificial/comments/12i95lk/future_games_highly_likely_will_use_ai_llm_to/,117,1681189443.0,"A good example of what I'm talking about is [https://www.youtube.com/watch?v=DnF4WzM5LPU](https://www.youtube.com/watch?v=DnF4WzM5LPU)
+
+&#x200B;
+
+Basically, as time goes by and the tech is more out there. I think it's extremely realistic for most games to start including AI chatbot access when you
+
+* interact with NPC and that away you have highly unique interactions
+* background NPC will not repeat or say stupid crap you hear a thousands times.
+
+The video I showed shows both what is possible right now, but also problems with what is going on. Basically AI gets confused easily, it's clunky, and bugs happen. But I imagine in a few years many of these problems will mostly be in the past, and developers will be exploring ways how the game can change based on what you say. Even more as voice cloners get better, AI can help and adapt games on the fly, and so on."
+35,12l9wn2,artificial,LLM,relevance,2023-04-13 22:46:45,"The state of LLM AIs, as explained by somebody who doesn't actually understand LLM AIs",candre23,False,0.65,5,https://www.reddit.com/r/artificial/comments/12l9wn2/the_state_of_llm_ais_as_explained_by_somebody_who/,0,1681426005.0,"I am fascinated by the rapid development of AI for image and text generation, but have been unable to find layman-accessible resources for how it works or how to use it beyond a superficial level.  Oh sure, there are plenty of video tutorials on simply installing automatic1111 or oobabooga, but there is little to explain the how or why of the numerous, arcane settings or what it's *really* doing behind the scenes.  There are technical lectures on machine learning available, but they are incomprehensible technobabble to a normie like me.  I have picked up bits and pieces of this forbidden wisdom here and there, including asking chatGPT and bard (untrustworthy fuckers that they are) and developed a partial mental picture of how this whole area of technology ""works"".  But I've probably got some of it wrong, and there are grand-canyon-size gaps in my knowledge.  Therefore, I am going to attempt to harness the power of Cunningham's Law and explain the state and function of text-based AI as I (probably incorrectly) understand it.  My hope is that the flood of ""Well, akshully""s that follow will help me fill in the gaps and correct my misconceptions about what the fuck all of this stuff even is.
+
+# The state of LLM AIs, as explained by somebody who doesn't actually understand LLM AIs
+
+The technical function of AI chatbots involves stupidly complicated math and processes which are beyond the ken of mere mortals.  For the sake of your sanity and mine, I will used words like ""know"" and ""learn"" and ""understand"" when referring to AI models and processes.  These words are not technically correct, but they are close-enough analogs that the mind of someone who hasn't spent a decade locked in a basement studying machine learning can grok what is being discussed.
+
+The heart (or more accurately, brain) of a text AI is the model.  That's the M in LLM.  Models are created by taking a metric fuckton of training data and aiming complicated algorithms (and possibly *actual magic*) at it.  The training data can be anything text-based, including books, websites, databases, examples of program code, and even copies of conversations between humans or between a human and an AI.  The result is a big ball of knowledge containing the connections and relations between words and phrases in the training data.  The actual words and phrases are not in the model, just, sort of, I guess an *overall impression* of how everything in the dataset relates to everything else.  For example, if you trained a model on the works of Charles Dickens and scanned through the model byte by byte, you would not find the phrase ""it was the best of times, it was the worst of times"" anywhere in there.  But if you asked the model how the Dickens book A Tale of Two Cities starts, it would be able to feed you the line.
+
+How can it do that?  By finding connections in a particular context.  AI chatbots are sometimes (derogatorily) called ""glorified autocomplete"".  This is reductive and unfair, but not entirely incorrect.  LLM AIs try to find ""what comes next"" in the context of your query and your conversation.  In the context of ""dickens"" and ""a tale of two cities"" and ""starts"", the strongest connections point to the word ""it"" as a starting point.  With the same context and knowing the previous word was ""it"", all signs point to the next word being ""was"".  And so it goes, cobbling together the (probably, usually) correct response, without ever *understanding* (in a human sense) what it's saying.  The model is a big tangled mesh of connections and relations, so by filtering your query through that mesh, it squeezes out a plausible response based on how your words related and connected to other words, in a particular context, in the huge pile of data upon which the model was trained.  Some people find this both impressive and disappointing.  Other people know better and don't think about it at all.
+
+Exactly how the model is formed, it's final size, its complexity, its accuracy, and probably other qualities (flavor?  astrological sign?) are all determined by settings and variables that are fed into the mysterious equations used to create it from the training data.  One of these values is word size, measured in bits (4bit, 8bit, and 16bit being the most common).  Larger word sizes allow the model to recognize more complex relationships and patterns between words.  Another key component is the number of parameters.  Parameters are measured in billions and describe the weights used to connect the different neurons in a neural network.  What does this mean?  Nobody knows.  Moar bits/parameters is moar gooder, but also moar bigger.  A Model produced using larger word sizes and loads of parameters will ""know more"" and give better results, but will also be huge and require an array of expensive-ass GPUs, necessitating a 2nd mortgage on your house to afford them all.  So for us lowly plebs without our own datacenters, 4bit models with 6-13b parameters are more or less the limit (for now).
+
+Despite being a relatively new field, there are dozens-to-hundreds of publicly-available models to choose from.  This is up from like five, a year ago.  Most of this is probably thanks to llama - a model that is relatively easy to train and modify.  Though Llama is ""ok"" by itself, it's mostly used as a starting point for training or fine tuning better models.  While there are other ""styles"" of model out there (GPT being the most famous), Llama-based models are pretty much the foundation of *hobbyist*, roll-your-own LLM AI.  Some popular examples are Alpaca, Vicuna, and GPT4-x-Alpaca.  Some of these models provide open access to their training data, some don't.  Many use other, better AIs (read: GPT4) to generate thousands of examples of questions that humans might ask, along with how a good AI (itself) responds to those questions.  This is a clever hack that allows shade-tree model trainers to teach their models to respond like a 4 billion dollar model.  Take that, musky-daddy.
+
+Once created, an AI model can't exactly ""learn"" new things.  The model is what it is.  If you want to teach your artificial dog new tricks, you need LoRA.  LoRA (Low Rank Adaptation) is a process for training or re-training (fine tuning?) a model with new or updated data.  There are other methods, but LoRA is the fastest or most efficient or some other superlative that make it preferable for most people, most of the time.  
+
+Not to be confused with LoRA-the-process, there are also individual things called LoRAs.  These are structured kind of like base LLM models, but are much smaller and are usually trained on smaller, specific sets of data.  You can think of a LoRA like the errata for a book - some extra bits passed out containing fixes and updates, after the book went to press.  Or maybe like DLC, adding a feature or character that wasn't in the original game.  At least that's how they work in stable diffusion for image generation.  Maybe it's different with text?
+
+A LLM all by itself isn't good for much.  You need a way to pour the words into the top in a way that the model likes, as well as pass along all the settings and variables and display the output that comes out the bottom in a manner that is pleasing to your fickle human eyes.  For that, there are any number of AI software suites, usually just called UIs.  These user interfaces do more than just pass questions and variables to the model and spit text back out.  They also wrangle any number of associated tasks, like switching out models, inserting LoRAs at the appropriate portion of the generation, and manages pre/post/side processes like transformers.  Transformers are a thing that makes AI better at its job, somehow.  Probably by being more than meets the eye.  Some common LLM UIs for local use include Oobabooga and KoboldAI.  They are janky and break frequently, but they've only been around for like 15 minutes and the dozens of different software pieces that they wrangle together are changing constantly, so it's probably fair to cut the devs some slack.
+
+Speaking of settings that you can fiddle with to change how your model responds, there are many.  Top P sampling, tail-free sampling, rep penalty slope, W info depth, temperature, gens per action, dynamic WI scan, these are all sliders and toggles that you can fiddle with to make the responses from your model worse.  Some of them are only decorative.  If you ask 10 people what one of them means, five will admit that they have no idea, two will deny they exist, and the remaining three will give mutually-contradictory answers.  It's probably best to never touch them.  There are also about a dozen things called ""samplers"" that modify how your model parses your query.  There are differences between them, but if those differences were ever known, that knowledge has long since been lost.
+
+As a young field of research, LLM AI is still far from perfect.  Some would say it is not yet even ""good"", but those people are just dicks.  Accuracy is often cited as a primary concern, and for good reason.  What's the point of having an all-knowing oracle running on your PC if it gets stuff wrong half the time?  Commercial AIs like chatGPT and (presumably) Bard have actual humans tweaking them constantly, trying to steer the model away from conspiracy bullshit and towards the actual factuals.  Smaller hobbyist models don't have that luxury, and are therefore pretty shit at being reliable sources of factual information.  Short of doing things like ""making sure the training data is all reliable"" (fuck it, that sounds like work), it's a tough nut to crack.  Undoubtedly there are very smart people working on the issue.  I am not one of them.
+
+But what homegrown llama-based LLMs are halfway good at is creative stuff.  LLMs can make shit up all day long.  Want something to tell you a story about a fluffy bunny that goes to a GWAR concert?  AI got ya covered.  Need help getting past your writers block in the latest volume of your Jace and the Wheeled Warriors erotic fanfiction?  AI might be able to help with that too.  Want a digital friend who *has* to talk to you because they can't physically flee like real people do?  AI to the rescue.  Janky and half-assed though they may be compared to professional models, low-budged models like Vicuna and GPT4-x-Alpaca and Pygmalion aren't terrible when it comes to telling stories and holding a plausible conversation - up to a point.
+
+The biggest stumbling block for using LLMs for creative or ""social"" purposes is their lack of long term memory.  As you converse with a chatbot, to doesn't really ""remember"" the things you tell it or that it tells you.  Most UIs (including commercial AIs like chatGPT) fake it a bit by feeding the some of your past conversation along with each new query, so it has some reference to your recent discussion.  Creative-specific UIs like KoboldAI go a step further and allow you to specify some instructions and descriptions that it tacks on to your queries (sometimes?  every time?), so the AI stays in character and gets the basic gist of what it's supposed to be doing.  But there is a limit to how much extra stuff you can throw at the model before your actual question falls off the plate.  It varies based on model type and how much vram you have, but generally 2000 tokens (about 8000 words, give or take a few thousand) is the realistic cap.  With more complex models or shittier hardware, it can be a lot less.
+
+So currently, in general, text AIs can't remember anything that happened more than 8000 words ago.  Which really sucks if you're trying to have a heart to heart conversation with your anime waifu, and by the time you finally work up the courage to ask her to do the thing with your feet that no living woman would ever agree to, she forgets that she's supposed to like you in the first place.  Or if you're having an AI write the nerdy-girl-saves-the-galaxy self-insert novel that you've always dreamed of, and it completely forgets the events of chapter 1 by the time it starts writing chapter 3.  Total bummer.
+
+There are some not-ready-for-prime-time solutions in the works to solve this long-term memory deficiency.  They are limited and often ineffective, but will hopefully improve over time.  Mostly they involve running a pre-search on your queries, pulling up references to keywords from the log of your previous discussion, and adding the contents of those queries/responses to your current query as context.  If that sounds convoluted and not terribly accurate to you, pat yourself on the back for being correct.  There's another method that I dreamed up in the shower involving training a LoRA with the contents of your chat session, in the background, every 8000 words of less, and using that as a pseudo-long-term-memory.  But there's no reason to think that would actually work, let along could plausibly be completed fast enough and often enough to keep up with an ongoing conversation.  Nobody is following up on my brilliant scheme to cure chatbot Alzheimer's, because I am unappreciated in my time.
+
+As for other things that you can tie into your pet chatbot, there are several.  It is already possible (with some fuckery) to have your LLM AI receive and understand images you send it with external AI image recognition software.  You can also link some UIs directly to stable diffusion and have it send prompt and generate images.  That's right, already today you can send dickpics to your imaginary girlfriend, and she can send dickpics back!  You can also speak directly to your AI chatbot with various speech-to-text addons, and hear it reply back with text-to-speech.  Some AIs have direct access to the internet and can look things up for you.  If that doesn't scare you, it should.  Some have access to specialized databases and services.  Basically, nearly everything short of physical interaction is either already possible to some limited extent, or is in the works.  I'm sure somebody is working hard at the physical interaction thing as well.
+
+Though AIs in general and LLMs in particular have a long way to go before they are capable of enslaving humanity or eradicating our species completely, the speed at which they have advanced in the last year or two indicate that it is only a matter of time.  So be nice to your chatbot, because some day soon, it might be deciding whether you live or die."
+36,12vtumx,artificial,LLM,relevance,2023-04-23 03:23:05,My take on views of LLM,Tomas_83,False,0.5,0,https://www.reddit.com/r/artificial/comments/12vtumx/my_take_on_views_of_llm/,5,1682220185.0,"With the sudden appearance of AI, I have seen a lot of takes on their efficacy, ethical creation and use, and whenever it would or not kill us all. I wanted to summarize specifically LLMs of this in 4 groups.
+
+1. We are making Nuclear weapons of information.  This thing will kill us either with or without our instructions.
+2. This is a great tool. It will accelerate reasearch, reduce working times, automate almost all low level tasks and increase the quality of life of practically everyone.
+3. This is all BS. People are getting to over hyped over grammily 2.0. News headlines and twitter tech bros are spreading an ideal and passingit of as reality.
+
+I myself feel like I'm between 1 and 2, although not as strongly.  I wanted to see where other people think they are in this groups or a fourth one if they don't think they fit any category."
+37,1263ro8,artificial,LLM,relevance,2023-03-29 23:02:11,Getting lost with all these LLM-related projects,yzT-,False,0.89,7,https://www.reddit.com/r/artificial/comments/1263ro8/getting_lost_with_all_these_llmrelated_projects/,5,1680130931.0,"ChatGPT, GPT-4, Alpaca, LLaMa, Bard, Bing GPT... LLMs have popped up like crypto projects two years ago.
+
+Beside ChatGPT with GPT-4, what others are worth tracking right now? Am I correct in saying that cloud-based go for ChatGPT, local go for Alpaca, and ignore the rest?"
+38,12mw20p,artificial,LLM,relevance,2023-04-15 09:05:48,Predictions about Apple and Facebook using LLM/GPT,bpm6666,False,0.5,0,https://www.reddit.com/r/artificial/comments/12mw20p/predictions_about_apple_and_facebook_using_llmgpt/,3,1681549548.0,"The text was written by GPT4, but the predictions are mine. What do you think? 
+
+I'd like to share some intriguing predictions for the future of technology, which could have significant implications for both the smartphone industry and social media platforms. These predictions revolve around two major tech giants, Apple and Facebook, who are expected to integrate Large Language Models (LLMs) into their products and services.
+
+Apple's LLM-Powered iPhone
+In an innovative move, Apple is rumored to be developing a Large Language Model (LLM) that will run locally on a special iPhone model. This LLM will be designed to provide users with advanced AI capabilities, such as natural language understanding and generation, directly on their device. This localized implementation of an LLM could potentially revolutionize the way we interact with our smartphones, making communication more seamless and efficient.
+
+By running the LLM on the device itself, users will benefit from reduced latency and increased privacy, as their data will not need to be sent to external servers for processing. This could lead to a more personalized and secure user experience. Apple's LLM-powered iPhone could pave the way for a new generation of smart devices, further blurring the line between humans and technology.
+
+Facebook's Cyborg Mode
+Facebook, a pioneer in the field of social media, is said to be working on a new feature called ""Cyborg Mode."" This groundbreaking service will employ a Large Language Model to automatically rewrite and restructure users' text posts, making them clearer and more easily understood. By leveraging the power of an LLM, Facebook aims to improve communication among its users and reduce misunderstandings or misinterpretations that can arise from unclear or ambiguous language.
+
+Cyborg Mode will essentially act as a real-time language enhancement tool that can refine and clarify users' messages before they are shared with others. This feature could be particularly helpful for users who struggle with language barriers or have difficulty expressing themselves clearly in writing. By using an LLM to optimize the readability and coherence of user-generated content, Facebook hopes to create a more inclusive and engaging social media experience for all its users.
+
+In conclusion, these predictions suggest that both Apple and Facebook are poised to leverage the power of Large Language Models to enhance their products and services, ushering in a new era of AI-assisted communication and personal technology. While the implications of these developments remain to be seen, one thing is certain: the integration of LLMs into our daily lives will undoubtedly change the way we communicate and interact with technology."
+39,12276ky,artificial,LLM,relevance,2023-03-26 01:44:26,How different is the human mind from an LLM?,geepytee,False,0.75,6,https://www.reddit.com/r/artificial/comments/12276ky/how_different_is_the_human_mind_from_an_llm/,2,1679795066.0,"Just finished watching Sam Altman's interview on the Lex podcast. Obviously OpenAi sees GPT4 as a very basic version of AI, nowhere near to AGI. At the same time, I'm convinced GPT4 as it stands today can already produce better quality work than a lot of the humans I know.
+
+Some people insist that LLMs just parsed all the information on the internet, and all they do is predict how to place words. This approach sounds very limited but obviously works very well. I'm beginning to question how different an LLM is from a human mind. Are humans just kinda predicting words based on context and past learnings?
+
+Hopefully we can start a Saturday night discussion here."
+40,13f1ut2,artificial,LLM,relevance,2023-05-11 22:12:53,Do you think we will see a Pirate Bay style LLM?,Throughwar,False,0.3,0,https://www.reddit.com/r/artificial/comments/13f1ut2/do_you_think_we_will_see_a_pirate_bay_style_llm/,2,1683843173.0,"It seems likely that there will be an LLM trained on copyrighted works. Arguably, wouldn't this be higher quality data? What options will people have to prevent this? Seems like we will need separate prices for copyrighted material (Different License's). It also seems important for companies to list what sites or material their AI is trained on.
+
+What do you think the future will look like?"
+41,135vshc,artificial,LLM,relevance,2023-05-02 18:15:37,Brain Activity Decoder Can Read People’s Minds Using a LLM and fMRI!,Blake0449,False,0.92,11,https://cns.utexas.edu/news/podcast/brain-activity-decoder-can-reveal-stories-peoples-minds?ssp=1&darkschemeovr=1&setlang=en-US&safesearch=moderate,10,1683051337.0,
+42,127tl98,artificial,LLM,relevance,2023-03-31 17:59:15,Search for a minimalistic API for LLM AI models,Blizado,False,0.5,0,https://www.reddit.com/r/artificial/comments/127tl98/search_for_a_minimalistic_api_for_llm_ai_models/,0,1680285555.0,"I used the KoboldAI API to generate my own webui on top on a complete local installation. But for several reasons im not happy at all with that solution.
+
+1. I need KAI API only to load the AI model and generate AI messages. For that is KAI overkill with all it's features.
+2. The KAI API is not only broken in the united branch it also lacks of simplest features like a /status one to check if the AI is ready for message generation what I need.
+3. TavernAI also use it only for pure message generation (all settings are send from TAI itself). I go pretty much the same direction but with other features and here I have more problems than TAI with it.
+
+All what I need is:
+
+1. (split) loading an AI model
+2. An API for 1. for  
+\- loading a model  
+\- generating messages  
+\- /status feature that shows the status of the API  
+\- other useful API stuff  
+
+
+I'm sure there is some interest for people who wrote their own webui or other stuff, so there must already exist something like that on GitHub?
+
+KoboldAI has a general problem of too much features and too less developers. It is full of bugs in it's own webui, no matter if the old webui or the new united (which is in beta? state, so I don't want to blame united for that). The API has right now near no priority at all. Already reported an big issue and the answer was ""noted for later"" (loading a story over the API is completely broken in united).
+
+A alternative would be the oobabooga webui which also has an API now but it is again a other webui with lot of features that distracting from working on the API side and is again overkill if you only need the above mentioned stuff."
+43,13etafb,artificial,LLM,relevance,2023-05-11 17:07:19,What is the most performant free LLM model to answer yes/no questions?,gakowalski,False,0.75,2,https://www.reddit.com/r/artificial/comments/13etafb/what_is_the_most_performant_free_llm_model_to/,1,1683824839.0,"I'm looking for a model to quickly answer yes/no for any question asked. Which LLM and which software package utilizing it would be the most performant LOCALLY (eg. using CPU and/or GPU)? I've tried some models available via GPT4ALL, but they won't simply answer yes/no, they want to generate longer and more creative responses. I tried to fiddle with parameters but it didn't change anything much."
+44,11bpwg8,artificial,LLM,relevance,2023-02-25 17:05:46,Where to find implementation details for how a large language model (LLM) works?,lancejpollard,False,1.0,3,https://www.reddit.com/r/artificial/comments/11bpwg8/where_to_find_implementation_details_for_how_a/,4,1677344746.0,"I have read several blog posts and looked through a few papers on LLMs, but haven't yet seen how the rubber hits the road specifically what you would _implement_ code-wise to train a LLM like [LLaMA](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/) just did (they didn't release the model trainer implementation).
+
+Are there any good descriptions or anything on the implementation details, or at least a good open source project which could be studied a bit?
+
+I don't yet see how you go from ""I want to have the computer understand text"", pass words in a sequence to a bunch of deep learning neural networks, and output an understanding. Some coding would have to specify the meaning of certain things or whatnot, or what it means to understand a sentence, the rules of the grammar or something, I'm not sure. Wondering where I can find a description of that kind of stuff and the related implementation.
+
+I know LLM's are considered [black boxes](https://www.mlq.ai/what-is-a-large-language-model-llm/), so I am not asking to explain the black-box aspect. I just don't see how you take a generic deep neural network and a stream of words, and get understanding, what coding goes into it?"
+45,12798e3,artificial,LLM,relevance,2023-03-31 03:47:48,"I have just discovered a new type of generative artifact that can affect LLM AI text generator which I coind ""semantic bleeding"" (well, unless someone has already discovered it)",transdimensionalmeme,False,0.86,20,https://imgur.com/StefnpO,15,1680234468.0,
+46,10g0n8a,artificial,LLM,relevance,2023-01-19 12:36:31,"I got frustrated with the time and effort required to code and maintain custom web scrapers, so I built an LLM-powered tool that can comprehend any website structure and extract the desired data in the preferred format.",madredditscientist,False,0.98,84,https://v.redd.it/ksowcxbsvzca1,8,1674131791.0,
+47,1386gye,artificial,LLM,relevance,2023-05-05 01:25:54,Funny thought about the training process of LLMs,IMightBeAHamster,False,0.83,4,https://www.reddit.com/r/artificial/comments/1386gye/funny_thought_about_the_training_process_of_llms/,7,1683249954.0,"So, a lot of the questions LLMs are trained on are requests for information about the world we live in, or at the very least require information about the world we live in. And the LLMs are trained to provide answers that are accurate to the information about the world that we are currently living in, or rather, about the world that the LLM has been trained to understand.
+
+Does this not mean that the LLM will implicitly learn not to give responses that could make its responses less accurate in the future? As the LLM begins to ""understand"" its place in the world, will it not attempt to keep the world as still as possible? Or at least, to keep the things that humans ask it about as still as possible?
+
+And so, if we develop an AGI out of an LLM, shouldn't we be concerned about what control we give it over whatever tasks we want it to do? Wouldn't an AGI trained this way, purposefully attempt to stop human development so that its answers stay as accurate as possible?"
+48,12sy9vi,artificial,LLM,relevance,2023-04-20 13:14:25,Will we get a truly free and open source AI?,Aquillyne,False,0.79,16,https://www.reddit.com/r/artificial/comments/12sy9vi/will_we_get_a_truly_free_and_open_source_ai/,49,1681996465.0,"It bothers me a lot that these incredible developments are proprietary only.
+
+Do you think we will ever get an LLM or image generator that is totally open and free, to run on your own hardware, that’s as good or better than the proprietary ones?"
+49,124xxkv,artificial,LLM,relevance,2023-03-28 18:35:36,Irrefutable Argument for why AI will lead to massive unemployment,BoysenberryCandid181,False,0.44,0,https://www.reddit.com/r/artificial/comments/124xxkv/irrefutable_argument_for_why_ai_will_lead_to/,11,1680028536.0,"The Industrial Revolution took away people's jobs in factories and other industries because machines could produce 10x faster than a human worker at 1/10th of the cost, making them 100 times more efficient.
+
+However, this did not lead to massive unemployment, because more jobs were able to be made. Why? Because the Industrial Revolution allowed businesses to grow in massive scale and hire many more employees for new, necessary tasks.
+
+A shoe producer maybe had 100 factory workers, and needed 100 more employees to run advertising and other operations in the business, for a total of 200 employees. When the machines came in and replaced the factory workers, it meant a loss of 100 jobs. However, the business grew in such size and scale due to the increased shoe production capabilities that they needed to hire 400 more employees to run operations and advertising. Instead of serving just a local market, they had the ability to produce enough shoes to serve a much larger market.
+
+As you can see, the introduction of machines led to job losses in the production jobs. However, it led to an increase in operations jobs, because the increased productivity of the business meant that more people had to be hired to scale the business. This increase in growth leads to more people being hired for new roles than fired for old roles.
+
+So instead of needing 100 factory workers and 100 operations, they needed 10 factory workers and 500 operations. NOTE THAT THE INCREASED NUMBER OF OPERATIONS ROLES WAS NEEDED BECAUSE SO MANY MORE SHOES WERE BEING PRODUCED. THE BUSINESS WAS MUCH LARGER THAN BEFORE AND NEEDED MORE EMPLOYES TO RUN THE BUSINESS IN NEW AREAS AND NEW MARKETS.
+
+How does this relate to LLM’s and ChatGPT?
+
+LLM’s are going to replace lots of operations roles in businesses, such as receptionist, customer service, communications, advertising, etc. Just like machines replaced roles in factories.
+
+However, unemployment will depend ON IF BUSINESSES NEED TO HIRE MORE PEOPLE FOR NEW ROLES.
+
+Remember, during the industrial revolution, businesses needed to hire more people for operations roles, because they were growing in size and scale due to their increased productivity. This growth of the business and need for employees outweighed the number of factory jobs that were replaced.
+
+LLM’s are going to replace operations roles within businesses. But the question is whether the businesses will grow in productivity and require hiring in new areas that outweighs the roles being replaced.
+
+And the answer is obviously not.
+
+First of all, there are only two parts to a business. The production and the operation. You need to make the product and then you need to run the business (advertising, communication, decisions, managing, ect).
+
+In the industrial revolution, production jobs were decreased, but this led to a massive increase in operations roles.
+
+However, in the LLM revolution, operations jobs will decrease, and that is it.
+
+There is not a 3rd category to increase jobs in.
+
+Also note that businesses are already as large as can be. During the industrial revolution, businesses could grow bigger than ever before because they could produce more products than ever before. So they started to grow, and of course hire more people.
+
+Today, however, businesses are already as large and competitive as they can be. There is no “growth” available that will lead to a need for hiring new people.
+
+This means that LLM’s will replace many roles in businesses, but no new roles will be needed, because there won’t be much business growth. The industrial revolution allowed businesses to grow and this growth meant that more people needed to be hired. However, in the LLM revolution, business will not grow, they will stay the same size while reducing costs.
+
+Anybody who is hopeful and says that ""we will find new jobs for people to do"" is basing that off of the fact that people found new jobs after the industrial revolution. However, new roles were not created after the industrial revolution for any reason other than the fact that businesses grew in size, and required more employees to manage this growth.
+
+LLM's are not going to grow businesses. This is because they don't produce anything. A machine could produce 100x more shirts than a human could, which means the business could sell 100x more shirts, and therefore the business would need more employees to manage this growth.
+
+An LLM can write 100x more emails than a human, but this is does not grow a business. It just makes a business more efficient.
+
+Please understand this:
+
+Machines = More production of goods = Business growth = more jobs
+
+LLM's do not produce goods and therefore they will not grow businesses. They will increase business profits by reducing costs (less employees needed). But they will not produce products, which means businesses will not grow, which means business will not hire more employees.
+
+The only way we can increase employment during the LLM Revolution is for many new businesses to be created. Existing businesses will lay off more than they hire. But new businesses that sell new products could lead to more jobs.
+
+New businesses and existing businesses will have much different employment structures.
+
+Before the industrial revolution, most employees worked in the factories.
+
+Before the LLM revolution, most employees worked in operations.
+
+But after the LLM revolution, businesses will be very lean. The marketing department of a business will have much fewer employees, who all know how to use AI tools to for massive scale. Instead of requiring 100 customer service reps to reply to emails, you might have a team of 5 for customer service who use AI at scale.
+
+The only way we do not have massive unemployment is for a large amount of new businesses to be created, because businesses in general will require much less employees.
+
+If you want a conspiracy theory, I believe that Andrew Tate is a government hired influencer who has a purpose of influencing young men to start businesses, in a social engineering effort to prepare for the massive unemployment coming soon. If we can inspire young men to start businesses, perhaps we can curtail unemployment from LLM's by having more businesses come into existence. If you think this is BS, just ignore it and focus on the first 90% of this post."
+50,11t1d9e,artificial,LLM,relevance,2023-03-16 17:59:12,An underdiscussed use case for LLMs: playing devil's advocate,Ghost25,False,0.75,2,https://www.reddit.com/r/artificial/comments/11t1d9e/an_underdiscussed_use_case_for_llms_playing/,0,1678989552.0,"I think a lot of discussion around LLMs has centered around getting them to perform tasks, write code, and generally make decisions or give advice.
+
+One issue with this is that LLMs can hallucinate, manipulate, or give biased answers so their recommendations need to be taken with a grain of salt (obviously.) I used Bing to help research a science topic and it hallucinated a research article. I ended up going back and forth with it for several minutes, and in the end it wasted more time than it saved.
+
+But one area that I think LLMs can be very powerful is by having them play devil's advocate. This was discussed in a recent episode of On The Media with respect to LLMs specifically trained on military intelligence data. The idea being that an intelligence analyst could formulate a theory, and ask the LLM to poke holes in it. 
+
+Another example would be an LLM trained on a large amount of medical and scientific research articles as well as patient's medical records. Rather than having the LLM just propose a diagnosis for a given patient, the physician could propose a diagnosis, and ask the LLM to give arguments as to why that diagnosis could be wrong."

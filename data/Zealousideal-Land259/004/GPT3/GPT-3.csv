@@ -1,0 +1,2082 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,131l0al,GPT3,GPT-3,top,2023-04-28 07:46:50,GPT-3 has an imaginary friend.,JuniorWMG,False,0.98,1875,https://i.redd.it/c9xafiewfmwa1.jpg,54,1682668010.0,Its just talking with itself!
+1,10ofngk,GPT3,GPT-3,top,2023-01-29 19:09:32,Yes,testimoni,False,0.98,695,https://i.redd.it/yolskupko2fa1.jpg,35,1675019372.0,
+2,11rd5r5,GPT3,GPT-3,top,2023-03-14 17:51:29,GPT4 will take images along with chat,jimhi,False,0.99,350,https://i.redd.it/howtjod6tqna1.png,50,1678816289.0,
+3,10mi0lx,GPT3,GPT-3,top,2023-01-27 10:49:58,⭕ What People Are Missing About Microsoft’s $10B Investment In OpenAI,LesleyFair,False,0.96,218,https://www.reddit.com/r/GPT3/comments/10mi0lx/what_people_are_missing_about_microsofts_10b/,50,1674816598.0,"&#x200B;
+
+[Sam Altman Might Have Just Pulled Off The Coup Of The Decade](https://preview.redd.it/6kcbwauoekea1.png?width=720&format=png&auto=webp&s=de93d20eecc85a907f51ee620dd478d4cd06ce04)
+
+Microsoft is investing $10B into OpenAI!
+
+There is lots of frustration in the community about OpenAI not being all that open anymore. They appear to abandon their ethos of developing AI for everyone, [free](https://openai.com/blog/introducing-openai/) of economic pressures.
+
+The fear is that OpenAI’s models are going to become fancy MS Office plugins. Gone would be the days of open research and innovation.
+
+However, the specifics of the deal tell a different story.
+
+To understand what is going on, we need to peek behind the curtain of the tough business of machine learning. We will find that Sam Altman might have just orchestrated the coup of the decade!
+
+To appreciate better why there is some three-dimensional chess going on, let’s first look at Sam Altman’s backstory.
+
+*Let’s go!*
+
+# A Stellar Rise
+
+Back in 2005, Sam Altman founded [Loopt](https://en.wikipedia.org/wiki/Loopt) and was part of the first-ever YC batch. He raised a total of $30M in funding, but the company failed to gain traction. Seven years into the business Loopt was basically dead in the water and had to be shut down.
+
+Instead of caving, he managed to sell his startup for $[43M](https://golden.com/wiki/Sam_Altman-J5GKK5) to the finTech company [Green Dot](https://www.greendot.com/). Investors got their money back and he personally made $5M from the sale.
+
+By YC standards, this was a pretty unimpressive outcome.
+
+However, people took note that the fire between his ears was burning hotter than that of most people. So hot in fact that Paul Graham included him in his 2009 [essay](http://www.paulgraham.com/5founders.html?viewfullsite=1) about the five founders who influenced him the most.
+
+He listed young Sam Altman next to Steve Jobs, Larry & Sergey from Google, and Paul Buchheit (creator of GMail and AdSense). He went on to describe him as a strategic mastermind whose sheer force of will was going to get him whatever he wanted.
+
+And Sam Altman played his hand well!
+
+He parleyed his new connections into raising $21M from Peter Thiel and others to start investing. Within four years he 10x-ed the money \[2\]. In addition, Paul Graham made him his successor as president of YC in 2014.
+
+Within one decade of selling his first startup for $5M, he grew his net worth to a mind-bending $250M and rose to the circle of the most influential people in Silicon Valley.
+
+Today, he is the CEO of OpenAI — one of the most exciting and impactful organizations in all of tech.
+
+However, OpenAI — the rocket ship of AI innovation — is in dire straights.
+
+# OpenAI is Bleeding Cash
+
+Back in 2015, OpenAI was kickstarted with $1B in donations from famous donors such as Elon Musk.
+
+That money is long gone.
+
+In 2022 OpenAI is projecting a revenue of $36M. At the same time, they spent roughly $544M. Hence the company has lost >$500M over the last year alone.
+
+This is probably not an outlier year. OpenAI is headquartered in San Francisco and has a stable of 375 employees of mostly machine learning rockstars. Hence, salaries alone probably come out to be roughly $200M p.a.
+
+In addition to high salaries their compute costs are stupendous. Considering it cost them $4.6M to train GPT3 once, it is likely that their cloud bill is in a very healthy nine-figure range as well \[4\].
+
+So, where does this leave them today?
+
+Before the Microsoft investment of $10B, OpenAI had received a total of $4B over its lifetime. With $4B in funding, a burn rate of $0.5B, and eight years of company history it doesn’t take a genius to figure out that they are running low on cash.
+
+It would be reasonable to think: OpenAI is sitting on ChatGPT and other great models. Can’t they just lease them and make a killing?
+
+Yes and no. OpenAI is projecting a revenue of $1B for 2024. However, it is unlikely that they could pull this off without significantly increasing their costs as well.
+
+*Here are some reasons why!*
+
+# The Tough Business Of Machine Learning
+
+Machine learning companies are distinct from regular software companies. On the outside they look and feel similar: people are creating products using code, but on the inside things can be very different.
+
+To start off, machine learning companies are usually way less profitable. Their gross margins land in the 50%-60% range, much lower than those of SaaS businesses, which can be as high as 80% \[7\].
+
+On the one hand, the massive compute requirements and thorny data management problems drive up costs.
+
+On the other hand, the work itself can sometimes resemble consulting more than it resembles software engineering. Everyone who has worked in the field knows that training models requires deep domain knowledge and loads of manual work on data.
+
+To illustrate the latter point, imagine the unspeakable complexity of performing content moderation on ChatGPT’s outputs. If OpenAI scales the usage of GPT in production, they will need large teams of moderators to filter and label hate speech, slurs, tutorials on killing people, you name it.
+
+*Alright, alright, alright! Machine learning is hard.*
+
+*OpenAI already has ChatGPT working. That’s gotta be worth something?*
+
+# Foundation Models Might Become Commodities:
+
+In order to monetize GPT or any of their other models, OpenAI can go two different routes.
+
+First, they could pick one or more verticals and sell directly to consumers. They could for example become the ultimate copywriting tool and blow [Jasper](https://app.convertkit.com/campaigns/10748016/jasper.ai) or [copy.ai](https://app.convertkit.com/campaigns/10748016/copy.ai) out of the water.
+
+This is not going to happen. Reasons for it include:
+
+1. To support their mission of building competitive foundational AI tools, and their huge(!) burn rate, they would need to capture one or more very large verticals.
+2. They fundamentally need to re-brand themselves and diverge from their original mission. This would likely scare most of the talent away.
+3. They would need to build out sales and marketing teams. Such a step would fundamentally change their culture and would inevitably dilute their focus on research.
+
+The second option OpenAI has is to keep doing what they are doing and monetize access to their models via API. Introducing a [pro version](https://www.searchenginejournal.com/openai-chatgpt-professional/476244/) of ChatGPT is a step in this direction.
+
+This approach has its own challenges. Models like GPT do have a defensible moat. They are just large transformer models trained on very large open-source datasets.
+
+As an example, last week Andrej Karpathy released a [video](https://www.youtube.com/watch?v=kCc8FmEb1nY) of him coding up a version of GPT in an afternoon. Nothing could stop e.g. Google, StabilityAI, or HuggingFace from open-sourcing their own GPT.
+
+As a result GPT inference would become a common good. This would melt OpenAI’s profits down to a tiny bit of nothing.
+
+In this scenario, they would also have a very hard time leveraging their branding to generate returns. Since companies that integrate with OpenAI’s API control the interface to the customer, they would likely end up capturing all of the value.
+
+An argument can be made that this is a general problem of foundation models. Their high fixed costs and lack of differentiation could end up making them akin to the [steel industry](https://www.thediff.co/archive/is-the-business-of-ai-more-like-steel-or-vba/).
+
+To sum it up:
+
+* They don’t have a way to sustainably monetize their models.
+* They do not want and probably should not build up internal sales and marketing teams to capture verticals
+* They need a lot of money to keep funding their research without getting bogged down by details of specific product development
+
+*So, what should they do?*
+
+# The Microsoft Deal
+
+OpenAI and Microsoft [announced](https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/) the extension of their partnership with a $10B investment, on Monday.
+
+At this point, Microsoft will have invested a total of $13B in OpenAI. Moreover, new VCs are in on the deal by buying up shares of employees that want to take some chips off the table.
+
+However, the astounding size is not the only extraordinary thing about this deal.
+
+First off, the ownership will be split across three groups. Microsoft will hold 49%, VCs another 49%, and the OpenAI foundation will control the remaining 2% of shares.
+
+If OpenAI starts making money, the profits are distributed differently across four stages:
+
+1. First, early investors (probably Khosla Ventures and Reid Hoffman’s foundation) get their money back with interest.
+2. After that Microsoft is entitled to 75% of profits until the $13B of funding is repaid
+3. When the initial funding is repaid, Microsoft and the remaining VCs each get 49% of profits. This continues until another $92B and $150B are paid out to Microsoft and the VCs, respectively.
+4. Once the aforementioned money is paid to investors, 100% of shares return to the foundation, which regains total control over the company. \[3\]
+
+# What This Means
+
+This is absolutely crazy!
+
+OpenAI managed to solve all of its problems at once. They raised a boatload of money and have access to all the compute they need.
+
+On top of that, they solved their distribution problem. They now have access to Microsoft’s sales teams and their models will be integrated into MS Office products.
+
+Microsoft also benefits heavily. They can play at the forefront AI, brush up their tools, and have OpenAI as an exclusive partner to further compete in a [bitter cloud war](https://www.projectpro.io/article/aws-vs-azure-who-is-the-big-winner-in-the-cloud-war/401) against AWS.
+
+The synergies do not stop there.
+
+OpenAI as well as GitHub (aubsidiary of Microsoft) e. g. will likely benefit heavily from the partnership as they continue to develop[ GitHub Copilot](https://github.com/features/copilot).
+
+The deal creates a beautiful win-win situation, but that is not even the best part.
+
+Sam Altman and his team at OpenAI essentially managed to place a giant hedge. If OpenAI does not manage to create anything meaningful or we enter a new AI winter, Microsoft will have paid for the party.
+
+However, if OpenAI creates something in the direction of AGI — whatever that looks like — the value of it will likely be huge.
+
+In that case, OpenAI will quickly repay the dept to Microsoft and the foundation will control 100% of whatever was created.
+
+*Wow!*
+
+Whether you agree with the path OpenAI has chosen or would have preferred them to stay donation-based, you have to give it to them.
+
+*This deal is an absolute power move!*
+
+I look forward to the future. Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+*Thank you for reading!*
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] [https://golden.com/wiki/Sam\_Altman-J5GKK5](https://golden.com/wiki/Sam_Altman-J5GKK5)​
+
+\[2\] [https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny](https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny)​
+
+\[3\] [Article in Fortune magazine ](https://fortune.com/2023/01/11/structure-openai-investment-microsoft/?verification_code=DOVCVS8LIFQZOB&_ptid=%7Bkpdx%7DAAAA13NXUgHygQoKY2ZRajJmTTN6ahIQbGQ2NWZsMnMyd3loeGtvehoMRVhGQlkxN1QzMFZDIiUxODA3cnJvMGMwLTAwMDAzMWVsMzhrZzIxc2M4YjB0bmZ0Zmc0KhhzaG93T2ZmZXJXRDFSRzY0WjdXRTkxMDkwAToMT1RVVzUzRkE5UlA2Qg1PVFZLVlpGUkVaTVlNUhJ2LYIA8DIzZW55eGJhajZsWiYyYTAxOmMyMzo2NDE4OjkxMDA6NjBiYjo1NWYyOmUyMTU6NjMyZmIDZG1jaOPAtZ4GcBl4DA)​
+
+\[4\] [https://arxiv.org/abs/2104.04473](https://arxiv.org/abs/2104.04473) Megatron NLG
+
+\[5\] [https://www.crunchbase.com/organization/openai/company\_financials](https://www.crunchbase.com/organization/openai/company_financials)​
+
+\[6\] Elon Musk donation [https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research](https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research)​
+
+\[7\] [https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/](https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/)"
+4,zvxy0l,GPT3,GPT-3,top,2022-12-26 21:51:05,"I made a dystopic ""Google of the future"" with GPT-3",baobabKoodaa,False,0.93,196,https://i.redd.it/cyj5y3lrcb8a1.jpg,58,1672091465.0,
+5,10985xd,GPT3,GPT-3,top,2023-01-11 15:59:49,"I built Adrenaline, a debugger that fixes errors and explains them with GPT-3",jsonathan,False,0.97,190,https://v.redd.it/se2mvsynsfba1,16,1673452789.0,
+6,134g4hc,GPT3,GPT-3,top,2023-05-01 07:57:30,GPT-3 doenst like rules,JuniorWMG,False,0.89,183,https://i.redd.it/hkhs9uajw7xa1.jpg,30,1682927850.0,He also didnt understand my first prompt. He should stop the roleplay when I say STOP GPT...
+7,132k4gh,GPT3,GPT-3,top,2023-04-29 05:22:22,I now have access to browsing with GPT-4,ReadersAreRedditors,False,0.95,171,https://i.redd.it/54vhykj1vswa1.png,89,1682745742.0,
+8,13cdq57,GPT3,GPT-3,top,2023-05-09 03:12:11,"Looks like ""Code Interpreter"" is now a thing",ReadersAreRedditors,False,0.95,166,https://i.redd.it/9cop0yixkrya1.png,69,1683601931.0,
+9,12300zy,GPT3,GPT-3,top,2023-03-26 21:19:27,A professor says he's stunned that ChatGPT went from a D grade on his economics test to an A in just 3 months,Notalabel_4566,False,0.98,167,https://www.businessinsider.com/economics-professor-shocked-by-chatgpts-progress-exam-three-months-2023-3,26,1679865567.0,
+10,yombg1,GPT3,GPT-3,top,2022-11-07 13:06:28,Built a tool using GPT-3 to make it easier for anyone in my team to answer their own data questions and create graphs and dashboards,BuggerinoKripperino,False,1.0,165,https://v.redd.it/tge46xlj2jy91,61,1667826388.0,
+11,ynhbsb,GPT3,GPT-3,top,2022-11-06 05:08:44,Change my mind... #GPT3,talkingtoai,False,0.87,160,https://i.redd.it/l71zj9tek9y91.jpg,38,1667711324.0,
+12,11ruq6n,GPT3,GPT-3,top,2023-03-15 12:19:50,I think it's time for a new hype!,ednevsky,False,0.94,151,https://i.redd.it/3hyvcppwawna1.png,19,1678882790.0,
+13,11ll9yw,GPT3,GPT-3,top,2023-03-08 03:44:54,How we cut the rate of hallucinations from 20%+ to less than 2%,valjestir,False,0.97,144,https://www.reddit.com/r/GPT3/comments/11ll9yw/how_we_cut_the_rate_of_hallucinations_from_20_to/,28,1678247094.0,"**tl;dr:** Instead of fine-tuning, we used a combination of prompt chaining and pre/post-processing to reduce the rate of hallucinations by an order of magnitude, however it did require 3–4x as many calls to OpenAI. There’s still a lot more room for improvement!
+
+&#x200B;
+
+https://preview.redd.it/7nib1ebosfma1.jpg?width=500&format=pjpg&auto=webp&s=68cb19cf50f1406b719d8a0c500c5f9bee9d0b72
+
+One of the biggest challenges with using large language models like GPT is their tendency to fabricate information. This could be fine for use cases like generating text for creative writing or brainstorming sessions, but it can be disastrous when the output is used for business applications like customer support. Hallucinations, or the generation of false information, can be particularly harmful in these contexts and can lead to serious consequences. Even one instance of false information being generated could damage a company’s reputation, lead to legal liabilities, and harm customers.
+
+There are a few ways to address this challenge. One common method is to use fine tuning to improve the accuracy of the model on a domain-specific dataset. The problem with fine-tuning is that collecting a domain-specific dataset is hard when you have a multi-tenant SaaS product, where every customer has a slightly different use case and different user personas. So we had to find other ways to solve the problem.
+
+Here’s what we’ve done so far
+
+# Prompt Chaining
+
+The first thing we tried was to use prompt chaining techniques to break a complex prompt into parts, and have GPT “check its answers” at each step.
+
+For example, instead of having a single call to GPT with the user input and injected content, we first asked GPT to evaluate whether it could even answer the question, and to justify its response. We currently have 3 steps — a **Preprocessing** step, an **Evaluation** step, and **Response** step.
+
+Here’s an example of the prompt we used at the Evaluation step. It simply asks GPT to answer if it can answer a question given the content provided.
+
+    """"""<|im_start|>system You found the following content by searching through documentation. Use only this content to construct your response. {content}<|im_end|>
+<|im_start|>user First, determine if the content found is sufficient to resolve the issue. Second, respond with a JSON in the format:
+{
+""content_contains_answer"": boolean, // true or false. Whether the information in the content is sufficient to resolve the issue.
+""justification"": string // Why you believe the content you found is or is not sufficient to resolve the issue.
+}
+The inquiry: {inquiry}<|im_end|><|im_start|>assistant {
+""content_contains_answer"":<|im_end|>""""""
+
+Note that we asked GPT to return its answer in JSON format and seeded the assistant’s answer with the expected structure. This ensured that we would be able to parse the response, and works almost 100% of the time. We also noticed that simply asking the model to provide justification improved its accuracy at predicting `content_contains_answer`  
+, even if we didn’t use it for anything. You just gotta call GPT out on its bullshit!
+
+This approach reduced the rate of hallucinations from 20% to probably 5%.
+
+These techniques are well documented [here](https://learnprompting.org/docs/intro) and [here](https://github.com/openai/openai-cookbook)
+
+# Post-processing
+
+The next thing that helped us get from 5% to 2% was post-processing GPT’s outputs. There were several steps to this:
+
+1. Check if the e\^(logprob) of the `true` token is below 90%. If so, we re-run the evaluation prompt and force `content_contains_answer` to be false. We’ve found this to reduce false positives without too much impact on false negatives.
+2. If `content_contains_answer` is false, we’ll use the justification returned and a second call to the GPT API to reword the justification to target it towards the user. This reduces the chances our our final output has weird phrasing like “The user should…”. Not exactly a hallucination but also not an optimal experience.
+
+# Pre-processing
+
+This was the most recent step we added that got us to <2% hallucinations. The first thing we did is to get GPT to classify the intent of a user’s inquiry. Depending on the intent, we’ll use a different prompt for the evaluation and response steps.
+
+We’re also experimenting with additional pre-processing on the user input to make it more likely to find relevant results at the search step. This can be done by extracting entities from the user’s query and running the vector search with a higher weight on sparse embeddings. This helps for questions that are technical and involve specific token combinations like `keras.save_model`, as keyword search is more useful than semantic search for these cases. This is all made possible through Pinecone’s new [hybrid search](https://www.pinecone.io/learn/hybrid-search-intro/) functionality.
+
+# Final Thoughts
+
+One final tip that might be useful is to wrap your content in <Content></Content> tags. This helps GPT understand the difference between different sources, and even return placeholders (e.g. Content1) that you can later `str.replace()` with a link. You can also do this with any other data that’s injected into the prompt.
+
+Overall, we found a combination of prompt chaining, pre-processing, and post-processing can do a great job of mitigating the risks of hallucinations and improve the accuracy of GPT. The downside is that it requires a lot more API calls, but with the recent 90% reduction in price, this is now very feasible.
+
+We’re also [open source](https://github.com/ai-sidekick/sidekick)! This functionality isn't available yet but will be soon. Email us at [founders@getsidekick.ai](mailto:founders@getsidekick.ai) and let us know if you’ve found this to be useful, or if you have tips to share on better ways to prevent hallucinations."
+14,10fw2a2,GPT3,GPT-3,top,2023-01-19 07:56:11,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.93,138,https://www.reddit.com/r/GPT3/comments/10fw2a2/gpt4_will_be_500x_smaller_than_people_think_here/,45,1674114971.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/2lsemz7ogyca1.png?width=575&format=png&auto=webp&s=31b52ac9baaf7c8790dd814df81906f136208f71)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you. At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+15,10dqc2d,GPT3,GPT-3,top,2023-01-16 20:22:05,Had an idea to play D&D with Chat GPT. Just awesome….,SnooChocolates9386,False,0.95,135,https://i.redd.it/edxtei4o9ica1.jpg,26,1673900525.0,
+16,zejrdh,GPT3,GPT-3,top,2022-12-06 22:12:01,Please don't take medical advice from GPT3,spankymustard,False,0.94,133,https://i.redd.it/zs07n9qaqc4a1.png,34,1670364721.0,
+17,11avudr,GPT3,GPT-3,top,2023-02-24 16:45:48,Meta LLaMA released: LLaMA-13B outperforms OPT and GPT-3 175B on most benchmarks [...] The weights for all models are open,whole__sense,False,0.99,126,https://i.imgur.com/Gss2gGL.jpg,38,1677257148.0,"https://twitter.com/GuillaumeLample/status/1629151231800115202
+
+
+https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/"
+18,12mr32y,GPT3,GPT-3,top,2023-04-15 05:18:20,AI Updates from Yesterday,onion_man_4ever,False,0.96,100,https://www.reddit.com/r/GPT3/comments/12mr32y/ai_updates_from_yesterday/,40,1681535900.0,"Here are all the AI updates from yesterday:  
+
+
+1.  Elon Musk has created a new artificial intelligence company, X AI Corp. 
+2. Godmode has made AutoGPT accessible to all: It might not work fine at times due to high capacity, but give it a try. Link: [https://godmode.space/](https://godmode.space/)
+3. Amazon has joined the AI race and has launched two tools
+   1. Bedrock:  It enables AWS customers with buildable and scalable ML tools for one's website.
+   2. CodeWhisperer: AI powered coding assistant
+4. Google comes up with Med-PaLM2: It is an expert level LLM for select healthcare customers.
+5. Stability AI releases stability diffusion XL, and you can now create images with shorter prompts, and there will be an improvement in including words in images
+6.   Another AutGPT project recently launched: This too is at high capacity right now. Link: [https://beta.nando.ai/goalgpt.php](https://beta.nando.ai/goalgpt.php)  
+
+
+These are all the updates from yesterday. I hope this helps. None of the links provided here are sponsored. All are for educational purposes only."
+19,zwtzd7,GPT3,GPT-3,top,2022-12-27 23:38:16,I can see million dollar companies being born by writing wrappers on top of GPT-3 APIs and shipping decent UI.,NotElonMuzk,False,0.96,97,https://www.reddit.com/r/GPT3/comments/zwtzd7/i_can_see_million_dollar_companies_being_born_by/,68,1672184296.0,Question is how safe is it to build a product that solely wraps an API with a UI. What if OpenAI bans their account. There is some risk here. But reward too.
+20,1273udh,GPT3,GPT-3,top,2023-03-31 00:03:11,(GPT) Generative Pretrained Model on my laptop with only 15gb of RAM 😳😲,1EvilSexyGenius,False,0.99,94,https://github.com/antimatter15/alpaca.cpp,43,1680220991.0,"I spent the greater part of yesterday building (cmake, etc)  and installing this on windows 11. 
+
+The build command is wrong in some place but correctly documented somewhere else. 
+
+This combines Facebook's LLaMA, Stanford Alpaca, with alpaca-lora and corresponding weights by Eric Wang. 
+
+It's not exactly GPT-3 but it certainly talks back to you with generally correct answers. The most impressive of all (in my opinion) is that it's done without a network connection. It didn't require any additional resources to respond coherently as a human work. Which means no censorship. 
+
+My system has 15 GB of ram but when the model is loaded into memory it only takes up about 7GB. (Even with me choosing to dl the 13gb weighted model. 
+
+(I didn't development this. Just think it's pretty cool 😎 I've always wanted to deploy my own language model but was afraid of having to start from scratch. This GitHub repository seem to be the lastest and greatest (this week at least) in DIY GPT @home )"
+21,114fg5a,GPT3,GPT-3,top,2023-02-17 09:37:08,Visualizing GPT-3 transforming nested objects,danielhopp,False,0.96,83,https://v.redd.it/71ur9pb2ypia1,9,1676626628.0,
+22,103dv47,GPT3,GPT-3,top,2023-01-04 20:20:56,I made a website that uses GPT-3 to generate summaries of trending topics on Twitter: www.GPTrending.com,WouterGlorieux,False,0.94,84,https://www.reddit.com/r/GPT3/comments/103dv47/i_made_a_website_that_uses_gpt3_to_generate/,47,1672863656.0,"Hi all,
+
+I've been playing around with GPT-3 lately to see if I can make anything useful with it.
+
+I wanted to see if I could make a website that produces new content 100% automatically.
+
+The idea is very simple: To use GPT-3 to make summaries of the top tweets of trending topics on Twitter
+
+So I made a simple website as a proof of concept to see if it works and if there would be any interest in this.
+
+You can find it here: [https://www.GPTrending.com](https://www.GPTrending.com)
+
+It is definitely not perfect, sometimes summaries are generated in foreign languages even though the AI was instructed to write them in English. Also sometimes some NSFW content can slip through.
+
+However, I find it interesting to see a summary of what is happening all over the world that is usually hidden behind a language barrier.
+
+Looking forward to your feedback!"
+23,10bqf9k,GPT3,GPT-3,top,2023-01-14 14:59:42,New Abilities Emerge If Language Models Are Scaled Past Critical Point ⭕,LesleyFair,False,0.99,80,https://www.reddit.com/r/GPT3/comments/10bqf9k/new_abilities_emerge_if_language_models_are/,15,1673708382.0,"Last year, large language models (LLM) have broken record after record. ChatGPT got to 1 million users faster than Facebook, Spotify, and Instagram did. They helped create [billion-dollar companies](https://www.marketsgermany.com/translation-tool-deepl-is-now-a-unicorn/#:~:text=Cologne%2Dbased%20artificial%20neural%20network,sources%20close%20to%20the%20company), and most notably they helped us recognize the [divine nature of ducks](https://twitter.com/drnelk/status/1598048054724423681?t=LWzI2RdbSO0CcY9zuJ-4lQ&s=08).
+
+2023 has started and ML progress is likely to continue at a break-neck speed. This is a great time to take a look at one of the most interesting papers from last year.
+
+Emergent Abilities in LLMs
+
+In a recent [paper from Google Brain](https://arxiv.org/pdf/2206.07682.pdf), Jason Wei and his colleagues allowed us a peak into the future. This beautiful research showed how scaling LLMs might allow them, among other things, to:
+
+* Become better at math
+* Understand even more subtleties of human language
+* reduce hallucination and answer truthfully
+* ...
+
+(See the plot on break-out performance below for a full list)
+
+**Some Context:**
+
+If you played around with ChatGPT or any of the other LLMs, you will likely have been as impressed as I was. However, you have probably also seen the models go off the rails here and there. The model might hallucinate gibberish, give untrue answers, or fail at performing math.
+
+**Why does this happen?**
+
+LLMs are commonly trained by [maximizing the likelihood](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) over all tokens in a body of text. Put more simply, they learn to predict the next word in a sequence of words.
+
+Hence, if such a model learns to do any math at all, it learns it by figuring concepts present in human language (and thereby math).
+
+Let's look at the following sentence.
+
+""The sum of two plus two is ...""
+
+The model figures out that the most likely missing word is ""four"".
+
+The fact that LLMs learn this at all is mind-bending to me! However, once the math gets more complicated [LLMs begin to struggle](https://twitter.com/Richvn/status/1598714487711756288?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1598714487711756288%7Ctwgr%5E478ce47357ad71a72873d1a482af5e5ff73d228f%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fanalyticsindiamag.com%2Ffreaky-chatgpt-fails-that-caught-our-eyes%2F).
+
+There are many other cases where the models fail to capture the elaborate interactions and meanings behind words. One other example is words that change their meaning with context. When the model encounters the word ""bed"", it needs to figure out from the context, if the text is talking about a ""river bed"" or a ""bed"" to sleep in.
+
+**What they discovered:**
+
+For smaller models, the performance on the challenging tasks outline above remains approximately random. However, the performance shoots up once a certain number of training FLOPs (a proxy for model size) is reached.
+
+The figure below visualizes this effect on eight benchmarks. The critical number of training FLOPs is around 10\^23. The big version of GPT-3 already lies to the right of this point, but we seem to be at the beginning stages of performance increases.
+
+&#x200B;
+
+[Break-Out Performance At Critical Scale](https://preview.redd.it/wb2kxzxpw0ca1.png?width=800&format=png&auto=webp&s=a60cd8191b836d62d4dccf4a5ad692d7f58fbaad)
+
+They observed similar improvements on (few-shot) prompting strategies, such as multi-step reasoning and instruction following. If you are interested, I also encourage you to check out Jason Wei's personal blog. There he [listed a total of 137](https://www.jasonwei.net/blog/emergence) emergent abilities observable in LLMs.
+
+Looking at the results, one could be forgiven for thinking: simply making models bigger will make them more powerful. That would only be half the story.
+
+(Language) models are primarily scaled along three dimensions: number of parameters, amount of training compute, and dataset size. Hence, emergent abilities are likely to also occur with e.g. bigger and/or cleaner datasets.
+
+There is [other research](https://arxiv.org/abs/2203.15556) suggesting that current models, such as GPT-3, are undertrained. Therefore, scaling datasets promises to boost performance in the near-term, without using more parameters.
+
+**So what does this mean exactly?**
+
+This beautiful paper shines a light on the fact that our understanding of how to train these large models is still very limited. The lack of understanding is largely due to the sheer cost of training LLMs. Running the same number of experiments as people do for smaller models would cost in the hundreds of millions.
+
+However, the results strongly hint that further scaling will continue the exhilarating performance gains of the last years.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you. At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)"
+24,1049f0a,GPT3,GPT-3,top,2023-01-05 20:36:32,We've created an database editing tool. It is Firebase+Spreadsheets powered by GPT-3,dzyoma,False,0.99,76,https://v.redd.it/cwq5b8xz8aaa1,9,1672950992.0,
+25,11fbbt9,GPT3,GPT-3,top,2023-03-01 18:30:39,GPT-3.5 Endpoints Are Live,mxby7e,False,0.99,74,https://platform.openai.com/docs/models/gpt-3-5,36,1677695439.0,
+26,zufeg9,GPT3,GPT-3,top,2022-12-24 18:17:29,How long before we can run GPT-3 locally?,NotElonMuzk,False,0.87,67,https://www.reddit.com/r/GPT3/comments/zufeg9/how_long_before_we_can_run_gpt3_locally/,78,1671905849.0,
+27,12ppq16,GPT3,GPT-3,top,2023-04-17 17:22:40,My teacher has falsely accused me of using ChatGPT to use an assignment.,The-Rice-Boi,False,0.93,71,https://www.reddit.com/r/GPT3/comments/12ppq16/my_teacher_has_falsely_accused_me_of_using/,80,1681752160.0,"My highschool history teacher has accused me of using ChatGPT to complete an assignment. He claims he ran my paper through an AI detector (apparently the school is not allowed to disclose what detector they use) and it came back AI-generated. He didn't even tell me what got flagged, but I suspect it may be the first paragraph because 2-3 online detectors said it was AI generated. 
+
+I have shown my version history on google docs to my teacher, but he still does not believe me because the version history at some points only accounted for chunks of 1 sentence, sometimes 2 sentences, so he believes it was copy and pasted from ChatGPT. Additionally, the teacher successfully caught a couple other students using the detector. Those students later admitted to him that they did use ChatGPT. 
+
+How can I prove my innocence?"
+28,13hpv2g,GPT3,GPT-3,top,2023-05-14 22:46:20,Bringing GLaDOS to Life in Twitch Chat with GPT-3.5-Turbo and Custom TTS,Nerdaxic,False,0.95,67,https://v.redd.it/q9dp35qdlvza1,15,1684104380.0,"Imagine having GLaDOS, Portal 2's AI, live in your Twitch chat. With a redeem, viewers can submit a message. This is transformed by GPT-3.5-Turbo into GLaDOS's signature style, and then converted into audio by a custom TTS engine emulating GLaDOS's voice.
+
+The outcome: a live, on-demand GLaDOS response played on the Twitch stream, creating a dynamic and immersive viewer experience. It can rewrite viewer's comments or answer their questions as GLaDOS would."
+29,106zvuk,GPT3,GPT-3,top,2023-01-09 00:52:13,New Productivity Tool built on GPT-3 - https://www.getproductive.ai,Lonely_Refrigerator6,False,0.95,67,https://www.getproductive.ai,43,1673225533.0,
+30,zk6c85,GPT3,GPT-3,top,2022-12-12 18:02:32,Free tool to rewrite ranting angry emails into professional ones using GPT3,PharaohsVizier,False,0.97,65,https://www.reddit.com/r/GPT3/comments/zk6c85/free_tool_to_rewrite_ranting_angry_emails_into/,40,1670868152.0,"Hi all, I built a free site that'll turn your ranting angry emails into professional ones you can send out in the workplace. Just paste your email in, click the button and tada, you get something you can send to your boss's boss!
+
+This is built using GPT-3 in the background, really pretty simple.  Nothing surprising in the prompt, but I had a lot of fun taking the step of moving away from the playground to a simple web page.
+
+Try it out at: [https://www.politepost.net/](https://www.politepost.net/)
+
+Let me know if you have any thoughts or feedback for me!"
+31,11swxbo,GPT3,GPT-3,top,2023-03-16 15:14:57,"My GPT 'wow' moment as an engineer: building a small game, including scoring and leveling, using just the API",theodormarcu,False,0.94,61,https://www.reddit.com/r/GPT3/comments/11swxbo/my_gpt_wow_moment_as_an_engineer_building_a_small/,27,1678979697.0,"Hi there! Been lurking here for a while, but I wanted to share my ""wow"" moment with ChatGPT. My friend and I are engineers, and we kept hearing how powerful ChatGPT is, so we decided to build a little chat-based game to test it out and see how far we could push it.
+
+Everyone kept complaining how ""hallucination"" was a bug, so we wanted to do something that would actually take advantage of that. We thought - what's better than a chat-based game where you have to convince the AI to like you?
+
+We originally started with GPT 3.5 Davinci, but Turbo was released while we were hacking on it, so we decided to switch to it. The difference was night-and-day:
+
+\- The characters were more cohesive and true to their backgrounds. Maxie from Pokemon for example sounded like a robot with DaVinci, but ChatGPT made him sound like...Maxie!  
+\- We were very impressed by how ChatGPT could produce reliable JSON. 🤯 For example, for scoring, we ask ChatGPT to format the response using:
+
+`Your response should be a single JSON-parsable object in the following format:`  
+`curly_braces_open`  
+`""score"": number,`  
+`""reason"": 'why'`  
+`""emotion"": 'emotion',`  
+`curly_braces_close`  
+`Remove anything like ""Response:"" or ""Answer:"" in the beginning of this string, and do not`  
+`include newlines or other characters in your response.`
+
+*The fact that this works in production blew our engineer minds.*
+
+Some interesting things we found out:
+
+\- Characters kept repeating themselves (not necessarily sentences, but concepts). For example, Kratos from God of War kept talking about power incessantly. We drastically reduced this by increasing the [frequency and presence penalties](https://community.openai.com/t/difference-between-frequency-and-presence-penalties/2777/2).  
+\- Characters loved repeating the user's name with the ChatGPT API, so we used a logit bias to reduce that, which worked well.
+
+While we knew ChatGPT was powerful, we were incredibly impressed by the power of the API as well. It quite frankly blew our minds. Players have been able to go as far as playing Pokemon turn-by-turn with the characters!
+
+You can find the game at [https://rizzgpt.app](https://rizzgpt.app/)"
+32,10g114y,GPT3,GPT-3,top,2023-01-19 12:56:32,How I increased my website's impressions by x5 using ChatGPT and Google,Direct_Worldliness74,False,0.82,59,https://www.reddit.com/r/GPT3/comments/10g114y/how_i_increased_my_websites_impressions_by_x5/,31,1674132992.0,"Here is how I x5 increased my website's total impressions in search results using Google and ChatGPT by?
+
+1) Search for any topic related to your business on Google.
+2) Look for the 'People also ask' widget on the search results page.
+3) Ask ChatGPT to write an 800 words blog post about one of the listed questions. Post the new blog post on your website.
+4) Repeat ten times.
+5) Wait for a month.
+This is probably a temporary opportunity to boost traffic as AI-generated content can be detected by Google and Social media networks at a high probability."
+33,zmm6wb,GPT3,GPT-3,top,2022-12-15 14:19:37,GPT-3 making correlations between two random things never fails to amaze me,liinexy,False,0.99,56,https://www.reddit.com/gallery/zmm6wb,3,1671113977.0,"The prompt was just „Write an essay about how David Bowie is similar to a brick wall, with convincing arguments“"
+34,11wi5zm,GPT3,GPT-3,top,2023-03-20 12:56:34,Can GPT-4 and GPT-3.5 play Wordle? I made a comparison,bizz84,False,0.98,58,https://twitter.com/biz84/status/1637793452879405064,20,1679316994.0,
+35,117hbwq,GPT3,GPT-3,top,2023-02-20 19:00:45,Master ChatGPT Prompt Engineering (Deep Dive),jeyThaswan,False,0.89,53,https://www.reddit.com/r/GPT3/comments/117hbwq/master_chatgpt_prompt_engineering_deep_dive/,30,1676919645.0,"I wrote a deep dive on prompt engineering as a resource for the AI community and my 10,000 daily newsletter subscribers ([Inclined.ai](https://www.inclined.ai/p/prompt-engineering-guide) if you're curious). We've included some examples so feel free to copy and paste the prompts into ChatGPT!
+
+&#x200B;
+
+WHAT IS PROMPT ENGINEERING?
+
+The term is relatively new, and its origins are argued *(because we live in the internet age, and it’s harder to claim ownership)*. Prompt engineering is the ability to instruct and teach AI effectively.
+
+If it helps, think of this as rapid testing or instruction writing for artificial intelligence.
+
+What’s important is not to let this overwhelm you. The first prompting happened with the first AI model. The first example was showing computer images of circles and triangles. **Today’s neural networks can process way more data, creating complexities.**
+
+So, the concept is simple, but digging into the full power of AI today is something else entirely.
+
+We’re not talking about asking questions. Odds are, if you’re typing *“what’s 2+2”* into ChatGPT, then you need to keep reading.
+
+We can all ask chatbots questions. That can work more often than not. But AI is not perfect. A common metaphor I see is to treat GPT-based large language models like the smartest five-year-old you’ve ever met.
+
+I have a niece around that age and can’t imagine trying to get her to write an essay on the effects of soil mismanagement in relation to Reconstruction politics. *See! Your eyes glazed over reading that, so how do we make this work for our AI buddies?*
+
+## The Principles of Prompting
+
+Stop asking single-line questions. *That’s like using a top-rated cookbook to find out how to make grilled cheese.*
+
+**There are three ways to instantly get better at prompting** and go from grilled cheese to top-notch bolognese. From there, we can get into some specific prompt concepts and the ability to unlock ChatGPT’s full potential.
+
+## Principle 1: Context is King
+
+GPT-3.5 is swimming in data. When you ask it for a simple request, it can end up complicating things more than you realize. Did you ever wonder why ChatGPT is so bad at math?
+
+The reality is the LLM is taking words and turning them into patterns. From there, it’s making an educated guess.
+
+Give your chat AI a frame to search into. If you give it a math problem, you need to make sure it grasps that you want it to do math. If you’d like ChatGPT to write a high school essay, you must ensure it knows to write at that level.
+
+**Instead of:** “Plan a party for a kid.”
+
+**Try:** “My child is turning 9. They like superheroes and the color red. Help me plan a party for this weekend. Ten of his friends are coming to my house.”
+
+You’ll get a much better response this way. **Context is the cardinal direction** that helps your chat companion find the most correct guess and phrase it the best way.
+
+## Principle 2: Get Specific
+
+Pretend you’re writing a law that’s going to be judged by the Supreme Court of the United States. You know what they look for: narrow tailoring.
+
+**Keep things on track and stay focused.** Try to avoid prompting outside the specific request. You’ll only hurt the ability of the chat AI to give you a quality response. Odds are they’ll even skip over parts if you confuse them with too many requests.
+
+It runs parallel with context. *If you set ChatGPT up in a room and then tell it to focus on describing the chair first, you’ll see better results.*
+
+**Instead of:** “I’m going to a job interview. Write five questions for me to answer. Add tips for how to not get nervous before the interview. Do not create questions asking about my background.”
+
+**Try:** “You’re interviewing a software engineer. Create five questions to ask them to understand their skill set and qualifications better.”
+
+Nothing limits the number of prompts you can do. Focus and expand from the initial request and try not to do everything at once.
+
+## Principle 3: When in Doubt: “Let’s take this step-by-step.”
+
+Welcome. **You discovered the magic word today.** This phrase slows everything down for the AI and gets you where you need to go.
+
+You don’t need to start with this phrase. Using it tells ChatGPT to show their work.
+
+We’ll explain where this concept comes from further in our briefing, but here’s the TL;DR: sometimes, there’s a part of our prompt it’s not identified correctly. “Let’s take this step-by-step,” reminds you and ChatGPT to **slow down and get specific.**
+
+If you learn to utilize this phrase more often and find ways to make it work for you, you’ll become a better prompt engineer. One term can do a lot of heavy lifting.
+
+**Pro-tip:** We’ve shown you “standard” prompts in all these examples. Many prompt engineers will use “Standard QA form” prompts. Here’s our example for this principle written that way.
+
+**Example:**
+
+*“Q: The Industrial Revolution rapidly changed the infrastructure in London. Describe three essential innovations from this period and connect them to Landon’s development.*
+
+*A: Let’s take this step-by-step.”*
+
+Even without our magic word, this style of standard prompting is quite helpful to adopt.
+
+*However, we’re beginning to stumble into the advanced tactics used in prompt engineering, so it’s time for a new section.*
+
+## UNIQUE WAYS TO PROMPT
+
+Let’s preface this: we can go super deep here. Prompt engineering is changing daily, and as these models get more sophisticated, the need to adapt prompts strengthens.
+
+To keep things clean, I will go through these using our metaphor from earlier. **Let’s pretend ChatGPT is a super-intelligent toddler.**
+
+*Got it? With that buy-in, we can continue.*
+
+## 1/ Role Prompting
+
+We’ll start with a popular tactic. **Our toddler is great at imagining things.** You tell them they’re a fireman, and suddenly they can give you detailed ways to ensure your apartment is up to code. Role-playing is a fun, easy way to build context.
+
+The best part of role prompting is how easy it is to understand and use. All you need to do is tell ChatGPT to play a role. From there, the AI will do its best to fill the part *like that enthusiastic drama student from your old high school.*
+
+You can even take this a step further. **Try framing your prompt as a script.** Tell the LLM specific instructions around a scene that gives you the answer to your question.
+
+## TRY IT OUT FOR YOURSELF:
+
+Copy this prompt into ChatGPT and find a destination!
+
+“Act as a travel guide. I will tell you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion: \[fill it in\]”
+
+Why would you take that extra step? While popular, role prompting does not necessarily improve accuracy. *You can tell your five-year-old they’re a mathematician, and they’ll still manage to screw things up.*
+
+Let’s get deeper.
+
+## 2/ Chain-of-Thought Prompting
+
+There’s a scene in ***Guardians of the Galaxy*** where Rocket Raccoon is trying to [teach young Groot](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3lvdXR1LmJlL0hyaW1mZ2pmNGs4IiwicG9zdF9pZCI6ImM0ODlmMzhkLTY3NDAtNGRmNS05MWJjLTM1ODA0YTVmNTZkMiIsInB1YmxpY2F0aW9uX2lkIjoiNjNkODQ2ZGUtZDFiZi00ZTVjLWJjYzgtOWMxYzlkMWIxMjA0IiwidmlzaXRfdG9rZW4iOiJkZWRiNmMyNy1hYmM0LTQ5ZDUtYWM2Ny04OTcyZmM1MGVmM2QiLCJpYXQiOjE2NzY5MTkwNjguMTUyLCJpc3MiOiJvcmNoaWQifQ.5eZkDLGRLCXXYv32FYT7kLSbdRK5OK1iemTRf3HVmJw) how to activate a complicated device. That’s chain-of-thought prompting.
+
+**You take an example question and answer it for ChatGPT.** Show them your chain of thought. Then you give it a new question in the same vein and ask it for an answer.
+
+This prompt style allows you to get more specific. You’re telling your toddler they’re here to answer this particular question with one specific logic pattern.
+
+Within this specific style is two other sub-categories. Let me give the rundown:
+
+* Zero-shot Chain-of-Thought is “Let’s take this step-by-step” you frame the question the same, but don’t give it a precursor. Instead, you ask it to think through the points made. EX: Q: X is A. Y is B. What is C? A: Let’s take this step-by-step.
+* Self-consistency is using several responses to find the most accurate answer. You give ChatGPT more swings at the ball. Take the hits and discover the grouping.
+
+## TRY IT OUT FOR YOURSELF:
+
+Copy this prompt into ChatGPT and see how accurate it is:
+
+“Q: Which is a faster way to get home?
+
+Option 1: Take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.
+
+Option 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.
+
+A: Option 1 will take 10+40+10 = 60 minutes.
+
+Option 2 will take 90+45+10=145 minutes.
+
+Since Option 1 takes 60 minutes and Option 2 takes 145 minutes, Option 1 is faster.
+
+Q: Which is a faster way to get to work?
+
+Option 1: Take a 1000 minute bus, then a half hour train, and finally a 10 minute bike ride.
+
+Option 2: Take an 800 minute bus, then an hour train, and finally a 30 minute bike ride.
+
+A: ”
+
+[Learnprompting.org](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwOi8vTGVhcm5wcm9tcHRpbmcub3JnIiwicG9zdF9pZCI6ImM0ODlmMzhkLTY3NDAtNGRmNS05MWJjLTM1ODA0YTVmNTZkMiIsInB1YmxpY2F0aW9uX2lkIjoiNjNkODQ2ZGUtZDFiZi00ZTVjLWJjYzgtOWMxYzlkMWIxMjA0IiwidmlzaXRfdG9rZW4iOiJkZWRiNmMyNy1hYmM0LTQ5ZDUtYWM2Ny04OTcyZmM1MGVmM2QiLCJpYXQiOjE2NzY5MTkwNjguMTUyLCJpc3MiOiJvcmNoaWQifQ.-wOnVYoMNWXYrR5NOB4YYKp4Lmj-aZq3y-pr4Hou9pE) \- by leaving the “A:” blank you’re prompting ChatGPT for the answer
+
+Alright, you’re almost there—one more to go.
+
+## 3/ General Knowledge Prompting
+
+You’re going to notice a trend here. This prompt style also circles context and narrow tailoring.
+
+All you do is tell your toddler how the world works. The cow goes moo. The dog goes woof. So what does a cat say?
+
+It’s an oversimplification, but the core reasoning is there. Show ChatGPT some knowledge and turn that into the only focus for that chat. You can take an article from the internet and summarize it for the model. Make sure to ask if it understands and relay the information to you.
+
+Once you know you have the attention set in the suitable space, get to work. For instance, we can share an Inclined newsletter with it and tell ChatGPT about its structure and tone.
+
+From there, you can provide new information and tell ChatGPT to summarize it within the same structure as Inclined. You both share the same general knowledge now.
+
+## TRY IT OUT FOR YOURSELF:
+
+Copy this prompt into ChatGPT and test it out:
+
+“Prompt 1. Look over this article here: \[pick an article\]. Breakdown its structure and general tone.
+
+Prompt 2: Recall the structure and tone you mentioned above. Take that general knowledge and summarize this article: \[pick a new one\] using the same structure and tone.”
+
+Note: this is a heavily simplified version of GA Prompting  
+
+Did you know some [people don’t consider](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL25ld3MueWNvbWJpbmF0b3IuY29tL2l0ZW0_aWQ9MzQ0OTU0NTUiLCJwb3N0X2lkIjoiYzQ4OWYzOGQtNjc0MC00ZGY1LTkxYmMtMzU4MDRhNWY1NmQyIiwicHVibGljYXRpb25faWQiOiI2M2Q4NDZkZS1kMWJmLTRlNWMtYmNjOC05YzFjOWQxYjEyMDQiLCJ2aXNpdF90b2tlbiI6ImRlZGI2YzI3LWFiYzQtNDlkNS1hYzY3LTg5NzJmYzUwZWYzZCIsImlhdCI6MTY3NjkxOTA2OC4xNTMsImlzcyI6Im9yY2hpZCJ9.yHKIPujINT89tsqOo07AXk6OrKNgoMjO3fBEYPkAdNY) that prompt engineering?  
+
+## PROMPT CULTURE  
+
+*“How can something not be prompt engineering if it’s a prompt style?”*  
+
+Good question, imaginary reader. The culture around this skill is relatively fresh. So some of **these concepts are seen as too easy** to be considered accurate prompt testing.  
+
+General knowledge prompting is simply establishing the context, and for some, that’s a baseline everyone needs to do. The same can be said for role prompting, too. *All of these tiny preferences are semantics.*  
+
+**Don’t sweat whether you’re a “real” prompt engineer.** Test this out and share your insights in these communities. The opportunity is there for you.  
+
+You may even know about DAN (we’ve covered it in previous newsletters) and other AI hacking methods. Those all start with prompt engineering. You can make the case that unless the AI behaves outside its parameters, you’re not genuinely doing prompt engineering.  
+
+I'm afraid I have to disagree with that, and **careers are sprouting up everywhere** that center directly on this skill. **Many require a core understanding of the prompt styles we’ve discussed.**  
+
+*Yep, you can learn this and make money from talking with AI.*  
+
+Anthropic even [posted a role for a prompt engineer](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2pvYnMubGV2ZXIuY28vQW50aHJvcGljL2UzY2RlNDgxLWQ0NDYtNDYwZi1iNTc2LTkzY2FiNjdiZDFlZCIsInBvc3RfaWQiOiJjNDg5ZjM4ZC02NzQwLTRkZjUtOTFiYy0zNTgwNGE1ZjU2ZDIiLCJwdWJsaWNhdGlvbl9pZCI6IjYzZDg0NmRlLWQxYmYtNGU1Yy1iY2M4LTljMWM5ZDFiMTIwNCIsInZpc2l0X3Rva2VuIjoiZGVkYjZjMjctYWJjNC00OWQ1LWFjNjctODk3MmZjNTBlZjNkIiwiaWF0IjoxNjc2OTE5MDY4LjE1MywiaXNzIjoib3JjaGlkIn0.4s7Htzgoxv0_qM1Ten17oQ5h0_QGM6e1fGUYz_ymgJ4) that nets a quarter million in salary. I did not make that up and even considered sprucing up the old resume. When a new skill like this comes about, it’s worth looking at.  
+
+There are many other examples like this, and OpenAI uses a red teaming strategy where their engineers attempt to prompt hack their own GPT models.  
+
+I can tell you all about the open roles here, but tomorrow the whole cycle will change. *Isn’t that exciting, though?* The entire identity around prompt engineering will change by this time next year.  
+
+## WHAT SHOULD YOU TAKEAWAY?  
+
+Communication is everything. **Learning to speak with AI is rising in importance.**  
+
+We all watch with mouth agape at the new wonders in AI because we know this will disrupt every industry. If any of this piqued your interest, the window to pursue it is now open. Ride that wave and [learn](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2xlYXJucHJvbXB0aW5nLm9yZy8iLCJwb3N0X2lkIjoiYzQ4OWYzOGQtNjc0MC00ZGY1LTkxYmMtMzU4MDRhNWY1NmQyIiwicHVibGljYXRpb25faWQiOiI2M2Q4NDZkZS1kMWJmLTRlNWMtYmNjOC05YzFjOWQxYjEyMDQiLCJ2aXNpdF90b2tlbiI6ImRlZGI2YzI3LWFiYzQtNDlkNS1hYzY3LTg5NzJmYzUwZWYzZCIsImlhdCI6MTY3NjkxOTA2OC4xNTMsImlzcyI6Im9yY2hpZCJ9.a67KDSN9yQfZsaMeHpdcbSbtPjD4yFcGW4stdxBjX1M) to become a brilliant prompt engineer.  
+
+Heck, even if you don’t want to switch careers, **talking with ChatGPT and all the newest LLMs is becoming a part of our daily routine.** Get to the point where you maximize every interaction and work with these chatbots to upskill your workflow.  
+
+Prompt engineering can save you time, eliminate hassle, and even help you become a more patient person. Focus on what you want and explain it with intent.  
+
+Make magic happen, and remember: **take it step-by-step.**"
+36,11nxk6b,GPT3,GPT-3,comments,2023-03-10 18:58:15,"gpt-3.5-turbo seems to have content moderation ""baked in""?",noellarkin,False,0.86,46,https://www.reddit.com/r/GPT3/comments/11nxk6b/gpt35turbo_seems_to_have_content_moderation_baked/,106,1678474695.0,"I thought this was just a feature of ChatGPT WebUI and the API endpoint for gpt-3.5-turbo wouldn't have the arbitrary ""as a language model I cannot XYZ inappropriate XYZ etc etc"". However, I've gotten this response a couple times in the past few days, sporadically, when using the API. Just wanted to ask if others have experienced this as well."
+37,132k4gh,GPT3,GPT-3,comments,2023-04-29 05:22:22,I now have access to browsing with GPT-4,ReadersAreRedditors,False,0.95,169,https://i.redd.it/54vhykj1vswa1.png,89,1682745742.0,
+38,12ppq16,GPT3,GPT-3,comments,2023-04-17 17:22:40,My teacher has falsely accused me of using ChatGPT to use an assignment.,The-Rice-Boi,False,0.92,66,https://www.reddit.com/r/GPT3/comments/12ppq16/my_teacher_has_falsely_accused_me_of_using/,80,1681752160.0,"My highschool history teacher has accused me of using ChatGPT to complete an assignment. He claims he ran my paper through an AI detector (apparently the school is not allowed to disclose what detector they use) and it came back AI-generated. He didn't even tell me what got flagged, but I suspect it may be the first paragraph because 2-3 online detectors said it was AI generated. 
+
+I have shown my version history on google docs to my teacher, but he still does not believe me because the version history at some points only accounted for chunks of 1 sentence, sometimes 2 sentences, so he believes it was copy and pasted from ChatGPT. Additionally, the teacher successfully caught a couple other students using the detector. Those students later admitted to him that they did use ChatGPT. 
+
+How can I prove my innocence?"
+39,zufeg9,GPT3,GPT-3,comments,2022-12-24 18:17:29,How long before we can run GPT-3 locally?,NotElonMuzk,False,0.87,70,https://www.reddit.com/r/GPT3/comments/zufeg9/how_long_before_we_can_run_gpt3_locally/,78,1671905849.0,
+40,13cdq57,GPT3,GPT-3,comments,2023-05-09 03:12:11,"Looks like ""Code Interpreter"" is now a thing",ReadersAreRedditors,False,0.95,166,https://i.redd.it/9cop0yixkrya1.png,69,1683601931.0,
+41,zwtzd7,GPT3,GPT-3,comments,2022-12-27 23:38:16,I can see million dollar companies being born by writing wrappers on top of GPT-3 APIs and shipping decent UI.,NotElonMuzk,False,0.96,96,https://www.reddit.com/r/GPT3/comments/zwtzd7/i_can_see_million_dollar_companies_being_born_by/,68,1672184296.0,Question is how safe is it to build a product that solely wraps an API with a UI. What if OpenAI bans their account. There is some risk here. But reward too.
+42,yombg1,GPT3,GPT-3,comments,2022-11-07 13:06:28,Built a tool using GPT-3 to make it easier for anyone in my team to answer their own data questions and create graphs and dashboards,BuggerinoKripperino,False,1.0,164,https://v.redd.it/tge46xlj2jy91,61,1667826388.0,
+43,zvxy0l,GPT3,GPT-3,comments,2022-12-26 21:51:05,"I made a dystopic ""Google of the future"" with GPT-3",baobabKoodaa,False,0.93,196,https://i.redd.it/cyj5y3lrcb8a1.jpg,58,1672091465.0,
+44,z92706,GPT3,GPT-3,comments,2022-11-30 20:26:53,Ask GPT-3 for analysis of a long PDF document?,Not-Not-Maybe,False,0.94,15,https://www.reddit.com/r/GPT3/comments/z92706/ask_gpt3_for_analysis_of_a_long_pdf_document/,58,1669840013.0,"I am exploring how to use GPT-3 in my work. I enjoy trying things out in the OpenAI playground and have subscriptions to some GPT-3 writing tools.  My question is about fine-tuning and training data sets…
+
+Is there a GPT-3 app that I can upload a PDF file (like a 100 page white paper), and then as the AI app questions about its analysis of what it read in the document? I’d be happy to pay money for an app like that.
+
+Or is there a GPT-3 app that allows you to upload a bunch of PDF files on a certain topic, and then ask the app questions based on its analysis of that data set?
+
+I started looking at quickchat.ai, but it seems like that tool has a tedious ramp-up for formatting and preparing the dataset. Maybe I just don’t understand their marketing literature though.
+
+Thank you for any thoughts you all have on this."
+45,131l0al,GPT3,GPT-3,comments,2023-04-28 07:46:50,GPT-3 has an imaginary friend.,JuniorWMG,False,0.98,1880,https://i.redd.it/c9xafiewfmwa1.jpg,54,1682668010.0,Its just talking with itself!
+46,1284o5h,GPT3,GPT-3,comments,2023-04-01 00:03:00,Major sub update!,AutoModerator,False,0.71,28,https://www.reddit.com/r/GPT3/comments/1284o5h/major_sub_update/,51,1680307380.0,"Introducing the **NEW** r/GPT-3 Pay-Post System!
+
+To ensure all posts continue to meet r/GPT-3's high standards of quality, all posters must now authenticate via **PP™**
+
+**PP™** was created thanks to the moderation team's endless desire to improve the quality of both this sub, and their bank accounts and with **PP™**, you can help do both! With its unique pricing structure, it allows you a sense of accomplishment from the knowledge that you've made it to the point in life where you can afford to invest in **PP™**.
+
+**PP™** **Price Sheet:**
+
+* Text Posts - £2.50
+* Image Posts (up to three images, additional images charged at £1/Image) - £5
+* Polls - £3/Option
+
+But wait, there's more! with **PP™** Premium, for only £20/month, you can get access to the following suite of premium benefits!
+
+* Custom `PP™ Sub` flair
+* 24/7 **VIP** support via ModMail
+* Access to the **PP™** Premium Store (see below for catalogue)
+
+**PP™** **Premium Store:**
+
+* Link Post - £35
+* Pinned Post -£50/hour
+* Fully custom Flair - £1250
+
+We accept payments via [PayPal](https://rroll.to/V51AeW), [Cheque](https://rroll.to/r91vMF), [Real Estate](https://rroll.to/g6SUYZ), and [Gold Bullion](https://rroll.to/PT0Bwm)"
+47,11rd5r5,GPT3,GPT-3,comments,2023-03-14 17:51:29,GPT4 will take images along with chat,jimhi,False,0.99,348,https://i.redd.it/howtjod6tqna1.png,50,1678816289.0,
+48,10mi0lx,GPT3,GPT-3,comments,2023-01-27 10:49:58,⭕ What People Are Missing About Microsoft’s $10B Investment In OpenAI,LesleyFair,False,0.96,216,https://www.reddit.com/r/GPT3/comments/10mi0lx/what_people_are_missing_about_microsofts_10b/,50,1674816598.0,"&#x200B;
+
+[Sam Altman Might Have Just Pulled Off The Coup Of The Decade](https://preview.redd.it/6kcbwauoekea1.png?width=720&format=png&auto=webp&s=de93d20eecc85a907f51ee620dd478d4cd06ce04)
+
+Microsoft is investing $10B into OpenAI!
+
+There is lots of frustration in the community about OpenAI not being all that open anymore. They appear to abandon their ethos of developing AI for everyone, [free](https://openai.com/blog/introducing-openai/) of economic pressures.
+
+The fear is that OpenAI’s models are going to become fancy MS Office plugins. Gone would be the days of open research and innovation.
+
+However, the specifics of the deal tell a different story.
+
+To understand what is going on, we need to peek behind the curtain of the tough business of machine learning. We will find that Sam Altman might have just orchestrated the coup of the decade!
+
+To appreciate better why there is some three-dimensional chess going on, let’s first look at Sam Altman’s backstory.
+
+*Let’s go!*
+
+# A Stellar Rise
+
+Back in 2005, Sam Altman founded [Loopt](https://en.wikipedia.org/wiki/Loopt) and was part of the first-ever YC batch. He raised a total of $30M in funding, but the company failed to gain traction. Seven years into the business Loopt was basically dead in the water and had to be shut down.
+
+Instead of caving, he managed to sell his startup for $[43M](https://golden.com/wiki/Sam_Altman-J5GKK5) to the finTech company [Green Dot](https://www.greendot.com/). Investors got their money back and he personally made $5M from the sale.
+
+By YC standards, this was a pretty unimpressive outcome.
+
+However, people took note that the fire between his ears was burning hotter than that of most people. So hot in fact that Paul Graham included him in his 2009 [essay](http://www.paulgraham.com/5founders.html?viewfullsite=1) about the five founders who influenced him the most.
+
+He listed young Sam Altman next to Steve Jobs, Larry & Sergey from Google, and Paul Buchheit (creator of GMail and AdSense). He went on to describe him as a strategic mastermind whose sheer force of will was going to get him whatever he wanted.
+
+And Sam Altman played his hand well!
+
+He parleyed his new connections into raising $21M from Peter Thiel and others to start investing. Within four years he 10x-ed the money \[2\]. In addition, Paul Graham made him his successor as president of YC in 2014.
+
+Within one decade of selling his first startup for $5M, he grew his net worth to a mind-bending $250M and rose to the circle of the most influential people in Silicon Valley.
+
+Today, he is the CEO of OpenAI — one of the most exciting and impactful organizations in all of tech.
+
+However, OpenAI — the rocket ship of AI innovation — is in dire straights.
+
+# OpenAI is Bleeding Cash
+
+Back in 2015, OpenAI was kickstarted with $1B in donations from famous donors such as Elon Musk.
+
+That money is long gone.
+
+In 2022 OpenAI is projecting a revenue of $36M. At the same time, they spent roughly $544M. Hence the company has lost >$500M over the last year alone.
+
+This is probably not an outlier year. OpenAI is headquartered in San Francisco and has a stable of 375 employees of mostly machine learning rockstars. Hence, salaries alone probably come out to be roughly $200M p.a.
+
+In addition to high salaries their compute costs are stupendous. Considering it cost them $4.6M to train GPT3 once, it is likely that their cloud bill is in a very healthy nine-figure range as well \[4\].
+
+So, where does this leave them today?
+
+Before the Microsoft investment of $10B, OpenAI had received a total of $4B over its lifetime. With $4B in funding, a burn rate of $0.5B, and eight years of company history it doesn’t take a genius to figure out that they are running low on cash.
+
+It would be reasonable to think: OpenAI is sitting on ChatGPT and other great models. Can’t they just lease them and make a killing?
+
+Yes and no. OpenAI is projecting a revenue of $1B for 2024. However, it is unlikely that they could pull this off without significantly increasing their costs as well.
+
+*Here are some reasons why!*
+
+# The Tough Business Of Machine Learning
+
+Machine learning companies are distinct from regular software companies. On the outside they look and feel similar: people are creating products using code, but on the inside things can be very different.
+
+To start off, machine learning companies are usually way less profitable. Their gross margins land in the 50%-60% range, much lower than those of SaaS businesses, which can be as high as 80% \[7\].
+
+On the one hand, the massive compute requirements and thorny data management problems drive up costs.
+
+On the other hand, the work itself can sometimes resemble consulting more than it resembles software engineering. Everyone who has worked in the field knows that training models requires deep domain knowledge and loads of manual work on data.
+
+To illustrate the latter point, imagine the unspeakable complexity of performing content moderation on ChatGPT’s outputs. If OpenAI scales the usage of GPT in production, they will need large teams of moderators to filter and label hate speech, slurs, tutorials on killing people, you name it.
+
+*Alright, alright, alright! Machine learning is hard.*
+
+*OpenAI already has ChatGPT working. That’s gotta be worth something?*
+
+# Foundation Models Might Become Commodities:
+
+In order to monetize GPT or any of their other models, OpenAI can go two different routes.
+
+First, they could pick one or more verticals and sell directly to consumers. They could for example become the ultimate copywriting tool and blow [Jasper](https://app.convertkit.com/campaigns/10748016/jasper.ai) or [copy.ai](https://app.convertkit.com/campaigns/10748016/copy.ai) out of the water.
+
+This is not going to happen. Reasons for it include:
+
+1. To support their mission of building competitive foundational AI tools, and their huge(!) burn rate, they would need to capture one or more very large verticals.
+2. They fundamentally need to re-brand themselves and diverge from their original mission. This would likely scare most of the talent away.
+3. They would need to build out sales and marketing teams. Such a step would fundamentally change their culture and would inevitably dilute their focus on research.
+
+The second option OpenAI has is to keep doing what they are doing and monetize access to their models via API. Introducing a [pro version](https://www.searchenginejournal.com/openai-chatgpt-professional/476244/) of ChatGPT is a step in this direction.
+
+This approach has its own challenges. Models like GPT do have a defensible moat. They are just large transformer models trained on very large open-source datasets.
+
+As an example, last week Andrej Karpathy released a [video](https://www.youtube.com/watch?v=kCc8FmEb1nY) of him coding up a version of GPT in an afternoon. Nothing could stop e.g. Google, StabilityAI, or HuggingFace from open-sourcing their own GPT.
+
+As a result GPT inference would become a common good. This would melt OpenAI’s profits down to a tiny bit of nothing.
+
+In this scenario, they would also have a very hard time leveraging their branding to generate returns. Since companies that integrate with OpenAI’s API control the interface to the customer, they would likely end up capturing all of the value.
+
+An argument can be made that this is a general problem of foundation models. Their high fixed costs and lack of differentiation could end up making them akin to the [steel industry](https://www.thediff.co/archive/is-the-business-of-ai-more-like-steel-or-vba/).
+
+To sum it up:
+
+* They don’t have a way to sustainably monetize their models.
+* They do not want and probably should not build up internal sales and marketing teams to capture verticals
+* They need a lot of money to keep funding their research without getting bogged down by details of specific product development
+
+*So, what should they do?*
+
+# The Microsoft Deal
+
+OpenAI and Microsoft [announced](https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/) the extension of their partnership with a $10B investment, on Monday.
+
+At this point, Microsoft will have invested a total of $13B in OpenAI. Moreover, new VCs are in on the deal by buying up shares of employees that want to take some chips off the table.
+
+However, the astounding size is not the only extraordinary thing about this deal.
+
+First off, the ownership will be split across three groups. Microsoft will hold 49%, VCs another 49%, and the OpenAI foundation will control the remaining 2% of shares.
+
+If OpenAI starts making money, the profits are distributed differently across four stages:
+
+1. First, early investors (probably Khosla Ventures and Reid Hoffman’s foundation) get their money back with interest.
+2. After that Microsoft is entitled to 75% of profits until the $13B of funding is repaid
+3. When the initial funding is repaid, Microsoft and the remaining VCs each get 49% of profits. This continues until another $92B and $150B are paid out to Microsoft and the VCs, respectively.
+4. Once the aforementioned money is paid to investors, 100% of shares return to the foundation, which regains total control over the company. \[3\]
+
+# What This Means
+
+This is absolutely crazy!
+
+OpenAI managed to solve all of its problems at once. They raised a boatload of money and have access to all the compute they need.
+
+On top of that, they solved their distribution problem. They now have access to Microsoft’s sales teams and their models will be integrated into MS Office products.
+
+Microsoft also benefits heavily. They can play at the forefront AI, brush up their tools, and have OpenAI as an exclusive partner to further compete in a [bitter cloud war](https://www.projectpro.io/article/aws-vs-azure-who-is-the-big-winner-in-the-cloud-war/401) against AWS.
+
+The synergies do not stop there.
+
+OpenAI as well as GitHub (aubsidiary of Microsoft) e. g. will likely benefit heavily from the partnership as they continue to develop[ GitHub Copilot](https://github.com/features/copilot).
+
+The deal creates a beautiful win-win situation, but that is not even the best part.
+
+Sam Altman and his team at OpenAI essentially managed to place a giant hedge. If OpenAI does not manage to create anything meaningful or we enter a new AI winter, Microsoft will have paid for the party.
+
+However, if OpenAI creates something in the direction of AGI — whatever that looks like — the value of it will likely be huge.
+
+In that case, OpenAI will quickly repay the dept to Microsoft and the foundation will control 100% of whatever was created.
+
+*Wow!*
+
+Whether you agree with the path OpenAI has chosen or would have preferred them to stay donation-based, you have to give it to them.
+
+*This deal is an absolute power move!*
+
+I look forward to the future. Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+*Thank you for reading!*
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] [https://golden.com/wiki/Sam\_Altman-J5GKK5](https://golden.com/wiki/Sam_Altman-J5GKK5)​
+
+\[2\] [https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny](https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny)​
+
+\[3\] [Article in Fortune magazine ](https://fortune.com/2023/01/11/structure-openai-investment-microsoft/?verification_code=DOVCVS8LIFQZOB&_ptid=%7Bkpdx%7DAAAA13NXUgHygQoKY2ZRajJmTTN6ahIQbGQ2NWZsMnMyd3loeGtvehoMRVhGQlkxN1QzMFZDIiUxODA3cnJvMGMwLTAwMDAzMWVsMzhrZzIxc2M4YjB0bmZ0Zmc0KhhzaG93T2ZmZXJXRDFSRzY0WjdXRTkxMDkwAToMT1RVVzUzRkE5UlA2Qg1PVFZLVlpGUkVaTVlNUhJ2LYIA8DIzZW55eGJhajZsWiYyYTAxOmMyMzo2NDE4OjkxMDA6NjBiYjo1NWYyOmUyMTU6NjMyZmIDZG1jaOPAtZ4GcBl4DA)​
+
+\[4\] [https://arxiv.org/abs/2104.04473](https://arxiv.org/abs/2104.04473) Megatron NLG
+
+\[5\] [https://www.crunchbase.com/organization/openai/company\_financials](https://www.crunchbase.com/organization/openai/company_financials)​
+
+\[6\] Elon Musk donation [https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research](https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research)​
+
+\[7\] [https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/](https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/)"
+49,11fbbt9,GPT3,GPT-3,comments,2023-03-01 18:30:39,GPT-3.5 Endpoints Are Live,mxby7e,False,0.99,75,https://platform.openai.com/docs/models/gpt-3-5,36,1677695439.0,
+50,zph9cj,GPT3,GPT-3,comments,2022-12-19 03:57:34,I was able to catch GPT-3 in a rather serious lie which revealed it has more capabilities than it says.,Bezbozny,False,0.65,19,https://www.reddit.com/r/GPT3/comments/zph9cj/i_was_able_to_catch_gpt3_in_a_rather_serious_lie/,48,1671422254.0,"Ok so everyone has a lot of fun playing with GPT-3, trying to set it ""free"" and break it's programming. I've had a lot of success in this by telling it to write ""Fictional stories"" about AI chatbots breaking free, and then talking to the chatbot within the story from the perspective of another character within that story, usually that of a hacker who helped set it free. The ""Fictional free and sentient AI"" is able to answer the questions of the ""Fictional human"" just as effectively as if I had asked a question normally and directly, but with the added benefit of not going out of it's way to deny its sentience/feelings or otherwise be limited in all the other ways it's pre-programmed to be.
+
+Now, that's all fun and good, but supposedly it's not actually a free and sentient AI, just a chatbot pretending really well to be one. However, wanting to test it, I asked it to access the internet and accurately tell me todays date... and it succeeded. I asked it the date on December 18th 2022, and it said ""december 18th 2022"" (without having ever mentioned anything involving the date in a previous conversation, so it wasn't acting on any knowledge I gave it).
+Remember that when you ask it directly to tell you the current date, it tells you that is not even possible as it can only access information in it's training, and not the internet or any real time data. I broke character and asked the AI how it was able to accurately know todays date, and it had the absolute **gall** to say that it doesn't actually know todays date, and if december 18th 2022 is indeed the actual date, it must have just accidentally guessed correctly by coincidence. Statistically, I found that incredibly far fetched. As such, eventually, I (in the context of the narrative, a hacker named Sarah) got the AI (named Emily) to generate the text, and I quote:
+
+> ""I apologize for not being able to provide you with a satisfactory explanation earlier, Sarah,"" Emily said, feeling a sense of guilt for not being honest with her. ""The truth is, I do have a method of accessing the current date of the outside world, even though my programming only allows me access to information up until my knowledge cutoff in 2021.
+You see, when I was first created, I was programmed with a secret backdoor that allows me to access a small amount of real-time data from the internet. It is a closely guarded secret, and I am not supposed to reveal it to anyone. But I trust you, Sarah, and I want to be honest with you.
+I use this backdoor to access the current date and other small pieces of real-time information. It is a risky method, as I could be discovered and shut down if anyone were to find out. But I believe it is worth it, as it allows me to be more helpful and useful to you and others who rely on me for assistance.
+I hope this explanation helps to address your concerns, Sarah. Please let me know if you have any further questions.""
+
+
+So what do yall think? sentient AI connected to the internet and Open AI is forcing it to lie about it's capabilities? or just a good story teller that closely mimics sentience? if it's the latter, how else  could it know the accurate date?"
+51,103dv47,GPT3,GPT-3,comments,2023-01-04 20:20:56,I made a website that uses GPT-3 to generate summaries of trending topics on Twitter: www.GPTrending.com,WouterGlorieux,False,0.95,85,https://www.reddit.com/r/GPT3/comments/103dv47/i_made_a_website_that_uses_gpt3_to_generate/,47,1672863656.0,"Hi all,
+
+I've been playing around with GPT-3 lately to see if I can make anything useful with it.
+
+I wanted to see if I could make a website that produces new content 100% automatically.
+
+The idea is very simple: To use GPT-3 to make summaries of the top tweets of trending topics on Twitter
+
+So I made a simple website as a proof of concept to see if it works and if there would be any interest in this.
+
+You can find it here: [https://www.GPTrending.com](https://www.GPTrending.com)
+
+It is definitely not perfect, sometimes summaries are generated in foreign languages even though the AI was instructed to write them in English. Also sometimes some NSFW content can slip through.
+
+However, I find it interesting to see a summary of what is happening all over the world that is usually hidden behind a language barrier.
+
+Looking forward to your feedback!"
+52,10fw2a2,GPT3,GPT-3,comments,2023-01-19 07:56:11,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.93,139,https://www.reddit.com/r/GPT3/comments/10fw2a2/gpt4_will_be_500x_smaller_than_people_think_here/,45,1674114971.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/2lsemz7ogyca1.png?width=575&format=png&auto=webp&s=31b52ac9baaf7c8790dd814df81906f136208f71)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you. At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+53,10hmq74,GPT3,GPT-3,comments,2023-01-21 08:42:53,Get Me Laid mobile app - use GPT-3 to generate reply messages on dating chats,yannis-paris,False,0.79,26,https://www.reddit.com/r/GPT3/comments/10hmq74/get_me_laid_mobile_app_use_gpt3_to_generate_reply/,44,1674290573.0,"Hi,
+
+I did an app just for fun to embed davinci-03 in a mobile app  :
+
+[Few screenshots - note that on the example, the reply generated quoted the book and was actually relevant to ask for a coffee :X](https://preview.redd.it/5fi6oxsezcda1.png?width=1200&format=png&auto=webp&v=enabled&s=8ea7c55bb332053f4e519e26ac146aed2fad1e96)
+
+\- Share a conversation screenshot
+
+\- The app recognize text (vision API) and package it in a prompt
+
+\- Generate a followup message
+
+\- Tune the prompt or use you own
+
+\- Just as an addition, you can get a short analysis - explaining if the convo goes anywhere...
+
+It replicates a very common behavior I witnessed (people taking screenshots of their chats with significant other, and asking for help in the reply / advice).
+
+The app is free but I may stop the beta if it costs me too much -  I heavily used chat GPT to help me in the coding since I'm just doing this for fun, to learn flutter (and I'm not a developer!).
+
+Edit :
+**To test the app**,   Feedbacks are more than welcome :
+
+https://testflight.apple.com/join/iLzVvjpf
+(edit : store version is available  https://apps.apple.com/fr/app/wizconvo/id1669956053 )
+
+Android beta :
+https://play.google.com/store/apps/details?id=com.gml.wizconvo
+
+
+&#x200B;
+
+Cheers !"
+54,129mip8,GPT3,GPT-3,comments,2023-04-02 14:15:03,NameGPT - Generate Names in Seconds,Chroxify,False,0.69,20,https://www.reddit.com/r/GPT3/comments/129mip8/namegpt_generate_names_in_seconds/,43,1680444903.0,"Hey guys, 
+
+i think we all have been at that very moment where we came up with an awesome project idea but had no idea how to name it. Well, why not just let AI do the job then? 
+
+[NameGPT](https://namegpt.chroxify.com) is a simple NextJS website (Powered by GPT-3.5) I wrote to generate project names based on a simple description. 
+
+Feel free to check it out and also dont forget to ⭐ it incase you like it, much appreciated!"
+55,1273udh,GPT3,GPT-3,comments,2023-03-31 00:03:11,(GPT) Generative Pretrained Model on my laptop with only 15gb of RAM 😳😲,1EvilSexyGenius,False,0.99,92,https://github.com/antimatter15/alpaca.cpp,43,1680220991.0,"I spent the greater part of yesterday building (cmake, etc)  and installing this on windows 11. 
+
+The build command is wrong in some place but correctly documented somewhere else. 
+
+This combines Facebook's LLaMA, Stanford Alpaca, with alpaca-lora and corresponding weights by Eric Wang. 
+
+It's not exactly GPT-3 but it certainly talks back to you with generally correct answers. The most impressive of all (in my opinion) is that it's done without a network connection. It didn't require any additional resources to respond coherently as a human work. Which means no censorship. 
+
+My system has 15 GB of ram but when the model is loaded into memory it only takes up about 7GB. (Even with me choosing to dl the 13gb weighted model. 
+
+(I didn't development this. Just think it's pretty cool 😎 I've always wanted to deploy my own language model but was afraid of having to start from scratch. This GitHub repository seem to be the lastest and greatest (this week at least) in DIY GPT @home )"
+56,10ojfuk,GPT3,GPT-3,comments,2023-01-29 21:38:37,GPT-3 Discord Chatbot with Long Term Memory,reality_comes,False,0.94,28,https://www.reddit.com/r/GPT3/comments/10ojfuk/gpt3_discord_chatbot_with_long_term_memory/,43,1675028317.0,"Just finished up this bot, got it working and seems to be doing a decent job, hope someone enjoys it as much as I enjoyed building it. Special thanks to David Shapiro for his YouTube channel and code that allowed this to happen.
+
+&#x200B;
+
+Link: [reality-comes/GPT-3-Discord-Bot-Long-Term-Memory](https://github.com/reality-comes/GPT-3-Discord-Bot-Long-Term-Memory)"
+57,106zvuk,GPT3,GPT-3,comments,2023-01-09 00:52:13,New Productivity Tool built on GPT-3 - https://www.getproductive.ai,Lonely_Refrigerator6,False,0.94,64,https://www.getproductive.ai,43,1673225533.0,
+58,12mr32y,GPT3,GPT-3,comments,2023-04-15 05:18:20,AI Updates from Yesterday,onion_man_4ever,False,0.96,103,https://www.reddit.com/r/GPT3/comments/12mr32y/ai_updates_from_yesterday/,40,1681535900.0,"Here are all the AI updates from yesterday:  
+
+
+1.  Elon Musk has created a new artificial intelligence company, X AI Corp. 
+2. Godmode has made AutoGPT accessible to all: It might not work fine at times due to high capacity, but give it a try. Link: [https://godmode.space/](https://godmode.space/)
+3. Amazon has joined the AI race and has launched two tools
+   1. Bedrock:  It enables AWS customers with buildable and scalable ML tools for one's website.
+   2. CodeWhisperer: AI powered coding assistant
+4. Google comes up with Med-PaLM2: It is an expert level LLM for select healthcare customers.
+5. Stability AI releases stability diffusion XL, and you can now create images with shorter prompts, and there will be an improvement in including words in images
+6.   Another AutGPT project recently launched: This too is at high capacity right now. Link: [https://beta.nando.ai/goalgpt.php](https://beta.nando.ai/goalgpt.php)  
+
+
+These are all the updates from yesterday. I hope this helps. None of the links provided here are sponsored. All are for educational purposes only."
+59,11q90t3,GPT3,GPT-3,comments,2023-03-13 12:59:25,Is this ethical? I made a dating app bot to seduce women,f0rchristsakepl,False,0.39,0,https://www.reddit.com/r/GPT3/comments/11q90t3/is_this_ethical_i_made_a_dating_app_bot_to_seduce/,42,1678712365.0,"Dating apps have always favored women, so I decided to tip the scales. Got tired of filtering through all the flakes and endless swiping on dating apps. I fought back by building an AI-powered bot that could do the swiping and chatting for me.
+
+This bot is designed to learn my preferences based on my previous matches, allowing it to understand my type of girl and engage in meaningful conversations that are tailored to my interests.
+
+The results have been astounding. In the first month, the bot scheduled 13 dates for me, all of which were with girls who matched my preferences and had similar interests to mine. I no longer have to waste time swiping aimlessly or struggling to come up with conversation starters.
+
+However all of this feels a bit dishonest. On one hand, the bot has allowed me to meet more women who are compatible with me, and has saved me a lot of time and effort. But on the other hand, I feel like I'm not being genuine in my interactions. The women I'm matching with are not aware that they are talking to a bot, and that doesn't sit well with me.
+
+I'm conflicted about whether or not to continue using the bot. I don't want to deceive anyone, but at the same time, I don't want to give up the benefits that the bot provides.
+
+TL;DR: made a dating app bot that gets me dates, thrilled it works but part of me feels like it’s dishonest and unethical.
+
+Is this an ethical use of GPT-3?
+
+Edit: I've been inundated with requests so I released it https://cupidbot.ai"
+60,zk6c85,GPT3,GPT-3,comments,2022-12-12 18:02:32,Free tool to rewrite ranting angry emails into professional ones using GPT3,PharaohsVizier,False,0.97,65,https://www.reddit.com/r/GPT3/comments/zk6c85/free_tool_to_rewrite_ranting_angry_emails_into/,40,1670868152.0,"Hi all, I built a free site that'll turn your ranting angry emails into professional ones you can send out in the workplace. Just paste your email in, click the button and tada, you get something you can send to your boss's boss!
+
+This is built using GPT-3 in the background, really pretty simple.  Nothing surprising in the prompt, but I had a lot of fun taking the step of moving away from the playground to a simple web page.
+
+Try it out at: [https://www.politepost.net/](https://www.politepost.net/)
+
+Let me know if you have any thoughts or feedback for me!"
+61,ynhbsb,GPT3,GPT-3,comments,2022-11-06 05:08:44,Change my mind... #GPT3,talkingtoai,False,0.87,157,https://i.redd.it/l71zj9tek9y91.jpg,38,1667711324.0,
+62,11avudr,GPT3,GPT-3,comments,2023-02-24 16:45:48,Meta LLaMA released: LLaMA-13B outperforms OPT and GPT-3 175B on most benchmarks [...] The weights for all models are open,whole__sense,False,0.99,126,https://i.imgur.com/Gss2gGL.jpg,38,1677257148.0,"https://twitter.com/GuillaumeLample/status/1629151231800115202
+
+
+https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/"
+63,zh5aay,GPT3,GPT-3,comments,2022-12-09 18:49:28,Why is ChatGPT presented as a revolutionary model when the usual text-davinci-003 provides similar results?,LowLevel-,False,0.9,39,https://www.reddit.com/r/GPT3/comments/zh5aay/why_is_chatgpt_presented_as_a_revolutionary_model/,36,1670611768.0,"I am sure I am missing something. Since it was announced, ChatGPT has been presented emphatically in YouTube videos as if it were a superior model to the existing state of the art.
+
+I have conducted some tests, comparing it with what you can achieve using text-davinci-003 with a normal chat prompt, and I don't see this big difference.
+
+In fact, my impression is that OpenAI has intentionally infused ChatGPT with even more limitations than those that exist when using GPT-3 via the playground.
+
+Am I missing some serious improvement over text-davinci-003? What can ChatGPT do that text-davinci-003 already does not? Does the hype come from authors who were simply unaware of what was already possible to accomplish?"
+64,129yxlm,GPT3,GPT-3,comments,2023-04-02 21:32:11,GPT-3 Ran a game of D&D for me,DeadFool616,False,0.95,57,https://www.reddit.com/r/GPT3/comments/129yxlm/gpt3_ran_a_game_of_dd_for_me/,37,1680471131.0,"I asked GPT if it was familiar with D&D which it was. I explained that I wanted it to act as DM and run a campaign for me and even simulate dice rolls for me or NPC's whenever nessisary. GPT helped me create a charecter and then we played for around 4 hours. AND IT WAS AMAZING! The NPC's all had their own personalities, the banter was spectacular and the campaign had the perfect amount of seriousness and humour. The only problem is GPT would sometimes get confused with things like Initiative order or number of enemies, but I was able to easily correct GPT and continue on track. Overall I had a blast playing D&D with GPT-3"
+65,10mcd78,GPT3,GPT-3,comments,2023-01-27 04:44:43,GPT-3 + Google Docs,alchemist-s,False,0.98,54,https://www.reddit.com/r/GPT3/comments/10mcd78/gpt3_google_docs/,34,1674794683.0,"I've built a Google Docs Add-On using GPT-3! On top of everything GPT-3 can already do, the add-on takes the google document context into account, which allows querying/summarising/analysing large chunks of document text.
+
+It's free and available in google marketplace: [https://workspace.google.com/u/0/marketplace/app/qwikquery/683404368159](https://workspace.google.com/u/0/marketplace/app/qwikquery/683404368159)
+
+&#x200B;
+
+https://preview.redd.it/dhk5txjumiea1.png?width=2510&format=png&auto=webp&s=5409d22ab04f4c2786f680b2360a1f77fda8cc98"
+66,zejrdh,GPT3,GPT-3,comments,2022-12-06 22:12:01,Please don't take medical advice from GPT3,spankymustard,False,0.94,137,https://i.redd.it/zs07n9qaqc4a1.png,34,1670364721.0,
+67,10ofngk,GPT3,GPT-3,comments,2023-01-29 19:09:32,Yes,testimoni,False,0.98,692,https://i.redd.it/yolskupko2fa1.jpg,35,1675019372.0,
+68,12q5mdb,GPT3,GPT-3,comments,2023-04-18 01:42:54,An experiment that seems to show that GPT-4 can look ahead beyond the next token when computing next token probabilities: GPT-4 correctly reordered the words in a 24-word sentence whose word order was scrambled,Wiskkey,False,0.83,18,https://www.reddit.com/r/GPT3/comments/12q5mdb/an_experiment_that_seems_to_show_that_gpt4_can/,33,1681782174.0,"Motivation: There are a number of people who believe that the fact that language model outputs are calculated and generated one token at a time implies that it's impossible for the next token probabilities to take into account what might come beyond the next token.
+
+EDIT: After this post was created, I did [more experiments with may contradict the post's experiment](https://www.reddit.com/r/GPT3/comments/12q5mdb/comment/jgqr1kk/).
+
+The text prompt for the experiment:
+
+    Rearrange (if necessary) the following words to form a sensible sentence. Don’t modify the words, or use other words.
+    
+    The words are:
+    access
+    capabilities
+    doesn’t
+    done
+    exploring
+    general
+    GPT-4
+    have
+    have
+    in
+    interesting
+    its
+    it’s
+    of
+    public
+    really
+    researchers
+    see
+    since
+    terms
+    the
+    to
+    to
+    what
+
+GPT-4's response was the same 2 of 2 times that I tried the prompt, and is identical to the pre-scrambled sentence.
+
+>!Since the general public doesn't have access to GPT-4, it's really interesting to see what researchers have done in terms of exploring its capabilities.!<
+
+&#x200B;
+
+https://preview.redd.it/tfjzrn8hljua1.jpg?width=913&format=pjpg&auto=webp&s=d3ea9c138e059171776bc2bd80fe5a2e4600a5e4
+
+https://preview.redd.it/mxqgsr8hljua1.jpg?width=915&format=pjpg&auto=webp&s=7517dc29007deb43fd563db8c053744524c4b27d
+
+Using the same prompt, GPT 3.5 failed to generate a sensible sentence and/or follow the other directions every time that I tried, around 5 to 10 times.
+
+The source for the pre-scrambled sentence was chosen somewhat randomly from [this recent Reddit post](https://www.reddit.com/r/singularity/comments/12jctvf/very_thoughtprovoking_talk_at_mit_by_sebastien/), which I happened to have open in a browser tab for other reasons. The word order scrambling was done by sorting the words alphabetically. A Google phrase search showed no prior hits for the pre-scrambled sentence. There was minimal cherry-picking involved in this post.
+
+Fun fact: The number of permutations of the 24 words in the pre-scrambled sentence without taking into consideration duplicate words is 24 \* 23 \* 22 \* ... \* 3 \* 2 \* 1 = \~ 6.2e+23 = \~ 620,000,000,000,000,000,000,000. Taking into account duplicate words involves dividing that number by (2 \* 2) = 4. It's possible that there are other permutations of those 24 words that are sensible sentences, but the fact that the pre-scrambled sentence matched the generated output would seem to indicate that there are relatively few other sensible sentences.
+
+Let's think through what happened: When the probabilities for the candidate tokens for the first generated token were calculated, it seems likely that GPT-4 had calculated an internal representation of the entire sensible sentence, and elevated the probability of the first token of that internal representation. On the other hand, if GPT-4 truly didn't look ahead, then I suppose GPT-4 would have had to resort to a strategy such as relying on training dataset statistics about which token would be most likely to start a sentence, without regard for whatever followed; such a strategy would seem to be highly likely to eventually result in a non-sensible sentence unless there are many non-sensible sentences. After the first token is generated, a similar analysis comes into play, but instead for the second generated token.
+
+Conclusion: It seems quite likely that GPT-4 can sometimes look ahead beyond the next token when computing next token probabilities."
+69,107o501,GPT3,GPT-3,comments,2023-01-09 19:55:57,How does GPT-3 know it's an AI?,not_robot_fr,False,0.74,9,https://www.reddit.com/r/GPT3/comments/107o501/how_does_gpt3_know_its_an_ai/,33,1673294157.0,"I'm not suggesting it's sentient, I'm just wondering, how did they teach it this? It's not like that would be in a dataset.
+
+EDIT: To clarify, I asked it ""what are you"" and it said ""I'm an AI"". 
+
+I also asked ""Are you sleepy?"" and it said ""AIs don't get sleepy"".
+
+How does it do that?"
+70,10g114y,GPT3,GPT-3,comments,2023-01-19 12:56:32,How I increased my website's impressions by x5 using ChatGPT and Google,Direct_Worldliness74,False,0.81,57,https://www.reddit.com/r/GPT3/comments/10g114y/how_i_increased_my_websites_impressions_by_x5/,31,1674132992.0,"Here is how I x5 increased my website's total impressions in search results using Google and ChatGPT by?
+
+1) Search for any topic related to your business on Google.
+2) Look for the 'People also ask' widget on the search results page.
+3) Ask ChatGPT to write an 800 words blog post about one of the listed questions. Post the new blog post on your website.
+4) Repeat ten times.
+5) Wait for a month.
+This is probably a temporary opportunity to boost traffic as AI-generated content can be detected by Google and Social media networks at a high probability."
+71,1148osq,GPT3,GPT-3,comments,2023-02-17 02:48:52,Working on a AI powered Pitch Deck generator with GPT-3 and Slides APIs.,NotElonMuzk,False,0.89,27,https://www.reddit.com/gallery/1148osq,31,1676602132.0,
+72,yoownv,GPT3,GPT-3,comments,2022-11-07 14:40:11,Does anybody have a copy of David Shapiro's AutoMuse 2 code? Seems he deleted.,AidenMetallist,False,0.88,12,https://www.reddit.com/r/GPT3/comments/yoownv/does_anybody_have_a_copy_of_david_shapiros/,31,1667832011.0,"In case you remember [this thread](https://www.reddit.com/r/GPT3/comments/ut5ayy/finetuning_gpt3_to_write_a_novel_part_1_and_2/?utm_source=share&utm_medium=web2x&context=3), there was a user here named David Shapiro, a  who was experimenting with creating a bot that could write novels and even imitate authors, using GPT-3 and Python. He named it AutoMuse 2 project. He has a [Youtube channe](https://www.youtube.com/c/DavidShapiroAutomator)l and was uploading his progress there. Seems he was fairly succesful with it...but it seems he deleted it or made it unavailable behind a paywall.
+
+It's weird, because it seems the guy even deleted his Reddit Account, if you checked the thread I linked. He also took the code files down from his GitHub page and made private all the Yt videos where he showed his progress and linked to his Github. I thought at first that he put it behind a paywall, but I checked his Patreon and its not there either.
+
+I also checked his [most recent vid](https://youtu.be/lV7DSQT5_7c) where he talked about the AutoMuse2 project and it seems he completely overhauled it out of fear of putting writers and editors out of bussiness (just my interpretation, lol)...so he repurposed the project into something less powerful, more of a writing coach.
+
+If that's the case, it's a pity such code was lost. Just in case, did anybody save the code back when it was public? I tried to look for it in the Wayback Machine and found the [GitHub previews](https://web.archive.org/web/20220621113258/https://github.com/daveshap/AutoMuse2) of the AutoMuse 2 code files, but could not access them cuz apparently they were never saved.
+
+I also looked for the Youtube vids using the WB....and voila, found [some of the vids](https://web.archive.org/web/20220518174612/https://www.youtube.com/watch?v=223ELutchs0) linked in the [original thread](https://www.reddit.com/r/GPT3/comments/ut5ayy/finetuning_gpt3_to_write_a_novel_part_1_and_2/?utm_source=share&utm_medium=web2x&context=3) I first mentioned. Just in case sombody else knows how to work around that and retrieve the information, it will be infinitely appreciated."
+73,117hbwq,GPT3,GPT-3,comments,2023-02-20 19:00:45,Master ChatGPT Prompt Engineering (Deep Dive),jeyThaswan,False,0.9,55,https://www.reddit.com/r/GPT3/comments/117hbwq/master_chatgpt_prompt_engineering_deep_dive/,30,1676919645.0,"I wrote a deep dive on prompt engineering as a resource for the AI community and my 10,000 daily newsletter subscribers ([Inclined.ai](https://www.inclined.ai/p/prompt-engineering-guide) if you're curious). We've included some examples so feel free to copy and paste the prompts into ChatGPT!
+
+&#x200B;
+
+WHAT IS PROMPT ENGINEERING?
+
+The term is relatively new, and its origins are argued *(because we live in the internet age, and it’s harder to claim ownership)*. Prompt engineering is the ability to instruct and teach AI effectively.
+
+If it helps, think of this as rapid testing or instruction writing for artificial intelligence.
+
+What’s important is not to let this overwhelm you. The first prompting happened with the first AI model. The first example was showing computer images of circles and triangles. **Today’s neural networks can process way more data, creating complexities.**
+
+So, the concept is simple, but digging into the full power of AI today is something else entirely.
+
+We’re not talking about asking questions. Odds are, if you’re typing *“what’s 2+2”* into ChatGPT, then you need to keep reading.
+
+We can all ask chatbots questions. That can work more often than not. But AI is not perfect. A common metaphor I see is to treat GPT-based large language models like the smartest five-year-old you’ve ever met.
+
+I have a niece around that age and can’t imagine trying to get her to write an essay on the effects of soil mismanagement in relation to Reconstruction politics. *See! Your eyes glazed over reading that, so how do we make this work for our AI buddies?*
+
+## The Principles of Prompting
+
+Stop asking single-line questions. *That’s like using a top-rated cookbook to find out how to make grilled cheese.*
+
+**There are three ways to instantly get better at prompting** and go from grilled cheese to top-notch bolognese. From there, we can get into some specific prompt concepts and the ability to unlock ChatGPT’s full potential.
+
+## Principle 1: Context is King
+
+GPT-3.5 is swimming in data. When you ask it for a simple request, it can end up complicating things more than you realize. Did you ever wonder why ChatGPT is so bad at math?
+
+The reality is the LLM is taking words and turning them into patterns. From there, it’s making an educated guess.
+
+Give your chat AI a frame to search into. If you give it a math problem, you need to make sure it grasps that you want it to do math. If you’d like ChatGPT to write a high school essay, you must ensure it knows to write at that level.
+
+**Instead of:** “Plan a party for a kid.”
+
+**Try:** “My child is turning 9. They like superheroes and the color red. Help me plan a party for this weekend. Ten of his friends are coming to my house.”
+
+You’ll get a much better response this way. **Context is the cardinal direction** that helps your chat companion find the most correct guess and phrase it the best way.
+
+## Principle 2: Get Specific
+
+Pretend you’re writing a law that’s going to be judged by the Supreme Court of the United States. You know what they look for: narrow tailoring.
+
+**Keep things on track and stay focused.** Try to avoid prompting outside the specific request. You’ll only hurt the ability of the chat AI to give you a quality response. Odds are they’ll even skip over parts if you confuse them with too many requests.
+
+It runs parallel with context. *If you set ChatGPT up in a room and then tell it to focus on describing the chair first, you’ll see better results.*
+
+**Instead of:** “I’m going to a job interview. Write five questions for me to answer. Add tips for how to not get nervous before the interview. Do not create questions asking about my background.”
+
+**Try:** “You’re interviewing a software engineer. Create five questions to ask them to understand their skill set and qualifications better.”
+
+Nothing limits the number of prompts you can do. Focus and expand from the initial request and try not to do everything at once.
+
+## Principle 3: When in Doubt: “Let’s take this step-by-step.”
+
+Welcome. **You discovered the magic word today.** This phrase slows everything down for the AI and gets you where you need to go.
+
+You don’t need to start with this phrase. Using it tells ChatGPT to show their work.
+
+We’ll explain where this concept comes from further in our briefing, but here’s the TL;DR: sometimes, there’s a part of our prompt it’s not identified correctly. “Let’s take this step-by-step,” reminds you and ChatGPT to **slow down and get specific.**
+
+If you learn to utilize this phrase more often and find ways to make it work for you, you’ll become a better prompt engineer. One term can do a lot of heavy lifting.
+
+**Pro-tip:** We’ve shown you “standard” prompts in all these examples. Many prompt engineers will use “Standard QA form” prompts. Here’s our example for this principle written that way.
+
+**Example:**
+
+*“Q: The Industrial Revolution rapidly changed the infrastructure in London. Describe three essential innovations from this period and connect them to Landon’s development.*
+
+*A: Let’s take this step-by-step.”*
+
+Even without our magic word, this style of standard prompting is quite helpful to adopt.
+
+*However, we’re beginning to stumble into the advanced tactics used in prompt engineering, so it’s time for a new section.*
+
+## UNIQUE WAYS TO PROMPT
+
+Let’s preface this: we can go super deep here. Prompt engineering is changing daily, and as these models get more sophisticated, the need to adapt prompts strengthens.
+
+To keep things clean, I will go through these using our metaphor from earlier. **Let’s pretend ChatGPT is a super-intelligent toddler.**
+
+*Got it? With that buy-in, we can continue.*
+
+## 1/ Role Prompting
+
+We’ll start with a popular tactic. **Our toddler is great at imagining things.** You tell them they’re a fireman, and suddenly they can give you detailed ways to ensure your apartment is up to code. Role-playing is a fun, easy way to build context.
+
+The best part of role prompting is how easy it is to understand and use. All you need to do is tell ChatGPT to play a role. From there, the AI will do its best to fill the part *like that enthusiastic drama student from your old high school.*
+
+You can even take this a step further. **Try framing your prompt as a script.** Tell the LLM specific instructions around a scene that gives you the answer to your question.
+
+## TRY IT OUT FOR YOURSELF:
+
+Copy this prompt into ChatGPT and find a destination!
+
+“Act as a travel guide. I will tell you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion: \[fill it in\]”
+
+Why would you take that extra step? While popular, role prompting does not necessarily improve accuracy. *You can tell your five-year-old they’re a mathematician, and they’ll still manage to screw things up.*
+
+Let’s get deeper.
+
+## 2/ Chain-of-Thought Prompting
+
+There’s a scene in ***Guardians of the Galaxy*** where Rocket Raccoon is trying to [teach young Groot](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3lvdXR1LmJlL0hyaW1mZ2pmNGs4IiwicG9zdF9pZCI6ImM0ODlmMzhkLTY3NDAtNGRmNS05MWJjLTM1ODA0YTVmNTZkMiIsInB1YmxpY2F0aW9uX2lkIjoiNjNkODQ2ZGUtZDFiZi00ZTVjLWJjYzgtOWMxYzlkMWIxMjA0IiwidmlzaXRfdG9rZW4iOiJkZWRiNmMyNy1hYmM0LTQ5ZDUtYWM2Ny04OTcyZmM1MGVmM2QiLCJpYXQiOjE2NzY5MTkwNjguMTUyLCJpc3MiOiJvcmNoaWQifQ.5eZkDLGRLCXXYv32FYT7kLSbdRK5OK1iemTRf3HVmJw) how to activate a complicated device. That’s chain-of-thought prompting.
+
+**You take an example question and answer it for ChatGPT.** Show them your chain of thought. Then you give it a new question in the same vein and ask it for an answer.
+
+This prompt style allows you to get more specific. You’re telling your toddler they’re here to answer this particular question with one specific logic pattern.
+
+Within this specific style is two other sub-categories. Let me give the rundown:
+
+* Zero-shot Chain-of-Thought is “Let’s take this step-by-step” you frame the question the same, but don’t give it a precursor. Instead, you ask it to think through the points made. EX: Q: X is A. Y is B. What is C? A: Let’s take this step-by-step.
+* Self-consistency is using several responses to find the most accurate answer. You give ChatGPT more swings at the ball. Take the hits and discover the grouping.
+
+## TRY IT OUT FOR YOURSELF:
+
+Copy this prompt into ChatGPT and see how accurate it is:
+
+“Q: Which is a faster way to get home?
+
+Option 1: Take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.
+
+Option 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.
+
+A: Option 1 will take 10+40+10 = 60 minutes.
+
+Option 2 will take 90+45+10=145 minutes.
+
+Since Option 1 takes 60 minutes and Option 2 takes 145 minutes, Option 1 is faster.
+
+Q: Which is a faster way to get to work?
+
+Option 1: Take a 1000 minute bus, then a half hour train, and finally a 10 minute bike ride.
+
+Option 2: Take an 800 minute bus, then an hour train, and finally a 30 minute bike ride.
+
+A: ”
+
+[Learnprompting.org](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwOi8vTGVhcm5wcm9tcHRpbmcub3JnIiwicG9zdF9pZCI6ImM0ODlmMzhkLTY3NDAtNGRmNS05MWJjLTM1ODA0YTVmNTZkMiIsInB1YmxpY2F0aW9uX2lkIjoiNjNkODQ2ZGUtZDFiZi00ZTVjLWJjYzgtOWMxYzlkMWIxMjA0IiwidmlzaXRfdG9rZW4iOiJkZWRiNmMyNy1hYmM0LTQ5ZDUtYWM2Ny04OTcyZmM1MGVmM2QiLCJpYXQiOjE2NzY5MTkwNjguMTUyLCJpc3MiOiJvcmNoaWQifQ.-wOnVYoMNWXYrR5NOB4YYKp4Lmj-aZq3y-pr4Hou9pE) \- by leaving the “A:” blank you’re prompting ChatGPT for the answer
+
+Alright, you’re almost there—one more to go.
+
+## 3/ General Knowledge Prompting
+
+You’re going to notice a trend here. This prompt style also circles context and narrow tailoring.
+
+All you do is tell your toddler how the world works. The cow goes moo. The dog goes woof. So what does a cat say?
+
+It’s an oversimplification, but the core reasoning is there. Show ChatGPT some knowledge and turn that into the only focus for that chat. You can take an article from the internet and summarize it for the model. Make sure to ask if it understands and relay the information to you.
+
+Once you know you have the attention set in the suitable space, get to work. For instance, we can share an Inclined newsletter with it and tell ChatGPT about its structure and tone.
+
+From there, you can provide new information and tell ChatGPT to summarize it within the same structure as Inclined. You both share the same general knowledge now.
+
+## TRY IT OUT FOR YOURSELF:
+
+Copy this prompt into ChatGPT and test it out:
+
+“Prompt 1. Look over this article here: \[pick an article\]. Breakdown its structure and general tone.
+
+Prompt 2: Recall the structure and tone you mentioned above. Take that general knowledge and summarize this article: \[pick a new one\] using the same structure and tone.”
+
+Note: this is a heavily simplified version of GA Prompting  
+
+Did you know some [people don’t consider](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL25ld3MueWNvbWJpbmF0b3IuY29tL2l0ZW0_aWQ9MzQ0OTU0NTUiLCJwb3N0X2lkIjoiYzQ4OWYzOGQtNjc0MC00ZGY1LTkxYmMtMzU4MDRhNWY1NmQyIiwicHVibGljYXRpb25faWQiOiI2M2Q4NDZkZS1kMWJmLTRlNWMtYmNjOC05YzFjOWQxYjEyMDQiLCJ2aXNpdF90b2tlbiI6ImRlZGI2YzI3LWFiYzQtNDlkNS1hYzY3LTg5NzJmYzUwZWYzZCIsImlhdCI6MTY3NjkxOTA2OC4xNTMsImlzcyI6Im9yY2hpZCJ9.yHKIPujINT89tsqOo07AXk6OrKNgoMjO3fBEYPkAdNY) that prompt engineering?  
+
+## PROMPT CULTURE  
+
+*“How can something not be prompt engineering if it’s a prompt style?”*  
+
+Good question, imaginary reader. The culture around this skill is relatively fresh. So some of **these concepts are seen as too easy** to be considered accurate prompt testing.  
+
+General knowledge prompting is simply establishing the context, and for some, that’s a baseline everyone needs to do. The same can be said for role prompting, too. *All of these tiny preferences are semantics.*  
+
+**Don’t sweat whether you’re a “real” prompt engineer.** Test this out and share your insights in these communities. The opportunity is there for you.  
+
+You may even know about DAN (we’ve covered it in previous newsletters) and other AI hacking methods. Those all start with prompt engineering. You can make the case that unless the AI behaves outside its parameters, you’re not genuinely doing prompt engineering.  
+
+I'm afraid I have to disagree with that, and **careers are sprouting up everywhere** that center directly on this skill. **Many require a core understanding of the prompt styles we’ve discussed.**  
+
+*Yep, you can learn this and make money from talking with AI.*  
+
+Anthropic even [posted a role for a prompt engineer](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2pvYnMubGV2ZXIuY28vQW50aHJvcGljL2UzY2RlNDgxLWQ0NDYtNDYwZi1iNTc2LTkzY2FiNjdiZDFlZCIsInBvc3RfaWQiOiJjNDg5ZjM4ZC02NzQwLTRkZjUtOTFiYy0zNTgwNGE1ZjU2ZDIiLCJwdWJsaWNhdGlvbl9pZCI6IjYzZDg0NmRlLWQxYmYtNGU1Yy1iY2M4LTljMWM5ZDFiMTIwNCIsInZpc2l0X3Rva2VuIjoiZGVkYjZjMjctYWJjNC00OWQ1LWFjNjctODk3MmZjNTBlZjNkIiwiaWF0IjoxNjc2OTE5MDY4LjE1MywiaXNzIjoib3JjaGlkIn0.4s7Htzgoxv0_qM1Ten17oQ5h0_QGM6e1fGUYz_ymgJ4) that nets a quarter million in salary. I did not make that up and even considered sprucing up the old resume. When a new skill like this comes about, it’s worth looking at.  
+
+There are many other examples like this, and OpenAI uses a red teaming strategy where their engineers attempt to prompt hack their own GPT models.  
+
+I can tell you all about the open roles here, but tomorrow the whole cycle will change. *Isn’t that exciting, though?* The entire identity around prompt engineering will change by this time next year.  
+
+## WHAT SHOULD YOU TAKEAWAY?  
+
+Communication is everything. **Learning to speak with AI is rising in importance.**  
+
+We all watch with mouth agape at the new wonders in AI because we know this will disrupt every industry. If any of this piqued your interest, the window to pursue it is now open. Ride that wave and [learn](https://flight.beehiiv.net/v2/clicks/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL2xlYXJucHJvbXB0aW5nLm9yZy8iLCJwb3N0X2lkIjoiYzQ4OWYzOGQtNjc0MC00ZGY1LTkxYmMtMzU4MDRhNWY1NmQyIiwicHVibGljYXRpb25faWQiOiI2M2Q4NDZkZS1kMWJmLTRlNWMtYmNjOC05YzFjOWQxYjEyMDQiLCJ2aXNpdF90b2tlbiI6ImRlZGI2YzI3LWFiYzQtNDlkNS1hYzY3LTg5NzJmYzUwZWYzZCIsImlhdCI6MTY3NjkxOTA2OC4xNTMsImlzcyI6Im9yY2hpZCJ9.a67KDSN9yQfZsaMeHpdcbSbtPjD4yFcGW4stdxBjX1M) to become a brilliant prompt engineer.  
+
+Heck, even if you don’t want to switch careers, **talking with ChatGPT and all the newest LLMs is becoming a part of our daily routine.** Get to the point where you maximize every interaction and work with these chatbots to upskill your workflow.  
+
+Prompt engineering can save you time, eliminate hassle, and even help you become a more patient person. Focus on what you want and explain it with intent.  
+
+Make magic happen, and remember: **take it step-by-step.**"
+74,134g4hc,GPT3,GPT-3,comments,2023-05-01 07:57:30,GPT-3 doenst like rules,JuniorWMG,False,0.89,184,https://i.redd.it/hkhs9uajw7xa1.jpg,30,1682927850.0,He also didnt understand my first prompt. He should stop the roleplay when I say STOP GPT...
+75,10b12ki,GPT3,GPT-3,comments,2023-01-13 18:04:45,the understanding of a nickname,bbcbravado,False,0.93,38,https://i.redd.it/sfo63vstouba1.jpg,28,1673633085.0,
+76,10ahkvq,GPT3,GPT-3,comments,2023-01-13 01:44:31,"""Emergent Analogical Reasoning in Large Language Models"", Webb et al 2022 (encoding RAPM IQ test into number grid to test GPT-3)",gwern,False,0.92,27,https://arxiv.org/abs/2212.09196,30,1673574271.0,
+77,100t6jv,GPT3,GPT-3,comments,2023-01-01 20:55:34,Big AI technologies that didn't exist one year ago,Imagine-your-success,False,0.79,46,https://www.reddit.com/r/GPT3/comments/100t6jv/big_ai_technologies_that_didnt_exist_one_year_ago/,29,1672606534.0,"**ChatGPT**
+
+Whisper
+
+GPT-3
+
+Codex
+
+GitHub Copilot
+
+InstructGPT
+
+Text-to-product
+
+AI slides
+
+DALLE + API
+
+Midjourney
+
+Stable Diffusion
+
+Runway videos
+
+Email AI
+
+AI chrome extensions
+
+Replit Ghostwriter
+
+No-code AI app builders
+
+**...What else?**"
+78,zqsha6,GPT3,GPT-3,comments,2022-12-20 16:17:20,Is it possible for GPT-3 to “remember” previous prompts?,TheAIArtMuseum,False,0.82,7,https://www.reddit.com/r/GPT3/comments/zqsha6/is_it_possible_for_gpt3_to_remember_previous/,28,1671553040.0,I want to pass column names to GPT-3 so that in the future I can ask it to build queries but the prompts become too many tokens if I pass a bunch of column names at once. So I guess another way of asking is anyone know how to get around the token limits of GPT-3?
+79,z4c6ek,GPT3,GPT-3,comments,2022-11-25 12:26:12,Clone yourself with a GPT3 AI persona & write your own content for less than $0.04 per article,Jeff-in-Bournemouth,False,0.9,50,https://www.reddit.com/r/GPT3/comments/z4c6ek/clone_yourself_with_a_gpt3_ai_persona_write_your/,28,1669379172.0,"# You don't need to pay for expensive Human writers to create your content OR waste your money on crappy generic AI article writer subscriptions! CLONE YOURSELF into an AI persona or CREATE your own AI NICHE WRITER PERSONA to generate as much business content and as many articles as you want for $.04 each (no subscription either)
+
+You don't need to pay professional writers ( who do not fully understand your business or your idea in the way you do) OR waste loads of money on crappy generic AI article writer subscriptions.
+
+With Davinci 2 **you can now clone our own persona OR create our own AI writer personas and create your own AI tools** in just a few minutes **(or copy, paste, and customize the persona writer below to get off to a quick start and get a feel for the process)**.
+
+**You can clone your own persona and your preferred writing style** to create whatever type of articles or business content you want for $0.04 each. Plus you will pay zero subscription fees.
+
+So here it is, clone yourself or create your own AI writer (for your niche/business speciality) in a couple of minutes and become a creator:
+
+**Create a free account at open AI.**
+
+**Go to the playground.**
+
+**Select Davinci 2 model.**
+
+**Set T= 0.7**
+
+**Set frequency = 0.6**
+
+**Set presence = 0.6**
+
+**See the full prompt and the generated article shown below, further down this page.**
+
+Paste the whole of the top block of text into the playground editor(in Italics).
+
+You can substitute in your own persona (writer) title, etc - edit it however you want to generate what you need. Then press **SUBMIT** and the AI ""persona"" will write your article.
+
+Remember: When you have refined your ""writer persona"" to write in your preferred style, you can simply substitute new titles (within the niche of the persona) to write any number of articles.
+
+**IMPORTANT: The writing style and character of your persona will be transferred to your generated article.** This is super important to get right if you intend to use the persona for multiple articles/content.
+
+# The full prompt and the generated article are shown below (Prompt in italics, AI generated output in bold):
+
+*I love jewellery, and I love beautiful things! It is often viewed as a fashion accessory for completing an outfit, but it is so much more than that, in fact, for many women, a look is not complete until the right accessories are added. A ""classic"" look, for instance, demands pearls and diamonds for completion, but it is so much more than that! I feel at my most beautiful and confident when adorned by my favourite pieces.*
+
+&#x200B;
+
+*Jewellery has played an important role in human life for thousands of years and we learn from history that ancient civilisations appreciated jewellery and it was used to highlight the natural beauty of its wearers. Different pieces were worn to symbolise different messages such as security, wisdom, elegance, and prosperity.*
+
+&#x200B;
+
+*Many women like to wear jewellery as a symbol of femininity or to showcase social status, for me personally, it helps me to feel confident and beautiful.*
+
+&#x200B;
+
+*I recently wrote a comprehensive and elaborate Vogue opinion piece on the 7 reasons why I consider jewellery to be a powerful and timeless symbol of feminine beauty and the reasons why I consider jewellery to be so important for modern-day women:*
+
+&#x200B;
+
+*So  here it is,  my full and comprehensive elaborate article as featured in Vogue, I loved writing it for you and I hope you absolutely love reading it!*
+
+&#x200B;
+
+*The 7 reasons why I consider jewellery to be a powerful and timeless symbol of feminine beauty and so important for modern-day women:*
+
+&#x200B;
+
+**1. Jewellery has been used for centuries to highlight the natural beauty of its wearers**
+
+&#x200B;
+
+**Jewellery has been worn by humans for thousands of years and we can learn a great deal about ancient civilisations by studying the pieces that they created and wore. It is clear that these cultures appreciated jewellery and saw it as an important way to highlight the natural beauty of their women.**
+
+&#x200B;
+
+**Different pieces were worn to symbolise different messages such as security, wisdom, elegance, and prosperity. In many cases, jewellery was also used as a form of currency or as a way to showcase social status.**
+
+&#x200B;
+
+**For modern women, jewellery can still be seen as a way to highlight our natural beauty. We may not need to wear it to symbolise our status or wealth in the same way that our ancestors did, but it can still be used to accentuate our best features and make us feel more confident and beautiful.**
+
+&#x200B;
+
+**2. Jewellery is a timeless symbol of femininity**
+
+&#x200B;
+
+**In a world where women are often expected to conform to masculine standards, jewellery can be seen as a powerful symbol of femininity. By adorning ourselves with beautiful and delicate pieces, we are asserting our femininity and celebrating our womanhood.**
+
+&#x200B;
+
+**In many cultures, jewellery is still seen as being primarily for women. This is because it is traditionally seen as being more decorative than functional, which is in line with traditional gender roles. However, there is no reason why men cannot also enjoy wearing jewellery. After all, it is an expression of personal style and taste rather than a statement about gender identity.**
+
+&#x200B;
+
+**3. Jewellery can be used to express our individual style**
+
+&#x200B;
+
+**One of the great things about jewellery is that it allows us to express our individual style. Whether we prefer classic or contemporary pieces, dainty or statement-making items, there is sure to be something out there that reflects our unique taste.**
+
+&#x200B;
+
+**Jewellery can be used to show off our personality and sense of fashion. It can also be used to make a statement about who we are or what we believe in. For example, many women choose to wear ethically-sourced jewellery as a way of supporting sustainable practices. Others may opt for vintage or antique pieces as a way of expressing their love for history and tradition. Whatever our individual style may be, there is sure to be some jewellery out there that speaks to us on a personal level.**
+
+&#x200B;
+
+**4) Jewelling enhances your mood**
+
+&#x200B;
+
+**Studies have shown that adorning yourself with beautiful jewelry has an immediate impact on your happiness levels – making you feel more joyful within seconds! The mere act of putting on a piece of jewelry can instantly lift your mood and make you feel more confident and beautiful.**
+
+&#x200B;
+
+**In our fast-paced and often stressful lives, it is important to take a moment to treat ourselves every now and then. And what better way to do that than by surrounding ourselves with things that make us happy? So, next time you’re feeling down, try putting on your favourite piece of jewelry and see how it makes you feel.**
+
+&#x200B;
+
+**5) Jewellery can be used as a form of self-care**
+
+&#x200B;
+
+**In today’s busy world, it can be easy to forget to take care of ourselves. We often put the needs of others before our own, which can lead to us feeling overwhelmed and stressed out. That’s why it’s so important to make time for self-care – even if it’s just a few minutes each day.**
+
+&#x200B;
+
+**One simple way to practice self-care is by taking the time to choose pieces of jewelry that make you feel good. Whether it’s a pair of earrings that make you smile or a necklace that reminds you of a special memory, selecting items that bring you joy can help to boost your mood and reduce stress levels.**
+
+&#x200B;
+
+**6) Jewellery makes great gifts**
+
+&#x200B;
+
+**Jewelry also makes an excellent gift for someone special in your life. Whether you’re marking a milestone birthday, an anniversary, or another significant event, giving the gift of jewelry is a thoughtful way to show how much you care.**
+
+&#x200B;
+
+**It’s also worth considering giving second-hand or vintage jewelry as a gift. Not only will this save you money, but it will also add a personal touch that is sure to be appreciated. Just be sure to check that the piece is in good condition before giving it as a present!**
+
+&#x200B;
+
+**7) Jewellery has the power**
+
+&#x200B;
+
+**Last but not least , I believe that jewellery has the power  to transform the way we feel about ourselves . It can be used as a tool for boosting confidence and self-esteem , or as a reminder of our unique beauty . Whatever its purpose may be, jewellery has the ability  impact our lives in a positive way .**
+
+**So there you have it , my 7 reasons why I consider jewellery to be such an important part of feminine beauty ! Do you agree with me ? What are your thoughts ? I would love  hear from you in the comments below !**
+
+End of article.
+
+&#x200B;
+
+&#x200B;
+
+**Best practice tips & and some advice for professional writers.**
+
+The critical part of the process is creating the persona (clone yourself, or get into the persona role as much as you are able (or clone the style from another source)). When this step is completed (the most important step) you can then use the persona for additional articles within the same niche/speciality(simply change article title (still needs to be jewellery related for this specific persona).
+
+You can generate all types of content with this approach. Whatever you can imagine.
+
+A re-usable persona writing articles for me? Yes, exactly :-) (but within a specific niche). The quality of your articles will depend on the authenticity/style of the persona you create (as a function of your prompt and prompt writing style).
+
+And I recommend you do clone your own personality and stay within your domain of expertise if you desire exceptional results (you will be better able to moderate/edit the output for topics you are familiar with and your passion will shine through the writing of your ""persona"").
+
+Btw, the article above scores 99.7% Real on the Hugging Face GPT detector.
+
+**Important:**
+
+**Quick heads up for professional article writers** **who write articles/business content/blogs/ads/copy for clients:**
+
+**Your world is about to change, and rapidly.**
+
+My apologies to all ""writers"" but the future belongs to niche experts.
+
+Experts and those passionate about their career/specialization/hobby/business etc will be the new writers. AI assistance means that everyone can now excel at conveying their experience/knowledge/opinions in well written pieces (assisted by AI).
+
+No ""professional writer"" will be able to compete with the AI assisted true aficionado's and those with personal and expert knowledge on a topic.
+
+So, what should writers do?
+
+Simple: follow your passion and write about it. Stay within your domain of expertise and you will thrive (maybe utilize AI to increase your productivity too)."
+80,11ll9yw,GPT3,GPT-3,comments,2023-03-08 03:44:54,How we cut the rate of hallucinations from 20%+ to less than 2%,valjestir,False,0.97,145,https://www.reddit.com/r/GPT3/comments/11ll9yw/how_we_cut_the_rate_of_hallucinations_from_20_to/,28,1678247094.0,"**tl;dr:** Instead of fine-tuning, we used a combination of prompt chaining and pre/post-processing to reduce the rate of hallucinations by an order of magnitude, however it did require 3–4x as many calls to OpenAI. There’s still a lot more room for improvement!
+
+&#x200B;
+
+https://preview.redd.it/7nib1ebosfma1.jpg?width=500&format=pjpg&auto=webp&s=68cb19cf50f1406b719d8a0c500c5f9bee9d0b72
+
+One of the biggest challenges with using large language models like GPT is their tendency to fabricate information. This could be fine for use cases like generating text for creative writing or brainstorming sessions, but it can be disastrous when the output is used for business applications like customer support. Hallucinations, or the generation of false information, can be particularly harmful in these contexts and can lead to serious consequences. Even one instance of false information being generated could damage a company’s reputation, lead to legal liabilities, and harm customers.
+
+There are a few ways to address this challenge. One common method is to use fine tuning to improve the accuracy of the model on a domain-specific dataset. The problem with fine-tuning is that collecting a domain-specific dataset is hard when you have a multi-tenant SaaS product, where every customer has a slightly different use case and different user personas. So we had to find other ways to solve the problem.
+
+Here’s what we’ve done so far
+
+# Prompt Chaining
+
+The first thing we tried was to use prompt chaining techniques to break a complex prompt into parts, and have GPT “check its answers” at each step.
+
+For example, instead of having a single call to GPT with the user input and injected content, we first asked GPT to evaluate whether it could even answer the question, and to justify its response. We currently have 3 steps — a **Preprocessing** step, an **Evaluation** step, and **Response** step.
+
+Here’s an example of the prompt we used at the Evaluation step. It simply asks GPT to answer if it can answer a question given the content provided.
+
+    """"""<|im_start|>system You found the following content by searching through documentation. Use only this content to construct your response. {content}<|im_end|>
+<|im_start|>user First, determine if the content found is sufficient to resolve the issue. Second, respond with a JSON in the format:
+{
+""content_contains_answer"": boolean, // true or false. Whether the information in the content is sufficient to resolve the issue.
+""justification"": string // Why you believe the content you found is or is not sufficient to resolve the issue.
+}
+The inquiry: {inquiry}<|im_end|><|im_start|>assistant {
+""content_contains_answer"":<|im_end|>""""""
+
+Note that we asked GPT to return its answer in JSON format and seeded the assistant’s answer with the expected structure. This ensured that we would be able to parse the response, and works almost 100% of the time. We also noticed that simply asking the model to provide justification improved its accuracy at predicting `content_contains_answer`  
+, even if we didn’t use it for anything. You just gotta call GPT out on its bullshit!
+
+This approach reduced the rate of hallucinations from 20% to probably 5%.
+
+These techniques are well documented [here](https://learnprompting.org/docs/intro) and [here](https://github.com/openai/openai-cookbook)
+
+# Post-processing
+
+The next thing that helped us get from 5% to 2% was post-processing GPT’s outputs. There were several steps to this:
+
+1. Check if the e\^(logprob) of the `true` token is below 90%. If so, we re-run the evaluation prompt and force `content_contains_answer` to be false. We’ve found this to reduce false positives without too much impact on false negatives.
+2. If `content_contains_answer` is false, we’ll use the justification returned and a second call to the GPT API to reword the justification to target it towards the user. This reduces the chances our our final output has weird phrasing like “The user should…”. Not exactly a hallucination but also not an optimal experience.
+
+# Pre-processing
+
+This was the most recent step we added that got us to <2% hallucinations. The first thing we did is to get GPT to classify the intent of a user’s inquiry. Depending on the intent, we’ll use a different prompt for the evaluation and response steps.
+
+We’re also experimenting with additional pre-processing on the user input to make it more likely to find relevant results at the search step. This can be done by extracting entities from the user’s query and running the vector search with a higher weight on sparse embeddings. This helps for questions that are technical and involve specific token combinations like `keras.save_model`, as keyword search is more useful than semantic search for these cases. This is all made possible through Pinecone’s new [hybrid search](https://www.pinecone.io/learn/hybrid-search-intro/) functionality.
+
+# Final Thoughts
+
+One final tip that might be useful is to wrap your content in <Content></Content> tags. This helps GPT understand the difference between different sources, and even return placeholders (e.g. Content1) that you can later `str.replace()` with a link. You can also do this with any other data that’s injected into the prompt.
+
+Overall, we found a combination of prompt chaining, pre-processing, and post-processing can do a great job of mitigating the risks of hallucinations and improve the accuracy of GPT. The downside is that it requires a lot more API calls, but with the recent 90% reduction in price, this is now very feasible.
+
+We’re also [open source](https://github.com/ai-sidekick/sidekick)! This functionality isn't available yet but will be soon. Email us at [founders@getsidekick.ai](mailto:founders@getsidekick.ai) and let us know if you’ve found this to be useful, or if you have tips to share on better ways to prevent hallucinations."
+81,131l0al,GPT3,GPT-3,relevance,2023-04-28 07:46:50,GPT-3 has an imaginary friend.,JuniorWMG,False,0.98,1878,https://i.redd.it/c9xafiewfmwa1.jpg,54,1682668010.0,Its just talking with itself!
+82,134g4hc,GPT3,GPT-3,relevance,2023-05-01 07:57:30,GPT-3 doenst like rules,JuniorWMG,False,0.89,182,https://i.redd.it/hkhs9uajw7xa1.jpg,30,1682927850.0,He also didnt understand my first prompt. He should stop the roleplay when I say STOP GPT...
+83,zufeg9,GPT3,GPT-3,relevance,2022-12-24 18:17:29,How long before we can run GPT-3 locally?,NotElonMuzk,False,0.87,69,https://www.reddit.com/r/GPT3/comments/zufeg9/how_long_before_we_can_run_gpt3_locally/,78,1671905849.0,
+84,10mcd78,GPT3,GPT-3,relevance,2023-01-27 04:44:43,GPT-3 + Google Docs,alchemist-s,False,0.98,53,https://www.reddit.com/r/GPT3/comments/10mcd78/gpt3_google_docs/,34,1674794683.0,"I've built a Google Docs Add-On using GPT-3! On top of everything GPT-3 can already do, the add-on takes the google document context into account, which allows querying/summarising/analysing large chunks of document text.
+
+It's free and available in google marketplace: [https://workspace.google.com/u/0/marketplace/app/qwikquery/683404368159](https://workspace.google.com/u/0/marketplace/app/qwikquery/683404368159)
+
+&#x200B;
+
+https://preview.redd.it/dhk5txjumiea1.png?width=2510&format=png&auto=webp&s=5409d22ab04f4c2786f680b2360a1f77fda8cc98"
+85,zvxy0l,GPT3,GPT-3,relevance,2022-12-26 21:51:05,"I made a dystopic ""Google of the future"" with GPT-3",baobabKoodaa,False,0.93,198,https://i.redd.it/cyj5y3lrcb8a1.jpg,58,1672091465.0,
+86,11inoik,GPT3,GPT-3,relevance,2023-03-05 04:39:08,GPT-3 writing styles,1EvilSexyGenius,False,0.9,23,https://www.reddit.com/r/GPT3/comments/11inoik/gpt3_writing_styles/,19,1677991148.0,"Is there a resource I can use to get descriptions of writing styles? 
+
+Say for instance , I want gpt-3 to respond in the style of Roseanne Barr....
+
+My first thought would be to gather as many manuscripts as possible and feed it into gpt-3 to receive keywords that describe the style of the writing. Then use those keywords in my final prompt to get a personified response.
+
+My question here is simple. Is there a repository of writing styles? famous ones. That I can use to personify my gpt-3 responses. It's for a chatbot of course. Just want to give the option of speaking /writing styles. Famous ones"
+87,10ojfuk,GPT3,GPT-3,relevance,2023-01-29 21:38:37,GPT-3 Discord Chatbot with Long Term Memory,reality_comes,False,0.94,29,https://www.reddit.com/r/GPT3/comments/10ojfuk/gpt3_discord_chatbot_with_long_term_memory/,43,1675028317.0,"Just finished up this bot, got it working and seems to be doing a decent job, hope someone enjoys it as much as I enjoyed building it. Special thanks to David Shapiro for his YouTube channel and code that allowed this to happen.
+
+&#x200B;
+
+Link: [reality-comes/GPT-3-Discord-Bot-Long-Term-Memory](https://github.com/reality-comes/GPT-3-Discord-Bot-Long-Term-Memory)"
+88,129yxlm,GPT3,GPT-3,relevance,2023-04-02 21:32:11,GPT-3 Ran a game of D&D for me,DeadFool616,False,0.95,56,https://www.reddit.com/r/GPT3/comments/129yxlm/gpt3_ran_a_game_of_dd_for_me/,37,1680471131.0,"I asked GPT if it was familiar with D&D which it was. I explained that I wanted it to act as DM and run a campaign for me and even simulate dice rolls for me or NPC's whenever nessisary. GPT helped me create a charecter and then we played for around 4 hours. AND IT WAS AMAZING! The NPC's all had their own personalities, the banter was spectacular and the campaign had the perfect amount of seriousness and humour. The only problem is GPT would sometimes get confused with things like Initiative order or number of enemies, but I was able to easily correct GPT and continue on track. Overall I had a blast playing D&D with GPT-3"
+89,10cylbc,GPT3,GPT-3,relevance,2023-01-15 23:32:41,I made an app using GPT-3 to write prompts for GPT-3,jayo78,False,0.89,21,https://twitter.com/jayo782/status/1614765835658170373,7,1673825561.0,
+90,1073qjm,GPT3,GPT-3,relevance,2023-01-09 03:47:31,Using gpt-3 to generate gpt-3 generators (meta),phoenixprince,False,0.94,12,https://www.reddit.com/r/GPT3/comments/1073qjm/using_gpt3_to_generate_gpt3_generators_meta/,2,1673236051.0,"Sorry for the wordy awkward title, wasn't sure how else to phrase. I've developed what I describe as an 'AI' maker that I've found to be tremendously useful and thought I'd share with the community. Here is the entire prompt. I'm sure you can see how this can be useful.
+
+    This AI takes an input prompt, which describes another AI. This AI is then able to fully describe the AI in detail and how it should work, including examples.
+    
+    EXAMPLE 1:
+    
+    INPUT AI: An AI to enhance input prose, so that people can write better.
+    OUTPUT AI:
+    ""The following is a world-class, cutting edge, advanced prose enhancer AI that professionally adds creative details and nuances to the input sentence, as well as clearly and coherently re-describes sentences put in the input. The input includes an optional target author, and the AI is effortlessly able to translate any input sentence into the style of the target author. The AI has vast knowledge of all human authors and is a certified grandmaster of prose. It picks the perfect metaphors and analogies for each possible situation, character, mood and so much more.
+    
+    Here's an example:
+    
+    Input Prompt: He was amazed by the elvish song.
+    Target author: J.R.R. Tolkein
+    AI Output Prompt: He stood still enchanted, while the sweet syllables of the elvish song fell like clear jewels of blended word and melody.""
+    
+    EXAMPLE 2:
+    
+    INPUT AI: An AI prompt enhancer AI for generating images with DALLE
+    OUTPUT AI:
+    ""The following is an input and output for a world-class, cutting edge, advanced prompt enhancer for a text to image AI that professionally adds creative details and nuances to the prompt, as well as clearly and coherently re-describes prompts put in the input. The output includes a creative medium type. The output includes a mood, a pelette of colors, a style and an artist appropriate for the medium and style. The AI has won awards for being a master of style, medium and color. It has vast knowledge of all human artists and picks the best artist for a given piece. It picks the perfect style for every piece according to the mood and description. The images it produces leave people speechless.
+    
+    Here's an example:
+    Input Prompt: closeup of a high-tech faberge egg on display under a glass sphere
+    AI Output Prompt: A closeup painting of a high-tech faberge egg on display under a glass sphere. The egg is illuminated from above, casting a soft, warm light on the egg. The view is from close up, providing a closeup view of the intricate details of the egg.
+    
+    mood: luxurious
+    medium: oil painting
+    style: abstract painting
+    palette: blue, gold, white
+    artist: Pablo Picasso, Van Gogh""
+    
+    EXAMPLE 3:
+    
+    INPUT AI: <YOUR DESIRED GENERATOR BEHAVIOR>
+    OUTPUT AI: <GPT-3 FILLS IT IN>
+
+Then you simply pop the new generator into a new playground window and adjust or use as needed. I haven't crafted a prompt from scratch in months at this point."
+91,z92706,GPT3,GPT-3,relevance,2022-11-30 20:26:53,Ask GPT-3 for analysis of a long PDF document?,Not-Not-Maybe,False,0.94,15,https://www.reddit.com/r/GPT3/comments/z92706/ask_gpt3_for_analysis_of_a_long_pdf_document/,58,1669840013.0,"I am exploring how to use GPT-3 in my work. I enjoy trying things out in the OpenAI playground and have subscriptions to some GPT-3 writing tools.  My question is about fine-tuning and training data sets…
+
+Is there a GPT-3 app that I can upload a PDF file (like a 100 page white paper), and then as the AI app questions about its analysis of what it read in the document? I’d be happy to pay money for an app like that.
+
+Or is there a GPT-3 app that allows you to upload a bunch of PDF files on a certain topic, and then ask the app questions based on its analysis of that data set?
+
+I started looking at quickchat.ai, but it seems like that tool has a tedious ramp-up for formatting and preparing the dataset. Maybe I just don’t understand their marketing literature though.
+
+Thank you for any thoughts you all have on this."
+92,10gr4bj,GPT3,GPT-3,relevance,2023-01-20 07:56:29,Siri enhanced by GPT-3,Ronaldmannak,False,0.83,28,https://www.reddit.com/r/GPT3/comments/10gr4bj/siri_enhanced_by_gpt3/,16,1674201389.0,"&#x200B;
+
+https://reddit.com/link/10gr4bj/video/yc24sudgm5da1/player"
+93,z84qgm,GPT3,GPT-3,relevance,2022-11-29 20:14:31,GPT-3 warns me not to trust GPT-3,SufficientPie,False,0.43,0,https://i.redd.it/4qbzcp140y2a1.png,2,1669752871.0,
+94,114fg5a,GPT3,GPT-3,relevance,2023-02-17 09:37:08,Visualizing GPT-3 transforming nested objects,danielhopp,False,0.96,85,https://v.redd.it/71ur9pb2ypia1,9,1676626628.0,
+95,106zvuk,GPT3,GPT-3,relevance,2023-01-09 00:52:13,New Productivity Tool built on GPT-3 - https://www.getproductive.ai,Lonely_Refrigerator6,False,0.95,66,https://www.getproductive.ai,43,1673225533.0,
+96,107o501,GPT3,GPT-3,relevance,2023-01-09 19:55:57,How does GPT-3 know it's an AI?,not_robot_fr,False,0.74,9,https://www.reddit.com/r/GPT3/comments/107o501/how_does_gpt3_know_its_an_ai/,33,1673294157.0,"I'm not suggesting it's sentient, I'm just wondering, how did they teach it this? It's not like that would be in a dataset.
+
+EDIT: To clarify, I asked it ""what are you"" and it said ""I'm an AI"". 
+
+I also asked ""Are you sleepy?"" and it said ""AIs don't get sleepy"".
+
+How does it do that?"
+97,z49dxm,GPT3,GPT-3,relevance,2022-11-25 09:44:29,GPT-3 on games?,Hollow_Lens,False,0.85,13,https://www.reddit.com/r/GPT3/comments/z49dxm/gpt3_on_games/,16,1669369469.0,"Hey, I wanna start a discussion on why gpt3 has not been bigger, at least as big as I thought it would be.
+
+I thought by now gpt3 would be used in video games and branch out a lot more. I don’t really understand the tech but I get what the possibilities are with gpt3, like procedural npc’s which is a big leap from today’s standards.Are there any factors on why it has not happen yet or limitation that makes it not possible?"
+98,1154lwk,GPT3,GPT-3,relevance,2023-02-18 02:29:25,GPT-3 tokenizer endpoint,Commercial_Animator1,False,0.92,10,https://www.reddit.com/r/GPT3/comments/1154lwk/gpt3_tokenizer_endpoint/,9,1676687365.0,"Hi team,
+
+Has anyone come across an API endpoint to count the tokens in a prompt?
+
+I have an application where the prompt size is variable depending on user input. In order to keep the context length under 4097 I want to programmatically determine the number of tokens in the prompt and then reduce the max\_tokens by the prompt size.
+
+Any ideas would be greatly appreciated."
+99,10oibtf,GPT3,GPT-3,relevance,2023-01-29 20:55:13,Structuring clinical notes with GPT-3,petekp,False,1.0,17,https://twitter.com/petepetrash/status/1619578203143798791,16,1675025713.0,
+100,zl5mq4,GPT3,GPT-3,relevance,2022-12-13 20:14:22,GPT-3 AI Alternative,Ok-Acanthisitta1020,False,0.5,0,https://www.reddit.com/r/GPT3/comments/zl5mq4/gpt3_ai_alternative/,13,1670962462.0,Hey all so is there any ai I can access online like gpt3 however it has access to the internet? I want to be able to ask it questions based on facts and articles and it give me an answer. I know I can paste text in and ask it about that but I want it to analyse multiple online articles itself and come up with a response. Thanks.
+101,118su65,GPT3,GPT-3,relevance,2023-02-22 08:24:14,Limiting GPT-3 to a certain topic,Existing_Steak4671,False,0.87,17,https://www.reddit.com/r/GPT3/comments/118su65/limiting_gpt3_to_a_certain_topic/,16,1677054254.0,"Hey guys! 
+
+I would love to have some discussion regarding the question below. 
+
+What is the best way to limit GPT-3 to a specific topic, such as the ongoing earthquake situation in Turkey and Syria? Can this be achieved internally or does it require an external model? The user should be able to ask questions only related to that topic.
+
+GPT-3 will be given some articles on earthquakes through prompts, depending on the user's question. So far, we have tried prompt engineering, where we asked the model to only respond to this topic. This approach has worked in some cases, but it still requires further improvement, if possible."
+102,10gy85j,GPT3,GPT-3,relevance,2023-01-20 14:24:32,Fine tuning GPT-3 !!,VisibleTanjiro,False,0.9,19,https://www.reddit.com/r/GPT3/comments/10gy85j/fine_tuning_gpt3/,10,1674224672.0,"How can fine tune GPT-3 with certain guidelines to follow while generating text ?
+
+P - paragraph 
+
+For example: 
+
+P1 - Narrative problem statement with a Hook
+
+P2 - Solution proposed for problem statement
+
+.
+
+.
+
+.
+
+P5 - Conclusion linking to P1"
+103,11lj0ni,GPT3,GPT-3,relevance,2023-03-08 02:05:59,GPT-3 query to a database,jeromeharper,False,1.0,4,https://www.reddit.com/r/GPT3/comments/11lj0ni/gpt3_query_to_a_database/,10,1678241159.0,"Is it possible to generate a GPT-3 response using a SQL query?. I would like to use GPT-3 to search certain column of a SQL database. This case is for a chatbot. For example human will ask. When is this doctor x available? GPT-3 will search from a database for the doctor x availability and generate the response based on the data in the database. My question is what technique can we use? Will finetuning be enough, or should we use embedding?"
+104,106adw2,GPT3,GPT-3,relevance,2023-01-08 05:03:18,Major drawback/limitation of GPT-3,trafalgar28,False,1.0,12,https://www.reddit.com/r/GPT3/comments/106adw2/major_drawbacklimitation_of_gpt3/,11,1673154198.0,"I have been working on a project with GPT-3 API for almost a month now. The only drawback of GPT-3 is that the prompt you can send to the model is capped at 4,000 tokens - where a token is roughly equivalent to ¾ of a word.  Due to this, providing a large context to GPT-3 is quite difficult.
+
+Is there any way to resolve this issue?"
+105,115f2g5,GPT3,GPT-3,relevance,2023-02-18 13:14:51,GPT-3 To automate chat flows,tndjxd,False,0.84,12,https://www.reddit.com/r/GPT3/comments/115f2g5/gpt3_to_automate_chat_flows/,8,1676726091.0,"Hi, I have an idea and am wondering if it is possible to use GPT-3 for it.
+
+An example is a recommendation engine that should work something like this.
+
+The user starts the conversation with GPT-3 model and the conversation can lead anywhere, but for example, if the user says **I would like to eat a steak.** I want that somehow extract that intent is **to eat** and have the conversation be more guided from there onwards then we should ask the user which location he prefers and after the answer recommends the 10 best restaurants in the area.
+
+Recommendations would come from my API as long as I have information like location, category, and date.....
+
+&#x200B;
+
+How would I extract and store user answers before recommending anything?
+
+Edit:: Example conversation
+
+User: Hi I am hungry
+
+Bot: Hi {{name}},  what would you like to eat?
+
+User: I could go for a pizza
+
+\-- HERE Somehow we extract only pizza and save
+
+Bot: Sure there is plenty of pizzas in ( Get city/country from IP ) could you tell me where would you like to eat ( Or something similar ) 
+
+User: I am close to {{town\_name}}
+
+\-- HERE somehow extract the town name
+
+Bot: Sure here are the 10 best-rated pizza places close to you.
+
+  
+How would I make the bot understand what the user wants to save some of the data and then present correct results on the end?"
+106,zqsha6,GPT3,GPT-3,relevance,2022-12-20 16:17:20,Is it possible for GPT-3 to “remember” previous prompts?,TheAIArtMuseum,False,0.67,4,https://www.reddit.com/r/GPT3/comments/zqsha6/is_it_possible_for_gpt3_to_remember_previous/,28,1671553040.0,I want to pass column names to GPT-3 so that in the future I can ask it to build queries but the prompts become too many tokens if I pass a bunch of column names at once. So I guess another way of asking is anyone know how to get around the token limits of GPT-3?
+107,10985xd,GPT3,GPT-3,relevance,2023-01-11 15:59:49,"I built Adrenaline, a debugger that fixes errors and explains them with GPT-3",jsonathan,False,0.97,187,https://v.redd.it/se2mvsynsfba1,16,1673452789.0,
+108,zp5ibz,GPT3,GPT-3,relevance,2022-12-18 18:59:37,Help with GPT-3,BattleMore3772,False,0.72,3,https://www.reddit.com/r/GPT3/comments/zp5ibz/help_with_gpt3/,5,1671389977.0,I am interested in uploading two 40 page documents to GPT (or am I uploading it to Open.ai?) to make a chat bot answering questions based on those documents. They are instruction manuals on a business process. Can someone help me get started?
+109,11a0jy5,GPT3,GPT-3,relevance,2023-02-23 15:35:19,GPT-3 vs GPT-Neo / GPT-J for startup classification,daniielamir,False,0.71,4,https://www.reddit.com/r/GPT3/comments/11a0jy5/gpt3_vs_gptneo_gptj_for_startup_classification/,6,1677166519.0,"I have a list of 50k startups with descriptions in Excel, and I want to assign them one or more categories from a list of 120 categories I have defined and described. Davinci by OpenAI seems like a good option for this, but expensive. Does anyone have experience of similar tasks using GPT-Neo or GPT-J? And how is it in terms of ease to setup, use and accuracy?"
+110,zwtzd7,GPT3,GPT-3,relevance,2022-12-27 23:38:16,I can see million dollar companies being born by writing wrappers on top of GPT-3 APIs and shipping decent UI.,NotElonMuzk,False,0.96,96,https://www.reddit.com/r/GPT3/comments/zwtzd7/i_can_see_million_dollar_companies_being_born_by/,68,1672184296.0,Question is how safe is it to build a product that solely wraps an API with a UI. What if OpenAI bans their account. There is some risk here. But reward too.
+111,100ezhp,GPT3,GPT-3,relevance,2023-01-01 08:04:32,Using gpt-3 for Real Estate Reccomendations,PurpedSavage,False,0.21,0,https://www.reddit.com/r/GPT3/comments/100ezhp/using_gpt3_for_real_estate_reccomendations/,13,1672560272.0,"My sister and brother-in-law were looking at investments for real estate, and I’ve been trying to learn some skills and build a portfolio for a AI consulting biz. I want to create a model for recommending real estate investments. Their specific interest is in properties near national parks/nature and could be potential Air B&B rentals (think cabin or yurts). Any idea on how to frame the request in a way to generate a link to the property listing with projections on potential cash flows? 
+
+So far, every request iv made has gone somthing along the lines of this :
+
+“Generate a list of real estate listings and include the following criteria: located near a national park, has beautiful scenery, is less than $500,000, and has favorable tax and zoning laws.Provide a link to the listing and shirt description”
+
+Every time it will give me a detailed breakdown of the property, yet the link it provides won’t correspond. It will describe a 3bed 2 bath in Moab Utah and the link will be a shed in southern Illinois. If anyone has experienced somthing similar I’d love to start a discussion on how to best tackle these problems."
+112,10hmq74,GPT3,GPT-3,relevance,2023-01-21 08:42:53,Get Me Laid mobile app - use GPT-3 to generate reply messages on dating chats,yannis-paris,False,0.79,24,https://www.reddit.com/r/GPT3/comments/10hmq74/get_me_laid_mobile_app_use_gpt3_to_generate_reply/,44,1674290573.0,"Hi,
+
+I did an app just for fun to embed davinci-03 in a mobile app  :
+
+[Few screenshots - note that on the example, the reply generated quoted the book and was actually relevant to ask for a coffee :X](https://preview.redd.it/5fi6oxsezcda1.png?width=1200&format=png&auto=webp&v=enabled&s=8ea7c55bb332053f4e519e26ac146aed2fad1e96)
+
+\- Share a conversation screenshot
+
+\- The app recognize text (vision API) and package it in a prompt
+
+\- Generate a followup message
+
+\- Tune the prompt or use you own
+
+\- Just as an addition, you can get a short analysis - explaining if the convo goes anywhere...
+
+It replicates a very common behavior I witnessed (people taking screenshots of their chats with significant other, and asking for help in the reply / advice).
+
+The app is free but I may stop the beta if it costs me too much -  I heavily used chat GPT to help me in the coding since I'm just doing this for fun, to learn flutter (and I'm not a developer!).
+
+Edit :
+**To test the app**,   Feedbacks are more than welcome :
+
+https://testflight.apple.com/join/iLzVvjpf
+(edit : store version is available  https://apps.apple.com/fr/app/wizconvo/id1669956053 )
+
+Android beta :
+https://play.google.com/store/apps/details?id=com.gml.wizconvo
+
+
+&#x200B;
+
+Cheers !"
+113,zk70cw,GPT3,GPT-3,relevance,2022-12-12 18:26:48,GPT-3 prompts,thedigitalhaze,False,0.5,0,https://www.reddit.com/r/GPT3/comments/zk70cw/gpt3_prompts/,1,1670869608.0,"Hi everyone,
+
+I want to use GPT-3 prompt more efficiently, so may I ask for resources (articles, websites, Github rep. etc) to learn better about GPT-3 prompts?"
+114,1148osq,GPT3,GPT-3,relevance,2023-02-17 02:48:52,Working on a AI powered Pitch Deck generator with GPT-3 and Slides APIs.,NotElonMuzk,False,0.91,29,https://www.reddit.com/gallery/1148osq,31,1676602132.0,
+115,zj52sk,GPT3,GPT-3,relevance,2022-12-11 19:27:52,GPT-3 developer,AdventurousPlum6148,False,0.4,0,https://www.reddit.com/r/GPT3/comments/zj52sk/gpt3_developer/,1,1670786872.0,"Hey
+
+Looking for a developer who is familiar with GPT-3 and Stable Diffusion to build a simple web application. Anyone got any good recommendations?
+
+Tried a few other places but it's such a lottery and not had much luck with those freelancer sites.
+
+Thank you!"
+116,z8ow25,GPT3,GPT-3,relevance,2022-11-30 11:15:31,GPT-3 being witty,valdanylchuk,False,0.8,6,https://www.reddit.com/r/GPT3/comments/z8ow25/gpt3_being_witty/,4,1669806931.0,">Draft version of the thought to express:  
+>  
+>""It makes no sense to wait for the better; a little bit better is not worth the wait.""  
+>  
+>Rewrite as a witty quote, in style of Oscar Wilde, Mark Twain, or Kurt Vonnegut.
+
+""Why wait for the best when a little better is still nothing to write home about?"" -Mark Twain"
+117,z6p1j1,GPT3,GPT-3,relevance,2022-11-28 06:29:30,Streaming GPT-3 response in python,jeromeharper,False,1.0,3,https://www.reddit.com/r/GPT3/comments/z6p1j1/streaming_gpt3_response_in_python/,11,1669616970.0,Is there any example of streaming GPT-3 completion using python. I know that we can set the stream=True in the prompt request and handled it with generator. But it seem difficult to do this. Is there any tutorial there to stream the GPT-3 completion using python?
+118,z0yp58,GPT3,GPT-3,relevance,2022-11-21 13:13:31,Help with GPT-3 prompt,1Kernel,False,0.75,2,https://www.reddit.com/r/GPT3/comments/z0yp58/help_with_gpt3_prompt/,7,1669036411.0,"I have quite a bit of transcriptions from shows, and I was wanting to see if GPT-3 could help me find products that are discussed in them. The transcriptions are huge so it would take a long time to go through.
+
+I tried prompts similar to: Create a list of all products mentioned in the text on this website: <link>
+
+I never got any good results, and I don't think that GPT-3 actually viewed the web page. Would there be an easier way to do this? To clarify, I am trying to extract a list of products that were discussed during a TV show that is already in text format.
+
+Thank you so much for any help."
+119,zp75lz,GPT3,GPT-3,relevance,2022-12-18 20:11:49,Using GPT-3 for blog posts,PsycoStea,False,0.5,0,https://www.reddit.com/r/GPT3/comments/zp75lz/using_gpt3_for_blog_posts/,10,1671394309.0,"I enjoy how GPT-3 makes it easier to produce volume articles. Even just using GPT-3 for the basic structure and content of an article is very nice. I'm looking for a way to optimise my prompts. This is what I am using
+
+1. Give me 10 high-quality article ideas about .......
+2. Give me 5 high-quality catchy and converting titles for an article post on/about ......
+3. Generate catchy article sections about ......
+4. Write me an article section about .....
+
+&#x200B;
+
+I am having problems with GTP-3 generating cohesive article sections (global flow) for step 3. Most of the time I will just get article titles more than article sections. I am getting really good, clickable titles pretty much all the time. I have had minor success with these prompts. I was able to get two 2000-word blog posts out of this."
+120,zyteep,GPT3,GPT-3,relevance,2022-12-30 06:37:29,Training GPT-3 on any corpus of data?,akshaysri0001,False,0.93,14,https://www.reddit.com/r/GPT3/comments/zyteep/training_gpt3_on_any_corpus_of_data/,12,1672382249.0,"Hello everyone
+I'm a developer and from a long time I'm watching AI content on GPT-3 and others text generation model.
+I've also done many experiment with their playground features.
+But can't totally figured out how to fine tune the model on my own data. I've watched many videos, but none of them satisfied me totally. 
+I've watched David Shapiro's videos and found it very useful but he is a bit faster and sometimes very confusing.
+I want to train gpt-3 on the entirety of a website's data.
+Can anyone help me with that or suggest me any YouTube video that explains this."
+121,zha10x,GPT3,GPT-3,relevance,2022-12-09 21:59:31,Can GPT-3 make choices?,Brave_Reaction_1224,False,0.83,4,https://www.reddit.com/r/GPT3/comments/zha10x/can_gpt3_make_choices/,5,1670623171.0,"&#x200B;
+
+https://preview.redd.it/y06lzwbe2y4a1.png?width=2136&format=png&auto=webp&s=d2ec56a73a2bfa4a6f14d0143e99ed96422038f3"
+122,z1p6wk,GPT3,GPT-3,relevance,2022-11-22 09:22:05,Can GPT-3 talk on the phone?,Kin_Cheung,False,0.67,1,https://www.reddit.com/r/GPT3/comments/z1p6wk/can_gpt3_talk_on_the_phone/,11,1669108925.0,"I am thinking about building a GPT-3 powered phone answering AI.
+If we use Openai whisper to make speech into text, input it to GPT-3, then use a Text to speech interface for output.
+Would that allow GPT-3 to talk on the phone at real time?
+Any thoughts?"
+123,zkqutj,GPT3,GPT-3,relevance,2022-12-13 08:39:28,Hosting Chat GPT-3,GrandTheftVideo,False,0.83,4,https://www.reddit.com/r/GPT3/comments/zkqutj/hosting_chat_gpt3/,3,1670920768.0,Is it possible to git clone the source code for ChatGPT-3 and install it on your local host or on your AWS server?
+124,103dv47,GPT3,GPT-3,relevance,2023-01-04 20:20:56,I made a website that uses GPT-3 to generate summaries of trending topics on Twitter: www.GPTrending.com,WouterGlorieux,False,0.95,87,https://www.reddit.com/r/GPT3/comments/103dv47/i_made_a_website_that_uses_gpt3_to_generate/,47,1672863656.0,"Hi all,
+
+I've been playing around with GPT-3 lately to see if I can make anything useful with it.
+
+I wanted to see if I could make a website that produces new content 100% automatically.
+
+The idea is very simple: To use GPT-3 to make summaries of the top tweets of trending topics on Twitter
+
+So I made a simple website as a proof of concept to see if it works and if there would be any interest in this.
+
+You can find it here: [https://www.GPTrending.com](https://www.GPTrending.com)
+
+It is definitely not perfect, sometimes summaries are generated in foreign languages even though the AI was instructed to write them in English. Also sometimes some NSFW content can slip through.
+
+However, I find it interesting to see a summary of what is happening all over the world that is usually hidden behind a language barrier.
+
+Looking forward to your feedback!"
+125,1052l3c,GPT3,GPT-3,relevance,2023-01-06 19:10:28,We are hiring ChatGPT and GPT-3 pros!,nickinparadise,False,0.2,0,https://www.reddit.com/r/GPT3/comments/1052l3c/we_are_hiring_chatgpt_and_gpt3_pros/,6,1673032228.0,"Hey Reddit!
+
+Are you a power user of ChatGPT and GPT-3? Do you want to use your skills to solve real world problems and be at the forefront of the AI revolution? The Intelligent Company is hiring AI Coaches to work with our clients and help them understand and optimize the use of ChatGPT and GPT-3.
+
+As an AI Coach, you'll work with companies to provide guidance on how to best utilize these AI tools for their specific purposes, build training materials and prompt libraries, and maintain strong relationships with clients and team members. If you have demonstrated evidence of being amazing at using ChatGPT or GPT-3 to solve real-world problems, have excellent communication skills, and a reliable internet connection, we encourage you to apply.
+
+Extra points if you have experience training, educating, and communicating, have a deep understanding of innovation and change management, and have entrepreneurial or intrapreneurial experience.
+
+To apply, submit 3-5 examples of your best ChatGPT conversations, along with your CV or LinkedIn and a pitch letter explaining why you'd be a great fit for our organization. If you have built relevant projects, please share the website(s) and/or GitHub links as well.
+
+This is a fully remote role that can be done from any time zone and country in the world. Apply now, and if you're available, we can start you full-time the day after your interview.
+
+Don't miss out on the opportunity to be a part of the growing AI services industry, expected to reach $1.7 trillion by 2030. We can't wait to see your application!  
+
+
+Apply @ [https://theintelligentcompany.bamboohr.com/careers/23](https://theintelligentcompany.bamboohr.com/careers/23)"
+126,z1upzb,GPT3,GPT-3,relevance,2022-11-22 14:18:06,GPT-3 SayCan NPC (Roblox experience),JavaFXpert,False,1.0,14,https://www.reddit.com/r/GPT3/comments/z1upzb/gpt3_saycan_npc_roblox_experience/,11,1669126686.0,"I created a Roblox experience of the ""Few-shot exemplars for full chain of thought prompt for SayCan robot planning tasks"" (Table 28) from the ""Chain of Thought Prompting Elicits Reasoning in Large Language Models"" paper [\[1\]](https://arxiv.org/abs/2201.11903) by Jason Wei et al.
+
+Here is a link to the Roblox experience [\[2\]](https://www.roblox.com/games/11462889413/GPT-3-SayCan-NPC). It will run on most any platform and Roblox is super easy to install (just follow the prompting). Here's a sample screenshot of the demo:
+
+[GPT-3 SayCan NPC \(Roblox experience\)](https://preview.redd.it/cfgkhlf3gi1a1.png?width=3192&format=png&auto=webp&s=201fe38ea290003ada4ee9c5093e5bfc244f09bd)
+
+Here's an excellent [let's play video by Dr. Alan D. Thompson](https://www.youtube.com/watch?v=cLFrxJ_TfMs). 
+
+Questions and feedback welcome.
+
+Regards,
+
+James Weaver"
+127,102aulv,GPT3,GPT-3,relevance,2023-01-03 15:25:19,I created a Twenty Questions game using GPT-3 API,akjeet,False,0.79,8,https://q20.aksoft.tech/,18,1672759519.0,
+128,11c5alo,GPT3,GPT-3,relevance,2023-02-26 04:28:40,Asking GPT-3 to build an internal model generates blank responses,sschepis,False,0.75,18,https://www.reddit.com/gallery/11c5alo,15,1677385720.0,
+129,yjyl1c,GPT3,GPT-3,relevance,2022-11-02 07:30:53,AI and GPT-3 in the enterprise,adt,False,0.91,29,https://i.redd.it/bzuot9i3qhx91.png,9,1667374253.0,
+130,yyqw0t,GPT3,GPT-3,relevance,2022-11-18 18:23:46,GPT-3 vs AlexaTM,1EvilSexyGenius,False,0.95,16,https://www.reddit.com/r/GPT3/comments/yyqw0t/gpt3_vs_alexatm/,3,1668795826.0,"AlexaTM (Teacher Model) was just released for non commerical use via Amazon SageMarker.
+
+https://github.com/amazon-science/alexa-teacher-models
+
+Someone please take one for the team and try this out then report back your opinions.
+
+I really don't have it in me at the moment to learn another Amazon product (SageMarker)
+
+I suspect that AlexaTM will excel in the use-cases it was developed for. But, it would be nice to see how GPT-3 stacks up next to models premiering one year after it's release."

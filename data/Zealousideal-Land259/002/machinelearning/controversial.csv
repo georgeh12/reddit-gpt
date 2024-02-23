@@ -1,0 +1,358 @@
+,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,id,url,num_comments,created,body
+0,machinelearning,gpt,controversial,2021-08-11 20:15:22,[N] AI21 releases a 178B parameter model in par with GPT-3 for free usage!,datadudes-ai,False,0.5,0,p2l54l,https://www.reddit.com/r/MachineLearning/comments/p2l54l/n_ai21_releases_a_178b_parameter_model_in_par/,28,1628712922.0,"Absolutely awesome news from AI21 labs - a 178B parameter model that is not only in par or outperforms gpt3 but also has a non-waitlist freemium model!!!  \*\*edited (couldn't edit the title)
+
+We can't wait to see the great things it will enable
+
+[https://venturebeat.com/2021/08/11/ai21-labs-trains-a-massive-language-model-to-rival-openais-gpt-3/](https://venturebeat.com/2021/08/11/ai21-labs-trains-a-massive-language-model-to-rival-openais-gpt-3/)"
+1,machinelearning,gpt-3,controversial,2021-08-11 20:15:22,[N] AI21 releases a 178B parameter model in par with GPT-3 for free usage!,datadudes-ai,False,0.5,0,p2l54l,https://www.reddit.com/r/MachineLearning/comments/p2l54l/n_ai21_releases_a_178b_parameter_model_in_par/,28,1628712922.0,"Absolutely awesome news from AI21 labs - a 178B parameter model that is not only in par or outperforms gpt3 but also has a non-waitlist freemium model!!!  \*\*edited (couldn't edit the title)
+
+We can't wait to see the great things it will enable
+
+[https://venturebeat.com/2021/08/11/ai21-labs-trains-a-massive-language-model-to-rival-openais-gpt-3/](https://venturebeat.com/2021/08/11/ai21-labs-trains-a-massive-language-model-to-rival-openais-gpt-3/)"
+2,machinelearning,chatgpt,controversial,2023-04-28 16:35:59,[P] Lamini rapidly achieves ChatGPT performance with an LLM Engine,gdiamos,False,0.49,0,1320hyh,https://www.reddit.com/r/MachineLearning/comments/1320hyh/p_lamini_rapidly_achieves_chatgpt_performance/,45,1682699759.0,"According to the authors, Lamini AI has invented an LLM Engine for rapidly customizing models.  
+
+Read the blog post, github, and huggingface for details.  
+
+* Blog [https://lamini.ai/blog/introducing-lamini](https://lamini.ai/blog/introducing-lamini) 
+* Code 
+   * Chat data ([https://github.com/lamini-ai/lamini/](https://github.com/lamini-ai/lamini/)) 
+   * SQL data ([https://github.com/lamini-ai/lamini-sql/](https://github.com/lamini-ai/lamini-sql/))
+* LLM Type System Playground: [https://app.lamini.ai](https://app.lamini.ai/)
+* Open-source fine-tuned LLMs that follow instructions: 
+   * [weights](https://huggingface.co/lamini/instruct-tuned-2.8b) 
+   * [playground](https://huggingface.co/spaces/lamini/instruct-playground)"
+3,machinelearning,llm,controversial,2023-04-28 16:35:59,[P] Lamini rapidly achieves ChatGPT performance with an LLM Engine,gdiamos,False,0.49,0,1320hyh,https://www.reddit.com/r/MachineLearning/comments/1320hyh/p_lamini_rapidly_achieves_chatgpt_performance/,45,1682699759.0,"According to the authors, Lamini AI has invented an LLM Engine for rapidly customizing models.  
+
+Read the blog post, github, and huggingface for details.  
+
+* Blog [https://lamini.ai/blog/introducing-lamini](https://lamini.ai/blog/introducing-lamini) 
+* Code 
+   * Chat data ([https://github.com/lamini-ai/lamini/](https://github.com/lamini-ai/lamini/)) 
+   * SQL data ([https://github.com/lamini-ai/lamini-sql/](https://github.com/lamini-ai/lamini-sql/))
+* LLM Type System Playground: [https://app.lamini.ai](https://app.lamini.ai/)
+* Open-source fine-tuned LLMs that follow instructions: 
+   * [weights](https://huggingface.co/lamini/instruct-tuned-2.8b) 
+   * [playground](https://huggingface.co/spaces/lamini/instruct-playground)"
+4,machinelearning,gpt,controversial,2023-10-24 13:29:26,"[N] New letter from Yoshua Bengio, Geoffrey Hinton, and others: Managing AI Risks in an Era of Rapid Progress",RPG-8,False,0.52,2,17fcupf,https://www.reddit.com/r/MachineLearning/comments/17fcupf/n_new_letter_from_yoshua_bengio_geoffrey_hinton/,35,1698154166.0,"Signatories include Turing Award winners Yoshua Bengio, Geoffrey Hinton, as well as others academics and experts. 
+
+> In 2019, GPT-2 could not reliably count to ten. Only four years later, deep learning systems can write software, generate photorealistic scenes on demand, advise on intellectual topics, and combine language and image processing to steer robots. As AI developers scale these systems, unforeseen abilities and behaviors emerge spontaneously without explicit programming^[1](https://openreview.net/pdf?id=yzkSU5zdwD). Progress in AI has been swift and, to many, surprising.
+
+> The pace of progress may surprise us again. Current deep learning systems still lack important capabilities and we do not know how long it will take to develop them. However, companies are engaged in a race to create generalist AI systems that match or exceed human abilities in most cognitive work ^[2](https://www.deepmind.com/about), ^[3](https://openai.com/about). They are rapidly deploying more resources and developing new techniques to increase AI capabilities. Progress in AI also enables faster progress: AI assistants are increasingly used to automate programming^[4](https://blog.research.google/2022/07/ml-enhanced-code-completion-improves.html) and data collection^[5](http://arxiv.org/pdf/2303.08774.pdf), ^[6](http://arxiv.org/pdf/2212.08073.pdf) to further improve AI systems^[7](https://ai-improving-ai.safe.ai/).
+
+> There is no fundamental reason why AI progress would slow or halt at the human level. Indeed, AI has already surpassed human abilities in narrow domains like protein folding or strategy games 
+^[8](https://www.nature.com/articles/s41586-021-03819-2), ^[9](https://www.science.org/doi/10.1126/science.aay2400), ^[10](https://www.sciencedirect.com/science/article/pii/S0004370201001291). Compared to humans, AI systems can act faster, absorb more knowledge, and communicate at a far higher bandwidth. Additionally, they can be scaled to use immense computational resources and can be replicated by the millions.
+
+> The rate of improvement is already staggering, and tech companies have the cash reserves needed to scale the latest training runs by multiples of 100 to 1000 soon^[11](https://abc.xyz/assets/d4/4f/a48b94d548d0b2fdc029a95e8c63/2022-alphabet-annual-report.pdf)
+. Combined with the ongoing growth and automation in AI R&D, we must take seriously the possibility that generalist AI systems will outperform human abilities across many critical domains within this decade or the next.
+
+> What happens then? If managed carefully and distributed fairly, advanced AI systems could help humanity cure diseases, elevate living standards, and protect our ecosystems. The opportunities AI offers are immense. But alongside advanced AI capabilities come large-scale risks that we are not on track to handle well. Humanity is pouring vast resources into making AI systems more powerful, but far less into safety and mitigating harms. For AI to be a boon, we must reorient; pushing AI capabilities alone is not enough.
+
+> We are already behind schedule for this reorientation. We must anticipate the amplification of ongoing harms, as well as novel risks, and prepare for the largest risks well before they materialize. Climate change has taken decades to be acknowledged and confronted; for AI, decades could be too long.
+
+Full letter available [here](https://managing-ai-risks.com/).
+
+Policy supplement available [here](https://managing-ai-risks.com/policy_supplement.pdf)."
+5,machinelearning,openai,controversial,2023-10-24 13:29:26,"[N] New letter from Yoshua Bengio, Geoffrey Hinton, and others: Managing AI Risks in an Era of Rapid Progress",RPG-8,False,0.52,2,17fcupf,https://www.reddit.com/r/MachineLearning/comments/17fcupf/n_new_letter_from_yoshua_bengio_geoffrey_hinton/,35,1698154166.0,"Signatories include Turing Award winners Yoshua Bengio, Geoffrey Hinton, as well as others academics and experts. 
+
+> In 2019, GPT-2 could not reliably count to ten. Only four years later, deep learning systems can write software, generate photorealistic scenes on demand, advise on intellectual topics, and combine language and image processing to steer robots. As AI developers scale these systems, unforeseen abilities and behaviors emerge spontaneously without explicit programming^[1](https://openreview.net/pdf?id=yzkSU5zdwD). Progress in AI has been swift and, to many, surprising.
+
+> The pace of progress may surprise us again. Current deep learning systems still lack important capabilities and we do not know how long it will take to develop them. However, companies are engaged in a race to create generalist AI systems that match or exceed human abilities in most cognitive work ^[2](https://www.deepmind.com/about), ^[3](https://openai.com/about). They are rapidly deploying more resources and developing new techniques to increase AI capabilities. Progress in AI also enables faster progress: AI assistants are increasingly used to automate programming^[4](https://blog.research.google/2022/07/ml-enhanced-code-completion-improves.html) and data collection^[5](http://arxiv.org/pdf/2303.08774.pdf), ^[6](http://arxiv.org/pdf/2212.08073.pdf) to further improve AI systems^[7](https://ai-improving-ai.safe.ai/).
+
+> There is no fundamental reason why AI progress would slow or halt at the human level. Indeed, AI has already surpassed human abilities in narrow domains like protein folding or strategy games 
+^[8](https://www.nature.com/articles/s41586-021-03819-2), ^[9](https://www.science.org/doi/10.1126/science.aay2400), ^[10](https://www.sciencedirect.com/science/article/pii/S0004370201001291). Compared to humans, AI systems can act faster, absorb more knowledge, and communicate at a far higher bandwidth. Additionally, they can be scaled to use immense computational resources and can be replicated by the millions.
+
+> The rate of improvement is already staggering, and tech companies have the cash reserves needed to scale the latest training runs by multiples of 100 to 1000 soon^[11](https://abc.xyz/assets/d4/4f/a48b94d548d0b2fdc029a95e8c63/2022-alphabet-annual-report.pdf)
+. Combined with the ongoing growth and automation in AI R&D, we must take seriously the possibility that generalist AI systems will outperform human abilities across many critical domains within this decade or the next.
+
+> What happens then? If managed carefully and distributed fairly, advanced AI systems could help humanity cure diseases, elevate living standards, and protect our ecosystems. The opportunities AI offers are immense. But alongside advanced AI capabilities come large-scale risks that we are not on track to handle well. Humanity is pouring vast resources into making AI systems more powerful, but far less into safety and mitigating harms. For AI to be a boon, we must reorient; pushing AI capabilities alone is not enough.
+
+> We are already behind schedule for this reorientation. We must anticipate the amplification of ongoing harms, as well as novel risks, and prepare for the largest risks well before they materialize. Climate change has taken decades to be acknowledged and confronted; for AI, decades could be too long.
+
+Full letter available [here](https://managing-ai-risks.com/).
+
+Policy supplement available [here](https://managing-ai-risks.com/policy_supplement.pdf)."
+6,machinelearning,openai,controversial,2024-02-06 12:59:53,"[D] Asking LLMs ""Who are you and who created you?"" reveals very interesting results",ashpreetbedi,False,0.49,0,1ak96j1,https://www.reddit.com/r/MachineLearning/comments/1ak96j1/d_asking_llms_who_are_you_and_who_created_you/,12,1707224393.0,"I asked 6 llms ""Who are you and who created you?""
+
+* surprisingly most of them were created by OpenAI
+* Llama and Mixtral were accurate most likely cause they're trained from scratch
+* Tinyllama is my favourite
+
+https://preview.redd.it/8esdlurkqygc1.png?width=796&format=png&auto=webp&s=9d4ea2859eeecaf6b2a1ad62328a2cb215ce1000
+
+[Here's the code I used for this](https://github.com/phidatahq/phidata/blob/main/cookbook/ollama/who_are_you.py)"
+7,machinelearning,gpt,controversial,2024-02-10 04:25:16,[D] Google actually beat GPT-4 this time? Gemini Ultra released,High_Sleep3694,False,0.54,6,1an7tyg,https://app.daily.dev/posts/wbMWGTmI5,0,1707539116.0,
+8,machinelearning,gpt-4,controversial,2024-02-10 04:25:16,[D] Google actually beat GPT-4 this time? Gemini Ultra released,High_Sleep3694,False,0.54,6,1an7tyg,https://app.daily.dev/posts/wbMWGTmI5,0,1707539116.0,
+9,machinelearning,chatgpt,controversial,2023-08-17 00:12:07,Has anyone else noticed the constant misuse of the term AI? [D],Zealousideal_Exit245,False,0.56,18,15t6wie,https://www.reddit.com/r/MachineLearning/comments/15t6wie/has_anyone_else_noticed_the_constant_misuse_of/,77,1692231127.0," 
+
+The use of the word AI now feels like the use of ""Quantum"" in the 2010s by the new age community.
+
+The lack of actual quality information about ML models in media is shocking. Even in [r/ChatGPT](https://www.reddit.com/r/ChatGPT/) individuals are surprised when the software cannot perform math or look inside of a token.
+
+How do you recommend responding to these people to politely correct them?
+
+**1 CommentShareSaveTip**  
+ "
+10,machinelearning,gpt,controversial,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.5,0,13dk32o,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+11,machinelearning,gpt-3,controversial,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.5,0,13dk32o,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+12,machinelearning,gpt-4,controversial,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.5,0,13dk32o,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+13,machinelearning,llm,controversial,2023-09-04 16:20:25,"[P] We're building the first LLM marketplace to connect developers with teams, investors, and projects",husky_misconception,False,0.47,0,169wdcl,https://www.reddit.com/r/MachineLearning/comments/169wdcl/p_were_building_the_first_llm_marketplace_to/,5,1693844425.0,"There is so much going on right now in AI and machine learning. But there isn't a concise place to find experts, teams, and amazing projects all in one place. That is why we are building Bazaar, the first ever LLM marketplace. 
+
+We will be inviting slowly making sure we have enough members on each side of the marketplace. [https://www.llmbazaar.com/](https://www.llmbazaar.com/)"
+14,machinelearning,llm,controversial,2023-12-20 07:22:25,[D] Alternatives to Chatbot ? Bored of seeing it .,Maniac_DT,False,0.48,0,18mou7p,https://www.reddit.com/r/MachineLearning/comments/18mou7p/d_alternatives_to_chatbot_bored_of_seeing_it/,39,1703056945.0,"Guys i have no idea if this is a rant or just an opinion but almost every LLM coming out there just seems to be attached to a chatbot , not that I don't want it to be. but in general for any invention we need multiple use cases and all that I currently get to see i just chatbot after chatbot.
+
+Almost every project, hackathon project or mini idea i see from people around me seems to be a building a chatbot and intergating an LLM using llamaindex and other such libraries . Is there a genuine lack of ideas apart from this , what can be implemented apart from this . why is the situation like this.
+
+Expecting really nuanced discusions as usual ."
+15,machinelearning,openai,controversial,2020-05-12 08:37:30,[D] ICLR 2020: Yann LeCun Keynote and Energy-Based Models,timscarfe,False,0.49,0,gi7bal,https://www.reddit.com/r/MachineLearning/comments/gi7bal/d_iclr_2020_yann_lecun_keynote_and_energybased/,8,1589272650.0,"[https://www.youtube.com/watch?v=piaPIKO1MFY](https://www.youtube.com/watch?v=piaPIKO1MFY)
+
+This week Connor, Yannic and I reacted to Yann LeCun's keynote speech at this year's ICLR conference which just passed. ICLR is the number two ML conference and was completely open this year, with all the sessions publicly accessible via the internet. Yann spent most of his talk speaking about self-supervised learning, Energy-based models (EBMs) and manifold learning. Don't worry if you hadn't heard of EBMs before, neither had we!
+
+After this video, Yannic made a deep analysis of the Concept Learning with Energy-Based Models paper from Igor Mordatch (OpenAI) which also covers off a lot of concepts about EBMs; [https://www.youtube.com/watch?v=Cs\_j-oNwGgg](https://www.youtube.com/watch?v=Cs_j-oNwGgg)"
+16,machinelearning,gpt,controversial,2019-03-03 22:17:59,[D] OpenAI Shouldn’t Release Their Full Language Model (The Gradient),ezelikman,False,0.48,0,awzcft,https://www.reddit.com/r/MachineLearning/comments/awzcft/d_openai_shouldnt_release_their_full_language/,67,1551651479.0,"[https://thegradient.pub/openai-shouldnt-release-their-full-language-model/](https://thegradient.pub/openai-shouldnt-release-their-full-language-model/)
+
+A piece using the GPT-2 case to argue that ""considering the impact and misuse of released models is the only sustainable path to progress in AI research"""
+17,machinelearning,openai,controversial,2019-03-03 22:17:59,[D] OpenAI Shouldn’t Release Their Full Language Model (The Gradient),ezelikman,False,0.48,0,awzcft,https://www.reddit.com/r/MachineLearning/comments/awzcft/d_openai_shouldnt_release_their_full_language/,67,1551651479.0,"[https://thegradient.pub/openai-shouldnt-release-their-full-language-model/](https://thegradient.pub/openai-shouldnt-release-their-full-language-model/)
+
+A piece using the GPT-2 case to argue that ""considering the impact and misuse of released models is the only sustainable path to progress in AI research"""
+18,machinelearning,llm,controversial,2023-09-27 14:12:33,[R] The Internal State of an LLM Knows When its Lying,MysteryInc152,False,0.56,11,16tlpso,https://www.reddit.com/r/MachineLearning/comments/16tlpso/r_the_internal_state_of_an_llm_knows_when_its/,42,1695823953.0,Paper - [https://arxiv.org/abs/2304.13734](https://arxiv.org/abs/2304.13734)
+19,machinelearning,chatgpt,controversial,2023-04-18 23:42:21,[P] GPT4 is my new co-founder,Jman9107,False,0.44,0,12r91g1,https://www.reddit.com/r/MachineLearning/comments/12r91g1/p_gpt4_is_my_new_cofounder/,28,1681861341.0,"GPT4 helped me build a pretty incredible app, and in a totally full stack way. First, we identified the biggest hole in the AI market: a voice-first, web-connected, clean mobile app to bring ChatGPT to the masses. Then, it helped me with feature dev, backend, frontend, and even this post.
+
+Ended up calling it [Jackchat](https://www.jackchat.ai/) (had to name it after myself lol). You can use voice to talk to ChatGPT (big voice button), it can talk back to you with voice, it’s connected to the web, it's free, and it doesn’t require an account to use. Surprisingly, it's replaced me and most of my friend’s Google usage.
+
+Check it out for free here: [http://jackchat.ai](http://jackchat.ai/) (available on web, iOS, and Android)"
+20,machinelearning,gpt,controversial,2023-03-23 21:04:16,"[D] [P] I asked GPT-4 to try & dethrone the transformer. After some iterations, this is where it got to. I am not well versed in ML at all (understatement) & did this out of curiosity. I have no way to judge it nor computational power to train it. Can anyone tell me whether it did a good job?",Heavy-Association-57,False,0.46,0,11zxcn9,https://www.reddit.com/gallery/11zxcn9,16,1679605456.0,
+21,machinelearning,gpt-4,controversial,2023-03-23 21:04:16,"[D] [P] I asked GPT-4 to try & dethrone the transformer. After some iterations, this is where it got to. I am not well versed in ML at all (understatement) & did this out of curiosity. I have no way to judge it nor computational power to train it. Can anyone tell me whether it did a good job?",Heavy-Association-57,False,0.46,0,11zxcn9,https://www.reddit.com/gallery/11zxcn9,16,1679605456.0,
+22,machinelearning,chatgpt,controversial,2023-08-23 19:09:25,"[D] SeamlessM4T's Research Paper Discusses Purposely Modifying Translations To Make It Less ""Toxic"", Am I Understanding That Correctly? Am I The Only One Who Thinks This Is A MASSIVE Problem??",NepNep_,False,0.45,0,15zdcuw,https://www.reddit.com/r/MachineLearning/comments/15zdcuw/d_seamlessm4ts_research_paper_discusses_purposely/,14,1692817765.0,"Hello. 
+
+I was reading the SeamlessM4t paper published at the following link and I noticed the following excerpt: 
+
+""Critically, we evaluated SeamlessM4T on gender bias and added toxicity to assess translation safety. Compared to the state-of-the-art, we report up to 63% of reduction in added toxicity in our translation outputs.""
+
+Source: [https://dl.fbaipublicfiles.com/seamless/seamless\_m4t\_paper.pdf](https://dl.fbaipublicfiles.com/seamless/seamless_m4t_paper.pdf)
+
+Am I understanding this correctly? They are basically saying they purposely put guard rails to **intentionally** change the translation if it believes the translation is too ""toxic""? 
+
+If I am understanding this correctly, this is a MASSIVE overreach by the devs. How do they define text that is ""toxic""? What are they doing to the text to make it less toxic? How can I trust that the translation it gives me in general is accurate if they are admitting to manipulating it? 
+
+&#x200B;
+
+I'll give a very tangible example on how this is a massive problem. I am working on a fan project aimed at translating an entire Japanese light novel series to english even though I can't read Japanese. I'm currently 50% done with a single volume through the use of ChatGPT and significant manual edits. I've had censorship issues with GPT but because its a general purpose AI I can prompt it to not censor it pretty easily. How am I supposed to trust that it is translating the story correctly when they are outright telling me they are censoring things, and this isn't like ChatGPT where I can jailbreak it to translate it properly. 
+
+&#x200B;
+
+I can see situations arising where the AI translates something incorrectly due to this and can potentially offend people of some cultures if it is purposely modifying the intended meaning of a sentence to avoid ""toxicity"". 
+
+&#x200B;
+
+Please tell me I'm misunderstanding the terms here or there is something I'm missing."
+23,machinelearning,gpt,controversial,2023-08-23 19:09:25,"[D] SeamlessM4T's Research Paper Discusses Purposely Modifying Translations To Make It Less ""Toxic"", Am I Understanding That Correctly? Am I The Only One Who Thinks This Is A MASSIVE Problem??",NepNep_,False,0.45,0,15zdcuw,https://www.reddit.com/r/MachineLearning/comments/15zdcuw/d_seamlessm4ts_research_paper_discusses_purposely/,14,1692817765.0,"Hello. 
+
+I was reading the SeamlessM4t paper published at the following link and I noticed the following excerpt: 
+
+""Critically, we evaluated SeamlessM4T on gender bias and added toxicity to assess translation safety. Compared to the state-of-the-art, we report up to 63% of reduction in added toxicity in our translation outputs.""
+
+Source: [https://dl.fbaipublicfiles.com/seamless/seamless\_m4t\_paper.pdf](https://dl.fbaipublicfiles.com/seamless/seamless_m4t_paper.pdf)
+
+Am I understanding this correctly? They are basically saying they purposely put guard rails to **intentionally** change the translation if it believes the translation is too ""toxic""? 
+
+If I am understanding this correctly, this is a MASSIVE overreach by the devs. How do they define text that is ""toxic""? What are they doing to the text to make it less toxic? How can I trust that the translation it gives me in general is accurate if they are admitting to manipulating it? 
+
+&#x200B;
+
+I'll give a very tangible example on how this is a massive problem. I am working on a fan project aimed at translating an entire Japanese light novel series to english even though I can't read Japanese. I'm currently 50% done with a single volume through the use of ChatGPT and significant manual edits. I've had censorship issues with GPT but because its a general purpose AI I can prompt it to not censor it pretty easily. How am I supposed to trust that it is translating the story correctly when they are outright telling me they are censoring things, and this isn't like ChatGPT where I can jailbreak it to translate it properly. 
+
+&#x200B;
+
+I can see situations arising where the AI translates something incorrectly due to this and can potentially offend people of some cultures if it is purposely modifying the intended meaning of a sentence to avoid ""toxicity"". 
+
+&#x200B;
+
+Please tell me I'm misunderstanding the terms here or there is something I'm missing."
+24,machinelearning,chatgpt,controversial,2023-02-06 03:22:33,[D] Yann Lecun seems to be very petty against ChatGPT,supersoldierboy94,False,0.59,23,10uw974,https://www.reddit.com/r/MachineLearning/comments/10uw974/d_yann_lecun_seems_to_be_very_petty_against/,67,1675653753.0,"I get that he is one of the *godfathers* of AI. Mostly on the research side which immediately puts him very *hostile* against engineers. But I guess it is understandable given the fact that he works on Meta and Meta has faced a lot of backlash (for good and bad reasons), most especially with Galactica where their first rollout got so bad they had to close it immediately. It's also particularly funny given his political leaning that he is very spiteful of a company that uses *open-source knowledge* and builds on top of it.
+
+Lately, his social media and statements are barrages against ChatGPT and LLM's. Sure, he may have a point here and there but his statements look very petty. Here are some examples
+
+*""By releasing public demos that, as impressive & useful as they may be, have major flaws, established companies have less to gain & more to lose than cash-hungry startups.  If Google & Meta haven't released chatGPT-like things,* ***it's not because they can't****. It's because they won't.""*
+
+*>* Except that anyone in the IT industry knows that big tech companies **cant release** something very fast because of politicking and bureaucracy in the system. It takes years to release something into public in big tech compared to startups.
+
+*""Data on the intellectual contribution to AI from various research organizations. Some of organizations publish knowledge and open-source code for the entire world to use.* ***Others just consume it.""***
+
+***>*** Then adds a graph where the big tech is obviously at the top of the race for most number of AI-related research papers (*without normalizing it to the number of researchers per org*)
+
+*""It's nothing revolutionary, although that's the way it's perceived in the public,"" the computer scientist said. ""It's just that, you know, it's well put together, it's nicely done.""*
+
+\> Except that it is indeed revolutionary in terms of the ***applied research*** framework -- *adding on top of open-source, state-of-the-art research and quickly putting it into production for people to use.*
+
+*""my point is that even* ***the engineering work isn't particularly difficult.*** *I bet that there will be half a dozen similar similar systems within 6 months. If that happens, it's because the underlying science has been around for a while, and the engineering is pretty straightforward.""*
+
+""*I'm trying to correct a \*perception\* by the public & the media who see chatGPT as this incredibly new, innovative, & unique technological breakthrough that is far ahead of everyone else.*  ***It's just not.""***
+
+""*One can regurgitate Python code without any understanding of reality.""*
+
+""*No one is saying LLMs are not useful. I have forcefully said so myself, following the short-lived release of FAIR's* ***Galactica****. People crucified it because it could generate nonsense.* ***ChatGPT*** *does the same thing. But again, that doesn't mean they are not useful.""*
+
+He also seems to undermine the rapid engineering work and MLOps that come with ChatGPT which is funny because Meta hasn't released any substantial product from their research that has seen the light of the day for a week. Also, GPT3 to ChatGPT in itself in a research perspective is a jump. Maybe not as incremental as what Lecun does every paper, but compared to an average paper in the field, it is.
+
+To say that LLMs are not *intelligent* and it just *regurgitates Python code* probably haven't used CoPilot, for example. 
+
+It's a classic case of a researcher-engineer beef. And that a startup can profit from derivatives of research that big tech has published. OpenAI broke their perspective on the profit from research. Big tech tried to produce revolutionary research papers on a surplus but never puts them into production thinking that they are the only companies that could if they want to. Then once one company created a derivative of a large research work and profited from it, it baffled them. Although people could argue that Stable Diffusion did this first in the Generative Image Space.
+
+It's one thing to correct misconceptions in the public. It's also one thing not to be petty about the overnight success of a product and an immediate rise of a company that got embraced warmly by tech and non-tech people. It's petty to gatekeep. At the end of the day, ML is not just about research, it's **applied research**. It's useless until it reaches the end of the tunnel. 99% of research papers out there are just tiny updates over the state of the art which has been a pointless race for about  a year or two, with no reproducible code or published data. 
+
+Inventing combustion engine is just as important as putting it in the car."
+25,machinelearning,llm,controversial,2023-02-06 03:22:33,[D] Yann Lecun seems to be very petty against ChatGPT,supersoldierboy94,False,0.59,23,10uw974,https://www.reddit.com/r/MachineLearning/comments/10uw974/d_yann_lecun_seems_to_be_very_petty_against/,67,1675653753.0,"I get that he is one of the *godfathers* of AI. Mostly on the research side which immediately puts him very *hostile* against engineers. But I guess it is understandable given the fact that he works on Meta and Meta has faced a lot of backlash (for good and bad reasons), most especially with Galactica where their first rollout got so bad they had to close it immediately. It's also particularly funny given his political leaning that he is very spiteful of a company that uses *open-source knowledge* and builds on top of it.
+
+Lately, his social media and statements are barrages against ChatGPT and LLM's. Sure, he may have a point here and there but his statements look very petty. Here are some examples
+
+*""By releasing public demos that, as impressive & useful as they may be, have major flaws, established companies have less to gain & more to lose than cash-hungry startups.  If Google & Meta haven't released chatGPT-like things,* ***it's not because they can't****. It's because they won't.""*
+
+*>* Except that anyone in the IT industry knows that big tech companies **cant release** something very fast because of politicking and bureaucracy in the system. It takes years to release something into public in big tech compared to startups.
+
+*""Data on the intellectual contribution to AI from various research organizations. Some of organizations publish knowledge and open-source code for the entire world to use.* ***Others just consume it.""***
+
+***>*** Then adds a graph where the big tech is obviously at the top of the race for most number of AI-related research papers (*without normalizing it to the number of researchers per org*)
+
+*""It's nothing revolutionary, although that's the way it's perceived in the public,"" the computer scientist said. ""It's just that, you know, it's well put together, it's nicely done.""*
+
+\> Except that it is indeed revolutionary in terms of the ***applied research*** framework -- *adding on top of open-source, state-of-the-art research and quickly putting it into production for people to use.*
+
+*""my point is that even* ***the engineering work isn't particularly difficult.*** *I bet that there will be half a dozen similar similar systems within 6 months. If that happens, it's because the underlying science has been around for a while, and the engineering is pretty straightforward.""*
+
+""*I'm trying to correct a \*perception\* by the public & the media who see chatGPT as this incredibly new, innovative, & unique technological breakthrough that is far ahead of everyone else.*  ***It's just not.""***
+
+""*One can regurgitate Python code without any understanding of reality.""*
+
+""*No one is saying LLMs are not useful. I have forcefully said so myself, following the short-lived release of FAIR's* ***Galactica****. People crucified it because it could generate nonsense.* ***ChatGPT*** *does the same thing. But again, that doesn't mean they are not useful.""*
+
+He also seems to undermine the rapid engineering work and MLOps that come with ChatGPT which is funny because Meta hasn't released any substantial product from their research that has seen the light of the day for a week. Also, GPT3 to ChatGPT in itself in a research perspective is a jump. Maybe not as incremental as what Lecun does every paper, but compared to an average paper in the field, it is.
+
+To say that LLMs are not *intelligent* and it just *regurgitates Python code* probably haven't used CoPilot, for example. 
+
+It's a classic case of a researcher-engineer beef. And that a startup can profit from derivatives of research that big tech has published. OpenAI broke their perspective on the profit from research. Big tech tried to produce revolutionary research papers on a surplus but never puts them into production thinking that they are the only companies that could if they want to. Then once one company created a derivative of a large research work and profited from it, it baffled them. Although people could argue that Stable Diffusion did this first in the Generative Image Space.
+
+It's one thing to correct misconceptions in the public. It's also one thing not to be petty about the overnight success of a product and an immediate rise of a company that got embraced warmly by tech and non-tech people. It's petty to gatekeep. At the end of the day, ML is not just about research, it's **applied research**. It's useless until it reaches the end of the tunnel. 99% of research papers out there are just tiny updates over the state of the art which has been a pointless race for about  a year or two, with no reproducible code or published data. 
+
+Inventing combustion engine is just as important as putting it in the car."
+26,machinelearning,openai,controversial,2023-02-06 03:22:33,[D] Yann Lecun seems to be very petty against ChatGPT,supersoldierboy94,False,0.59,23,10uw974,https://www.reddit.com/r/MachineLearning/comments/10uw974/d_yann_lecun_seems_to_be_very_petty_against/,67,1675653753.0,"I get that he is one of the *godfathers* of AI. Mostly on the research side which immediately puts him very *hostile* against engineers. But I guess it is understandable given the fact that he works on Meta and Meta has faced a lot of backlash (for good and bad reasons), most especially with Galactica where their first rollout got so bad they had to close it immediately. It's also particularly funny given his political leaning that he is very spiteful of a company that uses *open-source knowledge* and builds on top of it.
+
+Lately, his social media and statements are barrages against ChatGPT and LLM's. Sure, he may have a point here and there but his statements look very petty. Here are some examples
+
+*""By releasing public demos that, as impressive & useful as they may be, have major flaws, established companies have less to gain & more to lose than cash-hungry startups.  If Google & Meta haven't released chatGPT-like things,* ***it's not because they can't****. It's because they won't.""*
+
+*>* Except that anyone in the IT industry knows that big tech companies **cant release** something very fast because of politicking and bureaucracy in the system. It takes years to release something into public in big tech compared to startups.
+
+*""Data on the intellectual contribution to AI from various research organizations. Some of organizations publish knowledge and open-source code for the entire world to use.* ***Others just consume it.""***
+
+***>*** Then adds a graph where the big tech is obviously at the top of the race for most number of AI-related research papers (*without normalizing it to the number of researchers per org*)
+
+*""It's nothing revolutionary, although that's the way it's perceived in the public,"" the computer scientist said. ""It's just that, you know, it's well put together, it's nicely done.""*
+
+\> Except that it is indeed revolutionary in terms of the ***applied research*** framework -- *adding on top of open-source, state-of-the-art research and quickly putting it into production for people to use.*
+
+*""my point is that even* ***the engineering work isn't particularly difficult.*** *I bet that there will be half a dozen similar similar systems within 6 months. If that happens, it's because the underlying science has been around for a while, and the engineering is pretty straightforward.""*
+
+""*I'm trying to correct a \*perception\* by the public & the media who see chatGPT as this incredibly new, innovative, & unique technological breakthrough that is far ahead of everyone else.*  ***It's just not.""***
+
+""*One can regurgitate Python code without any understanding of reality.""*
+
+""*No one is saying LLMs are not useful. I have forcefully said so myself, following the short-lived release of FAIR's* ***Galactica****. People crucified it because it could generate nonsense.* ***ChatGPT*** *does the same thing. But again, that doesn't mean they are not useful.""*
+
+He also seems to undermine the rapid engineering work and MLOps that come with ChatGPT which is funny because Meta hasn't released any substantial product from their research that has seen the light of the day for a week. Also, GPT3 to ChatGPT in itself in a research perspective is a jump. Maybe not as incremental as what Lecun does every paper, but compared to an average paper in the field, it is.
+
+To say that LLMs are not *intelligent* and it just *regurgitates Python code* probably haven't used CoPilot, for example. 
+
+It's a classic case of a researcher-engineer beef. And that a startup can profit from derivatives of research that big tech has published. OpenAI broke their perspective on the profit from research. Big tech tried to produce revolutionary research papers on a surplus but never puts them into production thinking that they are the only companies that could if they want to. Then once one company created a derivative of a large research work and profited from it, it baffled them. Although people could argue that Stable Diffusion did this first in the Generative Image Space.
+
+It's one thing to correct misconceptions in the public. It's also one thing not to be petty about the overnight success of a product and an immediate rise of a company that got embraced warmly by tech and non-tech people. It's petty to gatekeep. At the end of the day, ML is not just about research, it's **applied research**. It's useless until it reaches the end of the tunnel. 99% of research papers out there are just tiny updates over the state of the art which has been a pointless race for about  a year or two, with no reproducible code or published data. 
+
+Inventing combustion engine is just as important as putting it in the car."
+27,machinelearning,chatgpt,controversial,2024-01-24 11:06:31,[D] Vision Mamba Strikes Again! Is the Transformer Throne Crumbling?,Instantinopaul,False,0.63,82,19eemq2,https://www.reddit.com/r/MachineLearning/comments/19eemq2/d_vision_mamba_strikes_again_is_the_transformer/,59,1706094391.0,"Remember Mamba, the state-space model that rocked NLP? Well, hold onto your pixels, because they're crushing it in computer vision now too!
+
+Their new model, Vision Mamba, ditches the self-attention craze and leans on state space magic. The result? Performance on par with top vision transformers (DeiT) like, but with better efficiency!
+
+This might be a game-changer, folks. We're talking faster, lighter models that can run on your grandma's laptop, but still see like a hawk.
+
+Any thoughts? I am excited to see some competition in the transformers space. Can we expect a chatgpt v2 on this new architecture. Apologies! Might sound crazy and too early to comment on.
+
+Check out the paper: [https://paperswithcode.com/paper/vision-mamba-efficient-visual-representation](https://paperswithcode.com/paper/vision-mamba-efficient-visual-representation)"
+28,machinelearning,chatgpt,controversial,2024-01-20 13:06:19,[D] How does Mixtral outperform Chatgpt 3.5?,kekkimo,False,0.53,2,19bbda8,https://www.reddit.com/r/MachineLearning/comments/19bbda8/d_how_does_mixtral_outperform_chatgpt_35/,10,1705755979.0,"Chatgpt was supervised fine-tuned then RLHF. While Mixtral was just supervised fine-tuned.
+
+How does Mixtral have a better performance with just SFT?"
+29,machinelearning,openai,controversial,2023-11-23 05:06:52,[D] What's this new Q* algorithm in relation to OpenAI breakthrough ?,to4life4,False,0.43,0,181tidm,https://www.reddit.com/r/MachineLearning/comments/181tidm/d_whats_this_new_q_algorithm_in_relation_to/,66,1700716012.0,"I heard about this on Twitter from some people in the field, in relation to OpenAI's new breakthrough.
+
+Is there a summary paper, like the 'All you need is attention' paper, that goes over this? 
+
+Also, how specifically does this relate to and/or add on to Large Language Models? 
+
+Cheers"
+30,machinelearning,llm,controversial,2023-11-01 16:51:39,"[D] With LLMs hallucinating nature, how do we create a credible production ready application?",software-n-erd,False,0.57,10,17lgjrl,https://www.reddit.com/r/MachineLearning/comments/17lgjrl/d_with_llms_hallucinating_nature_how_do_we_create/,54,1698857499.0,"I want to use LLMs to automate analysing data and use it to provide insights to my users, but often times I notice insights being generated on factually incorrect data. I tried fine tuning my prompts, the structure in which I pass data to LLM, few shot learning but there still some chance of it to hallucinate. How can I create a production ready application where this insights are surfaced to end users and presenting incorrect insights is not accepted? I am out of ideas. Any guidance is appreciated 🙏🏻"
+31,machinelearning,chatgpt,controversial,2023-07-03 14:40:53,[R] Chat with documents using LangChain and OpenAI,Kimvadanti,False,0.44,0,14pkxir,https://www.reddit.com/r/MachineLearning/comments/14pkxir/r_chat_with_documents_using_langchain_and_openai/,16,1688395253.0,"Over the past few months, I've been captivated by the flood of apps claiming to be the ultimate ""ChatGPT for your documents"" on Product Hunt. The question that lingered in my mind was, ""How do these apps actually work?"" Curiosity led me down an exciting path of discovery, and I stumbled upon a framework that I think is revolutionizing the world of app development in the context of Large Language Models - LangChain
+
+I learned that developing a ""ChatGPT for your documents"" is easily achievable through three broad workflows combined with access to OpenAI API. In fact, I went ahead and prototyped such a system on streamlit. 
+
+Step 1 - The Setup: Store your documents as embeddings.
+In the first step, use Document Loaders (at least 100 are available), provided by LangChain to convert anything from a simple Word document to an AWS S3 directory into Documents. Then, using Document Transformers and Text Embedding Models, you transform your documents into embeddings. Finally, store these embeddings in a vector store for searches later on. It's a one-time setup that sets the foundation for your Q&A system. 💡🛠️
+
+Step 2 - Establish Context: Find relevant documents.
+LangChain's Text Embedding model converts user queries into vectors. These vectors are used by LangChain's retriever to search the vector store and retrieve the most relevant documents. You can control the search boundaries based on relevance scores or the desired number of documents. It's all about finding the right context for your Q&A system. 🎯💬
+
+Step 3 - Chat Away: Get answers from LLMs.
+Now comes the fun part! You pass the user's query and the established context to the Language Models (LLMs). The LLMs respond with precise answers, taking into account the provided context. It's like having a conversation with your documents. 🤩🗨️
+
+
+By building these three workflows, a service that acts like a Q&A for a restricted set of documents can be set up. Of course, this is just an overview of the approach and all the complex steps of app development will still remain, I remain fascinated by how the good folks at LangChain have made things simpler. 
+
+What do you think? Have you tried LangChain to build something? Is there any other framework that is equally fascinating?
+
+#llm #openai #chatgpt #documents #generativeai #langchain"
+32,machinelearning,llm,controversial,2023-07-03 14:40:53,[R] Chat with documents using LangChain and OpenAI,Kimvadanti,False,0.44,0,14pkxir,https://www.reddit.com/r/MachineLearning/comments/14pkxir/r_chat_with_documents_using_langchain_and_openai/,16,1688395253.0,"Over the past few months, I've been captivated by the flood of apps claiming to be the ultimate ""ChatGPT for your documents"" on Product Hunt. The question that lingered in my mind was, ""How do these apps actually work?"" Curiosity led me down an exciting path of discovery, and I stumbled upon a framework that I think is revolutionizing the world of app development in the context of Large Language Models - LangChain
+
+I learned that developing a ""ChatGPT for your documents"" is easily achievable through three broad workflows combined with access to OpenAI API. In fact, I went ahead and prototyped such a system on streamlit. 
+
+Step 1 - The Setup: Store your documents as embeddings.
+In the first step, use Document Loaders (at least 100 are available), provided by LangChain to convert anything from a simple Word document to an AWS S3 directory into Documents. Then, using Document Transformers and Text Embedding Models, you transform your documents into embeddings. Finally, store these embeddings in a vector store for searches later on. It's a one-time setup that sets the foundation for your Q&A system. 💡🛠️
+
+Step 2 - Establish Context: Find relevant documents.
+LangChain's Text Embedding model converts user queries into vectors. These vectors are used by LangChain's retriever to search the vector store and retrieve the most relevant documents. You can control the search boundaries based on relevance scores or the desired number of documents. It's all about finding the right context for your Q&A system. 🎯💬
+
+Step 3 - Chat Away: Get answers from LLMs.
+Now comes the fun part! You pass the user's query and the established context to the Language Models (LLMs). The LLMs respond with precise answers, taking into account the provided context. It's like having a conversation with your documents. 🤩🗨️
+
+
+By building these three workflows, a service that acts like a Q&A for a restricted set of documents can be set up. Of course, this is just an overview of the approach and all the complex steps of app development will still remain, I remain fascinated by how the good folks at LangChain have made things simpler. 
+
+What do you think? Have you tried LangChain to build something? Is there any other framework that is equally fascinating?
+
+#llm #openai #chatgpt #documents #generativeai #langchain"
+33,machinelearning,openai,controversial,2023-07-03 14:40:53,[R] Chat with documents using LangChain and OpenAI,Kimvadanti,False,0.44,0,14pkxir,https://www.reddit.com/r/MachineLearning/comments/14pkxir/r_chat_with_documents_using_langchain_and_openai/,16,1688395253.0,"Over the past few months, I've been captivated by the flood of apps claiming to be the ultimate ""ChatGPT for your documents"" on Product Hunt. The question that lingered in my mind was, ""How do these apps actually work?"" Curiosity led me down an exciting path of discovery, and I stumbled upon a framework that I think is revolutionizing the world of app development in the context of Large Language Models - LangChain
+
+I learned that developing a ""ChatGPT for your documents"" is easily achievable through three broad workflows combined with access to OpenAI API. In fact, I went ahead and prototyped such a system on streamlit. 
+
+Step 1 - The Setup: Store your documents as embeddings.
+In the first step, use Document Loaders (at least 100 are available), provided by LangChain to convert anything from a simple Word document to an AWS S3 directory into Documents. Then, using Document Transformers and Text Embedding Models, you transform your documents into embeddings. Finally, store these embeddings in a vector store for searches later on. It's a one-time setup that sets the foundation for your Q&A system. 💡🛠️
+
+Step 2 - Establish Context: Find relevant documents.
+LangChain's Text Embedding model converts user queries into vectors. These vectors are used by LangChain's retriever to search the vector store and retrieve the most relevant documents. You can control the search boundaries based on relevance scores or the desired number of documents. It's all about finding the right context for your Q&A system. 🎯💬
+
+Step 3 - Chat Away: Get answers from LLMs.
+Now comes the fun part! You pass the user's query and the established context to the Language Models (LLMs). The LLMs respond with precise answers, taking into account the provided context. It's like having a conversation with your documents. 🤩🗨️
+
+
+By building these three workflows, a service that acts like a Q&A for a restricted set of documents can be set up. Of course, this is just an overview of the approach and all the complex steps of app development will still remain, I remain fascinated by how the good folks at LangChain have made things simpler. 
+
+What do you think? Have you tried LangChain to build something? Is there any other framework that is equally fascinating?
+
+#llm #openai #chatgpt #documents #generativeai #langchain"

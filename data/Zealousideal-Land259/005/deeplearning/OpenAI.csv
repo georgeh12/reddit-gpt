@@ -1,0 +1,1283 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,11hezvk,deeplearning,OpenAI,top,2023-03-03 21:08:20,Meta’s LLaMa weights leaked on torrent... and the best thing about it is someone put up a PR to replace the google form in the repo with it 😂,RandomForests92,False,0.99,184,https://i.redd.it/olnsv438alla1.jpg,23,1677877700.0,
+1,10mhyek,deeplearning,OpenAI,top,2023-01-27 10:45:48,⭕ What People Are Missing About Microsoft’s $10B Investment In OpenAI,LesleyFair,False,0.95,118,https://www.reddit.com/r/deeplearning/comments/10mhyek/what_people_are_missing_about_microsofts_10b/,16,1674816348.0,"&#x200B;
+
+[Sam Altman Might Have Just Pulled Off The Coup Of The Decade](https://preview.redd.it/sg24cw3zekea1.png?width=720&format=png&auto=webp&s=9eeae99b5e025a74a6cbe3aac7a842d2fff989a1)
+
+Microsoft is investing $10B into OpenAI!
+
+There is lots of frustration in the community about OpenAI not being all that open anymore. They appear to abandon their ethos of developing AI for everyone, [free](https://openai.com/blog/introducing-openai/) of economic pressures.
+
+The fear is that OpenAI’s models are going to become fancy MS Office plugins. Gone would be the days of open research and innovation.
+
+However, the specifics of the deal tell a different story.
+
+To understand what is going on, we need to peek behind the curtain of the tough business of machine learning. We will find that Sam Altman might have just orchestrated the coup of the decade!
+
+To appreciate better why there is some three-dimensional chess going on, let’s first look at Sam Altman’s backstory.
+
+*Let’s go!*
+
+# A Stellar Rise
+
+Back in 2005, Sam Altman founded [Loopt](https://en.wikipedia.org/wiki/Loopt) and was part of the first-ever YC batch. He raised a total of $30M in funding, but the company failed to gain traction. Seven years into the business Loopt was basically dead in the water and had to be shut down.
+
+Instead of caving, he managed to sell his startup for $[43M](https://golden.com/wiki/Sam_Altman-J5GKK5) to the finTech company [Green Dot](https://www.greendot.com/). Investors got their money back and he personally made $5M from the sale.
+
+By YC standards, this was a pretty unimpressive outcome.
+
+However, people took note that the fire between his ears was burning hotter than that of most people. So hot in fact that Paul Graham included him in his 2009 [essay](http://www.paulgraham.com/5founders.html?viewfullsite=1) about the five founders who influenced him the most.
+
+He listed young Sam Altman next to Steve Jobs, Larry & Sergey from Google, and Paul Buchheit (creator of GMail and AdSense). He went on to describe him as a strategic mastermind whose sheer force of will was going to get him whatever he wanted.
+
+And Sam Altman played his hand well!
+
+He parleyed his new connections into raising $21M from Peter Thiel and others to start investing. Within four years he 10x-ed the money \[2\]. In addition, Paul Graham made him his successor as president of YC in 2014.
+
+Within one decade of selling his first startup for $5M, he grew his net worth to a mind-bending $250M and rose to the circle of the most influential people in Silicon Valley.
+
+Today, he is the CEO of OpenAI — one of the most exciting and impactful organizations in all of tech.
+
+However, OpenAI — the rocket ship of AI innovation — is in dire straights.
+
+# OpenAI is Bleeding Cash
+
+Back in 2015, OpenAI was kickstarted with $1B in donations from famous donors such as Elon Musk.
+
+That money is long gone.
+
+In 2022 OpenAI is projecting a revenue of $36M. At the same time, they spent roughly $544M. Hence the company has lost >$500M over the last year alone.
+
+This is probably not an outlier year. OpenAI is headquartered in San Francisco and has a stable of 375 employees of mostly machine learning rockstars. Hence, salaries alone probably come out to be roughly $200M p.a.
+
+In addition to high salaries their compute costs are stupendous. Considering it cost them $4.6M to train GPT3 once, it is likely that their cloud bill is in a very healthy nine-figure range as well \[4\].
+
+So, where does this leave them today?
+
+Before the Microsoft investment of $10B, OpenAI had received a total of $4B over its lifetime. With $4B in funding, a burn rate of $0.5B, and eight years of company history it doesn’t take a genius to figure out that they are running low on cash.
+
+It would be reasonable to think: OpenAI is sitting on ChatGPT and other great models. Can’t they just lease them and make a killing?
+
+Yes and no. OpenAI is projecting a revenue of $1B for 2024. However, it is unlikely that they could pull this off without significantly increasing their costs as well.
+
+*Here are some reasons why!*
+
+# The Tough Business Of Machine Learning
+
+Machine learning companies are distinct from regular software companies. On the outside they look and feel similar: people are creating products using code, but on the inside things can be very different.
+
+To start off, machine learning companies are usually way less profitable. Their gross margins land in the 50%-60% range, much lower than those of SaaS businesses, which can be as high as 80% \[7\].
+
+On the one hand, the massive compute requirements and thorny data management problems drive up costs.
+
+On the other hand, the work itself can sometimes resemble consulting more than it resembles software engineering. Everyone who has worked in the field knows that training models requires deep domain knowledge and loads of manual work on data.
+
+To illustrate the latter point, imagine the unspeakable complexity of performing content moderation on ChatGPT’s outputs. If OpenAI scales the usage of GPT in production, they will need large teams of moderators to filter and label hate speech, slurs, tutorials on killing people, you name it.
+
+*Alright, alright, alright! Machine learning is hard.*
+
+*OpenAI already has ChatGPT working. That’s gotta be worth something?*
+
+# Foundation Models Might Become Commodities:
+
+In order to monetize GPT or any of their other models, OpenAI can go two different routes.
+
+First, they could pick one or more verticals and sell directly to consumers. They could for example become the ultimate copywriting tool and blow [Jasper](https://app.convertkit.com/campaigns/10748016/jasper.ai) or [copy.ai](https://app.convertkit.com/campaigns/10748016/copy.ai) out of the water.
+
+This is not going to happen. Reasons for it include:
+
+1. To support their mission of building competitive foundational AI tools, and their huge(!) burn rate, they would need to capture one or more very large verticals.
+2. They fundamentally need to re-brand themselves and diverge from their original mission. This would likely scare most of the talent away.
+3. They would need to build out sales and marketing teams. Such a step would fundamentally change their culture and would inevitably dilute their focus on research.
+
+The second option OpenAI has is to keep doing what they are doing and monetize access to their models via API. Introducing a [pro version](https://www.searchenginejournal.com/openai-chatgpt-professional/476244/) of ChatGPT is a step in this direction.
+
+This approach has its own challenges. Models like GPT do have a defensible moat. They are just large transformer models trained on very large open-source datasets.
+
+As an example, last week Andrej Karpathy released a [video](https://www.youtube.com/watch?v=kCc8FmEb1nY) of him coding up a version of GPT in an afternoon. Nothing could stop e.g. Google, StabilityAI, or HuggingFace from open-sourcing their own GPT.
+
+As a result GPT inference would become a common good. This would melt OpenAI’s profits down to a tiny bit of nothing.
+
+In this scenario, they would also have a very hard time leveraging their branding to generate returns. Since companies that integrate with OpenAI’s API control the interface to the customer, they would likely end up capturing all of the value.
+
+An argument can be made that this is a general problem of foundation models. Their high fixed costs and lack of differentiation could end up making them akin to the [steel industry](https://www.thediff.co/archive/is-the-business-of-ai-more-like-steel-or-vba/).
+
+To sum it up:
+
+* They don’t have a way to sustainably monetize their models.
+* They do not want and probably should not build up internal sales and marketing teams to capture verticals
+* They need a lot of money to keep funding their research without getting bogged down by details of specific product development
+
+*So, what should they do?*
+
+# The Microsoft Deal
+
+OpenAI and Microsoft [announced](https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/) the extension of their partnership with a $10B investment, on Monday.
+
+At this point, Microsoft will have invested a total of $13B in OpenAI. Moreover, new VCs are in on the deal by buying up shares of employees that want to take some chips off the table.
+
+However, the astounding size is not the only extraordinary thing about this deal.
+
+First off, the ownership will be split across three groups. Microsoft will hold 49%, VCs another 49%, and the OpenAI foundation will control the remaining 2% of shares.
+
+If OpenAI starts making money, the profits are distributed differently across four stages:
+
+1. First, early investors (probably Khosla Ventures and Reid Hoffman’s foundation) get their money back with interest.
+2. After that Microsoft is entitled to 75% of profits until the $13B of funding is repaid
+3. When the initial funding is repaid, Microsoft and the remaining VCs each get 49% of profits. This continues until another $92B and $150B are paid out to Microsoft and the VCs, respectively.
+4. Once the aforementioned money is paid to investors, 100% of shares return to the foundation, which regains total control over the company. \[3\]
+
+# What This Means
+
+This is absolutely crazy!
+
+OpenAI managed to solve all of its problems at once. They raised a boatload of money and have access to all the compute they need.
+
+On top of that, they solved their distribution problem. They now have access to Microsoft’s sales teams and their models will be integrated into MS Office products.
+
+Microsoft also benefits heavily. They can play at the forefront AI, brush up their tools, and have OpenAI as an exclusive partner to further compete in a [bitter cloud war](https://www.projectpro.io/article/aws-vs-azure-who-is-the-big-winner-in-the-cloud-war/401) against AWS.
+
+The synergies do not stop there.
+
+OpenAI as well as GitHub (aubsidiary of Microsoft) e. g. will likely benefit heavily from the partnership as they continue to develop[ GitHub Copilot](https://github.com/features/copilot).
+
+The deal creates a beautiful win-win situation, but that is not even the best part.
+
+Sam Altman and his team at OpenAI essentially managed to place a giant hedge. If OpenAI does not manage to create anything meaningful or we enter a new AI winter, Microsoft will have paid for the party.
+
+However, if OpenAI creates something in the direction of AGI — whatever that looks like — the value of it will likely be huge.
+
+In that case, OpenAI will quickly repay the dept to Microsoft and the foundation will control 100% of whatever was created.
+
+*Wow!*
+
+Whether you agree with the path OpenAI has chosen or would have preferred them to stay donation-based, you have to give it to them.
+
+*This deal is an absolute power move!*
+
+I look forward to the future. Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+*Thank you for reading!*
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] [https://golden.com/wiki/Sam\_Altman-J5GKK5](https://golden.com/wiki/Sam_Altman-J5GKK5)​
+
+\[2\] [https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny](https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny)​
+
+\[3\] [Article in Fortune magazine ](https://fortune.com/2023/01/11/structure-openai-investment-microsoft/?verification_code=DOVCVS8LIFQZOB&_ptid=%7Bkpdx%7DAAAA13NXUgHygQoKY2ZRajJmTTN6ahIQbGQ2NWZsMnMyd3loeGtvehoMRVhGQlkxN1QzMFZDIiUxODA3cnJvMGMwLTAwMDAzMWVsMzhrZzIxc2M4YjB0bmZ0Zmc0KhhzaG93T2ZmZXJXRDFSRzY0WjdXRTkxMDkwAToMT1RVVzUzRkE5UlA2Qg1PVFZLVlpGUkVaTVlNUhJ2LYIA8DIzZW55eGJhajZsWiYyYTAxOmMyMzo2NDE4OjkxMDA6NjBiYjo1NWYyOmUyMTU6NjMyZmIDZG1jaOPAtZ4GcBl4DA)​
+
+\[4\] [https://arxiv.org/abs/2104.04473](https://arxiv.org/abs/2104.04473) Megatron NLG
+
+\[5\] [https://www.crunchbase.com/organization/openai/company\_financials](https://www.crunchbase.com/organization/openai/company_financials)​
+
+\[6\] Elon Musk donation [https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research](https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research)​
+
+\[7\] [https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/](https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/)"
+2,12c43uu,deeplearning,OpenAI,top,2023-04-05 01:36:40,Vicuna : an open source chatbot impresses GPT-4 with 90% of the quality of ChatGPT,Time_Key8052,False,0.95,85,https://www.reddit.com/r/deeplearning/comments/12c43uu/vicuna_an_open_source_chatbot_impresses_gpt4_with/,19,1680658600.0,"Vicuna : ChatGPT Alternative, Open-Source, High Quality and Low Cost 
+
+&#x200B;
+
+[ Relative Response Quality Assessed by GPT-4 ](https://preview.redd.it/oaj1s995zyra1.png?width=599&format=png&auto=webp&s=1fb01b017b3b8b4f9149d4b80f40c48d3a072b91)
+
+Vicuna-13B has demonstrated competitive performance against other open-source models, such as Stanford Alpaca, by fine-tuning a LLaMA base model on user-shared conversations collected from ShareGPT.
+
+Evaluation using GPT-4 as a judge shows that Vicuna-13B achieves more than 90% of the quality of OpenAI ChatGPT and Google Bard AI, while outperforming other models such as Meta LLaMA (Large Language Model Meta AI) and Stanford Alpaca in more than 90% of cases.
+
+The cost of training Vicuna-13B is approximately $300.
+
+The training and serving code, along with an online demo, are publicly available for non-commercial use.
+
+&#x200B;
+
+More Information : [https://gpt4chatgpt.tistory.com/entry/Vicuna-an-open-source-chatbot-impresses-GPT-4-with-90-of-the-quality-of-ChatGPT](https://gpt4chatgpt.tistory.com/entry/Vicuna-an-open-source-chatbot-impresses-GPT-4-with-90-of-the-quality-of-ChatGPT)
+
+Discord Server : [https://discord.gg/h6kCZb72G7](https://discord.gg/h6kCZb72G7)
+
+Twitter : [https://twitter.com/lmsysorg](https://twitter.com/lmsysorg)"
+3,10fw22o,deeplearning,OpenAI,top,2023-01-19 07:55:49,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.9,70,https://www.reddit.com/r/deeplearning/comments/10fw22o/gpt4_will_be_500x_smaller_than_people_think_here/,11,1674114949.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/xvpw1erngyca1.png?width=575&format=png&auto=webp&s=d7bea7c6132081f2df7c950a0989f398599d6cae)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you. At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+4,10gs1ik,deeplearning,OpenAI,top,2023-01-20 08:53:58,Gotcha,actual_rocketman,False,0.94,64,https://i.redd.it/yyh41pnje7da1.jpg,5,1674204838.0,
+5,12zclny,deeplearning,OpenAI,top,2023-04-26 09:55:48,"Google researchers achieve performance breakthrough, rendering Stable Diffusion images in sub-12 seconds on a mobile phone. Generative AI models running on your mobile phone is nearing reality.",Lewenhart87,False,0.96,53,https://www.reddit.com/r/deeplearning/comments/12zclny/google_researchers_achieve_performance/,3,1682502948.0,"**What's important to know:**
+
+&#x200B;
+
+*  Stable Diffusion is an \\\~1-billion parameter model that is typically resource intensive. DALL-E sits at 3.5B parameters, so there are even heavier models out there.
+*  Researchers at Google layered in a series of four GPU optimizations to enable Stable Diffusion 1.4 to run on a Samsung phone and generate images in under 12 seconds. RAM usage was also reduced heavily.
+* **Their breakthrough isn't device-specific; rather it's a generalized approach that can add improvements to all latent diffusion models.** Overall image generation time decreased by 52% and 33% on a Samsung S23 Ultra and an iPhone 14 Pro, respectively.
+*  Running generative AI locally on a phone, without a data connection or a cloud server, opens up a host of possibilities. This is just an example of how rapidly this space is moving as Stable Diffusion only just released last fall, and in its initial versions was slow to run on a hefty RTX 3080 desktop GPU.
+
+&#x200B;
+
+As small form-factor devices can run their own generative AI models, what does that mean for the future of computing? Some very exciting applications could be possible.
+
+&#x200B;
+
+If you're curious, the paper (very technical) [can be accessed here.](https://arxiv.org/abs/2304.11267)"
+6,1048oc1,deeplearning,OpenAI,top,2023-01-05 20:07:38,Greg Yang's work on a rigorous mathematical theory for neural networks,IamTimNguyen,False,0.96,50,https://www.reddit.com/r/deeplearning/comments/1048oc1/greg_yangs_work_on_a_rigorous_mathematical_theory/,3,1672949258.0,"Greg Yang is a mathematician and AI researcher at Microsoft Research who for the past several years has done incredibly original theoretical work in the understanding of large artificial neural networks. In our whiteboard conversation, we get a sample of Greg's work, which goes under the name ""Tensor Programs"" and currently spans five highly technical papers. The route chosen to compress Tensor Programs into the scope of a conversational video is to place its main concepts under the umbrella of one larger, central, and time-tested idea: that of taking a large N limit. This occurs most famously in the Law of Large Numbers and the Central Limit Theorem, which then play a fundamental role in the branch of mathematics known as Random Matrix Theory (RMT). We review this foundational material and then show how Tensor Programs (TP) generalizes this classical work, offering new proofs of RMT.
+
+We conclude with the applications of Tensor Programs to a (rare!) rigorous theory of neural networks. This includes applications to a rigorous proof for the existence of the Neural Network Gaussian Process and Neural Tangent Kernel for a general class of architectures, the existence of infinite-width feature learning limits, and the muP parameterization enabling hyperparameter transfer from smaller to larger networks.
+
+&#x200B;
+
+https://preview.redd.it/y79bih0f7aaa1.png?width=1280&format=png&auto=webp&s=7cf2bde3408e58f3d7dd6e15fbcd3dc103404147
+
+https://preview.redd.it/0hvembyf7aaa1.png?width=1200&format=png&auto=webp&s=9a9889d47630e6c12cd4d192750c63d2bff1e422
+
+Youtube: [https://youtu.be/1aXOXHA7Jcw](https://youtu.be/1aXOXHA7Jcw)
+
+Apple Podcasts: [https://podcasts.apple.com/us/podcast/the-cartesian-cafe/id1637353704](https://podcasts.apple.com/us/podcast/the-cartesian-cafe/id1637353704)
+
+Spotify: [https://open.spotify.com/show/1X5asAByNhNr996ZsGGICG](https://open.spotify.com/show/1X5asAByNhNr996ZsGGICG)
+
+RSS: [https://feed.podbean.com/cartesiancafe/feed.xml](https://feed.podbean.com/cartesiancafe/feed.xml)"
+7,125pbbf,deeplearning,OpenAI,top,2023-03-29 14:13:46,AI Startup Cerebras releases open source ChatGPT-like alternative models,Time_Key8052,False,0.96,48,https://gpt4chatgpt.tistory.com/entry/Cerebras-releases-open-source-ChatGPT-like-alternative-models,14,1680099226.0,
+8,121agx4,deeplearning,OpenAI,top,2023-03-25 04:24:49,Do we really need 100B+ parameters in a large language model?,Vegetable-Skill-9700,False,0.93,49,https://www.reddit.com/r/deeplearning/comments/121agx4/do_we_really_need_100b_parameters_in_a_large/,54,1679718289.0,"DataBricks's open-source LLM, [Dolly](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html) performs reasonably well on many instruction-based tasks while being \~25x smaller than GPT-3, challenging the notion that is big always better?
+
+From my personal experience, the quality of the model depends a lot on the fine-tuning data as opposed to just the sheer size. If you choose your retraining data correctly, you can fine-tune your smaller model to perform better than the state-of-the-art GPT-X. The future of LLMs might look more open-source than imagined 3 months back?
+
+Would love to hear everyone's opinions on how they see the future of LLMs evolving? Will it be few players (OpenAI) cracking the AGI and conquering the whole world or a lot of smaller open-source models which ML engineers fine-tune for their use-cases?
+
+P.S. I am kinda betting on the latter and building [UpTrain](https://github.com/uptrain-ai/uptrain), an open-source project which helps you collect that high quality fine-tuning dataset"
+9,ylj1ux,deeplearning,OpenAI,top,2022-11-03 23:55:15,BlogNLP: AI Writing Tool,britdev,False,1.0,36,https://www.reddit.com/r/deeplearning/comments/ylj1ux/blognlp_ai_writing_tool/,9,1667519715.0,"Hey everyone,
+
+I created this web app using Open AI's GPT-3 (Davinci model). The purpose here is to provide a free tool to allow people to generate blog content/outlines/headlines and help with writer's block. Will continue to improve it over time, but just a side project I figured would provide some value to you all. Hope you all enjoy and please share ❤️
+
+[https://www.blognlp.com/](https://www.blognlp.com/)"
+10,12jb4xz,deeplearning,OpenAI,top,2023-04-12 05:21:13,Is OpenAI’s Study On The Labor Market Impacts Of AI Flawed?,LesleyFair,False,0.96,26,https://www.reddit.com/r/deeplearning/comments/12jb4xz/is_openais_study_on_the_labor_market_impacts_of/,1,1681276873.0,"[Example img\_name](https://preview.redd.it/f3hrmeet1eta1.png?width=1451&format=png&auto=webp&s=20e20b142a2f88c3d495177e540f34bc8ea4312b)
+
+We all have heard an uncountable amount of predictions about how AI will ***terk err jerbs!***
+
+However, here we have a proper study on the topic from OpenAI and the University of Pennsylvania. They investigate how Generative Pre-trained Transformers (GPTs) could automate tasks across different occupations \[1\].
+
+Although I’m going to discuss how the study comes with a set of “imperfections”, the findings still make me really excited. The findings suggest that machine learning is going to deliver some serious productivity gains.
+
+People in the data science world fought tooth and nail for years to squeeze some value out of incomplete data sets from scattered sources while hand-holding people on their way toward a data-driven organization. At the same time, the media was flooded with predictions of omniscient AI right around the corner.
+
+*Let’s dive in and take an* exciting glimpse into the future of labor markets\*!\*
+
+# What They Did
+
+The study looks at all US occupations. It breaks them down into tasks and assesses the possible level of for each task. They use that to estimate how much automation is possible for a given occupation.
+
+The researchers used the [O\*NET database,](https://www.onetcenter.org/database.html) which is an occupation database specifically for the U.S. market. It lists 1,016 occupations along with its standardized descriptions of tasks.
+
+The researchers annotated each task once manually and once using GPT-4. Thereby, each task was labeled as either somewhat (<50%) or significantly (>50%) automatable through LLMs. In their judgment, they considered both the direct “exposure” of a task to GPT as well as to a secondary GPT-powered system, e.g. LLMs integrated with image generation systems.
+
+To reiterate, a higher “exposure” means that an occupation is more likely to get automated.
+
+Lastly, they enriched the occupation data with wages and demographic information. This was used to determine whether e. g. high or low-paying jobs are at higher risk to be automated.
+
+So far so good. This all sounds pretty decent. Sure, there is a lot of qualitative judgment going into their data acquisition process. However, we gotta cut them some slag. These kinds of studies always struggle to get any hard data and so far they did a good job.
+
+However, there are a few obvious things to criticize. But before we get to that let’s look at their results.
+
+# Key Findings
+
+The study finds that 80% of the US workforce, across all industries, could have at least some tasks affected. Even more significantly, 19% of occupations are expected to have at least half of their tasks significantly automated!
+
+Furthermore, they find that higher levels of automation exposure are associated with:
+
+* Programming and writing skills
+* Higher wages (contrary to previous research!)
+* Higher levels of education (Bachelor’s and up)
+
+Lower levels of exposure are associated with:
+
+* Science and critical thinking skills
+* Manual work and tasks that might potentially be done using physical robots
+
+This is somewhat unsurprising. We of course know that LLMs will likely not increase productivity in the plumbing business. However, their findings underline again how different this wave is. In the past, simple and repetitive tasks fell prey to automation.
+
+*This time it’s the suits!*
+
+If we took this study at face value, many of us could start thinking about life as full-time pensioners.
+
+But not so fast! This, like all the other studies on the topic, has a number of flaws.
+
+# Necessary Criticism
+
+First, let’s address the elephant in the room!
+
+OpenAI co-authored the study. They have a vested interest in the hype around AI, both for commercial and regulatory reasons. Even if the external researchers performed their work with the utmost thoroughness and integrity, which I am sure they did, the involvement of OpenAI could have introduced an unconscious bias.
+
+*But there’s more!*
+
+The occupation database contains over 1000 occupations broken down into tasks. Neither GPT-4 nor the human labelers can possibly have a complete understanding of all the tasks across all occupations. Hence, their judgment about how much a certain task can be automated has to be rather hand-wavy in many cases.
+
+Flaws in the data also arise from the GPT-based labeling itself.
+
+The internet is flooded with countless sensationalist articles about how AI will replace jobs. It is hard to gauge whether this actually causes GPT models to be more optimistic when it comes to their own impact on society. However, it is possible and should not be neglected.
+
+The authors do also not really distinguish between labor-augmenting and labor-displacing effects and it is hard to know what “affected by” or “exposed to LLMs” actually means. Will people be replaced or will they just be able to do more?
+
+Last but not least, lists of tasks most likely do not capture all requirements in a given occupation. For instance ""making someone feel cared for"" can be an essential part of a job but might be neglected in such a list.
+
+# Take-Away And Implications
+
+GPT models have the world in a frenzy - rightfully so.
+
+Nobody knows whether 19% of knowledge work gets heavily automated or if it is only 10%.
+
+As the dust settles, we will begin to see how the ecosystem develops and how productivity in different industries can be increased. Time will tell whether foundational LLMs, specialized smaller models, or vertical tools built on top of APIs will be having the biggest impact.
+
+In any case, these technologies have the potential to create unimaginable value for the world. At the same time, change rarely happens without pain. I strongly believe in human ingenuity and our ability to adapt to change. All in all, the study - flaws aside - represents an honest attempt at gauging the future.
+
+Efforts like this and their scrutiny are our best shot at navigating the future. Well, or we all get chased out of the city by pitchforks.
+
+Jokes aside!
+
+What an exciting time for science and humanity!
+
+As always, I really enjoyed making this for you and I sincerely hope you found value in it!
+
+If you are not subscribed to the newsletter yet, [click here to sign up](https://thedecoding.net/)! I send out a thoughtful 5-minute email every week to keep you in the loop about machine learning research and the data economy.
+
+*Thank you for reading and I see you next week ⭕!*
+
+**References:**
+
+\[1\] [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)"
+11,105r933,deeplearning,OpenAI,top,2023-01-07 15:11:47,Review Request: MS in AI Grad Student with 3+ years of relevant experience trying to apply for Summer Internships '23 (posting here because I need domain-specific feedback),animikhaich,False,0.73,24,https://i.redd.it/0g3k2udk0naa1.jpg,12,1673104307.0,
+12,zen8l4,deeplearning,OpenAI,top,2022-12-07 00:33:41,Are currently state of art model for logical/common-sense reasoning all based on NLP(LLM)?,Accomplished-Bill-45,False,1.0,23,https://www.reddit.com/r/deeplearning/comments/zen8l4/are_currently_state_of_art_model_for/,6,1670373221.0,"Not very familiar with NLP, but I'm playing around with OpenAI's ChatGPT; particularly impressed by its reasoning, and its thought-process.
+
+Are all good reasoning models derived from NLP (LLM) models with RL training method at the moment?
+
+What are some papers/research team to read/follow to understand this area better and stay on updated?
+
+&#x200B;
+
+&#x200B;
+
+for ChatGPT. I've tested it with following cases
+
+Social reasoning ( which does a good job; such as: if I'm going to attend meeting tonight. I have a suit, but its dirty and size doesn't fit. another option is just wear underwear, the underwear is clean and fit in size. Which one should I wear to attend the meeting. )
+
+Psychological reasoning ( it did a bad job.I asked it to infer someone's intention given his behaviours, expression, talks etc.)
+
+Solving math question ( it’s ok, better then Minerva)
+
+Asking LSAT logic game questions ( it gives its thought process, but failed to give correct answers)
+
+I also wrote up a short mystery novel, ( like 200 words, with context) ask if it can tell is the victim is murdered or committed suicide; if its murdered, does victim knows the killer etc. It actually did ok job on this one if the context is clearly given that everyone can deduce some conclusion using common sense."
+13,12yqpnp,deeplearning,OpenAI,top,2023-04-25 17:53:47,"Microsoft releases SynapseMl v0.11 with support for ChatGPT, GPT-4, causal learning, and more",mhamilton723,False,0.86,22,https://www.reddit.com/r/deeplearning/comments/12yqpnp/microsoft_releases_synapseml_v011_with_support/,0,1682445227.0,"Today Microsoft launched SynapseML v0.11 with support for ChatGPT, GPT-4, distributed training of huggingface and torchvision models, an ONNX Model hub integration, Causal Learning with EconML, 10x memory reductions for LightGBM, and a newly refactored integration with Vowpal Wabbit. To learn more check out our release notes and please feel give us a star if you enjoy the project!
+
+Release Notes: [https://github.com/microsoft/SynapseML/releases/tag/v0.11.0](https://github.com/microsoft/SynapseML/releases/tag/v0.11.0)
+
+Blog: [https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919)
+
+Thank you to all the contributors in the community who made the release possible!
+
+&#x200B;
+
+[What's new in SynapseML v0.11](https://preview.redd.it/9pqj1mowj2wa1.png?width=4125&format=png&auto=webp&s=a358e73760c847a09cc76f2ed17dc58e15aed5ed)"
+14,11mdvb9,deeplearning,OpenAI,top,2023-03-09 00:50:22,"AI generated video chapter titles (YouTube, Vimeo, etc)",happybirthday290,False,0.89,19,https://i.redd.it/h6utxsxg2mma1.png,1,1678323022.0,
+15,10n8c80,deeplearning,OpenAI,top,2023-01-28 06:34:28,"A python module to generate optimized prompts, Prompt-engineering & solve different NLP problems using GPT-n (GPT-3, ChatGPT) based models and return structured python object for easy parsing",StoicBatman,False,0.95,16,https://www.reddit.com/r/deeplearning/comments/10n8c80/a_python_module_to_generate_optimized_prompts/,0,1674887668.0,"Hi folks,
+
+I was working on a personal experimental project related to GPT-3, which I thought of making it open source now. It saves much time while working with LLMs.
+
+If you are an industrial researcher or application developer, you probably have worked with GPT-3 apis. A common challenge when utilizing LLMs such as #GPT-3 and BLOOM is their tendency to produce uncontrollable & unstructured outputs, making it difficult to use them for various NLP tasks and applications.
+
+To address this, we developed **Promptify**, a library that allows for the use of LLMs to solve NLP problems, including Named Entity Recognition, Binary Classification, Multi-Label Classification, and Question-Answering and return a python object for easy parsing to construct additional applications on top of GPT-n based models.
+
+Features 🚀
+
+* 🧙‍♀️ NLP Tasks (NER, Binary Text Classification, Multi-Label Classification etc.) in 2 lines of code with no training data required
+* 🔨 Easily add one-shot, two-shot, or few-shot examples to the prompt
+* ✌ Output is always provided as a Python object (e.g. list, dictionary) for easy parsing and filtering
+* 💥 Custom examples and samples can be easily added to the prompt
+* 💰 Optimized prompts to reduce OpenAI token costs
+
+&#x200B;
+
+* GITHUB: [https://github.com/promptslab/Promptify](https://github.com/promptslab/Promptify)
+* Examples: [https://github.com/promptslab/Promptify/tree/main/examples](https://github.com/promptslab/Promptify/tree/main/examples)
+* For quick demo -> [Colab](https://colab.research.google.com/drive/16DUUV72oQPxaZdGMH9xH1WbHYu6Jqk9Q?usp=sharing)
+
+Try out and share your feedback. Thanks :)
+
+Join our discord for Prompt-Engineering, LLMs and other latest research discussions  
+[discord.gg/m88xfYMbK6](https://discord.gg/m88xfYMbK6)
+
+[NER Example](https://preview.redd.it/sjvhtd8b3nea1.png?width=1236&format=png&auto=webp&s=e9a3a28f41f59cd25fe8e95bd1fca56b15f27a6e)
+
+&#x200B;
+
+https://preview.redd.it/fnb05bys3nea1.png?width=1398&format=png&auto=webp&s=096f4e2cbd0a71e795f30cc5e3720316b5e5caf6"
+16,129t3tl,deeplearning,OpenAI,top,2023-04-02 18:10:37,Should we draw inspiration from Deep learning/Computer vision world for fine-tuning LLMs?,Vegetable-Skill-9700,False,0.82,14,https://www.reddit.com/r/deeplearning/comments/129t3tl/should_we_draw_inspiration_from_deep/,8,1680459037.0,"With HuggingGPT, BloombergGPT, and OpenAI's chatGPT store, it looks like the world is moving towards specialized GPTs for specialized tasks. What do you think are the best tips & tricks when it comes to fine-tuning and refining these task-specific GPTs?
+
+Over the last decade, I have built many computer vision models (for human pose estimation, action classification, etc.), and our general approach was always based on Transfer learning. Take a state-of-the-art public model and fine-tune it by collecting data for the given use case.
+
+Do you think that paradigm still holds true for LLMs?
+
+Based on my experience, I believe observing the model's performance as it interacts with real-world data, identifying failure cases (where the model's outputs are wrong), and using them to create a high-quality retraining dataset will be the key.
+
+&#x200B;
+
+P.S. I am building an open-source project UpTrain ([https://github.com/uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain)), which helps data scientists to do so. We just wrote a blog on how this principle can be applied to fine-tune an LLM for a conversation summarization task. Check it out here: [https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation\_summarization](https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation_summarization)"
+17,121agx4,deeplearning,OpenAI,comments,2023-03-25 04:24:49,Do we really need 100B+ parameters in a large language model?,Vegetable-Skill-9700,False,0.93,47,https://www.reddit.com/r/deeplearning/comments/121agx4/do_we_really_need_100b_parameters_in_a_large/,54,1679718289.0,"DataBricks's open-source LLM, [Dolly](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html) performs reasonably well on many instruction-based tasks while being \~25x smaller than GPT-3, challenging the notion that is big always better?
+
+From my personal experience, the quality of the model depends a lot on the fine-tuning data as opposed to just the sheer size. If you choose your retraining data correctly, you can fine-tune your smaller model to perform better than the state-of-the-art GPT-X. The future of LLMs might look more open-source than imagined 3 months back?
+
+Would love to hear everyone's opinions on how they see the future of LLMs evolving? Will it be few players (OpenAI) cracking the AGI and conquering the whole world or a lot of smaller open-source models which ML engineers fine-tune for their use-cases?
+
+P.S. I am kinda betting on the latter and building [UpTrain](https://github.com/uptrain-ai/uptrain), an open-source project which helps you collect that high quality fine-tuning dataset"
+18,12cvkvu,deeplearning,OpenAI,comments,2023-04-05 19:44:10,AI vs Humans: Can You Tell the Difference?,YoutubeStruggle,False,0.69,5,https://www.reddit.com/r/deeplearning/comments/12cvkvu/ai_vs_humans_can_you_tell_the_difference/,29,1680723850.0,"We would greatly appreciate your feedback on our[AI Content Detector](https://ai-content-detector.online/) that detects text generated by ChatGPT, a large language model trained by OpenAI. Our aim is to provide a reliable tool for distinguishing between human-written text and machine-generated text, and we would love to hear your thoughts on how effective the tool is in achieving this goal. Specifically, we would like to know if you found the site easy to navigate if the results provided were accurate, and if there are any additional features you would like to see implemented. Your feedback will help us to continue improving the site and provide the best possible experience for our users. Thank you in advance for your valuable input!"
+19,11hezvk,deeplearning,OpenAI,comments,2023-03-03 21:08:20,Meta’s LLaMa weights leaked on torrent... and the best thing about it is someone put up a PR to replace the google form in the repo with it 😂,RandomForests92,False,0.99,187,https://i.redd.it/olnsv438alla1.jpg,23,1677877700.0,
+20,12c8m14,deeplearning,OpenAI,comments,2023-04-05 04:41:38,Universities for masters,IshanDandekar,False,0.84,4,https://www.reddit.com/r/deeplearning/comments/12c8m14/universities_for_masters/,21,1680669698.0,"Hello people, I am in my end of 3rd of degree graduate program (Bachelors in Data Science). Now that I am near the end, I have started to think about further studies and masters. I live in India. My relatives and elders told that there are better opportunities outside. I have started to prepare for the GRE exam, but I am clueless about the universities that it'll offer me.
+
+I am interested in Artificial Intelligence  rather than the business analytics part of Data Science. I have decided to go for masters, rather than looking for jobs after my graduation. Please suggest good universities that are good for masters in AI. Doesn't matter which country, I am first trying to look for universities and then filter according to countries.
+
+Edit: I know many people will question that if I have a data science degree then why go for masters in AI. I know I will have to learn everything again, I am hoping it'll open a better job market for me."
+21,12c43uu,deeplearning,OpenAI,comments,2023-04-05 01:36:40,Vicuna : an open source chatbot impresses GPT-4 with 90% of the quality of ChatGPT,Time_Key8052,False,0.95,87,https://www.reddit.com/r/deeplearning/comments/12c43uu/vicuna_an_open_source_chatbot_impresses_gpt4_with/,19,1680658600.0,"Vicuna : ChatGPT Alternative, Open-Source, High Quality and Low Cost 
+
+&#x200B;
+
+[ Relative Response Quality Assessed by GPT-4 ](https://preview.redd.it/oaj1s995zyra1.png?width=599&format=png&auto=webp&s=1fb01b017b3b8b4f9149d4b80f40c48d3a072b91)
+
+Vicuna-13B has demonstrated competitive performance against other open-source models, such as Stanford Alpaca, by fine-tuning a LLaMA base model on user-shared conversations collected from ShareGPT.
+
+Evaluation using GPT-4 as a judge shows that Vicuna-13B achieves more than 90% of the quality of OpenAI ChatGPT and Google Bard AI, while outperforming other models such as Meta LLaMA (Large Language Model Meta AI) and Stanford Alpaca in more than 90% of cases.
+
+The cost of training Vicuna-13B is approximately $300.
+
+The training and serving code, along with an online demo, are publicly available for non-commercial use.
+
+&#x200B;
+
+More Information : [https://gpt4chatgpt.tistory.com/entry/Vicuna-an-open-source-chatbot-impresses-GPT-4-with-90-of-the-quality-of-ChatGPT](https://gpt4chatgpt.tistory.com/entry/Vicuna-an-open-source-chatbot-impresses-GPT-4-with-90-of-the-quality-of-ChatGPT)
+
+Discord Server : [https://discord.gg/h6kCZb72G7](https://discord.gg/h6kCZb72G7)
+
+Twitter : [https://twitter.com/lmsysorg](https://twitter.com/lmsysorg)"
+22,10mhyek,deeplearning,OpenAI,comments,2023-01-27 10:45:48,⭕ What People Are Missing About Microsoft’s $10B Investment In OpenAI,LesleyFair,False,0.95,122,https://www.reddit.com/r/deeplearning/comments/10mhyek/what_people_are_missing_about_microsofts_10b/,16,1674816348.0,"&#x200B;
+
+[Sam Altman Might Have Just Pulled Off The Coup Of The Decade](https://preview.redd.it/sg24cw3zekea1.png?width=720&format=png&auto=webp&s=9eeae99b5e025a74a6cbe3aac7a842d2fff989a1)
+
+Microsoft is investing $10B into OpenAI!
+
+There is lots of frustration in the community about OpenAI not being all that open anymore. They appear to abandon their ethos of developing AI for everyone, [free](https://openai.com/blog/introducing-openai/) of economic pressures.
+
+The fear is that OpenAI’s models are going to become fancy MS Office plugins. Gone would be the days of open research and innovation.
+
+However, the specifics of the deal tell a different story.
+
+To understand what is going on, we need to peek behind the curtain of the tough business of machine learning. We will find that Sam Altman might have just orchestrated the coup of the decade!
+
+To appreciate better why there is some three-dimensional chess going on, let’s first look at Sam Altman’s backstory.
+
+*Let’s go!*
+
+# A Stellar Rise
+
+Back in 2005, Sam Altman founded [Loopt](https://en.wikipedia.org/wiki/Loopt) and was part of the first-ever YC batch. He raised a total of $30M in funding, but the company failed to gain traction. Seven years into the business Loopt was basically dead in the water and had to be shut down.
+
+Instead of caving, he managed to sell his startup for $[43M](https://golden.com/wiki/Sam_Altman-J5GKK5) to the finTech company [Green Dot](https://www.greendot.com/). Investors got their money back and he personally made $5M from the sale.
+
+By YC standards, this was a pretty unimpressive outcome.
+
+However, people took note that the fire between his ears was burning hotter than that of most people. So hot in fact that Paul Graham included him in his 2009 [essay](http://www.paulgraham.com/5founders.html?viewfullsite=1) about the five founders who influenced him the most.
+
+He listed young Sam Altman next to Steve Jobs, Larry & Sergey from Google, and Paul Buchheit (creator of GMail and AdSense). He went on to describe him as a strategic mastermind whose sheer force of will was going to get him whatever he wanted.
+
+And Sam Altman played his hand well!
+
+He parleyed his new connections into raising $21M from Peter Thiel and others to start investing. Within four years he 10x-ed the money \[2\]. In addition, Paul Graham made him his successor as president of YC in 2014.
+
+Within one decade of selling his first startup for $5M, he grew his net worth to a mind-bending $250M and rose to the circle of the most influential people in Silicon Valley.
+
+Today, he is the CEO of OpenAI — one of the most exciting and impactful organizations in all of tech.
+
+However, OpenAI — the rocket ship of AI innovation — is in dire straights.
+
+# OpenAI is Bleeding Cash
+
+Back in 2015, OpenAI was kickstarted with $1B in donations from famous donors such as Elon Musk.
+
+That money is long gone.
+
+In 2022 OpenAI is projecting a revenue of $36M. At the same time, they spent roughly $544M. Hence the company has lost >$500M over the last year alone.
+
+This is probably not an outlier year. OpenAI is headquartered in San Francisco and has a stable of 375 employees of mostly machine learning rockstars. Hence, salaries alone probably come out to be roughly $200M p.a.
+
+In addition to high salaries their compute costs are stupendous. Considering it cost them $4.6M to train GPT3 once, it is likely that their cloud bill is in a very healthy nine-figure range as well \[4\].
+
+So, where does this leave them today?
+
+Before the Microsoft investment of $10B, OpenAI had received a total of $4B over its lifetime. With $4B in funding, a burn rate of $0.5B, and eight years of company history it doesn’t take a genius to figure out that they are running low on cash.
+
+It would be reasonable to think: OpenAI is sitting on ChatGPT and other great models. Can’t they just lease them and make a killing?
+
+Yes and no. OpenAI is projecting a revenue of $1B for 2024. However, it is unlikely that they could pull this off without significantly increasing their costs as well.
+
+*Here are some reasons why!*
+
+# The Tough Business Of Machine Learning
+
+Machine learning companies are distinct from regular software companies. On the outside they look and feel similar: people are creating products using code, but on the inside things can be very different.
+
+To start off, machine learning companies are usually way less profitable. Their gross margins land in the 50%-60% range, much lower than those of SaaS businesses, which can be as high as 80% \[7\].
+
+On the one hand, the massive compute requirements and thorny data management problems drive up costs.
+
+On the other hand, the work itself can sometimes resemble consulting more than it resembles software engineering. Everyone who has worked in the field knows that training models requires deep domain knowledge and loads of manual work on data.
+
+To illustrate the latter point, imagine the unspeakable complexity of performing content moderation on ChatGPT’s outputs. If OpenAI scales the usage of GPT in production, they will need large teams of moderators to filter and label hate speech, slurs, tutorials on killing people, you name it.
+
+*Alright, alright, alright! Machine learning is hard.*
+
+*OpenAI already has ChatGPT working. That’s gotta be worth something?*
+
+# Foundation Models Might Become Commodities:
+
+In order to monetize GPT or any of their other models, OpenAI can go two different routes.
+
+First, they could pick one or more verticals and sell directly to consumers. They could for example become the ultimate copywriting tool and blow [Jasper](https://app.convertkit.com/campaigns/10748016/jasper.ai) or [copy.ai](https://app.convertkit.com/campaigns/10748016/copy.ai) out of the water.
+
+This is not going to happen. Reasons for it include:
+
+1. To support their mission of building competitive foundational AI tools, and their huge(!) burn rate, they would need to capture one or more very large verticals.
+2. They fundamentally need to re-brand themselves and diverge from their original mission. This would likely scare most of the talent away.
+3. They would need to build out sales and marketing teams. Such a step would fundamentally change their culture and would inevitably dilute their focus on research.
+
+The second option OpenAI has is to keep doing what they are doing and monetize access to their models via API. Introducing a [pro version](https://www.searchenginejournal.com/openai-chatgpt-professional/476244/) of ChatGPT is a step in this direction.
+
+This approach has its own challenges. Models like GPT do have a defensible moat. They are just large transformer models trained on very large open-source datasets.
+
+As an example, last week Andrej Karpathy released a [video](https://www.youtube.com/watch?v=kCc8FmEb1nY) of him coding up a version of GPT in an afternoon. Nothing could stop e.g. Google, StabilityAI, or HuggingFace from open-sourcing their own GPT.
+
+As a result GPT inference would become a common good. This would melt OpenAI’s profits down to a tiny bit of nothing.
+
+In this scenario, they would also have a very hard time leveraging their branding to generate returns. Since companies that integrate with OpenAI’s API control the interface to the customer, they would likely end up capturing all of the value.
+
+An argument can be made that this is a general problem of foundation models. Their high fixed costs and lack of differentiation could end up making them akin to the [steel industry](https://www.thediff.co/archive/is-the-business-of-ai-more-like-steel-or-vba/).
+
+To sum it up:
+
+* They don’t have a way to sustainably monetize their models.
+* They do not want and probably should not build up internal sales and marketing teams to capture verticals
+* They need a lot of money to keep funding their research without getting bogged down by details of specific product development
+
+*So, what should they do?*
+
+# The Microsoft Deal
+
+OpenAI and Microsoft [announced](https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/) the extension of their partnership with a $10B investment, on Monday.
+
+At this point, Microsoft will have invested a total of $13B in OpenAI. Moreover, new VCs are in on the deal by buying up shares of employees that want to take some chips off the table.
+
+However, the astounding size is not the only extraordinary thing about this deal.
+
+First off, the ownership will be split across three groups. Microsoft will hold 49%, VCs another 49%, and the OpenAI foundation will control the remaining 2% of shares.
+
+If OpenAI starts making money, the profits are distributed differently across four stages:
+
+1. First, early investors (probably Khosla Ventures and Reid Hoffman’s foundation) get their money back with interest.
+2. After that Microsoft is entitled to 75% of profits until the $13B of funding is repaid
+3. When the initial funding is repaid, Microsoft and the remaining VCs each get 49% of profits. This continues until another $92B and $150B are paid out to Microsoft and the VCs, respectively.
+4. Once the aforementioned money is paid to investors, 100% of shares return to the foundation, which regains total control over the company. \[3\]
+
+# What This Means
+
+This is absolutely crazy!
+
+OpenAI managed to solve all of its problems at once. They raised a boatload of money and have access to all the compute they need.
+
+On top of that, they solved their distribution problem. They now have access to Microsoft’s sales teams and their models will be integrated into MS Office products.
+
+Microsoft also benefits heavily. They can play at the forefront AI, brush up their tools, and have OpenAI as an exclusive partner to further compete in a [bitter cloud war](https://www.projectpro.io/article/aws-vs-azure-who-is-the-big-winner-in-the-cloud-war/401) against AWS.
+
+The synergies do not stop there.
+
+OpenAI as well as GitHub (aubsidiary of Microsoft) e. g. will likely benefit heavily from the partnership as they continue to develop[ GitHub Copilot](https://github.com/features/copilot).
+
+The deal creates a beautiful win-win situation, but that is not even the best part.
+
+Sam Altman and his team at OpenAI essentially managed to place a giant hedge. If OpenAI does not manage to create anything meaningful or we enter a new AI winter, Microsoft will have paid for the party.
+
+However, if OpenAI creates something in the direction of AGI — whatever that looks like — the value of it will likely be huge.
+
+In that case, OpenAI will quickly repay the dept to Microsoft and the foundation will control 100% of whatever was created.
+
+*Wow!*
+
+Whether you agree with the path OpenAI has chosen or would have preferred them to stay donation-based, you have to give it to them.
+
+*This deal is an absolute power move!*
+
+I look forward to the future. Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+*Thank you for reading!*
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] [https://golden.com/wiki/Sam\_Altman-J5GKK5](https://golden.com/wiki/Sam_Altman-J5GKK5)​
+
+\[2\] [https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny](https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny)​
+
+\[3\] [Article in Fortune magazine ](https://fortune.com/2023/01/11/structure-openai-investment-microsoft/?verification_code=DOVCVS8LIFQZOB&_ptid=%7Bkpdx%7DAAAA13NXUgHygQoKY2ZRajJmTTN6ahIQbGQ2NWZsMnMyd3loeGtvehoMRVhGQlkxN1QzMFZDIiUxODA3cnJvMGMwLTAwMDAzMWVsMzhrZzIxc2M4YjB0bmZ0Zmc0KhhzaG93T2ZmZXJXRDFSRzY0WjdXRTkxMDkwAToMT1RVVzUzRkE5UlA2Qg1PVFZLVlpGUkVaTVlNUhJ2LYIA8DIzZW55eGJhajZsWiYyYTAxOmMyMzo2NDE4OjkxMDA6NjBiYjo1NWYyOmUyMTU6NjMyZmIDZG1jaOPAtZ4GcBl4DA)​
+
+\[4\] [https://arxiv.org/abs/2104.04473](https://arxiv.org/abs/2104.04473) Megatron NLG
+
+\[5\] [https://www.crunchbase.com/organization/openai/company\_financials](https://www.crunchbase.com/organization/openai/company_financials)​
+
+\[6\] Elon Musk donation [https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research](https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research)​
+
+\[7\] [https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/](https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/)"
+23,125pbbf,deeplearning,OpenAI,comments,2023-03-29 14:13:46,AI Startup Cerebras releases open source ChatGPT-like alternative models,Time_Key8052,False,0.96,49,https://gpt4chatgpt.tistory.com/entry/Cerebras-releases-open-source-ChatGPT-like-alternative-models,14,1680099226.0,
+24,105r933,deeplearning,OpenAI,comments,2023-01-07 15:11:47,Review Request: MS in AI Grad Student with 3+ years of relevant experience trying to apply for Summer Internships '23 (posting here because I need domain-specific feedback),animikhaich,False,0.73,25,https://i.redd.it/0g3k2udk0naa1.jpg,12,1673104307.0,
+25,10fw22o,deeplearning,OpenAI,comments,2023-01-19 07:55:49,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.9,70,https://www.reddit.com/r/deeplearning/comments/10fw22o/gpt4_will_be_500x_smaller_than_people_think_here/,11,1674114949.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/xvpw1erngyca1.png?width=575&format=png&auto=webp&s=d7bea7c6132081f2df7c950a0989f398599d6cae)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you. At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+26,ylj1ux,deeplearning,OpenAI,comments,2022-11-03 23:55:15,BlogNLP: AI Writing Tool,britdev,False,1.0,36,https://www.reddit.com/r/deeplearning/comments/ylj1ux/blognlp_ai_writing_tool/,9,1667519715.0,"Hey everyone,
+
+I created this web app using Open AI's GPT-3 (Davinci model). The purpose here is to provide a free tool to allow people to generate blog content/outlines/headlines and help with writer's block. Will continue to improve it over time, but just a side project I figured would provide some value to you all. Hope you all enjoy and please share ❤️
+
+[https://www.blognlp.com/](https://www.blognlp.com/)"
+27,129t3tl,deeplearning,OpenAI,comments,2023-04-02 18:10:37,Should we draw inspiration from Deep learning/Computer vision world for fine-tuning LLMs?,Vegetable-Skill-9700,False,0.75,11,https://www.reddit.com/r/deeplearning/comments/129t3tl/should_we_draw_inspiration_from_deep/,8,1680459037.0,"With HuggingGPT, BloombergGPT, and OpenAI's chatGPT store, it looks like the world is moving towards specialized GPTs for specialized tasks. What do you think are the best tips & tricks when it comes to fine-tuning and refining these task-specific GPTs?
+
+Over the last decade, I have built many computer vision models (for human pose estimation, action classification, etc.), and our general approach was always based on Transfer learning. Take a state-of-the-art public model and fine-tune it by collecting data for the given use case.
+
+Do you think that paradigm still holds true for LLMs?
+
+Based on my experience, I believe observing the model's performance as it interacts with real-world data, identifying failure cases (where the model's outputs are wrong), and using them to create a high-quality retraining dataset will be the key.
+
+&#x200B;
+
+P.S. I am building an open-source project UpTrain ([https://github.com/uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain)), which helps data scientists to do so. We just wrote a blog on how this principle can be applied to fine-tune an LLM for a conversation summarization task. Check it out here: [https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation\_summarization](https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation_summarization)"
+28,zen8l4,deeplearning,OpenAI,comments,2022-12-07 00:33:41,Are currently state of art model for logical/common-sense reasoning all based on NLP(LLM)?,Accomplished-Bill-45,False,0.97,24,https://www.reddit.com/r/deeplearning/comments/zen8l4/are_currently_state_of_art_model_for/,6,1670373221.0,"Not very familiar with NLP, but I'm playing around with OpenAI's ChatGPT; particularly impressed by its reasoning, and its thought-process.
+
+Are all good reasoning models derived from NLP (LLM) models with RL training method at the moment?
+
+What are some papers/research team to read/follow to understand this area better and stay on updated?
+
+&#x200B;
+
+&#x200B;
+
+for ChatGPT. I've tested it with following cases
+
+Social reasoning ( which does a good job; such as: if I'm going to attend meeting tonight. I have a suit, but its dirty and size doesn't fit. another option is just wear underwear, the underwear is clean and fit in size. Which one should I wear to attend the meeting. )
+
+Psychological reasoning ( it did a bad job.I asked it to infer someone's intention given his behaviours, expression, talks etc.)
+
+Solving math question ( it’s ok, better then Minerva)
+
+Asking LSAT logic game questions ( it gives its thought process, but failed to give correct answers)
+
+I also wrote up a short mystery novel, ( like 200 words, with context) ask if it can tell is the victim is murdered or committed suicide; if its murdered, does victim knows the killer etc. It actually did ok job on this one if the context is clearly given that everyone can deduce some conclusion using common sense."
+29,zboc8w,deeplearning,OpenAI,comments,2022-12-03 19:29:01,BlogNLP: AI Blog Writing Tool,britdev,False,0.84,12,https://www.reddit.com/r/deeplearning/comments/zboc8w/blognlp_ai_blog_writing_tool/,7,1670095741.0,"Hey everyone,
+
+I developed this web app with Open AI's GPT-3 to provide a free, helpful resource for generating blog content, outlines, and more - so you can beat writer's block! I'm sure you'll find it useful and I'd really appreciate it if you shared it with others ❤️.
+
+[https://www.blognlp.com/](https://www.blognlp.com/)"
+30,136fkpu,deeplearning,OpenAI,comments,2023-05-03 09:28:44,"[D] [P] Need help in my Thesis project ""A comparison study of EEG analysis by Deep Learning vs Expert board cerrtified Neurologist analysis for 100 patient data",drajaytripathi,False,0.71,3,https://www.reddit.com/r/deeplearning/comments/136fkpu/d_p_need_help_in_my_thesis_project_a_comparison/,6,1683106124.0,"Hi
+
+ 
+
+I am a Doctor /Physician from india, currently doing residency in Neurology superspeciality from a hospital in India
+
+I am in stage of planning for a comparative study between Deep Learning AI solution for EEG analysis vs Expert Neurologist Analysis reporting, that shall be part of my Thesis and will be published as a paper afterwords.
+
+We will take data of approx 100 patients who are advised for EEG
+
+In our setup, **""Clarity software""** is used for EEG and file extension produced is .eeg
+
+Please help me in suggesting Open source solutions that can be used in this study.
+
+Till now i have found only 1 open source model **(aka BRAINCODE**) that can be used (I will try to make a setup and analyse its feasability , it looks like it can be used as far as i can understnad from its Github reprository ([https://github.com/braindecode/braindecode/](https://github.com/braindecode/braindecode/))
+
+another Private company **BITBRAIN,** also has similar solution
+
+Also i will need a way to convert .EEG extension files ([https://filext.com/file-extension/EEG](https://filext.com/file-extension/EEG)) to convert to any needed format for the model
+
+PLease help me in this reserch work"
+31,108bbsj,deeplearning,OpenAI,comments,2023-01-10 14:36:18,TypeError: 'module' object is not callable,ContributionFun3037,False,0.5,0,https://www.reddit.com/r/deeplearning/comments/108bbsj/typeerror_module_object_is_not_callable/,6,1673361378.0,"I'm new to deep learning, and I'm currently trying to wrap my head over Reinforcement learning by using open ai gym(to train agents i.e).  
+
+    import gymnasium as gym
+    from stable_baselines3 import PPO
+    from stable_baselines3.common.vec_env import dummy_vec_env
+    from stable_baselines3.common.evaluation import evaluate_policy
+    from stable_baselines3.ppo import MlpPolicy
+    import os
+    
+    log_path=os.path.join('Training', 'Logs')
+    
+    env = gym.make(""CartPole-v1"", render_mode=""human"")
+    env= dummy_vec_env([lambda:env])
+    model= PPO(MlpPolicy, env, verbose=1, tensorboard_log=log_path)
+
+I can see the cartpole window and after exiting I'm getting this error and I don't know why.
+
+    env= dummy_vec_env([lambda:env])
+    TypeError: 'module' object is not callable
+
+The tutorial I'm following is almost 2 years old and I suspect there have been plenty of changes to many pip packages- which I'm now trying to install and run (as shown in the tutorial). Can you pls tell me what I'm doing wrong and also pls source me any good(and updated) beginner reinforcement learning tutorial(if they are available)."
+32,zmwxkh,deeplearning,OpenAI,comments,2022-12-15 21:40:38,laptop for Data Science and Scientific Computing: proart vs legion 7i vs thinkpad p16/p1-gen5,macORnvidia,False,1.0,1,https://www.reddit.com/r/deeplearning/comments/zmwxkh/laptop_for_data_science_and_scientific_computing/,5,1671140438.0,"laptop for Data Science and Scientific Computing: proart vs legion 7i vs thinkpad p16/p1-gen5
+
+
+I'm looking at four laptop for DS. Not really interested in gaming, just the gpu, good cpu and massive ram. So that kind of brings me to the gaming laptop segment. 
+
+**Main uses:**
+
+- Data preprocessing, Prototyping cuda, rapids ai for accelerating classical data science and machine learning, DL inferencing, building conda enabled containers, 3D modeling/rendering and simulations using python, NLP, openCV, pytorch
+
+
+
+1. Thinkpad p16:  4200$/3900$ (64 vs 32 gb ram)
+
+64gb/32gb ddr5, i9 12900hx, rtx a4500 16gb vram, 1 TB, 3480 vs 2400, 230W power adapter 
+
+
+
+2. Thinkpad p1 gen5:  3900$
+
+32gb ddr5, i9 12900h vpro, rtx 3080ti 16gb vram, 1 TB, 2560 vs 1600, 230W power adapter
+
+
+
+3. Asus Proart studiobook: 2999$
+
+32gb ddr5, i7 12700h, rtx 3080ti 16gb vram, 2 TB, 3840 vs 2400 4K OLED, 330W power adaptor 
+
+
+
+4. Legion 7i: 3500$
+
+32gb ddr5, i9 12900hx, rtx 3080ti 16gb vram, 2 TB, 2560 vs 1600 165hz,  300W power adaptor
+
+
+
+I love how beautiful and robust legion 7i is but based on the price difference I'm also leaning towards asus proart in case i7 12th gen isn't too bad to work with."
+33,117l2vf,deeplearning,OpenAI,comments,2023-02-20 21:27:58,Fine tuning a GPT for text generation,nashcaps2724,False,0.91,9,https://www.reddit.com/r/deeplearning/comments/117l2vf/fine_tuning_a_gpt_for_text_generation/,6,1676928478.0,"Hi all, let me lay out my problem…
+
+Imagine there are two corpora, Corpus A (100,000~) and Corpus B (20,000,000~). 
+
+Individuals create reports for corpus A based on the information in corpus B. 
+
+My idea was to pretrain a GPT on corpus A, and fine tune it to take documents from corpus B as an input, and output text in the style of corpus A (essentially a mix of text generation and summarization). 
+
+Is this something folks think is even feasible? Should I be pretaining the GPT on both corpora or just corpus A? I thought of both fine tuning an OpenAI GPT and training from scratch. 
+
+Any advice would be welcome!"
+34,10gs1ik,deeplearning,OpenAI,comments,2023-01-20 08:53:58,Gotcha,actual_rocketman,False,0.95,66,https://i.redd.it/yyh41pnje7da1.jpg,5,1674204838.0,
+35,1349kon,deeplearning,OpenAI,comments,2023-05-01 01:55:30,AI for training on 3d models,KarlanMitchell,False,0.9,7,https://www.reddit.com/r/deeplearning/comments/1349kon/ai_for_training_on_3d_models/,4,1682906130.0,"So I've got an idea for my industry, dental, and have been playing with certain tools, but don't think there are very many options.  I'm not super experienced in AI, do have a programming background, and don't mind fussy or convoluted processes.
+
+My idea:
+To train a model for generating certain dental restorations using a wealth of 3d models and restorations which have been already created.  With a series of tools, or modules, trained to identify certain attributes so it can be fed into specificly trained models.
+
+My issue:
+Some of the libraries I've played with are specific to point clouds (without normals) and more organic, non scientific, 3d models for applications like art, fun, and video games.
+
+My solution:
+While my end project will be closed source, I'm interested in writing an open source library to take x/y and/or z ""slices"" of a 3d model (particularly multiple models with the ""output"" model marked accordingly) and generating images or arrays with adjustable percision (for different applications) for feeding into more traditional training suites as I can't seem to find anything open for training on 3d models (presumably Nvidia has something, but i can only find text to model ""magic boxes"", which seem to be more of a novelty).  Additionally my theoretical software would take the ai generated image/array slices and output a STL.
+
+My concerns:
+*Would this be useful?
+*I almost certainly missed an open project that caters to 3d model training.
+*What is a good suite for feeding multiple dimensional arrays which can remember the last array for continuity of the final output (we'll say images as it easier for the theory to imagine slices of a 3d model)?
+
+Appreciate the read, hopefully it wasn't too vague as it's still in planning stages.  Any pointing in the right direction, or even setting me straight is welcome."
+36,12zclny,deeplearning,OpenAI,comments,2023-04-26 09:55:48,"Google researchers achieve performance breakthrough, rendering Stable Diffusion images in sub-12 seconds on a mobile phone. Generative AI models running on your mobile phone is nearing reality.",Lewenhart87,False,0.96,52,https://www.reddit.com/r/deeplearning/comments/12zclny/google_researchers_achieve_performance/,3,1682502948.0,"**What's important to know:**
+
+&#x200B;
+
+*  Stable Diffusion is an \\\~1-billion parameter model that is typically resource intensive. DALL-E sits at 3.5B parameters, so there are even heavier models out there.
+*  Researchers at Google layered in a series of four GPU optimizations to enable Stable Diffusion 1.4 to run on a Samsung phone and generate images in under 12 seconds. RAM usage was also reduced heavily.
+* **Their breakthrough isn't device-specific; rather it's a generalized approach that can add improvements to all latent diffusion models.** Overall image generation time decreased by 52% and 33% on a Samsung S23 Ultra and an iPhone 14 Pro, respectively.
+*  Running generative AI locally on a phone, without a data connection or a cloud server, opens up a host of possibilities. This is just an example of how rapidly this space is moving as Stable Diffusion only just released last fall, and in its initial versions was slow to run on a hefty RTX 3080 desktop GPU.
+
+&#x200B;
+
+As small form-factor devices can run their own generative AI models, what does that mean for the future of computing? Some very exciting applications could be possible.
+
+&#x200B;
+
+If you're curious, the paper (very technical) [can be accessed here.](https://arxiv.org/abs/2304.11267)"
+37,11r0l52,deeplearning,OpenAI,comments,2023-03-14 08:23:23,Question on study options,CareerHour4671,False,1.0,5,https://www.reddit.com/r/deeplearning/comments/11r0l52/question_on_study_options/,3,1678782203.0,"I started my career as a quant then programmer, then data scientist and now work for Bloomberg.
+
+I've been using ML for years but have not really worked with NLP and with the recent advances in LLMs the penny dropped that our working world is about to start changing very quickly.
+
+Are there any AI MSc degrees that are aligned to this space that are open to part time study?
+
+Or, should I just dive into the books as the MSc would not be specific enough.
+
+I did an MSc in quant mathematics a few years ago after a break of 20 years from my Physics BSc and found it pretty broad and tbh not all that useful.
+
+Anyway. Just seeing what people's thoughts are 
+
+Cheers"
+38,1048oc1,deeplearning,OpenAI,comments,2023-01-05 20:07:38,Greg Yang's work on a rigorous mathematical theory for neural networks,IamTimNguyen,False,0.96,52,https://www.reddit.com/r/deeplearning/comments/1048oc1/greg_yangs_work_on_a_rigorous_mathematical_theory/,3,1672949258.0,"Greg Yang is a mathematician and AI researcher at Microsoft Research who for the past several years has done incredibly original theoretical work in the understanding of large artificial neural networks. In our whiteboard conversation, we get a sample of Greg's work, which goes under the name ""Tensor Programs"" and currently spans five highly technical papers. The route chosen to compress Tensor Programs into the scope of a conversational video is to place its main concepts under the umbrella of one larger, central, and time-tested idea: that of taking a large N limit. This occurs most famously in the Law of Large Numbers and the Central Limit Theorem, which then play a fundamental role in the branch of mathematics known as Random Matrix Theory (RMT). We review this foundational material and then show how Tensor Programs (TP) generalizes this classical work, offering new proofs of RMT.
+
+We conclude with the applications of Tensor Programs to a (rare!) rigorous theory of neural networks. This includes applications to a rigorous proof for the existence of the Neural Network Gaussian Process and Neural Tangent Kernel for a general class of architectures, the existence of infinite-width feature learning limits, and the muP parameterization enabling hyperparameter transfer from smaller to larger networks.
+
+&#x200B;
+
+https://preview.redd.it/y79bih0f7aaa1.png?width=1280&format=png&auto=webp&s=7cf2bde3408e58f3d7dd6e15fbcd3dc103404147
+
+https://preview.redd.it/0hvembyf7aaa1.png?width=1200&format=png&auto=webp&s=9a9889d47630e6c12cd4d192750c63d2bff1e422
+
+Youtube: [https://youtu.be/1aXOXHA7Jcw](https://youtu.be/1aXOXHA7Jcw)
+
+Apple Podcasts: [https://podcasts.apple.com/us/podcast/the-cartesian-cafe/id1637353704](https://podcasts.apple.com/us/podcast/the-cartesian-cafe/id1637353704)
+
+Spotify: [https://open.spotify.com/show/1X5asAByNhNr996ZsGGICG](https://open.spotify.com/show/1X5asAByNhNr996ZsGGICG)
+
+RSS: [https://feed.podbean.com/cartesiancafe/feed.xml](https://feed.podbean.com/cartesiancafe/feed.xml)"
+39,129k24i,deeplearning,OpenAI,comments,2023-04-02 12:37:38,[N] Software 3.0 Blog Post Release 🔥,DragonLord9,False,0.75,10,https://www.reddit.com/r/deeplearning/comments/129k24i/n_software_30_blog_post_release/,3,1680439058.0,"Hi all, excited to share my blog post on [**Software 3.0**](https://open.substack.com/pub/divgarg/p/software-3?r=ccbhq&utm_campaign=post&utm_medium=web)
+
+https://preview.redd.it/9b4hjkkhugra1.png?width=1500&format=png&auto=webp&s=e341f3ab4c3c8abb206df8daa17428a297ff61e2
+
+The blog post offers an insightful read on the new GPT-powered programming paradigm where the new programming language is simply ""*English*"", as well as recent developments in AI.
+
+The post was originally written before GPT-4 release, and the predictions seem to have held surprisingly well. Knowledge cutoff date 28 Feb 2023.
+
+Please read and share!! Happy to answer any follow-ups here or on DM 😊
+
+Tweet: [https://twitter.com/DivGarg9/status/1642229948185280521?s=20](https://twitter.com/DivGarg9/status/1642229948185280521?s=20)
+
+Blog: [https://open.substack.com/pub/divgarg/p/software-3?r=ccbhq&utm\_campaign=post&utm\_medium=web](https://open.substack.com/pub/divgarg/p/software-3?r=ccbhq&utm_campaign=post&utm_medium=web)"
+40,10lb7k3,deeplearning,OpenAI,relevance,2023-01-25 22:06:47,OpenAi's breakthrough,bradasm,False,0.15,0,https://www.reddit.com/r/deeplearning/comments/10lb7k3/openais_breakthrough/,2,1674684407.0,[https://twitter.com/make\_mhe/status/1618255363580755968](https://twitter.com/make_mhe/status/1618255363580755968)
+41,10mhyek,deeplearning,OpenAI,relevance,2023-01-27 10:45:48,⭕ What People Are Missing About Microsoft’s $10B Investment In OpenAI,LesleyFair,False,0.95,117,https://www.reddit.com/r/deeplearning/comments/10mhyek/what_people_are_missing_about_microsofts_10b/,16,1674816348.0,"&#x200B;
+
+[Sam Altman Might Have Just Pulled Off The Coup Of The Decade](https://preview.redd.it/sg24cw3zekea1.png?width=720&format=png&auto=webp&s=9eeae99b5e025a74a6cbe3aac7a842d2fff989a1)
+
+Microsoft is investing $10B into OpenAI!
+
+There is lots of frustration in the community about OpenAI not being all that open anymore. They appear to abandon their ethos of developing AI for everyone, [free](https://openai.com/blog/introducing-openai/) of economic pressures.
+
+The fear is that OpenAI’s models are going to become fancy MS Office plugins. Gone would be the days of open research and innovation.
+
+However, the specifics of the deal tell a different story.
+
+To understand what is going on, we need to peek behind the curtain of the tough business of machine learning. We will find that Sam Altman might have just orchestrated the coup of the decade!
+
+To appreciate better why there is some three-dimensional chess going on, let’s first look at Sam Altman’s backstory.
+
+*Let’s go!*
+
+# A Stellar Rise
+
+Back in 2005, Sam Altman founded [Loopt](https://en.wikipedia.org/wiki/Loopt) and was part of the first-ever YC batch. He raised a total of $30M in funding, but the company failed to gain traction. Seven years into the business Loopt was basically dead in the water and had to be shut down.
+
+Instead of caving, he managed to sell his startup for $[43M](https://golden.com/wiki/Sam_Altman-J5GKK5) to the finTech company [Green Dot](https://www.greendot.com/). Investors got their money back and he personally made $5M from the sale.
+
+By YC standards, this was a pretty unimpressive outcome.
+
+However, people took note that the fire between his ears was burning hotter than that of most people. So hot in fact that Paul Graham included him in his 2009 [essay](http://www.paulgraham.com/5founders.html?viewfullsite=1) about the five founders who influenced him the most.
+
+He listed young Sam Altman next to Steve Jobs, Larry & Sergey from Google, and Paul Buchheit (creator of GMail and AdSense). He went on to describe him as a strategic mastermind whose sheer force of will was going to get him whatever he wanted.
+
+And Sam Altman played his hand well!
+
+He parleyed his new connections into raising $21M from Peter Thiel and others to start investing. Within four years he 10x-ed the money \[2\]. In addition, Paul Graham made him his successor as president of YC in 2014.
+
+Within one decade of selling his first startup for $5M, he grew his net worth to a mind-bending $250M and rose to the circle of the most influential people in Silicon Valley.
+
+Today, he is the CEO of OpenAI — one of the most exciting and impactful organizations in all of tech.
+
+However, OpenAI — the rocket ship of AI innovation — is in dire straights.
+
+# OpenAI is Bleeding Cash
+
+Back in 2015, OpenAI was kickstarted with $1B in donations from famous donors such as Elon Musk.
+
+That money is long gone.
+
+In 2022 OpenAI is projecting a revenue of $36M. At the same time, they spent roughly $544M. Hence the company has lost >$500M over the last year alone.
+
+This is probably not an outlier year. OpenAI is headquartered in San Francisco and has a stable of 375 employees of mostly machine learning rockstars. Hence, salaries alone probably come out to be roughly $200M p.a.
+
+In addition to high salaries their compute costs are stupendous. Considering it cost them $4.6M to train GPT3 once, it is likely that their cloud bill is in a very healthy nine-figure range as well \[4\].
+
+So, where does this leave them today?
+
+Before the Microsoft investment of $10B, OpenAI had received a total of $4B over its lifetime. With $4B in funding, a burn rate of $0.5B, and eight years of company history it doesn’t take a genius to figure out that they are running low on cash.
+
+It would be reasonable to think: OpenAI is sitting on ChatGPT and other great models. Can’t they just lease them and make a killing?
+
+Yes and no. OpenAI is projecting a revenue of $1B for 2024. However, it is unlikely that they could pull this off without significantly increasing their costs as well.
+
+*Here are some reasons why!*
+
+# The Tough Business Of Machine Learning
+
+Machine learning companies are distinct from regular software companies. On the outside they look and feel similar: people are creating products using code, but on the inside things can be very different.
+
+To start off, machine learning companies are usually way less profitable. Their gross margins land in the 50%-60% range, much lower than those of SaaS businesses, which can be as high as 80% \[7\].
+
+On the one hand, the massive compute requirements and thorny data management problems drive up costs.
+
+On the other hand, the work itself can sometimes resemble consulting more than it resembles software engineering. Everyone who has worked in the field knows that training models requires deep domain knowledge and loads of manual work on data.
+
+To illustrate the latter point, imagine the unspeakable complexity of performing content moderation on ChatGPT’s outputs. If OpenAI scales the usage of GPT in production, they will need large teams of moderators to filter and label hate speech, slurs, tutorials on killing people, you name it.
+
+*Alright, alright, alright! Machine learning is hard.*
+
+*OpenAI already has ChatGPT working. That’s gotta be worth something?*
+
+# Foundation Models Might Become Commodities:
+
+In order to monetize GPT or any of their other models, OpenAI can go two different routes.
+
+First, they could pick one or more verticals and sell directly to consumers. They could for example become the ultimate copywriting tool and blow [Jasper](https://app.convertkit.com/campaigns/10748016/jasper.ai) or [copy.ai](https://app.convertkit.com/campaigns/10748016/copy.ai) out of the water.
+
+This is not going to happen. Reasons for it include:
+
+1. To support their mission of building competitive foundational AI tools, and their huge(!) burn rate, they would need to capture one or more very large verticals.
+2. They fundamentally need to re-brand themselves and diverge from their original mission. This would likely scare most of the talent away.
+3. They would need to build out sales and marketing teams. Such a step would fundamentally change their culture and would inevitably dilute their focus on research.
+
+The second option OpenAI has is to keep doing what they are doing and monetize access to their models via API. Introducing a [pro version](https://www.searchenginejournal.com/openai-chatgpt-professional/476244/) of ChatGPT is a step in this direction.
+
+This approach has its own challenges. Models like GPT do have a defensible moat. They are just large transformer models trained on very large open-source datasets.
+
+As an example, last week Andrej Karpathy released a [video](https://www.youtube.com/watch?v=kCc8FmEb1nY) of him coding up a version of GPT in an afternoon. Nothing could stop e.g. Google, StabilityAI, or HuggingFace from open-sourcing their own GPT.
+
+As a result GPT inference would become a common good. This would melt OpenAI’s profits down to a tiny bit of nothing.
+
+In this scenario, they would also have a very hard time leveraging their branding to generate returns. Since companies that integrate with OpenAI’s API control the interface to the customer, they would likely end up capturing all of the value.
+
+An argument can be made that this is a general problem of foundation models. Their high fixed costs and lack of differentiation could end up making them akin to the [steel industry](https://www.thediff.co/archive/is-the-business-of-ai-more-like-steel-or-vba/).
+
+To sum it up:
+
+* They don’t have a way to sustainably monetize their models.
+* They do not want and probably should not build up internal sales and marketing teams to capture verticals
+* They need a lot of money to keep funding their research without getting bogged down by details of specific product development
+
+*So, what should they do?*
+
+# The Microsoft Deal
+
+OpenAI and Microsoft [announced](https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/) the extension of their partnership with a $10B investment, on Monday.
+
+At this point, Microsoft will have invested a total of $13B in OpenAI. Moreover, new VCs are in on the deal by buying up shares of employees that want to take some chips off the table.
+
+However, the astounding size is not the only extraordinary thing about this deal.
+
+First off, the ownership will be split across three groups. Microsoft will hold 49%, VCs another 49%, and the OpenAI foundation will control the remaining 2% of shares.
+
+If OpenAI starts making money, the profits are distributed differently across four stages:
+
+1. First, early investors (probably Khosla Ventures and Reid Hoffman’s foundation) get their money back with interest.
+2. After that Microsoft is entitled to 75% of profits until the $13B of funding is repaid
+3. When the initial funding is repaid, Microsoft and the remaining VCs each get 49% of profits. This continues until another $92B and $150B are paid out to Microsoft and the VCs, respectively.
+4. Once the aforementioned money is paid to investors, 100% of shares return to the foundation, which regains total control over the company. \[3\]
+
+# What This Means
+
+This is absolutely crazy!
+
+OpenAI managed to solve all of its problems at once. They raised a boatload of money and have access to all the compute they need.
+
+On top of that, they solved their distribution problem. They now have access to Microsoft’s sales teams and their models will be integrated into MS Office products.
+
+Microsoft also benefits heavily. They can play at the forefront AI, brush up their tools, and have OpenAI as an exclusive partner to further compete in a [bitter cloud war](https://www.projectpro.io/article/aws-vs-azure-who-is-the-big-winner-in-the-cloud-war/401) against AWS.
+
+The synergies do not stop there.
+
+OpenAI as well as GitHub (aubsidiary of Microsoft) e. g. will likely benefit heavily from the partnership as they continue to develop[ GitHub Copilot](https://github.com/features/copilot).
+
+The deal creates a beautiful win-win situation, but that is not even the best part.
+
+Sam Altman and his team at OpenAI essentially managed to place a giant hedge. If OpenAI does not manage to create anything meaningful or we enter a new AI winter, Microsoft will have paid for the party.
+
+However, if OpenAI creates something in the direction of AGI — whatever that looks like — the value of it will likely be huge.
+
+In that case, OpenAI will quickly repay the dept to Microsoft and the foundation will control 100% of whatever was created.
+
+*Wow!*
+
+Whether you agree with the path OpenAI has chosen or would have preferred them to stay donation-based, you have to give it to them.
+
+*This deal is an absolute power move!*
+
+I look forward to the future. Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+*Thank you for reading!*
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] [https://golden.com/wiki/Sam\_Altman-J5GKK5](https://golden.com/wiki/Sam_Altman-J5GKK5)​
+
+\[2\] [https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny](https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny)​
+
+\[3\] [Article in Fortune magazine ](https://fortune.com/2023/01/11/structure-openai-investment-microsoft/?verification_code=DOVCVS8LIFQZOB&_ptid=%7Bkpdx%7DAAAA13NXUgHygQoKY2ZRajJmTTN6ahIQbGQ2NWZsMnMyd3loeGtvehoMRVhGQlkxN1QzMFZDIiUxODA3cnJvMGMwLTAwMDAzMWVsMzhrZzIxc2M4YjB0bmZ0Zmc0KhhzaG93T2ZmZXJXRDFSRzY0WjdXRTkxMDkwAToMT1RVVzUzRkE5UlA2Qg1PVFZLVlpGUkVaTVlNUhJ2LYIA8DIzZW55eGJhajZsWiYyYTAxOmMyMzo2NDE4OjkxMDA6NjBiYjo1NWYyOmUyMTU6NjMyZmIDZG1jaOPAtZ4GcBl4DA)​
+
+\[4\] [https://arxiv.org/abs/2104.04473](https://arxiv.org/abs/2104.04473) Megatron NLG
+
+\[5\] [https://www.crunchbase.com/organization/openai/company\_financials](https://www.crunchbase.com/organization/openai/company_financials)​
+
+\[6\] Elon Musk donation [https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research](https://www.inverse.com/article/52701-openai-documents-elon-musk-donation-a-i-research)​
+
+\[7\] [https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/](https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software-2/)"
+42,11npswy,deeplearning,OpenAI,relevance,2023-03-10 13:52:36,OpenAI's Python API walk-through,Combination-Fun,False,0.67,1,https://www.reddit.com/r/deeplearning/comments/11npswy/openais_python_api_walkthrough/,0,1678456356.0,"If you are getting started with OpenAI's newest Python API, you don't have to spend too much time familiarising yourself with how to use it. Here is a video that walks through the different possiblities, API parameters and finally shares a demo app: [https://youtu.be/dcnfhtuL7qA](https://youtu.be/dcnfhtuL7qA) 
+
+Hope its useful. 
+
+https://preview.redd.it/z1aczihy2xma1.png?width=1920&format=png&auto=webp&s=d280af7e119ceac77bfdd9196add395037721b8f"
+43,12fpa1l,deeplearning,OpenAI,relevance,2023-04-08 15:25:44,[P] Blog post explaining CLIP by OpenAI,pmgautam_,False,0.57,1,/r/MachineLearning/comments/12fp9nq/p_blog_post_explaining_clip_by_openai/,0,1680967544.0,
+44,13ea348,deeplearning,OpenAI,relevance,2023-05-11 02:01:13,OpenAI & GPT Dictionary of Vocabulary. Generative AI Terms To Know In 2023,OnlyProggingForFun,False,0.86,5,https://youtu.be/q4G6X09NEu4,1,1683770473.0,
+45,13d13qo,deeplearning,OpenAI,relevance,2023-05-09 18:05:08,"Building with LLMs, ChatGPT, and Working at OpenAI With Logan Kilpatrick (Dev Rel @OpenAI) - What's AI episode 11",OnlyProggingForFun,False,0.5,0,https://youtu.be/zz4U3X3PD4s,0,1683655508.0,
+46,z90966,deeplearning,OpenAI,relevance,2022-11-30 19:14:16,OpenAI's new impressive Conversational LLM - ChatGPT,dulldata,False,1.0,1,https://www.youtube.com/watch?v=2VJZky25rIs,0,1669835656.0,
+47,11fwcxf,deeplearning,OpenAI,relevance,2023-03-02 07:25:30,Good news for builders! OpenAI Releases APIs To ChatGPT and Whisper,LesleyFair,False,0.65,5,https://www.reddit.com/r/deeplearning/comments/11fwcxf/good_news_for_builders_openai_releases_apis_to/,0,1677741930.0,"If you were as disappointed as I was when you saw that access to Meta's LLaMA models is limited to researchers, you are going to like this.  
+
+
+[APIs to ChatGPT and OpenAI's speech-to-text model whisper](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) are available as of yesterday. Through system-wide optimizations, they claim to have reduced inference costs by 90%. They now price ChatGPT at $0.002 per 1000 tokens. Dedicated instances are available for speedup and make economic sense if you process \~450M tokens a day.  
+
+
+Machine learning progress continues to be as fast as a banana peal skating on warm vaseline. 
+
+If you found this useful and want to stay in the loop, consider subscribing to The Decoding. I send out a weekly 5-minute newsletter that keeps professionals in the loop about machine learning and the data economy. [Click here to subscribe!](https://thedecoding.net/)"
+48,zgarkj,deeplearning,OpenAI,relevance,2022-12-08 20:36:26,Daath AI Parser is an open-source application that uses OpenAI to parse visible text of HTML elements.,softcrater,False,0.92,9,https://github.com/kagermanov27/daath-ai-parser,0,1670531786.0,
+49,11sdx6l,deeplearning,OpenAI,relevance,2023-03-16 00:03:09,OpenAI's GPT 4 is out and it's multimodal! What we know so far,gordicaleksa,False,0.38,0,https://www.youtube.com/watch?v=FY9Nlkoq4GI&t=2s&ab_channel=AleksaGordi%C4%87-TheAIEpiphany,1,1678924989.0,
+50,11hhzeg,deeplearning,OpenAI,relevance,2023-03-03 23:02:37,Meta new large lanugage model (similar to OpenAI one) called LLaMA is leaked via torrent,aipaintr,False,1.0,10,https://github.com/facebookresearch/llama/pull/73/files,2,1677884557.0,
+51,zxd7yd,deeplearning,OpenAI,relevance,2022-12-28 16:01:41,Andrew Huberman transcripts app - high-quality transcription using OpenAI's largest Whisper model (see comment),gordicaleksa,False,0.88,6,https://www.hubermantranscripts.com/,2,1672243301.0,

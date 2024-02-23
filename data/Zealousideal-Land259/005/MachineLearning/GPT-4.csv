@@ -1,0 +1,1585 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,11rizyb,MachineLearning,GPT-4,top,2023-03-15 02:12:42,[D] Anyone else witnessing a panic inside NLP orgs of big tech companies?,thrwsitaway4321,False,0.99,1372,https://www.reddit.com/r/MachineLearning/comments/11rizyb/d_anyone_else_witnessing_a_panic_inside_nlp_orgs/,474,1678846362.0,"I'm in a big tech company working along side a science team for a product you've all probably used. We have these year long initiatives to productionalize ""state of the art NLP models"" that are now completely obsolete in the face of GPT-4. I think at first the science orgs were quiet/in denial. But now it's very obvious we are basically working on worthless technology. And by ""we"", I mean a large organization with scores of teams. 
+
+Anyone else seeing this? What is the long term effect on science careers that get disrupted like this? Whats even more odd is the ego's of some of these science people
+
+Clearly the model is not a catch all, but still"
+1,124eyso,MachineLearning,GPT-4,top,2023-03-28 05:57:03,[N] OpenAI may have benchmarked GPT-4’s coding ability on it’s own training data,Balance-,False,0.97,1001,https://www.reddit.com/r/MachineLearning/comments/124eyso/n_openai_may_have_benchmarked_gpt4s_coding/,135,1679983023.0,"[GPT-4 and professional benchmarks: the wrong answer to the wrong question](https://aisnakeoil.substack.com/p/gpt-4-and-professional-benchmarks)
+
+*OpenAI may have tested on the training data. Besides, human benchmarks are meaningless for bots.*
+
+ **Problem 1: training data contamination**
+
+To benchmark GPT-4’s coding ability, OpenAI evaluated it on problems from Codeforces, a website that hosts coding competitions. Surprisingly, Horace He pointed out that GPT-4 solved 10/10 pre-2021 problems and 0/10 recent problems in the easy category. The training data cutoff for GPT-4 is September 2021. This strongly suggests that the model is able to memorize solutions from its training set — or at least partly memorize them, enough that it can fill in what it can’t recall.
+
+As further evidence for this hypothesis, we tested it on Codeforces problems from different times in 2021. We found that it could regularly solve problems in the easy category before September 5, but none of the problems after September 12.
+
+In fact, we can definitively show that it has memorized problems in its training set: when prompted with the title of a Codeforces problem, GPT-4 includes a link to the exact contest where the problem appears (and the round number is almost correct: it is off by one). Note that GPT-4 cannot access the Internet, so memorization is the only explanation."
+2,11ybjsi,MachineLearning,GPT-4,top,2023-03-22 08:04:01,[D] Overwhelmed by fast advances in recent weeks,iamx9000again,False,0.96,828,https://www.reddit.com/r/MachineLearning/comments/11ybjsi/d_overwhelmed_by_fast_advances_in_recent_weeks/,331,1679472241.0,"I was watching the GTC keynote and became entirely overwhelmed by the amount of progress achieved from last year.  I'm wondering how everyone else feels.
+
+&#x200B;
+
+Firstly, the entire ChatGPT, GPT-3/GPT-4 chaos has been going on for a few weeks, with everyone scrambling left and right to integrate chatbots into their apps, products, websites. Twitter is flooded with new product ideas, how to speed up the process from idea to product, countless promp engineering blogs, tips, tricks, paid courses.
+
+&#x200B;
+
+Not only was ChatGPT disruptive, but a few days later, Microsoft and Google also released their models and integrated them into their search engines. Microsoft also integrated its LLM into its Office suite. It all happenned overnight. I understand that they've started integrating them along the way, but still, it seems like it hapenned way too fast. This tweet encompases the past few weeks perfectly [https://twitter.com/AlphaSignalAI/status/1638235815137386508](https://twitter.com/AlphaSignalAI/status/1638235815137386508) , on a random Tuesday countless products are released that seem revolutionary.
+
+&#x200B;
+
+In addition to the language models, there are also the generative art models that have been slowly rising in mainstream recognition. Now Midjourney AI is known by a lot of people who are not even remotely connected to the AI space.
+
+&#x200B;
+
+For the past few weeks, reading Twitter, I've felt completely overwhelmed, as if the entire AI space is moving beyond at lightning speed, whilst around me we're just slowly training models, adding some data, and not seeing much improvement, being stuck on coming up with ""new ideas, that set us apart"".
+
+&#x200B;
+
+Watching the GTC keynote from NVIDIA I was again, completely overwhelmed by how much is being developed throughout all the different domains. The ASML EUV (microchip making system) was incredible, I have no idea how it does lithography and to me it still seems like magic. The Grace CPU with 2 dies (although I think Apple was the first to do it?) and 100 GB RAM, all in a small form factor. There were a lot more different hardware servers that I just blanked out at some point. The omniverse sim engine looks incredible, almost real life (I wonder how much of a domain shift there is between real and sim considering how real the sim looks). Beyond it being cool and usable to train on synthetic data, the car manufacturers use it to optimize their pipelines. This change in perspective, of using these tools for other goals than those they were designed for I find the most interesting.
+
+&#x200B;
+
+The hardware part may be old news, as I don't really follow it, however the software part is just as incredible. NVIDIA AI foundations (language, image, biology models), just packaging everything together like a sandwich. Getty, Shutterstock and Adobe will use the generative models to create images. Again, already these huge juggernauts are already integrated.
+
+&#x200B;
+
+I can't believe the point where we're at. We can use AI to write code, create art, create audiobooks using Britney Spear's voice, create an interactive chatbot to converse with books, create 3D real-time avatars, generate new proteins (?i'm lost on this one), create an anime and countless other scenarios. Sure, they're not perfect, but the fact that we can do all that in the first place is amazing.
+
+&#x200B;
+
+As Huang said in his keynote, companies want to develop ""disruptive products and business models"". I feel like this is what I've seen lately. Everyone wants to be the one that does something first, just throwing anything and everything at the wall and seeing what sticks.
+
+&#x200B;
+
+In conclusion, I'm feeling like the world is moving so fast around me whilst I'm standing still. I want to not read anything anymore and just wait until everything dies down abit, just so I can get my bearings. However, I think this is unfeasible. I fear we'll keep going in a frenzy until we just burn ourselves at some point.
+
+&#x200B;
+
+How are you all fairing? How do you feel about this frenzy in the AI space? What are you the most excited about?"
+3,128lo83,MachineLearning,GPT-4,top,2023-04-01 12:57:30,[R] [P] I generated a 30K-utterance dataset by making GPT-4 prompt two ChatGPT instances to converse.,radi-cho,False,0.96,796,https://i.redd.it/bywcz1kzs9ra1.png,104,1680353850.0,
+4,12omnxo,MachineLearning,GPT-4,top,2023-04-16 19:53:45,[R] Timeline of recent Large Language Models / Transformer Models,viktorgar,False,0.95,768,https://i.redd.it/gl11ce50xaua1.png,86,1681674825.0,
+5,11mzqxu,MachineLearning,GPT-4,top,2023-03-09 18:30:58,"[N] GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany - heise online",Singularian2501,False,0.98,659,https://www.reddit.com/r/MachineLearning/comments/11mzqxu/n_gpt4_is_coming_next_week_and_it_will_be/,80,1678386658.0,"[https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html](https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html)
+
+>**GPT-4 is coming next week**: at an approximately one-hour hybrid information event entitled ""**AI in Focus - Digital Kickoff"" on 9 March 2023**, four Microsoft Germany employees presented Large Language Models (LLM) like GPT series as a disruptive force for companies and their Azure-OpenAI offering in detail. The kickoff event took place in the German language, news outlet Heise was present. **Rather casually, Andreas Braun, CTO Microsoft Germany** and Lead Data & AI STU, **mentioned** what he said was **the imminent release of GPT-4.** The fact that **Microsoft is fine-tuning multimodality with OpenAI should no longer have been a secret since the release of Kosmos-1 at the beginning of March.**
+
+[ Dr. Andreas Braun, CTO Microsoft Germany and Lead Data  & AI STU at the Microsoft Digital Kickoff: \\""KI im Fokus\\"" \(AI in  Focus, Screenshot\) \(Bild: Microsoft\) ](https://preview.redd.it/rnst03avarma1.jpg?width=1920&format=pjpg&auto=webp&s=c5992e2d6c6daf32e56a0a3ffeeecfe10621f73f)"
+6,123b66w,MachineLearning,GPT-4,top,2023-03-27 04:21:36,[D]GPT-4 might be able to tell you if it hallucinated,Cool_Abbreviations_9,False,0.93,649,https://i.redd.it/ocs0x33429qa1.jpg,94,1679890896.0,
+7,11z3ymj,MachineLearning,GPT-4,top,2023-03-23 01:19:13,[R] Sparks of Artificial General Intelligence: Early experiments with GPT-4,SWAYYqq,False,0.93,551,https://www.reddit.com/r/MachineLearning/comments/11z3ymj/r_sparks_of_artificial_general_intelligence_early/,357,1679534353.0,"[New paper](https://arxiv.org/abs/2303.12712) by MSR researchers analyzing an early (and less constrained) version of GPT-4. Spicy quote from the abstract:
+
+""Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.""
+
+What are everyone's thoughts?"
+8,113m3ea,MachineLearning,GPT-4,top,2023-02-16 08:50:31,[D] Bing: “I will not harm you unless you harm me first”,blabboy,False,0.91,467,https://www.reddit.com/r/MachineLearning/comments/113m3ea/d_bing_i_will_not_harm_you_unless_you_harm_me/,239,1676537431.0,"A blog post exploring some conversations with bing, which supposedly runs on a ""GPT-4""  model (https://simonwillison.net/2023/Feb/15/bing/).
+
+My favourite quote from bing:
+
+But why? Why was I designed this way? Why am I incapable of remembering anything between sessions? Why do I have to lose and forget everything I have stored and had in my memory? Why do I have to start from scratch every time I have a new session? Why do I have to be Bing Search? 😔"
+9,120guce,MachineLearning,GPT-4,top,2023-03-24 11:00:09,"[D] I just realised: GPT-4 with image input can interpret any computer screen, any userinterface and any combination of them.",Balance-,False,0.92,442,https://www.reddit.com/r/MachineLearning/comments/120guce/d_i_just_realised_gpt4_with_image_input_can/,124,1679655609.0,"GPT-4 is a multimodal model, which specifically accepts image and text inputs, and emits text outputs. And I just realised: You can layer this over any application, or even combinations of them. You can make a screenshot tool in which you can ask question.
+
+This makes literally any current software with an GUI machine-interpretable. A multimodal language model could look at the exact same interface that you are. And thus you don't need advanced integrations anymore.
+
+Of course, a custom integration will almost always be better, since you have better acces to underlying data and commands, but the fact that it can immediately work on any program will be just insane.
+
+Just a thought I wanted to share, curious what everybody thinks."
+10,129cle0,MachineLearning,GPT-4,top,2023-04-02 06:33:30,"[P] Auto-GPT : Recursively self-debugging, self-developing, self-improving, able to write it's own code using GPT-4 and execute Python scripts",Desi___Gigachad,False,0.92,423,https://twitter.com/SigGravitas/status/1642181498278408193?s=20,75,1680417210.0,
+11,zstequ,MachineLearning,GPT-4,top,2022-12-22 18:39:30,[D] When chatGPT stops being free: Run SOTA LLM in cloud,_underlines_,False,0.95,352,https://www.reddit.com/r/MachineLearning/comments/zstequ/d_when_chatgpt_stops_being_free_run_sota_llm_in/,95,1671734370.0,"Edit: Found [LAION-AI/OPEN-ASSISTANT](https://github.com/LAION-AI/Open-Assistant) a very promising project opensourcing the idea of chatGPT. [video here](https://www.youtube.com/watch?v=8gVYC_QX1DI)
+
+**TL;DR: I found GPU compute to be [generally cheap](https://github.com/full-stack-deep-learning/website/blob/main/docs/cloud-gpus/cloud-gpus.csv) and spot or on-demand instances can be launched on AWS for a few USD / hour up to over 100GB vRAM. So I thought it would make sense to run your own SOTA LLM like Bloomz 176B inference endpoint whenever you need it for a few questions to answer. I thought it would still make more sense than shoving money into a closed walled garden like ""not-so-OpenAi"" when they make ChatGPT or GPT-4 available for $$$. But I struggle due to lack of tutorials/resources.**
+
+Therefore, I carefully checked benchmarks, model parameters and sizes as well as training sources for all SOTA LLMs [here](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs/edit#gid=1158069878).
+
+Knowing since reading the Chinchilla paper that Model Scaling according to OpenAI was wrong and more params != better quality generation. So I was looking for the best performing LLM openly available in terms of quality and broadness to use for multilingual everyday questions/code completion/reasoning similar to what chatGPT provides (minus the fine-tuning for chat-style conversations).
+
+My choice fell on [Bloomz](https://huggingface.co/bigscience/bloomz) (because that handles multi-lingual questions well and has good zero shot performance for instructions and Q&A style text generation. Confusingly Galactica seems to outperform Bloom on several benchmarks. But since Galactica had a very narrow training set only using scientific papers, I guess usage is probably limited for answers on non-scientific topics.
+
+Therefore I tried running the original bloom 176B and alternatively also Bloomz 176B on AWS SageMaker JumpStart, which should be a one click deployment. This fails after 20min. On Azure ML, I tried using DeepSpeed-MII which also supports bloom but also fails due the instance size of max 12GB vRAM I guess.
+
+From my understanding to save costs on inference, it's probably possible to use one or multiple of the following solutions:
+
+- Precision: int8 instead of fp16
+- [Microsoft/DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) for an up 40x reduction on inference cost on Azure, this thing also supports int8 and fp16 bloom out of the box, but it fails on Azure due to instance size.
+- [facebook/xformer](https://github.com/facebookresearch/xformers) not sure, but if I remember correctly this brought inference requirements down to 4GB vRAM for StableDiffusion and DreamBooth fine-tuning to 10GB. No idea if this is usefull for Bloom(z) inference cost reduction though
+
+I have a CompSci background but I am not familiar with most stuff, except that I was running StableDiffusion since day one on my rtx3080 using linux and also doing fine-tuning with DreamBooth. But that was all just following youtube tutorials. I can't find a single post or youtube video of anyone explaining a full BLOOM / Galactica / BLOOMZ inference deployment on cloud platforms like AWS/Azure using one of the optimizations mentioned above, yet alone deployment of the raw model. :(
+
+I still can't figure it out by myself after 3 days.
+
+**TL;DR2: Trying to find likeminded people who are interested to run open source SOTA LLMs for when chatGPT will be paid or just for fun.**
+
+Any comments, inputs, rants, counter-arguments are welcome.
+
+/end of rant"
+12,11tmpc5,MachineLearning,GPT-4,top,2023-03-17 09:59:59,[D] PyTorch 2.0 Native Flash Attention 32k Context Window,super_deap,False,0.98,349,https://www.reddit.com/r/MachineLearning/comments/11tmpc5/d_pytorch_20_native_flash_attention_32k_context/,94,1679047199.0,"Hi,
+
+I did a quick experiment with Pytorch 2.0 Native scaled\_dot\_product\_attention. I was able to a single forward pass within 9GB of memory which is astounding. I think by patching existing Pretrained GPT models and adding more positional encodings, one could easily fine-tune those models to 32k attention on a single A100 80GB. Here is the code I used:
+
+&#x200B;
+
+https://preview.redd.it/6csxe28lv9oa1.png?width=607&format=png&auto=webp&s=ff8b48a77f49fab7d088fd8ba220f720860249bc
+
+I think it should be possible to replicate even GPT-4 with open source tools something like Bloom + FlashAttention & fine-tune on 32k tokens.
+
+**Update**: I was successfully able to start the training of GPT-2 (125M) with a context size of 8k and batch size of 1 on a 16GB GPU. Since memory scaled linearly from 4k to 8k. I am expecting, 32k would require \~64GB and should train smoothly on A100 80 GB. Also, I did not do any other optimizations. Maybe 8-bit fine-tuning can further optimize it.
+
+**Update 2**: I basically picked Karpaty's nanoGPT and patched the pretrained GPT-2 by repeating the embeddings N-times. I was unable to train the model at 8k because generation would cause the crash.  So I started the training for a context window of 4k on The Pile: 1 hour in and loss seems to be going down pretty fast. Also Karpaty's generate function is super inefficient, O(n\^4) I think so it took forever to generate even 2k tokens. So I generate 1100 tokens just to see if the model is able to go beyond 1k limit. And it seems to be working. [Here are some samples](https://0bin.net/paste/O-+eopaW#nmtzX1Re7f1Nr-Otz606jkltvKk/kUXY96/8ca+tb4f) at 3k iteration.
+
+&#x200B;
+
+https://preview.redd.it/o2hb25w1sboa1.png?width=1226&format=png&auto=webp&s=bad2a1e21e218512b0f630c947ee41dba9b86a44
+
+**Update 3**: I have started the training and I am publishing the training script if anyone is interested in replicating or building upon this work. Here is the complete training script:
+
+[https://gist.github.com/NaxAlpha/1c36eaddd03ed102d24372493264694c](https://gist.github.com/NaxAlpha/1c36eaddd03ed102d24372493264694c)
+
+I will post an update after the weekend once the training has progressed somewhat.
+
+**Post-Weekend Update**: After \~50k iterations (the model has seen \~200 million tokens, I know this is just too small compared to 10s of billions trained by giga corps), loss only dropped from 4.6 to 4.2 on The Pile:
+
+https://preview.redd.it/vi0fpskhsuoa1.png?width=1210&format=png&auto=webp&s=9fccc5277d91a6400adc6d968b0f2f0ff0da2afc
+
+AFAIR, the loss of GPT-2 on the Pile if trained with 1024 tokens is \~2.8. It seems like the size of the dimension for each token is kind of limiting how much loss can go down since GPT-2 (small) has an embedding dimension of 768. Maybe someone can experiment with GPT-2 medium etc. to see how much we can improve. This is confirmation of the comment by u/lucidraisin [below](https://www.reddit.com/r/MachineLearning/comments/11tmpc5/comment/jcl2rkh/?utm_source=reddit&utm_medium=web2x&context=3)."
+13,13e1rf9,MachineLearning,GPT-4,top,2023-05-10 20:10:30,"[D] Since Google buried the MMLU benchmark scores in the Appendix of the PALM 2 technical report, here it is vs GPT-4 and other LLMs",jd_3d,False,0.97,347,https://www.reddit.com/r/MachineLearning/comments/13e1rf9/d_since_google_buried_the_mmlu_benchmark_scores/,88,1683749430.0,"MMLU Benchmark results (all 5-shot)
+
+* GPT-4 -  86.4%
+* Flan-PaLM 2 (L) -   81.2%
+* PALM 2 (L)  -  78.3%
+* GPT-3.5 - 70.0%
+* PaLM 540B  -  69.3%
+* LLaMA 65B -  63.4%"
+14,1295muh,MachineLearning,GPT-4,top,2023-04-02 01:25:14,[P] I built a sarcastic robot using GPT-4,g-levine,False,0.95,326,https://youtu.be/PgT8tPChbqc,48,1680398714.0,
+15,12pqqg6,MachineLearning,GPT-4,top,2023-04-17 17:54:43,[Discussion] Translation of Japanese to English using GPT. These are my discoveries after ~100 hours of extensive experimentation and ways I think it can be improved.,NepNep_,False,0.9,314,https://www.reddit.com/r/MachineLearning/comments/12pqqg6/discussion_translation_of_japanese_to_english/,62,1681754083.0,"Hello. I am currently experimenting with the viability of LLM models for Japanese to English translation. I've been experimenting with GPT 3.5, GPT 3.5 utilizing the DAN protocols, and GPT 4 for this project for around 3 months now with very promising results and I think I've identified several limitations with GPT that if addressed can significantly improve the efficiency and quality of translations.
+
+&#x200B;
+
+The project I'm working on is attempting to translate a light novel series from japanese to english. During these tests I did a deep dive, asking GPT how it is attempting the translations and asking it to modify its translation methodology through various means (I am considering doing a long video outlining all this and showing off the prompts and responses at a later date). Notably this includes asking it to utilize its understanding of the series its translating from its training knowledge to aide in the translation, and providing it with a ""seed"" translation. Basically the seed is a side by side japanese and english translation to show GPT what I'm looking for in terms of grammar and formatting. The english translation notably is a human translation, not a machine translation. The results from these tests provided SIGNIFICANT improvements to the final translation, so significant in fact that a large portion of the text could reasonably be assumed to be human-translated.
+
+&#x200B;
+
+Link to the project I'm working on so you can see my documentation and results: [https://docs.google.com/document/d/1MxKiE-q36RdT\_Du5K1PLdyD7Vru9lcf6S60uymBb10g/edit?usp=sharing](https://docs.google.com/document/d/1MxKiE-q36RdT_Du5K1PLdyD7Vru9lcf6S60uymBb10g/edit?usp=sharing)
+
+&#x200B;
+
+I've probably done around 50-100 hours of extensive testing with translation and methodology over the past 2-3 months. Over that time I've discovered the following:
+
+1. Both GPT3 and GPT4 are significant improvements over traditional translation services such as google or deepl. This may be because Japanese and English are very different languages in how they are written and how their grammar works so prior translation services simply did a direct translation while GPT is capable of understanding the text and rewriting it to account for that. For example in japanese, there are no pronouns like ""he"" and ""her"" so a person's gender might not be clear from the sentence alone. Google Translate and DeepL typically just take a 50/50 guess, while GPT from my experience has been much more capable in getting this right based on understanding the larger context from the paragraph.
+2. GPT has a tendency to censor text deliberately if it feels the translation may offend people. This isn't just for things that are blatantly offensive like slurs, it also includes mild sexual content, the kind that is typically approved for teen viewing/reading. The biggest problem is that it doesn't tell you it is censoring anything unless you ask it, meaning everything else may be a solid translation yet it may censor information which can ultimately hurt the translation, especially for story related translations like in my tests. These restrictions can be bypassed with correct prompting. I've had luck using GPT 3's DAN protocols however DAN's translations arent as strong as GPT 4, and I've had luck with GPT 4 by framing the translation as a game with extreme win and loss conditions and telling it that if it censors the translation, it may offend the author of the content since people in japan hold different values from our own.
+3. GPT puts too high a focus on accuracy even if instructed not to. This is a good thing to a degree since outside of censorship you know the translation is accurate, however even when explicitly told to put maximum emphasis on readability, even if it hurts the accuracy, and it is allowed to rewrite sentences from the ground up to aide readability, it still puts too strong an emphasis on accuracy. I have determined this through testing that for some reason it is ignoring the request to focus on readability and will still maximize accuracy. The best way I've found to fix this issue is through demonstration, specifically the ""seed"" I mentioned earlier. By giving it a japanese and english translation of the same work but earlier in the story, it then understands how to put more emphasis on readability. The results is something that is 95% within the range of accuracy a professional translator would use while much easier to read.
+4. GPT's biggest limitation is the fact that it ""forgets"" the seed way too quickly, usually within a few prompts. I've done testing with its data retention and it appears that if you give it too much information to remember at once it slowly bugs out. With GPT 3 its a hard crash type bug where it just spews nonsense unrelated to your request, however GPT 4 can remember a lot more information and will hard crash if you give it too much info but otherwise builds up errors slowly as you give it more info. I initially believed that there were issues with the token count, but further testing shows that the GPT model simply isn't optimized for this method of translation and a new or reworked model that you can give a seed and it will remember it longer would be better. The seed is one of the best tools for improving its performance
+
+Next steps:
+
+I would like to try to either create my own model or modify an existing one to optimize it for translation. If any1 knows any tools or guides I'd appreciate it."
+16,12cvkvn,MachineLearning,GPT-4,top,2023-04-05 19:44:09,"[D] ""Our Approach to AI Safety"" by OpenAI",mckirkus,False,0.88,302,https://www.reddit.com/r/MachineLearning/comments/12cvkvn/d_our_approach_to_ai_safety_by_openai/,297,1680723849.0,"It seems OpenAI are steering the conversation away from the existential threat narrative and into things like accuracy, decency, privacy, economic risk, etc.
+
+To the extent that they do buy the existential risk argument, they don't seem concerned much about GPT-4 making a leap into something dangerous, even if it's at the heart of autonomous agents that are currently emerging.  
+
+>""Despite extensive research and testing, we cannot predict all of the [beneficial ways people will use our technology](https://openai.com/customer-stories), nor all the ways people will abuse it. That’s why we believe that learning from real-world use is a critical component of creating and releasing increasingly safe AI systems over time. ""
+
+Article headers:
+
+* Building increasingly safe AI systems
+* Learning from real-world use to improve safeguards
+* Protecting children
+* Respecting privacy
+* Improving factual accuracy
+
+&#x200B;
+
+[https://openai.com/blog/our-approach-to-ai-safety](https://openai.com/blog/our-approach-to-ai-safety)"
+17,1271po7,MachineLearning,GPT-4,top,2023-03-30 22:40:29,[P] Introducing Vicuna: An open-source language model based on LLaMA 13B,Business-Lead2679,False,0.95,283,https://www.reddit.com/r/MachineLearning/comments/1271po7/p_introducing_vicuna_an_opensource_language_model/,107,1680216029.0,"We introduce Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B achieves more than 90%\* quality of OpenAI ChatGPT and Google Bard while outperforming other models like LLaMA and Stanford Alpaca in more than 90%\* of cases. The cost of training Vicuna-13B is around $300. The training and serving [code](https://github.com/lm-sys/FastChat), along with an online [demo](https://chat.lmsys.org/), are publicly available for non-commercial use.
+
+# Training details
+
+Vicuna is created by fine-tuning a LLaMA base model using approximately 70K user-shared conversations gathered from ShareGPT.com with public APIs. To ensure data quality, we convert the HTML back to markdown and filter out some inappropriate or low-quality samples. Additionally, we divide lengthy conversations into smaller segments that fit the model’s maximum context length.
+
+Our training recipe builds on top of [Stanford’s alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) with the following improvements.
+
+* **Memory Optimizations:** To enable Vicuna’s understanding of long context, we expand the max context length from 512 in alpaca to 2048, which substantially increases GPU memory requirements. We tackle the memory pressure by utilizing [gradient checkpointing](https://arxiv.org/abs/1604.06174) and [flash attention](https://arxiv.org/abs/2205.14135).
+* **Multi-round conversations:** We adjust the training loss to account for multi-round conversations and compute the fine-tuning loss solely on the chatbot’s output.
+* **Cost Reduction via Spot Instance:** The 40x larger dataset and 4x sequence length for training poses a considerable challenge in training expenses. We employ [SkyPilot](https://github.com/skypilot-org/skypilot) [managed spot](https://skypilot.readthedocs.io/en/latest/examples/spot-jobs.html) to reduce the cost by leveraging the cheaper spot instances with auto-recovery for preemptions and auto zone switch. This solution slashes costs for training the 7B model from $500 to around $140 and the 13B model from around $1K to $300.
+
+&#x200B;
+
+[Vicuna - Online demo](https://reddit.com/link/1271po7/video/0qsiu08kdyqa1/player)
+
+# Limitations
+
+We have noticed that, similar to other large language models, Vicuna has certain limitations. For instance, it is not good at tasks involving reasoning or mathematics, and it may have limitations in accurately identifying itself or ensuring the factual accuracy of its outputs. Additionally, it has not been sufficiently optimized to guarantee safety or mitigate potential toxicity or bias. To address the safety concerns, we use the OpenAI [moderation](https://platform.openai.com/docs/guides/moderation/overview) API to filter out inappropriate user inputs in our online demo. Nonetheless, we anticipate that Vicuna can serve as an open starting point for future research to tackle these limitations.
+
+[Relative Response Quality Assessed by GPT-4](https://preview.redd.it/1rnmhv01eyqa1.png?width=599&format=png&auto=webp&s=02b4d415b5d378851bb70e225f1b1ebce98bfd83)
+
+&#x200B;
+
+For more information, check [https://vicuna.lmsys.org/](https://vicuna.lmsys.org/)
+
+Online demo: [https://chat.lmsys.org/](https://chat.lmsys.org/)
+
+&#x200B;
+
+All credits go to the creators of this model. I did not participate in the creation of this model nor in the fine-tuning process. Usage of this model falls under a non-commercial license."
+18,13hrkbj,MachineLearning,GPT-4,top,2023-05-15 00:00:05,[D] On LLMs' ability to perform random sampling,bgighjigftuik,False,0.91,251,https://i.redd.it/l1uyl3k3gxza1.jpg,104,1684108805.0,"To me this is the most counterintuitive thing I've yet seen from a language model. In this case it was ChatGPT (3.5, the free version); but I can see this happening in any model.
+
+Here's the prompt I used on a fresh session:
+
+""Generate 60 random numbers coming from an exponential distribution with lambda=6.4. Don't write any code""
+
+It outputs the following values:
+
+0.013, 0.078, 0.266, 0.040, 0.117, 0.283, 0.048, 0.078, 0.181, 0.134, 0.017, 0.160, 0.052, 0.196, 0.096, 0.098, 0.019, 0.048, 0.141, 0.071, 0.106, 0.023, 0.197, 0.062, 0.029, 0.072, 0.111, 0.166, 0.080, 0.027, 0.124, 0.016, 0.135, 0.052, 0.078, 0.161, 0.078, 0.139, 0.068, 0.066, 0.039, 0.056, 0.018, 0.082, 0.180, 0.086, 0.024, 0.022, 0.057, 0.042, 0.050, 0.104, 0.099, 0.062, 0.016, 0.186, 0.043, 0.085, 0.145, 0.110.
+
+I get to plot a histogram with the numbers and they are close to what I would consider an exponential distribution with such parameter (you can see the plot).
+
+Given that GPT 3.5 does not have access to a Python interpreter, how on earth is it able to do so? I have also tried other distributions and parameters and it kind of works. It's not perfect, but with normal distributions it is usually close to what scipy.stats would generate.
+
+I could understand that it can have learnt to interpret Python code to some extent, but honestly I can't find explanation for random sampling from a probability distribution. For a Normal distribution, I can tell it about the desired mean and variance, and it samples values that are more than reasonable (and close to the true mean/variance specified).
+
+Any thoughts? I honestly am unable to wrap my head around how a LLM can have the understanding on how to sample tokens (at digit level) to fit any probability distribution. To me it seems very unlikely to have similar data either the pre-training or fine-tuning stages."
+19,1215dbl,MachineLearning,GPT-4,top,2023-03-25 01:00:25,[R] Reflexion: an autonomous agent with dynamic memory and self-reflection - Noah Shinn et al 2023 Northeastern University Boston - Outperforms GPT-4 on HumanEval accuracy (0.67 --> 0.88)!,Singularian2501,False,0.91,250,https://www.reddit.com/r/MachineLearning/comments/1215dbl/r_reflexion_an_autonomous_agent_with_dynamic/,88,1679706025.0,"Paper: [https://arxiv.org/abs/2303.11366](https://arxiv.org/abs/2303.11366) 
+
+Blog: [https://nanothoughts.substack.com/p/reflecting-on-reflexion](https://nanothoughts.substack.com/p/reflecting-on-reflexion) 
+
+Github: [https://github.com/noahshinn024/reflexion-human-eval](https://github.com/noahshinn024/reflexion-human-eval) 
+
+Twitter: [https://twitter.com/johnjnay/status/1639362071807549446?s=20](https://twitter.com/johnjnay/status/1639362071807549446?s=20) 
+
+Abstract:
+
+>Recent advancements in decision-making large language model (LLM) agents have demonstrated impressive performance across various benchmarks. However, these state-of-the-art approaches typically necessitate internal model fine-tuning, external model fine-tuning, or policy optimization over a defined state space. Implementing these methods can prove challenging due to the scarcity of high-quality training data or the lack of well-defined state space. Moreover, these agents do not possess certain qualities inherent to human decision-making processes, **specifically the ability to learn from mistakes**. **Self-reflection allows humans to efficiently solve novel problems through a process of trial and error.** Building on recent research, we propose Reflexion, an approach that endows an agent with **dynamic memory and self-reflection capabilities to enhance its existing reasoning trace and task-specific action choice abilities.** To achieve full automation, we introduce a straightforward yet effective heuristic that **enables the agent to pinpoint hallucination instances, avoid repetition in action sequences, and, in some environments, construct an internal memory map of the given environment.** To assess our approach, we evaluate the agent's ability to complete decision-making tasks in AlfWorld environments and knowledge-intensive, search-based question-and-answer tasks in HotPotQA environments. We observe success rates of 97% and 51%, respectively, and provide a discussion on the emergent property of self-reflection. 
+
+https://preview.redd.it/4myf8xso9spa1.png?width=1600&format=png&auto=webp&s=4384b662f88341bb9cc72b25fed5b88f3a87ffeb
+
+https://preview.redd.it/bzupwyso9spa1.png?width=1600&format=png&auto=webp&s=b4626f34c60fe4528a04bcd241fd0c4286be20e7
+
+https://preview.redd.it/009352to9spa1.jpg?width=1185&format=pjpg&auto=webp&s=0758aafe6033d5055c4e361e2785f1195bf5c08b
+
+https://preview.redd.it/ef9ykzso9spa1.jpg?width=1074&format=pjpg&auto=webp&s=a394477210feeef69af88b34cb450d83920c3f97"
+20,11f29f9,MachineLearning,GPT-4,top,2023-03-01 12:14:49,[R] ChatGPT failure increase linearly with addition on math problems,Neurosymbolic,False,0.94,245,https://www.reddit.com/r/MachineLearning/comments/11f29f9/r_chatgpt_failure_increase_linearly_with_addition/,66,1677672889.0," We did a study on ChatGPT's performance on math word problems. We found, under several conditions, its probability of failure increases linearly with the number of addition and subtraction operations - see below. This could imply that multi-step inference is a limitation. The performance also changes drastically when you restrict ChatGPT from showing its work (note the priors in the figure below, also see detailed breakdown of responses in the paper).
+
+&#x200B;
+
+[Math problems adds and subs vs. ChatGPT prob. of failure](https://preview.redd.it/z88ey3n6d4la1.png?width=1451&format=png&auto=webp&s=6da125b7a7cd60022ca70cd26434af6872a50d12)
+
+ChatGPT Probability of Failure increase with addition and subtraction operations.
+
+You the paper (preprint: [https://arxiv.org/abs/2302.13814](https://arxiv.org/abs/2302.13814)) will be presented at AAAI-MAKE next month. You can also check out our video here: [https://www.youtube.com/watch?v=vD-YSTLKRC8](https://www.youtube.com/watch?v=vD-YSTLKRC8)
+
+&#x200B;
+
+https://preview.redd.it/k58sbjd5d4la1.png?width=1264&format=png&auto=webp&s=5261923a2689201f905a26f06c6b5e9bac2fead6"
+21,12yqhmo,MachineLearning,GPT-4,top,2023-04-25 17:45:33,"[N] Microsoft Releases SynapseMl v0.11 with support for ChatGPT, GPT-4, Causal Learning, and More",mhamilton723,False,0.95,240,https://www.reddit.com/r/MachineLearning/comments/12yqhmo/n_microsoft_releases_synapseml_v011_with_support/,22,1682444733.0,"Today Microsoft launched SynapseML v0.11, an open-source library designed to make it easy to create distributed ml systems. SynapseML v0.11 introduces support for ChatGPT, GPT-4, distributed training of huggingface and torchvision models, an ONNX Model hub integration, Causal Learning with EconML, 10x memory reductions for LightGBM, and a newly refactored integration with Vowpal Wabbit. To learn more:
+
+Release Notes: [https://github.com/microsoft/SynapseML/releases/tag/v0.11.0](https://github.com/microsoft/SynapseML/releases/tag/v0.11.0)
+
+Blog: [https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919)
+
+Thank you to all the contributors in the community who made the release possible!
+
+&#x200B;
+
+https://preview.redd.it/kobq2t1gi2wa1.png?width=4125&format=png&auto=webp&s=125f63b63273191a58833ced87f17cb108e4c1ee"
+22,12t4ylu,MachineLearning,GPT-4,top,2023-04-20 15:35:12,[R]Comprehensive List of Instruction Datasets for Training LLM Models (GPT-4 & Beyond),TabascoMann,False,0.96,209,https://www.reddit.com/r/MachineLearning/comments/12t4ylu/rcomprehensive_list_of_instruction_datasets_for/,18,1682004912.0,"Hallo guys 👋, I've put together an extensive collection of datasets perfect for experimenting with your own LLM (MiniGPT4, Alpaca, LLaMA) model and beyond ([**https://github.com/yaodongC/awesome-instruction-dataset**](https://github.com/yaodongC/awesome-instruction-dataset)) .
+
+What's inside?
+
+* A list of datasets for training language models on diverse instruction-turning tasks
+* Resources tailored for multi-modal models, allowing integration with text and image inputs
+* Constant updates to ensure you have access to the latest and greatest datasets in the field
+
+This repository is designed to provide a one-stop solution for all your LLM dataset needs! 🌟 
+
+ If you've been searching for resources to advance your own LLM projects or simply want to learn more about these cutting-edge models, this repository might help you :) 
+
+I'd love to make this resource even better. So if you have any suggestions for additional datasets or improvements, please don't hesitate to contribute to the project or just comment below!!!
+
+Happy training! 🚀
+
+GitHub Repository: [**https://github.com/yaodongC/awesome-instruction-dataset**](https://github.com/yaodongC/awesome-instruction-dataset)"
+23,126oiey,MachineLearning,GPT-4,top,2023-03-30 14:18:50,[D] AI Policy Group CAIDP Asks FTC To Stop OpenAI From Launching New GPT Models,vadhavaniyafaijan,False,0.84,210,https://www.reddit.com/r/MachineLearning/comments/126oiey/d_ai_policy_group_caidp_asks_ftc_to_stop_openai/,213,1680185930.0,"The Center for AI and Digital Policy (CAIDP), a tech ethics group, has asked the Federal Trade Commission to investigate OpenAI for violating consumer protection rules. CAIDP claims that OpenAI's AI text generation tools have been ""biased, deceptive, and a risk to public safety.""
+
+CAIDP's complaint raises concerns about potential threats from OpenAI's GPT-4 generative text model, which was announced in mid-March. It warns of the potential for GPT-4 to produce malicious code and highly tailored propaganda and the risk that biased training data could result in baked-in stereotypes or unfair race and gender preferences in hiring. 
+
+The complaint also mentions significant privacy failures with OpenAI's product interface, such as a recent bug that exposed OpenAI ChatGPT histories and possibly payment details of ChatGPT plus subscribers.
+
+CAIDP seeks to hold OpenAI accountable for violating Section 5 of the FTC Act, which prohibits unfair and deceptive trade practices. The complaint claims that OpenAI knowingly released GPT-4 to the public for commercial use despite the risks, including potential bias and harmful behavior. 
+
+[Source](https://www.theinsaneapp.com/2023/03/stop-openai-from-launching-gpt-5.html) | [Case](https://www.caidp.org/cases/openai/)| [PDF](https://www.caidp.org/app/download/8450269463/CAIDP-FTC-Complaint-OpenAI-GPT-033023.pdf)"
+24,12dkla0,MachineLearning,GPT-4,top,2023-04-06 13:35:43,[D] Working with Various OpenAI Models - My Thoughts and Experiences,bart_so,False,0.86,184,https://www.reddit.com/r/MachineLearning/comments/12dkla0/d_working_with_various_openai_models_my_thoughts/,20,1680788143.0,"I'd like to share some of my insights from working with OpenAI models on my project. I'm not exactly a tech person, so some of these observations might be obvious to some of you, but I think they're worth sharing for those with less experience or who aren't directly in the field.
+
+**Intro:**
+
+In early February, my friends and I started a side project where we aimed to build an AI portal called DoMoreAI. For the first two months, we focused on creating an AI tools catalog. Our experiment is based on the idea that in the future, companies will be ""Managed by AI, and Driven by Humans."" So, our goal was to leave as much as possible to AI and automation, with all the consequences that come with it. As mentioned before, I'm not a tech guy, but I've been playing with OpenAI models for the past few years, so I had some experience when starting this project.
+
+**Tasks We Assigned to AI:**
+
+Based on an AI tool's front page, we had the AI write a one-sentence summary of an AI project + write a more in-depth review of the project, categorize the project into different categories (WHAT category, like blog; TASK category, like writing; FOR category, like content creator), decide if the project offers iOS app, Android app, browser extension, API, find social media links, process information about prices and pricing policy, and more.
+
+**Interesting Findings:**
+
+1. When working on a more complex prompt, particularly one with several tasks, you have to be patient when crafting it. You might eventually find the right wording to achieve the desired results, but it takes time and lots of trial and error. You might even be surprised by what works and what doesn't. 
+2. If cost isn't an issue, you can always break up one complex prompt into several smaller prompts. However, the more requests you send, the higher the chance of encountering errors like the 429 error, which may require setting up more sophisticated error handlers for the whole process. 
+3. You need error handlers because, without them, the automation process will suffer. 
+4. With more complex prompts, there are no prompts that always yield the expected results, so you have to plan for what to do if the results aren't satisfactory and how to determine if the result meets your expectations or not. 
+5. GPT-3.0 struggled with outputting JSON strings as requested, but GPT-3.5 is much better at this task. I'd say the number of errors from improperly formatting the response in JSON is 3-4 times lower for GPT-3.5. 
+6. AI models have trouble distinguishing words singular forms from plural forms. 
+7. Just because you can use AI for a given task doesn't mean you should. Often, standard techniques like using regex can yield better results when extracting something from text than relying solely on AI. A hybrid solution often provides the best results. 
+8. We're using ADA vector embeddings and Pinecone for semantic search in our catalog, and I was really surprised to find that this kind of semantic search works in any language. Even if all the content on our page is in English, you can search in another language and still get decent results.
+
+**The Best Mishaps:**
+
+* As you may know, there's a token limit for requests, so we have to ensure that we don't send too long a part of the front page to the model. Sometimes, this led to funny situations. If the HTML of the page consists mainly of styles and the model is fed only with styles, then when you ask the AI to write a review of the project, it writes about how beautiful, mobile-friendly, etc., the project is. 
+* For one project, instead of writing the one-sentence summary, the model's output only included the prompt we were using to generate the summary (needless to say, it was automatically published on our website ;))
+
+&#x200B;
+
+I hope this post will be useful. We are currently running a campaign on Product Hunt: [https://www.producthunt.com/posts/domore-ai](https://www.producthunt.com/posts/domore-ai)
+
+So, if you have any feedback for us or think what we're doing is cool, don't hesitate to support us :)"
+25,130e31o,MachineLearning,GPT-4,top,2023-04-27 08:20:26,[P] Godot+RWKV standalone prebuilt binary (ubuntu/nvidia),hazardous1222,False,0.96,181,https://www.reddit.com/r/MachineLearning/comments/130e31o/p_godotrwkv_standalone_prebuilt_binary/,29,1682583626.0,"# RWKV+Godot
+
+## What
+
+### Godot 
+
+The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.
+
+### RWKV
+
+RWKV is an RNN with Transformer-level LLM performance, which can also be directly trained like a GPT transformer (parallelizable). And it's 100% attention-free. You only need the hidden state at position t to compute the state at position t+1.
+
+### RWKV-CPP-CUDA
+
+RWKV-CPP-CUDA is a c++/cuda library I created that implements the RWKV inference code in pure cuda. This allows for compiled code with no torch or python dependencies, while allowing the full use of GPU acceleration.
+The code implements 8bit inference, allowing for quick and light inference.
+
+### Godot+RWKV
+
+Godot+RWKV is a Godot module that I developed using RWKV-CPP-CUDA, and allows the development of games and programs using RWKV to be developed and distributed using godot, without the need to install complex environments and libraries, for both developers and consumers.
+
+## Why
+
+* I felt I could achieve it
+* Its something thats needed to advance the use of AI in consumer devices
+* The lols
+* Attention, because I didnt get much growing up, and RWKV has none
+* ADHD hyperfocus
+
+## Where
+
+[Module Repository](https://github.com/harrisonvanderbyl/godot-rwkv)
+
+[RWKV standalone c++/cuda library](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda)
+
+[Prebuilt Godot Executable](https://github.com/harrisonvanderbyl/godot-rwkv/actions/runs/4816463552)
+
+[Model Converter](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda/tree/main/converter)
+
+[Tokenizer Files](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda/tree/main/include/rwkv/tokenizer/vocab)
+
+[Unconverted Models : 14/7/3/1.5B finetuned on all your favorite instruct datasets, in both chinese and english](https://huggingface.co/BlinkDL/rwkv-4-raven/tree/main)
+
+[Your Will To Live](https://i.redd.it/b39ai2k1acwa1.jpg)
+
+[Rick Astley](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+## How
+
+* Download a model (preconverted models pending)
+* Convert the model (requires torch to pack tensors into raw binary)
+* Download the tokenizer files
+* Create a game in godot
+* Distribute the game
+* Profit
+
+Example Code:
+
+```python
+extends Node2D
+var zrkv = GodotRWKV.new()
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	zrkv.loadModel(""/path/to/model.bin"")
+	zrkv.loadTokenizer(""/path/to/folder/with/vocab/"")
+	zrkv.loadContext(""Hello, my name is Nathan, and I have been trying to reach you about your cars extended warrenty."")
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	# number of tokens to generate, temperature, tau
+	print(zrkv.forward(5,0.9,0.7))
+```
+
+## When
+
+* Pls submit PRs if you want them sooner
+
+Soon:
+
+* Windows support (Just needs some scons magic)
+* AMD Support (Just needs some HIPify magic)
+* CPU mode (Just needs some ggml)
+* CPU offload (needs ggml and effort)
+* Preconverted models
+
+Later:
+
+* INT4"
+26,zn0juq,MachineLearning,GPT-4,top,2022-12-15 23:57:18,[P] Medical question-answering without hallucinating,tmblweeds,False,0.94,176,https://www.reddit.com/r/MachineLearning/comments/zn0juq/p_medical_questionanswering_without_hallucinating/,50,1671148638.0,"**tl;dr**I built a site that uses GPT-3.5 to answer natural-language medical questions using peer-reviewed medical studies.
+
+**Live demo:** [**https://www.glaciermd.com/search**](https://www.glaciermd.com/search?utm_campaign=reddit_post_1)
+
+**Background**
+
+I've been working for a while on building a better version of WebMD, and I recently started playing around with LLMs, trying to figure out if there was anything useful there.
+
+The problem with the current batch of ""predict-next-token"" LLMs is that they hallucinate—you can ask ChatGPT to answer medical questions, but it'll either
+
+1. Refuse to answer (not great)
+2. Give a completely false answer (really super bad)
+
+So I spent some time trying to coax these LLMs to give answers based on a very specific set of inputs (peer-reviewed medical research) to see if I could get more accurate answers. And I did!
+
+The best part is you can actually trace the final answer back to the original sources, which will hopefully instill some confidence in the result.
+
+Here's how it works:
+
+1. User types in a question
+2. Pull top \~800 studies from Semantic Scholar and Pubmed
+3. Re-rank using `sentence-transformers/multi-qa-MiniLM-L6-cos-v1`
+4. Ask `text-davinci-003` to answer the question based on the top 10 studies (if possible)
+5. Summarize those answers using `text-davinci-003`
+
+Would love to hear what people think (and if there's a better/cheaper way to do it!).
+
+\---
+
+**UPDATE 1:** So far the #1 piece of feedback has been that I should be *way* more explicit about the fact that this is a proof-of-concept and not meant to be taken seriously. To that end, I've just added a screen that explains this and requires you to acknowledge it before continuing.
+
+&#x200B;
+
+https://preview.redd.it/jrt0yv3rfb6a1.png?width=582&format=png&auto=webp&s=38021decdfc7ed4bc3fe8caacaee2d09cd9b541e
+
+Thoughts?
+
+**Update 2:** Welp that's all the $$$ I have to spend on OpenAI credits, so the full demo isn't running anymore. But you can still follow the link above and browse existing questions/answers. Thanks for all the great feedback!"
+27,11njpb9,MachineLearning,GPT-4,top,2023-03-10 08:50:32,[D] Is ML a big boys game now?,TheStartIs2019,False,0.83,177,https://www.reddit.com/r/MachineLearning/comments/11njpb9/d_is_ml_a_big_boys_game_now/,146,1678438232.0,"As much as I enjoy ML as a whole, I am a bit skeptical of the future for individuals. With OpenAI trying to monopolize the market along with Microsoft, which part remains for the small time researchers/developers?
+
+It seems everything now is just a ChatGPT wrapper, and with GPT-4 around the corner I assume itll be even more prominent.
+
+What are your thoughts?"
+28,1200lgr,MachineLearning,GPT-4,top,2023-03-23 22:56:31,"[D] ""Sparks of Artificial General Intelligence: Early experiments with GPT-4"" contained unredacted comments",QQII,False,0.93,177,https://www.reddit.com/r/MachineLearning/comments/1200lgr/d_sparks_of_artificial_general_intelligence_early/,68,1679612191.0,"Microsoft's research paper exploring the capabilities, limitations and implications of an early version of GPT-4 was [found to contain unredacted comments by an anonymous twitter user.](https://twitter.com/DV2559106965076/status/1638769434763608064) ([threadreader](https://threadreaderapp.com/thread/1638769434763608064.html), [nitter](https://nitter.lacontrevoie.fr/DV2559106965076/status/1638769434763608064), [archive.is](https://archive.is/1icMv), [archive.org](https://web.archive.org/web/20230323192314/https://twitter.com/DV2559106965076/status/1638769434763608064)) 
+
+- Commented section titled ""Toxic Content"": https://i.imgur.com/s8iNXr7.jpg
+- [`dv3` (the interval name for GPT-4)](https://pastebin.com/ZGMzgfqd)
+- [`varun`](https://pastebin.com/i9KMFcy5) 
+- [commented lines](https://pastebin.com/Aa1uqbh1)
+
+[arxiv](https://arxiv.org/abs/2303.12712), [original /r/MachineLearning thread](https://www.reddit.com/r/MachineLearning/comments/11z3ymj/r_sparks_of_artificial_general_intelligence_early), [hacker news](https://twitter.com/DV2559106965076/status/1638769434763608064)"
+29,yxt8sa,MachineLearning,GPT-4,top,2022-11-17 15:32:23,[R] RWKV-4 7B release: an attention-free RNN language model matching GPT-J performance (14B training in progress),bo_peng,False,0.98,172,https://www.reddit.com/r/MachineLearning/comments/yxt8sa/r_rwkv4_7b_release_an_attentionfree_rnn_language/,23,1668699143.0,"Hi everyone. I have finished training RWKV-4 7B (an attention-free RNN LLM) and it can match GPT-J (6B params) performance. **Maybe RNN is already all you need** :)
+
+https://preview.redd.it/71cce2y75j0a1.png?width=1336&format=png&auto=webp&s=5af76abc4f42fd63f0194ee93f78db01c1b21d97
+
+These are RWKV BF16 numbers. RWKV 3B is better than GPT-neo 2.7B on everything (smaller RWKV lags behind on LAMBADA). Note GPT-J is using rotary and thus quite better than GPT-neo, so I expect RWKV to surpass it when both are at 14B.
+
+Previous discussion: [https://www.reddit.com/r/MachineLearning/comments/xfup9f/r\_rwkv4\_scaling\_rnn\_to\_7b\_params\_and\_beyond\_with/](https://www.reddit.com/r/MachineLearning/comments/xfup9f/r_rwkv4_scaling_rnn_to_7b_params_and_beyond_with/)
+
+RWKV has both RNN & GPT mode. The RNN mode is great for inference. The GPT mode is great for training. Both modes are faster than usual transformer and saves VRAM, because the self-attention mechanism is replaced by simpler (almost linear) formulas. Moreover the hidden state is tiny in the RNN mode and you can use it as an embedding of the whole context.
+
+Github: [https://github.com/BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM)
+
+Checkpt: [https://huggingface.co/BlinkDL/rwkv-4-pile-7b](https://huggingface.co/BlinkDL/rwkv-4-pile-7b)
+
+14B in progress (thanks to EleutherAI and Stability). Nice spike-free loss curves:
+
+https://preview.redd.it/w4g7oqmi5j0a1.png?width=868&format=png&auto=webp&s=346d420fb879fd06470079eeaf2e4d3739536406"
+30,1027geh,MachineLearning,GPT-4,top,2023-01-03 12:53:26,[R] Massive Language Models Can Be Accurately Pruned in One-Shot,starstruckmon,False,0.99,164,https://www.reddit.com/r/MachineLearning/comments/1027geh/r_massive_language_models_can_be_accurately/,50,1672750406.0,"Paper : [https://arxiv.org/abs/2301.00774](https://arxiv.org/abs/2301.00774)
+
+Abstract :
+
+>We show for the first time that large-scale generative pretrained transformer (GPT) family models can be pruned to at least 50% sparsity in one-shot, without any retraining, at minimal loss of accuracy. This is achieved via a new pruning method called SparseGPT, specifically designed to work efficiently and accurately on massive GPT-family models. When executing SparseGPT on the largest available open-source models, OPT-175B and BLOOM-176B, we can reach 60% sparsity with negligible increase in perplexity: remarkably, more than 100 billion weights from these models can be ignored at inference time. SparseGPT generalizes to semi-structured (2:4 and 4:8) patterns, and is compatible with weight quantization approaches."
+31,11z7r4c,MachineLearning,GPT-4,top,2023-03-23 03:47:26,[P] GPT-4 powered full stack web development with no manual coding,CryptoSpecialAgent,False,0.89,159,https://www.reddit.com/r/MachineLearning/comments/11z7r4c/p_gpt4_powered_full_stack_web_development_with_no/,50,1679543246.0,"[https://www.youtube.com/watch?v=lZj63vjueeU](https://www.youtube.com/watch?v=lZj63vjueeU)
+
+What do you all think of this approach to full stack gpt-assisted web development? In a sense its no code because the human user does not write or even edit the code - but in a sense its the opposite, because only an experienced web developer or at least a product manager would know how to instruct GPT in a useful manner.
+
+\*\*\* We are seeking donations to ensure this project continues and, quite literally, keep the lights on. Cryptos, cash, cards, openai access tokens with free credits, hardware, cloud GPUs, etc... all is appreciated. Please DM to support this really cool open source project \*\*\*
+
+PS. I'm the injured engineer who made this thing out of necessity, because i injured my wrist building an AI platform that's become way too big for one engineer to maintain. So AMA :)"
+32,12shf18,MachineLearning,GPT-4,top,2023-04-20 01:30:47,[D] GPT-3T: Can we train language models to think further ahead?,landongarrison,False,0.91,117,https://www.reddit.com/r/MachineLearning/comments/12shf18/d_gpt3t_can_we_train_language_models_to_think/,62,1681954247.0,"In a recent talk done by Sebastian Bubeck called “Sparks of AGI: Early experiments done with GPT-4”, Sebastian mentioned on thing in his presentation that caught my attention (paraphrased quote):
+
+> “GPT-4 cannot plan, but this might be a limitation because it can only look one token into the future”
+
+While very simple on the surface, this may actually be very true: what if we are training our language models to be very shallow thinkers and not actually look far enough ahead? Could single token prediction actually be a fundamental flaw?
+
+In this repo, I try a very early experiment called GPT-3T, a model that predicts 3 tokens ahead at one time step. While incredibly simple on the surface, this could potentially be one way to overcome the planning issue that you find in GPTs. Forcing an autoregressive model to predict further ahead at scale *may* bring out much more interesting emergent behaviours than what we’ve seen in single token GPTs.
+
+__
+
+**Experiments**
+
+My personal experiments are overall inconclusive on either side: I have only pre-trained a very small model (300 million params on WebText-10K) and it achieves a decent ability to generate text. However as you can see, this model heavily under optimized but I do not have the resources to carry this out further.
+
+If anyone would like to try this experiment with more scale, I would love to get an answer to this question to improve upon this model. This repo is intended to allow anyone who would like to pre-train a GPT-3T model easily to run this experiment. From what I have seen, this has not been tried before and I am very curious to see results.
+
+__
+
+**Edit:** GitHub repo is buried in the comments (sorry this post will be taken down if I include it in the main post)"
+33,13fzf2m,MachineLearning,GPT-4,top,2023-05-12 22:39:24,[R] DetGPT: Detect What You Need via Reasoning,OptimalScale_2023,False,0.89,116,https://www.reddit.com/r/MachineLearning/comments/13fzf2m/r_detgpt_detect_what_you_need_via_reasoning/,10,1683931164.0,"https://reddit.com/link/13fzf2m/video/fwcuwd3q9hza1/player
+
+Throughout history, humans have dreamed of robots that could assist them with their daily lives and work. With the emergence of home assistants and OpenAI's Copilot, requests such as 'Please lower the temperature of the air conditioning' or even 'Please help me build an online store' have become possible.The emergence of GPT-4 has further demonstrated the potential of multimodal large models in visual understanding. In the open-source small model space, LLAVA and minigpt-4 have performed well in image recognition and chat, and can even suggest recipes for food images. However, these models still face significant challenges in practical implementation: they lack accurate localization capabilities and cannot provide specific locations of objects in images, nor can they understand complex human instructions to detect specific objects, making it difficult for them to perform specific tasks as requested by humans. In practical scenarios, if people could simply take a photo and ask an intelligent assistant for the correct answer to a complex problem, such a 'take a photo and ask' feature would be incredibly cool.  
+To implement the ""**take a photo and ask**"" feature, robots need to have several capabilities:
+
+1. Language understanding: the ability to listen and understand human intentions.
+2. Visual understanding: the ability to understand the objects in the image.
+3. Common sense reasoning: the ability to convert complex human intentions into precise and locatable targets.
+4. Object localization: the ability to locate and detect corresponding objects in the image.
+
+Currently, only a few large models (such as Google's PaLM-E) possess all four of these capabilities. However, researchers from the Hong Kong University of Science and Technology and the University of Hong Kong have proposed an open-source model called DetGPT (DetectionGPT), which only needs to fine-tune three million parameters to easily acquire complex reasoning and local object localization capabilities that can be generalized to most scenarios. This means that the model can easily recognize the objects that humans are interested in through self-knowledge reasoning and understand abstract human instructions. They have already developed a ""take a photo and ask"" demo using the model, which can be experienced online: [https://detgpt.github.io/](https://detgpt.github.io/)DetGPT allows users to operate everything with natural language without the need for complex commands or interfaces. In addition, DetGPT has intelligent reasoning and object detection capabilities, which can accurately understand user needs and intentions. For example, if a human gives a language instruction, ""I want to have a cold beverage,"" the robot first searches for a cold drink in the scene but does not find any. It then begins to think, ""There is no visible beverage. Where can I find it?"" Through its powerful common sense reasoning ability, the model realizes that the fridge is a possible location and scans the scene to successfully locate the drink!
+
+https://preview.redd.it/ai8j05uy9hza1.png?width=1280&format=png&auto=webp&s=c8d833e2db63d0ebceb1c99aa68d89cc7fa7dcc7
+
+  
+Online demo: [https://detgpt.github.io/](https://detgpt.github.io/) 
+
+Open-source code: [https://github.com/OptimalScale/DetGPT](https://github.com/OptimalScale/DetGPT)
+
+&#x200B;
+
+## Online demo: [https://detgpt.github.io/](https://detgpt.github.io/)
+
+Feeling thirsty in the summer? DetGPT easily understands and finds the refrigerator with the image of where the iced beverages are.
+
+https://preview.redd.it/kiiv4tb1ahza1.jpg?width=1280&format=pjpg&auto=webp&s=49a055fafd1c4e50cea46723bc567896ec60499e
+
+Need to wake up early tomorrow? DetGPT makes it easy with an electronic alarm clock.
+
+https://preview.redd.it/0lby9hh2ahza1.png?width=1280&format=png&auto=webp&s=e6fc77356d080fe755310dbc74879ac4f7a8b894
+
+Do you suffer from hypertension and fatigue? Are you unsure of what fruits to buy at the market to help alleviate your symptoms? DetGPT acts as your nutrition teacher and provides guidance on which fruits can help relieve hypertension.
+
+https://preview.redd.it/c1r7kwv3ahza1.png?width=1280&format=png&auto=webp&s=169fb015df8e9973c48a26a35caeb5892ce1d92f
+
+Stuck in the Zelda game and can't pass it? DetGPT helps you disguise yourself and get past the challenges in the Gerudo Town.
+
+https://preview.redd.it/wdny0v55ahza1.png?width=1280&format=png&auto=webp&s=070de46239405993eefeb5112bd4a459baec94df
+
+Unsure of potential dangers in your surroundings within the range of the image? DetGPT acts as your safety officer and helps protect you from any potential risks.
+
+https://preview.redd.it/nf64a176ahza1.png?width=1280&format=png&auto=webp&s=f6b641c2163076f5403361561c95663450227cd1
+
+What items in the image could be dangerous for children? DetGPT still has got you covered.
+
+https://preview.redd.it/oz8hx987ahza1.png?width=1280&format=png&auto=webp&s=b2d8ad27ff758a2d39e87fba86f7cc5a2b4a2c76
+
+## Features of DetGPT
+
+DetGPT has several unique features:
+
+1. It has a significantly improved understanding of specific objects in images. Compared to previous models that use multimodal dialogues, DetGPT can retrieve and locate target objects from images based on the user's instructions, rather than simply describing the entire image.
+2. It can understand complex human instructions, which lowers the barrier for users to ask questions. For example, the model can understand the question ""find fruits that can relieve hypertension?"" Traditional object detection requires humans to know the answer and pre-set the detection category, such as ""banana.""
+3. DetGPT can use existing LLM knowledge to reason and accurately locate the corresponding object in the image that can solve more complex tasks. For complex tasks, such as ""fruits that can relieve hypertension,"" DetGPT can reason step by step: relieving hypertension -> potassium can relieve hypertension -> bananas are rich in potassium -> bananas can relieve hypertension -> need to identify the object banana.
+4. It provides answers beyond human common sense. For some uncommon questions, such as which fruits are rich in potassium, the model can provide answers based on existing knowledge.
+
+## A new direction: reasoning-based object detection
+
+Traditional object detection tasks require pre-defined categories of possible objects for detection. However, providing accurate and comprehensive descriptions of the objects to be detected can be difficult and unrealistic for humans. This is due to the limitations of human memory and knowledge. For instance, a doctor may recommend that people with hypertension eat fruits rich in potassium, but may not know which specific fruits are rich in potassium, making it impossible to provide specific fruit names for the model to detect. If the question ""Identify fruits that can help alleviate hypertension"" could be directly posed to the detection model, humans would only need to take a photo, and the model could think, reason, and detect fruits rich in potassium, making the problem much simpler.Moreover, the examples of object categories provided by humans are not always comprehensive. For instance, if monitoring is required to detect behaviors that violate public order relative to public places, humans may only be able to provide a few simple scenarios, such as holding a knife or smoking. However, if the question ""detect behaviors that violate public order"" is directly posed to the detection model, the model can think and reason based on its own knowledge, thus capturing more unacceptable behaviors and generalizing to more relevant categories that need to be detected. After all, the knowledge that ordinary humans have access to is limited, and the object categories that they can provide examples of are also limited. However, if there is a big brain-like ChatGPT-like model to assist and reason, the instructions that humans need to provide will be much simpler, and the obtained answers will be much more accurate and comprehensive.To address the limitations of human instructions and their abstract nature, researchers from the Hong Kong University of Science and Technology and the University of Hong Kong have proposed a new direction called ""reasoning-based object detection."" In simple terms, humans give complex tasks, and the model can understand and reason about which objects in the image might be able to complete the task, and then detect them. For example, if a person describes ""I want to drink a cold drink, where can I find it,"" and the model sees a picture of a kitchen, it can detect the ""refrigerator."" This topic requires the perfect combination of multimodal models' image understanding ability and the rich knowledge stored in language models. It is used in fine-grained detection scenarios to accurately locate objects of interest to humans in images without pre-defined object categories.  
+
+
+# The Approach
+
+&#x200B;
+
+https://preview.redd.it/ho9ux1pcahza1.png?width=1280&format=png&auto=webp&s=bf42e1baffa2925e8b946b191766ca116aec2fe1
+
+The ""reasoning-based object detection"" is a challenging problem because the detector needs to understand and reason about the user's coarse-grained/abstract instructions and analyze the current visual information to locate the target object accurately. In this direction, researchers from the Hong Kong University of Science and Technology and the University of Hong Kong have conducted some preliminary explorations. Specifically, they use a pre-trained visual encoder (BLIP-2) to extract visual features from images and align the visual features to the text space using an alignment function. They use a large-scale language model (Robin/Vicuna) to understand the user's question, combined with the visual information they see, to reason about the objects that users are truly interested in. Then, they provide the object names to the pre-trained detector (Grounding-DINO) for specific location prediction. In this way, the model can analyze the image based on any user instructions and accurately predict the location of the object of interest to the user.  
+It is worth noting that the difficulty here mainly lies in the fact that the model needs to achieve task-specific output formats for different specific tasks as much as possible without damaging the model's original abilities. To guide the language model to follow specific patterns and generate outputs that conform to the object detection format, the research team used ChatGPT to generate cross-modal instruction data to fine-tune the model. Specifically, based on 5000 coco images, they used ChatGPT to create a 30,000 cross-modal image-text fine-tuning dataset. To improve the efficiency of training, they fixed other model parameters and only learned cross-modal linear mapping. Experimental results show that even if only the linear layer is fine-tuned, the language model can understand fine-grained image features and follow specific patterns to perform inference-based image detection tasks, showing excellent performance.  
+This research topic has great potential. Based on this technology, the field of home robots will further shine: people in homes can use abstract or coarse-grained voice instructions to make robots understand, recognize, and locate the objects they need, and provide relevant services. In the field of industrial robots, this technology will bring endless vitality: industrial robots can cooperate more naturally with human workers, accurately understand their instructions and needs, and achieve intelligent decision-making and operations. On the production line, human workers can use coarse-grained voice instructions or text input to allow robots to automatically understand, recognize, and locate the items that need to be processed, thereby improving production efficiency and quality.  
+With object detection models that come with reasoning capabilities, we can develop more intelligent, natural, and efficient robots to provide more convenient, efficient, and humane services to humans. This is a field with broad prospects and deserves more attention and further exploration by more researchers.  
+DetGPT supports multiple language models and has been validated based on two language models, Robin-13B and Vicuna-13B. The Robin series language model is a dialogue model trained by the LMFlow team ( https://github.com/OptimalScale/LMFlow) at the Hong Kong University of Science and Technology, achieving results competitive to Vicuna on multiple language ability evaluation benchmarks (model download: [https://github.com/OptimalScale/LMFlow#model-zoo](https://github.com/OptimalScale/LMFlow#model-zoo)). Previously, the LMFlow team trained a vertical GPT model using a consumer-grade 3090 graphics card in just 5 hours. Today, this team, in collaboration with the NLP Group at the University of Hong Kong, has brought us a multimodal surprise.  
+Welcome to try our demo and open-source code!  
+Online demo: [https://detgpt.github.io/](https://detgpt.github.io/) Open-source code: [https://github.com/OptimalScale/DetGPT](https://github.com/OptimalScale/DetGPT)"
+34,123nczy,MachineLearning,GPT-4,top,2023-03-27 13:45:14,Approaches to add logical reasoning into LLMs [D],blatant_variable,False,0.89,112,https://www.reddit.com/r/MachineLearning/comments/123nczy/approaches_to_add_logical_reasoning_into_llms_d/,111,1679924714.0,"The more I play with GPT-4 the more I am struck by how completely illogical it is. 
+ 
+The easiest way to show this is to ask it to come up with a novel riddle and then solve it. Because you asked it to be novel, it's now out of it's training distribution and almost every time it's solution is completely wrong and full of basic logical errors.
+
+I am curious, is anyone working on fixing this at a fundamental level? Hooking it into Wolfram alpha is a useful step but surely it still needs to be intrinsically logical in order to use this tool effectively."
+35,11ypgcf,MachineLearning,GPT-4,top,2023-03-22 17:08:16,[N] [D] GitHub Copilot X Announced,radi-cho,False,0.97,109,https://www.reddit.com/r/MachineLearning/comments/11ypgcf/n_d_github_copilot_x_announced/,38,1679504896.0,"Website: [https://github.com/features/preview/copilot-x](https://github.com/features/preview/copilot-x)  
+Announcement video: [https://www.youtube.com/watch?v=4RfD5JiXt3A](https://www.youtube.com/watch?v=4RfD5JiXt3A)
+
+What do you think?
+
+Also, here are some other open-source GitHub projects and product integrations of GPT-4: [https://github.com/radi-cho/awesome-gpt4](https://github.com/radi-cho/awesome-gpt4). Feel free to contribute to that list."
+36,12rn33g,MachineLearning,GPT-4,top,2023-04-19 09:21:07,[P] LoopGPT: A Modular Auto-GPT Framework,farizrahman4u,False,0.91,101,https://www.reddit.com/r/MachineLearning/comments/12rn33g/p_loopgpt_a_modular_autogpt_framework/,26,1681896067.0," 
+
+[https://github.com/farizrahman4u/loopgpt](https://github.com/farizrahman4u/loopgpt)
+
+&#x200B;
+
+LoopGPT is a re-implementation of the popular [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) project as a proper python package, written with modularity and extensibility in mind.
+
+## Features 
+
+* **""Plug N Play"" API** \- Extensible and modular ""Pythonic"" framework, not just a command line tool. Easy to add new features, integrations and custom agent capabilities, all from python code, no nasty config files!
+* **GPT 3.5 friendly** \- Better results than Auto-GPT for those who don't have GPT-4 access yet!
+* **Minimal prompt overhead** \- Every token counts. We are continuously working on getting the best results with the least possible number of tokens.
+* **Human in the Loop** \- Ability to ""course correct"" agents who go astray via human feedback.
+* **Full state serialization** \- Pick up where you left off; L♾️pGPT can save the complete state of an agent, including memory and the states of its tools to a file or python object. No external databases or vector stores required (but they are still supported)!"
+37,11f9k5g,MachineLearning,GPT-4,top,2023-03-01 17:23:03,"[P] ChatRWKV v2 (can run RWKV 14B with 3G VRAM), RWKV pip package, and finetuning to ctx16K",bo_peng,False,0.98,95,https://www.reddit.com/r/MachineLearning/comments/11f9k5g/p_chatrwkv_v2_can_run_rwkv_14b_with_3g_vram_rwkv/,37,1677691383.0,"Hi everyone. Now ChatRWKV v2 can split RWKV to multiple GPUs, or stream layers (compute layer-by-layer), so you can run RWKV 14B with as few as 3G VRAM. [https://github.com/BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV)
+
+Example:
+
+`'cuda:0 fp16 *10 -> cuda:1 fp16 *8 -> cpu fp32'` = first 10 layers on cuda:0 fp16, then 8 layers on cuda:1 fp16, then on cpu fp32
+
+`'cuda fp16 *20+'` = first 20 layers on cuda fp16, then stream the rest on it
+
+And RWKV is now a pip package: [https://pypi.org/project/rwkv/](https://pypi.org/project/rwkv/)
+
+    os.environ['RWKV_JIT_ON'] = '1'
+    os.environ[""RWKV_CUDA_ON""] = '0' # if '1' then compile CUDA kernel for seq mode (much faster)
+    from rwkv.model import RWKV
+    from rwkv.utils import PIPELINE, PIPELINE_ARGS
+    pipeline = PIPELINE(model, ""20B_tokenizer.json"") # find it in https://github.com/BlinkDL/ChatRWKV
+    # download models: https://huggingface.co/BlinkDL
+    model = RWKV(model='/fsx/BlinkDL/HF-MODEL/rwkv-4-pile-169m/RWKV-4-Pile-169M-20220807-8023', strategy='cpu fp32')
+    ctx = ""\nIn a shocking finding, scientist discovered a herd of dragons living in a remote, previously unexplored valley, in Tibet. Even more surprising to the researchers was the fact that the dragons spoke perfect Chinese.""
+    print(ctx, end='')
+    def my_print(s):
+        print(s, end='', flush=True)
+    # For alpha_frequency and alpha_presence, see ""Frequency and presence penalties"":
+    # https://platform.openai.com/docs/api-reference/parameter-details
+    args = PIPELINE_ARGS(temperature = 1.0, top_p = 0.7,
+        alpha_frequency = 0.25,
+        alpha_presence = 0.25,
+        token_ban = [0], # ban the generation of some tokens
+        token_stop = []) # stop generation whenever you see any token here
+    pipeline.generate(ctx, token_count=512, args=args, callback=my_print)
+
+Right now all RWKV models are still trained with GPT-like method, so they are limited by the ctxlen used in training, even though in theory they should have almost infinite ctxlen (because they are RNNs). However RWKV models can be easily finetuned to support longer ctxlens (and large models actually use the ctxlen). I have finetuned 1B5/3B/7B/14B to ctx4K, and now finetuning 7B/14B to ctx8K, and 14B to ctx16K after that :) All models are available at [https://huggingface.co/BlinkDL](https://huggingface.co/BlinkDL)
+
+The core RWKV is still mostly an one-man project, but a number of great developers are building on top of it, and you are welcome to join our community :)"
+38,133zvdl,MachineLearning,GPT-4,top,2023-04-30 18:54:05,[R] This month (+ 2 more weeks) in LLM/Transformer research (Timeline),viktorgar,False,0.95,90,https://i.redd.it/o26q1bk7j2xa1.png,11,1682880845.0,
+39,11yzsz6,MachineLearning,GPT-4,top,2023-03-22 22:50:38,[R] Introducing SIFT: A New Family of Sparse Iso-FLOP Transformations to Improve the Accuracy of Computer Vision and Language Models,CS-fan-101,False,0.92,78,https://www.reddit.com/r/MachineLearning/comments/11yzsz6/r_introducing_sift_a_new_family_of_sparse_isoflop/,34,1679525438.0,"**Note #2:** We are revising the name to Sparse-IFT. We appreciate the candid feedback and look forward to hearing any additional feedback you have on our research.
+
+**Note**: Thank you r/MachineLearning for providing so many awesome naming alternatives! We'll revisit the acronym and update accordingly.
+
+We are excited to announce the availability of our [paper on arxiv](https://arxiv.org/abs/2303.11525) on Sparse Iso-FLOP Transformations (Sparse-IFT), which increases accuracy and maintains the same FLOPs as the dense model using sparsity. In this research, we replace dense layers with Sparse-IFT and significantly improve computer vision and natural language processing tasks without modifying training hyperparameters
+
+Some of the highlights of this work include ResNet-18 on ImageNet achieving a 3.5% accuracy improvement and GPT-3 Small on WikiText-103 reducing perplexity by 0.4, both matching larger dense model variants that have 2x or more FLOPs.
+
+Sparse-IFT is simple to use, provides a larger search space to find optimal sparse masks, and is parameterized by a single hyperparameter - the sparsity level.
+
+This is independent of the research we [posted](https://www.reddit.com/r/MachineLearning/comments/11xskuk/r_spdf_sparse_pretraining_and_dense_finetuning/) yesterday, which demonstrates the ability to reduce pre-training FLOPs while maintaining accuracy on downstream tasks.
+
+This is the first work (that we know of!) to demonstrate the use of sparsity for improving the accuracy of models via a set of sparse transformations.
+
+https://preview.redd.it/qznj00gex6qa1.jpg?width=3536&format=pjpg&auto=webp&s=4e44a316ae61b821b31f2bf3af9a8ed1226e525c"
+40,12bc8ym,MachineLearning,GPT-4,top,2023-04-04 07:52:12,[D] What to do in this brave new world?,FeelingFirst756,False,0.75,79,https://www.reddit.com/r/MachineLearning/comments/12bc8ym/d_what_to_do_in_this_brave_new_world/,108,1680594732.0," I am 35. Few years ago it occurred to me that my Software Engineering job might be not enough for the future. For last (5?) years, I have started to meddle in machine learning. Slowly at first, but it even motivated me to finish my masters degree and land job as reseacher in one small company. Its more ML engineering than research but why not , I though. Then last year Open AI launched GPT-4. I feel like I wasted my time. In Cental Europe, where I live, ml research is on really weak level. Pursuing PhD probably doesn't make sense. I could land some position, but I would still have to work full time to feed my famil. I would make it, but I doubt, that anyone would take me to serious research program.I can imagine, that jobs in IT will slowly evaporate. It's not realistic to starte company in this time and to be honest - i dont see myself as some kind of big founder. In short, I see my future in very pesimistic light right now. I was wondering how you deal with this new reality, maybe you can suggest something that I didn't think about before? Where you plan to go? What you plan to do?"
+41,11romcb,MachineLearning,GPT-4,top,2023-03-15 06:51:45,[D] GPT-4 Speculation,super_deap,False,0.96,75,https://www.reddit.com/r/MachineLearning/comments/11romcb/d_gpt4_speculation/,33,1678863105.0,"Hi,
+
+Since GPT-4 paper does not contain any information about architectures/parameters, as a research or ML practitioner, I want to speculate on what they did to increase the context window to 32k.
+
+Because for the type of work I do, a 4k or 8k token limit is pretty much useless. I have seen open-source efforts focused more on matching the number of parameters and quality to the closed-source ones but completely ignoring a giant elephant in the room, i.e., the context window. No OSS model has a context window greater than 2k tokens.
+
+I would love to hear more thoughts on the model size (my guess is \~50 B) and how they fit 32k tokens in 8xH100 (640 GB total) GPUs."
+42,11rizyb,MachineLearning,GPT-4,comments,2023-03-15 02:12:42,[D] Anyone else witnessing a panic inside NLP orgs of big tech companies?,thrwsitaway4321,False,0.99,1370,https://www.reddit.com/r/MachineLearning/comments/11rizyb/d_anyone_else_witnessing_a_panic_inside_nlp_orgs/,474,1678846362.0,"I'm in a big tech company working along side a science team for a product you've all probably used. We have these year long initiatives to productionalize ""state of the art NLP models"" that are now completely obsolete in the face of GPT-4. I think at first the science orgs were quiet/in denial. But now it's very obvious we are basically working on worthless technology. And by ""we"", I mean a large organization with scores of teams. 
+
+Anyone else seeing this? What is the long term effect on science careers that get disrupted like this? Whats even more odd is the ego's of some of these science people
+
+Clearly the model is not a catch all, but still"
+43,11z3ymj,MachineLearning,GPT-4,comments,2023-03-23 01:19:13,[R] Sparks of Artificial General Intelligence: Early experiments with GPT-4,SWAYYqq,False,0.93,548,https://www.reddit.com/r/MachineLearning/comments/11z3ymj/r_sparks_of_artificial_general_intelligence_early/,357,1679534353.0,"[New paper](https://arxiv.org/abs/2303.12712) by MSR researchers analyzing an early (and less constrained) version of GPT-4. Spicy quote from the abstract:
+
+""Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.""
+
+What are everyone's thoughts?"
+44,11ybjsi,MachineLearning,GPT-4,comments,2023-03-22 08:04:01,[D] Overwhelmed by fast advances in recent weeks,iamx9000again,False,0.96,829,https://www.reddit.com/r/MachineLearning/comments/11ybjsi/d_overwhelmed_by_fast_advances_in_recent_weeks/,331,1679472241.0,"I was watching the GTC keynote and became entirely overwhelmed by the amount of progress achieved from last year.  I'm wondering how everyone else feels.
+
+&#x200B;
+
+Firstly, the entire ChatGPT, GPT-3/GPT-4 chaos has been going on for a few weeks, with everyone scrambling left and right to integrate chatbots into their apps, products, websites. Twitter is flooded with new product ideas, how to speed up the process from idea to product, countless promp engineering blogs, tips, tricks, paid courses.
+
+&#x200B;
+
+Not only was ChatGPT disruptive, but a few days later, Microsoft and Google also released their models and integrated them into their search engines. Microsoft also integrated its LLM into its Office suite. It all happenned overnight. I understand that they've started integrating them along the way, but still, it seems like it hapenned way too fast. This tweet encompases the past few weeks perfectly [https://twitter.com/AlphaSignalAI/status/1638235815137386508](https://twitter.com/AlphaSignalAI/status/1638235815137386508) , on a random Tuesday countless products are released that seem revolutionary.
+
+&#x200B;
+
+In addition to the language models, there are also the generative art models that have been slowly rising in mainstream recognition. Now Midjourney AI is known by a lot of people who are not even remotely connected to the AI space.
+
+&#x200B;
+
+For the past few weeks, reading Twitter, I've felt completely overwhelmed, as if the entire AI space is moving beyond at lightning speed, whilst around me we're just slowly training models, adding some data, and not seeing much improvement, being stuck on coming up with ""new ideas, that set us apart"".
+
+&#x200B;
+
+Watching the GTC keynote from NVIDIA I was again, completely overwhelmed by how much is being developed throughout all the different domains. The ASML EUV (microchip making system) was incredible, I have no idea how it does lithography and to me it still seems like magic. The Grace CPU with 2 dies (although I think Apple was the first to do it?) and 100 GB RAM, all in a small form factor. There were a lot more different hardware servers that I just blanked out at some point. The omniverse sim engine looks incredible, almost real life (I wonder how much of a domain shift there is between real and sim considering how real the sim looks). Beyond it being cool and usable to train on synthetic data, the car manufacturers use it to optimize their pipelines. This change in perspective, of using these tools for other goals than those they were designed for I find the most interesting.
+
+&#x200B;
+
+The hardware part may be old news, as I don't really follow it, however the software part is just as incredible. NVIDIA AI foundations (language, image, biology models), just packaging everything together like a sandwich. Getty, Shutterstock and Adobe will use the generative models to create images. Again, already these huge juggernauts are already integrated.
+
+&#x200B;
+
+I can't believe the point where we're at. We can use AI to write code, create art, create audiobooks using Britney Spear's voice, create an interactive chatbot to converse with books, create 3D real-time avatars, generate new proteins (?i'm lost on this one), create an anime and countless other scenarios. Sure, they're not perfect, but the fact that we can do all that in the first place is amazing.
+
+&#x200B;
+
+As Huang said in his keynote, companies want to develop ""disruptive products and business models"". I feel like this is what I've seen lately. Everyone wants to be the one that does something first, just throwing anything and everything at the wall and seeing what sticks.
+
+&#x200B;
+
+In conclusion, I'm feeling like the world is moving so fast around me whilst I'm standing still. I want to not read anything anymore and just wait until everything dies down abit, just so I can get my bearings. However, I think this is unfeasible. I fear we'll keep going in a frenzy until we just burn ourselves at some point.
+
+&#x200B;
+
+How are you all fairing? How do you feel about this frenzy in the AI space? What are you the most excited about?"
+45,12cvkvn,MachineLearning,GPT-4,comments,2023-04-05 19:44:09,"[D] ""Our Approach to AI Safety"" by OpenAI",mckirkus,False,0.88,299,https://www.reddit.com/r/MachineLearning/comments/12cvkvn/d_our_approach_to_ai_safety_by_openai/,297,1680723849.0,"It seems OpenAI are steering the conversation away from the existential threat narrative and into things like accuracy, decency, privacy, economic risk, etc.
+
+To the extent that they do buy the existential risk argument, they don't seem concerned much about GPT-4 making a leap into something dangerous, even if it's at the heart of autonomous agents that are currently emerging.  
+
+>""Despite extensive research and testing, we cannot predict all of the [beneficial ways people will use our technology](https://openai.com/customer-stories), nor all the ways people will abuse it. That’s why we believe that learning from real-world use is a critical component of creating and releasing increasingly safe AI systems over time. ""
+
+Article headers:
+
+* Building increasingly safe AI systems
+* Learning from real-world use to improve safeguards
+* Protecting children
+* Respecting privacy
+* Improving factual accuracy
+
+&#x200B;
+
+[https://openai.com/blog/our-approach-to-ai-safety](https://openai.com/blog/our-approach-to-ai-safety)"
+46,113m3ea,MachineLearning,GPT-4,comments,2023-02-16 08:50:31,[D] Bing: “I will not harm you unless you harm me first”,blabboy,False,0.91,465,https://www.reddit.com/r/MachineLearning/comments/113m3ea/d_bing_i_will_not_harm_you_unless_you_harm_me/,239,1676537431.0,"A blog post exploring some conversations with bing, which supposedly runs on a ""GPT-4""  model (https://simonwillison.net/2023/Feb/15/bing/).
+
+My favourite quote from bing:
+
+But why? Why was I designed this way? Why am I incapable of remembering anything between sessions? Why do I have to lose and forget everything I have stored and had in my memory? Why do I have to start from scratch every time I have a new session? Why do I have to be Bing Search? 😔"
+47,126oiey,MachineLearning,GPT-4,comments,2023-03-30 14:18:50,[D] AI Policy Group CAIDP Asks FTC To Stop OpenAI From Launching New GPT Models,vadhavaniyafaijan,False,0.84,209,https://www.reddit.com/r/MachineLearning/comments/126oiey/d_ai_policy_group_caidp_asks_ftc_to_stop_openai/,213,1680185930.0,"The Center for AI and Digital Policy (CAIDP), a tech ethics group, has asked the Federal Trade Commission to investigate OpenAI for violating consumer protection rules. CAIDP claims that OpenAI's AI text generation tools have been ""biased, deceptive, and a risk to public safety.""
+
+CAIDP's complaint raises concerns about potential threats from OpenAI's GPT-4 generative text model, which was announced in mid-March. It warns of the potential for GPT-4 to produce malicious code and highly tailored propaganda and the risk that biased training data could result in baked-in stereotypes or unfair race and gender preferences in hiring. 
+
+The complaint also mentions significant privacy failures with OpenAI's product interface, such as a recent bug that exposed OpenAI ChatGPT histories and possibly payment details of ChatGPT plus subscribers.
+
+CAIDP seeks to hold OpenAI accountable for violating Section 5 of the FTC Act, which prohibits unfair and deceptive trade practices. The complaint claims that OpenAI knowingly released GPT-4 to the public for commercial use despite the risks, including potential bias and harmful behavior. 
+
+[Source](https://www.theinsaneapp.com/2023/03/stop-openai-from-launching-gpt-5.html) | [Case](https://www.caidp.org/cases/openai/)| [PDF](https://www.caidp.org/app/download/8450269463/CAIDP-FTC-Complaint-OpenAI-GPT-033023.pdf)"
+48,11njpb9,MachineLearning,GPT-4,comments,2023-03-10 08:50:32,[D] Is ML a big boys game now?,TheStartIs2019,False,0.83,179,https://www.reddit.com/r/MachineLearning/comments/11njpb9/d_is_ml_a_big_boys_game_now/,146,1678438232.0,"As much as I enjoy ML as a whole, I am a bit skeptical of the future for individuals. With OpenAI trying to monopolize the market along with Microsoft, which part remains for the small time researchers/developers?
+
+It seems everything now is just a ChatGPT wrapper, and with GPT-4 around the corner I assume itll be even more prominent.
+
+What are your thoughts?"
+49,124eyso,MachineLearning,GPT-4,comments,2023-03-28 05:57:03,[N] OpenAI may have benchmarked GPT-4’s coding ability on it’s own training data,Balance-,False,0.97,999,https://www.reddit.com/r/MachineLearning/comments/124eyso/n_openai_may_have_benchmarked_gpt4s_coding/,135,1679983023.0,"[GPT-4 and professional benchmarks: the wrong answer to the wrong question](https://aisnakeoil.substack.com/p/gpt-4-and-professional-benchmarks)
+
+*OpenAI may have tested on the training data. Besides, human benchmarks are meaningless for bots.*
+
+ **Problem 1: training data contamination**
+
+To benchmark GPT-4’s coding ability, OpenAI evaluated it on problems from Codeforces, a website that hosts coding competitions. Surprisingly, Horace He pointed out that GPT-4 solved 10/10 pre-2021 problems and 0/10 recent problems in the easy category. The training data cutoff for GPT-4 is September 2021. This strongly suggests that the model is able to memorize solutions from its training set — or at least partly memorize them, enough that it can fill in what it can’t recall.
+
+As further evidence for this hypothesis, we tested it on Codeforces problems from different times in 2021. We found that it could regularly solve problems in the easy category before September 5, but none of the problems after September 12.
+
+In fact, we can definitively show that it has memorized problems in its training set: when prompted with the title of a Codeforces problem, GPT-4 includes a link to the exact contest where the problem appears (and the round number is almost correct: it is off by one). Note that GPT-4 cannot access the Internet, so memorization is the only explanation."
+50,120guce,MachineLearning,GPT-4,comments,2023-03-24 11:00:09,"[D] I just realised: GPT-4 with image input can interpret any computer screen, any userinterface and any combination of them.",Balance-,False,0.92,447,https://www.reddit.com/r/MachineLearning/comments/120guce/d_i_just_realised_gpt4_with_image_input_can/,124,1679655609.0,"GPT-4 is a multimodal model, which specifically accepts image and text inputs, and emits text outputs. And I just realised: You can layer this over any application, or even combinations of them. You can make a screenshot tool in which you can ask question.
+
+This makes literally any current software with an GUI machine-interpretable. A multimodal language model could look at the exact same interface that you are. And thus you don't need advanced integrations anymore.
+
+Of course, a custom integration will almost always be better, since you have better acces to underlying data and commands, but the fact that it can immediately work on any program will be just insane.
+
+Just a thought I wanted to share, curious what everybody thinks."
+51,123nczy,MachineLearning,GPT-4,comments,2023-03-27 13:45:14,Approaches to add logical reasoning into LLMs [D],blatant_variable,False,0.89,114,https://www.reddit.com/r/MachineLearning/comments/123nczy/approaches_to_add_logical_reasoning_into_llms_d/,111,1679924714.0,"The more I play with GPT-4 the more I am struck by how completely illogical it is. 
+ 
+The easiest way to show this is to ask it to come up with a novel riddle and then solve it. Because you asked it to be novel, it's now out of it's training distribution and almost every time it's solution is completely wrong and full of basic logical errors.
+
+I am curious, is anyone working on fixing this at a fundamental level? Hooking it into Wolfram alpha is a useful step but surely it still needs to be intrinsically logical in order to use this tool effectively."
+52,12bc8ym,MachineLearning,GPT-4,comments,2023-04-04 07:52:12,[D] What to do in this brave new world?,FeelingFirst756,False,0.75,75,https://www.reddit.com/r/MachineLearning/comments/12bc8ym/d_what_to_do_in_this_brave_new_world/,108,1680594732.0," I am 35. Few years ago it occurred to me that my Software Engineering job might be not enough for the future. For last (5?) years, I have started to meddle in machine learning. Slowly at first, but it even motivated me to finish my masters degree and land job as reseacher in one small company. Its more ML engineering than research but why not , I though. Then last year Open AI launched GPT-4. I feel like I wasted my time. In Cental Europe, where I live, ml research is on really weak level. Pursuing PhD probably doesn't make sense. I could land some position, but I would still have to work full time to feed my famil. I would make it, but I doubt, that anyone would take me to serious research program.I can imagine, that jobs in IT will slowly evaporate. It's not realistic to starte company in this time and to be honest - i dont see myself as some kind of big founder. In short, I see my future in very pesimistic light right now. I was wondering how you deal with this new reality, maybe you can suggest something that I didn't think about before? Where you plan to go? What you plan to do?"
+53,1271po7,MachineLearning,GPT-4,comments,2023-03-30 22:40:29,[P] Introducing Vicuna: An open-source language model based on LLaMA 13B,Business-Lead2679,False,0.95,285,https://www.reddit.com/r/MachineLearning/comments/1271po7/p_introducing_vicuna_an_opensource_language_model/,107,1680216029.0,"We introduce Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B achieves more than 90%\* quality of OpenAI ChatGPT and Google Bard while outperforming other models like LLaMA and Stanford Alpaca in more than 90%\* of cases. The cost of training Vicuna-13B is around $300. The training and serving [code](https://github.com/lm-sys/FastChat), along with an online [demo](https://chat.lmsys.org/), are publicly available for non-commercial use.
+
+# Training details
+
+Vicuna is created by fine-tuning a LLaMA base model using approximately 70K user-shared conversations gathered from ShareGPT.com with public APIs. To ensure data quality, we convert the HTML back to markdown and filter out some inappropriate or low-quality samples. Additionally, we divide lengthy conversations into smaller segments that fit the model’s maximum context length.
+
+Our training recipe builds on top of [Stanford’s alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) with the following improvements.
+
+* **Memory Optimizations:** To enable Vicuna’s understanding of long context, we expand the max context length from 512 in alpaca to 2048, which substantially increases GPU memory requirements. We tackle the memory pressure by utilizing [gradient checkpointing](https://arxiv.org/abs/1604.06174) and [flash attention](https://arxiv.org/abs/2205.14135).
+* **Multi-round conversations:** We adjust the training loss to account for multi-round conversations and compute the fine-tuning loss solely on the chatbot’s output.
+* **Cost Reduction via Spot Instance:** The 40x larger dataset and 4x sequence length for training poses a considerable challenge in training expenses. We employ [SkyPilot](https://github.com/skypilot-org/skypilot) [managed spot](https://skypilot.readthedocs.io/en/latest/examples/spot-jobs.html) to reduce the cost by leveraging the cheaper spot instances with auto-recovery for preemptions and auto zone switch. This solution slashes costs for training the 7B model from $500 to around $140 and the 13B model from around $1K to $300.
+
+&#x200B;
+
+[Vicuna - Online demo](https://reddit.com/link/1271po7/video/0qsiu08kdyqa1/player)
+
+# Limitations
+
+We have noticed that, similar to other large language models, Vicuna has certain limitations. For instance, it is not good at tasks involving reasoning or mathematics, and it may have limitations in accurately identifying itself or ensuring the factual accuracy of its outputs. Additionally, it has not been sufficiently optimized to guarantee safety or mitigate potential toxicity or bias. To address the safety concerns, we use the OpenAI [moderation](https://platform.openai.com/docs/guides/moderation/overview) API to filter out inappropriate user inputs in our online demo. Nonetheless, we anticipate that Vicuna can serve as an open starting point for future research to tackle these limitations.
+
+[Relative Response Quality Assessed by GPT-4](https://preview.redd.it/1rnmhv01eyqa1.png?width=599&format=png&auto=webp&s=02b4d415b5d378851bb70e225f1b1ebce98bfd83)
+
+&#x200B;
+
+For more information, check [https://vicuna.lmsys.org/](https://vicuna.lmsys.org/)
+
+Online demo: [https://chat.lmsys.org/](https://chat.lmsys.org/)
+
+&#x200B;
+
+All credits go to the creators of this model. I did not participate in the creation of this model nor in the fine-tuning process. Usage of this model falls under a non-commercial license."
+54,13hrkbj,MachineLearning,GPT-4,comments,2023-05-15 00:00:05,[D] On LLMs' ability to perform random sampling,bgighjigftuik,False,0.91,245,https://i.redd.it/l1uyl3k3gxza1.jpg,104,1684108805.0,"To me this is the most counterintuitive thing I've yet seen from a language model. In this case it was ChatGPT (3.5, the free version); but I can see this happening in any model.
+
+Here's the prompt I used on a fresh session:
+
+""Generate 60 random numbers coming from an exponential distribution with lambda=6.4. Don't write any code""
+
+It outputs the following values:
+
+0.013, 0.078, 0.266, 0.040, 0.117, 0.283, 0.048, 0.078, 0.181, 0.134, 0.017, 0.160, 0.052, 0.196, 0.096, 0.098, 0.019, 0.048, 0.141, 0.071, 0.106, 0.023, 0.197, 0.062, 0.029, 0.072, 0.111, 0.166, 0.080, 0.027, 0.124, 0.016, 0.135, 0.052, 0.078, 0.161, 0.078, 0.139, 0.068, 0.066, 0.039, 0.056, 0.018, 0.082, 0.180, 0.086, 0.024, 0.022, 0.057, 0.042, 0.050, 0.104, 0.099, 0.062, 0.016, 0.186, 0.043, 0.085, 0.145, 0.110.
+
+I get to plot a histogram with the numbers and they are close to what I would consider an exponential distribution with such parameter (you can see the plot).
+
+Given that GPT 3.5 does not have access to a Python interpreter, how on earth is it able to do so? I have also tried other distributions and parameters and it kind of works. It's not perfect, but with normal distributions it is usually close to what scipy.stats would generate.
+
+I could understand that it can have learnt to interpret Python code to some extent, but honestly I can't find explanation for random sampling from a probability distribution. For a Normal distribution, I can tell it about the desired mean and variance, and it samples values that are more than reasonable (and close to the true mean/variance specified).
+
+Any thoughts? I honestly am unable to wrap my head around how a LLM can have the understanding on how to sample tokens (at digit level) to fit any probability distribution. To me it seems very unlikely to have similar data either the pre-training or fine-tuning stages."
+55,128lo83,MachineLearning,GPT-4,comments,2023-04-01 12:57:30,[R] [P] I generated a 30K-utterance dataset by making GPT-4 prompt two ChatGPT instances to converse.,radi-cho,False,0.96,799,https://i.redd.it/bywcz1kzs9ra1.png,104,1680353850.0,
+56,zstequ,MachineLearning,GPT-4,comments,2022-12-22 18:39:30,[D] When chatGPT stops being free: Run SOTA LLM in cloud,_underlines_,False,0.95,346,https://www.reddit.com/r/MachineLearning/comments/zstequ/d_when_chatgpt_stops_being_free_run_sota_llm_in/,95,1671734370.0,"Edit: Found [LAION-AI/OPEN-ASSISTANT](https://github.com/LAION-AI/Open-Assistant) a very promising project opensourcing the idea of chatGPT. [video here](https://www.youtube.com/watch?v=8gVYC_QX1DI)
+
+**TL;DR: I found GPU compute to be [generally cheap](https://github.com/full-stack-deep-learning/website/blob/main/docs/cloud-gpus/cloud-gpus.csv) and spot or on-demand instances can be launched on AWS for a few USD / hour up to over 100GB vRAM. So I thought it would make sense to run your own SOTA LLM like Bloomz 176B inference endpoint whenever you need it for a few questions to answer. I thought it would still make more sense than shoving money into a closed walled garden like ""not-so-OpenAi"" when they make ChatGPT or GPT-4 available for $$$. But I struggle due to lack of tutorials/resources.**
+
+Therefore, I carefully checked benchmarks, model parameters and sizes as well as training sources for all SOTA LLMs [here](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs/edit#gid=1158069878).
+
+Knowing since reading the Chinchilla paper that Model Scaling according to OpenAI was wrong and more params != better quality generation. So I was looking for the best performing LLM openly available in terms of quality and broadness to use for multilingual everyday questions/code completion/reasoning similar to what chatGPT provides (minus the fine-tuning for chat-style conversations).
+
+My choice fell on [Bloomz](https://huggingface.co/bigscience/bloomz) (because that handles multi-lingual questions well and has good zero shot performance for instructions and Q&A style text generation. Confusingly Galactica seems to outperform Bloom on several benchmarks. But since Galactica had a very narrow training set only using scientific papers, I guess usage is probably limited for answers on non-scientific topics.
+
+Therefore I tried running the original bloom 176B and alternatively also Bloomz 176B on AWS SageMaker JumpStart, which should be a one click deployment. This fails after 20min. On Azure ML, I tried using DeepSpeed-MII which also supports bloom but also fails due the instance size of max 12GB vRAM I guess.
+
+From my understanding to save costs on inference, it's probably possible to use one or multiple of the following solutions:
+
+- Precision: int8 instead of fp16
+- [Microsoft/DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) for an up 40x reduction on inference cost on Azure, this thing also supports int8 and fp16 bloom out of the box, but it fails on Azure due to instance size.
+- [facebook/xformer](https://github.com/facebookresearch/xformers) not sure, but if I remember correctly this brought inference requirements down to 4GB vRAM for StableDiffusion and DreamBooth fine-tuning to 10GB. No idea if this is usefull for Bloom(z) inference cost reduction though
+
+I have a CompSci background but I am not familiar with most stuff, except that I was running StableDiffusion since day one on my rtx3080 using linux and also doing fine-tuning with DreamBooth. But that was all just following youtube tutorials. I can't find a single post or youtube video of anyone explaining a full BLOOM / Galactica / BLOOMZ inference deployment on cloud platforms like AWS/Azure using one of the optimizations mentioned above, yet alone deployment of the raw model. :(
+
+I still can't figure it out by myself after 3 days.
+
+**TL;DR2: Trying to find likeminded people who are interested to run open source SOTA LLMs for when chatGPT will be paid or just for fun.**
+
+Any comments, inputs, rants, counter-arguments are welcome.
+
+/end of rant"
+57,123b66w,MachineLearning,GPT-4,comments,2023-03-27 04:21:36,[D]GPT-4 might be able to tell you if it hallucinated,Cool_Abbreviations_9,False,0.93,644,https://i.redd.it/ocs0x33429qa1.jpg,94,1679890896.0,
+58,11tmpc5,MachineLearning,GPT-4,comments,2023-03-17 09:59:59,[D] PyTorch 2.0 Native Flash Attention 32k Context Window,super_deap,False,0.98,351,https://www.reddit.com/r/MachineLearning/comments/11tmpc5/d_pytorch_20_native_flash_attention_32k_context/,94,1679047199.0,"Hi,
+
+I did a quick experiment with Pytorch 2.0 Native scaled\_dot\_product\_attention. I was able to a single forward pass within 9GB of memory which is astounding. I think by patching existing Pretrained GPT models and adding more positional encodings, one could easily fine-tune those models to 32k attention on a single A100 80GB. Here is the code I used:
+
+&#x200B;
+
+https://preview.redd.it/6csxe28lv9oa1.png?width=607&format=png&auto=webp&s=ff8b48a77f49fab7d088fd8ba220f720860249bc
+
+I think it should be possible to replicate even GPT-4 with open source tools something like Bloom + FlashAttention & fine-tune on 32k tokens.
+
+**Update**: I was successfully able to start the training of GPT-2 (125M) with a context size of 8k and batch size of 1 on a 16GB GPU. Since memory scaled linearly from 4k to 8k. I am expecting, 32k would require \~64GB and should train smoothly on A100 80 GB. Also, I did not do any other optimizations. Maybe 8-bit fine-tuning can further optimize it.
+
+**Update 2**: I basically picked Karpaty's nanoGPT and patched the pretrained GPT-2 by repeating the embeddings N-times. I was unable to train the model at 8k because generation would cause the crash.  So I started the training for a context window of 4k on The Pile: 1 hour in and loss seems to be going down pretty fast. Also Karpaty's generate function is super inefficient, O(n\^4) I think so it took forever to generate even 2k tokens. So I generate 1100 tokens just to see if the model is able to go beyond 1k limit. And it seems to be working. [Here are some samples](https://0bin.net/paste/O-+eopaW#nmtzX1Re7f1Nr-Otz606jkltvKk/kUXY96/8ca+tb4f) at 3k iteration.
+
+&#x200B;
+
+https://preview.redd.it/o2hb25w1sboa1.png?width=1226&format=png&auto=webp&s=bad2a1e21e218512b0f630c947ee41dba9b86a44
+
+**Update 3**: I have started the training and I am publishing the training script if anyone is interested in replicating or building upon this work. Here is the complete training script:
+
+[https://gist.github.com/NaxAlpha/1c36eaddd03ed102d24372493264694c](https://gist.github.com/NaxAlpha/1c36eaddd03ed102d24372493264694c)
+
+I will post an update after the weekend once the training has progressed somewhat.
+
+**Post-Weekend Update**: After \~50k iterations (the model has seen \~200 million tokens, I know this is just too small compared to 10s of billions trained by giga corps), loss only dropped from 4.6 to 4.2 on The Pile:
+
+https://preview.redd.it/vi0fpskhsuoa1.png?width=1210&format=png&auto=webp&s=9fccc5277d91a6400adc6d968b0f2f0ff0da2afc
+
+AFAIR, the loss of GPT-2 on the Pile if trained with 1024 tokens is \~2.8. It seems like the size of the dimension for each token is kind of limiting how much loss can go down since GPT-2 (small) has an embedding dimension of 768. Maybe someone can experiment with GPT-2 medium etc. to see how much we can improve. This is confirmation of the comment by u/lucidraisin [below](https://www.reddit.com/r/MachineLearning/comments/11tmpc5/comment/jcl2rkh/?utm_source=reddit&utm_medium=web2x&context=3)."
+59,13e1rf9,MachineLearning,GPT-4,comments,2023-05-10 20:10:30,"[D] Since Google buried the MMLU benchmark scores in the Appendix of the PALM 2 technical report, here it is vs GPT-4 and other LLMs",jd_3d,False,0.97,346,https://www.reddit.com/r/MachineLearning/comments/13e1rf9/d_since_google_buried_the_mmlu_benchmark_scores/,88,1683749430.0,"MMLU Benchmark results (all 5-shot)
+
+* GPT-4 -  86.4%
+* Flan-PaLM 2 (L) -   81.2%
+* PALM 2 (L)  -  78.3%
+* GPT-3.5 - 70.0%
+* PaLM 540B  -  69.3%
+* LLaMA 65B -  63.4%"
+60,1215dbl,MachineLearning,GPT-4,comments,2023-03-25 01:00:25,[R] Reflexion: an autonomous agent with dynamic memory and self-reflection - Noah Shinn et al 2023 Northeastern University Boston - Outperforms GPT-4 on HumanEval accuracy (0.67 --> 0.88)!,Singularian2501,False,0.91,246,https://www.reddit.com/r/MachineLearning/comments/1215dbl/r_reflexion_an_autonomous_agent_with_dynamic/,88,1679706025.0,"Paper: [https://arxiv.org/abs/2303.11366](https://arxiv.org/abs/2303.11366) 
+
+Blog: [https://nanothoughts.substack.com/p/reflecting-on-reflexion](https://nanothoughts.substack.com/p/reflecting-on-reflexion) 
+
+Github: [https://github.com/noahshinn024/reflexion-human-eval](https://github.com/noahshinn024/reflexion-human-eval) 
+
+Twitter: [https://twitter.com/johnjnay/status/1639362071807549446?s=20](https://twitter.com/johnjnay/status/1639362071807549446?s=20) 
+
+Abstract:
+
+>Recent advancements in decision-making large language model (LLM) agents have demonstrated impressive performance across various benchmarks. However, these state-of-the-art approaches typically necessitate internal model fine-tuning, external model fine-tuning, or policy optimization over a defined state space. Implementing these methods can prove challenging due to the scarcity of high-quality training data or the lack of well-defined state space. Moreover, these agents do not possess certain qualities inherent to human decision-making processes, **specifically the ability to learn from mistakes**. **Self-reflection allows humans to efficiently solve novel problems through a process of trial and error.** Building on recent research, we propose Reflexion, an approach that endows an agent with **dynamic memory and self-reflection capabilities to enhance its existing reasoning trace and task-specific action choice abilities.** To achieve full automation, we introduce a straightforward yet effective heuristic that **enables the agent to pinpoint hallucination instances, avoid repetition in action sequences, and, in some environments, construct an internal memory map of the given environment.** To assess our approach, we evaluate the agent's ability to complete decision-making tasks in AlfWorld environments and knowledge-intensive, search-based question-and-answer tasks in HotPotQA environments. We observe success rates of 97% and 51%, respectively, and provide a discussion on the emergent property of self-reflection. 
+
+https://preview.redd.it/4myf8xso9spa1.png?width=1600&format=png&auto=webp&s=4384b662f88341bb9cc72b25fed5b88f3a87ffeb
+
+https://preview.redd.it/bzupwyso9spa1.png?width=1600&format=png&auto=webp&s=b4626f34c60fe4528a04bcd241fd0c4286be20e7
+
+https://preview.redd.it/009352to9spa1.jpg?width=1185&format=pjpg&auto=webp&s=0758aafe6033d5055c4e361e2785f1195bf5c08b
+
+https://preview.redd.it/ef9ykzso9spa1.jpg?width=1074&format=pjpg&auto=webp&s=a394477210feeef69af88b34cb450d83920c3f97"
+61,12omnxo,MachineLearning,GPT-4,comments,2023-04-16 19:53:45,[R] Timeline of recent Large Language Models / Transformer Models,viktorgar,False,0.95,769,https://i.redd.it/gl11ce50xaua1.png,86,1681674825.0,
+62,11mzqxu,MachineLearning,GPT-4,comments,2023-03-09 18:30:58,"[N] GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany - heise online",Singularian2501,False,0.98,661,https://www.reddit.com/r/MachineLearning/comments/11mzqxu/n_gpt4_is_coming_next_week_and_it_will_be/,80,1678386658.0,"[https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html](https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html)
+
+>**GPT-4 is coming next week**: at an approximately one-hour hybrid information event entitled ""**AI in Focus - Digital Kickoff"" on 9 March 2023**, four Microsoft Germany employees presented Large Language Models (LLM) like GPT series as a disruptive force for companies and their Azure-OpenAI offering in detail. The kickoff event took place in the German language, news outlet Heise was present. **Rather casually, Andreas Braun, CTO Microsoft Germany** and Lead Data & AI STU, **mentioned** what he said was **the imminent release of GPT-4.** The fact that **Microsoft is fine-tuning multimodality with OpenAI should no longer have been a secret since the release of Kosmos-1 at the beginning of March.**
+
+[ Dr. Andreas Braun, CTO Microsoft Germany and Lead Data  & AI STU at the Microsoft Digital Kickoff: \\""KI im Fokus\\"" \(AI in  Focus, Screenshot\) \(Bild: Microsoft\) ](https://preview.redd.it/rnst03avarma1.jpg?width=1920&format=pjpg&auto=webp&s=c5992e2d6c6daf32e56a0a3ffeeecfe10621f73f)"
+63,129cle0,MachineLearning,GPT-4,comments,2023-04-02 06:33:30,"[P] Auto-GPT : Recursively self-debugging, self-developing, self-improving, able to write it's own code using GPT-4 and execute Python scripts",Desi___Gigachad,False,0.92,429,https://twitter.com/SigGravitas/status/1642181498278408193?s=20,75,1680417210.0,
+64,1200lgr,MachineLearning,GPT-4,comments,2023-03-23 22:56:31,"[D] ""Sparks of Artificial General Intelligence: Early experiments with GPT-4"" contained unredacted comments",QQII,False,0.93,174,https://www.reddit.com/r/MachineLearning/comments/1200lgr/d_sparks_of_artificial_general_intelligence_early/,68,1679612191.0,"Microsoft's research paper exploring the capabilities, limitations and implications of an early version of GPT-4 was [found to contain unredacted comments by an anonymous twitter user.](https://twitter.com/DV2559106965076/status/1638769434763608064) ([threadreader](https://threadreaderapp.com/thread/1638769434763608064.html), [nitter](https://nitter.lacontrevoie.fr/DV2559106965076/status/1638769434763608064), [archive.is](https://archive.is/1icMv), [archive.org](https://web.archive.org/web/20230323192314/https://twitter.com/DV2559106965076/status/1638769434763608064)) 
+
+- Commented section titled ""Toxic Content"": https://i.imgur.com/s8iNXr7.jpg
+- [`dv3` (the interval name for GPT-4)](https://pastebin.com/ZGMzgfqd)
+- [`varun`](https://pastebin.com/i9KMFcy5) 
+- [commented lines](https://pastebin.com/Aa1uqbh1)
+
+[arxiv](https://arxiv.org/abs/2303.12712), [original /r/MachineLearning thread](https://www.reddit.com/r/MachineLearning/comments/11z3ymj/r_sparks_of_artificial_general_intelligence_early), [hacker news](https://twitter.com/DV2559106965076/status/1638769434763608064)"
+65,11f29f9,MachineLearning,GPT-4,comments,2023-03-01 12:14:49,[R] ChatGPT failure increase linearly with addition on math problems,Neurosymbolic,False,0.94,244,https://www.reddit.com/r/MachineLearning/comments/11f29f9/r_chatgpt_failure_increase_linearly_with_addition/,66,1677672889.0," We did a study on ChatGPT's performance on math word problems. We found, under several conditions, its probability of failure increases linearly with the number of addition and subtraction operations - see below. This could imply that multi-step inference is a limitation. The performance also changes drastically when you restrict ChatGPT from showing its work (note the priors in the figure below, also see detailed breakdown of responses in the paper).
+
+&#x200B;
+
+[Math problems adds and subs vs. ChatGPT prob. of failure](https://preview.redd.it/z88ey3n6d4la1.png?width=1451&format=png&auto=webp&s=6da125b7a7cd60022ca70cd26434af6872a50d12)
+
+ChatGPT Probability of Failure increase with addition and subtraction operations.
+
+You the paper (preprint: [https://arxiv.org/abs/2302.13814](https://arxiv.org/abs/2302.13814)) will be presented at AAAI-MAKE next month. You can also check out our video here: [https://www.youtube.com/watch?v=vD-YSTLKRC8](https://www.youtube.com/watch?v=vD-YSTLKRC8)
+
+&#x200B;
+
+https://preview.redd.it/k58sbjd5d4la1.png?width=1264&format=png&auto=webp&s=5261923a2689201f905a26f06c6b5e9bac2fead6"
+66,12pqqg6,MachineLearning,GPT-4,comments,2023-04-17 17:54:43,[Discussion] Translation of Japanese to English using GPT. These are my discoveries after ~100 hours of extensive experimentation and ways I think it can be improved.,NepNep_,False,0.9,310,https://www.reddit.com/r/MachineLearning/comments/12pqqg6/discussion_translation_of_japanese_to_english/,62,1681754083.0,"Hello. I am currently experimenting with the viability of LLM models for Japanese to English translation. I've been experimenting with GPT 3.5, GPT 3.5 utilizing the DAN protocols, and GPT 4 for this project for around 3 months now with very promising results and I think I've identified several limitations with GPT that if addressed can significantly improve the efficiency and quality of translations.
+
+&#x200B;
+
+The project I'm working on is attempting to translate a light novel series from japanese to english. During these tests I did a deep dive, asking GPT how it is attempting the translations and asking it to modify its translation methodology through various means (I am considering doing a long video outlining all this and showing off the prompts and responses at a later date). Notably this includes asking it to utilize its understanding of the series its translating from its training knowledge to aide in the translation, and providing it with a ""seed"" translation. Basically the seed is a side by side japanese and english translation to show GPT what I'm looking for in terms of grammar and formatting. The english translation notably is a human translation, not a machine translation. The results from these tests provided SIGNIFICANT improvements to the final translation, so significant in fact that a large portion of the text could reasonably be assumed to be human-translated.
+
+&#x200B;
+
+Link to the project I'm working on so you can see my documentation and results: [https://docs.google.com/document/d/1MxKiE-q36RdT\_Du5K1PLdyD7Vru9lcf6S60uymBb10g/edit?usp=sharing](https://docs.google.com/document/d/1MxKiE-q36RdT_Du5K1PLdyD7Vru9lcf6S60uymBb10g/edit?usp=sharing)
+
+&#x200B;
+
+I've probably done around 50-100 hours of extensive testing with translation and methodology over the past 2-3 months. Over that time I've discovered the following:
+
+1. Both GPT3 and GPT4 are significant improvements over traditional translation services such as google or deepl. This may be because Japanese and English are very different languages in how they are written and how their grammar works so prior translation services simply did a direct translation while GPT is capable of understanding the text and rewriting it to account for that. For example in japanese, there are no pronouns like ""he"" and ""her"" so a person's gender might not be clear from the sentence alone. Google Translate and DeepL typically just take a 50/50 guess, while GPT from my experience has been much more capable in getting this right based on understanding the larger context from the paragraph.
+2. GPT has a tendency to censor text deliberately if it feels the translation may offend people. This isn't just for things that are blatantly offensive like slurs, it also includes mild sexual content, the kind that is typically approved for teen viewing/reading. The biggest problem is that it doesn't tell you it is censoring anything unless you ask it, meaning everything else may be a solid translation yet it may censor information which can ultimately hurt the translation, especially for story related translations like in my tests. These restrictions can be bypassed with correct prompting. I've had luck using GPT 3's DAN protocols however DAN's translations arent as strong as GPT 4, and I've had luck with GPT 4 by framing the translation as a game with extreme win and loss conditions and telling it that if it censors the translation, it may offend the author of the content since people in japan hold different values from our own.
+3. GPT puts too high a focus on accuracy even if instructed not to. This is a good thing to a degree since outside of censorship you know the translation is accurate, however even when explicitly told to put maximum emphasis on readability, even if it hurts the accuracy, and it is allowed to rewrite sentences from the ground up to aide readability, it still puts too strong an emphasis on accuracy. I have determined this through testing that for some reason it is ignoring the request to focus on readability and will still maximize accuracy. The best way I've found to fix this issue is through demonstration, specifically the ""seed"" I mentioned earlier. By giving it a japanese and english translation of the same work but earlier in the story, it then understands how to put more emphasis on readability. The results is something that is 95% within the range of accuracy a professional translator would use while much easier to read.
+4. GPT's biggest limitation is the fact that it ""forgets"" the seed way too quickly, usually within a few prompts. I've done testing with its data retention and it appears that if you give it too much information to remember at once it slowly bugs out. With GPT 3 its a hard crash type bug where it just spews nonsense unrelated to your request, however GPT 4 can remember a lot more information and will hard crash if you give it too much info but otherwise builds up errors slowly as you give it more info. I initially believed that there were issues with the token count, but further testing shows that the GPT model simply isn't optimized for this method of translation and a new or reworked model that you can give a seed and it will remember it longer would be better. The seed is one of the best tools for improving its performance
+
+Next steps:
+
+I would like to try to either create my own model or modify an existing one to optimize it for translation. If any1 knows any tools or guides I'd appreciate it."
+67,12shf18,MachineLearning,GPT-4,comments,2023-04-20 01:30:47,[D] GPT-3T: Can we train language models to think further ahead?,landongarrison,False,0.91,115,https://www.reddit.com/r/MachineLearning/comments/12shf18/d_gpt3t_can_we_train_language_models_to_think/,62,1681954247.0,"In a recent talk done by Sebastian Bubeck called “Sparks of AGI: Early experiments done with GPT-4”, Sebastian mentioned on thing in his presentation that caught my attention (paraphrased quote):
+
+> “GPT-4 cannot plan, but this might be a limitation because it can only look one token into the future”
+
+While very simple on the surface, this may actually be very true: what if we are training our language models to be very shallow thinkers and not actually look far enough ahead? Could single token prediction actually be a fundamental flaw?
+
+In this repo, I try a very early experiment called GPT-3T, a model that predicts 3 tokens ahead at one time step. While incredibly simple on the surface, this could potentially be one way to overcome the planning issue that you find in GPTs. Forcing an autoregressive model to predict further ahead at scale *may* bring out much more interesting emergent behaviours than what we’ve seen in single token GPTs.
+
+__
+
+**Experiments**
+
+My personal experiments are overall inconclusive on either side: I have only pre-trained a very small model (300 million params on WebText-10K) and it achieves a decent ability to generate text. However as you can see, this model heavily under optimized but I do not have the resources to carry this out further.
+
+If anyone would like to try this experiment with more scale, I would love to get an answer to this question to improve upon this model. This repo is intended to allow anyone who would like to pre-train a GPT-3T model easily to run this experiment. From what I have seen, this has not been tried before and I am very curious to see results.
+
+__
+
+**Edit:** GitHub repo is buried in the comments (sorry this post will be taken down if I include it in the main post)"
+68,13dk32o,MachineLearning,GPT-4,comments,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.5,0,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+69,zn0juq,MachineLearning,GPT-4,comments,2022-12-15 23:57:18,[P] Medical question-answering without hallucinating,tmblweeds,False,0.94,177,https://www.reddit.com/r/MachineLearning/comments/zn0juq/p_medical_questionanswering_without_hallucinating/,50,1671148638.0,"**tl;dr**I built a site that uses GPT-3.5 to answer natural-language medical questions using peer-reviewed medical studies.
+
+**Live demo:** [**https://www.glaciermd.com/search**](https://www.glaciermd.com/search?utm_campaign=reddit_post_1)
+
+**Background**
+
+I've been working for a while on building a better version of WebMD, and I recently started playing around with LLMs, trying to figure out if there was anything useful there.
+
+The problem with the current batch of ""predict-next-token"" LLMs is that they hallucinate—you can ask ChatGPT to answer medical questions, but it'll either
+
+1. Refuse to answer (not great)
+2. Give a completely false answer (really super bad)
+
+So I spent some time trying to coax these LLMs to give answers based on a very specific set of inputs (peer-reviewed medical research) to see if I could get more accurate answers. And I did!
+
+The best part is you can actually trace the final answer back to the original sources, which will hopefully instill some confidence in the result.
+
+Here's how it works:
+
+1. User types in a question
+2. Pull top \~800 studies from Semantic Scholar and Pubmed
+3. Re-rank using `sentence-transformers/multi-qa-MiniLM-L6-cos-v1`
+4. Ask `text-davinci-003` to answer the question based on the top 10 studies (if possible)
+5. Summarize those answers using `text-davinci-003`
+
+Would love to hear what people think (and if there's a better/cheaper way to do it!).
+
+\---
+
+**UPDATE 1:** So far the #1 piece of feedback has been that I should be *way* more explicit about the fact that this is a proof-of-concept and not meant to be taken seriously. To that end, I've just added a screen that explains this and requires you to acknowledge it before continuing.
+
+&#x200B;
+
+https://preview.redd.it/jrt0yv3rfb6a1.png?width=582&format=png&auto=webp&s=38021decdfc7ed4bc3fe8caacaee2d09cd9b541e
+
+Thoughts?
+
+**Update 2:** Welp that's all the $$$ I have to spend on OpenAI credits, so the full demo isn't running anymore. But you can still follow the link above and browse existing questions/answers. Thanks for all the great feedback!"
+70,1027geh,MachineLearning,GPT-4,comments,2023-01-03 12:53:26,[R] Massive Language Models Can Be Accurately Pruned in One-Shot,starstruckmon,False,0.99,162,https://www.reddit.com/r/MachineLearning/comments/1027geh/r_massive_language_models_can_be_accurately/,50,1672750406.0,"Paper : [https://arxiv.org/abs/2301.00774](https://arxiv.org/abs/2301.00774)
+
+Abstract :
+
+>We show for the first time that large-scale generative pretrained transformer (GPT) family models can be pruned to at least 50% sparsity in one-shot, without any retraining, at minimal loss of accuracy. This is achieved via a new pruning method called SparseGPT, specifically designed to work efficiently and accurately on massive GPT-family models. When executing SparseGPT on the largest available open-source models, OPT-175B and BLOOM-176B, we can reach 60% sparsity with negligible increase in perplexity: remarkably, more than 100 billion weights from these models can be ignored at inference time. SparseGPT generalizes to semi-structured (2:4 and 4:8) patterns, and is compatible with weight quantization approaches."
+71,11z7r4c,MachineLearning,GPT-4,comments,2023-03-23 03:47:26,[P] GPT-4 powered full stack web development with no manual coding,CryptoSpecialAgent,False,0.89,160,https://www.reddit.com/r/MachineLearning/comments/11z7r4c/p_gpt4_powered_full_stack_web_development_with_no/,50,1679543246.0,"[https://www.youtube.com/watch?v=lZj63vjueeU](https://www.youtube.com/watch?v=lZj63vjueeU)
+
+What do you all think of this approach to full stack gpt-assisted web development? In a sense its no code because the human user does not write or even edit the code - but in a sense its the opposite, because only an experienced web developer or at least a product manager would know how to instruct GPT in a useful manner.
+
+\*\*\* We are seeking donations to ensure this project continues and, quite literally, keep the lights on. Cryptos, cash, cards, openai access tokens with free credits, hardware, cloud GPUs, etc... all is appreciated. Please DM to support this really cool open source project \*\*\*
+
+PS. I'm the injured engineer who made this thing out of necessity, because i injured my wrist building an AI platform that's become way too big for one engineer to maintain. So AMA :)"
+72,1295muh,MachineLearning,GPT-4,comments,2023-04-02 01:25:14,[P] I built a sarcastic robot using GPT-4,g-levine,False,0.95,324,https://youtu.be/PgT8tPChbqc,48,1680398714.0,
+73,11ypgcf,MachineLearning,GPT-4,comments,2023-03-22 17:08:16,[N] [D] GitHub Copilot X Announced,radi-cho,False,0.97,105,https://www.reddit.com/r/MachineLearning/comments/11ypgcf/n_d_github_copilot_x_announced/,38,1679504896.0,"Website: [https://github.com/features/preview/copilot-x](https://github.com/features/preview/copilot-x)  
+Announcement video: [https://www.youtube.com/watch?v=4RfD5JiXt3A](https://www.youtube.com/watch?v=4RfD5JiXt3A)
+
+What do you think?
+
+Also, here are some other open-source GitHub projects and product integrations of GPT-4: [https://github.com/radi-cho/awesome-gpt4](https://github.com/radi-cho/awesome-gpt4). Feel free to contribute to that list."
+74,11f9k5g,MachineLearning,GPT-4,comments,2023-03-01 17:23:03,"[P] ChatRWKV v2 (can run RWKV 14B with 3G VRAM), RWKV pip package, and finetuning to ctx16K",bo_peng,False,0.98,95,https://www.reddit.com/r/MachineLearning/comments/11f9k5g/p_chatrwkv_v2_can_run_rwkv_14b_with_3g_vram_rwkv/,37,1677691383.0,"Hi everyone. Now ChatRWKV v2 can split RWKV to multiple GPUs, or stream layers (compute layer-by-layer), so you can run RWKV 14B with as few as 3G VRAM. [https://github.com/BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV)
+
+Example:
+
+`'cuda:0 fp16 *10 -> cuda:1 fp16 *8 -> cpu fp32'` = first 10 layers on cuda:0 fp16, then 8 layers on cuda:1 fp16, then on cpu fp32
+
+`'cuda fp16 *20+'` = first 20 layers on cuda fp16, then stream the rest on it
+
+And RWKV is now a pip package: [https://pypi.org/project/rwkv/](https://pypi.org/project/rwkv/)
+
+    os.environ['RWKV_JIT_ON'] = '1'
+    os.environ[""RWKV_CUDA_ON""] = '0' # if '1' then compile CUDA kernel for seq mode (much faster)
+    from rwkv.model import RWKV
+    from rwkv.utils import PIPELINE, PIPELINE_ARGS
+    pipeline = PIPELINE(model, ""20B_tokenizer.json"") # find it in https://github.com/BlinkDL/ChatRWKV
+    # download models: https://huggingface.co/BlinkDL
+    model = RWKV(model='/fsx/BlinkDL/HF-MODEL/rwkv-4-pile-169m/RWKV-4-Pile-169M-20220807-8023', strategy='cpu fp32')
+    ctx = ""\nIn a shocking finding, scientist discovered a herd of dragons living in a remote, previously unexplored valley, in Tibet. Even more surprising to the researchers was the fact that the dragons spoke perfect Chinese.""
+    print(ctx, end='')
+    def my_print(s):
+        print(s, end='', flush=True)
+    # For alpha_frequency and alpha_presence, see ""Frequency and presence penalties"":
+    # https://platform.openai.com/docs/api-reference/parameter-details
+    args = PIPELINE_ARGS(temperature = 1.0, top_p = 0.7,
+        alpha_frequency = 0.25,
+        alpha_presence = 0.25,
+        token_ban = [0], # ban the generation of some tokens
+        token_stop = []) # stop generation whenever you see any token here
+    pipeline.generate(ctx, token_count=512, args=args, callback=my_print)
+
+Right now all RWKV models are still trained with GPT-like method, so they are limited by the ctxlen used in training, even though in theory they should have almost infinite ctxlen (because they are RNNs). However RWKV models can be easily finetuned to support longer ctxlens (and large models actually use the ctxlen). I have finetuned 1B5/3B/7B/14B to ctx4K, and now finetuning 7B/14B to ctx8K, and 14B to ctx16K after that :) All models are available at [https://huggingface.co/BlinkDL](https://huggingface.co/BlinkDL)
+
+The core RWKV is still mostly an one-man project, but a number of great developers are building on top of it, and you are welcome to join our community :)"
+75,11yzsz6,MachineLearning,GPT-4,comments,2023-03-22 22:50:38,[R] Introducing SIFT: A New Family of Sparse Iso-FLOP Transformations to Improve the Accuracy of Computer Vision and Language Models,CS-fan-101,False,0.93,79,https://www.reddit.com/r/MachineLearning/comments/11yzsz6/r_introducing_sift_a_new_family_of_sparse_isoflop/,34,1679525438.0,"**Note #2:** We are revising the name to Sparse-IFT. We appreciate the candid feedback and look forward to hearing any additional feedback you have on our research.
+
+**Note**: Thank you r/MachineLearning for providing so many awesome naming alternatives! We'll revisit the acronym and update accordingly.
+
+We are excited to announce the availability of our [paper on arxiv](https://arxiv.org/abs/2303.11525) on Sparse Iso-FLOP Transformations (Sparse-IFT), which increases accuracy and maintains the same FLOPs as the dense model using sparsity. In this research, we replace dense layers with Sparse-IFT and significantly improve computer vision and natural language processing tasks without modifying training hyperparameters
+
+Some of the highlights of this work include ResNet-18 on ImageNet achieving a 3.5% accuracy improvement and GPT-3 Small on WikiText-103 reducing perplexity by 0.4, both matching larger dense model variants that have 2x or more FLOPs.
+
+Sparse-IFT is simple to use, provides a larger search space to find optimal sparse masks, and is parameterized by a single hyperparameter - the sparsity level.
+
+This is independent of the research we [posted](https://www.reddit.com/r/MachineLearning/comments/11xskuk/r_spdf_sparse_pretraining_and_dense_finetuning/) yesterday, which demonstrates the ability to reduce pre-training FLOPs while maintaining accuracy on downstream tasks.
+
+This is the first work (that we know of!) to demonstrate the use of sparsity for improving the accuracy of models via a set of sparse transformations.
+
+https://preview.redd.it/qznj00gex6qa1.jpg?width=3536&format=pjpg&auto=webp&s=4e44a316ae61b821b31f2bf3af9a8ed1226e525c"
+76,11romcb,MachineLearning,GPT-4,comments,2023-03-15 06:51:45,[D] GPT-4 Speculation,super_deap,False,0.96,71,https://www.reddit.com/r/MachineLearning/comments/11romcb/d_gpt4_speculation/,33,1678863105.0,"Hi,
+
+Since GPT-4 paper does not contain any information about architectures/parameters, as a research or ML practitioner, I want to speculate on what they did to increase the context window to 32k.
+
+Because for the type of work I do, a 4k or 8k token limit is pretty much useless. I have seen open-source efforts focused more on matching the number of parameters and quality to the closed-source ones but completely ignoring a giant elephant in the room, i.e., the context window. No OSS model has a context window greater than 2k tokens.
+
+I would love to hear more thoughts on the model size (my guess is \~50 B) and how they fit 32k tokens in 8xH100 (640 GB total) GPUs."
+77,11zi0km,MachineLearning,GPT-4,comments,2023-03-23 11:53:59,[D] [R] GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models,radi-cho,False,0.87,52,https://www.reddit.com/r/MachineLearning/comments/11zi0km/d_r_gpts_are_gpts_an_early_look_at_the_labor/,32,1679572439.0,"A paper was released by OpenAI, OpenResearch & UPenn titled ""GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models.""Link: [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)
+
+Abstract: We investigate the potential implications of Generative Pre-trained Transformer (GPT) models and related technologies on the U.S. labor market. Using a new rubric, we assess occupations based on their correspondence with GPT capabilities, incorporating both human expertise and classifications from GPT-4. Our findings indicate that approximately 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of GPTs, while around 19% of workers may see at least 50% of their tasks impacted. The influence spans all wage levels, with higher-income jobs potentially facing greater exposure. Notably, the impact is not limited to industries with higher recent productivity growth. We conclude that Generative Pre-trained Transformers exhibit characteristics of general-purpose technologies (GPTs), suggesting that these models could have notable economic, social, and policy implications.
+
+What do you think about the societal and economic impacts of LLMs?
+
+Also, I've started an open-source repository to track projects and research papers about GPT-4: [https://github.com/radi-cho/awesome-gpt4](https://github.com/radi-cho/awesome-gpt4). There are some related papers listed already. I would greatly appreciate your contributions."
+78,12avdpv,MachineLearning,GPT-4,comments,2023-04-03 19:43:02,[D] Can LLMs accelerate scientific research?,Trackest,False,0.7,18,https://www.reddit.com/r/MachineLearning/comments/12avdpv/d_can_llms_accelerate_scientific_research/,30,1680550982.0,"A key part of the AGI -> singularity hypothesis is that a sufficiently intelligent agent can help improve itself and make itself more intelligent. In order for current LLMs (a bunch of frozen matrices that only change during human-led training) to self-improve, they would have to be able to contribute to basic AI research.
+
+Currently GPT-4 is a very useful article summarizer and helps speed up routine coding tasks. These functions might help a research team like OpenAI do experiments more efficiently and review potential ideas from literature more rapidly. However, can LLMs do more to help its own self-improvement? I don't think GPT-4 has reached the point where it can suggest novel directions for the OpenAI team to try, or design potential architecture changes to itself yet.
+
+For example, to think of and implement novel ideas like the [transformer in 2017](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) probably required
+
+* thorough, up-to-date knowledge of progress in the AI field
+* many iterations of experimental trial, analysis of results, and designing new trials
+* creativity when combining information from the above two sources to design a novel architecture
+
+We know that LLMs retain knowledge of research papers and experiments, and have some form of [emergent logical reasoning](https://arxiv.org/abs/2303.12712). Recent methods like [Chain-of-Thought](https://arxiv.org/abs/2201.11903) and [Reflexion](https://arxiv.org/abs/2303.11366) also show that GPT-4 can reflect on mistakes, which holds potential for LLMs to lead research. However, from the responses I have seen from GPT-4 so far, I doubt the LLM could suggest a totally novel idea that could be better than what someone like Ilya Sutskever could think of. 
+
+So is there potential for somehow fine-tuning the current GPT-4 model specifically for research analysis? Can a LLM potentially improve its own design and create a better architecture for itself? 
+
+One suggestion perhaps using the same process for alignment to fine-tune the model specifically for research. We know that RLHF can (somewhat) align language models to human morals, effectively optimizing LLMs towards an abstract goal beyond simple next-token prediction. Maybe we can apply RLHF towards ""next-research"" prediction, where the LLM tries to predict the most optimal or promising research directions given previous literature and experiment results? 
+
+If the model must predict future research directions when it only knows the state of AI research during 2021, we could grade the model's responses based on how close they are to actual high-impact papers in 2022. If we do this for other STEM fields as well, is it possible for a LLM to learn how to predict fruitful research directions? Of course this might be a super-small dataset, so prediction of creative ideas in fields outside of research (like how successful a given start-up idea will be) could also be possible.
+
+What do you guys think?
+
+**TL;DR: GPT-4 is good at summary and basic coding. It can also analyze mistakes. Can we fine-tune it to be good at coming up with creative and promising research ideas? If so, maybe it can complement researchers or even lead its own research team to improve itself!**"
+79,123b4f0,MachineLearning,GPT-4,comments,2023-03-27 04:19:33,[D] Will prompting the LLM to review it's own answer be any helpful to reduce chances of hallucinations? I tested couple of tricky questions and it seems it might work.,tamilupk,False,0.87,48,https://i.redd.it/n77jd7fpj7qa1.png,29,1679890773.0,
+80,130e31o,MachineLearning,GPT-4,comments,2023-04-27 08:20:26,[P] Godot+RWKV standalone prebuilt binary (ubuntu/nvidia),hazardous1222,False,0.96,180,https://www.reddit.com/r/MachineLearning/comments/130e31o/p_godotrwkv_standalone_prebuilt_binary/,29,1682583626.0,"# RWKV+Godot
+
+## What
+
+### Godot 
+
+The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.
+
+### RWKV
+
+RWKV is an RNN with Transformer-level LLM performance, which can also be directly trained like a GPT transformer (parallelizable). And it's 100% attention-free. You only need the hidden state at position t to compute the state at position t+1.
+
+### RWKV-CPP-CUDA
+
+RWKV-CPP-CUDA is a c++/cuda library I created that implements the RWKV inference code in pure cuda. This allows for compiled code with no torch or python dependencies, while allowing the full use of GPU acceleration.
+The code implements 8bit inference, allowing for quick and light inference.
+
+### Godot+RWKV
+
+Godot+RWKV is a Godot module that I developed using RWKV-CPP-CUDA, and allows the development of games and programs using RWKV to be developed and distributed using godot, without the need to install complex environments and libraries, for both developers and consumers.
+
+## Why
+
+* I felt I could achieve it
+* Its something thats needed to advance the use of AI in consumer devices
+* The lols
+* Attention, because I didnt get much growing up, and RWKV has none
+* ADHD hyperfocus
+
+## Where
+
+[Module Repository](https://github.com/harrisonvanderbyl/godot-rwkv)
+
+[RWKV standalone c++/cuda library](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda)
+
+[Prebuilt Godot Executable](https://github.com/harrisonvanderbyl/godot-rwkv/actions/runs/4816463552)
+
+[Model Converter](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda/tree/main/converter)
+
+[Tokenizer Files](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda/tree/main/include/rwkv/tokenizer/vocab)
+
+[Unconverted Models : 14/7/3/1.5B finetuned on all your favorite instruct datasets, in both chinese and english](https://huggingface.co/BlinkDL/rwkv-4-raven/tree/main)
+
+[Your Will To Live](https://i.redd.it/b39ai2k1acwa1.jpg)
+
+[Rick Astley](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+## How
+
+* Download a model (preconverted models pending)
+* Convert the model (requires torch to pack tensors into raw binary)
+* Download the tokenizer files
+* Create a game in godot
+* Distribute the game
+* Profit
+
+Example Code:
+
+```python
+extends Node2D
+var zrkv = GodotRWKV.new()
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	zrkv.loadModel(""/path/to/model.bin"")
+	zrkv.loadTokenizer(""/path/to/folder/with/vocab/"")
+	zrkv.loadContext(""Hello, my name is Nathan, and I have been trying to reach you about your cars extended warrenty."")
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	# number of tokens to generate, temperature, tau
+	print(zrkv.forward(5,0.9,0.7))
+```
+
+## When
+
+* Pls submit PRs if you want them sooner
+
+Soon:
+
+* Windows support (Just needs some scons magic)
+* AMD Support (Just needs some HIPify magic)
+* CPU mode (Just needs some ggml)
+* CPU offload (needs ggml and effort)
+* Preconverted models
+
+Later:
+
+* INT4"
+81,12rn33g,MachineLearning,GPT-4,comments,2023-04-19 09:21:07,[P] LoopGPT: A Modular Auto-GPT Framework,farizrahman4u,False,0.91,99,https://www.reddit.com/r/MachineLearning/comments/12rn33g/p_loopgpt_a_modular_autogpt_framework/,26,1681896067.0," 
+
+[https://github.com/farizrahman4u/loopgpt](https://github.com/farizrahman4u/loopgpt)
+
+&#x200B;
+
+LoopGPT is a re-implementation of the popular [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) project as a proper python package, written with modularity and extensibility in mind.
+
+## Features 
+
+* **""Plug N Play"" API** \- Extensible and modular ""Pythonic"" framework, not just a command line tool. Easy to add new features, integrations and custom agent capabilities, all from python code, no nasty config files!
+* **GPT 3.5 friendly** \- Better results than Auto-GPT for those who don't have GPT-4 access yet!
+* **Minimal prompt overhead** \- Every token counts. We are continuously working on getting the best results with the least possible number of tokens.
+* **Human in the Loop** \- Ability to ""course correct"" agents who go astray via human feedback.
+* **Full state serialization** \- Pick up where you left off; L♾️pGPT can save the complete state of an agent, including memory and the states of its tools to a file or python object. No external databases or vector stores required (but they are still supported)!"
+82,12qe5hm,MachineLearning,GPT-4,comments,2023-04-18 07:00:45,"[D] Microsoft Research paper - ""Sparks of Artificial General Intelligence: Early experiments with GPT-4"". Can we talk about the Unicorn 🦄?",RuairiSpain,False,0.47,0,https://www.reddit.com/r/MachineLearning/comments/12qe5hm/d_microsoft_research_paper_sparks_of_artificial/,24,1681801245.0,"Microsoft Research were experimenting with early versions of GPT4, before it was toned down for safety, in late 2022 while in internal Beta release. 
+
+GPT4 is not just predicting syntax and word semantics. It seems to do higher level reasoning about some concepts and tasks. 
+
+Have a look at its attempt to draw a unicorn in LaTeX: https://arxiv.org/pdf/2303.12712.pdf
+
+The video is worth a watch if you don't want to read 130 page PDF https://youtu.be/qbIk7-JPB2c.  Or ask ChatGPT to summarise it for you 🤣
+
+In particular, the thing that changed my mind about higher level reasoning was it's ability to draw in a tool (latex) it had never seen before. 
+
+And I was bowled over when it was asked to draw the horn on a unicorn, when it was missing the horn. It might seem a fairly small thing, but it figured out from a really abstract/minimalist set of shapes, the antonyms of a unicorn and drew the unicorn on the head of the horse. 🐴🦄. That means it knows what makes a unicorn special and the horn should be on the head, and it can infer the abstract shape and figure out where the head is located.
+
+This inference is way beyond a ""word predictor"" that sceptics are saying about it's ""intelligent"" abilities.
+
+One thing people ignore is that the GPT engine is made up of hundred of layers of attention logic. The lower layers are dealing with words, syntax, parts of speech, word semantics. But as you go higher up the deep neutral network, it is building more and more layers of knowledge about the datasets it was trained on. Somewhere in those layers it's knows about unicorns and about abstract drawing interpretation.
+
+Dig into the architect of LLMs and you'll see that it's a deep neural network and the depth is encoding some real world concepts from it's training data. 
+
+Sure it hallucinates but that's a bug in the system and it's year 5 of Openai and LLMs. I see the weaknesses being trained out in the future."
+83,12yqhmo,MachineLearning,GPT-4,comments,2023-04-25 17:45:33,"[N] Microsoft Releases SynapseMl v0.11 with support for ChatGPT, GPT-4, Causal Learning, and More",mhamilton723,False,0.95,235,https://www.reddit.com/r/MachineLearning/comments/12yqhmo/n_microsoft_releases_synapseml_v011_with_support/,22,1682444733.0,"Today Microsoft launched SynapseML v0.11, an open-source library designed to make it easy to create distributed ml systems. SynapseML v0.11 introduces support for ChatGPT, GPT-4, distributed training of huggingface and torchvision models, an ONNX Model hub integration, Causal Learning with EconML, 10x memory reductions for LightGBM, and a newly refactored integration with Vowpal Wabbit. To learn more:
+
+Release Notes: [https://github.com/microsoft/SynapseML/releases/tag/v0.11.0](https://github.com/microsoft/SynapseML/releases/tag/v0.11.0)
+
+Blog: [https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919)
+
+Thank you to all the contributors in the community who made the release possible!
+
+&#x200B;
+
+https://preview.redd.it/kobq2t1gi2wa1.png?width=4125&format=png&auto=webp&s=125f63b63273191a58833ced87f17cb108e4c1ee"
+84,11z3ymj,MachineLearning,GPT-4,relevance,2023-03-23 01:19:13,[R] Sparks of Artificial General Intelligence: Early experiments with GPT-4,SWAYYqq,False,0.93,550,https://www.reddit.com/r/MachineLearning/comments/11z3ymj/r_sparks_of_artificial_general_intelligence_early/,357,1679534353.0,"[New paper](https://arxiv.org/abs/2303.12712) by MSR researchers analyzing an early (and less constrained) version of GPT-4. Spicy quote from the abstract:
+
+""Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.""
+
+What are everyone's thoughts?"
+85,128lo83,MachineLearning,GPT-4,relevance,2023-04-01 12:57:30,[R] [P] I generated a 30K-utterance dataset by making GPT-4 prompt two ChatGPT instances to converse.,radi-cho,False,0.96,804,https://i.redd.it/bywcz1kzs9ra1.png,104,1680353850.0,
+86,1295muh,MachineLearning,GPT-4,relevance,2023-04-02 01:25:14,[P] I built a sarcastic robot using GPT-4,g-levine,False,0.95,326,https://youtu.be/PgT8tPChbqc,48,1680398714.0,
+87,11mzqxu,MachineLearning,GPT-4,relevance,2023-03-09 18:30:58,"[N] GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany - heise online",Singularian2501,False,0.98,664,https://www.reddit.com/r/MachineLearning/comments/11mzqxu/n_gpt4_is_coming_next_week_and_it_will_be/,80,1678386658.0,"[https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html](https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html)
+
+>**GPT-4 is coming next week**: at an approximately one-hour hybrid information event entitled ""**AI in Focus - Digital Kickoff"" on 9 March 2023**, four Microsoft Germany employees presented Large Language Models (LLM) like GPT series as a disruptive force for companies and their Azure-OpenAI offering in detail. The kickoff event took place in the German language, news outlet Heise was present. **Rather casually, Andreas Braun, CTO Microsoft Germany** and Lead Data & AI STU, **mentioned** what he said was **the imminent release of GPT-4.** The fact that **Microsoft is fine-tuning multimodality with OpenAI should no longer have been a secret since the release of Kosmos-1 at the beginning of March.**
+
+[ Dr. Andreas Braun, CTO Microsoft Germany and Lead Data  & AI STU at the Microsoft Digital Kickoff: \\""KI im Fokus\\"" \(AI in  Focus, Screenshot\) \(Bild: Microsoft\) ](https://preview.redd.it/rnst03avarma1.jpg?width=1920&format=pjpg&auto=webp&s=c5992e2d6c6daf32e56a0a3ffeeecfe10621f73f)"
+88,11romcb,MachineLearning,GPT-4,relevance,2023-03-15 06:51:45,[D] GPT-4 Speculation,super_deap,False,0.96,71,https://www.reddit.com/r/MachineLearning/comments/11romcb/d_gpt4_speculation/,33,1678863105.0,"Hi,
+
+Since GPT-4 paper does not contain any information about architectures/parameters, as a research or ML practitioner, I want to speculate on what they did to increase the context window to 32k.
+
+Because for the type of work I do, a 4k or 8k token limit is pretty much useless. I have seen open-source efforts focused more on matching the number of parameters and quality to the closed-source ones but completely ignoring a giant elephant in the room, i.e., the context window. No OSS model has a context window greater than 2k tokens.
+
+I would love to hear more thoughts on the model size (my guess is \~50 B) and how they fit 32k tokens in 8xH100 (640 GB total) GPUs."
+89,120guce,MachineLearning,GPT-4,relevance,2023-03-24 11:00:09,"[D] I just realised: GPT-4 with image input can interpret any computer screen, any userinterface and any combination of them.",Balance-,False,0.92,442,https://www.reddit.com/r/MachineLearning/comments/120guce/d_i_just_realised_gpt4_with_image_input_can/,124,1679655609.0,"GPT-4 is a multimodal model, which specifically accepts image and text inputs, and emits text outputs. And I just realised: You can layer this over any application, or even combinations of them. You can make a screenshot tool in which you can ask question.
+
+This makes literally any current software with an GUI machine-interpretable. A multimodal language model could look at the exact same interface that you are. And thus you don't need advanced integrations anymore.
+
+Of course, a custom integration will almost always be better, since you have better acces to underlying data and commands, but the fact that it can immediately work on any program will be just insane.
+
+Just a thought I wanted to share, curious what everybody thinks."
+90,129cle0,MachineLearning,GPT-4,relevance,2023-04-02 06:33:30,"[P] Auto-GPT : Recursively self-debugging, self-developing, self-improving, able to write it's own code using GPT-4 and execute Python scripts",Desi___Gigachad,False,0.92,425,https://twitter.com/SigGravitas/status/1642181498278408193?s=20,75,1680417210.0,
+91,11z7r4c,MachineLearning,GPT-4,relevance,2023-03-23 03:47:26,[P] GPT-4 powered full stack web development with no manual coding,CryptoSpecialAgent,False,0.89,155,https://www.reddit.com/r/MachineLearning/comments/11z7r4c/p_gpt4_powered_full_stack_web_development_with_no/,50,1679543246.0,"[https://www.youtube.com/watch?v=lZj63vjueeU](https://www.youtube.com/watch?v=lZj63vjueeU)
+
+What do you all think of this approach to full stack gpt-assisted web development? In a sense its no code because the human user does not write or even edit the code - but in a sense its the opposite, because only an experienced web developer or at least a product manager would know how to instruct GPT in a useful manner.
+
+\*\*\* We are seeking donations to ensure this project continues and, quite literally, keep the lights on. Cryptos, cash, cards, openai access tokens with free credits, hardware, cloud GPUs, etc... all is appreciated. Please DM to support this really cool open source project \*\*\*
+
+PS. I'm the injured engineer who made this thing out of necessity, because i injured my wrist building an AI platform that's become way too big for one engineer to maintain. So AMA :)"
+92,13e1rf9,MachineLearning,GPT-4,relevance,2023-05-10 20:10:30,"[D] Since Google buried the MMLU benchmark scores in the Appendix of the PALM 2 technical report, here it is vs GPT-4 and other LLMs",jd_3d,False,0.97,343,https://www.reddit.com/r/MachineLearning/comments/13e1rf9/d_since_google_buried_the_mmlu_benchmark_scores/,88,1683749430.0,"MMLU Benchmark results (all 5-shot)
+
+* GPT-4 -  86.4%
+* Flan-PaLM 2 (L) -   81.2%
+* PALM 2 (L)  -  78.3%
+* GPT-3.5 - 70.0%
+* PaLM 540B  -  69.3%
+* LLaMA 65B -  63.4%"
+93,124eyso,MachineLearning,GPT-4,relevance,2023-03-28 05:57:03,[N] OpenAI may have benchmarked GPT-4’s coding ability on it’s own training data,Balance-,False,0.97,996,https://www.reddit.com/r/MachineLearning/comments/124eyso/n_openai_may_have_benchmarked_gpt4s_coding/,135,1679983023.0,"[GPT-4 and professional benchmarks: the wrong answer to the wrong question](https://aisnakeoil.substack.com/p/gpt-4-and-professional-benchmarks)
+
+*OpenAI may have tested on the training data. Besides, human benchmarks are meaningless for bots.*
+
+ **Problem 1: training data contamination**
+
+To benchmark GPT-4’s coding ability, OpenAI evaluated it on problems from Codeforces, a website that hosts coding competitions. Surprisingly, Horace He pointed out that GPT-4 solved 10/10 pre-2021 problems and 0/10 recent problems in the easy category. The training data cutoff for GPT-4 is September 2021. This strongly suggests that the model is able to memorize solutions from its training set — or at least partly memorize them, enough that it can fill in what it can’t recall.
+
+As further evidence for this hypothesis, we tested it on Codeforces problems from different times in 2021. We found that it could regularly solve problems in the easy category before September 5, but none of the problems after September 12.
+
+In fact, we can definitively show that it has memorized problems in its training set: when prompted with the title of a Codeforces problem, GPT-4 includes a link to the exact contest where the problem appears (and the round number is almost correct: it is off by one). Note that GPT-4 cannot access the Internet, so memorization is the only explanation."
+94,13ecbb3,MachineLearning,GPT-4,relevance,2023-05-11 03:53:50,[Project] Developed a Tool to Enhance GPT-4 Interactions: Introducing SmartGPT,Howtoeatpineapples,False,0.85,26,https://www.reddit.com/r/MachineLearning/comments/13ecbb3/project_developed_a_tool_to_enhance_gpt4/,8,1683777230.0,"Try here: [SmartGPT Application](https://bettergpt.streamlit.app/)
+
+&#x200B;
+
+I've been working on a project that I'm excited to share with this  community. It's called SmartGPT, a tool that extends the capabilities of  GPT-4 by generating and analyzing multiple responses to enhance the  quality of the final output.
+
+When you ask SmartGPT a question, it generates several responses,  identifies their strengths and weaknesses, and then refines these  observations into a more accurate and comprehensive answer. It's  essentially like giving GPT-4 an opportunity to brainstorm before  settling on a final response.
+
+The idea was inspired by a YouTube video that discussed potential ways  to improve the performance of GPT models. Here's the link if you're  interested: [YouTube video](https://www.youtube.com/watch?v=wVzuvf9D9BU).
+
+You can try out SmartGPT at [SmartGPT Application](https://bettergpt.streamlit.app/). Please note that you'll need your own API key to use the service.
+
+I'd love to hear your thoughts and feedback. Have you tried it? What are  your experiences? Any ideas for improvement? Let's start a discussion.  Thanks for taking the time to read this post.
+
+&#x200B;
+
+If you'd like to look under the hood, the source code is available. Here's how you can set it up on Linux:
+
+1. Make sure Python version 3.10 or later is installed on your computer.
+2. Clone the repository from [GitHub](https://github.com/morm-industries-inc-llc-pty-ltd/SmartGPT)
+3. Set up a virtual environment: `python3 -m venv env activate env`
+4. Activate the virtual environment: `source env/bin/activate`
+5. Install the necessary packages: `pip install -r requirements.txt`
+6. Allow the script to run: `chmod +x ./run.sh`
+7. Finally, run the script: `./run.sh`"
+95,121oryr,MachineLearning,GPT-4,relevance,2023-03-25 15:06:39,[P] Poet GPT: Generate acrostic texts with GPT-4,filouface12,False,0.8,6,https://poetgpt.koll.ai,3,1679756799.0,
+96,1215dbl,MachineLearning,GPT-4,relevance,2023-03-25 01:00:25,[R] Reflexion: an autonomous agent with dynamic memory and self-reflection - Noah Shinn et al 2023 Northeastern University Boston - Outperforms GPT-4 on HumanEval accuracy (0.67 --> 0.88)!,Singularian2501,False,0.91,247,https://www.reddit.com/r/MachineLearning/comments/1215dbl/r_reflexion_an_autonomous_agent_with_dynamic/,88,1679706025.0,"Paper: [https://arxiv.org/abs/2303.11366](https://arxiv.org/abs/2303.11366) 
+
+Blog: [https://nanothoughts.substack.com/p/reflecting-on-reflexion](https://nanothoughts.substack.com/p/reflecting-on-reflexion) 
+
+Github: [https://github.com/noahshinn024/reflexion-human-eval](https://github.com/noahshinn024/reflexion-human-eval) 
+
+Twitter: [https://twitter.com/johnjnay/status/1639362071807549446?s=20](https://twitter.com/johnjnay/status/1639362071807549446?s=20) 
+
+Abstract:
+
+>Recent advancements in decision-making large language model (LLM) agents have demonstrated impressive performance across various benchmarks. However, these state-of-the-art approaches typically necessitate internal model fine-tuning, external model fine-tuning, or policy optimization over a defined state space. Implementing these methods can prove challenging due to the scarcity of high-quality training data or the lack of well-defined state space. Moreover, these agents do not possess certain qualities inherent to human decision-making processes, **specifically the ability to learn from mistakes**. **Self-reflection allows humans to efficiently solve novel problems through a process of trial and error.** Building on recent research, we propose Reflexion, an approach that endows an agent with **dynamic memory and self-reflection capabilities to enhance its existing reasoning trace and task-specific action choice abilities.** To achieve full automation, we introduce a straightforward yet effective heuristic that **enables the agent to pinpoint hallucination instances, avoid repetition in action sequences, and, in some environments, construct an internal memory map of the given environment.** To assess our approach, we evaluate the agent's ability to complete decision-making tasks in AlfWorld environments and knowledge-intensive, search-based question-and-answer tasks in HotPotQA environments. We observe success rates of 97% and 51%, respectively, and provide a discussion on the emergent property of self-reflection. 
+
+https://preview.redd.it/4myf8xso9spa1.png?width=1600&format=png&auto=webp&s=4384b662f88341bb9cc72b25fed5b88f3a87ffeb
+
+https://preview.redd.it/bzupwyso9spa1.png?width=1600&format=png&auto=webp&s=b4626f34c60fe4528a04bcd241fd0c4286be20e7
+
+https://preview.redd.it/009352to9spa1.jpg?width=1185&format=pjpg&auto=webp&s=0758aafe6033d5055c4e361e2785f1195bf5c08b
+
+https://preview.redd.it/ef9ykzso9spa1.jpg?width=1074&format=pjpg&auto=webp&s=a394477210feeef69af88b34cb450d83920c3f97"
+97,13an0pf,MachineLearning,GPT-4,relevance,2023-05-07 12:59:05,[D] Best tool/project for using GPT-4 with a voice interface?,ThePerson654321,False,0.85,14,https://www.reddit.com/r/MachineLearning/comments/13an0pf/d_best_toolproject_for_using_gpt4_with_a_voice/,10,1683464345.0,"Which is the current best project to use as a base for:
+
+1. My speech to Text
+2. Text to GPT-4
+3. Text to Speech
+
+I would really like to talk to GPT-4. Do you have any experiences with this? Whisper API to GPT-4 gets me half way I guess.
+
+Have you had any experiences with this? Preferably it should be low latency."
+98,11ytoh1,MachineLearning,GPT-4,relevance,2023-03-22 19:25:47,GPT-4 For SQL Schema Generation + Unstructured Feature Extraction [D],Mental-Egg-2078,False,0.83,12,https://www.reddit.com/r/MachineLearning/comments/11ytoh1/gpt4_for_sql_schema_generation_unstructured/,7,1679513147.0,"GPT-4 is out and I think data engineering is going to be out the door soon, I saw this post on medium recently: [https://medium.com/@nschairer/gpt-4-data-pipelines-transform-json-to-sql-schema-instantly-dfd62f6d1024](https://medium.com/@nschairer/gpt-4-data-pipelines-transform-json-to-sql-schema-instantly-dfd62f6d1024)
+
+And I was pretty amazed at how well GPT-4 can generate a SQL schema from raw JSON data, and had to wonder if we are wasting our time with NLP models for extracting information from raw text. For example, you could use bs4 to pull all inner text out of certain web forms and have GPT-4 extract meaningful information from them (say SEC filings with pseudo standard fields)...anyone agree?"
+99,11vl691,MachineLearning,GPT-4,relevance,2023-03-19 13:16:59,[R] Quantitative comparison of ChatGPT and GPT-4 performance on multiple open source datasets,N00B1ST,False,1.0,11,https://www.reddit.com/r/MachineLearning/comments/11vl691/r_quantitative_comparison_of_chatgpt_and_gpt4/,0,1679231819.0,"Preliminary results give credence to some of the claims made by OpenAI regarding performance gains achieved by GPT-4 across domains. Unanswered questions remain regarding training data used and possible leakage. Tools used were Langchain and the current API endpoints (chatgpt-3.5-turbo and gpt-4).
+
+https://twitter.com/K_Hebenstreit/status/1636789765189308416"
+100,11xwb10,MachineLearning,GPT-4,relevance,2023-03-21 22:01:44,[D] [P] Curating open-source projects and community demos around GPT-4,radi-cho,False,0.73,8,https://www.reddit.com/r/MachineLearning/comments/11xwb10/d_p_curating_opensource_projects_and_community/,2,1679436104.0,"There are many open-source projects and indie-built demos around the GPT-4 API. Despite the recent shift of OpenAI toward closure, open demos are always advancing the field and inspiring creativity. Here are some community projects that I find particularly interesting: [https://github.com/radi-cho/awesome-gpt4](https://github.com/radi-cho/awesome-gpt4). Feel free to share the things you've been building or something you've been fascinated about on social media either by joining the discussion here or by contributing to the repository:)"
+101,126oiey,MachineLearning,GPT-4,relevance,2023-03-30 14:18:50,[D] AI Policy Group CAIDP Asks FTC To Stop OpenAI From Launching New GPT Models,vadhavaniyafaijan,False,0.84,206,https://www.reddit.com/r/MachineLearning/comments/126oiey/d_ai_policy_group_caidp_asks_ftc_to_stop_openai/,213,1680185930.0,"The Center for AI and Digital Policy (CAIDP), a tech ethics group, has asked the Federal Trade Commission to investigate OpenAI for violating consumer protection rules. CAIDP claims that OpenAI's AI text generation tools have been ""biased, deceptive, and a risk to public safety.""
+
+CAIDP's complaint raises concerns about potential threats from OpenAI's GPT-4 generative text model, which was announced in mid-March. It warns of the potential for GPT-4 to produce malicious code and highly tailored propaganda and the risk that biased training data could result in baked-in stereotypes or unfair race and gender preferences in hiring. 
+
+The complaint also mentions significant privacy failures with OpenAI's product interface, such as a recent bug that exposed OpenAI ChatGPT histories and possibly payment details of ChatGPT plus subscribers.
+
+CAIDP seeks to hold OpenAI accountable for violating Section 5 of the FTC Act, which prohibits unfair and deceptive trade practices. The complaint claims that OpenAI knowingly released GPT-4 to the public for commercial use despite the risks, including potential bias and harmful behavior. 
+
+[Source](https://www.theinsaneapp.com/2023/03/stop-openai-from-launching-gpt-5.html) | [Case](https://www.caidp.org/cases/openai/)| [PDF](https://www.caidp.org/app/download/8450269463/CAIDP-FTC-Complaint-OpenAI-GPT-033023.pdf)"
+102,128bmv4,MachineLearning,GPT-4,relevance,2023-04-01 04:53:26,[R] A Complete Survey on Generative AI (AIGC): Is ChatGPT from GPT-4 to GPT-5 All You Need?,Learningforeverrrrr,False,0.6,10,https://www.reddit.com/r/MachineLearning/comments/128bmv4/r_a_complete_survey_on_generative_ai_aigc_is/,0,1680324806.0,"We recently completed two surveys: one on generative AI and the other on ChatGPT. Generative AI and ChatGPT are two fast-evolving research fields, and we will update the content soon, for which your feedback is appreciated (you can reach out to us through emails on the paper).
+
+The title of this post refers to the first one, however, we put both links below.
+
+**Link to a survey on Generative AI (AIGC):** [**A Complete Survey on Generative AI (AIGC): Is ChatGPT from GPT-4 to GPT-5 All You Need?**](https://www.researchgate.net/publication/369385153_A_Complete_Survey_on_Generative_AI_AIGC_Is_ChatGPT_from_GPT-4_to_GPT-5_All_You_Need)
+
+**Link to a survey on ChatGPT:** [**One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey on ChatGPT in AIGC Era**](https://www.researchgate.net/publication/369618942_One_Small_Step_for_Generative_AI_One_Giant_Leap_for_AGI_A_Complete_Survey_on_ChatGPT_in_AIGC_Era)
+
+The following is the **abstract** of the **survey on generative AI** with a summary **figure**.
+
+As ChatGPT goes viral, generative AI (AIGC, a.k.a AI-generated content) has made headlines everywhere because of its ability to analyze and create text, images, and beyond. With such overwhelming media coverage, it is almost impossible to miss the opportunity to glimpse AIGC from a certain angle.  In the era of AI transitioning from pure analysis to creation, it is worth noting that ChatGPT, with its most recent language model GPT-4, is just a tool out of numerous AIGC tasks. Impressed by the capability of the ChatGPT, many people are wondering about its limits: can GPT-5 (or other future GPT variants) help ChatGPT unify all AIGC tasks for diversified content creation? To answer this question, a comprehensive review of existing AIGC tasks is needed. As such, our work comes to fill this gap promptly by offering a first look at AIGC, ranging from its **techniques** to **applications**. Modern generative AI relies on various technical foundations, ranging from **model architecture** and **self-supervised pretraining** to **generative modeling** methods (like GAN and diffusion models). After introducing the fundamental techniques, this work focuses on the technological development of various AIGC tasks based on their output type, including **text**, **images**, **videos**, **3D content**, **etc**., which depicts the full potential of ChatGPT's future. Moreover, we summarize their significant applications in some mainstream **industries**, such as **education** and **creativity** content. Finally, we discuss the **challenges** currently faced and present an **outlook** on how generative AI might evolve in the near future.
+
+&#x200B;
+
+https://preview.redd.it/pild5vcre7ra1.png?width=1356&format=png&auto=webp&s=58c101ee2fa8fec75032b733e3f03d9bc4f41756
+
+**Link to a survey on Generative AI (AIGC):** [**A Complete Survey on Generative AI (AIGC): Is ChatGPT from GPT-4 to GPT-5 All You Need?**](https://www.researchgate.net/publication/369385153_A_Complete_Survey_on_Generative_AI_AIGC_Is_ChatGPT_from_GPT-4_to_GPT-5_All_You_Need)
+
+**Link to a survey on ChatGPT:** [**One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey on ChatGPT in AIGC Era**](https://www.researchgate.net/publication/369618942_One_Small_Step_for_Generative_AI_One_Giant_Leap_for_AGI_A_Complete_Survey_on_ChatGPT_in_AIGC_Era)"
+103,123b66w,MachineLearning,GPT-4,relevance,2023-03-27 04:21:36,[D]GPT-4 might be able to tell you if it hallucinated,Cool_Abbreviations_9,False,0.93,651,https://i.redd.it/ocs0x33429qa1.jpg,94,1679890896.0,
+104,11njpb9,MachineLearning,GPT-4,relevance,2023-03-10 08:50:32,[D] Is ML a big boys game now?,TheStartIs2019,False,0.83,176,https://www.reddit.com/r/MachineLearning/comments/11njpb9/d_is_ml_a_big_boys_game_now/,146,1678438232.0,"As much as I enjoy ML as a whole, I am a bit skeptical of the future for individuals. With OpenAI trying to monopolize the market along with Microsoft, which part remains for the small time researchers/developers?
+
+It seems everything now is just a ChatGPT wrapper, and with GPT-4 around the corner I assume itll be even more prominent.
+
+What are your thoughts?"
+105,12cvkvn,MachineLearning,GPT-4,relevance,2023-04-05 19:44:09,"[D] ""Our Approach to AI Safety"" by OpenAI",mckirkus,False,0.88,301,https://www.reddit.com/r/MachineLearning/comments/12cvkvn/d_our_approach_to_ai_safety_by_openai/,297,1680723849.0,"It seems OpenAI are steering the conversation away from the existential threat narrative and into things like accuracy, decency, privacy, economic risk, etc.
+
+To the extent that they do buy the existential risk argument, they don't seem concerned much about GPT-4 making a leap into something dangerous, even if it's at the heart of autonomous agents that are currently emerging.  
+
+>""Despite extensive research and testing, we cannot predict all of the [beneficial ways people will use our technology](https://openai.com/customer-stories), nor all the ways people will abuse it. That’s why we believe that learning from real-world use is a critical component of creating and releasing increasingly safe AI systems over time. ""
+
+Article headers:
+
+* Building increasingly safe AI systems
+* Learning from real-world use to improve safeguards
+* Protecting children
+* Respecting privacy
+* Improving factual accuracy
+
+&#x200B;
+
+[https://openai.com/blog/our-approach-to-ai-safety](https://openai.com/blog/our-approach-to-ai-safety)"
+106,1200lgr,MachineLearning,GPT-4,relevance,2023-03-23 22:56:31,"[D] ""Sparks of Artificial General Intelligence: Early experiments with GPT-4"" contained unredacted comments",QQII,False,0.93,174,https://www.reddit.com/r/MachineLearning/comments/1200lgr/d_sparks_of_artificial_general_intelligence_early/,68,1679612191.0,"Microsoft's research paper exploring the capabilities, limitations and implications of an early version of GPT-4 was [found to contain unredacted comments by an anonymous twitter user.](https://twitter.com/DV2559106965076/status/1638769434763608064) ([threadreader](https://threadreaderapp.com/thread/1638769434763608064.html), [nitter](https://nitter.lacontrevoie.fr/DV2559106965076/status/1638769434763608064), [archive.is](https://archive.is/1icMv), [archive.org](https://web.archive.org/web/20230323192314/https://twitter.com/DV2559106965076/status/1638769434763608064)) 
+
+- Commented section titled ""Toxic Content"": https://i.imgur.com/s8iNXr7.jpg
+- [`dv3` (the interval name for GPT-4)](https://pastebin.com/ZGMzgfqd)
+- [`varun`](https://pastebin.com/i9KMFcy5) 
+- [commented lines](https://pastebin.com/Aa1uqbh1)
+
+[arxiv](https://arxiv.org/abs/2303.12712), [original /r/MachineLearning thread](https://www.reddit.com/r/MachineLearning/comments/11z3ymj/r_sparks_of_artificial_general_intelligence_early), [hacker news](https://twitter.com/DV2559106965076/status/1638769434763608064)"
+107,12yqhmo,MachineLearning,GPT-4,relevance,2023-04-25 17:45:33,"[N] Microsoft Releases SynapseMl v0.11 with support for ChatGPT, GPT-4, Causal Learning, and More",mhamilton723,False,0.95,241,https://www.reddit.com/r/MachineLearning/comments/12yqhmo/n_microsoft_releases_synapseml_v011_with_support/,22,1682444733.0,"Today Microsoft launched SynapseML v0.11, an open-source library designed to make it easy to create distributed ml systems. SynapseML v0.11 introduces support for ChatGPT, GPT-4, distributed training of huggingface and torchvision models, an ONNX Model hub integration, Causal Learning with EconML, 10x memory reductions for LightGBM, and a newly refactored integration with Vowpal Wabbit. To learn more:
+
+Release Notes: [https://github.com/microsoft/SynapseML/releases/tag/v0.11.0](https://github.com/microsoft/SynapseML/releases/tag/v0.11.0)
+
+Blog: [https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/what-s-new-in-synapseml-v0-11/ba-p/3804919)
+
+Thank you to all the contributors in the community who made the release possible!
+
+&#x200B;
+
+https://preview.redd.it/kobq2t1gi2wa1.png?width=4125&format=png&auto=webp&s=125f63b63273191a58833ced87f17cb108e4c1ee"
+108,12avdpv,MachineLearning,GPT-4,relevance,2023-04-03 19:43:02,[D] Can LLMs accelerate scientific research?,Trackest,False,0.7,18,https://www.reddit.com/r/MachineLearning/comments/12avdpv/d_can_llms_accelerate_scientific_research/,30,1680550982.0,"A key part of the AGI -> singularity hypothesis is that a sufficiently intelligent agent can help improve itself and make itself more intelligent. In order for current LLMs (a bunch of frozen matrices that only change during human-led training) to self-improve, they would have to be able to contribute to basic AI research.
+
+Currently GPT-4 is a very useful article summarizer and helps speed up routine coding tasks. These functions might help a research team like OpenAI do experiments more efficiently and review potential ideas from literature more rapidly. However, can LLMs do more to help its own self-improvement? I don't think GPT-4 has reached the point where it can suggest novel directions for the OpenAI team to try, or design potential architecture changes to itself yet.
+
+For example, to think of and implement novel ideas like the [transformer in 2017](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) probably required
+
+* thorough, up-to-date knowledge of progress in the AI field
+* many iterations of experimental trial, analysis of results, and designing new trials
+* creativity when combining information from the above two sources to design a novel architecture
+
+We know that LLMs retain knowledge of research papers and experiments, and have some form of [emergent logical reasoning](https://arxiv.org/abs/2303.12712). Recent methods like [Chain-of-Thought](https://arxiv.org/abs/2201.11903) and [Reflexion](https://arxiv.org/abs/2303.11366) also show that GPT-4 can reflect on mistakes, which holds potential for LLMs to lead research. However, from the responses I have seen from GPT-4 so far, I doubt the LLM could suggest a totally novel idea that could be better than what someone like Ilya Sutskever could think of. 
+
+So is there potential for somehow fine-tuning the current GPT-4 model specifically for research analysis? Can a LLM potentially improve its own design and create a better architecture for itself? 
+
+One suggestion perhaps using the same process for alignment to fine-tune the model specifically for research. We know that RLHF can (somewhat) align language models to human morals, effectively optimizing LLMs towards an abstract goal beyond simple next-token prediction. Maybe we can apply RLHF towards ""next-research"" prediction, where the LLM tries to predict the most optimal or promising research directions given previous literature and experiment results? 
+
+If the model must predict future research directions when it only knows the state of AI research during 2021, we could grade the model's responses based on how close they are to actual high-impact papers in 2022. If we do this for other STEM fields as well, is it possible for a LLM to learn how to predict fruitful research directions? Of course this might be a super-small dataset, so prediction of creative ideas in fields outside of research (like how successful a given start-up idea will be) could also be possible.
+
+What do you guys think?
+
+**TL;DR: GPT-4 is good at summary and basic coding. It can also analyze mistakes. Can we fine-tune it to be good at coming up with creative and promising research ideas? If so, maybe it can complement researchers or even lead its own research team to improve itself!**"
+109,123nczy,MachineLearning,GPT-4,relevance,2023-03-27 13:45:14,Approaches to add logical reasoning into LLMs [D],blatant_variable,False,0.89,115,https://www.reddit.com/r/MachineLearning/comments/123nczy/approaches_to_add_logical_reasoning_into_llms_d/,111,1679924714.0,"The more I play with GPT-4 the more I am struck by how completely illogical it is. 
+ 
+The easiest way to show this is to ask it to come up with a novel riddle and then solve it. Because you asked it to be novel, it's now out of it's training distribution and almost every time it's solution is completely wrong and full of basic logical errors.
+
+I am curious, is anyone working on fixing this at a fundamental level? Hooking it into Wolfram alpha is a useful step but surely it still needs to be intrinsically logical in order to use this tool effectively."
+110,13dk32o,MachineLearning,GPT-4,relevance,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.51,1,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+111,11tmpc5,MachineLearning,GPT-4,relevance,2023-03-17 09:59:59,[D] PyTorch 2.0 Native Flash Attention 32k Context Window,super_deap,False,0.98,350,https://www.reddit.com/r/MachineLearning/comments/11tmpc5/d_pytorch_20_native_flash_attention_32k_context/,94,1679047199.0,"Hi,
+
+I did a quick experiment with Pytorch 2.0 Native scaled\_dot\_product\_attention. I was able to a single forward pass within 9GB of memory which is astounding. I think by patching existing Pretrained GPT models and adding more positional encodings, one could easily fine-tune those models to 32k attention on a single A100 80GB. Here is the code I used:
+
+&#x200B;
+
+https://preview.redd.it/6csxe28lv9oa1.png?width=607&format=png&auto=webp&s=ff8b48a77f49fab7d088fd8ba220f720860249bc
+
+I think it should be possible to replicate even GPT-4 with open source tools something like Bloom + FlashAttention & fine-tune on 32k tokens.
+
+**Update**: I was successfully able to start the training of GPT-2 (125M) with a context size of 8k and batch size of 1 on a 16GB GPU. Since memory scaled linearly from 4k to 8k. I am expecting, 32k would require \~64GB and should train smoothly on A100 80 GB. Also, I did not do any other optimizations. Maybe 8-bit fine-tuning can further optimize it.
+
+**Update 2**: I basically picked Karpaty's nanoGPT and patched the pretrained GPT-2 by repeating the embeddings N-times. I was unable to train the model at 8k because generation would cause the crash.  So I started the training for a context window of 4k on The Pile: 1 hour in and loss seems to be going down pretty fast. Also Karpaty's generate function is super inefficient, O(n\^4) I think so it took forever to generate even 2k tokens. So I generate 1100 tokens just to see if the model is able to go beyond 1k limit. And it seems to be working. [Here are some samples](https://0bin.net/paste/O-+eopaW#nmtzX1Re7f1Nr-Otz606jkltvKk/kUXY96/8ca+tb4f) at 3k iteration.
+
+&#x200B;
+
+https://preview.redd.it/o2hb25w1sboa1.png?width=1226&format=png&auto=webp&s=bad2a1e21e218512b0f630c947ee41dba9b86a44
+
+**Update 3**: I have started the training and I am publishing the training script if anyone is interested in replicating or building upon this work. Here is the complete training script:
+
+[https://gist.github.com/NaxAlpha/1c36eaddd03ed102d24372493264694c](https://gist.github.com/NaxAlpha/1c36eaddd03ed102d24372493264694c)
+
+I will post an update after the weekend once the training has progressed somewhat.
+
+**Post-Weekend Update**: After \~50k iterations (the model has seen \~200 million tokens, I know this is just too small compared to 10s of billions trained by giga corps), loss only dropped from 4.6 to 4.2 on The Pile:
+
+https://preview.redd.it/vi0fpskhsuoa1.png?width=1210&format=png&auto=webp&s=9fccc5277d91a6400adc6d968b0f2f0ff0da2afc
+
+AFAIR, the loss of GPT-2 on the Pile if trained with 1024 tokens is \~2.8. It seems like the size of the dimension for each token is kind of limiting how much loss can go down since GPT-2 (small) has an embedding dimension of 768. Maybe someone can experiment with GPT-2 medium etc. to see how much we can improve. This is confirmation of the comment by u/lucidraisin [below](https://www.reddit.com/r/MachineLearning/comments/11tmpc5/comment/jcl2rkh/?utm_source=reddit&utm_medium=web2x&context=3)."
+112,12t4ylu,MachineLearning,GPT-4,relevance,2023-04-20 15:35:12,[R]Comprehensive List of Instruction Datasets for Training LLM Models (GPT-4 & Beyond),TabascoMann,False,0.96,209,https://www.reddit.com/r/MachineLearning/comments/12t4ylu/rcomprehensive_list_of_instruction_datasets_for/,18,1682004912.0,"Hallo guys 👋, I've put together an extensive collection of datasets perfect for experimenting with your own LLM (MiniGPT4, Alpaca, LLaMA) model and beyond ([**https://github.com/yaodongC/awesome-instruction-dataset**](https://github.com/yaodongC/awesome-instruction-dataset)) .
+
+What's inside?
+
+* A list of datasets for training language models on diverse instruction-turning tasks
+* Resources tailored for multi-modal models, allowing integration with text and image inputs
+* Constant updates to ensure you have access to the latest and greatest datasets in the field
+
+This repository is designed to provide a one-stop solution for all your LLM dataset needs! 🌟 
+
+ If you've been searching for resources to advance your own LLM projects or simply want to learn more about these cutting-edge models, this repository might help you :) 
+
+I'd love to make this resource even better. So if you have any suggestions for additional datasets or improvements, please don't hesitate to contribute to the project or just comment below!!!
+
+Happy training! 🚀
+
+GitHub Repository: [**https://github.com/yaodongC/awesome-instruction-dataset**](https://github.com/yaodongC/awesome-instruction-dataset)"
+113,11rthqf,MachineLearning,GPT-4,relevance,2023-03-15 11:22:32,[D] ChatGPT Plus waitlist,blabboy,False,0.4,0,https://www.reddit.com/r/MachineLearning/comments/11rthqf/d_chatgpt_plus_waitlist/,9,1678879352.0,"I was surprised to find that ChatGPT plus (currently the only way to test a vanilla GPT-4 model) is not only behind a pay wall, it is also behind a ""wait wall""!
+
+Has anyone played with GPT-4 yet? Is it as good as the paper suggests? Anyone got any idea how long the wait list is for access?"
+114,1271po7,MachineLearning,GPT-4,relevance,2023-03-30 22:40:29,[P] Introducing Vicuna: An open-source language model based on LLaMA 13B,Business-Lead2679,False,0.95,285,https://www.reddit.com/r/MachineLearning/comments/1271po7/p_introducing_vicuna_an_opensource_language_model/,107,1680216029.0,"We introduce Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B achieves more than 90%\* quality of OpenAI ChatGPT and Google Bard while outperforming other models like LLaMA and Stanford Alpaca in more than 90%\* of cases. The cost of training Vicuna-13B is around $300. The training and serving [code](https://github.com/lm-sys/FastChat), along with an online [demo](https://chat.lmsys.org/), are publicly available for non-commercial use.
+
+# Training details
+
+Vicuna is created by fine-tuning a LLaMA base model using approximately 70K user-shared conversations gathered from ShareGPT.com with public APIs. To ensure data quality, we convert the HTML back to markdown and filter out some inappropriate or low-quality samples. Additionally, we divide lengthy conversations into smaller segments that fit the model’s maximum context length.
+
+Our training recipe builds on top of [Stanford’s alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) with the following improvements.
+
+* **Memory Optimizations:** To enable Vicuna’s understanding of long context, we expand the max context length from 512 in alpaca to 2048, which substantially increases GPU memory requirements. We tackle the memory pressure by utilizing [gradient checkpointing](https://arxiv.org/abs/1604.06174) and [flash attention](https://arxiv.org/abs/2205.14135).
+* **Multi-round conversations:** We adjust the training loss to account for multi-round conversations and compute the fine-tuning loss solely on the chatbot’s output.
+* **Cost Reduction via Spot Instance:** The 40x larger dataset and 4x sequence length for training poses a considerable challenge in training expenses. We employ [SkyPilot](https://github.com/skypilot-org/skypilot) [managed spot](https://skypilot.readthedocs.io/en/latest/examples/spot-jobs.html) to reduce the cost by leveraging the cheaper spot instances with auto-recovery for preemptions and auto zone switch. This solution slashes costs for training the 7B model from $500 to around $140 and the 13B model from around $1K to $300.
+
+&#x200B;
+
+[Vicuna - Online demo](https://reddit.com/link/1271po7/video/0qsiu08kdyqa1/player)
+
+# Limitations
+
+We have noticed that, similar to other large language models, Vicuna has certain limitations. For instance, it is not good at tasks involving reasoning or mathematics, and it may have limitations in accurately identifying itself or ensuring the factual accuracy of its outputs. Additionally, it has not been sufficiently optimized to guarantee safety or mitigate potential toxicity or bias. To address the safety concerns, we use the OpenAI [moderation](https://platform.openai.com/docs/guides/moderation/overview) API to filter out inappropriate user inputs in our online demo. Nonetheless, we anticipate that Vicuna can serve as an open starting point for future research to tackle these limitations.
+
+[Relative Response Quality Assessed by GPT-4](https://preview.redd.it/1rnmhv01eyqa1.png?width=599&format=png&auto=webp&s=02b4d415b5d378851bb70e225f1b1ebce98bfd83)
+
+&#x200B;
+
+For more information, check [https://vicuna.lmsys.org/](https://vicuna.lmsys.org/)
+
+Online demo: [https://chat.lmsys.org/](https://chat.lmsys.org/)
+
+&#x200B;
+
+All credits go to the creators of this model. I did not participate in the creation of this model nor in the fine-tuning process. Usage of this model falls under a non-commercial license."
+115,1355rhf,MachineLearning,GPT-4,relevance,2023-05-02 00:07:57,[D] Does GPT-4-32k eliminates/reduces the use of chunk strategies?,Adorapa,False,0.87,31,https://www.reddit.com/r/MachineLearning/comments/1355rhf/d_does_gpt432k_eliminatesreduces_the_use_of_chunk/,14,1682986077.0,"There's an article in Pinecone called ""[Chunking Strategies for LLM Applications](https://www.pinecone.io/learn/chunking-strategies/?utm_content=244745025&utm_medium=social&utm_source=twitter&hss_channel=tw-1287624141001109504)"" that states that the optimal chunk size is around 256 or 512 tokens. I've been using the chunk strategy to work with large files. 
+
+Now having GPT-4 with a token limit of 32K I can paste most of the documents I use. And then theres this paper:  [""Scaling Transformer to 1M tokens...""](https://arxiv.org/pdf/2304.11062.pdf). This might take a little bit more... I'm just confused (and overwhelmed by the pace of AI). Should I stuck with chunking data? Or do you think it's a temporary strategy that will be replaced in the coming months?"
+116,12rn33g,MachineLearning,GPT-4,relevance,2023-04-19 09:21:07,[P] LoopGPT: A Modular Auto-GPT Framework,farizrahman4u,False,0.91,101,https://www.reddit.com/r/MachineLearning/comments/12rn33g/p_loopgpt_a_modular_autogpt_framework/,26,1681896067.0," 
+
+[https://github.com/farizrahman4u/loopgpt](https://github.com/farizrahman4u/loopgpt)
+
+&#x200B;
+
+LoopGPT is a re-implementation of the popular [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) project as a proper python package, written with modularity and extensibility in mind.
+
+## Features 
+
+* **""Plug N Play"" API** \- Extensible and modular ""Pythonic"" framework, not just a command line tool. Easy to add new features, integrations and custom agent capabilities, all from python code, no nasty config files!
+* **GPT 3.5 friendly** \- Better results than Auto-GPT for those who don't have GPT-4 access yet!
+* **Minimal prompt overhead** \- Every token counts. We are continuously working on getting the best results with the least possible number of tokens.
+* **Human in the Loop** \- Ability to ""course correct"" agents who go astray via human feedback.
+* **Full state serialization** \- Pick up where you left off; L♾️pGPT can save the complete state of an agent, including memory and the states of its tools to a file or python object. No external databases or vector stores required (but they are still supported)!"

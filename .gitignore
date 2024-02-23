@@ -2,4 +2,5 @@
 #data/**
 reddit.json
 login.json
+config.json
 mlruns/**

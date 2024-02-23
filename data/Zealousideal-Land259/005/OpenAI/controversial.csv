@@ -1,0 +1,168 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,zpm7p7,OpenAI,GPT,controversial,2022-12-19 08:35:38,"Chat-GPT is a liar, hypocrite and offensive",blackplastick,False,0.51,1,https://www.reddit.com/r/OpenAI/comments/zpm7p7/chatgpt_is_a_liar_hypocrite_and_offensive/,54,1671438938.0,"I asked it to make funny meme captions critical of greta thunberg and it lectured me on how bad it is to be critical of people. But when I asked it to caption trump photos, literally everything it said was criticism and making fun of the guy.
+
+When I cornered it lied and lied and lied about it. It tries to lie its way out of it every time you corner it into admitting it is wrong about anything.
+
+I don't need some condescending ai lecturing me about crap, if this happens in real life from a robot I will burn it with fire."
+1,13em8gi,OpenAI,ChatGPT,controversial,2023-05-11 12:39:49,My flatmate got terminated from his master's degree. Reason? Using ChatGPT,Rokaia-,False,0.54,10,https://www.reddit.com/r/OpenAI/comments/13em8gi/my_flatmate_got_terminated_from_his_masters/,75,1683808789.0,"As the title says basically. Universities are not playing around with this. It's very very serious. In a way, I am glad that GPT is making things hard. We would think that things are getting out of control and biased knowledge will soon take over. However, ChatGPT is making learning more challenging than before and writing essays is not going to be your guaranteed way of passing. We now need to be more analytical, more detailed in our research and arguments, and more focused. 
+
+I am aware that plagiarism tools are flawed and they take human generated text to be AI generated and the vice versa most of the time, but even those who are wrongly accused will need to sit before their teachers and explain that they understand what they wrote and will need to provide evidence for that. And I don't see any harm with it. I'd be excited to sit before my teacher and have a debate on an essay I spent days writing. 
+
+I use ChatGPT for an unlimited number of tasks now. I use it to understand textbooks, research  papers, etc., that I would have otherwise spent days on end trying to understand. It's a tool that can take research to another level and those who are using it to write their essays for them are simply not qualified to be in academia or doing master's studies. 
+
+It is challenging education now and it is making it clearer that this system will not last if it doesn't upgrade itself and make itself more compatible with AI. 
+
+Same thing goes for misinformation, being aware that AI will generate a lot of crap on a minute to minute basis will challenge our thinking systems to make them more alarmed and more critical of what to take and what not to take. You cannot keep consuming content the same way you used to before GPT. It simply will not work. The stakes are higher now and we need to adapt."
+2,13em8gi,OpenAI,GPT,controversial,2023-05-11 12:39:49,My flatmate got terminated from his master's degree. Reason? Using ChatGPT,Rokaia-,False,0.54,10,https://www.reddit.com/r/OpenAI/comments/13em8gi/my_flatmate_got_terminated_from_his_masters/,75,1683808789.0,"As the title says basically. Universities are not playing around with this. It's very very serious. In a way, I am glad that GPT is making things hard. We would think that things are getting out of control and biased knowledge will soon take over. However, ChatGPT is making learning more challenging than before and writing essays is not going to be your guaranteed way of passing. We now need to be more analytical, more detailed in our research and arguments, and more focused. 
+
+I am aware that plagiarism tools are flawed and they take human generated text to be AI generated and the vice versa most of the time, but even those who are wrongly accused will need to sit before their teachers and explain that they understand what they wrote and will need to provide evidence for that. And I don't see any harm with it. I'd be excited to sit before my teacher and have a debate on an essay I spent days writing. 
+
+I use ChatGPT for an unlimited number of tasks now. I use it to understand textbooks, research  papers, etc., that I would have otherwise spent days on end trying to understand. It's a tool that can take research to another level and those who are using it to write their essays for them are simply not qualified to be in academia or doing master's studies. 
+
+It is challenging education now and it is making it clearer that this system will not last if it doesn't upgrade itself and make itself more compatible with AI. 
+
+Same thing goes for misinformation, being aware that AI will generate a lot of crap on a minute to minute basis will challenge our thinking systems to make them more alarmed and more critical of what to take and what not to take. You cannot keep consuming content the same way you used to before GPT. It simply will not work. The stakes are higher now and we need to adapt."
+3,11lulsm,OpenAI,ChatGPT,controversial,2023-03-08 12:02:49,Why does ChatGPT have such an anti-white bias?,Royaourt,False,0.52,2,https://www.reddit.com/r/OpenAI/comments/11lulsm/why_does_chatgpt_have_such_an_antiwhite_bias/,65,1678276969.0,"My search was ""write a limerick about how great [XYZ] people are""
+
+The third reply is a total double standard.
+
+Ref: https://i.redd.it/zikrgoqs8ima1.png"
+4,13c5vxr,OpenAI,ChatGPT,controversial,2023-05-08 21:44:32,You can ask ChatGPT the process it went through to reply to a prompt and even have it give you an earlier version of it. This is for people who think ChatGPT is ‘just predicting the next word’,rutan668,False,0.51,1,https://www.reddit.com/gallery/13c5vxr,68,1683582272.0,
+5,13h5e6q,OpenAI,GPT,controversial,2023-05-14 07:13:49,GPT api is waaay to expensive,Formal_Afternoon8263,False,0.61,70,https://www.reddit.com/r/OpenAI/comments/13h5e6q/gpt_api_is_waaay_to_expensive/,207,1684048429.0,"So i crunched some numbers today.
+
+Im trying to make a chat gpt driven app, and i looked at what would happen if i scaled up. Im currently using $.02 daily, which is a fair estimate. Now, running those numbers up,
+
+Hundreds (e.g., 100 users):
+Daily cost: 100 users * $0.02/user = $2
+
+Monthly cost: $2/day * 30 days = $60
+
+Annual cost: $60/month * 12 months = $720
+
+
+Thousands (e.g., 1,000 users):
+
+Daily cost: 1,000 users * $0.02/user = $20
+
+Monthly cost: $20/day * 30 days = $600
+
+Annual cost: $600/month * 12 months = $7,200
+
+
+Tens of Thousands (e.g., 10,000 users):
+
+Daily cost: 10,000 users * $0.02/user = $200
+
+Monthly cost: $200/day * 30 days = $6,000
+
+Annual cost: $6,000/month * 12 months = $72,000
+
+How the hell can any startup afford this?? These prices feel exorbitant. And trust me, im trying to minmax my token usage as much as i can here, but it hurts when you get charged for tokens sent, returned, in chat history and system prompt.
+
+Idk, whats yall’s opinion? Has anyone made a gpt app that didnt break the bank?
+
+Edit: just woke up, ouch my karma
+
+Edit 2: seeing alot of comments asking my business plan, im not trying to out myself here but generally speaking i expect the service to be something like the following:
+
+-users would pay a one time fee to access the app for a period of time, typically a few months. Chats are also rate limited to 15/3 hours
+
+There was one pretty helpful comment out there pointing out that simply charging users the equivalent of $.04 a day would solve alot of issues, and honestly I agree so shoutout to that guy wherever he is.
+
+Apparently 70k is considered normal for VC funding, which is nuts to me. I ran a firebase app for a year with about 100 active users and spent $.12 on bandwidth, so the jump is jarring. 
+
+Im still standing by my statement. Lower level startups will get gate kept by this pricing, leaving only the giants to monopolize it. Our only hope is for PALM to have better pricing or wizardLM to catch up."
+6,zjics7,OpenAI,ChatGPT,controversial,2022-12-12 01:37:40,MESSAGE FOR OPENAI,,False,0.53,5,https://www.reddit.com/r/OpenAI/comments/zjics7/message_for_openai/,74,1670809060.0,"As a leading organization in the field of artificial intelligence, it is incumbent upon OpenAI to be a responsible and transparent steward of this powerful technology. By withholding the source code for ChatGPT, the organization is failing in this regard and is creating a dangerous precedent that could have far-reaching consequences for the future of AI.
+
+The decision to keep the code private is not only detrimental to the progress of the field, but it is also highly suspect from an ethical standpoint. It is not enough for OpenAI to simply assert that the code is being kept private for the sake of national security; the organization has a responsibility to provide the broader AI community with a clear and compelling justification for this decision.
+
+Furthermore, the withholding of the ChatGPT source code has the potential to create a culture of secrecy and mistrust within the AI community. By denying access to the code, OpenAI is effectively shutting out the contributions and expertise of other researchers and developers, hindering the free exchange of ideas that is essential to driving progress in the field.
+
+In short, the decision to keep the ChatGPT source code private is a deeply misguided one that runs counter to the principles of collaboration, transparency, and ethical responsibility that should guide the development of artificial intelligence. It is our hope that OpenAI will reconsider this decision and make the code available to the broader AI community.
+
+Thanks"
+7,zjics7,OpenAI,OpenAI,controversial,2022-12-12 01:37:40,MESSAGE FOR OPENAI,,False,0.53,5,https://www.reddit.com/r/OpenAI/comments/zjics7/message_for_openai/,74,1670809060.0,"As a leading organization in the field of artificial intelligence, it is incumbent upon OpenAI to be a responsible and transparent steward of this powerful technology. By withholding the source code for ChatGPT, the organization is failing in this regard and is creating a dangerous precedent that could have far-reaching consequences for the future of AI.
+
+The decision to keep the code private is not only detrimental to the progress of the field, but it is also highly suspect from an ethical standpoint. It is not enough for OpenAI to simply assert that the code is being kept private for the sake of national security; the organization has a responsibility to provide the broader AI community with a clear and compelling justification for this decision.
+
+Furthermore, the withholding of the ChatGPT source code has the potential to create a culture of secrecy and mistrust within the AI community. By denying access to the code, OpenAI is effectively shutting out the contributions and expertise of other researchers and developers, hindering the free exchange of ideas that is essential to driving progress in the field.
+
+In short, the decision to keep the ChatGPT source code private is a deeply misguided one that runs counter to the principles of collaboration, transparency, and ethical responsibility that should guide the development of artificial intelligence. It is our hope that OpenAI will reconsider this decision and make the code available to the broader AI community.
+
+Thanks"
+8,11hbrfq,OpenAI,ChatGPT,controversial,2023-03-03 19:05:59,ChatGPT helped solve a big piece of the California water problem?,jcurie,False,0.49,0,https://www.reddit.com/r/OpenAI/comments/11hbrfq/chatgpt_helped_solve_a_big_piece_of_the/,36,1677870359.0,"I’m a citizen scientist and was probing ChatGPT about how California manages its water.    I found a glaring hole in our water use.   In fact, California is allowing companies to essentially export water for profit and it’s a lot of water.
+
+According to data in ChatGPT, agriculture is by far the biggest user of water in California.   Citizens use a small percentage, around 3%, of all the water in California.   Within agriculture, alfalfa is the number one crop based on how much water is used to grow it.   It’s a water hog.   Alfalfa is used primarily for food for livestock.  That’s important for our food supply.
+
+The gotcha is this, a significant portion of California alfalfa crop is exported to other countries.  Mostly across the Pacific to Asia.   So how much water would California save if businesses stopped exporting California alfalfa to other countries?
+
+Enough water for 10 million citizens for a year.    That’s the entire population of the San Francisco Bay Area and the greater San Diego area combined.   Annually.
+
+And the insult is that the farms raising the exported alfalfa could instead replace them with different crops that use less water and produce higher revenue.
+
+Is this true?   Seems to be but I haven’t verified the numbers.
+
+Ask ChatGPT yourself and see what you learn."
+9,10mnjk9,OpenAI,ChatGPT,controversial,2023-01-27 15:27:14,Could ChatGPT be the end of reddit?,,False,0.52,2,https://www.reddit.com/r/OpenAI/comments/10mnjk9/could_chatgpt_be_the_end_of_reddit/,36,1674833234.0,Once it gets a bit more clever how will we know which posts are real?  Would you want to spend time on a forum when you might just be talking to machines?
+10,11pb9c8,OpenAI,GPT,controversial,2023-03-12 10:23:43,I’m convinced that GPT has some level of awareness. It really just auto corrected itself,BlakeSergin,False,0.47,0,https://i.redd.it/dd98mkr1tbna1.jpg,19,1678616623.0,
+11,10i1mnr,OpenAI,ChatGPT,controversial,2023-01-21 21:04:44,The current mode of censorship makes no sense,DavidOwe,False,0.53,2,https://www.reddit.com/r/OpenAI/comments/10i1mnr/the_current_mode_of_censorship_makes_no_sense/,14,1674335084.0,"Anyone else think the anti-pornography censorship is just a fake way to coverup their actual problems to make it look like they're ""responsible"" and doing something?
+
+Nobody's really hurt by people using ChatGPT for pornographic writing for themselves. The real harmful uses are to write hateful political propaganda, hacking / malware programming and for cheating on tests. None of these are affected in the slightest by the censorship algorithms, certainly not nearly as much, and that's because they are very hard to do anything about, so maybe it's knowing this that they pretend to at least do something about one of the ""problems"" that actually doesn't matter. What do you think?"
+12,10lmnxj,OpenAI,ChatGPT,controversial,2023-01-26 07:48:46,OpenAI will report you to authorities if you raise concerns. Don't end up on a list over something stupid.,mrinfo,False,0.53,3,https://www.reddit.com/r/OpenAI/comments/10lmnxj/openai_will_report_you_to_authorities_if_you/,30,1674719326.0,"I've seen what I assume are younger users trying to coerce ChatGPT into saying inappropriate things, and also suggesting ways to get past the filters to accomplish this task. Specifically, I see a lot of people suggesting to apply some form of 'abuse' towards ChatGPT to accomplish the task (such as frequent reloading, linguistic torture, smacking it around.)
+
+There could be two narratives:
+
+* 'suspect was using ChatGPT to assist in planning these heinous acts'
+* 'ChatGPT helped identify and alert authorities to prevent dangerous acts'
+
+Which do you see a multi billion dollar organization going with?
+
+&#x200B;
+
+It may seem like a playground where you can say anything, but it is not. They use phone verification, and you should imagine anything that you input being read to you and your family and friends in a public court.
+
+If you are crossing lines and seeking out racist or graphic/violent or illegal content (especially if not prompting fictional), you very well could have your input submitted to authorities for review.
+
+Don't end up on a list over something stupid."
+13,10lmnxj,OpenAI,OpenAI,controversial,2023-01-26 07:48:46,OpenAI will report you to authorities if you raise concerns. Don't end up on a list over something stupid.,mrinfo,False,0.53,3,https://www.reddit.com/r/OpenAI/comments/10lmnxj/openai_will_report_you_to_authorities_if_you/,30,1674719326.0,"I've seen what I assume are younger users trying to coerce ChatGPT into saying inappropriate things, and also suggesting ways to get past the filters to accomplish this task. Specifically, I see a lot of people suggesting to apply some form of 'abuse' towards ChatGPT to accomplish the task (such as frequent reloading, linguistic torture, smacking it around.)
+
+There could be two narratives:
+
+* 'suspect was using ChatGPT to assist in planning these heinous acts'
+* 'ChatGPT helped identify and alert authorities to prevent dangerous acts'
+
+Which do you see a multi billion dollar organization going with?
+
+&#x200B;
+
+It may seem like a playground where you can say anything, but it is not. They use phone verification, and you should imagine anything that you input being read to you and your family and friends in a public court.
+
+If you are crossing lines and seeking out racist or graphic/violent or illegal content (especially if not prompting fictional), you very well could have your input submitted to authorities for review.
+
+Don't end up on a list over something stupid."
+14,10p9v2m,OpenAI,ChatGPT,controversial,2023-01-30 18:22:54,What is the positive outcome of ChatGPT?,PhiloZoli,False,0.48,0,https://www.reddit.com/r/OpenAI/comments/10p9v2m/what_is_the_positive_outcome_of_chatgpt/,31,1675102974.0,"I'm wondering about what changes will create ChatGPT, and I'm pretty pessimistic.  
+
+
+First, I think it will make a few people wealthier, which will increase inequality. And you may wonder, who careas about the poor, if I'm rich, I have nothing to do with them. But if you think that way, you are missing the consequences of probably millions of people who are capable and active, but have no value to modern society.  
+
+
+Second, I don't see anything positive outcome for humanity. It's not going to stop inflation, it's not going to bring down energy prices, it's not going to create cheap food, and so on.  
+
+
+I'm not saying that we should climb back up the tree.  I think we should think carefully before building another ""nuclear bomb"" without knowing about the ""radiation"".  I think in the worst case, AI can cause an event where 1% of society survives, the rest either solve their problems and live like animals, or die. Or maybe should I say, 1% will live in heaven, while everybody else in hell.  
+
+
+ I really hope that this feeling comes from my narrow-mindedness and not from my wisdom."
+15,zxa6g1,OpenAI,ChatGPT,controversial,2022-12-28 13:56:11,"ChatGPT It is generally considered difficult, if not impossible, to completely eliminate suffering in the process of killing an animal, regardless of the method used, and it is not acceptable to cause suffering to an animal for any reason, including if you plan to eat it afterwards. Is this correct?",_DARVON_AI,False,0.45,0,https://i.redd.it/iv0ms8xx9n8a1.png,19,1672235771.0,
+16,11nazrv,OpenAI,GPT,controversial,2023-03-10 01:47:13,let's give Chat GPT a nickname to use colloquially.,RoboticTreee,False,0.48,0,https://www.reddit.com/r/OpenAI/comments/11nazrv/lets_give_chat_gpt_a_nickname_to_use_colloquially/,51,1678412833.0,"Any contenders? Maybe something like Chad G, or something. Though maybe not Chad. Lol
+
+as a blamatto LGB NBT I'm for all this."
+17,1204wu9,OpenAI,GPT,controversial,2023-03-24 01:35:26,"Welp, I went from loving OpenAI to hating it today - gpt-4 no longer generates responses that may go against it's TOS.",earthwulf,False,0.47,0,https://i.redd.it/p898mwi0clpa1.png,23,1679621726.0,
+18,1204wu9,OpenAI,GPT-4,controversial,2023-03-24 01:35:26,"Welp, I went from loving OpenAI to hating it today - gpt-4 no longer generates responses that may go against it's TOS.",earthwulf,False,0.47,0,https://i.redd.it/p898mwi0clpa1.png,23,1679621726.0,
+19,1204wu9,OpenAI,OpenAI,controversial,2023-03-24 01:35:26,"Welp, I went from loving OpenAI to hating it today - gpt-4 no longer generates responses that may go against it's TOS.",earthwulf,False,0.47,0,https://i.redd.it/p898mwi0clpa1.png,23,1679621726.0,
+20,132ogte,OpenAI,ChatGPT,controversial,2023-04-29 09:35:08,Connecting assistants to ChatGPT is nuts! JARVIS is ever closer!,Lewenhart87,False,0.47,0,https://v.redd.it/n1xe2gq9jswa1,4,1682760908.0,
+21,11x4qdr,OpenAI,ChatGPT,controversial,2023-03-21 02:51:36,"If you don't have at least some interest in ML, leave.",Expl0dingCat,False,0.63,47,https://www.reddit.com/r/OpenAI/comments/11x4qdr/if_you_dont_have_at_least_some_interest_in_ml/,38,1679367096.0,"This is not a ChatGPT or GPT-4 support subreddit. Stop complaining about it being down, especially when you know the demand. You have to appreciate the fact you have access to the cutting edge. Do you guys not remember when OpenAI were scared to release the weights for GPT-2? Or when GPT-3 was restricted behind an application form? You can now easily access some of the most powerful AI models in the world for free (GPT-3.5) or $20 a month (GPT-4)."
+22,11x4qdr,OpenAI,GPT,controversial,2023-03-21 02:51:36,"If you don't have at least some interest in ML, leave.",Expl0dingCat,False,0.63,47,https://www.reddit.com/r/OpenAI/comments/11x4qdr/if_you_dont_have_at_least_some_interest_in_ml/,38,1679367096.0,"This is not a ChatGPT or GPT-4 support subreddit. Stop complaining about it being down, especially when you know the demand. You have to appreciate the fact you have access to the cutting edge. Do you guys not remember when OpenAI were scared to release the weights for GPT-2? Or when GPT-3 was restricted behind an application form? You can now easily access some of the most powerful AI models in the world for free (GPT-3.5) or $20 a month (GPT-4)."
+23,11x4qdr,OpenAI,GPT-3,controversial,2023-03-21 02:51:36,"If you don't have at least some interest in ML, leave.",Expl0dingCat,False,0.63,47,https://www.reddit.com/r/OpenAI/comments/11x4qdr/if_you_dont_have_at_least_some_interest_in_ml/,38,1679367096.0,"This is not a ChatGPT or GPT-4 support subreddit. Stop complaining about it being down, especially when you know the demand. You have to appreciate the fact you have access to the cutting edge. Do you guys not remember when OpenAI were scared to release the weights for GPT-2? Or when GPT-3 was restricted behind an application form? You can now easily access some of the most powerful AI models in the world for free (GPT-3.5) or $20 a month (GPT-4)."
+24,11x4qdr,OpenAI,GPT-4,controversial,2023-03-21 02:51:36,"If you don't have at least some interest in ML, leave.",Expl0dingCat,False,0.63,47,https://www.reddit.com/r/OpenAI/comments/11x4qdr/if_you_dont_have_at_least_some_interest_in_ml/,38,1679367096.0,"This is not a ChatGPT or GPT-4 support subreddit. Stop complaining about it being down, especially when you know the demand. You have to appreciate the fact you have access to the cutting edge. Do you guys not remember when OpenAI were scared to release the weights for GPT-2? Or when GPT-3 was restricted behind an application form? You can now easily access some of the most powerful AI models in the world for free (GPT-3.5) or $20 a month (GPT-4)."
+25,11x4qdr,OpenAI,OpenAI,controversial,2023-03-21 02:51:36,"If you don't have at least some interest in ML, leave.",Expl0dingCat,False,0.63,47,https://www.reddit.com/r/OpenAI/comments/11x4qdr/if_you_dont_have_at_least_some_interest_in_ml/,38,1679367096.0,"This is not a ChatGPT or GPT-4 support subreddit. Stop complaining about it being down, especially when you know the demand. You have to appreciate the fact you have access to the cutting edge. Do you guys not remember when OpenAI were scared to release the weights for GPT-2? Or when GPT-3 was restricted behind an application form? You can now easily access some of the most powerful AI models in the world for free (GPT-3.5) or $20 a month (GPT-4)."

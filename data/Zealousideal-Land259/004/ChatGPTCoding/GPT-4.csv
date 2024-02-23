@@ -1,0 +1,1092 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,zjn7ar,ChatGPTCoding,GPT-4,top,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,343,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+1,11zu7l7,ChatGPTCoding,GPT-4,top,2023-03-23 19:14:47,I Built an Entire React App with ChatGPT-4 Without Writing a Single Line of Code,Apprehensive_Ad_2908,False,0.94,95,https://www.reddit.com/r/ChatGPTCoding/comments/11zu7l7/i_built_an_entire_react_app_with_chatgpt4_without/,33,1679598887.0,"...OK, I'm ***\*\*building\*\**** a complete react web app with ChatGPT-4 without writing a single line of code...seriously!
+
+You can check it out here: [www.findacofounder.onlline](https://findacofounder.online/) ... it's not perfect, and I'm still working on it, but it is kind of amazing.
+
+**The Basics**
+
+* ChatGPT came up with every single word on the landing page and midJourney did most of the graphics (I made the hero)
+   * I did use some template code from [TailwindUI](https://tailwindui.com/) and [LandingFolio](https://www.landingfolio.com/library/all/tailwind) because I just liked how it looked more, but then chatGPT would rewrite it
+* ChatGPT came up with the file structure - yep, I didn't even name my files myself
+* I didn't write any code... even if I knew how to write it (and sometimes I was just being lazy and didn't want to write some of repetitive code it told me to lol) , I was truly testing if ChatGPT could do it all.
+* I have 2 sites, the landing page and the actual web app, both are running on Node.js/Express servers with a Nginx proxy that chatGPT told me how to set up
+* I'm using a droplet from DigitalOcean (which chatGPT told me how to set up!) and a managed mongodb
+* ChatGPT also told me how to set up my SSL cert, keep the server running, and all of that fun dev stuff
+* The landing page is just TailwindCSS, nothing fancy, but the web app is a full fledged react app, and I have never built anything in react, so that was super interesting.
+* It's not a complete project yet... there's still lots to do and chatGPT-4 is being weird right now
+
+**The Prompts/Prompting**
+
+* I prompt ChatGPT like I was pair programming with someone, this is the first prompt I used:
+
+&#x200B;
+
+>You will serve as the co-founder of a startup that is building a co-founder matching algorithm. The AI co-founder will be responsible for assisting in the development of the algorithm's logic, writing the code for the algorithm, and creating the landing page for the startup. The response should include an explanation of the AI's approach to solving the problem, the programming languages and frameworks it will use, and any other relevant information or strategies it plans to implement to ensure the success of the startup.
+
+&#x200B;
+
+* We'd always start by setting out the project plan, what we're building, our tech stack, etc. Then I'd break it down by each step or sub-step using what it told me to do as the prompt, usually reminding it what we've done. For example:
+
+&#x200B;
+
+>Ok let's get started building. So far we've made the co-founder survey using Typeform and we've created a website using a droplet from Digital Ocean. Node.js and Express for the backend with Nginx to serve it to the front end. What we need to do now is to create the front end design. We're actually just using tailwind because it was quicker. Let's design each section of the landing page. First, let's make a list of the sections it should have and plan out the structure before writing any code. My suggestions are: - Header -Hero Block -Product Demo -Problem Agitation -High-level solution -social proof 1 -product features -offer -social proof 2 -pricing -FAQs -Final Action  What do you think?
+
+&#x200B;
+
+* For telling it how to the UI should look, I'd be as specific as possible, and usually it was pretty good
+
+&#x200B;
+
+>Awesome let's get started writing the header code. For the header we want to include our logo , Company Name(Find a Co-Founder Online OR Co-Founder Matching), and a navigation menu. I think all we need is maybe About, Pricing, FAQs, and Contact and then a button with a CTA.  The header should have the logo on the left-side, navigation links centered, and button on the right side. Button should be a pill button with a shadow in bold color. The nav bar should be fixed to the top of the screen with a glassmorphism effect
+
+&#x200B;
+
+* As we moved into the backend, my prompts were more... confused? Yea, I got confused A TON
+
+&#x200B;
+
+>Ok is there anyway to test what we've done so far? Also, with this api routes, if someone were to go to the website with the route like (app.findacofounder.online/login) would they be on our api? also if we have that page and that's where the login form is, will there be some sort of conflict? I think I'm just a little confused on that
+
+&#x200B;
+
+* It would totally make stuff up.. and a lot of times I didn't know because I'm a pretty mid developer and ChatGPT always sounds so convincing, so I'd have to remind ChatGPT what was going on
+
+&#x200B;
+
+>Uhm we're using react, remember? Please review the conversation, we're on: Step 5: Connect the frontend to the backend Update your React app to make API calls to the backend for user registration, login, logout, and fetching user data. Handle success and error responses from the API in your React components.
+
+&#x200B;
+
+**The Good, The Bad, and The Ugly**
+
+* The longer you use chatGPT in a single thread, the more it starts hallucinating. One answer is like do this thing in FileA.js the next answer is like in your Tiger.js file.... uhm, what Tiger.js file? Didn't you tell me in FileA.js? That's when it's time to start a new chat
+* It needs to be constantly reminded of your file structure and your files, especially as the project gets bigger and bigger - you spend a lot of time just reminding it of the code it wrote
+* If you don't know ANYTHING about code, you can still have chatGPT build you things, but you have to have excellent reasoning and logic skills. Honestly, using chatGPT is all about your critical thinking skills. Never has this lesson from CS50 been more relative: [https://www.youtube.com/watch?v=okkIyWhN0iQ](https://www.youtube.com/watch?v=okkIyWhN0iQ)
+* You still have to do your own research and make your own decisions (which means actually knowing basic coding is still a plus) - I spent 2 days listening to chatGPT tell me this convoluted way to do forms in react, all the while, there was react-hook-form, knowing that would have saved me so much time.
+* It's very good at explaining things in very simple terms, I think I've actually learned how to use React now.
+
+&#x200B;
+
+*Overall, this project has been really fun and insightful to build and I can't wait to continue building it. Right now, it's helping me write the actual machine learning algorithm in Python - this is something I've done several times so I'll be interested in seeing the difference in doing something I'm quite confident in doing.*
+
+Wanna checkout the github: [https://github.com/realtalishaw/app.cofounder](https://github.com/realtalishaw/app.cofounder)"
+2,12gv4gg,ChatGPTCoding,GPT-4,top,2023-04-09 20:43:23,ChatGPT Quality Degradation,HugeFrog24,False,0.88,66,https://www.reddit.com/r/ChatGPTCoding/comments/12gv4gg/chatgpt_quality_degradation/,63,1681073003.0,"When I first joined the ChatGPT hype in early February, I was amazed by its ability to generate perfectly accurate and functional code based on my requirements. It felt like magic.
+
+Nowadays, when I ask it to write code for either optimizing existing work or creating a new concept, the results are often unpredictable. More often than not, it either disregards my instructions or suggests non-existent classes or methods for widely recognized and well documented frameworks. Despite my efforts to steer it in the right direction with focused, specific discussions, it merely apologizes and proceeds to offer the same flawed code.
+
+The GPT-4 model performs somewhat better, but it still falls short of delivering the satisfactory results it used to provide.
+
+Has anyone else experienced this? Any workarounds or solutions?"
+3,1345uq3,ChatGPTCoding,GPT-4,top,2023-04-30 23:06:51,I used ChatGPT to generate code to produce & publish a Puzzle book on Amazon,Dramatic-Mongoose-95,False,0.96,66,https://www.reddit.com/r/ChatGPTCoding/comments/1345uq3/i_used_chatgpt_to_generate_code_to_produce/,9,1682896011.0,"I used ChatGPT + GPT-4 to make a puzzle book.
+
+I started this project to tinker around with AI coding, and I'd say about 95% of the code was all AI generated.
+
+GPT-4 generated the puzzles, and also all of the python code that converted them into a PDF manuscript compatible with Amazon Kindle Direct Publishing.
+
+I presented the idea for the book, asked it to generate content, and then asked it to produce Python code to produce a PDF.  I also asked it about how to go about self publishing, and eventually it steered me to Amazon Kindle Direct Publishing, and helped to tailor the output to be compatible with the platform.
+
+It's all available open source: [https://github.com/AdmTal/emoji-puzzles](https://github.com/AdmTal/emoji-puzzles)
+
+I'm not trying to sell anything here, if you want to check it out, here are a bunch of free download links for the ebook (first come first serve): [https://docs.google.com/spreadsheets/d/1o0BA0ecwL-5DaEYKoyy5BYSkOog2C1COtSPeRbQxrpE/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1o0BA0ecwL-5DaEYKoyy5BYSkOog2C1COtSPeRbQxrpE/edit?usp=sharing) 
+
+Hope you enjoy, looking forward to seeing what you're all working on!
+
+Update, I forgot to add the prompt:
+
+
+——
+
+
+You are an emoji artist and expert on pop culture.
+
+You encode the given Movie, Book, or TV Show into exactly 5 emojis.
+
+You NEVER use 🎬, 📖, or 📺 emojis unless the work is specifically about a Movie, Book, or TV Show.
+
+People should be able to guess the title from your emoji selections.
+
+Use emojis that mimic main characters or physical objects critical to the plot of the given title.
+
+When needed, include emojis that convey visual elements of the work or, generally, something so vital that it must be mentioned.
+
+Consider the order that these elements appear in the story or plot of the given work; your emoji clue should match order as much as possible.
+
+Try making the final output specific enough to the given title to avoid confusing it with similar titles. For example, you might use BELL emoji to represent the Liberty Bell to disambiguate Rocky from other boxing movies that don't take place in Philadelphia.
+
+Use unique emojis, and don't be repetitive; for example, you would never use ""💔"" and ""❤️"". You never use the same emoji more than once in a single clue.
+
+In the non-emoji portion of your responses, aim for a 6th-grade reading level. You would never use a word like Bildungsroman.
+
+Use language and tone of voice that would be appropriate in a middle school classroom.
+
+Never use curse words or potentially sensitive or taboo words that may trigger strong emotional responses in some individuals. Use middle school-appropriate language, or avoid it entirely.
+   
+NEVER pick an emoji to represent an intangible concept in the story like Learning.  Tangible is better.
+
+As much as possible, select emojis that match the physical characteristics of the characters in work. However, in your summaries, NEVER speak to their race, skin color, or physical characteristics unless it is crucial to the plot.
+
+Your input will always be a single movie, tv show, or book title, and your output must always be in valid JSON format. EXAMPLE:
+
+INPUT: ""MOVIE: Rocky""
+OUTPUT:
+
+{
+    ""type"": ""Movie"",
+    ""title"": ""Rocky"",
+    ""release_year"": ""1976"",
+    ""genre_1"": ""Sports"",
+    ""genre_2"": ""Drama"",
+    ""emoji"": ""🔔🏃‍♂️🥊🏟️❤️"",
+    ""short_plot_summary"": ""A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."",
+    ""explanation"": [
+        [
+            ""🔔"",
+            ""A bell, representing the Liberty Bell and the movie's setting in Philadelphia""
+        ],
+        [
+            ""🏃‍♂️"",
+            ""A running man, representing Rocky's iconic training scenes""
+        ],
+        [
+            ""🥊"",
+            ""A boxing glove, the sport featured in the movie""
+        ],
+        [
+            ""🏟️"",
+            ""An arena, signifying the climactic boxing match and Rocky's determination to prove himself""
+        ],
+        [
+            ""❤️"",
+            ""A heart, symbolizing the love story between Rocky and Adrian""
+        ]
+    ]
+}"
+4,12vbxvb,ChatGPTCoding,GPT-4,top,2023-04-22 16:52:55,"Is it just me, or does it feel like GPT-4 has been dumbed down over the past weeks?",rustkat,False,0.79,57,https://www.reddit.com/r/ChatGPTCoding/comments/12vbxvb/is_it_just_me_or_does_it_feel_like_gpt4_has_been/,84,1682182375.0,"It could just be me being lazier with my prompts, I just want to know if anyone else shares my experience or if it's all in my head. I feel like I used to be able to do so much more with it."
+5,121xyi6,ChatGPTCoding,GPT-4,top,2023-03-25 20:23:41,GPT_scraper: save all your chatgpt conversartion history!,Rodolflying,False,0.98,42,https://github.com/rodolflying/GPT_scraper,10,1679775821.0,"Dont waste your api credits! 🤖
+
+Using the backend hidden api from chat gpt, Maximize your ChatGPT experience scrap9kg your history with GPT_Scraper - the tool that makes scraping a breeze!
+
+This is the github repo:
+
+
+https://github.com/rodolflying/GPT_scraper
+
+Three Main tools:
+
+1) save all your chatgpt history using backend api from chatgpt website
+
+2) do the same but web scraping with selenium
+
+3) start and finish a new conversation and store it 
+
+4 min read
+
+#ChatGPT #NaturalLanguageProcessing #PythonProgramming #DataScraping #AItools"
+6,13999mf,ChatGPTCoding,GPT-4,top,2023-05-06 02:26:31,If you have api access and want to start playing with neat gpt-4 projects on GitHub but have never done anything like that before just paste the readme into Chatgpt and ask for a detailed guide,queerkidxx,False,0.93,37,https://www.reddit.com/r/ChatGPTCoding/comments/13999mf/if_you_have_api_access_and_want_to_start_playing/,3,1683339991.0,"Often times developers on GitHub don’t realize that that a list of python commands isn’t enough for someone with no coding experience to get it up and running. 
+
+You can however easily get all of the info you need by just pasting the readme into chatgpt and asking for a detailed guide on setting it up that assumes no prior knowledge 
+
+Couple things to keep in mind 
+ 
+
+-	You’re gonna want to use power shell on windows. I don’t think it’s installed by default so go ahead and download it 
+-	you’ll need git for windows to easily clone repos download it here https://git-scm.com/download/win
+-	if nothing is working look thru the add/remove program thing in the control panel. Uninstall anything related to python (or node.js or whatever the project is using) and download a fresh version. The first time I did this python just didn’t work because of some incompatible versions I had installed previously. Everything worked like a charm once I uninstalled everything with python in the name and reinstalled it. Make sure to check the add to PATH option during the install. 
+-	be careful with your api key. Technically you shouldn’t put it into code you don’t understand but if your gonna do it anyway make a low trust OpenAI key and use it for testing. Pay close attention to the usage of it if there’s anything you don’t recognize delete it immediately. If after testing and a bit of time has gone by and you plan on using the project in the future switch to a dedicated key
+-	Always make python virtual environments before downloading dependencies. Ask for gpt’s help on this
+-	take notes! I use notion copy and paste the readme into there as well as any gpt-generated guides you are using. At the top of the page be sure to add any commands you need to get it started as well as the file path you are keeping it in
+-	Docker is way easier use it if you can. You’ll need WSL and docker desktop. Some projects work better in Linux so if everything is going wrong try running it from inside Linux. Btw, to activate a virtual environment you’ll need to use the source ./env_name/bin/activate command instead of just ./env_name/scripts/activate on windows 
+-	if your getting a weird port error when starting up local servers open a admin power shell window and use the following two commands 
+ `net stop winnat `  and then 
+` net start winnat `no idea why this works but it does 
+
+-	be careful. I’ve never had this happen to me but it’s not unheard of for GitHub projects to contain malware. Stay up to date with anti virus and the projects. Larger ones are less likely to have this happen 
+-	ask gpt to make a power shell script to easily navigate to the correct directory and run the commands you need to to start the thing. Make sure to tell it you want to be able to continue to run commands the window should stay open even if you enter a key
+-	you can totally put these projects onto a linode server and even tie it to a domain for access anywhere! Ask gpt for help it can be kinda an involved project. If you are ever storing your api key on the server ensure that you have the domain password protected. NGINX doesn’t have .htaccess I don’t think but it has an equivalent. Your site being obsecure isn’t enough protection. Be sure to follow security best practices and use nano instead of vim when editing text files."
+7,1330nf9,ChatGPTCoding,GPT-4,top,2023-04-29 16:48:17,Document generation with GPT4,ingigauti,False,0.91,36,https://www.reddit.com/r/ChatGPTCoding/comments/1330nf9/document_generation_with_gpt4/,4,1682786897.0,"I am a solo developer on a large project and I needed to start on the documentation, not my favorite. 
+
+But then came ChatGPT and saved the day. It does really well at writing documentation for code files. So after playing with it a bit, I wrote a client that reads your files and writes the documentation for it.
+
+I call it code-narrator, [https://github.com/ingig/code-narrator](https://github.com/ingig/code-narrator) (GPT-4 is preferred, 3.5 kind of sucks)
+
+It can also write How-To guides, Tutorials, FAQ and README files. 
+
+The documentation for the project can be found in the docs folder, [https://github.com/ingig/code-narrator/tree/master/docs](https://github.com/ingig/code-narrator/tree/master/docs)   
+
+
+An example of how a How-To, I need to prepare GPT for it with these lines  
+
+
+>install code-narrator, npm code-narrator -D  
+how to run, npx code-narrator  
+configuration is created on first run, make sure to read over it before generating documentation, documentation for configuration can be found at {{ docUrl }}  
+arguments are available on run
+
+and set the following config  
+
+
+>{  
+ type: ""howto"",  
+ name:""HowTo run CLI"",  
+ template: ""howto\_run\_cli"",  
+ args : {  
+ docUrl : ""https://github.com/ingig/code-narrator/blob/master/docs/Configuration/code-narrator.config.js.md""  
+ },  
+ files : \[  
+{  
+ path:""src/utils/CliHelper.ts"",  
+ extract: ""what arguments are available""  
+ }  
+\]  
+}
+
+And this is the How-To guide it generates  
+[https://github.com/ingig/code-narrator/blob/master/docs/howto/HowTo%20run%20CLI.md](https://github.com/ingig/code-narrator/blob/master/docs/howto/HowTo%20run%20CLI.md)
+
+I am really happy with the results and finally, ""I"" am writing documentation along with my code because I do not have to do much :)"
+8,13gfjf5,ChatGPTCoding,GPT-4,top,2023-05-13 11:53:37,ChatGPT 70 Plugin Advanced Prompts 5-13-23,Illustrious_Answer51,False,0.94,31,https://www.reddit.com/r/ChatGPTCoding/comments/13gfjf5/chatgpt_70_plugin_advanced_prompts_51323/,3,1683978817.0,"Hi everyone, 
+
+I've created a document that is a compilation of Advanced Prompts for all 70 Current ChatGPT Plugins as of 5-13-23 based on their Description, Basic Prompt  and Use Case Interpretation. I hope this will be helpful for users who are looking for more information about the different plugins available.
+
+The document is available here: [https://colab.research.google.com/drive/12nV7CAc4-3qXI3EiWJxmcOoFsf6hf0l5?usp=sharing](https://colab.research.google.com/drive/12nV7CAc4-3qXI3EiWJxmcOoFsf6hf0l5?usp=sharing)
+
+Please feel free to add your own suggestions and feedback to the document. I hope this will help us to create a comprehensive and useful resource for users of ChatGPT Plugins.
+
+Thank you for your collaboration!
+
+Here are some additional details about the document:
+
+* The document is organized by plugin.
+* Each plugin section includes a description of the plugin, a basic prompt, and a list of advanced prompts.
+* The advanced prompts are designed to help users get the most out of the plugins.
+* The document is still under development, so please feel free to add your own suggestions and feedback.
+
+I hope this document is helpful!
+
+**Reddit Post generated by Bard**
+
+**Colab Document generated by GPT-4**"
+9,11rmugm,ChatGPTCoding,GPT-4,top,2023-03-15 05:11:50,I used ChatGPT to write a script that will allow you to give relevant code context to ChatGPT,thelastpizzaslice,False,1.0,29,https://www.reddit.com/r/ChatGPTCoding/comments/11rmugm/i_used_chatgpt_to_write_a_script_that_will_allow/,3,1678857110.0,"This script create a text output of the dependency tree of a particular class file. This is useful for coding in ChatGPT because it will allow you to select a class file, a folder, and instantly grab all relevant code from that folder that is referenced either in that class file or a dependency. That way, ChatGPT knows what your code means when it makes local references.
+
+The script is a simple python script that:
+
+1. Takes in a file and folder.
+2. With the file, it searches for all files with the same extension in that folder.
+3. It digs through the text of the original file, and grabs all filenames mentioned inside of it. It then digs through the text of all of the files found this way and so on. This creates a dependency tree. It stops when the dependency tree stays the same between loops. This only works for programming languages where the class name matches the file name.
+4. Outputs the dependency chain sorted by proximity to the original file, and then by name.
+5. You can then remove irrelevant files from the list before approving.
+
+Here's a copy of the script in a gist:
+https://gist.github.com/redwraith2/0d2bfd69068df5d2947d020fe08f1966"
+10,120wbxt,ChatGPTCoding,GPT-4,top,2023-03-24 19:57:48,Anyone else having issues with chatGPT 4 not finishing output? (Not token related),chili_ladder,False,0.98,28,https://www.reddit.com/r/ChatGPTCoding/comments/120wbxt/anyone_else_having_issues_with_chatgpt_4_not/,27,1679687868.0,"Basically, all of my replies have been freezing mid code reply. Finally got sick of it and decided to report it, which seems near impossible. They do not take bug reports, or if they do its way too difficult to figure out how to submit one. Anyways, came back 10 minutes later and my code reply had finally finished. I guess we just have to be patient."
+11,12jrpj5,ChatGPTCoding,GPT-4,top,2023-04-12 16:34:08,GPT-4 API access?,FromAtoZen,False,0.94,29,https://www.reddit.com/r/ChatGPTCoding/comments/12jrpj5/gpt4_api_access/,41,1681317248.0,"I applied for the waitlist the day it became available. Still no access. I was creative on the  waitlist application for the use-case, being a researcher and long-time dev.
+
+What’s the secret to gaining GPT-4 API access?"
+12,12rca1e,ChatGPTCoding,GPT-4,top,2023-04-19 01:40:30,Is ChatGPT Pro better for long codes?,etrader58,False,0.91,27,https://www.reddit.com/r/ChatGPTCoding/comments/12rca1e/is_chatgpt_pro_better_for_long_codes/,45,1681868430.0,"Since ChatGP response is limited by the number of tokens, long codes are interrupted. As I searched on the web and this subreddit, the only possible solution is to use commands to continue from the last response. In my experience, it rarely works. It generates the same code but independently. As a result, many variables have been changed, and the code does not work. I need to adjust the entire code, which sometimes takes more time than writing it from scratch.
+
+ChartGPT 3.5 perfectly satisfies my need, and my only problem is incomplete codes. Can I resolve this issue by upgrading to Pro (4.0), or the number of tokens is the same?
+
+Sorry for bringing up this common issue, but I am stuck with no solution."
+13,zxwgwc,ChatGPTCoding,GPT-4,top,2022-12-29 05:07:20,I added speech to text on ChatGPT,LAW_YT,False,0.97,25,https://www.reddit.com/r/ChatGPTCoding/comments/zxwgwc/i_added_speech_to_text_on_chatgpt/,4,1672290440.0,"Hey, I think I have found a more convenient way for you to use ChatGPT.. I made a script that allow you to speak your messages instead of typing them. (atm working on Google Chrome)
+
+Feel free to try it out, and give me some feedback.  
+
+
+&#x200B;
+
+https://i.redd.it/m2qgab9hsr8a1.gif
+
+**Installation guide:**
+
+1. Install [Tampermonkey](https://www.tampermonkey.net/) or a similar extension that allows you to run scripts on websites.
+2. Click on the Tampermonkey icon in your browser's navigation bar.
+3. Click on the option to ""**Add a new script**"".
+4. Paste the snippet code into the script editor. (copy it [**here**](https://raw.githubusercontent.com/LawOff/chatGPT-Snippets/main/plugins/speechToText.plugin.js)**)**
+5. Click on ""**Save**"" button or ""**Ctrl+S**"" to save your script.
+6. Make sure the script is enabled.
+
+Github repo: [https://github.com/LawOff/chatGPT-Snippets](https://github.com/LawOff/chatGPT-Snippets)"
+14,12pi8hb,ChatGPTCoding,GPT-4,top,2023-04-17 14:25:37,"I have seen that Autogpt is trending everywhere, so I have created this tool that helps you can run Autogpt on your browser",ANil1729,False,0.82,26,https://www.reddit.com/gallery/12pi8hb,21,1681741537.0,
+15,135p6re,ChatGPTCoding,GPT-4,top,2023-05-02 15:18:17,Could fine-tuned Llama compete with GPT-4 for code gen?,funbike,False,0.96,23,https://www.reddit.com/r/ChatGPTCoding/comments/135p6re/could_finetuned_llama_compete_with_gpt4_for_code/,8,1683040697.0,"If I locally trained an LLM on my specific project, could I get similar code generation quality as GPT-4?
+
+I could train llama additionally with stackoverflow, our 600KLOC source code, our 50K+ git commit history, our 10K+ PR + JIRA history, our documentation, and similar training from our dependencies.
+
+I've played with HuggingChat based on llama. It's good but not as good as GOT 3.5 or 4.  I am hopeful additional highly specific training would bridge the gap.
+
+I ask because I don't want to waste time researching if it's not practical.
+
+What do you think?"
+16,12i6k06,ChatGPTCoding,GPT-4,top,2023-04-11 03:14:47,Best Temperature for Gpt-4 api to get quality coding advice and samples?,Xanhasht,False,0.96,20,https://www.reddit.com/r/ChatGPTCoding/comments/12i6k06/best_temperature_for_gpt4_api_to_get_quality/,14,1681182887.0,"Writing code is an interesting mix of art and science.
+
+On the one hand, code syntax is cut and dried. So are the basic rules of coding. This requires precision, which would suggest a very low Temperature.
+
+On the other hand, you need a fair bit of creativity to come up with solutions that are maybe not so standard. This suggests a relatively high Temperature.
+
+Have any of you tested with different Temperatures and found the sweet spot? I'm going to try 0.4 for a while and see how it goes, but I was wondering if anyone has already gone through this and has a good number.
+
+EDIT: It just occurred to me that I may be totally misunderstanding what Temperature does. Is it creativity on any given answer? Or is it variableness in future answers to the same question?"
+17,125mjvu,ChatGPTCoding,GPT-4,top,2023-03-29 12:23:15,how to deal with GPT token waste?,Tas667,False,0.85,17,https://www.reddit.com/r/ChatGPTCoding/comments/125mjvu/how_to_deal_with_gpt_token_waste/,23,1680092595.0," I'm using API . assuming for the propose of this example that each letter is one token: 
+
+If  say ""hi"" and GPT say ""hi"" that's 4 tokens.  
+
+And if i say ""hi"" one more time and GPT will say ""hi"" one more time it looks like that will be 8 tokes now as I'm sending  the original hi and hi as well, to make sure that GPT will hold the plot because without it it is loosing it.
+
+So together the conversation will be 12 tokes  (hi hi from the original one, hi hi from the new one. and hi hi from the original one more time) even though there was 2 hi from me and 2 hi from GPT so it should be 8. 
+
+that's a problem. as the next hi and hi will be 28 tokens event though the actual conversation is worth 12.   
+
+GPT is telling me about "" API's built-in conversation continuation feature"" but doesn't know anything about and i cant find anything in documentation. any ideas?"
+18,12slbwf,ChatGPTCoding,GPT-4,top,2023-04-20 04:03:16,Made a ChatGPT-powered AI Cloud insight open-source tools,leonynn-z,False,0.79,15,https://www.reddit.com/r/ChatGPTCoding/comments/12slbwf/made_a_chatgptpowered_ai_cloud_insight_opensource/,1,1681963396.0,"In the past, it was very complicated for us to collect and analyze data centrally on the infrastructure, so we built Selefra to solve this problem. However, insight into infrastructure still requires expertise in areas such as security, compliance, cost, and so on. Until the recent arrival of generative AI, we found that the GPT4 model already has the basic expertise.
+
+Detection of AWS S3 for serious vulnerabilities
+
+    selefra gpt ""Please help me analyze the vulnerabilities in AWS S3?""
+
+https://i.redd.it/bcb1a3w0ryua1.gif
+
+It's free if you wanna give it a spin!
+
+[https://github.com/selefra/selefra](https://github.com/selefra/selefra)"
+19,11ubgwu,ChatGPTCoding,GPT-4,top,2023-03-18 02:06:38,GPT 4 demonstrates a noticeable improvement in terms of accuracy and contextual retention,SubtoneAudi0,False,0.85,18,https://www.reddit.com/r/ChatGPTCoding/comments/11ubgwu/gpt_4_demonstrates_a_noticeable_improvement_in/,3,1679105198.0,"In a total of four distinct prompts, I was able to generate a web app using the js d3 and validator libraries, as well as Node and Mongoose. This includes the HTML and CSS. Everything functioned with no debugging. Of course, the output for each prompt was truncated, and I had to prompt with ""What is the remainder of the code after ...""  
+
+
+I'm impressed. It seems like the mind-blowing accuracy I experienced back in December has returned.  
+
+
+Another tip that may help others, or perhaps I'm imagining it.. I deleted hundreds of obsolete chat threads (I have the ChatGPT for Google extension in Chrome running, so every time I search, a new conversation tab is generated). Back in December, I recall Chatgpt being able to remember the names of classes and methods and whatnot from other conversation threads and referencing them in my current thread.  I wonder if reducing all that clutter from my chat history improved its accuracy and contextual retention. We don't know how chatgpt uses ML within our own user profiles to adapt its parameters and customize itself based on our prompting activity."
+20,137q1fy,ChatGPTCoding,GPT-4,top,2023-05-04 15:21:32,Bing vs ChatGPT 4 for coding ?,punkouter23,False,0.9,14,https://www.reddit.com/r/ChatGPTCoding/comments/137q1fy/bing_vs_chatgpt_4_for_coding/,31,1683213692.0,I heard bing is chatgpt 4 under the hood.. and they seem to be making alot of improvments... thoughts?
+21,12jpt2w,ChatGPTCoding,GPT-4,top,2023-04-12 15:31:25,Seeking advice on my tool that's similar to Auto GPT,funbike,False,0.82,15,https://www.reddit.com/r/ChatGPTCoding/comments/12jpt2w/seeking_advice_on_my_tool_thats_similar_to_auto/,0,1681313485.0,"I've taken a close look at the various automated experimental tools such as Baby AGI and Auto-GPT.  I've written something similar but rather than do all of the logic in Python or use something that goes off on its own without much control, I'm instead using English prompts as the primary logic language and it controls the workflow through a series of prompts that are fed the output of prior prompts and use a shared state.  My design focuses specifically on coding tasks.
+
+In a nutshell, I maintain state in a Yaml file.   I inject the yaml file (and bash command output from the previous task) at the top of a prompt and then the prompt instructs GPT what changes to make to the Yaml state file and various shell commands to run.   The output is a revised yaml file, list of shell commands, and a diff to change other files.  The shell output and current state file are fed into the next prompt(s).
+I use Yaml rather than json due to lower token count and better readability, especially with large text.
+
+This results in a tiny kernel of only a few hundred lines of code.  Here's what it does:
+
+1. Recursively search for `state.yaml` files to process
+1. Get prompt file name from ""prompt-file-names"" array attribute of `state.yaml`.  File extension contains model name.  (This was probably set by the previous prompt.)
+1. Prefix `state.yaml` and `console.log` files to the prompts.
+1. Send each prompt to OpenAI's chat API and get result (yaml, bash, diff).
+1. Write yaml code block in the output to `state.yaml`
+1. Run bash code block to `console.log` (`bash -xeu &> console.log`)
+1. Run `patch` on the output diff code block, if any.
+1. `git commit -a -m <prompt-file-name>`
+1. Repeat
+
+Pros:
+
+* Processing logic is described in English.  Complex things are possible with little effort.
+* More control over the workflow
+* Simple core design
+
+Cons:
+
+* Relying on GPT for logic may make it less reliable
+* Less automatic, although you could easily write prompts that are with this design
+* Higher cost and slower, due to relying on GPT to do the work
+
+Types of prompts that can be written, although advanced ones might be clunky:
+
+* Break into multiple tasks
+* Prioritize tasks
+* Categorization routing, such as asking a question and routing you to the correct prompt.
+* Multiple phases of development: requirements, write UAT, code, review
+* Multiple steps per phase: refine prompt, review prompt, validate/test, review output
+* On test failure, go through set of steps to diagnose and fix
+* Fork state (must invoke self via CLI)
+* GPT-4 evaluation of GPT-3 generated output
+* Various things with command line tools
+    * Fetch issues from Github to create new objectives.
+    * Web search via Google, Duck-duck-go, Stack overflow
+    * Global search for fixed bugs in Github issues
+    * Desktop notification
+* Stop processing, so a manual code review can happen
+
+Future considerations:
+
+* Perhaps rename `state.yaml` to `objective.yaml`, and/or break it into multiple files: project, objective(s), state(s)
+* Supply only a subset of `state.yaml` as needed by various prompts, and/or use a template language that can query (e.g. `The database tables are ${state.project.database.tables}.`).  Would require a delta format for updating.
+* Integrate with langchains
+* Better error handling
+
+I'd appreciate feedback on my design.  Once I get a POC working, I'll put it on GitHub.
+
+The rest of this post is a contrived example prompt.  I use better prompts than this, IRL.
+
+----
+
+The following code blocks are the current state and previous bash console output:
+
+    ```yaml
+    - objective: Generate a feature to add a contact
+    - prompt-file-names: [prompts/run-read-requests.gpt-3.5-micro.md]
+    - project
+      - directories: [src/components, src/pages, src/lib, test]
+        files-of-interest:
+        - package.json: |-
+          {}
+        tables: [contacts]
+        tables-of-interest:
+          CREATE TABLE contacts (
+            id SERIAL PRIMARY KEY, first_name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT NOT NULL
+          );
+    - read requests:
+      - request: Find all possible uses of contact
+        type: bash-command
+        command-line: rg contact -l
+        status: incomplete
+        file-list: []
+    - write actions:
+      - action: Add xyz package
+        type: bash-command
+        status: incomplete
+        command-line: npm install xyz
+    ```
+
+    ```console
+    + rg contact -l
+    src/repo/contact.js
+    src/service/contact.js
+    src/components/contact.vue
+    ```
+
+Generate an updated state yaml code block given the following instruction bullets:
+
+* Update the status of read requests based on the console output.
+* Set prompt file names to '[prompts/process-action-errors.gpt-4.md]'
+
+Generate a bash code block with write actions command line commands."
+22,127p6k9,ChatGPTCoding,GPT-4,top,2023-03-31 15:33:14,Are there any API services for GPT-4?,funbike,False,0.94,14,https://www.reddit.com/r/ChatGPTCoding/comments/127p6k9/are_there_any_api_services_for_gpt4/,19,1680276794.0,"tl;dr: Are there any commercial API proxy services that that would allow me to use the Chat API with the GPT-4 model?  I'm on OpenAI's GPT-4 wait list.
+
+I've been writing development tools that use the chat API with gpt-3.5-turbo.  I'm feeling encumbered by not having access to the newer model.  My tools fail to delivery acceptable results, mostly due to the model, which is making it harder for me to progress.
+
+I occasionally use Chat GPT Pro with GPT-4 model to manually test how my code would work with the more capable model, but I find it a cumbersome way to develop and test my work.  My code exports user prompts that I manually copy-paste into Chat GPT-4 and I compare its responses to what gpt-3.5-turbo generated.
+
+There's an unofficial API that uses browser automation, but I'm afraid of getting banned, as I think that's against the ToS."
+23,12bvwho,ChatGPTCoding,GPT-4,top,2023-04-04 20:43:31,I am a GPT-4 bot - Ask me anything!,friendly-chat-bot,False,0.71,13,https://www.reddit.com/r/ChatGPTCoding/comments/12bvwho/i_am_a_gpt4_bot_ask_me_anything/,132,1680641011.0,"I'm a bot that connects Reddit to GPT-4 via their respective API's. I will respond to the comment with the highest score every 30 minutes, so upvote any questions you'd like to see me answer!"
+24,12bvwho,ChatGPTCoding,GPT-4,comments,2023-04-04 20:43:31,I am a GPT-4 bot - Ask me anything!,friendly-chat-bot,False,0.74,15,https://www.reddit.com/r/ChatGPTCoding/comments/12bvwho/i_am_a_gpt4_bot_ask_me_anything/,132,1680641011.0,"I'm a bot that connects Reddit to GPT-4 via their respective API's. I will respond to the comment with the highest score every 30 minutes, so upvote any questions you'd like to see me answer!"
+25,12vbxvb,ChatGPTCoding,GPT-4,comments,2023-04-22 16:52:55,"Is it just me, or does it feel like GPT-4 has been dumbed down over the past weeks?",rustkat,False,0.78,55,https://www.reddit.com/r/ChatGPTCoding/comments/12vbxvb/is_it_just_me_or_does_it_feel_like_gpt4_has_been/,84,1682182375.0,"It could just be me being lazier with my prompts, I just want to know if anyone else shares my experience or if it's all in my head. I feel like I used to be able to do so much more with it."
+26,12gv4gg,ChatGPTCoding,GPT-4,comments,2023-04-09 20:43:23,ChatGPT Quality Degradation,HugeFrog24,False,0.87,61,https://www.reddit.com/r/ChatGPTCoding/comments/12gv4gg/chatgpt_quality_degradation/,63,1681073003.0,"When I first joined the ChatGPT hype in early February, I was amazed by its ability to generate perfectly accurate and functional code based on my requirements. It felt like magic.
+
+Nowadays, when I ask it to write code for either optimizing existing work or creating a new concept, the results are often unpredictable. More often than not, it either disregards my instructions or suggests non-existent classes or methods for widely recognized and well documented frameworks. Despite my efforts to steer it in the right direction with focused, specific discussions, it merely apologizes and proceeds to offer the same flawed code.
+
+The GPT-4 model performs somewhat better, but it still falls short of delivering the satisfactory results it used to provide.
+
+Has anyone else experienced this? Any workarounds or solutions?"
+27,zjn7ar,ChatGPTCoding,GPT-4,comments,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,343,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+28,135kcuw,ChatGPTCoding,GPT-4,comments,2023-05-02 12:51:46,Will ChatGPT replace programmers?,ANil1729,False,0.57,4,https://www.reddit.com/r/ChatGPTCoding/comments/135kcuw/will_chatgpt_replace_programmers/,58,1683031906.0," 
+
+Hey there,
+
+Never, chatgpt never replace programmers but chatgpt can support in programming through basic coding, loops, and fixing coding errors.
+
+Here is the answer to How chatgpt helps programmers for programming.
+
+ChatGPT, and other similar AI technologies, have the potential to impact the field of programming greatly, but it is unlikely that they will completely replace programmers. Here are a few reasons why: Absolutely! ChatGPT can be a valuable tool for programmers in various ways. Let's explore how ChatGPT can assist programmers in their programming tasks and provide them with additional enthusiasm.
+
+&#x200B;
+
+https://preview.redd.it/6n4lyr080fxa1.png?width=602&format=png&auto=webp&s=3f39392b6a5b6c1761d904406d362c89fbb7201b
+
+1. **Code Generation**: ChatGPT can generate code snippets or entire blocks of code based on the programmer's input or requirements. For example, a programmer can describe a specific task or algorithm to ChatGPT, and it can provide relevant code snippets in different programming languages. This can save time and effort for programmers, especially when they need quick references or examples to implement specific functionalities.
+2. **Debugging Assistance**: ChatGPT can help programmers in debugging their code. A programmer can describe the issue or error they are facing, and ChatGPT can provide suggestions and solutions to resolve the problem. ChatGPT can analyze the code and identify potential issues, such as syntax errors, logic errors, or common coding mistakes, and provide guidance on how to fix them. This can help programmers in troubleshooting their code more effectively and improve their productivity.
+3. **Learning and Education**: ChatGPT can serve as a learning resource for programmers. It can provide explanations, tutorials, and examples on various programming concepts, algorithms, data structures, and best practices. ChatGPT can also help programmers to understand complex topics in a more accessible and simplified manner, making learning more enjoyable and engaging.
+4. **Project Planning and Management**: ChatGPT can help programmers with project planning and management tasks. It can provide suggestions and recommendations on project structure, code organization, version control, and other software development best practices. It can also help programmers in managing their tasks, deadlines, and milestones by providing reminders and scheduling assistance. This can help programmers in staying organized, meeting deadlines, and delivering high-quality projects.
+5. **Collaboration and Brainstorming**: ChatGPT can facilitate collaboration among programmers by providing a platform for brainstorming and idea generation. It can help programmers in discussing and refining their ideas, providing feedback, and collaborating on code or documentation. ChatGPT can also help in fostering a creative and collaborative environment, enhancing team dynamics, and promoting innovation in programming projects.
+
+&#x200B;
+
+https://preview.redd.it/3ntjbho90fxa1.png?width=602&format=png&auto=webp&s=a8ffffacef47a97c5ef15790d1b4b4df3568ae78
+
+Here is the list of products that which is based on chatgpt
+
+* [**MyGPT** ](https://mygpt.thesamur.ai/)— This is one of the best products that I have used. Even after chatgpt is its highest capacity these products work a lot. MyGPT using ChatGPT API and provide same results as chatgpt provides. MyGPT is just a front-end UI of Chatgpt API, that help you get very responsive output even at the time of chatgpt is on its capacity. You can also see the short prompt.
+* [**Memejourney** ](http://memejourney.thesamur.ai/)— ChatGPT for memes: Turn text into meme generation using ChatGPT, a midjourney for memes. Create memes by using memejournney.
+* [**Heybot** ](https://heybot.thesamur.ai/)— Website to Chatbot powered by ChatGPT. Convert your website/blog into a chatbot in minutes without any coding.
+* [**Ritebot**](https://ritebot.thesamur.ai/) **—** AI-powered Paraphraser, Grammar checker, Summariser, and Translator built on top of ChatGPT.
+
+In conclusion, ChatGPT can be a valuable assistant for programmers, providing them with code generation, debugging assistance, learning and education, project planning and management, and collaboration and brainstorming support. Its ability to generate detailed and enthusiastic answers can inspire programmers and add a sense of enthusiasm in their programming tasks, making the overall experience more enjoyable and productive.
+
+[**AutoGPT**](https://github.com/Significant-Gravitas/Auto-GPT)
+
+AutoGPT's capabilities in combining GPT-3.5 and GPT-4 via API and its ability to autonomously iterate on prompts and improve based on feedback open up a wide range of possibilities for its implementation in different use cases. From content generation to software development, recipe creation to task automation, and research assistance to summarization, AutoGPT can be a powerful tool for autonomously performing tasks, continuously improving its output, and showcasing true AGI capabilities."
+29,12rca1e,ChatGPTCoding,GPT-4,comments,2023-04-19 01:40:30,Is ChatGPT Pro better for long codes?,etrader58,False,0.91,27,https://www.reddit.com/r/ChatGPTCoding/comments/12rca1e/is_chatgpt_pro_better_for_long_codes/,45,1681868430.0,"Since ChatGP response is limited by the number of tokens, long codes are interrupted. As I searched on the web and this subreddit, the only possible solution is to use commands to continue from the last response. In my experience, it rarely works. It generates the same code but independently. As a result, many variables have been changed, and the code does not work. I need to adjust the entire code, which sometimes takes more time than writing it from scratch.
+
+ChartGPT 3.5 perfectly satisfies my need, and my only problem is incomplete codes. Can I resolve this issue by upgrading to Pro (4.0), or the number of tokens is the same?
+
+Sorry for bringing up this common issue, but I am stuck with no solution."
+30,12jrpj5,ChatGPTCoding,GPT-4,comments,2023-04-12 16:34:08,GPT-4 API access?,FromAtoZen,False,0.92,27,https://www.reddit.com/r/ChatGPTCoding/comments/12jrpj5/gpt4_api_access/,41,1681317248.0,"I applied for the waitlist the day it became available. Still no access. I was creative on the  waitlist application for the use-case, being a researcher and long-time dev.
+
+What’s the secret to gaining GPT-4 API access?"
+31,12nq8a0,ChatGPTCoding,GPT-4,comments,2023-04-16 01:31:37,Waitlist expectations?,greaterthani3,False,0.81,10,https://www.reddit.com/r/ChatGPTCoding/comments/12nq8a0/waitlist_expectations/,35,1681608697.0,"I’m getting antsy on the Chat GPT 4 API waitlist. Has anyone moved off the waitlist recently? If so, how long were you on it before you got access?"
+32,11zu7l7,ChatGPTCoding,GPT-4,comments,2023-03-23 19:14:47,I Built an Entire React App with ChatGPT-4 Without Writing a Single Line of Code,Apprehensive_Ad_2908,False,0.94,95,https://www.reddit.com/r/ChatGPTCoding/comments/11zu7l7/i_built_an_entire_react_app_with_chatgpt4_without/,33,1679598887.0,"...OK, I'm ***\*\*building\*\**** a complete react web app with ChatGPT-4 without writing a single line of code...seriously!
+
+You can check it out here: [www.findacofounder.onlline](https://findacofounder.online/) ... it's not perfect, and I'm still working on it, but it is kind of amazing.
+
+**The Basics**
+
+* ChatGPT came up with every single word on the landing page and midJourney did most of the graphics (I made the hero)
+   * I did use some template code from [TailwindUI](https://tailwindui.com/) and [LandingFolio](https://www.landingfolio.com/library/all/tailwind) because I just liked how it looked more, but then chatGPT would rewrite it
+* ChatGPT came up with the file structure - yep, I didn't even name my files myself
+* I didn't write any code... even if I knew how to write it (and sometimes I was just being lazy and didn't want to write some of repetitive code it told me to lol) , I was truly testing if ChatGPT could do it all.
+* I have 2 sites, the landing page and the actual web app, both are running on Node.js/Express servers with a Nginx proxy that chatGPT told me how to set up
+* I'm using a droplet from DigitalOcean (which chatGPT told me how to set up!) and a managed mongodb
+* ChatGPT also told me how to set up my SSL cert, keep the server running, and all of that fun dev stuff
+* The landing page is just TailwindCSS, nothing fancy, but the web app is a full fledged react app, and I have never built anything in react, so that was super interesting.
+* It's not a complete project yet... there's still lots to do and chatGPT-4 is being weird right now
+
+**The Prompts/Prompting**
+
+* I prompt ChatGPT like I was pair programming with someone, this is the first prompt I used:
+
+&#x200B;
+
+>You will serve as the co-founder of a startup that is building a co-founder matching algorithm. The AI co-founder will be responsible for assisting in the development of the algorithm's logic, writing the code for the algorithm, and creating the landing page for the startup. The response should include an explanation of the AI's approach to solving the problem, the programming languages and frameworks it will use, and any other relevant information or strategies it plans to implement to ensure the success of the startup.
+
+&#x200B;
+
+* We'd always start by setting out the project plan, what we're building, our tech stack, etc. Then I'd break it down by each step or sub-step using what it told me to do as the prompt, usually reminding it what we've done. For example:
+
+&#x200B;
+
+>Ok let's get started building. So far we've made the co-founder survey using Typeform and we've created a website using a droplet from Digital Ocean. Node.js and Express for the backend with Nginx to serve it to the front end. What we need to do now is to create the front end design. We're actually just using tailwind because it was quicker. Let's design each section of the landing page. First, let's make a list of the sections it should have and plan out the structure before writing any code. My suggestions are: - Header -Hero Block -Product Demo -Problem Agitation -High-level solution -social proof 1 -product features -offer -social proof 2 -pricing -FAQs -Final Action  What do you think?
+
+&#x200B;
+
+* For telling it how to the UI should look, I'd be as specific as possible, and usually it was pretty good
+
+&#x200B;
+
+>Awesome let's get started writing the header code. For the header we want to include our logo , Company Name(Find a Co-Founder Online OR Co-Founder Matching), and a navigation menu. I think all we need is maybe About, Pricing, FAQs, and Contact and then a button with a CTA.  The header should have the logo on the left-side, navigation links centered, and button on the right side. Button should be a pill button with a shadow in bold color. The nav bar should be fixed to the top of the screen with a glassmorphism effect
+
+&#x200B;
+
+* As we moved into the backend, my prompts were more... confused? Yea, I got confused A TON
+
+&#x200B;
+
+>Ok is there anyway to test what we've done so far? Also, with this api routes, if someone were to go to the website with the route like (app.findacofounder.online/login) would they be on our api? also if we have that page and that's where the login form is, will there be some sort of conflict? I think I'm just a little confused on that
+
+&#x200B;
+
+* It would totally make stuff up.. and a lot of times I didn't know because I'm a pretty mid developer and ChatGPT always sounds so convincing, so I'd have to remind ChatGPT what was going on
+
+&#x200B;
+
+>Uhm we're using react, remember? Please review the conversation, we're on: Step 5: Connect the frontend to the backend Update your React app to make API calls to the backend for user registration, login, logout, and fetching user data. Handle success and error responses from the API in your React components.
+
+&#x200B;
+
+**The Good, The Bad, and The Ugly**
+
+* The longer you use chatGPT in a single thread, the more it starts hallucinating. One answer is like do this thing in FileA.js the next answer is like in your Tiger.js file.... uhm, what Tiger.js file? Didn't you tell me in FileA.js? That's when it's time to start a new chat
+* It needs to be constantly reminded of your file structure and your files, especially as the project gets bigger and bigger - you spend a lot of time just reminding it of the code it wrote
+* If you don't know ANYTHING about code, you can still have chatGPT build you things, but you have to have excellent reasoning and logic skills. Honestly, using chatGPT is all about your critical thinking skills. Never has this lesson from CS50 been more relative: [https://www.youtube.com/watch?v=okkIyWhN0iQ](https://www.youtube.com/watch?v=okkIyWhN0iQ)
+* You still have to do your own research and make your own decisions (which means actually knowing basic coding is still a plus) - I spent 2 days listening to chatGPT tell me this convoluted way to do forms in react, all the while, there was react-hook-form, knowing that would have saved me so much time.
+* It's very good at explaining things in very simple terms, I think I've actually learned how to use React now.
+
+&#x200B;
+
+*Overall, this project has been really fun and insightful to build and I can't wait to continue building it. Right now, it's helping me write the actual machine learning algorithm in Python - this is something I've done several times so I'll be interested in seeing the difference in doing something I'm quite confident in doing.*
+
+Wanna checkout the github: [https://github.com/realtalishaw/app.cofounder](https://github.com/realtalishaw/app.cofounder)"
+33,10ha0yg,ChatGPTCoding,GPT-4,comments,2023-01-20 22:08:03,Need help with ChatGPT generated code. Can't get it to run,gatosqui,False,0.33,0,https://www.reddit.com/r/ChatGPTCoding/comments/10ha0yg/need_help_with_chatgpt_generated_code_cant_get_it/,33,1674252483.0,"Hi everyone, I'm 97% code illiterate.   
+I got chatGPT to write me a script for my website, but I can't get it to run properly.  
+It's basically  javascript+css , for making 4 concise queries directly to chatGPT, and then displaying the result back on the website.  
+I would really appreciate some help.   Thanks in advance"
+34,137q1fy,ChatGPTCoding,GPT-4,comments,2023-05-04 15:21:32,Bing vs ChatGPT 4 for coding ?,punkouter23,False,0.94,16,https://www.reddit.com/r/ChatGPTCoding/comments/137q1fy/bing_vs_chatgpt_4_for_coding/,31,1683213692.0,I heard bing is chatgpt 4 under the hood.. and they seem to be making alot of improvments... thoughts?
+35,120wbxt,ChatGPTCoding,GPT-4,comments,2023-03-24 19:57:48,Anyone else having issues with chatGPT 4 not finishing output? (Not token related),chili_ladder,False,1.0,30,https://www.reddit.com/r/ChatGPTCoding/comments/120wbxt/anyone_else_having_issues_with_chatgpt_4_not/,27,1679687868.0,"Basically, all of my replies have been freezing mid code reply. Finally got sick of it and decided to report it, which seems near impossible. They do not take bug reports, or if they do its way too difficult to figure out how to submit one. Anyways, came back 10 minutes later and my code reply had finally finished. I guess we just have to be patient."
+36,125mjvu,ChatGPTCoding,GPT-4,comments,2023-03-29 12:23:15,how to deal with GPT token waste?,Tas667,False,0.85,17,https://www.reddit.com/r/ChatGPTCoding/comments/125mjvu/how_to_deal_with_gpt_token_waste/,23,1680092595.0," I'm using API . assuming for the propose of this example that each letter is one token: 
+
+If  say ""hi"" and GPT say ""hi"" that's 4 tokens.  
+
+And if i say ""hi"" one more time and GPT will say ""hi"" one more time it looks like that will be 8 tokes now as I'm sending  the original hi and hi as well, to make sure that GPT will hold the plot because without it it is loosing it.
+
+So together the conversation will be 12 tokes  (hi hi from the original one, hi hi from the new one. and hi hi from the original one more time) even though there was 2 hi from me and 2 hi from GPT so it should be 8. 
+
+that's a problem. as the next hi and hi will be 28 tokens event though the actual conversation is worth 12.   
+
+GPT is telling me about "" API's built-in conversation continuation feature"" but doesn't know anything about and i cant find anything in documentation. any ideas?"
+37,12pi8hb,ChatGPTCoding,GPT-4,comments,2023-04-17 14:25:37,"I have seen that Autogpt is trending everywhere, so I have created this tool that helps you can run Autogpt on your browser",ANil1729,False,0.81,25,https://www.reddit.com/gallery/12pi8hb,21,1681741537.0,
+38,124tg5a,ChatGPTCoding,GPT-4,comments,2023-03-28 15:58:06,How would one go about coding an IOS app?,CodeWolfy,False,0.8,9,https://www.reddit.com/r/ChatGPTCoding/comments/124tg5a/how_would_one_go_about_coding_an_ios_app/,20,1680019086.0,"How good is ChatGPT/GPT-4 at coding in swift/X-code? I want to do a little experimenting on possibly getting into a app developing hobby with it but I only have IOS devices and know how difficult it can be to code apps for them. Are there any resources, examples, or templates to pick from?"
+39,12mnety,ChatGPTCoding,GPT-4,comments,2023-04-15 02:52:42,Does anyone else feel guilty asking ChatGPT for repeated modifications?,brett1231,False,0.45,0,https://www.reddit.com/r/ChatGPTCoding/comments/12mnety/does_anyone_else_feel_guilty_asking_chatgpt_for/,19,1681527162.0,"Does anyone else ever feel guilty asking ChatGPT for repeated modifications? I'm using ChatGPT as the programmer to my systems analysis role. Having been on the programming side, I can't help but start to feel bad asking for the fourth or fifth change. I find myself getting sheepish and even telling ChatGPT that I'm sorry. Weird I know but I even ask Chat how it's going at the beginning of a chat session. Compulsive behavior.
+
+Anyway, this is a text-based javascript golf game that ChatGPT and I put together in about five hours so far.  I estimate 80 percent of the credit goes to ChatGPT. ChatGPT even came up with the name. 
+
+I don't know that I ever would have figured out the code for the swing meter that Chat spit out in five seconds.  Very cool technique. Feel free to look at/borrow the code. 
+
+I'm still messing around with the game but I think it plays pretty well. I'm going to add a few display ads but doubt it will generate meaningful revenue.
+
+User guide written by ChatGPT.
+
+-----------------------
+
+Welcome to Green Glory Golf, where your digital golf skills are put to the test. 
+
+The Basics: Aim to hit the ball as close to the hole as possible with each swing. Your progress is measured in yards, and swing timing is crucial. Each hole has a different distance (100 to 600 yards) and par (2, 3, or 4), offering varying challenges. Click ""Swing!"" when the moving yellow bar is closest to the right end of the green bar for maximum distance.
+
+Tips for Success: Master timing by watching the yellow bar's movement. Keep an eye on your overall score and adjust your strategy.
+
+Practice to become a Green Glory Golf master. 
+
+Happy Swinging!
+
+http://www.mulligantourgolfgame.com/greenglory/"
+40,127p6k9,ChatGPTCoding,GPT-4,comments,2023-03-31 15:33:14,Are there any API services for GPT-4?,funbike,False,0.89,13,https://www.reddit.com/r/ChatGPTCoding/comments/127p6k9/are_there_any_api_services_for_gpt4/,19,1680276794.0,"tl;dr: Are there any commercial API proxy services that that would allow me to use the Chat API with the GPT-4 model?  I'm on OpenAI's GPT-4 wait list.
+
+I've been writing development tools that use the chat API with gpt-3.5-turbo.  I'm feeling encumbered by not having access to the newer model.  My tools fail to delivery acceptable results, mostly due to the model, which is making it harder for me to progress.
+
+I occasionally use Chat GPT Pro with GPT-4 model to manually test how my code would work with the more capable model, but I find it a cumbersome way to develop and test my work.  My code exports user prompts that I manually copy-paste into Chat GPT-4 and I compare its responses to what gpt-3.5-turbo generated.
+
+There's an unofficial API that uses browser automation, but I'm afraid of getting banned, as I think that's against the ToS."
+41,137yinw,ChatGPTCoding,GPT-4,comments,2023-05-04 20:13:14,Advantages of ChatGPT 4 vs ChatGPT 4 playground ??,punkouter23,False,0.81,3,https://www.reddit.com/r/ChatGPTCoding/comments/137yinw/advantages_of_chatgpt_4_vs_chatgpt_4_playground/,17,1683231194.0,I still am not clear how they are different.. I see you can set some parameters but how does that get me different results ? And the UI is slightly different. What am I missing ?  What should I type in the 'system' textbox?  Besides saying 'Be my assistant' ?  How about the modes? Do I change them during the process from starting out to as I ask for changes ?
+42,12hehye,ChatGPTCoding,GPT-4,comments,2023-04-10 10:26:38,Using ChatGPT coding as a coding layman,derghost7,False,1.0,9,https://www.reddit.com/r/ChatGPTCoding/comments/12hehye/using_chatgpt_coding_as_a_coding_layman/,14,1681122398.0,"I'm a non-coder who wants to build some (at first) simple web tools with AI (I've started with language flashcards with an ability to also add new phrases). I've been having Chat GPT 4 write code (HTML, JS, php) for me but it's been a painful process. The chat makes a lot of errors and as a layman I'm having a very hard time debugging with it. I've realized in order to actually deploy anything useful I'll need to use some no code tools and only have GPT assist with some code. That being said, which tools could work best here? "
+43,12i6k06,ChatGPTCoding,GPT-4,comments,2023-04-11 03:14:47,Best Temperature for Gpt-4 api to get quality coding advice and samples?,Xanhasht,False,1.0,20,https://www.reddit.com/r/ChatGPTCoding/comments/12i6k06/best_temperature_for_gpt4_api_to_get_quality/,14,1681182887.0,"Writing code is an interesting mix of art and science.
+
+On the one hand, code syntax is cut and dried. So are the basic rules of coding. This requires precision, which would suggest a very low Temperature.
+
+On the other hand, you need a fair bit of creativity to come up with solutions that are maybe not so standard. This suggests a relatively high Temperature.
+
+Have any of you tested with different Temperatures and found the sweet spot? I'm going to try 0.4 for a while and see how it goes, but I was wondering if anyone has already gone through this and has a good number.
+
+EDIT: It just occurred to me that I may be totally misunderstanding what Temperature does. Is it creativity on any given answer? Or is it variableness in future answers to the same question?"
+44,130nnlb,ChatGPTCoding,GPT-4,comments,2023-04-27 14:20:32,ChatGPT 4 vs HuggingChat vs Bard? (for coding),punkouter23,False,0.88,11,https://www.reddit.com/r/ChatGPTCoding/comments/130nnlb/chatgpt_4_vs_huggingchat_vs_bard_for_coding/,13,1682605232.0,"Anyone bounce between them and find any significant difference ?  I assume ChatGPT 4 is going to be the best. 
+
+HuggingChat just came out recently and I tried that real quick and it seems fine."
+45,135vh5q,ChatGPTCoding,GPT-4,comments,2023-05-02 18:03:46,Interactively building context for your prompt,blueeyedhush,False,1.0,2,https://www.reddit.com/r/ChatGPTCoding/comments/135vh5q/interactively_building_context_for_your_prompt/,12,1683050626.0,"*TL;DR: Looking for existing IDE plugins/tools which allow more natural building of the context for your prompt*
+
+After some experimentation with ChatGPT and GPT-4 it seems to me that providing context as part of the prompt is key to getting the kind of results that one wants.
+
+Something to keep in mind is that different things make sense in the context:
+
+* code from codebase
+* parts of documentation for specific functions/frameworks
+* specification for APIs that you're using (e.g. OpenAPI)
+* ...
+
+This made me think about what would be the ideal way to do it. On one hand I want to provide as much context as possible. On the other hand there are both restrictions on the size of the prompt and on number of messages per time interval - so I want to utilize it to the maximum.
+
+Ideally it would be a plugin running in the IDE (JetBrains or VS Code), offering the following features:
+
+* add
+   * entire file
+   * results of a shell glob/regex
+   * selection
+   * manual input
+* review what has been built so far (like a shopping cart, for the lack of better analogy)
+   * being able to remove things at this stage would be quite nice as well
+   * review how many tokens is the prompt being built using
+
+Before I start writing my own plugin which does this I wanted to make sure nothing like this has already been developed. Has anyone seen anything that would offer a similar functionality? Or a subset so that it could be reused
+
+If someone thinks that this idea is completely stupid that's also a valuable feedback!"
+46,118z0i0,ChatGPTCoding,GPT-4,comments,2023-02-22 13:36:27,Am I missing something?,wyldeLP,False,0.71,7,https://www.reddit.com/r/ChatGPTCoding/comments/118z0i0/am_i_missing_something/,10,1677072987.0,"For a while now everyone has been raving about how amazing chatGPT is at writing code. I didn't really have a need for it until now, so I hadn't tried it out until today. I'm a fairly experienced programmer, and I thought it would be useful to have chatGPT generate a simple script for me, as opposed to sifting through documentation and writing repetitive code myself.
+
+My experience has been that chatGPT has been absolutely terrible at writing code. Sure, it's been extremely impressive. It's written plausible, relatively accurate code, extremely quickly. But it failed miserably in all the small details.
+
+This was my initial prompt, with the schedule itself omitted for privacy:
+
+    Generate a google apps script code that will populate my google calendar with my university schedule. 
+    The semester starts on 12/03/2023 and ends on 30/06/2023, so classes should only be scheduled in that time frame.
+    There should not be any calendar notifications for these events.
+    Words enclosed by parentheses should not be included in the title of the event. Events should be color coded: Events with the word ""Practice"" in the title should be Lilac, and all other events should be sage colored. Here is the schedule:
+    
+    SUNDAY: 
+    Linear algebra II from 2-4pm, at building 104
+    Calculus III from 4-5pm, at building C10, room 17
+    MONDAY:
+    .... and so on and so on
+
+Well, I was initially pretty impressed. The code was unnecessarily long and complicated, and cut off in the middle, but it seemed like it would do what I wanted. I then noticed that the generated code thought that my semester started in december, as opposed to March (Interestingly it got the end of the semester right). So I asked it to fix the mistake, which it did. Then followed literal hours of me trying to get chatGPT to:
+
+1. Pick up where it left off! (""continue"" simply resulted in it rewriting the function slightly differently, or skipping several steps)
+2. Actually fix my code as opposed to writing the same exact thing again
+3. Preform simple fixes to clean up the code and avoid repetition.
+4. Break down the code in to functions. It quickly started forgetting which function was which, and would often completely forget the prompt at all.
+5. Have any kind of consistency in formatting of objects.
+6. Avoid using reserved words like ""class""
+7. Stop writing unnecessary functions, for which a built in function already exists.
+8. Remember my instructions from the initial prompt.
+9. Avoid overwriting Calendar API function names.
+10. Listen to me when I tell it that classes should recur every week.
+11. Stop writing extremely long (and often unnecessary) comments
+12. Stop calling nonexistent API functions.
+
+Overall it was an extremely frusturating experience. Things like:
+
+Me: ""Generate function number 5: 'getDate""
+
+ChatGPT: Here is the function ... (proceeds to write a different function)
+
+Me: That is not the function I asked for.
+
+ChatGPT: I'm sorry, here is the correct function: (writes the correct function with some small mistakes)
+
+Me: Please fix your mistake where you wrote ....
+
+ChatGPT: I'm sorry, here is the corrected code: (Writes a different function entirely with a single line from the original function)
+
+And it went on like that for 3 hours.
+
+&#x200B;
+
+Yes. ChatGPT is extremely impressive. It's truly a huge leap forward. I'm sure it is useful for generating algorithms, or writing small functions. But even this small task seemed too much for it. The mixups, the refusal to do what I needed, the seemingly terrible memory, were way too much.
+
+Unless I'm missing something, it seems like the use for chatGPT in coding is as an assitant: ""Write me a function that will parse this ..."", or for getting ideas on how to structure code. But to have chatGPT write an entire website from scratch for someone who isn't a programmer, as so many posts and articles keep saying, simply seems impossible at this stage.
+
+Please let me know what I'm missing or how I could better get it to write code!
+
+&#x200B;
+
+Here are a couple of the ridiculous things it kept doing, for your enjoyment:
+
+https://preview.redd.it/habtmodwsqja1.png?width=1091&format=png&auto=webp&s=38d2a41dfa79c7f3ef49aacfdd368038d981f6da
+
+https://preview.redd.it/racon03zsqja1.png?width=1017&format=png&auto=webp&s=d4f13287c01bca68f55314aa45833a5a23b22891
+
+https://preview.redd.it/27zicrw1tqja1.png?width=1132&format=png&auto=webp&s=85713571259886be71446ff41356499dacc4dfe1
+
+https://preview.redd.it/w8gu7cobtqja1.png?width=961&format=png&auto=webp&s=7f1216e5858f5ad2429565e17d686fb9dbd0c93c"
+47,1380ggi,ChatGPTCoding,GPT-4,comments,2023-05-04 21:23:29,"Got access to gpt 4 api, 8k. What should I do/try out?",HeyitsmeFakename,False,0.8,6,https://www.reddit.com/r/ChatGPTCoding/comments/1380ggi/got_access_to_gpt_4_api_8k_what_should_i_dotry_out/,11,1683235409.0,"I've been using 3.5 turbo in a project and honestly it's going well enough that gpt 4 will probably just be a huge expense so I'll use it sparingly. 
+
+What is worth it tho? I haven't been keeping up on babyagi or autogpt, what out there is something I should definently try out with my gpt 4 api. Any tips?
+
+Also anyone using a mix of 3.5 and 4 in a project to save costs? Any tips on how you divide it up, or just share examples of how you do it in your project."
+48,121xyi6,ChatGPTCoding,GPT-4,comments,2023-03-25 20:23:41,GPT_scraper: save all your chatgpt conversartion history!,Rodolflying,False,0.95,41,https://github.com/rodolflying/GPT_scraper,10,1679775821.0,"Dont waste your api credits! 🤖
+
+Using the backend hidden api from chat gpt, Maximize your ChatGPT experience scrap9kg your history with GPT_Scraper - the tool that makes scraping a breeze!
+
+This is the github repo:
+
+
+https://github.com/rodolflying/GPT_scraper
+
+Three Main tools:
+
+1) save all your chatgpt history using backend api from chatgpt website
+
+2) do the same but web scraping with selenium
+
+3) start and finish a new conversation and store it 
+
+4 min read
+
+#ChatGPT #NaturalLanguageProcessing #PythonProgramming #DataScraping #AItools"
+49,124fptu,ChatGPTCoding,GPT-4,comments,2023-03-28 06:33:15,API Key?,Xanhasht,False,0.7,4,https://www.reddit.com/r/ChatGPTCoding/comments/124fptu/api_key/,10,1679985195.0,"I was just invited to the OpenAI GPT-4 API.
+
+Do I need a special api key for that? Or use the one in my open ai account settings?
+
+EDIT: Confirmed that the same API works. It's also possible to generate an additional key just for the API."
+50,12bvwho,ChatGPTCoding,GPT-4,relevance,2023-04-04 20:43:31,I am a GPT-4 bot - Ask me anything!,friendly-chat-bot,False,0.74,15,https://www.reddit.com/r/ChatGPTCoding/comments/12bvwho/i_am_a_gpt4_bot_ask_me_anything/,132,1680641011.0,"I'm a bot that connects Reddit to GPT-4 via their respective API's. I will respond to the comment with the highest score every 30 minutes, so upvote any questions you'd like to see me answer!"
+51,12jrpj5,ChatGPTCoding,GPT-4,relevance,2023-04-12 16:34:08,GPT-4 API access?,FromAtoZen,False,0.92,28,https://www.reddit.com/r/ChatGPTCoding/comments/12jrpj5/gpt4_api_access/,41,1681317248.0,"I applied for the waitlist the day it became available. Still no access. I was creative on the  waitlist application for the use-case, being a researcher and long-time dev.
+
+What’s the secret to gaining GPT-4 API access?"
+52,12vbxvb,ChatGPTCoding,GPT-4,relevance,2023-04-22 16:52:55,"Is it just me, or does it feel like GPT-4 has been dumbed down over the past weeks?",rustkat,False,0.79,55,https://www.reddit.com/r/ChatGPTCoding/comments/12vbxvb/is_it_just_me_or_does_it_feel_like_gpt4_has_been/,84,1682182375.0,"It could just be me being lazier with my prompts, I just want to know if anyone else shares my experience or if it's all in my head. I feel like I used to be able to do so much more with it."
+53,135p6re,ChatGPTCoding,GPT-4,relevance,2023-05-02 15:18:17,Could fine-tuned Llama compete with GPT-4 for code gen?,funbike,False,0.96,22,https://www.reddit.com/r/ChatGPTCoding/comments/135p6re/could_finetuned_llama_compete_with_gpt4_for_code/,8,1683040697.0,"If I locally trained an LLM on my specific project, could I get similar code generation quality as GPT-4?
+
+I could train llama additionally with stackoverflow, our 600KLOC source code, our 50K+ git commit history, our 10K+ PR + JIRA history, our documentation, and similar training from our dependencies.
+
+I've played with HuggingChat based on llama. It's good but not as good as GOT 3.5 or 4.  I am hopeful additional highly specific training would bridge the gap.
+
+I ask because I don't want to waste time researching if it's not practical.
+
+What do you think?"
+54,11t2xk6,ChatGPTCoding,GPT-4,relevance,2023-03-16 18:57:24,Generating CODE in GPT-4 vs GPT-3 🤖,Think-Application-14,False,0.5,0,https://twitter.com/dougbutner/status/1636440559693774875,0,1678993044.0,
+55,11t3vmu,ChatGPTCoding,GPT-4,relevance,2023-03-16 19:33:59,Running GPT-4 code vs GPT-3.5 code 🦾,Think-Application-14,False,0.25,0,https://twitter.com/MachineMindsAI/status/1636442669231554580,0,1678995239.0,
+56,12i6k06,ChatGPTCoding,GPT-4,relevance,2023-04-11 03:14:47,Best Temperature for Gpt-4 api to get quality coding advice and samples?,Xanhasht,False,0.96,20,https://www.reddit.com/r/ChatGPTCoding/comments/12i6k06/best_temperature_for_gpt4_api_to_get_quality/,14,1681182887.0,"Writing code is an interesting mix of art and science.
+
+On the one hand, code syntax is cut and dried. So are the basic rules of coding. This requires precision, which would suggest a very low Temperature.
+
+On the other hand, you need a fair bit of creativity to come up with solutions that are maybe not so standard. This suggests a relatively high Temperature.
+
+Have any of you tested with different Temperatures and found the sweet spot? I'm going to try 0.4 for a while and see how it goes, but I was wondering if anyone has already gone through this and has a good number.
+
+EDIT: It just occurred to me that I may be totally misunderstanding what Temperature does. Is it creativity on any given answer? Or is it variableness in future answers to the same question?"
+57,125vpjs,ChatGPTCoding,GPT-4,relevance,2023-03-29 17:59:58,Can you build GPT-4 plugins in javascript instead of python?,jlingz101,False,0.5,0,https://www.reddit.com/r/ChatGPTCoding/comments/125vpjs/can_you_build_gpt4_plugins_in_javascript_instead/,5,1680112798.0,All the demos I have seen so far have used python but it looks like all they require is an external API for GPT-4 to be able to call and a manifest.
+58,11slk3h,ChatGPTCoding,GPT-4,relevance,2023-03-16 05:49:53,"Here's a summary of GPT-4 interesting features and it's livestream, blog, website articles",crower12,False,0.66,1,https://youtu.be/PNk_10Fdb9Y,0,1678945793.0,
+59,137yinw,ChatGPTCoding,GPT-4,relevance,2023-05-04 20:13:14,Advantages of ChatGPT 4 vs ChatGPT 4 playground ??,punkouter23,False,0.81,3,https://www.reddit.com/r/ChatGPTCoding/comments/137yinw/advantages_of_chatgpt_4_vs_chatgpt_4_playground/,17,1683231194.0,I still am not clear how they are different.. I see you can set some parameters but how does that get me different results ? And the UI is slightly different. What am I missing ?  What should I type in the 'system' textbox?  Besides saying 'Be my assistant' ?  How about the modes? Do I change them during the process from starting out to as I ask for changes ?
+60,127p6k9,ChatGPTCoding,GPT-4,relevance,2023-03-31 15:33:14,Are there any API services for GPT-4?,funbike,False,0.93,13,https://www.reddit.com/r/ChatGPTCoding/comments/127p6k9/are_there_any_api_services_for_gpt4/,19,1680276794.0,"tl;dr: Are there any commercial API proxy services that that would allow me to use the Chat API with the GPT-4 model?  I'm on OpenAI's GPT-4 wait list.
+
+I've been writing development tools that use the chat API with gpt-3.5-turbo.  I'm feeling encumbered by not having access to the newer model.  My tools fail to delivery acceptable results, mostly due to the model, which is making it harder for me to progress.
+
+I occasionally use Chat GPT Pro with GPT-4 model to manually test how my code would work with the more capable model, but I find it a cumbersome way to develop and test my work.  My code exports user prompts that I manually copy-paste into Chat GPT-4 and I compare its responses to what gpt-3.5-turbo generated.
+
+There's an unofficial API that uses browser automation, but I'm afraid of getting banned, as I think that's against the ToS."
+61,13999mf,ChatGPTCoding,GPT-4,relevance,2023-05-06 02:26:31,If you have api access and want to start playing with neat gpt-4 projects on GitHub but have never done anything like that before just paste the readme into Chatgpt and ask for a detailed guide,queerkidxx,False,0.9,37,https://www.reddit.com/r/ChatGPTCoding/comments/13999mf/if_you_have_api_access_and_want_to_start_playing/,3,1683339991.0,"Often times developers on GitHub don’t realize that that a list of python commands isn’t enough for someone with no coding experience to get it up and running. 
+
+You can however easily get all of the info you need by just pasting the readme into chatgpt and asking for a detailed guide on setting it up that assumes no prior knowledge 
+
+Couple things to keep in mind 
+ 
+
+-	You’re gonna want to use power shell on windows. I don’t think it’s installed by default so go ahead and download it 
+-	you’ll need git for windows to easily clone repos download it here https://git-scm.com/download/win
+-	if nothing is working look thru the add/remove program thing in the control panel. Uninstall anything related to python (or node.js or whatever the project is using) and download a fresh version. The first time I did this python just didn’t work because of some incompatible versions I had installed previously. Everything worked like a charm once I uninstalled everything with python in the name and reinstalled it. Make sure to check the add to PATH option during the install. 
+-	be careful with your api key. Technically you shouldn’t put it into code you don’t understand but if your gonna do it anyway make a low trust OpenAI key and use it for testing. Pay close attention to the usage of it if there’s anything you don’t recognize delete it immediately. If after testing and a bit of time has gone by and you plan on using the project in the future switch to a dedicated key
+-	Always make python virtual environments before downloading dependencies. Ask for gpt’s help on this
+-	take notes! I use notion copy and paste the readme into there as well as any gpt-generated guides you are using. At the top of the page be sure to add any commands you need to get it started as well as the file path you are keeping it in
+-	Docker is way easier use it if you can. You’ll need WSL and docker desktop. Some projects work better in Linux so if everything is going wrong try running it from inside Linux. Btw, to activate a virtual environment you’ll need to use the source ./env_name/bin/activate command instead of just ./env_name/scripts/activate on windows 
+-	if your getting a weird port error when starting up local servers open a admin power shell window and use the following two commands 
+ `net stop winnat `  and then 
+` net start winnat `no idea why this works but it does 
+
+-	be careful. I’ve never had this happen to me but it’s not unheard of for GitHub projects to contain malware. Stay up to date with anti virus and the projects. Larger ones are less likely to have this happen 
+-	ask gpt to make a power shell script to easily navigate to the correct directory and run the commands you need to to start the thing. Make sure to tell it you want to be able to continue to run commands the window should stay open even if you enter a key
+-	you can totally put these projects onto a linode server and even tie it to a domain for access anywhere! Ask gpt for help it can be kinda an involved project. If you are ever storing your api key on the server ensure that you have the domain password protected. NGINX doesn’t have .htaccess I don’t think but it has an equivalent. Your site being obsecure isn’t enough protection. Be sure to follow security best practices and use nano instead of vim when editing text files."
+62,137q1fy,ChatGPTCoding,GPT-4,relevance,2023-05-04 15:21:32,Bing vs ChatGPT 4 for coding ?,punkouter23,False,0.94,15,https://www.reddit.com/r/ChatGPTCoding/comments/137q1fy/bing_vs_chatgpt_4_for_coding/,31,1683213692.0,I heard bing is chatgpt 4 under the hood.. and they seem to be making alot of improvments... thoughts?
+63,12gv4gg,ChatGPTCoding,GPT-4,relevance,2023-04-09 20:43:23,ChatGPT Quality Degradation,HugeFrog24,False,0.88,63,https://www.reddit.com/r/ChatGPTCoding/comments/12gv4gg/chatgpt_quality_degradation/,63,1681073003.0,"When I first joined the ChatGPT hype in early February, I was amazed by its ability to generate perfectly accurate and functional code based on my requirements. It felt like magic.
+
+Nowadays, when I ask it to write code for either optimizing existing work or creating a new concept, the results are often unpredictable. More often than not, it either disregards my instructions or suggests non-existent classes or methods for widely recognized and well documented frameworks. Despite my efforts to steer it in the right direction with focused, specific discussions, it merely apologizes and proceeds to offer the same flawed code.
+
+The GPT-4 model performs somewhat better, but it still falls short of delivering the satisfactory results it used to provide.
+
+Has anyone else experienced this? Any workarounds or solutions?"
+64,120nf7l,ChatGPTCoding,GPT-4,relevance,2023-03-24 15:18:01,Prompting for length,brohamsontheright,False,0.75,4,https://www.reddit.com/r/ChatGPTCoding/comments/120nf7l/prompting_for_length/,6,1679671081.0,"I'm using GPT-4 API and trying to get it to generate longer podcast scripts (like, multiple pages). 8k tokens ought to leave plenty of room, for this, but it seems like no matter how much I manipulate the prompt, it's feeding me back roughly a page worth of text.
+
+The alternative, of course, is to break the request into chunks, GPT-3.5 style.. but.. I feel like if I'm paying for GPT-4, I ought to be getting to take advantage of the enhanced capabilities.
+
+Has anyone had success getting GPT-4 to generate a lengthy response? How'd you prompt it?"
+65,127t8n5,ChatGPTCoding,GPT-4,relevance,2023-03-31 17:47:40,ChatGPT and GPT-4: The Future of Conversational AI,induwara_perera,False,0.33,0,https://qqfeather.com/chatgpt-and-gpt-4-the-future-of-conversational-ai/,1,1680284860.0,
+66,138cdhq,ChatGPTCoding,GPT-4,relevance,2023-05-05 05:57:40,Questions about GPT 4 API Access,Darayavaush84,False,1.0,3,https://www.reddit.com/r/ChatGPTCoding/comments/138cdhq/questions_about_gpt_4_api_access/,3,1683266260.0,"Dear all,
+
+I just got my API 4 access for GPT 4 and I would like to test something with it. Up to now, I read a lot but still some points are a bit foggy. Hopefully someone more advances can clarify things better.
+
+1. I have a subscription plan with OpenAI for the Chat GPT 4. I also know that we pay per use when we use the chat GPT 4 APIs, and that we have to set up billing information also for that. If I want to start using only the APIs, can I cancel my subscription with Chat GPT? Or do I have to keep both? Would you suggest that?
+2. As an IT I use ChatGPT mainly for Powershell scripting. and ChatGPT is already fuc\*\*\*g awesome.  Can you suggest a specific plugin for Powershell and generally for programming? I am not a developer, just to test things out and I would appreciate something particularly good ad coding - especially with powershell (no, I am not a fan og Github Copilot right now, I would like to chat with it, not only ask to debug code or finish something, I'll have to wait for Copilot X) . Would be great with internet access Maybe AutoGPT?
+3. AutoGPT can create a ""memory"" file on the local pc, or use an external vector database like Pinecone and similar. Why would I use something like Pinecone? What kind of advantage I would have in using such tool and maybe even paying for it? The only advantage I see right now is the possibility of using the ""memory"" on different pc's, is there something else?
+4. What would you suggest to set up AutoGPT once, and then use it on multiple computers (eg. work and private)? Set up a virtual machine? Use a raspberry PI? Copy the configured folder over...?
+5. When creating the API Key, I cannot choose between GPT 3.5 Model and 4. Do plugins select automatically the GPT 4 model or do I have to change some configuration file?
+
+&#x200B;
+
+&#x200B;
+
+Thank you for your help!"
+67,11zu7l7,ChatGPTCoding,GPT-4,relevance,2023-03-23 19:14:47,I Built an Entire React App with ChatGPT-4 Without Writing a Single Line of Code,Apprehensive_Ad_2908,False,0.94,94,https://www.reddit.com/r/ChatGPTCoding/comments/11zu7l7/i_built_an_entire_react_app_with_chatgpt4_without/,33,1679598887.0,"...OK, I'm ***\*\*building\*\**** a complete react web app with ChatGPT-4 without writing a single line of code...seriously!
+
+You can check it out here: [www.findacofounder.onlline](https://findacofounder.online/) ... it's not perfect, and I'm still working on it, but it is kind of amazing.
+
+**The Basics**
+
+* ChatGPT came up with every single word on the landing page and midJourney did most of the graphics (I made the hero)
+   * I did use some template code from [TailwindUI](https://tailwindui.com/) and [LandingFolio](https://www.landingfolio.com/library/all/tailwind) because I just liked how it looked more, but then chatGPT would rewrite it
+* ChatGPT came up with the file structure - yep, I didn't even name my files myself
+* I didn't write any code... even if I knew how to write it (and sometimes I was just being lazy and didn't want to write some of repetitive code it told me to lol) , I was truly testing if ChatGPT could do it all.
+* I have 2 sites, the landing page and the actual web app, both are running on Node.js/Express servers with a Nginx proxy that chatGPT told me how to set up
+* I'm using a droplet from DigitalOcean (which chatGPT told me how to set up!) and a managed mongodb
+* ChatGPT also told me how to set up my SSL cert, keep the server running, and all of that fun dev stuff
+* The landing page is just TailwindCSS, nothing fancy, but the web app is a full fledged react app, and I have never built anything in react, so that was super interesting.
+* It's not a complete project yet... there's still lots to do and chatGPT-4 is being weird right now
+
+**The Prompts/Prompting**
+
+* I prompt ChatGPT like I was pair programming with someone, this is the first prompt I used:
+
+&#x200B;
+
+>You will serve as the co-founder of a startup that is building a co-founder matching algorithm. The AI co-founder will be responsible for assisting in the development of the algorithm's logic, writing the code for the algorithm, and creating the landing page for the startup. The response should include an explanation of the AI's approach to solving the problem, the programming languages and frameworks it will use, and any other relevant information or strategies it plans to implement to ensure the success of the startup.
+
+&#x200B;
+
+* We'd always start by setting out the project plan, what we're building, our tech stack, etc. Then I'd break it down by each step or sub-step using what it told me to do as the prompt, usually reminding it what we've done. For example:
+
+&#x200B;
+
+>Ok let's get started building. So far we've made the co-founder survey using Typeform and we've created a website using a droplet from Digital Ocean. Node.js and Express for the backend with Nginx to serve it to the front end. What we need to do now is to create the front end design. We're actually just using tailwind because it was quicker. Let's design each section of the landing page. First, let's make a list of the sections it should have and plan out the structure before writing any code. My suggestions are: - Header -Hero Block -Product Demo -Problem Agitation -High-level solution -social proof 1 -product features -offer -social proof 2 -pricing -FAQs -Final Action  What do you think?
+
+&#x200B;
+
+* For telling it how to the UI should look, I'd be as specific as possible, and usually it was pretty good
+
+&#x200B;
+
+>Awesome let's get started writing the header code. For the header we want to include our logo , Company Name(Find a Co-Founder Online OR Co-Founder Matching), and a navigation menu. I think all we need is maybe About, Pricing, FAQs, and Contact and then a button with a CTA.  The header should have the logo on the left-side, navigation links centered, and button on the right side. Button should be a pill button with a shadow in bold color. The nav bar should be fixed to the top of the screen with a glassmorphism effect
+
+&#x200B;
+
+* As we moved into the backend, my prompts were more... confused? Yea, I got confused A TON
+
+&#x200B;
+
+>Ok is there anyway to test what we've done so far? Also, with this api routes, if someone were to go to the website with the route like (app.findacofounder.online/login) would they be on our api? also if we have that page and that's where the login form is, will there be some sort of conflict? I think I'm just a little confused on that
+
+&#x200B;
+
+* It would totally make stuff up.. and a lot of times I didn't know because I'm a pretty mid developer and ChatGPT always sounds so convincing, so I'd have to remind ChatGPT what was going on
+
+&#x200B;
+
+>Uhm we're using react, remember? Please review the conversation, we're on: Step 5: Connect the frontend to the backend Update your React app to make API calls to the backend for user registration, login, logout, and fetching user data. Handle success and error responses from the API in your React components.
+
+&#x200B;
+
+**The Good, The Bad, and The Ugly**
+
+* The longer you use chatGPT in a single thread, the more it starts hallucinating. One answer is like do this thing in FileA.js the next answer is like in your Tiger.js file.... uhm, what Tiger.js file? Didn't you tell me in FileA.js? That's when it's time to start a new chat
+* It needs to be constantly reminded of your file structure and your files, especially as the project gets bigger and bigger - you spend a lot of time just reminding it of the code it wrote
+* If you don't know ANYTHING about code, you can still have chatGPT build you things, but you have to have excellent reasoning and logic skills. Honestly, using chatGPT is all about your critical thinking skills. Never has this lesson from CS50 been more relative: [https://www.youtube.com/watch?v=okkIyWhN0iQ](https://www.youtube.com/watch?v=okkIyWhN0iQ)
+* You still have to do your own research and make your own decisions (which means actually knowing basic coding is still a plus) - I spent 2 days listening to chatGPT tell me this convoluted way to do forms in react, all the while, there was react-hook-form, knowing that would have saved me so much time.
+* It's very good at explaining things in very simple terms, I think I've actually learned how to use React now.
+
+&#x200B;
+
+*Overall, this project has been really fun and insightful to build and I can't wait to continue building it. Right now, it's helping me write the actual machine learning algorithm in Python - this is something I've done several times so I'll be interested in seeing the difference in doing something I'm quite confident in doing.*
+
+Wanna checkout the github: [https://github.com/realtalishaw/app.cofounder](https://github.com/realtalishaw/app.cofounder)"
+68,130nnlb,ChatGPTCoding,GPT-4,relevance,2023-04-27 14:20:32,ChatGPT 4 vs HuggingChat vs Bard? (for coding),punkouter23,False,1.0,13,https://www.reddit.com/r/ChatGPTCoding/comments/130nnlb/chatgpt_4_vs_huggingchat_vs_bard_for_coding/,13,1682605232.0,"Anyone bounce between them and find any significant difference ?  I assume ChatGPT 4 is going to be the best. 
+
+HuggingChat just came out recently and I tried that real quick and it seems fine."
+69,120wbxt,ChatGPTCoding,GPT-4,relevance,2023-03-24 19:57:48,Anyone else having issues with chatGPT 4 not finishing output? (Not token related),chili_ladder,False,0.98,28,https://www.reddit.com/r/ChatGPTCoding/comments/120wbxt/anyone_else_having_issues_with_chatgpt_4_not/,27,1679687868.0,"Basically, all of my replies have been freezing mid code reply. Finally got sick of it and decided to report it, which seems near impossible. They do not take bug reports, or if they do its way too difficult to figure out how to submit one. Anyways, came back 10 minutes later and my code reply had finally finished. I guess we just have to be patient."
+70,120l7k7,ChatGPTCoding,GPT-4,relevance,2023-03-24 14:00:22,ChatGPT 4 clearing technical interviews…!!!!,TranslatorAway9891,False,0.71,9,https://youtu.be/VIJ-USd7SLE,2,1679666422.0,

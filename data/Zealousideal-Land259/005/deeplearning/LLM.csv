@@ -1,0 +1,904 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,10fw22o,deeplearning,LLM,top,2023-01-19 07:55:49,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.9,72,https://www.reddit.com/r/deeplearning/comments/10fw22o/gpt4_will_be_500x_smaller_than_people_think_here/,11,1674114949.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/xvpw1erngyca1.png?width=575&format=png&auto=webp&s=d7bea7c6132081f2df7c950a0989f398599d6cae)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you. At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+1,121agx4,deeplearning,LLM,top,2023-03-25 04:24:49,Do we really need 100B+ parameters in a large language model?,Vegetable-Skill-9700,False,0.92,46,https://www.reddit.com/r/deeplearning/comments/121agx4/do_we_really_need_100b_parameters_in_a_large/,54,1679718289.0,"DataBricks's open-source LLM, [Dolly](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html) performs reasonably well on many instruction-based tasks while being \~25x smaller than GPT-3, challenging the notion that is big always better?
+
+From my personal experience, the quality of the model depends a lot on the fine-tuning data as opposed to just the sheer size. If you choose your retraining data correctly, you can fine-tune your smaller model to perform better than the state-of-the-art GPT-X. The future of LLMs might look more open-source than imagined 3 months back?
+
+Would love to hear everyone's opinions on how they see the future of LLMs evolving? Will it be few players (OpenAI) cracking the AGI and conquering the whole world or a lot of smaller open-source models which ML engineers fine-tune for their use-cases?
+
+P.S. I am kinda betting on the latter and building [UpTrain](https://github.com/uptrain-ai/uptrain), an open-source project which helps you collect that high quality fine-tuning dataset"
+2,1350qtu,deeplearning,LLM,top,2023-05-01 20:45:08,What are some small LLM models or free LLM APIs for tiny fun project?,silent_lantern,False,0.97,35,https://www.reddit.com/r/deeplearning/comments/1350qtu/what_are_some_small_llm_models_or_free_llm_apis/,19,1682973908.0,"Hi, I'm looking for a free/opensource api to build a small GPT webapp for fun. I want to deploy it on something like Heroku and use Flask in the backend. 
+
+
+I'm also open to uploading a small-ish llm model on Heroku and use that to answer chat like queries from users.
+
+
+Do you know of any such small foss models and/or free APIs?"
+3,zk5esp,deeplearning,LLM,top,2022-12-12 17:29:39,ChatGPT context length,Wild-Ad3931,False,0.97,30,https://www.reddit.com/r/deeplearning/comments/zk5esp/chatgpt_context_length/,10,1670866179.0,"How come ChatGPT can follow entire discussions whereas nowaday's LLM are limited (to the best of my knowledge) 4096 tokens ?
+
+I asked it and it is not able to answer neither, and I found nothing on Google because no paper is published. I was also curious to understand how come Beamsearch was so fast with ChatGPT.
+
+https://preview.redd.it/o6djsmpb5i5a1.png?width=1126&format=png&auto=webp&s=98baae5bf6fa294db408f0530214f8afa8a32a0b"
+4,12749vf,deeplearning,LLM,top,2023-03-31 00:20:59,Any advanced and updated DL courses?,nuquichoco,False,0.94,29,https://www.reddit.com/r/deeplearning/comments/12749vf/any_advanced_and_updated_dl_courses/,7,1680222059.0,"Do you know any Deep Learning course that covers topics such as attention, self-attention, transformes, diffusion models, and eventually LLM? It would be great if it has theory but also applications and examples.
+
+Context: I work as a ML eng, and I have experience working with CNNs, GANs, LSTMs and some other architectures. In the last years I've been mostly doing backend or working with simple ML stuff. I would like to be updated (again).  
+
+
+They can be free or paid. Thanks!"
+5,12wxrrd,deeplearning,LLM,top,2023-04-24 01:17:58,Can an average person learn how to build a LLM model?,sch1zoph_,False,0.72,28,https://www.reddit.com/r/deeplearning/comments/12wxrrd/can_an_average_person_learn_how_to_build_a_llm/,29,1682299078.0,"Hello everyone. I am a 30-year-old Korean male.
+
+To be honest, I have never really studied properly in my life. It's a little embarrassing, but that's the truth.
+
+Recently, while using ChatGPT, I had a dream for the first time. I want to create a chatbot that can provide a light comfort to people who come for advice. I would like to create an LLM model using Transformer, and use our country's beginner's counseling manual as the basis for the database.
+
+I am aware that there are clear limits to the level of comfort that can be provided. Therefore, if the problem is too complex or serious for this chatbot to handle, I would like to recommend the nearest mental hospital or counseling center based on the user's location. And, if the user can prove that they have visited the hospital (currently considering a direction where the hospital or counseling center can provide direct certification), I would like to create a program that provides simple benefits (such as a free Starbucks coffee coupon).
+
+I also thought about collecting a database of categories related to people's problems (excluding personal information) and selling it to counseling or psychiatric societies. I think this could be a great help to these societies.
+
+The problem is that I have never studied ""even once,"" and I feel scared and fearful of the unfamiliar sensation. I have never considered myself a smart person.
+
+However, I really want to make this happen! Our country is now in a state of constant conflict, and people hate and despise each other due to strong propaganda.
+
+As a result, the birth rate has dropped to less than 1%, leading to a decline in the population. Many people hide their pain inside and have no will to solve it. They just drink with their friends to relieve their pain. This is obviously not a solution. Therefore, Korea has a really serious suicide rate.
+
+I may not be able to solve this problem, but I want to put one small brick to build a big barrier to stop hatred. Can an ordinary person who knows nothing learn the common sense and study needed to build an LLM model? And what direction should one take to study one by one?"
+6,zen8l4,deeplearning,LLM,top,2022-12-07 00:33:41,Are currently state of art model for logical/common-sense reasoning all based on NLP(LLM)?,Accomplished-Bill-45,False,0.97,22,https://www.reddit.com/r/deeplearning/comments/zen8l4/are_currently_state_of_art_model_for/,6,1670373221.0,"Not very familiar with NLP, but I'm playing around with OpenAI's ChatGPT; particularly impressed by its reasoning, and its thought-process.
+
+Are all good reasoning models derived from NLP (LLM) models with RL training method at the moment?
+
+What are some papers/research team to read/follow to understand this area better and stay on updated?
+
+&#x200B;
+
+&#x200B;
+
+for ChatGPT. I've tested it with following cases
+
+Social reasoning ( which does a good job; such as: if I'm going to attend meeting tonight. I have a suit, but its dirty and size doesn't fit. another option is just wear underwear, the underwear is clean and fit in size. Which one should I wear to attend the meeting. )
+
+Psychological reasoning ( it did a bad job.I asked it to infer someone's intention given his behaviours, expression, talks etc.)
+
+Solving math question ( it’s ok, better then Minerva)
+
+Asking LSAT logic game questions ( it gives its thought process, but failed to give correct answers)
+
+I also wrote up a short mystery novel, ( like 200 words, with context) ask if it can tell is the victim is murdered or committed suicide; if its murdered, does victim knows the killer etc. It actually did ok job on this one if the context is clearly given that everyone can deduce some conclusion using common sense."
+7,12qq3mz,deeplearning,LLM,top,2023-04-18 15:00:24,Uni project: a FOSS LLM comparison tool - would you find this useful?,copywriterpirate,False,0.93,20,https://www.reddit.com/gallery/12qq3mz,3,1681830024.0,
+8,12nvtm3,deeplearning,LLM,top,2023-04-16 04:52:51,"BERT Explorer - Analyzing the ""T"" of GPT",msahmad,False,0.88,17,https://www.reddit.com/r/deeplearning/comments/12nvtm3/bert_explorer_analyzing_the_t_of_gpt/,0,1681620771.0,"If you want to dig deeper into NLP, LLM, Generative AI, you might consider starting with a model like BERT. This tool helps in exploring the inner working of Transformer-based model like BERT. It helped me understands some key concepts like word embedding, self-attention, multi-head attention, encoder, masked-language model, etc. Give it a try and explore BERT in a different way.
+
+BERT == Bidirectional Encoder Representations from TransformersGPT == Generative Pre-trained Transformer
+
+They both use the Transformer model, but BERT is relatively simpler because it only uses the encoder part of the Transformer.
+
+BERT Explorer[https://www.101ai.net/text/bert](https://www.101ai.net/text/bert)
+
+https://i.redd.it/bxxboyyuhaua1.gif"
+9,10nfew5,deeplearning,LLM,top,2023-01-28 13:44:39,Implementing GPTZero from scratch | Reverse Engineering GPTZero,BurhanUlTayyab,False,0.82,16,https://www.reddit.com/r/deeplearning/comments/10nfew5/implementing_gptzero_from_scratch_reverse/,0,1674913479.0,"We've gone through the original implementation of GPTZero and successfully reverse engineer it. (it gives the same results as original GPTZero). We've also recorded the implementation process which can be found below.
+
+Youtube Implementation Video: [https://youtu.be/x9H-aY5sCDA](https://youtu.be/x9H-aY5sCDA)  
+Github: [https://github.com/BurhanUlTayyab/GPTZero](https://github.com/BurhanUlTayyab/GPTZero)  
+Website: [https://gptzero.sg](https://gptzero.sg/)  
+Discord: [https://discord.com/invite/F3kFan28vH](https://discord.com/invite/F3kFan28vH)
+
+We're also working on a GPTZerov2 (inspired by LLM based transformers and GAaNs), which would be more accurate, and can detect lines changed by humans.
+
+Please give some feedback on our work by commenting here. If you need any help, contact me by writing a comment below.
+
+Thanks"
+10,11vb220,deeplearning,LLM,top,2023-03-19 04:17:24,"Best GPUs for pretraining roBERTa-size LLMs with a $50K budget, 4x RTX A6000 v.s. 4x A6000 ADA v.s. 2x A100 80GB",AngrEvv,False,0.84,16,https://www.reddit.com/r/deeplearning/comments/11vb220/best_gpus_for_pretraining_robertasize_llms_with_a/,7,1679199444.0,"Hi folks,
+
+Our lab plans to purchase a server with some decent GPUs to perform some pertaining tasks for program codes. We won't work on very large LLM and we even may not try the T5 model. Currently, we want to first try the roBERTa model. We have a $50K budget. And it's our first time purchasing GPU servers.
+
+I did some preliminary study and found the suggested GPU is A6000 ADA which has 48 GB GPU memory, according to [https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/). Since our tasks require lots of GPU memory, we think a GPU with more than 32 GB will be good for us. So our alternative choices are RTX A6000 and A100 80GB HBM2 cards. 
+
+Based on these, we got three server specs from Exxact ( [https://www.exxactcorp.com/TWS-115999024/configurator](https://www.exxactcorp.com/TWS-115999024/configurator)), (1) a $43K spec with 4  A6000 ADA cards, (2) a $32K spec with 4 RTX A6000 cards, and (3) a $41K spec with 2 A100 80GB cards. The other parts in the specs, e.g., CPU and RAM, are almost the same. I have attached the specs in screenshots.
+
+Now, I have some questions. 
+
+1. A6000 ADA removed NVLink ([https://forums.developer.nvidia.com/t/rtx-a6000-ada-no-more-nv-link-even-on-pro-gpus/230874](https://forums.developer.nvidia.com/t/rtx-a6000-ada-no-more-nv-link-even-on-pro-gpus/230874)) which is very important for performance boosting and GPU memory pooling. Does this mean it's a good choice to have multiple A6000 ADA cards on a server?
+2. A6000 ADA is a very new GPU improved from RTX A6000. But it has the NVLink, which means the server GPU memory can reach 48 \* 4 GB when connecting 4 RTX A6000 cards. However, we are going to use the GPU server for several years. For IT products, it's always better to purchase the latest ones. Is that true for GPU cards? And A6000 ADA has more tensor and cuda cores than RTX A6000. 
+3. For the A100 80GB spec, we can only have 2 cards wondering the budget. For the LLM pertaining, more cards usually mean more parallelism and faster training. Based on my study, A6000 ADA has comparable performance to A100 on DL benchmarks. Is this A100 80GB spec a good choice?
+4. Except for the ahead-mentioned specs, what else would you recommend for our pretraining tasks, especially for GPUs?
+
+Thanks for your time! We really appreciate any suggestions."
+11,11pyvb3,deeplearning,LLM,top,2023-03-13 03:30:09,Which topic in deep learning do you think will become relevant or popular in the future?,gokulPRO,False,0.84,13,https://www.reddit.com/r/deeplearning/comments/11pyvb3/which_topic_in_deep_learning_do_you_think_will/,14,1678678209.0,"I recently saw Continual Learning (CL) growing, with several papers published recently that have considerable potential to impact real-world applications. Which topic (such as CV, RL, NLP, CL..) will be very relevant to research or be focused on a lot? And which topic do you think still needs a breakthrough and will have a significant impact in real-world applications, such as in the case of these LLM models in recent times? Feel free to mention your current topic of work and why you chose to do it 😊"
+12,129t3tl,deeplearning,LLM,top,2023-04-02 18:10:37,Should we draw inspiration from Deep learning/Computer vision world for fine-tuning LLMs?,Vegetable-Skill-9700,False,0.78,12,https://www.reddit.com/r/deeplearning/comments/129t3tl/should_we_draw_inspiration_from_deep/,8,1680459037.0,"With HuggingGPT, BloombergGPT, and OpenAI's chatGPT store, it looks like the world is moving towards specialized GPTs for specialized tasks. What do you think are the best tips & tricks when it comes to fine-tuning and refining these task-specific GPTs?
+
+Over the last decade, I have built many computer vision models (for human pose estimation, action classification, etc.), and our general approach was always based on Transfer learning. Take a state-of-the-art public model and fine-tune it by collecting data for the given use case.
+
+Do you think that paradigm still holds true for LLMs?
+
+Based on my experience, I believe observing the model's performance as it interacts with real-world data, identifying failure cases (where the model's outputs are wrong), and using them to create a high-quality retraining dataset will be the key.
+
+&#x200B;
+
+P.S. I am building an open-source project UpTrain ([https://github.com/uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain)), which helps data scientists to do so. We just wrote a blog on how this principle can be applied to fine-tune an LLM for a conversation summarization task. Check it out here: [https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation\_summarization](https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation_summarization)"
+13,12tmtid,deeplearning,LLM,top,2023-04-21 01:59:34,"With all the latest trend in ML, which shall I study first",Reasonable-Ball9018,False,0.85,9,https://www.reddit.com/r/deeplearning/comments/12tmtid/with_all_the_latest_trend_in_ml_which_shall_i/,6,1682042374.0,"Hello. I'm feeling overwhelmed with all the latest trend in ML. I have basic knowledge and skills up until CNN. Shall I proceed with RNN and NLP until LLM or proceed with MLOps? 
+
+I'm planning to start a new job in ML and I want to develop my skills that are inlined with the market. 
+
+Looking forward for your suggestions. Thank you"
+14,13gv1zj,deeplearning,LLM,top,2023-05-13 22:42:26,Domain specific chatbot. Semantic search isn't enough.,mldlbr,False,0.9,8,https://www.reddit.com/r/deeplearning/comments/13gv1zj/domain_specific_chatbot_semantic_search_isnt/,8,1684017746.0,"Hi guys, I'm struggling to find a reliable solution to this specific problem.
+
+I  have a huge dataset with chat conversations, about several topics. I  want to ask questions and retrieve information about these conversations in a chatbot way.
+
+I have tried  semantic search with chatGPT to answer questions about these  conversations. The problem is that semantic search only returns top  similar sentences, and doesn't ‘read’ all conversations, that’s not  enough to answer generic questions, just very specific ones. For  example, if I ask “What are these people talking about person X?” it  will return only the top sentences (through semantic similarity) and  that will not tell the whole story. The LLM’s models have a limit of  tokens, so I can’t send the whole dataset as context.
+
+Is there any approach to giving a reliable answer based on reading all the messages?
+
+Any ideas on how to approach this problem?"
+15,10bq685,deeplearning,LLM,top,2023-01-14 14:48:43,Scaling Language Models Shines Light On The Future Of AI ⭕,LesleyFair,False,0.76,9,https://www.reddit.com/r/deeplearning/comments/10bq685/scaling_language_models_shines_light_on_the/,1,1673707723.0,"Last year, large language models (LLM) have broken record after record. ChatGPT got to 1 million users faster than Facebook, Spotify, and Instagram did. They helped create [billion-dollar companies](https://www.marketsgermany.com/translation-tool-deepl-is-now-a-unicorn/#:~:text=Cologne%2Dbased%20artificial%20neural%20network,sources%20close%20to%20the%20company), and most notably they helped us recognize the [divine nature of ducks](https://twitter.com/drnelk/status/1598048054724423681?t=LWzI2RdbSO0CcY9zuJ-4lQ&s=08).
+
+2023 has started and ML progress is likely to continue at a break-neck speed. This is a great time to take a look at one of the most interesting papers from last year.
+
+Emergent Abilities in LLMs
+
+In a recent [paper from Google Brain](https://arxiv.org/pdf/2206.07682.pdf), Jason Wei and his colleagues allowed us a peak into the future. This beautiful research showed how scaling LLMs might allow them, among other things, to:
+
+* Become better at math
+* Understand even more subtleties of human language
+* reduce hallucination and answer truthfully
+* ...
+
+(See the plot on break-out performance below for a full list)
+
+**Some Context:**
+
+If you played around with ChatGPT or any of the other LLMs, you will likely have been as impressed as I was. However, you have probably also seen the models go off the rails here and there. The model might hallucinate gibberish, give untrue answers, or fail at performing math.
+
+**Why does this happen?**
+
+LLMs are commonly trained by [maximizing the likelihood](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) over all tokens in a body of text. Put more simply, they learn to predict the next word in a sequence of words.
+
+Hence, if such a model learns to do any math at all, it learns it by figuring concepts present in human language (and thereby math).
+
+Let's look at the following sentence.
+
+""The sum of two plus two is ...""
+
+The model figures out that the most likely missing word is ""four"".
+
+The fact that LLMs learn this at all is mind-bending to me! However, once the math gets more complicated [LLMs begin to struggle](https://twitter.com/Richvn/status/1598714487711756288?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1598714487711756288%7Ctwgr%5E478ce47357ad71a72873d1a482af5e5ff73d228f%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fanalyticsindiamag.com%2Ffreaky-chatgpt-fails-that-caught-our-eyes%2F).
+
+There are many other cases where the models fail to capture the elaborate interactions and meanings behind words. One other example is words that change their meaning with context. When the model encounters the word ""bed"", it needs to figure out from the context, if the text is talking about a ""river bed"" or a ""bed"" to sleep in.
+
+**What they discovered:**
+
+For smaller models, the performance on the challenging tasks outline above remains approximately random. However, the performance shoots up once a certain number of training FLOPs (a proxy for model size) is reached.
+
+The figure below visualizes this effect on eight benchmarks. The critical number of training FLOPs is around 10\^23. The big version of GPT-3 already lies to the right of this point, but we seem to be at the beginning stages of performance increases.
+
+&#x200B;
+
+[Break-Out Performance At Critical Scale](https://preview.redd.it/jlh726eku0ca1.png?width=800&format=png&auto=webp&s=55d170251a967f31b36f01864af6bb7e2dbda253)
+
+They observed similar improvements on (few-shot) prompting strategies, such as multi-step reasoning and instruction following. If you are interested, I also encourage you to check out Jason Wei's personal blog. There he [listed a total of 137](https://www.jasonwei.net/blog/emergence) emergent abilities observable in LLMs.
+
+Looking at the results, one could be forgiven for thinking: simply making models bigger will make them more powerful. That would only be half the story.
+
+(Language) models are primarily scaled along three dimensions: number of parameters, amount of training compute, and dataset size. Hence, emergent abilities are likely to also occur with e.g. bigger and/or cleaner datasets.
+
+There is [other research](https://arxiv.org/abs/2203.15556) suggesting that current models, such as GPT-3, are undertrained. Therefore, scaling datasets promises to boost performance in the near-term, without using more parameters.
+
+**So what does this mean exactly?**
+
+This beautiful paper shines a light on the fact that our understanding of how to train these large models is still very limited. The lack of understanding is largely due to the sheer cost of training LLMs. Running the same number of experiments as people do for smaller models would cost in the hundreds of millions.
+
+However, the results strongly hint that further scaling will continue the exhilarating performance gains of the last years.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you.At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week.No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)"
+16,12g8hx7,deeplearning,LLM,top,2023-04-09 04:16:04,Question about suitable HW for running LLM tools,drivebyposter2020,False,1.0,6,https://www.reddit.com/r/deeplearning/comments/12g8hx7/question_about_suitable_hw_for_running_llm_tools/,4,1681013764.0,"Hey, 
+
+I have been speculating about adding a modern GPU with ""enough"" VRAM to a workstation I have from years ago... a pair of Sandy Bridge (!) Xeons with 8 core/16 thread each, and 192GB of RAM and a few terabytes of pretty fast SSD (which makes it liveable in the modern age for fooling around with modern data stack stuff).  My goal is to be able to experiment with some of the LLM tools (Alpaca, for example) on something beefier than my notebook (which has an AMD discrete GPU with 8GB VRAM and 16GB main system RAM). 
+
+Is putting a modern GPU in a system with a PCIe 2.0 bus a fool's errand? I don't really care that much about blazing fast, more ""fast enough"" while stable. I don't want to replace the workstation if I can help it, I don't have the hardcore need yet.
+
+I'd be content to use an older GPU as well if it would work."
+17,13glaxc,deeplearning,LLM,top,2023-05-13 16:01:41,"Running memory hungry tensorflow/pytorch models on an integrated Iris Xe GPU, is it possible?",gabrielesilinic,False,0.7,5,https://www.reddit.com/r/deeplearning/comments/13glaxc/running_memory_hungry_tensorflowpytorch_models_on/,10,1683993701.0,"First of all, why? Well, look at the price of an A100 GPU and you will understand, the insane advantage of running large models on an integrated graphics card is that, first of all: they should be able to run there.
+
+Why? Well, I just upgraded my laptop and now has 32 GB of RAM, the integrated GPU can share those 32GB of system memory with ease and make it its VRAM, so even if it will not run as fast as it would if it fitted into my 4GB of VRAM of my 3080 Ti at least it should run
+
+But the bigger question is, can it run? Does it have some kind of support? Like, don't know, OpenCL maybe? It should have Vulkan support but I don't know if it changes something
+
+If i need to get Linux or something I will figure that out, no issue, but if i could run some LLM at all it would be nice, it would also be nice if it turned out to be somehow convenient when i started to make my models for some use cases."
+18,12bex3l,deeplearning,LLM,top,2023-04-04 10:36:43,Dynamic Transformers,albertv23,False,0.84,4,https://www.reddit.com/r/deeplearning/comments/12bex3l/dynamic_transformers/,0,1680604603.0,"Transformers models process inputs according to a predetermined and fixed processing flow.
+
+This could lead to inefficiency because the “difficulty” of the answers varies and not all the output tokens require the full previous context to be inferred correctly. In a typical generative model, many tokens are related to the previous ones by simple grammar rules more than by some deep semantic.
+
+For example, in this dialogue:
+
+&#x200B;
+
+Q: What is the capital of France?
+
+A: The capital of France is Paris.
+
+&#x200B;
+
+It is intuitive that the word “Paris” contains the most informative content, while the word “of” is mainly grammatically connected to the previous words “The capital”. Another observation is that the answer does not depend much on any context before the question.
+
+We suggest two schemes that aim to bypass the full model inference in such cases. The first scheme reduces the depth of network processing, i.e. the number of layers to traverse to produce an output. The second scheme reduces the width of the processed context.
+
+Both schemes are dynamic during inference
+
+&#x200B;
+
+# Dynamic early-exit layer EEL
+
+&#x200B;
+
+Given a decoder-only auto-regressive transformer with N layers, we foresee an early-exit adaptation layer EEL inserted after layer K, with K < N.
+
+&#x200B;
+
+The network processes the inputs up to layer K at inference time, and then passes them to the EEL layer. If the EEL layer output probabilities are polarized, i.e. if the EEL layer is confident about its prediction, then the corresponding token is printed and the computation does not proceed further up in the network.
+
+&#x200B;
+
+# EEL training
+
+&#x200B;
+
+The EEL layer is trained on a frozen LLM. 
+
+&#x200B;
+
+We want for the EEL layer, not only mimic the full-model output, but also, very critically, to produce an uncertainty signal to allow the network to move on.
+
+&#x200B;
+
+At training time we feed the same inputs and compute both the full model and the EEL layer output probabilities.
+
+&#x200B;
+
+EEL layer is trained to match the probability distribution of the full model. In particular we want the EEL to be very confident on its prediction only when the full model is also very confident, and of course the prediction should be the same for both the full model and the EEL adaptation layer.
+
+&#x200B;
+
+In other words, the training target is to match the output of the full model only when output probabilities are polarized, i.e. when the full model is confident. If the full model is not confident, then we want the EEL probabilities to trigger an uncertain signal, so that at inference time computation will continue up in the network. 
+
+&#x200B;
+
+Multiple early-exit adaptation layers can be inserted after different layers in the model. The adaptation layers work in a cascade fashion. If the x-th EEL is not confident enough, continue to the next x+1 EEL and repeat the check. The process flow will eventually reach the top of the network if all the EEL layers fail and network will fall back on the usual standard processing flow.
+
+&#x200B;
+
+# Dynamic reduced context layer RCL
+
+&#x200B;
+
+Intuitively the whole input context is not always necessary to capture the information needed to answer. For instance in case of a dialog, maybe only the last question is needed if the previous ones are unrelated. Another case may be when the model just needs its already outputted answer up to token N, to infer the next token. For instance the sentence ""The capital of France is "" seems enough for the model to infer ""Paris"" as next token.
+
+&#x200B;
+
+Moved by these intuitions, we expand on the early-exit layer idea and apply it to the contexts.
+
+&#x200B;
+
+Specifically, we define a reduced context layer RCL inserted after a given M layer, with M < N. At inference time the network reads a reduced context as input, then the normal process flow occurs up to layer M, that feeds the RCL layer. If RCL layer is enough ""confident"", i.e. the output probabilities are polarized, then just take the RCL prediction as next token, otherwise restart with a widened context.
+
+&#x200B;
+
+Reduced context adaptation layer RCL is inserted at layer M with M < N, i.e. strictly within the model, because we want to catch mostly grammar-linked tokens, and we don't need the full model for this.
+
+&#x200B;
+
+Differently from EEL layer, here the reduced context width is intrinsically content dependent, and this is an added complication.
+
+&#x200B;
+
+For instance, at inference time, the model can start processing the full context and then dynamically shrinks it as tokens are printed. If the RCL layer returns a ""low confidence"" value, then context is  widened again and reprocessed. Quantitative rules to widen and shrink content are based on heuristics.
+
+&#x200B;
+
+# RCL training
+
+&#x200B;
+
+RCL layer is trained on an frozen LLM. 
+
+&#x200B;
+
+We want for RCL layer, not only to mimic the full layer output, but also, very critically, force a context widening when needed.
+
+&#x200B;
+
+So we foresee two training schemes.
+
+&#x200B;
+
+1. Single context
+
+&#x200B;
+
+At training time, the same reduced context is given as input to both the full model and the RCL reduced one. Training target is for the RCL layer to mimic full model output. This step aligns RCL to full model.
+
+&#x200B;
+
+2. Double context
+
+&#x200B;
+
+At training time, both the full and the reduced contexts are passed as input to the full model. If the output of the full model differs or in general if the output probability distribution of the two cases is  ""different"" enough, then we feed the reduced content to the RCL and we expect the RCL to be ""not confident"" on its output. This step teaches RCL when force a re-evaluation with a widened context."
+19,139jzro,deeplearning,LLM,top,2023-05-06 11:14:44,2x Nvidia A2 vs a 3090?,davew111,False,1.0,5,https://www.reddit.com/r/deeplearning/comments/139jzro/2x_nvidia_a2_vs_a_3090/,4,1683371684.0,"I'm currently running LLM models on a desktop PC with a 3090. It's quite power hungry. I am thinking about building a new rig that is energy efficient and can be left on all the time. Nvidia A2s can be found quite cheap on eBay. If I had two that would give me 32GB of vram, and each card pulls only 60w.
+
+My question is what kind of performance can I expect, how would two A2s performance compared to a 3090?"
+20,yyrfgt,deeplearning,LLM,top,2022-11-18 18:47:28,AMD MI200 vs Nvidia A100 for LLM,thuzp,False,1.0,5,https://www.reddit.com/r/deeplearning/comments/yyrfgt/amd_mi200_vs_nvidia_a100_for_llm/,7,1668797248.0,"I am considering building a large language model GPU server for a project I am working on. I am currently weighing my options. The AMD MI200 looks like an attractive option based on the price and the VRAM. However, I am worried about it being capable of running popular large language models without much hassle and trouble shooting on my path. The models I intend to run were made using pytorch. 
+
+I would like to hear some inputs about these options and if anyone has successfully used AMD MI200 for DL stuff. 
+
+Thanks"
+21,12o4chf,deeplearning,LLM,top,2023-04-16 10:41:13,2x RTX A100 80GB vs 3x RTX 6000 ADA 48GB GPUs for LLM/ViT inference and training?,lolman2215,False,0.84,4,https://www.reddit.com/r/deeplearning/comments/12o4chf/2x_rtx_a100_80gb_vs_3x_rtx_6000_ada_48gb_gpus_for/,3,1681641673.0,"Hello guys. With the new RTX6000, are there some general guidelines for building a ""small"" deep learning workstation ?
+
+How do the latest A100 80GB GPUs compare with the new RTX 6000 ADA 48GB when
+
+a) Training LLMs?
+
+b) Performing inference with LLMs?
+
+The 2x A100 setup provides 160GB VRAM, the 3x 6000 provides 144. But probably more data transfer between GPUs is a bottleneck."
+22,12kh5jw,deeplearning,LLM,top,2023-04-13 08:16:50,Which one to buy? RTX3060 12gb or Quadro P5000 16gb for LLM training and fine-tuning?,aadoop6,False,0.73,5,https://www.reddit.com/r/deeplearning/comments/12kh5jw/which_one_to_buy_rtx3060_12gb_or_quadro_p5000/,24,1681373810.0,Hi. I need to buy a GPU for model training and fine-tuning of LLMs. I have a choice between RTX3060 12gb and Quadro P5000 16gb. Can someone help me choose? Also I am kind of wondering if both of these cards are insufficient for what I intend to do. Any thoughts and suggestions would be much appreciated. Thanks!
+23,11w904r,deeplearning,LLM,top,2023-03-20 04:54:37,Should I pay for A100 or use 3090TI,dliaos,False,0.72,3,https://www.reddit.com/r/deeplearning/comments/11w904r/should_i_pay_for_a100_or_use_3090ti/,1,1679288077.0,"Currently attempting to fine tune an existing LLM off Hugging Face as my first delve into Machine Learning.  
+I have access to a 3090TI and relatively ok internet connection. Would it be worth it to pay for cloud computing (A100) or should I just train with the 3090TI I have access to?   
+The 3090TI is not my own so I wouldn't have 24/7 uptime but it's not that long of a job, should maybe take 1-2 weeks max on a A100?  
+Would it be worth it to skip the hassle and shell out the few bucks to train using a cloud computing service, and has anyone attempted to use both and can tell me the difference in speed? Specifically how good a 3090TI would even be for training?"
+24,137x6vr,deeplearning,LLM,top,2023-05-04 19:25:03,Weaviate 1.19 Release!,CShorten,False,1.0,4,https://www.reddit.com/r/deeplearning/comments/137x6vr/weaviate_119_release/,3,1683228303.0,"Weaviate 1.19 is live!! This release comes with a ton of exciting things that I am super excited to tell you about:  
+
+
+1. \`groupBy\` feature in the Search UX, Why? This allows us to associated the atomic chunks with their respective context. For example, we may decompose a long document into passages (each containing say 1 or 2 paragraphs). Using the new \`groupBy\` API, we can aggregate the matches of paragraph chunks within the document. An example given in the podcast is if we query ""ANN Benchmarks"" -- a passage of one podcast may have a very similar vector, whereas there may be a podcast that is entirely dedicated to the topic, but doesn't have a single passage that matches as well as this query. STARTING NOW, we can find these documents rather than just searching as the passage level.  
+
+
+2. Generative-Cohere Module, Why? Weaviate is integrating with LLMs to provide retrieval-augmented generation and a beautiful management interface to organize the models that operate around the search and vector index features. Adding Cohere's incredible LLM continues the path of giving users more model options from LLMs to embeddings, question answering, and more as the space continues to evolve!  
+
+
+3. \`gRPC\` API, Why? With the latest iteration of ANN Benchmarks between different open providers (both libraries and databases), Weaviate has added a gRPC API to further optimize for the throughput overhead of different APIs (e.g. REST, GraphQL).  
+
+
+That is as much of a preview as I'll give you in this quick preview, please check out our new Weaviate 1.19 release podcast for more information about these features as well as others included in the new release!  
+
+
+Weaviate 1.19 Release Podcast: [https://www.youtube.com/watch?v=Du6IphCcCec](https://www.youtube.com/watch?v=Du6IphCcCec)"
+25,13ibjol,deeplearning,LLM,top,2023-05-15 15:31:18,Guides/Resources to prepare data for LLM finetuning?,PataFunction,False,1.0,3,/r/learnmachinelearning/comments/13ibbbf/guidesresources_to_prepare_data_for_llm_finetuning/,3,1684164678.0,
+26,11ybkl6,deeplearning,LLM,top,2023-03-22 08:05:11,Training on distributed system/ own cluster,karlklaustal,False,1.0,2,https://www.reddit.com/r/deeplearning/comments/11ybkl6/training_on_distributed_system_own_cluster/,4,1679472311.0,"Hi Reddit,
+Is there a way to increase training speed of a own model by putting it on several consumer computers / laptops?
+Or in other words can i set up an own sort of cluster for LLM training/finetuning?
+Anyone give me some hints?"
+27,12q2u7u,deeplearning,LLM,top,2023-04-18 00:11:57,Can LLM software be used to assess integrative complexity of text?,Electric-Gecko,False,0.75,2,/r/ArtificialInteligence/comments/12h1lne/can_llm_software_be_used_to_assess_integrative/,0,1681776717.0,
+28,121agx4,deeplearning,LLM,comments,2023-03-25 04:24:49,Do we really need 100B+ parameters in a large language model?,Vegetable-Skill-9700,False,0.93,47,https://www.reddit.com/r/deeplearning/comments/121agx4/do_we_really_need_100b_parameters_in_a_large/,54,1679718289.0,"DataBricks's open-source LLM, [Dolly](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html) performs reasonably well on many instruction-based tasks while being \~25x smaller than GPT-3, challenging the notion that is big always better?
+
+From my personal experience, the quality of the model depends a lot on the fine-tuning data as opposed to just the sheer size. If you choose your retraining data correctly, you can fine-tune your smaller model to perform better than the state-of-the-art GPT-X. The future of LLMs might look more open-source than imagined 3 months back?
+
+Would love to hear everyone's opinions on how they see the future of LLMs evolving? Will it be few players (OpenAI) cracking the AGI and conquering the whole world or a lot of smaller open-source models which ML engineers fine-tune for their use-cases?
+
+P.S. I am kinda betting on the latter and building [UpTrain](https://github.com/uptrain-ai/uptrain), an open-source project which helps you collect that high quality fine-tuning dataset"
+29,12wxrrd,deeplearning,LLM,comments,2023-04-24 01:17:58,Can an average person learn how to build a LLM model?,sch1zoph_,False,0.7,26,https://www.reddit.com/r/deeplearning/comments/12wxrrd/can_an_average_person_learn_how_to_build_a_llm/,29,1682299078.0,"Hello everyone. I am a 30-year-old Korean male.
+
+To be honest, I have never really studied properly in my life. It's a little embarrassing, but that's the truth.
+
+Recently, while using ChatGPT, I had a dream for the first time. I want to create a chatbot that can provide a light comfort to people who come for advice. I would like to create an LLM model using Transformer, and use our country's beginner's counseling manual as the basis for the database.
+
+I am aware that there are clear limits to the level of comfort that can be provided. Therefore, if the problem is too complex or serious for this chatbot to handle, I would like to recommend the nearest mental hospital or counseling center based on the user's location. And, if the user can prove that they have visited the hospital (currently considering a direction where the hospital or counseling center can provide direct certification), I would like to create a program that provides simple benefits (such as a free Starbucks coffee coupon).
+
+I also thought about collecting a database of categories related to people's problems (excluding personal information) and selling it to counseling or psychiatric societies. I think this could be a great help to these societies.
+
+The problem is that I have never studied ""even once,"" and I feel scared and fearful of the unfamiliar sensation. I have never considered myself a smart person.
+
+However, I really want to make this happen! Our country is now in a state of constant conflict, and people hate and despise each other due to strong propaganda.
+
+As a result, the birth rate has dropped to less than 1%, leading to a decline in the population. Many people hide their pain inside and have no will to solve it. They just drink with their friends to relieve their pain. This is obviously not a solution. Therefore, Korea has a really serious suicide rate.
+
+I may not be able to solve this problem, but I want to put one small brick to build a big barrier to stop hatred. Can an ordinary person who knows nothing learn the common sense and study needed to build an LLM model? And what direction should one take to study one by one?"
+30,12kh5jw,deeplearning,LLM,comments,2023-04-13 08:16:50,Which one to buy? RTX3060 12gb or Quadro P5000 16gb for LLM training and fine-tuning?,aadoop6,False,0.75,6,https://www.reddit.com/r/deeplearning/comments/12kh5jw/which_one_to_buy_rtx3060_12gb_or_quadro_p5000/,24,1681373810.0,Hi. I need to buy a GPU for model training and fine-tuning of LLMs. I have a choice between RTX3060 12gb and Quadro P5000 16gb. Can someone help me choose? Also I am kind of wondering if both of these cards are insufficient for what I intend to do. Any thoughts and suggestions would be much appreciated. Thanks!
+31,1350qtu,deeplearning,LLM,comments,2023-05-01 20:45:08,What are some small LLM models or free LLM APIs for tiny fun project?,silent_lantern,False,0.97,35,https://www.reddit.com/r/deeplearning/comments/1350qtu/what_are_some_small_llm_models_or_free_llm_apis/,19,1682973908.0,"Hi, I'm looking for a free/opensource api to build a small GPT webapp for fun. I want to deploy it on something like Heroku and use Flask in the backend. 
+
+
+I'm also open to uploading a small-ish llm model on Heroku and use that to answer chat like queries from users.
+
+
+Do you know of any such small foss models and/or free APIs?"
+32,11pyvb3,deeplearning,LLM,comments,2023-03-13 03:30:09,Which topic in deep learning do you think will become relevant or popular in the future?,gokulPRO,False,0.84,13,https://www.reddit.com/r/deeplearning/comments/11pyvb3/which_topic_in_deep_learning_do_you_think_will/,14,1678678209.0,"I recently saw Continual Learning (CL) growing, with several papers published recently that have considerable potential to impact real-world applications. Which topic (such as CV, RL, NLP, CL..) will be very relevant to research or be focused on a lot? And which topic do you think still needs a breakthrough and will have a significant impact in real-world applications, such as in the case of these LLM models in recent times? Feel free to mention your current topic of work and why you chose to do it 😊"
+33,10fw22o,deeplearning,LLM,comments,2023-01-19 07:55:49,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.9,70,https://www.reddit.com/r/deeplearning/comments/10fw22o/gpt4_will_be_500x_smaller_than_people_think_here/,11,1674114949.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/xvpw1erngyca1.png?width=575&format=png&auto=webp&s=d7bea7c6132081f2df7c950a0989f398599d6cae)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you. At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+34,zk5esp,deeplearning,LLM,comments,2022-12-12 17:29:39,ChatGPT context length,Wild-Ad3931,False,0.95,29,https://www.reddit.com/r/deeplearning/comments/zk5esp/chatgpt_context_length/,10,1670866179.0,"How come ChatGPT can follow entire discussions whereas nowaday's LLM are limited (to the best of my knowledge) 4096 tokens ?
+
+I asked it and it is not able to answer neither, and I found nothing on Google because no paper is published. I was also curious to understand how come Beamsearch was so fast with ChatGPT.
+
+https://preview.redd.it/o6djsmpb5i5a1.png?width=1126&format=png&auto=webp&s=98baae5bf6fa294db408f0530214f8afa8a32a0b"
+35,13glaxc,deeplearning,LLM,comments,2023-05-13 16:01:41,"Running memory hungry tensorflow/pytorch models on an integrated Iris Xe GPU, is it possible?",gabrielesilinic,False,0.73,5,https://www.reddit.com/r/deeplearning/comments/13glaxc/running_memory_hungry_tensorflowpytorch_models_on/,10,1683993701.0,"First of all, why? Well, look at the price of an A100 GPU and you will understand, the insane advantage of running large models on an integrated graphics card is that, first of all: they should be able to run there.
+
+Why? Well, I just upgraded my laptop and now has 32 GB of RAM, the integrated GPU can share those 32GB of system memory with ease and make it its VRAM, so even if it will not run as fast as it would if it fitted into my 4GB of VRAM of my 3080 Ti at least it should run
+
+But the bigger question is, can it run? Does it have some kind of support? Like, don't know, OpenCL maybe? It should have Vulkan support but I don't know if it changes something
+
+If i need to get Linux or something I will figure that out, no issue, but if i could run some LLM at all it would be nice, it would also be nice if it turned out to be somehow convenient when i started to make my models for some use cases."
+36,129t3tl,deeplearning,LLM,comments,2023-04-02 18:10:37,Should we draw inspiration from Deep learning/Computer vision world for fine-tuning LLMs?,Vegetable-Skill-9700,False,0.78,12,https://www.reddit.com/r/deeplearning/comments/129t3tl/should_we_draw_inspiration_from_deep/,8,1680459037.0,"With HuggingGPT, BloombergGPT, and OpenAI's chatGPT store, it looks like the world is moving towards specialized GPTs for specialized tasks. What do you think are the best tips & tricks when it comes to fine-tuning and refining these task-specific GPTs?
+
+Over the last decade, I have built many computer vision models (for human pose estimation, action classification, etc.), and our general approach was always based on Transfer learning. Take a state-of-the-art public model and fine-tune it by collecting data for the given use case.
+
+Do you think that paradigm still holds true for LLMs?
+
+Based on my experience, I believe observing the model's performance as it interacts with real-world data, identifying failure cases (where the model's outputs are wrong), and using them to create a high-quality retraining dataset will be the key.
+
+&#x200B;
+
+P.S. I am building an open-source project UpTrain ([https://github.com/uptrain-ai/uptrain](https://github.com/uptrain-ai/uptrain)), which helps data scientists to do so. We just wrote a blog on how this principle can be applied to fine-tune an LLM for a conversation summarization task. Check it out here: [https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation\_summarization](https://github.com/uptrain-ai/uptrain/tree/main/examples/coversation_summarization)"
+37,13gv1zj,deeplearning,LLM,comments,2023-05-13 22:42:26,Domain specific chatbot. Semantic search isn't enough.,mldlbr,False,0.9,8,https://www.reddit.com/r/deeplearning/comments/13gv1zj/domain_specific_chatbot_semantic_search_isnt/,8,1684017746.0,"Hi guys, I'm struggling to find a reliable solution to this specific problem.
+
+I  have a huge dataset with chat conversations, about several topics. I  want to ask questions and retrieve information about these conversations in a chatbot way.
+
+I have tried  semantic search with chatGPT to answer questions about these  conversations. The problem is that semantic search only returns top  similar sentences, and doesn't ‘read’ all conversations, that’s not  enough to answer generic questions, just very specific ones. For  example, if I ask “What are these people talking about person X?” it  will return only the top sentences (through semantic similarity) and  that will not tell the whole story. The LLM’s models have a limit of  tokens, so I can’t send the whole dataset as context.
+
+Is there any approach to giving a reliable answer based on reading all the messages?
+
+Any ideas on how to approach this problem?"
+38,zen8l4,deeplearning,LLM,comments,2022-12-07 00:33:41,Are currently state of art model for logical/common-sense reasoning all based on NLP(LLM)?,Accomplished-Bill-45,False,0.97,23,https://www.reddit.com/r/deeplearning/comments/zen8l4/are_currently_state_of_art_model_for/,6,1670373221.0,"Not very familiar with NLP, but I'm playing around with OpenAI's ChatGPT; particularly impressed by its reasoning, and its thought-process.
+
+Are all good reasoning models derived from NLP (LLM) models with RL training method at the moment?
+
+What are some papers/research team to read/follow to understand this area better and stay on updated?
+
+&#x200B;
+
+&#x200B;
+
+for ChatGPT. I've tested it with following cases
+
+Social reasoning ( which does a good job; such as: if I'm going to attend meeting tonight. I have a suit, but its dirty and size doesn't fit. another option is just wear underwear, the underwear is clean and fit in size. Which one should I wear to attend the meeting. )
+
+Psychological reasoning ( it did a bad job.I asked it to infer someone's intention given his behaviours, expression, talks etc.)
+
+Solving math question ( it’s ok, better then Minerva)
+
+Asking LSAT logic game questions ( it gives its thought process, but failed to give correct answers)
+
+I also wrote up a short mystery novel, ( like 200 words, with context) ask if it can tell is the victim is murdered or committed suicide; if its murdered, does victim knows the killer etc. It actually did ok job on this one if the context is clearly given that everyone can deduce some conclusion using common sense."
+39,11vb220,deeplearning,LLM,comments,2023-03-19 04:17:24,"Best GPUs for pretraining roBERTa-size LLMs with a $50K budget, 4x RTX A6000 v.s. 4x A6000 ADA v.s. 2x A100 80GB",AngrEvv,False,0.85,17,https://www.reddit.com/r/deeplearning/comments/11vb220/best_gpus_for_pretraining_robertasize_llms_with_a/,7,1679199444.0,"Hi folks,
+
+Our lab plans to purchase a server with some decent GPUs to perform some pertaining tasks for program codes. We won't work on very large LLM and we even may not try the T5 model. Currently, we want to first try the roBERTa model. We have a $50K budget. And it's our first time purchasing GPU servers.
+
+I did some preliminary study and found the suggested GPU is A6000 ADA which has 48 GB GPU memory, according to [https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/). Since our tasks require lots of GPU memory, we think a GPU with more than 32 GB will be good for us. So our alternative choices are RTX A6000 and A100 80GB HBM2 cards. 
+
+Based on these, we got three server specs from Exxact ( [https://www.exxactcorp.com/TWS-115999024/configurator](https://www.exxactcorp.com/TWS-115999024/configurator)), (1) a $43K spec with 4  A6000 ADA cards, (2) a $32K spec with 4 RTX A6000 cards, and (3) a $41K spec with 2 A100 80GB cards. The other parts in the specs, e.g., CPU and RAM, are almost the same. I have attached the specs in screenshots.
+
+Now, I have some questions. 
+
+1. A6000 ADA removed NVLink ([https://forums.developer.nvidia.com/t/rtx-a6000-ada-no-more-nv-link-even-on-pro-gpus/230874](https://forums.developer.nvidia.com/t/rtx-a6000-ada-no-more-nv-link-even-on-pro-gpus/230874)) which is very important for performance boosting and GPU memory pooling. Does this mean it's a good choice to have multiple A6000 ADA cards on a server?
+2. A6000 ADA is a very new GPU improved from RTX A6000. But it has the NVLink, which means the server GPU memory can reach 48 \* 4 GB when connecting 4 RTX A6000 cards. However, we are going to use the GPU server for several years. For IT products, it's always better to purchase the latest ones. Is that true for GPU cards? And A6000 ADA has more tensor and cuda cores than RTX A6000. 
+3. For the A100 80GB spec, we can only have 2 cards wondering the budget. For the LLM pertaining, more cards usually mean more parallelism and faster training. Based on my study, A6000 ADA has comparable performance to A100 on DL benchmarks. Is this A100 80GB spec a good choice?
+4. Except for the ahead-mentioned specs, what else would you recommend for our pretraining tasks, especially for GPUs?
+
+Thanks for your time! We really appreciate any suggestions."
+40,12749vf,deeplearning,LLM,comments,2023-03-31 00:20:59,Any advanced and updated DL courses?,nuquichoco,False,0.9,28,https://www.reddit.com/r/deeplearning/comments/12749vf/any_advanced_and_updated_dl_courses/,7,1680222059.0,"Do you know any Deep Learning course that covers topics such as attention, self-attention, transformes, diffusion models, and eventually LLM? It would be great if it has theory but also applications and examples.
+
+Context: I work as a ML eng, and I have experience working with CNNs, GANs, LSTMs and some other architectures. In the last years I've been mostly doing backend or working with simple ML stuff. I would like to be updated (again).  
+
+
+They can be free or paid. Thanks!"
+41,yyrfgt,deeplearning,LLM,comments,2022-11-18 18:47:28,AMD MI200 vs Nvidia A100 for LLM,thuzp,False,0.84,4,https://www.reddit.com/r/deeplearning/comments/yyrfgt/amd_mi200_vs_nvidia_a100_for_llm/,7,1668797248.0,"I am considering building a large language model GPU server for a project I am working on. I am currently weighing my options. The AMD MI200 looks like an attractive option based on the price and the VRAM. However, I am worried about it being capable of running popular large language models without much hassle and trouble shooting on my path. The models I intend to run were made using pytorch. 
+
+I would like to hear some inputs about these options and if anyone has successfully used AMD MI200 for DL stuff. 
+
+Thanks"
+42,12tmtid,deeplearning,LLM,comments,2023-04-21 01:59:34,"With all the latest trend in ML, which shall I study first",Reasonable-Ball9018,False,0.85,9,https://www.reddit.com/r/deeplearning/comments/12tmtid/with_all_the_latest_trend_in_ml_which_shall_i/,6,1682042374.0,"Hello. I'm feeling overwhelmed with all the latest trend in ML. I have basic knowledge and skills up until CNN. Shall I proceed with RNN and NLP until LLM or proceed with MLOps? 
+
+I'm planning to start a new job in ML and I want to develop my skills that are inlined with the market. 
+
+Looking forward for your suggestions. Thank you"
+43,139jzro,deeplearning,LLM,comments,2023-05-06 11:14:44,2x Nvidia A2 vs a 3090?,davew111,False,1.0,5,https://www.reddit.com/r/deeplearning/comments/139jzro/2x_nvidia_a2_vs_a_3090/,4,1683371684.0,"I'm currently running LLM models on a desktop PC with a 3090. It's quite power hungry. I am thinking about building a new rig that is energy efficient and can be left on all the time. Nvidia A2s can be found quite cheap on eBay. If I had two that would give me 32GB of vram, and each card pulls only 60w.
+
+My question is what kind of performance can I expect, how would two A2s performance compared to a 3090?"
+44,11ybkl6,deeplearning,LLM,comments,2023-03-22 08:05:11,Training on distributed system/ own cluster,karlklaustal,False,1.0,2,https://www.reddit.com/r/deeplearning/comments/11ybkl6/training_on_distributed_system_own_cluster/,4,1679472311.0,"Hi Reddit,
+Is there a way to increase training speed of a own model by putting it on several consumer computers / laptops?
+Or in other words can i set up an own sort of cluster for LLM training/finetuning?
+Anyone give me some hints?"
+45,12g8hx7,deeplearning,LLM,comments,2023-04-09 04:16:04,Question about suitable HW for running LLM tools,drivebyposter2020,False,1.0,6,https://www.reddit.com/r/deeplearning/comments/12g8hx7/question_about_suitable_hw_for_running_llm_tools/,4,1681013764.0,"Hey, 
+
+I have been speculating about adding a modern GPU with ""enough"" VRAM to a workstation I have from years ago... a pair of Sandy Bridge (!) Xeons with 8 core/16 thread each, and 192GB of RAM and a few terabytes of pretty fast SSD (which makes it liveable in the modern age for fooling around with modern data stack stuff).  My goal is to be able to experiment with some of the LLM tools (Alpaca, for example) on something beefier than my notebook (which has an AMD discrete GPU with 8GB VRAM and 16GB main system RAM). 
+
+Is putting a modern GPU in a system with a PCIe 2.0 bus a fool's errand? I don't really care that much about blazing fast, more ""fast enough"" while stable. I don't want to replace the workstation if I can help it, I don't have the hardcore need yet.
+
+I'd be content to use an older GPU as well if it would work."
+46,12qq3mz,deeplearning,LLM,comments,2023-04-18 15:00:24,Uni project: a FOSS LLM comparison tool - would you find this useful?,copywriterpirate,False,1.0,20,https://www.reddit.com/gallery/12qq3mz,3,1681830024.0,
+47,137x6vr,deeplearning,LLM,comments,2023-05-04 19:25:03,Weaviate 1.19 Release!,CShorten,False,1.0,4,https://www.reddit.com/r/deeplearning/comments/137x6vr/weaviate_119_release/,3,1683228303.0,"Weaviate 1.19 is live!! This release comes with a ton of exciting things that I am super excited to tell you about:  
+
+
+1. \`groupBy\` feature in the Search UX, Why? This allows us to associated the atomic chunks with their respective context. For example, we may decompose a long document into passages (each containing say 1 or 2 paragraphs). Using the new \`groupBy\` API, we can aggregate the matches of paragraph chunks within the document. An example given in the podcast is if we query ""ANN Benchmarks"" -- a passage of one podcast may have a very similar vector, whereas there may be a podcast that is entirely dedicated to the topic, but doesn't have a single passage that matches as well as this query. STARTING NOW, we can find these documents rather than just searching as the passage level.  
+
+
+2. Generative-Cohere Module, Why? Weaviate is integrating with LLMs to provide retrieval-augmented generation and a beautiful management interface to organize the models that operate around the search and vector index features. Adding Cohere's incredible LLM continues the path of giving users more model options from LLMs to embeddings, question answering, and more as the space continues to evolve!  
+
+
+3. \`gRPC\` API, Why? With the latest iteration of ANN Benchmarks between different open providers (both libraries and databases), Weaviate has added a gRPC API to further optimize for the throughput overhead of different APIs (e.g. REST, GraphQL).  
+
+
+That is as much of a preview as I'll give you in this quick preview, please check out our new Weaviate 1.19 release podcast for more information about these features as well as others included in the new release!  
+
+
+Weaviate 1.19 Release Podcast: [https://www.youtube.com/watch?v=Du6IphCcCec](https://www.youtube.com/watch?v=Du6IphCcCec)"
+48,13ibjol,deeplearning,LLM,comments,2023-05-15 15:31:18,Guides/Resources to prepare data for LLM finetuning?,PataFunction,False,1.0,3,/r/learnmachinelearning/comments/13ibbbf/guidesresources_to_prepare_data_for_llm_finetuning/,3,1684164678.0,
+49,12o4chf,deeplearning,LLM,comments,2023-04-16 10:41:13,2x RTX A100 80GB vs 3x RTX 6000 ADA 48GB GPUs for LLM/ViT inference and training?,lolman2215,False,0.86,5,https://www.reddit.com/r/deeplearning/comments/12o4chf/2x_rtx_a100_80gb_vs_3x_rtx_6000_ada_48gb_gpus_for/,3,1681641673.0,"Hello guys. With the new RTX6000, are there some general guidelines for building a ""small"" deep learning workstation ?
+
+How do the latest A100 80GB GPUs compare with the new RTX 6000 ADA 48GB when
+
+a) Training LLMs?
+
+b) Performing inference with LLMs?
+
+The 2x A100 setup provides 160GB VRAM, the 3x 6000 provides 144. But probably more data transfer between GPUs is a bottleneck."
+50,ymwjvr,deeplearning,LLM,comments,2022-11-05 15:05:32,LLM that can run on a single Titan Xp 12GB?,chip_0,False,0.5,0,https://www.reddit.com/r/deeplearning/comments/ymwjvr/llm_that_can_run_on_a_single_titan_xp_12gb/,2,1667660732.0,"Is there any open source Large Language Model that can run on a single Titan Xp 12GB GPU?
+
+Also, same question for vision models (DALL-E, Stable Diffusion, etc)"
+51,10bq685,deeplearning,LLM,comments,2023-01-14 14:48:43,Scaling Language Models Shines Light On The Future Of AI ⭕,LesleyFair,False,0.75,8,https://www.reddit.com/r/deeplearning/comments/10bq685/scaling_language_models_shines_light_on_the/,1,1673707723.0,"Last year, large language models (LLM) have broken record after record. ChatGPT got to 1 million users faster than Facebook, Spotify, and Instagram did. They helped create [billion-dollar companies](https://www.marketsgermany.com/translation-tool-deepl-is-now-a-unicorn/#:~:text=Cologne%2Dbased%20artificial%20neural%20network,sources%20close%20to%20the%20company), and most notably they helped us recognize the [divine nature of ducks](https://twitter.com/drnelk/status/1598048054724423681?t=LWzI2RdbSO0CcY9zuJ-4lQ&s=08).
+
+2023 has started and ML progress is likely to continue at a break-neck speed. This is a great time to take a look at one of the most interesting papers from last year.
+
+Emergent Abilities in LLMs
+
+In a recent [paper from Google Brain](https://arxiv.org/pdf/2206.07682.pdf), Jason Wei and his colleagues allowed us a peak into the future. This beautiful research showed how scaling LLMs might allow them, among other things, to:
+
+* Become better at math
+* Understand even more subtleties of human language
+* reduce hallucination and answer truthfully
+* ...
+
+(See the plot on break-out performance below for a full list)
+
+**Some Context:**
+
+If you played around with ChatGPT or any of the other LLMs, you will likely have been as impressed as I was. However, you have probably also seen the models go off the rails here and there. The model might hallucinate gibberish, give untrue answers, or fail at performing math.
+
+**Why does this happen?**
+
+LLMs are commonly trained by [maximizing the likelihood](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) over all tokens in a body of text. Put more simply, they learn to predict the next word in a sequence of words.
+
+Hence, if such a model learns to do any math at all, it learns it by figuring concepts present in human language (and thereby math).
+
+Let's look at the following sentence.
+
+""The sum of two plus two is ...""
+
+The model figures out that the most likely missing word is ""four"".
+
+The fact that LLMs learn this at all is mind-bending to me! However, once the math gets more complicated [LLMs begin to struggle](https://twitter.com/Richvn/status/1598714487711756288?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1598714487711756288%7Ctwgr%5E478ce47357ad71a72873d1a482af5e5ff73d228f%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fanalyticsindiamag.com%2Ffreaky-chatgpt-fails-that-caught-our-eyes%2F).
+
+There are many other cases where the models fail to capture the elaborate interactions and meanings behind words. One other example is words that change their meaning with context. When the model encounters the word ""bed"", it needs to figure out from the context, if the text is talking about a ""river bed"" or a ""bed"" to sleep in.
+
+**What they discovered:**
+
+For smaller models, the performance on the challenging tasks outline above remains approximately random. However, the performance shoots up once a certain number of training FLOPs (a proxy for model size) is reached.
+
+The figure below visualizes this effect on eight benchmarks. The critical number of training FLOPs is around 10\^23. The big version of GPT-3 already lies to the right of this point, but we seem to be at the beginning stages of performance increases.
+
+&#x200B;
+
+[Break-Out Performance At Critical Scale](https://preview.redd.it/jlh726eku0ca1.png?width=800&format=png&auto=webp&s=55d170251a967f31b36f01864af6bb7e2dbda253)
+
+They observed similar improvements on (few-shot) prompting strategies, such as multi-step reasoning and instruction following. If you are interested, I also encourage you to check out Jason Wei's personal blog. There he [listed a total of 137](https://www.jasonwei.net/blog/emergence) emergent abilities observable in LLMs.
+
+Looking at the results, one could be forgiven for thinking: simply making models bigger will make them more powerful. That would only be half the story.
+
+(Language) models are primarily scaled along three dimensions: number of parameters, amount of training compute, and dataset size. Hence, emergent abilities are likely to also occur with e.g. bigger and/or cleaner datasets.
+
+There is [other research](https://arxiv.org/abs/2203.15556) suggesting that current models, such as GPT-3, are undertrained. Therefore, scaling datasets promises to boost performance in the near-term, without using more parameters.
+
+**So what does this mean exactly?**
+
+This beautiful paper shines a light on the fact that our understanding of how to train these large models is still very limited. The lack of understanding is largely due to the sheer cost of training LLMs. Running the same number of experiments as people do for smaller models would cost in the hundreds of millions.
+
+However, the results strongly hint that further scaling will continue the exhilarating performance gains of the last years.
+
+Such exciting times to be alive!
+
+If you got down here, thank you! It was a privilege to make this for you.At **TheDecoding** ⭕, I send out a thoughtful newsletter about ML research and the data economy once a week.No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)"
+52,11w904r,deeplearning,LLM,comments,2023-03-20 04:54:37,Should I pay for A100 or use 3090TI,dliaos,False,0.76,4,https://www.reddit.com/r/deeplearning/comments/11w904r/should_i_pay_for_a100_or_use_3090ti/,1,1679288077.0,"Currently attempting to fine tune an existing LLM off Hugging Face as my first delve into Machine Learning.  
+I have access to a 3090TI and relatively ok internet connection. Would it be worth it to pay for cloud computing (A100) or should I just train with the 3090TI I have access to?   
+The 3090TI is not my own so I wouldn't have 24/7 uptime but it's not that long of a job, should maybe take 1-2 weeks max on a A100?  
+Would it be worth it to skip the hassle and shell out the few bucks to train using a cloud computing service, and has anyone attempted to use both and can tell me the difference in speed? Specifically how good a 3090TI would even be for training?"
+53,1350qtu,deeplearning,LLM,relevance,2023-05-01 20:45:08,What are some small LLM models or free LLM APIs for tiny fun project?,silent_lantern,False,0.97,35,https://www.reddit.com/r/deeplearning/comments/1350qtu/what_are_some_small_llm_models_or_free_llm_apis/,19,1682973908.0,"Hi, I'm looking for a free/opensource api to build a small GPT webapp for fun. I want to deploy it on something like Heroku and use Flask in the backend. 
+
+
+I'm also open to uploading a small-ish llm model on Heroku and use that to answer chat like queries from users.
+
+
+Do you know of any such small foss models and/or free APIs?"
+54,12wxrrd,deeplearning,LLM,relevance,2023-04-24 01:17:58,Can an average person learn how to build a LLM model?,sch1zoph_,False,0.71,26,https://www.reddit.com/r/deeplearning/comments/12wxrrd/can_an_average_person_learn_how_to_build_a_llm/,29,1682299078.0,"Hello everyone. I am a 30-year-old Korean male.
+
+To be honest, I have never really studied properly in my life. It's a little embarrassing, but that's the truth.
+
+Recently, while using ChatGPT, I had a dream for the first time. I want to create a chatbot that can provide a light comfort to people who come for advice. I would like to create an LLM model using Transformer, and use our country's beginner's counseling manual as the basis for the database.
+
+I am aware that there are clear limits to the level of comfort that can be provided. Therefore, if the problem is too complex or serious for this chatbot to handle, I would like to recommend the nearest mental hospital or counseling center based on the user's location. And, if the user can prove that they have visited the hospital (currently considering a direction where the hospital or counseling center can provide direct certification), I would like to create a program that provides simple benefits (such as a free Starbucks coffee coupon).
+
+I also thought about collecting a database of categories related to people's problems (excluding personal information) and selling it to counseling or psychiatric societies. I think this could be a great help to these societies.
+
+The problem is that I have never studied ""even once,"" and I feel scared and fearful of the unfamiliar sensation. I have never considered myself a smart person.
+
+However, I really want to make this happen! Our country is now in a state of constant conflict, and people hate and despise each other due to strong propaganda.
+
+As a result, the birth rate has dropped to less than 1%, leading to a decline in the population. Many people hide their pain inside and have no will to solve it. They just drink with their friends to relieve their pain. This is obviously not a solution. Therefore, Korea has a really serious suicide rate.
+
+I may not be able to solve this problem, but I want to put one small brick to build a big barrier to stop hatred. Can an ordinary person who knows nothing learn the common sense and study needed to build an LLM model? And what direction should one take to study one by one?"
+55,13ibjol,deeplearning,LLM,relevance,2023-05-15 15:31:18,Guides/Resources to prepare data for LLM finetuning?,PataFunction,False,1.0,3,/r/learnmachinelearning/comments/13ibbbf/guidesresources_to_prepare_data_for_llm_finetuning/,3,1684164678.0,
+56,12g8hx7,deeplearning,LLM,relevance,2023-04-09 04:16:04,Question about suitable HW for running LLM tools,drivebyposter2020,False,0.86,5,https://www.reddit.com/r/deeplearning/comments/12g8hx7/question_about_suitable_hw_for_running_llm_tools/,4,1681013764.0,"Hey, 
+
+I have been speculating about adding a modern GPU with ""enough"" VRAM to a workstation I have from years ago... a pair of Sandy Bridge (!) Xeons with 8 core/16 thread each, and 192GB of RAM and a few terabytes of pretty fast SSD (which makes it liveable in the modern age for fooling around with modern data stack stuff).  My goal is to be able to experiment with some of the LLM tools (Alpaca, for example) on something beefier than my notebook (which has an AMD discrete GPU with 8GB VRAM and 16GB main system RAM). 
+
+Is putting a modern GPU in a system with a PCIe 2.0 bus a fool's errand? I don't really care that much about blazing fast, more ""fast enough"" while stable. I don't want to replace the workstation if I can help it, I don't have the hardcore need yet.
+
+I'd be content to use an older GPU as well if it would work."
+57,yyrfgt,deeplearning,LLM,relevance,2022-11-18 18:47:28,AMD MI200 vs Nvidia A100 for LLM,thuzp,False,1.0,5,https://www.reddit.com/r/deeplearning/comments/yyrfgt/amd_mi200_vs_nvidia_a100_for_llm/,7,1668797248.0,"I am considering building a large language model GPU server for a project I am working on. I am currently weighing my options. The AMD MI200 looks like an attractive option based on the price and the VRAM. However, I am worried about it being capable of running popular large language models without much hassle and trouble shooting on my path. The models I intend to run were made using pytorch. 
+
+I would like to hear some inputs about these options and if anyone has successfully used AMD MI200 for DL stuff. 
+
+Thanks"
+58,12kh5jw,deeplearning,LLM,relevance,2023-04-13 08:16:50,Which one to buy? RTX3060 12gb or Quadro P5000 16gb for LLM training and fine-tuning?,aadoop6,False,0.7,5,https://www.reddit.com/r/deeplearning/comments/12kh5jw/which_one_to_buy_rtx3060_12gb_or_quadro_p5000/,24,1681373810.0,Hi. I need to buy a GPU for model training and fine-tuning of LLMs. I have a choice between RTX3060 12gb and Quadro P5000 16gb. Can someone help me choose? Also I am kind of wondering if both of these cards are insufficient for what I intend to do. Any thoughts and suggestions would be much appreciated. Thanks!
+59,12qq3mz,deeplearning,LLM,relevance,2023-04-18 15:00:24,Uni project: a FOSS LLM comparison tool - would you find this useful?,copywriterpirate,False,0.93,18,https://www.reddit.com/gallery/12qq3mz,3,1681830024.0,
+60,12q2u7u,deeplearning,LLM,relevance,2023-04-18 00:11:57,Can LLM software be used to assess integrative complexity of text?,Electric-Gecko,False,0.75,2,/r/ArtificialInteligence/comments/12h1lne/can_llm_software_be_used_to_assess_integrative/,0,1681776717.0,
+61,z90966,deeplearning,LLM,relevance,2022-11-30 19:14:16,OpenAI's new impressive Conversational LLM - ChatGPT,dulldata,False,1.0,1,https://www.youtube.com/watch?v=2VJZky25rIs,0,1669835656.0,
+62,ymwjvr,deeplearning,LLM,relevance,2022-11-05 15:05:32,LLM that can run on a single Titan Xp 12GB?,chip_0,False,0.5,0,https://www.reddit.com/r/deeplearning/comments/ymwjvr/llm_that_can_run_on_a_single_titan_xp_12gb/,2,1667660732.0,"Is there any open source Large Language Model that can run on a single Titan Xp 12GB GPU?
+
+Also, same question for vision models (DALL-E, Stable Diffusion, etc)"
+63,zen8l4,deeplearning,LLM,relevance,2022-12-07 00:33:41,Are currently state of art model for logical/common-sense reasoning all based on NLP(LLM)?,Accomplished-Bill-45,False,0.94,21,https://www.reddit.com/r/deeplearning/comments/zen8l4/are_currently_state_of_art_model_for/,6,1670373221.0,"Not very familiar with NLP, but I'm playing around with OpenAI's ChatGPT; particularly impressed by its reasoning, and its thought-process.
+
+Are all good reasoning models derived from NLP (LLM) models with RL training method at the moment?
+
+What are some papers/research team to read/follow to understand this area better and stay on updated?
+
+&#x200B;
+
+&#x200B;
+
+for ChatGPT. I've tested it with following cases
+
+Social reasoning ( which does a good job; such as: if I'm going to attend meeting tonight. I have a suit, but its dirty and size doesn't fit. another option is just wear underwear, the underwear is clean and fit in size. Which one should I wear to attend the meeting. )
+
+Psychological reasoning ( it did a bad job.I asked it to infer someone's intention given his behaviours, expression, talks etc.)
+
+Solving math question ( it’s ok, better then Minerva)
+
+Asking LSAT logic game questions ( it gives its thought process, but failed to give correct answers)
+
+I also wrote up a short mystery novel, ( like 200 words, with context) ask if it can tell is the victim is murdered or committed suicide; if its murdered, does victim knows the killer etc. It actually did ok job on this one if the context is clearly given that everyone can deduce some conclusion using common sense."
+64,12o4chf,deeplearning,LLM,relevance,2023-04-16 10:41:13,2x RTX A100 80GB vs 3x RTX 6000 ADA 48GB GPUs for LLM/ViT inference and training?,lolman2215,False,0.81,3,https://www.reddit.com/r/deeplearning/comments/12o4chf/2x_rtx_a100_80gb_vs_3x_rtx_6000_ada_48gb_gpus_for/,3,1681641673.0,"Hello guys. With the new RTX6000, are there some general guidelines for building a ""small"" deep learning workstation ?
+
+How do the latest A100 80GB GPUs compare with the new RTX 6000 ADA 48GB when
+
+a) Training LLMs?
+
+b) Performing inference with LLMs?
+
+The 2x A100 setup provides 160GB VRAM, the 3x 6000 provides 144. But probably more data transfer between GPUs is a bottleneck."
+65,13649d4,deeplearning,LLM,relevance,2023-05-02 23:42:54,Longgboi 64K+ Context Size / Tokens Trained Open Source LLM and ChatGPT / GPT4 with Code Interpreter - Trained Voice Generated Speech,CeFurkan,False,1.0,1,https://www.youtube.com/watch?v=v6TBtyO5Sxg&deeplearning,0,1683070974.0,

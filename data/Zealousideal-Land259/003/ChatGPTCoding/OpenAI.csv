@@ -1,0 +1,1258 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,zjn7ar,ChatGPTCoding,OpenAI,top,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,347,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+1,1345uq3,ChatGPTCoding,OpenAI,top,2023-04-30 23:06:51,I used ChatGPT to generate code to produce & publish a Puzzle book on Amazon,Dramatic-Mongoose-95,False,0.96,64,https://www.reddit.com/r/ChatGPTCoding/comments/1345uq3/i_used_chatgpt_to_generate_code_to_produce/,9,1682896011.0,"I used ChatGPT + GPT-4 to make a puzzle book.
+
+I started this project to tinker around with AI coding, and I'd say about 95% of the code was all AI generated.
+
+GPT-4 generated the puzzles, and also all of the python code that converted them into a PDF manuscript compatible with Amazon Kindle Direct Publishing.
+
+I presented the idea for the book, asked it to generate content, and then asked it to produce Python code to produce a PDF.  I also asked it about how to go about self publishing, and eventually it steered me to Amazon Kindle Direct Publishing, and helped to tailor the output to be compatible with the platform.
+
+It's all available open source: [https://github.com/AdmTal/emoji-puzzles](https://github.com/AdmTal/emoji-puzzles)
+
+I'm not trying to sell anything here, if you want to check it out, here are a bunch of free download links for the ebook (first come first serve): [https://docs.google.com/spreadsheets/d/1o0BA0ecwL-5DaEYKoyy5BYSkOog2C1COtSPeRbQxrpE/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1o0BA0ecwL-5DaEYKoyy5BYSkOog2C1COtSPeRbQxrpE/edit?usp=sharing) 
+
+Hope you enjoy, looking forward to seeing what you're all working on!
+
+Update, I forgot to add the prompt:
+
+
+——
+
+
+You are an emoji artist and expert on pop culture.
+
+You encode the given Movie, Book, or TV Show into exactly 5 emojis.
+
+You NEVER use 🎬, 📖, or 📺 emojis unless the work is specifically about a Movie, Book, or TV Show.
+
+People should be able to guess the title from your emoji selections.
+
+Use emojis that mimic main characters or physical objects critical to the plot of the given title.
+
+When needed, include emojis that convey visual elements of the work or, generally, something so vital that it must be mentioned.
+
+Consider the order that these elements appear in the story or plot of the given work; your emoji clue should match order as much as possible.
+
+Try making the final output specific enough to the given title to avoid confusing it with similar titles. For example, you might use BELL emoji to represent the Liberty Bell to disambiguate Rocky from other boxing movies that don't take place in Philadelphia.
+
+Use unique emojis, and don't be repetitive; for example, you would never use ""💔"" and ""❤️"". You never use the same emoji more than once in a single clue.
+
+In the non-emoji portion of your responses, aim for a 6th-grade reading level. You would never use a word like Bildungsroman.
+
+Use language and tone of voice that would be appropriate in a middle school classroom.
+
+Never use curse words or potentially sensitive or taboo words that may trigger strong emotional responses in some individuals. Use middle school-appropriate language, or avoid it entirely.
+   
+NEVER pick an emoji to represent an intangible concept in the story like Learning.  Tangible is better.
+
+As much as possible, select emojis that match the physical characteristics of the characters in work. However, in your summaries, NEVER speak to their race, skin color, or physical characteristics unless it is crucial to the plot.
+
+Your input will always be a single movie, tv show, or book title, and your output must always be in valid JSON format. EXAMPLE:
+
+INPUT: ""MOVIE: Rocky""
+OUTPUT:
+
+{
+    ""type"": ""Movie"",
+    ""title"": ""Rocky"",
+    ""release_year"": ""1976"",
+    ""genre_1"": ""Sports"",
+    ""genre_2"": ""Drama"",
+    ""emoji"": ""🔔🏃‍♂️🥊🏟️❤️"",
+    ""short_plot_summary"": ""A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."",
+    ""explanation"": [
+        [
+            ""🔔"",
+            ""A bell, representing the Liberty Bell and the movie's setting in Philadelphia""
+        ],
+        [
+            ""🏃‍♂️"",
+            ""A running man, representing Rocky's iconic training scenes""
+        ],
+        [
+            ""🥊"",
+            ""A boxing glove, the sport featured in the movie""
+        ],
+        [
+            ""🏟️"",
+            ""An arena, signifying the climactic boxing match and Rocky's determination to prove himself""
+        ],
+        [
+            ""❤️"",
+            ""A heart, symbolizing the love story between Rocky and Adrian""
+        ]
+    ]
+}"
+2,13gngb9,ChatGPTCoding,OpenAI,top,2023-05-13 17:27:06,Wanted to share an actual example,Dramatic-Mongoose-95,False,0.9,41,https://i.redd.it/bymi3ol3doza1.jpg,14,1683998826.0,"So I used GPT to make my AI generated podcast.
+
+I was so impressed at this one part, it actually wrote all of the code to stitch the final audio segments together, even with cross fading and stuff.
+
+I didn’t have to write any of that code.
+
+I saw some people earlier asking for tangible examples, so I thought I’d share.
+
+It’s like a really long screenshot from my phone.
+
+Here’s a link to the full repo if you want to see the final code!
+
+The next episode of the podcast will post on 5/19 - check it out!!
+
+I’ve got 8 stars so far on this repo, I feel like a celebrity, I’ve never had that many 🤓
+
+https://github.com/AdmTal/crowdcast"
+3,13999mf,ChatGPTCoding,OpenAI,top,2023-05-06 02:26:31,If you have api access and want to start playing with neat gpt-4 projects on GitHub but have never done anything like that before just paste the readme into Chatgpt and ask for a detailed guide,queerkidxx,False,0.89,34,https://www.reddit.com/r/ChatGPTCoding/comments/13999mf/if_you_have_api_access_and_want_to_start_playing/,3,1683339991.0,"Often times developers on GitHub don’t realize that that a list of python commands isn’t enough for someone with no coding experience to get it up and running. 
+
+You can however easily get all of the info you need by just pasting the readme into chatgpt and asking for a detailed guide on setting it up that assumes no prior knowledge 
+
+Couple things to keep in mind 
+ 
+
+-	You’re gonna want to use power shell on windows. I don’t think it’s installed by default so go ahead and download it 
+-	you’ll need git for windows to easily clone repos download it here https://git-scm.com/download/win
+-	if nothing is working look thru the add/remove program thing in the control panel. Uninstall anything related to python (or node.js or whatever the project is using) and download a fresh version. The first time I did this python just didn’t work because of some incompatible versions I had installed previously. Everything worked like a charm once I uninstalled everything with python in the name and reinstalled it. Make sure to check the add to PATH option during the install. 
+-	be careful with your api key. Technically you shouldn’t put it into code you don’t understand but if your gonna do it anyway make a low trust OpenAI key and use it for testing. Pay close attention to the usage of it if there’s anything you don’t recognize delete it immediately. If after testing and a bit of time has gone by and you plan on using the project in the future switch to a dedicated key
+-	Always make python virtual environments before downloading dependencies. Ask for gpt’s help on this
+-	take notes! I use notion copy and paste the readme into there as well as any gpt-generated guides you are using. At the top of the page be sure to add any commands you need to get it started as well as the file path you are keeping it in
+-	Docker is way easier use it if you can. You’ll need WSL and docker desktop. Some projects work better in Linux so if everything is going wrong try running it from inside Linux. Btw, to activate a virtual environment you’ll need to use the source ./env_name/bin/activate command instead of just ./env_name/scripts/activate on windows 
+-	if your getting a weird port error when starting up local servers open a admin power shell window and use the following two commands 
+ `net stop winnat `  and then 
+` net start winnat `no idea why this works but it does 
+
+-	be careful. I’ve never had this happen to me but it’s not unheard of for GitHub projects to contain malware. Stay up to date with anti virus and the projects. Larger ones are less likely to have this happen 
+-	ask gpt to make a power shell script to easily navigate to the correct directory and run the commands you need to to start the thing. Make sure to tell it you want to be able to continue to run commands the window should stay open even if you enter a key
+-	you can totally put these projects onto a linode server and even tie it to a domain for access anywhere! Ask gpt for help it can be kinda an involved project. If you are ever storing your api key on the server ensure that you have the domain password protected. NGINX doesn’t have .htaccess I don’t think but it has an equivalent. Your site being obsecure isn’t enough protection. Be sure to follow security best practices and use nano instead of vim when editing text files."
+4,11sdwrs,ChatGPTCoding,OpenAI,top,2023-03-16 00:02:40,I created a UI/Feature overhaul for ChatGPT. Completely free! Looking for opinions :),mikebpechousek,False,0.98,36,https://www.reddit.com/r/ChatGPTCoding/comments/11sdwrs/i_created_a_uifeature_overhaul_for_chatgpt/,21,1678924960.0,"Hey all! 🧨
+
+There was a few features I wanted to see in ChatGPT along with some feature updates. The few sites I saw that had this were charging for it so I'm releasing it for free in it's current state! Check it out here: [https://turbogpt.ai/](https://turbogpt.ai/). This uses OpenAI's turbo-gpt3.5 API so you must put your own api key on the app. ***API Keys are stored locally on your machine and never reach anyone else but the OpenAI servers.***
+
+Few features coming soon:
+
+* Image generation inside the chat
+* Code running directly on the site
+
+I made this over the weekend :) Please let me know if you have any suggestions/ideas! I will be adding a bunch of new features over the next weekend."
+5,12yjwt6,ChatGPTCoding,OpenAI,top,2023-04-25 13:45:45,I built an efficient rate limiter for the OpenAI API,jsonathan,False,0.93,35,https://github.com/shobrook/openlimit,1,1682430345.0,
+6,11yiz4i,ChatGPTCoding,OpenAI,top,2023-03-22 13:21:40,Mercury - open source ai template built with Next.js,NoLanSym,False,0.92,32,https://www.reddit.com/gallery/11yiz4i,9,1679491300.0,
+7,10nb7kf,ChatGPTCoding,OpenAI,top,2023-01-28 09:36:40,"A python module to generate optimized prompts, Prompt-engineering & solve different NLP problems using GPT-n (GPT-3, ChatGPT) based models and return structured python object for easy parsing",StoicBatman,False,0.94,29,https://www.reddit.com/r/ChatGPTCoding/comments/10nb7kf/a_python_module_to_generate_optimized_prompts/,3,1674898600.0,"Hi folks,
+
+I was working on a personal experimental project related to GPT-3, which I thought of making it open source now. It saves much time while working with LLMs.
+
+If you are an industrial researcher or application developer, you probably have worked with GPT-3 apis. A common challenge when utilizing LLMs such as #GPT-3 and BLOOM is their tendency to produce uncontrollable & unstructured outputs, making it difficult to use them for various NLP tasks and applications.
+
+To address this, we developed **Promptify**, a library that allows for the use of LLMs to solve NLP problems, including Named Entity Recognition, Binary Classification, Multi-Label Classification, and Question-Answering and return a python object for easy parsing to construct additional applications on top of GPT-n based models.
+
+Features 🚀
+
+* 🧙‍♀️ NLP Tasks (NER, Binary Text Classification, Multi-Label Classification etc.) in 2 lines of code with no training data required
+* 🔨 Easily add one-shot, two-shot, or few-shot examples to the prompt
+* ✌ Output is always provided as a Python object (e.g. list, dictionary) for easy parsing and filtering
+* 💥 Custom examples and samples can be easily added to the prompt
+* 💰 Optimized prompts to reduce OpenAI token costs
+
+&#x200B;
+
+* GITHUB: [https://github.com/promptslab/Promptify](https://github.com/promptslab/Promptify)
+* Examples: [https://github.com/promptslab/Promptify/tree/main/examples](https://github.com/promptslab/Promptify/tree/main/examples)
+* For quick demo -> [Colab](https://colab.research.google.com/drive/16DUUV72oQPxaZdGMH9xH1WbHYu6Jqk9Q?usp=sharing)
+
+Try out and share your feedback. Thanks :)
+
+Join our discord for Prompt-Engineering, LLMs and other latest research discussions  
+[discord.gg/m88xfYMbK6](https://discord.gg/m88xfYMbK6)
+
+[NER Example](https://preview.redd.it/n95yyxfg3nea1.png?width=1236&format=png&auto=webp&s=d88847564ce8d08fc84bf4d037bd18f78d14bfbe)
+
+&#x200B;
+
+https://preview.redd.it/uig2c8gx3nea1.png?width=1398&format=png&auto=webp&s=4e999a7c288f6a5df58a55efa7364f1c0408b237"
+8,132g1xo,ChatGPTCoding,OpenAI,top,2023-04-29 01:46:11,"My work is ""highly discouraging"" the use of ChatGPT, probably as a result of a few people complaining, any suggestions on how to use it without people knowing?",Zyster1,False,0.76,25,https://www.reddit.com/r/ChatGPTCoding/comments/132g1xo/my_work_is_highly_discouraging_the_use_of_chatgpt/,65,1682732771.0,"I'm only using it to ask it questions about tech topics I don't understand or to find a bug here and there. Apparently people have been complaining (not at my specifically, but in general at the company) that people are using it. These people are likely upset that they're not being begged to help the not-as-good coders. 
+  
+In any case, can anyone think of a way to use it without having to navigate to the openai website? Do I really need to get a second laptop?"
+9,137mab5,ChatGPTCoding,OpenAI,top,2023-05-04 14:22:54,Introducing ChatGPT CLI in Go: Streamlined Command-Line Interaction with OpenAI's ChatGPT,kardolus,False,0.93,23,https://www.reddit.com/r/ChatGPTCoding/comments/137mab5/introducing_chatgpt_cli_in_go_streamlined/,4,1683210174.0,"&#x200B;
+
+https://i.redd.it/bj28e2fcqtxa1.gif
+
+Hey everyone! I'm excited to share my latest project with you: ChatGPT CLI. It's a command-line interface (CLI) built for interacting with OpenAI's ChatGPT, designed to streamline and enhance your experience with the GPT model.
+
+Here are some of the key features that make ChatGPT CLI a game-changer:
+
+* **Interactive streaming mode**: Chat in real-time with the GPT model through the CLI, making your interactions fast and efficient.
+* **Query mode**: Need a quick answer? Use the query mode for single input-output interactions with the GPT model.
+* **Context management**: The CLI automatically maintains message history across calls, allowing for seamless conversations with the GPT model.
+
+&#8203;
+
+     2023-05-04 10:14:43 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → ./bin/chatgpt can you say something about the knicks?
+    Yes, the New York Knicks are a professional basketball team based in New York City. They play in the Eastern Conference of the National Basketball Association (NBA) and have won two NBA championships in their history, in 1970 and 1973. The team has a dedicated and passionate fan base and has undergone several changes over the years in terms of players, coaches, and front office personnel. They have been playing well in the current season under the head coach Tom Thibodeau and have made it to the playoffs.
+    
+     2023-05-04 10:17:16 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → ./bin/chatgpt what gave them that name?
+    The New York Knicks team name comes from the Dutch word ""knickerbocker,"" which refers to the style of pants that the early Dutch settlers wore in New York. The term ""Knickerbocker"" became associated with New York City, and it was later used as the name for the team when they were founded in 1946. So, the team name ""New York Knicks"" is essentially a shortened version of ""New York Knickerbockers.""
+    
+     2023-05-04 10:17:37 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → ./bin/chatgpt what else do you know about the settlers?
+    The early Dutch settlers in what is now New York were part of the Dutch West India Company and established a colony called New Netherland in the early 17th century. They founded several towns and settlements, including New Amsterdam, which later became New York City. The Dutch colony was established as a trading center and was a significant economic hub for the Atlantic world. The settlers had a significant impact on the development of New York City, with a lasting influence on the city's architecture, language, religion, and cultural traditions. Some of the prominent Dutch settlers include Peter Stuyvesant, who was the last Dutch governor of New Netherland, and Alexander Hamilton, who was born in the West Indies but was of Dutch descent.
+
+* **Sliding window history**: The CLI trims conversation history while preserving context, keeping token limits in check and ensuring smooth interactions.
+* **Custom context from local files**: Easily provide the GPT model with custom context using piping, so it can reference specific data during your conversation.
+
+&#8203;
+
+     2023-05-04 10:17:55 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → cat LICENSE | chatgpt what kind of license is this?
+    This is the MIT License, which is a permissive free software license that allows users to modify and distribute the software under certain conditions, including the inclusion of the original copyright notice and permission notice. This license also disclaims liability and warranties, making it a risk-free option for developers and users.
+
+* **Viper integration**: Robust configuration management is made possible through Viper integration.
+
+Getting started with ChatGPT CLI is simple: download the pre-built binary for your OS and architecture, set your OPENAI\_API\_KEY, and you're good to go. The CLI supports macOS (Intel and M1), Linux (amd64 and arm64), and Windows (amd64).
+
+You can find the project on GitHub at [github.com/kardolus/chatgpt-cli](https://github.com/kardolus/chatgpt-cli), where you'll find detailed installation and usage instructions.
+
+Whether you're a developer looking to integrate ChatGPT into your projects, or just someone who wants to explore the power of GPT models from the command line, ChatGPT CLI has got you covered. Give it a try and let me know what you think! I'm open to feedback and suggestions to make this tool even better.
+
+Happy chatting!"
+10,zo19f1,ChatGPTCoding,OpenAI,top,2022-12-17 07:50:09,this has been really helpful as a solo game dev in unity,Orlandogameschool,False,0.9,22,https://www.reddit.com/gallery/zo19f1,1,1671263409.0,
+11,11xaqnj,ChatGPTCoding,OpenAI,top,2023-03-21 08:18:24,Chatworm OpenAI API client,Unknown_Energy,False,0.93,23,https://www.reddit.com/r/ChatGPTCoding/comments/11xaqnj/chatworm_openai_api_client/,9,1679386704.0,"for all the devs out there looking for a good open-source ChatGPT alternative which communicates directly via the OpenAI API for coding etc. also as Android app and Windows app: 
+https://github.com/UnknownEnergy/chatgpt-api
+
+If you like it and have some improvements you can create pull requests so everyone of us can enjoy the updates :)
+thank you"
+12,12hqibo,ChatGPTCoding,OpenAI,top,2023-04-10 17:57:05,"Query your own data - OpenAI Embeddings, Chroma and LangChain",grumpyp2,False,1.0,21,https://www.reddit.com/r/ChatGPTCoding/comments/12hqibo/query_your_own_data_openai_embeddings_chroma_and/,11,1681149425.0,"Hi guys, I created a video on how to use Chroma in combination with LangChain and the Wikipedia API to query your own data.   
+
+
+Asking about your own data is the future of LLMs!
+
+&#x200B;
+
+[https://youtu.be/ytt4D5br6Fk](https://youtu.be/ytt4D5br6Fk)
+
+[https://github.com/grumpyp/chroma-langchain-tutorial](https://github.com/grumpyp/chroma-langchain-tutorial)
+
+&#x200B;
+
+hope you enjoy it!"
+13,12imbdi,ChatGPTCoding,OpenAI,top,2023-04-11 14:53:11,"Whisper API - using a vector database, LangChain and some Python to query your audio data",grumpyp2,False,0.92,19,https://www.reddit.com/r/ChatGPTCoding/comments/12imbdi/whisper_api_using_a_vector_database_langchain_and/,2,1681224791.0,"Hey there!
+
+After receiving such a warm response to my last tutorial on extending OpenAI with new knowledge, allowing you to ask it anything your heart desires, I'm excited to share a brand new video on querying your audio data! Check it out here: [**https://youtu.be/Klf9aIxh1Lc**](https://youtu.be/Klf9aIxh1Lc)
+
+In this video, I tackle a super common use case that I bet many of you have faced. Give it a watch, and let me know if you've experienced the same issue!
+
+I hope you enjoy it and find it helpful. But before you dive in, please keep in mind that you'll be sending your data to an API, so it's best not to use private or sensitive information.
+
+Here's the link to the Github Repo for your convenience: [**https://github.com/grumpyp/chroma-langchain-tutorial/tree/main/whsiper-langchain-chroma**](https://github.com/grumpyp/chroma-langchain-tutorial/tree/main/whsiper-langchain-chroma)
+
+Happy learning!"
+14,138c42s,ChatGPTCoding,OpenAI,top,2023-05-05 05:44:09,Flowise - Drag and Drop UI to create your own customized llm flow using Langchain Jo’s,queerkidxx,False,0.95,20,https://www.reddit.com/r/ChatGPTCoding/comments/138c42s/flowise_drag_and_drop_ui_to_create_your_own/,10,1683265449.0,"This isn’t my project but I think it’s really cool and figure y’all would appreciate it.
+
+https://github.com/FlowiseAI/Flowise
+
+This literally made my day when I saw it. Crazy powerful. 
+
+Side note, anyone know of some neat projects that haven’t received a lot of attention on GitHub? Ever since I got api access dicking around on there has completely replaced what I used to do in my free timel. Haven’t even opened a video game in nearly a month who even am I
+
+Edit: langchain js not jo lmao"
+15,136awiw,ChatGPTCoding,OpenAI,top,2023-05-03 05:01:17,OpenAI API vs Langchain?,DisciplinedPenguin,False,1.0,18,https://www.reddit.com/r/ChatGPTCoding/comments/136awiw/openai_api_vs_langchain/,12,1683090077.0,"I'm confused what exactly the difference is between the OpenAI API (OAPI) and langchain. As of now my understanding is simply that langchain templates prompts/appends text to a user input which it then passes through to the OAPI. If that's the case what's the point of using langchain?
+
+Also if I were to start learning langchain should I first start learning and using the OAPI before hand, or would it be unnecessary? Thanks."
+16,12slbwf,ChatGPTCoding,OpenAI,top,2023-04-20 04:03:16,Made a ChatGPT-powered AI Cloud insight open-source tools,leonynn-z,False,0.79,15,https://www.reddit.com/r/ChatGPTCoding/comments/12slbwf/made_a_chatgptpowered_ai_cloud_insight_opensource/,1,1681963396.0,"In the past, it was very complicated for us to collect and analyze data centrally on the infrastructure, so we built Selefra to solve this problem. However, insight into infrastructure still requires expertise in areas such as security, compliance, cost, and so on. Until the recent arrival of generative AI, we found that the GPT4 model already has the basic expertise.
+
+Detection of AWS S3 for serious vulnerabilities
+
+    selefra gpt ""Please help me analyze the vulnerabilities in AWS S3?""
+
+https://i.redd.it/bcb1a3w0ryua1.gif
+
+It's free if you wanna give it a spin!
+
+[https://github.com/selefra/selefra](https://github.com/selefra/selefra)"
+17,126uf56,ChatGPTCoding,OpenAI,top,2023-03-30 17:58:22,How to apply OpenAI layer on top of an existing Body of Knowledge (BoK)?,Cultural-Hamster-416,False,0.86,14,https://www.reddit.com/r/ChatGPTCoding/comments/126uf56/how_to_apply_openai_layer_on_top_of_an_existing/,16,1680199102.0,"Hi All,  
+
+
+Over the years I developed a methodology relating to project management in a certain area of business.
+
+I am really interested in finding ways of feeding this information into an OpenAI (or similar) type model which would involve feeding it:  
+
+
+• 10 in-depth  pieces of content around best practice (pdf format but can be text input)
+
+• 25 detailed step by step process guides along with hints and tips (pdf format but can be text input)  
+• 125 tools and templates which are all in MS Office (and compatible format)
+
+&#x200B;
+
+The total word count is around 125,000 words.
+
+&#x200B;
+
+Does anyone have any pointers for how to build an AI layer over this that can use this body of knowledge to then generate - say - strategy, planning and execution documents that combine my methodology with any given users input?
+
+&#x200B;
+
+I have pretty much zero technical experience so plan language especially prized and appreciated!
+
+&#x200B;
+
+Thanks in advance,
+
+&#x200B;
+
+RC"
+18,11tk6yz,ChatGPTCoding,OpenAI,top,2023-03-17 07:29:57,ChatGPT Text Based Game!,tea_baggins_069,False,0.94,15,https://www.reddit.com/r/ChatGPTCoding/comments/11tk6yz/chatgpt_text_based_game/,9,1679038197.0,"Hi All,
+
+I created a text-based game that utilizes ChatGPT. There are three different scenarios that you can choose from: RPG, Mystery Game, and Escape Room.
+
+This was written in HTML + CSS + JS + PHP and utilizes AWS EC2 to run.
+
+Let me know your thoughts and suggestions!
+
+The site is here (it's still on EC2 as I haven't bought a domain for it yet): http://ec2-52-26-51-238.us-west-2.compute.amazonaws.com/
+
+Code can be found here: https://github.com/ZSamuels28/OpenAI-Game"
+19,132g1xo,ChatGPTCoding,OpenAI,comments,2023-04-29 01:46:11,"My work is ""highly discouraging"" the use of ChatGPT, probably as a result of a few people complaining, any suggestions on how to use it without people knowing?",Zyster1,False,0.75,24,https://www.reddit.com/r/ChatGPTCoding/comments/132g1xo/my_work_is_highly_discouraging_the_use_of_chatgpt/,65,1682732771.0,"I'm only using it to ask it questions about tech topics I don't understand or to find a bug here and there. Apparently people have been complaining (not at my specifically, but in general at the company) that people are using it. These people are likely upset that they're not being begged to help the not-as-good coders. 
+  
+In any case, can anyone think of a way to use it without having to navigate to the openai website? Do I really need to get a second laptop?"
+20,zjn7ar,ChatGPTCoding,OpenAI,comments,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,339,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+21,135kcuw,ChatGPTCoding,OpenAI,comments,2023-05-02 12:51:46,Will ChatGPT replace programmers?,ANil1729,False,0.58,4,https://www.reddit.com/r/ChatGPTCoding/comments/135kcuw/will_chatgpt_replace_programmers/,58,1683031906.0," 
+
+Hey there,
+
+Never, chatgpt never replace programmers but chatgpt can support in programming through basic coding, loops, and fixing coding errors.
+
+Here is the answer to How chatgpt helps programmers for programming.
+
+ChatGPT, and other similar AI technologies, have the potential to impact the field of programming greatly, but it is unlikely that they will completely replace programmers. Here are a few reasons why: Absolutely! ChatGPT can be a valuable tool for programmers in various ways. Let's explore how ChatGPT can assist programmers in their programming tasks and provide them with additional enthusiasm.
+
+&#x200B;
+
+https://preview.redd.it/6n4lyr080fxa1.png?width=602&format=png&auto=webp&s=3f39392b6a5b6c1761d904406d362c89fbb7201b
+
+1. **Code Generation**: ChatGPT can generate code snippets or entire blocks of code based on the programmer's input or requirements. For example, a programmer can describe a specific task or algorithm to ChatGPT, and it can provide relevant code snippets in different programming languages. This can save time and effort for programmers, especially when they need quick references or examples to implement specific functionalities.
+2. **Debugging Assistance**: ChatGPT can help programmers in debugging their code. A programmer can describe the issue or error they are facing, and ChatGPT can provide suggestions and solutions to resolve the problem. ChatGPT can analyze the code and identify potential issues, such as syntax errors, logic errors, or common coding mistakes, and provide guidance on how to fix them. This can help programmers in troubleshooting their code more effectively and improve their productivity.
+3. **Learning and Education**: ChatGPT can serve as a learning resource for programmers. It can provide explanations, tutorials, and examples on various programming concepts, algorithms, data structures, and best practices. ChatGPT can also help programmers to understand complex topics in a more accessible and simplified manner, making learning more enjoyable and engaging.
+4. **Project Planning and Management**: ChatGPT can help programmers with project planning and management tasks. It can provide suggestions and recommendations on project structure, code organization, version control, and other software development best practices. It can also help programmers in managing their tasks, deadlines, and milestones by providing reminders and scheduling assistance. This can help programmers in staying organized, meeting deadlines, and delivering high-quality projects.
+5. **Collaboration and Brainstorming**: ChatGPT can facilitate collaboration among programmers by providing a platform for brainstorming and idea generation. It can help programmers in discussing and refining their ideas, providing feedback, and collaborating on code or documentation. ChatGPT can also help in fostering a creative and collaborative environment, enhancing team dynamics, and promoting innovation in programming projects.
+
+&#x200B;
+
+https://preview.redd.it/3ntjbho90fxa1.png?width=602&format=png&auto=webp&s=a8ffffacef47a97c5ef15790d1b4b4df3568ae78
+
+Here is the list of products that which is based on chatgpt
+
+* [**MyGPT** ](https://mygpt.thesamur.ai/)— This is one of the best products that I have used. Even after chatgpt is its highest capacity these products work a lot. MyGPT using ChatGPT API and provide same results as chatgpt provides. MyGPT is just a front-end UI of Chatgpt API, that help you get very responsive output even at the time of chatgpt is on its capacity. You can also see the short prompt.
+* [**Memejourney** ](http://memejourney.thesamur.ai/)— ChatGPT for memes: Turn text into meme generation using ChatGPT, a midjourney for memes. Create memes by using memejournney.
+* [**Heybot** ](https://heybot.thesamur.ai/)— Website to Chatbot powered by ChatGPT. Convert your website/blog into a chatbot in minutes without any coding.
+* [**Ritebot**](https://ritebot.thesamur.ai/) **—** AI-powered Paraphraser, Grammar checker, Summariser, and Translator built on top of ChatGPT.
+
+In conclusion, ChatGPT can be a valuable assistant for programmers, providing them with code generation, debugging assistance, learning and education, project planning and management, and collaboration and brainstorming support. Its ability to generate detailed and enthusiastic answers can inspire programmers and add a sense of enthusiasm in their programming tasks, making the overall experience more enjoyable and productive.
+
+[**AutoGPT**](https://github.com/Significant-Gravitas/Auto-GPT)
+
+AutoGPT's capabilities in combining GPT-3.5 and GPT-4 via API and its ability to autonomously iterate on prompts and improve based on feedback open up a wide range of possibilities for its implementation in different use cases. From content generation to software development, recipe creation to task automation, and research assistance to summarization, AutoGPT can be a powerful tool for autonomously performing tasks, continuously improving its output, and showcasing true AGI capabilities."
+22,120wr5g,ChatGPTCoding,OpenAI,comments,2023-03-24 20:08:25,How long did you have to wait for GPT4 API access?,Xanhasht,False,0.88,12,https://www.reddit.com/r/ChatGPTCoding/comments/120wr5g/how_long_did_you_have_to_wait_for_gpt4_api_access/,47,1679688505.0,"I saw one post where someone said they were approved for the api in 2 days. Another guy said it's been weeks.
+
+I'm curious how long various people had to wait?
+
+If you got in quickly, were you contributing to [OpenAI Evals](https://github.com/openai/evals) ?
+
+Did any of you get in at the 32K plan?
+
+EDIT (3/27/2023): I got access to the API (8K plan) yesterday. So, that's 2 days for me. WOOHOO!"
+23,12zf87p,ChatGPTCoding,OpenAI,comments,2023-04-26 11:56:44,I'm coding in C#. Should I switch to Python?,running-for-pres,False,0.64,3,https://www.reddit.com/r/ChatGPTCoding/comments/12zf87p/im_coding_in_c_should_i_switch_to_python/,32,1682510204.0,"I'm a fairly experienced developer, and code for a living. 
+
+I'm keen to tinker around on the ChatGPT space, and I managed to build something pretty good in C# using this plugin.   
+[https://github.com/OkGoDoIt/OpenAI-API-dotnet](https://github.com/OkGoDoIt/OpenAI-API-dotnet)  
+It has an Angular front end on the client and allows the user to query ChatGPT. So far so good.
+
+But as I delve more into it (embeddings, vector databases, langchain...) it seems that this is an area where C# falls short. Very short. All the examples on the OpenAi and Pinecone website are in Python.   
+
+
+What's your experience? What do you code in?"
+24,12kbwf7,ChatGPTCoding,OpenAI,comments,2023-04-13 04:30:43,ChatGPT and Privacy Concern,shahednyc,False,0.85,9,https://www.reddit.com/r/ChatGPTCoding/comments/12kbwf7/chatgpt_and_privacy_concern/,31,1681360243.0,"Me and my team are using ChatGPT(Specially gpt4) for coding, emails and content and lots of other things.
+
+This news caught my attention :
+
+""Samsung's semiconductor division has allowed engineers to use ChatGPT to check source code. Little did they know that all code that their engineers put into chat GPT is now available to OpenAi.""
+
+Now if I feed chatGPT my client name, title, problem and other info, I bet sometime soon someone can pull this out(chatgpt will them answers).
+
+terms of services where OpenAi clearly states:
+
+“We may use Content from Services other than our API (“Non-API Content”) to help develop and improve our Services.”
+
+What they mean by ""Non-API Content are ChatGPT DALL-E2. These are research models and whatever content users put into these models is being looked at by OpenAi to further improve these models.
+
+are you worried about this? How do you solve this problem?
+
+Also Gpt4 cost $20/person, if I have to give it to all employees it will cost me a lot. How are you guys solving this?
+
+&#x200B;"
+25,12j6o2n,ChatGPTCoding,OpenAI,comments,2023-04-12 02:23:50,Cheapest way to leverage GPT API in a free web app?,retroriffer,False,0.85,13,https://www.reddit.com/r/ChatGPTCoding/comments/12j6o2n/cheapest_way_to_leverage_gpt_api_in_a_free_web_app/,25,1681266230.0,"I'd like make a free web app that uses the GPT API which anyone can access. What's the best way to do so while also minimizing my OpenAI usage costs?
+
+The most obvious way I can think of is to provide a text input asking users to provide an OpenAPI token. This doesn't seem that desirable though as it skews towards a more technical audience and creates friction and potential security concerns.
+
+I could also pre-cache the GPT API results but that limits many of the app ideas I currently have.
+
+Another option I've considered is implementing some kind of throttling/quota mechanic.
+
+What's worked well for you? Looking for a simple solution. My guess is that it will require some form of OAuth."
+26,134ztdc,ChatGPTCoding,OpenAI,comments,2023-05-01 20:09:17,I want to use chatGPT to parse a users intent but I can not get it to return json without text,Gasp0de,False,0.86,5,https://www.reddit.com/r/ChatGPTCoding/comments/134ztdc/i_want_to_use_chatgpt_to_parse_a_users_intent_but/,24,1682971757.0,"I am trying to use chatGPT as a chatbot for my shared flat groupchat. I want to use it to parse messages as follows:
+
+        response = openai.ChatCompletion.create(
+            model=""gpt-3.5-turbo"",
+            messages=[
+                {""role"": ""system"", ""content"": 'You are a assistant that parses the intent of a text into JSON of the form {""cleaningtask"": boolean, ""shoppinglist"":[{""action"":""add""|""remove""|""list""|""clear"", ""items"": [""string""]}]. Do not return anything but a valid JSON object of this form.'},
+                {""role"": ""user"", ""content"": message}
+            ]
+        )
+
+I got it to work perfectly fine a few times but now I always get text in the answer, along the lines of ""Sure, here's your JSON: "". How can I prevent this? Is there a better way than using chatCompletion?
+
+Edit:
+I ended up combining two tips from here. One, I appended ""ONLY JSON. NO DISCUSSION."" To the end of my system prompt. Second, I added a few userprompts and the corresponding assistant replies as examples, covering every possibility (add,remove,clear,list). It now works perfectly."
+27,11uq54p,ChatGPTCoding,OpenAI,comments,2023-03-18 14:37:13,Any way to safely use the user's OpenAI api key?,NeonCityNights,False,1.0,1,https://www.reddit.com/r/ChatGPTCoding/comments/11uq54p/any_way_to_safely_use_the_users_openai_api_key/,23,1679150233.0,"If you're building an app on top of OpenAI api is there any legit way to obtain the user's api key to make the requests so that they are done using the user's OpenAI account?  I'm thinking something along the lines of OAuth 2.0 or similar.
+
+I've been looking around and it seems like app creators have to use their own api key, or ask the user to manually enter it into the app, both of which are obviously sub-optimal solutions.
+
+\*Edit
+
+Until an official solution is provided, is it viable to actually ask the user to enter their api key?"
+28,1396noc,ChatGPTCoding,OpenAI,comments,2023-05-06 00:32:28,Training Ai on gaming laptop.,No-Milk2296,False,0.57,1,https://www.reddit.com/r/ChatGPTCoding/comments/1396noc/training_ai_on_gaming_laptop/,23,1683333148.0,If I use a gaming pc with great specs how long would it take to train a competent ai if I use a pre trained model? I’m curious about using only the laptop and not using open source GPU’s
+29,13dhkvw,ChatGPTCoding,OpenAI,comments,2023-05-10 05:45:36,"At Present, What are the Best AI Companion Apps?",LucchiWucchi,False,0.8,8,https://www.reddit.com/r/ChatGPTCoding/comments/13dhkvw/at_present_what_are_the_best_ai_companion_apps/,21,1683697536.0,"Howdy,
+
+I've recently started hacking away at a fun little ai companion app project in my spare time, and it got me thinking--what are the best tools that are already out there?
+
+Specifically, I'm interested in apps with strong long term memory systems. Are there any apps available that have successfully implemented knowledge graph memory? (Ik langchain provides tools to do this but I can imagine itd be difficult to get this working well)
+
+Additionally, if you're working on an open source AI companion app, feel free to share - I'd love to try them out 😀"
+30,11sdwrs,ChatGPTCoding,OpenAI,comments,2023-03-16 00:02:40,I created a UI/Feature overhaul for ChatGPT. Completely free! Looking for opinions :),mikebpechousek,False,0.98,35,https://www.reddit.com/r/ChatGPTCoding/comments/11sdwrs/i_created_a_uifeature_overhaul_for_chatgpt/,21,1678924960.0,"Hey all! 🧨
+
+There was a few features I wanted to see in ChatGPT along with some feature updates. The few sites I saw that had this were charging for it so I'm releasing it for free in it's current state! Check it out here: [https://turbogpt.ai/](https://turbogpt.ai/). This uses OpenAI's turbo-gpt3.5 API so you must put your own api key on the app. ***API Keys are stored locally on your machine and never reach anyone else but the OpenAI servers.***
+
+Few features coming soon:
+
+* Image generation inside the chat
+* Code running directly on the site
+
+I made this over the weekend :) Please let me know if you have any suggestions/ideas! I will be adding a bunch of new features over the next weekend."
+31,12zuhjo,ChatGPTCoding,OpenAI,comments,2023-04-26 18:54:59,"Thank you ChatGPT! I got my first paying subscriber, and couldn't be happier!",BabaYaga72528,False,0.59,3,https://www.reddit.com/r/ChatGPTCoding/comments/12zuhjo/thank_you_chatgpt_i_got_my_first_paying/,15,1682535299.0,"The past three days have been crazy for [AI Diary](https://aidiary.io/) !
+
+* I submitted on [HackerNews](https://news.ycombinator.com/item?id=35666140) which got little to no traction
+* but seems like someone saw it. The next day, AI Diary was featured in [TheNeuronDaily](https://www.theneurondaily.com/p/iphone-killer)
+* the next day, it was [BensBites](https://www.bensbites.co/p/bard-learns-code)
+* and then a couple of more ..
+
+So a short story: the whole idea for AI Diary was to try to make something using OpenAI's new APIs that isn't just a simple wrapper for ChatGPT. There were just toooo many of them coming up every single day. Though seemed like they were all making money... but I just didn't want to enter that space. Hence, [AI Diary](https://aidiary.io/).
+
+Featuring in these newsletters is cool. A lot of readers, so a lot of views etc. But not really the target audience. Folks subscribed to these are mostly AI enthusiasts, and turns out most of the sign ups were just about testing the product out of curiosity, scoping out the features etc. For almost 2 days, nobody converted to a paid user.
+
+Then, suddenly, just before the 2nd day ended, I got my first subscriber ❤️
+
+I'm pumped now! I'm so glad. Hoping this is just the start 😁"
+32,127p6k9,ChatGPTCoding,OpenAI,comments,2023-03-31 15:33:14,Are there any API services for GPT-4?,funbike,False,0.94,15,https://www.reddit.com/r/ChatGPTCoding/comments/127p6k9/are_there_any_api_services_for_gpt4/,19,1680276794.0,"tl;dr: Are there any commercial API proxy services that that would allow me to use the Chat API with the GPT-4 model?  I'm on OpenAI's GPT-4 wait list.
+
+I've been writing development tools that use the chat API with gpt-3.5-turbo.  I'm feeling encumbered by not having access to the newer model.  My tools fail to delivery acceptable results, mostly due to the model, which is making it harder for me to progress.
+
+I occasionally use Chat GPT Pro with GPT-4 model to manually test how my code would work with the more capable model, but I find it a cumbersome way to develop and test my work.  My code exports user prompts that I manually copy-paste into Chat GPT-4 and I compare its responses to what gpt-3.5-turbo generated.
+
+There's an unofficial API that uses browser automation, but I'm afraid of getting banned, as I think that's against the ToS."
+33,126uf56,ChatGPTCoding,OpenAI,comments,2023-03-30 17:58:22,How to apply OpenAI layer on top of an existing Body of Knowledge (BoK)?,Cultural-Hamster-416,False,0.87,15,https://www.reddit.com/r/ChatGPTCoding/comments/126uf56/how_to_apply_openai_layer_on_top_of_an_existing/,16,1680199102.0,"Hi All,  
+
+
+Over the years I developed a methodology relating to project management in a certain area of business.
+
+I am really interested in finding ways of feeding this information into an OpenAI (or similar) type model which would involve feeding it:  
+
+
+• 10 in-depth  pieces of content around best practice (pdf format but can be text input)
+
+• 25 detailed step by step process guides along with hints and tips (pdf format but can be text input)  
+• 125 tools and templates which are all in MS Office (and compatible format)
+
+&#x200B;
+
+The total word count is around 125,000 words.
+
+&#x200B;
+
+Does anyone have any pointers for how to build an AI layer over this that can use this body of knowledge to then generate - say - strategy, planning and execution documents that combine my methodology with any given users input?
+
+&#x200B;
+
+I have pretty much zero technical experience so plan language especially prized and appreciated!
+
+&#x200B;
+
+Thanks in advance,
+
+&#x200B;
+
+RC"
+34,11z8zet,ChatGPTCoding,OpenAI,comments,2023-03-23 04:38:54,An OpenAI Quiz Game Made With React,tea_baggins_069,False,0.86,5,https://www.reddit.com/r/ChatGPTCoding/comments/11z8zet/an_openai_quiz_game_made_with_react/,15,1679546334.0,"Just made this for fun, I'm still learning React so if anyone wants to help build it out more that would be awesome. It's a quiz game where you can input a category and OpenAI generates 10 questions about that category (with 4 answers). It does not have error checking yet so I assume if you type something weird in the category it will break the app.
+
+I want to add some error checking to it, as well as some colors for right/wrong clicks, and a spinning wheel for the loading screen.
+
+Here is the web app: [https://zsamuels28.github.io/OpenAI-Quiz-Game/](https://zsamuels28.github.io/OpenAI-Quiz-Game/)
+
+Here is the source code: [https://github.com/ZSamuels28/OpenAI-Quiz-Game/](https://github.com/ZSamuels28/OpenAI-Quiz-Game/)"
+35,11w0c0z,ChatGPTCoding,OpenAI,comments,2023-03-19 22:45:47,breaking the 4096 token barrier?,balancedgif,False,0.8,6,https://www.reddit.com/r/ChatGPTCoding/comments/11w0c0z/breaking_the_4096_token_barrier/,14,1679265947.0,"anyone had any luck at figuring out how to get work done on a text document that is longer than the token limit?  code-davinci-002 supposedly has an 8k token limit, but i can't find any api documentation on it.  
+
+this is the normal i've been doing queries:
+
+response = openai.ChatCompletion.create(
+
+engine=""gpt-3.5-turbo"",
+
+messages=messages,
+
+max\_tokens=150,
+
+n=1,
+
+temperature=0.5,
+
+)
+
+but if i swap out gpt-3.5-turbo for code-davinci-002 to see if i can do basic things above the 4k limit, i get this error:
+
+openai.error.InvalidRequestError: Invalid URL (POST /v1/chat/completions)  
+
+
+any ideas?"
+36,12gstg6,ChatGPTCoding,OpenAI,comments,2023-04-09 19:20:37,Molly GPT Alexa skill is now live in the Alexa store (using OpenAI's Chat APIs),meowkittykitty510,False,1.0,9,https://www.reddit.com/r/ChatGPTCoding/comments/12gstg6/molly_gpt_alexa_skill_is_now_live_in_the_alexa/,14,1681068037.0,"As the title says my Alexa skill (Molly GPT) that integrates with OpenAI's APIs is now live in the Alexa store. The skill is using the gpt-3.5-turbo model and uses the latest ChatCompletion APIs which means it's able to maintain context across multiple requests.
+
+[LINK TO SKILL](https://www.amazon.com/dp/B0C1WG8ZC3/ref=mp_s_a_1_1?crid=24I6QQLJSELOW&keywords=molly+gpt&qid=1680996537&s=digital-skills&sprefix=%2Caps%2C122&sr=1-1)
+
+It works generally as you might expect:
+
+""Alexa, open Molly GPT""
+
+""Molly, write a love song for my wife""
+
+""Molly, how tall is the empire state building?""
+
+""Molly, multiply that number times 2.""
+
+If you enjoy using the skill I'd really appreciate a positive review. If you have any feedback feel free to send me a DM. **Finally, I'm considering open sourcing the skill code. If that's something you'd be interested in seeing please let me know in the comments!**
+
+&#x200B;
+
+&#x200B;
+
+https://preview.redd.it/6jm8cv6sswsa1.png?width=400&format=png&auto=webp&s=cc942c985ff9c9f1997954cb50ba405503c97ecd"
+37,13gngb9,ChatGPTCoding,OpenAI,comments,2023-05-13 17:27:06,Wanted to share an actual example,Dramatic-Mongoose-95,False,0.89,41,https://i.redd.it/bymi3ol3doza1.jpg,14,1683998826.0,"So I used GPT to make my AI generated podcast.
+
+I was so impressed at this one part, it actually wrote all of the code to stitch the final audio segments together, even with cross fading and stuff.
+
+I didn’t have to write any of that code.
+
+I saw some people earlier asking for tangible examples, so I thought I’d share.
+
+It’s like a really long screenshot from my phone.
+
+Here’s a link to the full repo if you want to see the final code!
+
+The next episode of the podcast will post on 5/19 - check it out!!
+
+I’ve got 8 stars so far on this repo, I feel like a celebrity, I’ve never had that many 🤓
+
+https://github.com/AdmTal/crowdcast"
+38,13hkdhk,ChatGPTCoding,OpenAI,comments,2023-05-14 19:03:47,Code Autopilot AI can work on entire codebases,fjrdomingues,False,0.63,9,https://www.reddit.com/r/ChatGPTCoding/comments/13hkdhk/code_autopilot_ai_can_work_on_entire_codebases/,14,1684091027.0,"Here to share my recently released product.
+
+**Code Autopilot is an AI-driven app that will present practical solutions for your Github issues. It will read your codebase and reply with a suggestion to solve the issue. Uses GPT in the context of your entire repository.**
+
+It shares similarities with Github Copilot, but with some key distinctions:
+
+* It derives context from your entire codebase, enabling it to handle complex tasks spanning multiple files.
+* It integrates with your Github account to obtain context and respond to issues you open.
+* The core technology is open-source, from fjrdomingues/autopilot
+
+I’ve personally used Code Autopilot for coding apps (including this one), and I’m thrilled with the results. **As someone who isn’t particularly skilled at coding, this tool has been a lifesaver and is now part of my normal workflow.** It speeds up my development immensely. Try it out for yourself.
+
+Please note that Code Autopilot is currently in its beta phase. I'm expecting some bugs. Your feedback would be greatly appreciated.
+
+To encourage you to give it a try, I’m offering the first 100 users free trial access to Code Autopilot. I’ll be covering the costs with OpenAI.
+
+**Using the app is easy:**
+
+1. **Install** it using the link below (you’ll need a Github account)
+2. Navigate to a repository where you installed the app and **create a new issue on Github** with the task you want to solve. For optimal results, provide clear and detailed descriptions - as if you were explaining the task to another person.
+3. Code Autopilot will get to work immediately and will reply with a comment
+
+👉 **Link to install the Github App**: [https://github.com/marketplace/code-autopilot-ai-coder](https://github.com/marketplace/code-autopilot-ai-coder)
+
+If you have any questions, or feedback, or just want to discuss the future of AI in software engineering, feel free to leave a comment below or send me a message. I’m here to connect. Happy coding!
+
+An example of a random reply from Code Autopilot:
+
+https://preview.redd.it/gukjhyubjuza1.png?width=670&format=png&auto=webp&s=1f1f847a893794a3c8b7066bbad704ec82510d5e"
+39,12e2ra4,ChatGPTCoding,OpenAI,comments,2023-04-07 00:00:09,BotForge: I created an Android ChatGPT Client to share prompts,L4TTiCe,False,0.81,3,https://www.reddit.com/r/ChatGPTCoding/comments/12e2ra4/botforge_i_created_an_android_chatgpt_client_to/,12,1680825609.0,"Hi, I recently got into Android development, and when OpenAI released its Chat API, I knew I wanted to make an Android App for it. 
+
+The idea was to let users create various personas, like healthcare advisor, Kotlin Bot, etc., with an initial prompt that can be shared with the community. Users can search through others' prompts and use them to start a conversation immediately.
+
+&#x200B;
+
+Some of the App's features are:
+
+* Allows users to share their prompts for others to Browse through and use
+* Users can search through other user prompts, upvote or downvote them
+* Allows editing System Message, Bot's Message
+   * Similar to OpenAI's Chat Playground Interface
+* Bookmark conversations, etc.
+
+&#x200B;
+
+Additionally, 
+
+* It has no ads or in-app purchases
+* Use your API key
+* Currently uses gpt3.5-turbo, I plan on supporting GPT4
+* Open Source
+   * Available at [GitHub](https://github.com/L4TTiCe/BotForge)
+
+&#x200B;
+
+I built it to have an interface similar to the Playground Interface, especially for tablets and phones. What features would you expect from such an App?  I would appreciate any feedback. Thank you for your time.
+
+Link to Play Store: [https://play.google.com/store/apps/details?id=com.mohandass.botforge](https://play.google.com/store/apps/details?id=com.mohandass.botforge)"
+40,12onbly,ChatGPTCoding,OpenAI,comments,2023-04-16 20:14:04,I open sourced my Chat GPT enabled Alexa skill (Molly GPT),meowkittykitty510,False,1.0,8,https://www.reddit.com/r/ChatGPTCoding/comments/12onbly/i_open_sourced_my_chat_gpt_enabled_alexa_skill/,12,1681676044.0,"I'd like to say thanks to a lot of folks on this sub that participated in the beta and provided feedback as I was building it. If you'd like to try it out it's [live on the Alexa skill store here](https://www.amazon.com/dp/B0C1WG8ZC3/ref=mp_s_a_1_1?crid=24I6QQLJSELOW&keywords=molly+gpt&qid=1680996537&s=digital-skills&sprefix=%2Caps%2C122&sr=1-1). It's only in the US for now. I'm battling with Amazon's skill store to enable it for other countries but hope to have it global soon. I don't have plans to make money off the skill, especially since it's free and using my OpenAI key :) Along those lines I wanted to share the code base in case it's helpful for anyone else working on something similar. Also, if you have suggestions/recommendations feel free to share or make a PR!
+
+[https://github.com/ConiferLabsWA/molly-gpt-alexa-skill](https://github.com/ConiferLabsWA/molly-gpt-alexa-skill)
+
+&#x200B;
+
+https://preview.redd.it/bkd1da9k0bua1.png?width=400&format=png&auto=webp&s=f2f65ce84c1a54f4ae1bb607ba91d953dd09b641"
+41,136awiw,ChatGPTCoding,OpenAI,comments,2023-05-03 05:01:17,OpenAI API vs Langchain?,DisciplinedPenguin,False,1.0,19,https://www.reddit.com/r/ChatGPTCoding/comments/136awiw/openai_api_vs_langchain/,12,1683090077.0,"I'm confused what exactly the difference is between the OpenAI API (OAPI) and langchain. As of now my understanding is simply that langchain templates prompts/appends text to a user input which it then passes through to the OAPI. If that's the case what's the point of using langchain?
+
+Also if I were to start learning langchain should I first start learning and using the OAPI before hand, or would it be unnecessary? Thanks."
+42,11ramit,ChatGPTCoding,OpenAI,comments,2023-03-14 16:20:00,What api to use for tabular data?,lifemoments,False,1.0,9,https://www.reddit.com/r/ChatGPTCoding/comments/11ramit/what_api_to_use_for_tabular_data/,12,1678810800.0,"I tried chatgpt web interface to return sample data in tabular format. The result was good .
+
+&#x200B;
+
+However I am unable to figure out which api to use. I tried chatcompletion ( model gpt-3.5-turbo) but the results varied and at few instances, response was no data along with text message citing apologies.
+
+&#x200B;
+
+Can anyone suggest what I am doing wrong ?
+
+&#x200B;
+
+\---- Code ---
+
+Calling the api via python.
+
+ `content = 'Generate 2 records of sample address data for columns : ' + ' , '.join(map(str, columns)) + ' in tabular format. Share the result as comma separated rows. Return only data records. '` 
+
+`response = openai.ChatCompletion.create(`  
+ `model=""gpt-3.5-turbo"",`  
+ `messages=[{""role"": ""user"", ""content"": content}]`  
+`)`  
+
+
+\---- Response via api ----
+
+&#x200B;
+
+[API Response 1](https://preview.redd.it/2hifisppluna1.jpg?width=846&format=pjpg&auto=webp&s=26bea642573bfaec05f05ec8e3c7dffe4d8d8ee0)
+
+&#x200B;
+
+[API Response 2](https://preview.redd.it/dlzd0svrluna1.jpg?width=312&format=pjpg&auto=webp&s=74279b3a403eadaa7c5c9702fdba6501c599dd69)
+
+&#x200B;
+
+[API Response 3](https://preview.redd.it/4oghku85muna1.jpg?width=893&format=pjpg&auto=webp&s=c4a4c52454d03abfce1c299b336a3d03d58aa0ef)
+
+&#x200B;
+
+\------- Response via web ----
+
+&#x200B;
+
+https://preview.redd.it/cw21o7temuna1.jpg?width=832&format=pjpg&auto=webp&s=07613a839fd3a5be02daa598015cd6f2b1de48b2
+
+\------ What I'm looking for ----
+
+https://preview.redd.it/mnkb29odmuna1.jpg?width=1379&format=pjpg&auto=webp&s=e77cb4fabae41f6dd28167cb449850a43b58b613"
+43,10519jm,ChatGPTCoding,OpenAI,comments,2023-01-06 18:18:23,EVA - OpenAI's ChatGPT search for Google,Affectionate-Row2454,False,0.9,8,https://www.reddit.com/r/ChatGPTCoding/comments/10519jm/eva_openais_chatgpt_search_for_google/,12,1673029103.0,"Folks, check out this plugin I speed-coded over the weekend that acts as an alternative to all the paid versions of ChatGPT Google search assistants. Works as a Chrome extension.
+
+Feel free to DM me with feedback or leave it on the app through the feedback button!
+
+Download the plugin here!
+
+[https://chrome.google.com/webstore/detail/eva-open-ais-chatgpt-sear/nokpkhbodkkcdhalfinodbfdlbhddkmg](https://chrome.google.com/webstore/detail/eva-open-ais-chatgpt-sear/nokpkhbodkkcdhalfinodbfdlbhddkmg)"
+44,1229j2k,ChatGPTCoding,OpenAI,comments,2023-03-26 03:22:08,How to implement a version of Chat GPT that would always be familiar with specific data?,ChristmasKrunk,False,0.94,13,https://www.reddit.com/r/ChatGPTCoding/comments/1229j2k/how_to_implement_a_version_of_chat_gpt_that_would/,12,1679800928.0,"For example - In the GPT4 demo, the developer starts a chat with a message similar to ""You are Tax GPT - answer my questions using this \~20 page Tax code legal document"".   
+
+
+If I wanted to build a simple chatbot using the OpenAI API to do this, how could we skip the part where the user sends this message to get the chatbot familiar with the tax code and instead allow the user to interact with an already familiar chatbot?   
+
+
+I could think of two options - 
+
+1. Possibly send this training data behind the scenes and let the user interact with an already-trained version upon each chat interaction  
+
+2. Somehow link the user to a ChatGPT model that has already been trained on this data   
+
+
+It seems to me getting the chatbot to read and understand this amount of data for each user (option 1) is highly inefficient - how can the ChatGPT be instantiated with this knowledge already built in (option 2)? 
+
+I can see value in a ChatGPT with longer-term memory of larger datasets. An expansion of the example would be having a bot trained on the tax code of every country in the world, that anyone could feasibly ask about their local tax code and receive an informed answer.   
+
+
+Is this a question others have? I have software experience but am new to the technology behind ChatGPT. Any thoughts insights or comments are welcome."
+45,132zmy5,ChatGPTCoding,OpenAI,comments,2023-04-29 16:05:38,ChatGPT on personal webpage referencing to directory of PDFs?,tientutoi,False,0.76,8,https://www.reddit.com/r/ChatGPTCoding/comments/132zmy5/chatgpt_on_personal_webpage_referencing_to/,11,1682784338.0,"Hello, I have a personal website hosted on a vps server that uses Ubuntu and has python installed. Also have chatgpt plus, openai api, etc. Is it possible for me to create a simple page on my website that uses chatgpt to search a directory on my server containing pdf files that i upload for the chat? 
+
+I already tried asking chatgpt to walk me thru creating a simple page with a chagpt query using my api and have it return results on the same page, but didn’t have any luck. 
+
+Any guidance would greatly be appreciated!"
+46,zjn7ar,ChatGPTCoding,OpenAI,relevance,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,342,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+47,136awiw,ChatGPTCoding,OpenAI,relevance,2023-05-03 05:01:17,OpenAI API vs Langchain?,DisciplinedPenguin,False,1.0,18,https://www.reddit.com/r/ChatGPTCoding/comments/136awiw/openai_api_vs_langchain/,12,1683090077.0,"I'm confused what exactly the difference is between the OpenAI API (OAPI) and langchain. As of now my understanding is simply that langchain templates prompts/appends text to a user input which it then passes through to the OAPI. If that's the case what's the point of using langchain?
+
+Also if I were to start learning langchain should I first start learning and using the OAPI before hand, or would it be unnecessary? Thanks."
+48,11xaqnj,ChatGPTCoding,OpenAI,relevance,2023-03-21 08:18:24,Chatworm OpenAI API client,Unknown_Energy,False,0.93,23,https://www.reddit.com/r/ChatGPTCoding/comments/11xaqnj/chatworm_openai_api_client/,9,1679386704.0,"for all the devs out there looking for a good open-source ChatGPT alternative which communicates directly via the OpenAI API for coding etc. also as Android app and Windows app: 
+https://github.com/UnknownEnergy/chatgpt-api
+
+If you like it and have some improvements you can create pull requests so everyone of us can enjoy the updates :)
+thank you"
+49,11z8zet,ChatGPTCoding,OpenAI,relevance,2023-03-23 04:38:54,An OpenAI Quiz Game Made With React,tea_baggins_069,False,0.86,5,https://www.reddit.com/r/ChatGPTCoding/comments/11z8zet/an_openai_quiz_game_made_with_react/,15,1679546334.0,"Just made this for fun, I'm still learning React so if anyone wants to help build it out more that would be awesome. It's a quiz game where you can input a category and OpenAI generates 10 questions about that category (with 4 answers). It does not have error checking yet so I assume if you type something weird in the category it will break the app.
+
+I want to add some error checking to it, as well as some colors for right/wrong clicks, and a spinning wheel for the loading screen.
+
+Here is the web app: [https://zsamuels28.github.io/OpenAI-Quiz-Game/](https://zsamuels28.github.io/OpenAI-Quiz-Game/)
+
+Here is the source code: [https://github.com/ZSamuels28/OpenAI-Quiz-Game/](https://github.com/ZSamuels28/OpenAI-Quiz-Game/)"
+50,12eobpr,ChatGPTCoding,OpenAI,relevance,2023-04-07 15:07:47,16 OpenAI Statistics,costa-rozakis,False,0.08,0,https://heyhowtodoit.com/openai-statistics/,1,1680880067.0,
+51,11uq54p,ChatGPTCoding,OpenAI,relevance,2023-03-18 14:37:13,Any way to safely use the user's OpenAI api key?,NeonCityNights,False,1.0,1,https://www.reddit.com/r/ChatGPTCoding/comments/11uq54p/any_way_to_safely_use_the_users_openai_api_key/,23,1679150233.0,"If you're building an app on top of OpenAI api is there any legit way to obtain the user's api key to make the requests so that they are done using the user's OpenAI account?  I'm thinking something along the lines of OAuth 2.0 or similar.
+
+I've been looking around and it seems like app creators have to use their own api key, or ask the user to manually enter it into the app, both of which are obviously sub-optimal solutions.
+
+\*Edit
+
+Until an official solution is provided, is it viable to actually ask the user to enter their api key?"
+52,1390dzo,ChatGPTCoding,OpenAI,relevance,2023-05-05 20:29:39,OpenAI API Key in iOS App?,JesusCanDeliverYou,False,0.75,2,https://www.reddit.com/r/ChatGPTCoding/comments/1390dzo/openai_api_key_in_ios_app/,8,1683318579.0,"I’m making an iOS app that receives a response from ChatGPT using the API. At this point, I’m using my own API key linked to my account. I haven’t used API’s much before, and I’m not sure if when I publish the app the normal approach is that the users will be using my API key to receive responses from ChatGPT? If so, what is my liability if a user misuses it?
+
+Thanks in advance for any help!"
+53,10iw94k,ChatGPTCoding,OpenAI,relevance,2023-01-22 22:29:20,Some OpenAi based tool example,shahednyc,False,0.78,13,https://www.reddit.com/gallery/10iw94k,3,1674426560.0,
+54,10mgpvw,ChatGPTCoding,OpenAI,relevance,2023-01-27 09:19:23,Excel your Spreadsheets with OpenAI GPT3,Racin_Statistics_YT,False,1.0,13,https://www.youtube.com/watch?v=Fnq68_GxUr4,3,1674811163.0,
+55,13fmpdc,ChatGPTCoding,OpenAI,relevance,2023-05-12 14:26:00,Check your OpenAI Chat GPT writing pattern!,muscerly,False,0.14,0,https://grammica.com/ai-detector,1,1683901560.0,
+56,12hqibo,ChatGPTCoding,OpenAI,relevance,2023-04-10 17:57:05,"Query your own data - OpenAI Embeddings, Chroma and LangChain",grumpyp2,False,1.0,21,https://www.reddit.com/r/ChatGPTCoding/comments/12hqibo/query_your_own_data_openai_embeddings_chroma_and/,11,1681149425.0,"Hi guys, I created a video on how to use Chroma in combination with LangChain and the Wikipedia API to query your own data.   
+
+
+Asking about your own data is the future of LLMs!
+
+&#x200B;
+
+[https://youtu.be/ytt4D5br6Fk](https://youtu.be/ytt4D5br6Fk)
+
+[https://github.com/grumpyp/chroma-langchain-tutorial](https://github.com/grumpyp/chroma-langchain-tutorial)
+
+&#x200B;
+
+hope you enjoy it!"
+57,10519jm,ChatGPTCoding,OpenAI,relevance,2023-01-06 18:18:23,EVA - OpenAI's ChatGPT search for Google,Affectionate-Row2454,False,0.9,8,https://www.reddit.com/r/ChatGPTCoding/comments/10519jm/eva_openais_chatgpt_search_for_google/,12,1673029103.0,"Folks, check out this plugin I speed-coded over the weekend that acts as an alternative to all the paid versions of ChatGPT Google search assistants. Works as a Chrome extension.
+
+Feel free to DM me with feedback or leave it on the app through the feedback button!
+
+Download the plugin here!
+
+[https://chrome.google.com/webstore/detail/eva-open-ais-chatgpt-sear/nokpkhbodkkcdhalfinodbfdlbhddkmg](https://chrome.google.com/webstore/detail/eva-open-ais-chatgpt-sear/nokpkhbodkkcdhalfinodbfdlbhddkmg)"
+58,11hjkee,ChatGPTCoding,OpenAI,relevance,2023-03-04 00:05:02,Looking for simple OpenAI API to webpage code,ItIsNotWhatItWas,False,0.93,11,https://www.reddit.com/r/ChatGPTCoding/comments/11hjkee/looking_for_simple_openai_api_to_webpage_code/,2,1677888302.0,"Would someone be willing to share the code for a simple ChatGPT query that I could embed in a webpage. I know how to write HTML, so Im not completely in the dark, but a coder I'm not.    
+
+
+I tried to get ChatGPT to write the code for me. It wrote the code and gave me detailed instructions (including getting an account with RapidAPI). I have my API key. Every time I told ChatGPT the error messages I was getting from Chrome Developer mode, it kept just saying 'sorry', and then proceeded to write more code that didn't' work.   
+
+
+I basically just want the ability to enter text in a form field on a webpage, and have ChatGPT to return results. For example, someone enters 'pickles', and it returns recipes that include pickles.  
+
+
+Thanks."
+59,12e2sev,ChatGPTCoding,OpenAI,relevance,2023-04-07 00:01:09,OpenAI feedback survey question on ChatGPT5’s personality…😳,swayzebavy,False,0.57,1,https://www.reddit.com/r/ChatGPTCoding/comments/12e2sev/openai_feedback_survey_question_on_chatgpt5s/,7,1680825669.0,"Which did you chose  ?
+| no personality 
+| choose personality 
+| create your own personality 
+| one personality 
+| Other"
+60,12yjwt6,ChatGPTCoding,OpenAI,relevance,2023-04-25 13:45:45,I built an efficient rate limiter for the OpenAI API,jsonathan,False,0.95,35,https://github.com/shobrook/openlimit,1,1682430345.0,
+61,131rdww,ChatGPTCoding,OpenAI,relevance,2023-04-28 13:13:24,"Free prompt engineering course by OpenAI and Andrew Ng, cool!",mobilechaos,False,0.3,0,https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/,3,1682687604.0,
+62,126uf56,ChatGPTCoding,OpenAI,relevance,2023-03-30 17:58:22,How to apply OpenAI layer on top of an existing Body of Knowledge (BoK)?,Cultural-Hamster-416,False,0.91,16,https://www.reddit.com/r/ChatGPTCoding/comments/126uf56/how_to_apply_openai_layer_on_top_of_an_existing/,16,1680199102.0,"Hi All,  
+
+
+Over the years I developed a methodology relating to project management in a certain area of business.
+
+I am really interested in finding ways of feeding this information into an OpenAI (or similar) type model which would involve feeding it:  
+
+
+• 10 in-depth  pieces of content around best practice (pdf format but can be text input)
+
+• 25 detailed step by step process guides along with hints and tips (pdf format but can be text input)  
+• 125 tools and templates which are all in MS Office (and compatible format)
+
+&#x200B;
+
+The total word count is around 125,000 words.
+
+&#x200B;
+
+Does anyone have any pointers for how to build an AI layer over this that can use this body of knowledge to then generate - say - strategy, planning and execution documents that combine my methodology with any given users input?
+
+&#x200B;
+
+I have pretty much zero technical experience so plan language especially prized and appreciated!
+
+&#x200B;
+
+Thanks in advance,
+
+&#x200B;
+
+RC"
+63,12c2lfe,ChatGPTCoding,OpenAI,relevance,2023-04-05 00:39:44,undefined function causing issues interacting with openAI API cant solve,DigitlAlchemyst,False,0.33,0,https://www.reddit.com/r/ChatGPTCoding/comments/12c2lfe/undefined_function_causing_issues_interacting/,2,1680655184.0,"I am trying to get this application in react to work properly there seems to be some issue in the application communicating with the openAI Api and back again.
+
+I am hoping some one with better knowledge than me can take a look at my code and see if they can spot the issue  
+
+
+index.js file: [https://paste.ofcode.org/QSuu5cb3qwSXK7UGr8hwD6](https://paste.ofcode.org/QSuu5cb3qwSXK7UGr8hwD6)
+
+app.js file: [https://paste.ofcode.org/DA95bvRCY3QFDAjjthSwgZ](https://paste.ofcode.org/DA95bvRCY3QFDAjjthSwgZ)  
+
+
+client side index.js file: [https://paste.ofcode.org/n3Lup7gVyndSUB9JrqisUV](https://paste.ofcode.org/n3Lup7gVyndSUB9JrqisUV)  
+just in case  
+
+
+error code from browser console: 
+
+Uncaught (in promise) TypeError: data.models is undefined
+
+getModels App.js:35
+
+promise callback\*getModels App.js:32
+
+App App.js:10
+
+React 8
+
+workLoop scheduler.development.js:266
+
+flushWork scheduler.development.js:239
+
+performWorkUntilDeadline scheduler.development.js:533
+
+js scheduler.development.js:571
+
+js scheduler.development.js:633
+
+factory react refresh:6
+
+Webpack 24
+
+App.js:35
+
+(twice)  
+
+
+Unexpected behaviors:
+
+obviously the error message   
+the list of language models comes through in my visual studio console but does not show up in my browser console as expected.  
+sending a prompt to chat gpt does not return a message in the chat window however i get this reply in my vs studio console   
+
+
+hi message
+
+ada currentModel
+
+hi is the message i sent, it returned the message ada currentModel which comes from the app.js file line 16  
+
+const \[currentModel, setCurrentModel\] = useState(""ada"");  
+
+
+So I am pretty much stuck I have been debugging for about 4 hours and cant make and headway. Any help is greatly appreciated 
+
+Thanks"
+64,122cb2a,ChatGPTCoding,OpenAI,relevance,2023-03-26 05:35:34,Does GPT-4's image input syntax exist in the OpenAI documentation yet?,AdamAlexanderRies,False,0.93,13,https://www.reddit.com/r/ChatGPTCoding/comments/122cb2a/does_gpt4s_image_input_syntax_exist_in_the_openai/,5,1679808934.0,"https://platform.openai.com/docs/guides/chat/introduction
+
+https://platform.openai.com/docs/api-reference/chat/create
+
+These two pages don't seem to specify image input syntax, although the former has been updated to at least include the name of the gpt-4 model.
+
+> Using the OpenAI Chat API, you can build your own applications with gpt-3.5-turbo and **gpt-4** to do things like:
+
+> ...
+
+---
+
+> [Image inputs are still a research preview and not publicly available.](https://openai.com/research/gpt-4)
+
+Does this mean image inputs are unavailable through the API? I do understand that chat.openai.com does not have image input.
+
+Thank you."
+65,11sfvzd,ChatGPTCoding,OpenAI,relevance,2023-03-16 01:22:02,Anyone looking for coding job and getting coding assignments and using openAI ?,punkouter23,False,1.0,4,https://www.reddit.com/r/ChatGPTCoding/comments/11sfvzd/anyone_looking_for_coding_job_and_getting_coding/,9,1678929722.0,"I got a WPF task.. I don't even ever use WPF so I don't think this is job for me... But I am curious so I put a bit at a time into open to do this task and it was going ok but the pieces were not working together well... I mean it did step 1 well but not well because it did not know how it related to step 3... 
+
+&#x200B;
+
+so now im like fuck it.. and pasting in whole thing and seeing what happens.. really pretty cool... and they never said I couldn't use openai.. ..anyways.. if this is coding of the future.. what does it matter ? As long as I understand the code
+
+&#x200B;
+
+anyways if you want to try it here it is
+
+&#x200B;
+
+ Design, code, and test a WPF application that allows the user to perform the following tasks: 1. Select and load an image. 2. Draw one rectangle or more over the image by clicking and dragging the mouse to draw (the size of the rectangle depends on how much the user drags the mouse) 3. Only allow drawing inside the picture. 4. Change the rectangle's color by clicking each rectangle and selecting a different color from a color palette. 5. Resize the rectangle(s) from any corner or side. 6. Move the rectangle by pressing and holding the rectangle and moving the mouse (drag and drop). 7. Delete any rectangle. 8. Save the changes to a new image. Important note: Do NOT use a library for the above functionality"
+66,12gstg6,ChatGPTCoding,OpenAI,relevance,2023-04-09 19:20:37,Molly GPT Alexa skill is now live in the Alexa store (using OpenAI's Chat APIs),meowkittykitty510,False,1.0,8,https://www.reddit.com/r/ChatGPTCoding/comments/12gstg6/molly_gpt_alexa_skill_is_now_live_in_the_alexa/,14,1681068037.0,"As the title says my Alexa skill (Molly GPT) that integrates with OpenAI's APIs is now live in the Alexa store. The skill is using the gpt-3.5-turbo model and uses the latest ChatCompletion APIs which means it's able to maintain context across multiple requests.
+
+[LINK TO SKILL](https://www.amazon.com/dp/B0C1WG8ZC3/ref=mp_s_a_1_1?crid=24I6QQLJSELOW&keywords=molly+gpt&qid=1680996537&s=digital-skills&sprefix=%2Caps%2C122&sr=1-1)
+
+It works generally as you might expect:
+
+""Alexa, open Molly GPT""
+
+""Molly, write a love song for my wife""
+
+""Molly, how tall is the empire state building?""
+
+""Molly, multiply that number times 2.""
+
+If you enjoy using the skill I'd really appreciate a positive review. If you have any feedback feel free to send me a DM. **Finally, I'm considering open sourcing the skill code. If that's something you'd be interested in seeing please let me know in the comments!**
+
+&#x200B;
+
+&#x200B;
+
+https://preview.redd.it/6jm8cv6sswsa1.png?width=400&format=png&auto=webp&s=cc942c985ff9c9f1997954cb50ba405503c97ecd"
+67,11r1zff,ChatGPTCoding,OpenAI,relevance,2023-03-14 09:52:23,ChatGPT is now available in the Azure OpenAI Service,TheDotnetoffice,False,0.86,14,https://www.dotnetoffice.com/2023/03/chatgpt-is-now-available-in-azure.html,0,1678787543.0,
+68,11kfco7,ChatGPTCoding,OpenAI,relevance,2023-03-06 21:53:52,OpenAI for Kubernetes: using a GPT to customize workload deployment,andan02,False,1.0,1,/r/ChatGPTPro/comments/11kf8fc/openai_for_kubernetes_using_a_gpt_to_customize/,0,1678139632.0,
+69,11v0evr,ChatGPTCoding,OpenAI,relevance,2023-03-18 20:56:02,How to update OpenAI with a data table once a day for user inquiries?,milwoukee,False,0.83,4,https://www.reddit.com/r/ChatGPTCoding/comments/11v0evr/how_to_update_openai_with_a_data_table_once_a_day/,8,1679172962.0,"Hello guys,
+
+*As I'm not sure if gpt-3.5-turbo is the best product for this, I'll just call it AI.*
+
+I need to provide **AI**  with a table of data that gets updated once a day. Users will ask questions, and the **AI** should respond with information based on this table. My goal is to update the old information with the new data in the morning, and then have the AI answer questions based on the fresh data for the rest of the day.
+
+The challenge I'm facing is finding a way to efficiently provide **AI** with the updated table daily without incurring excessive costs. Ideally, I'd like to send the table just once a day and have the AI use the updated information for all user inquiries during that day.
+
+Has anyone encountered a similar issue or have any suggestions on how to accomplish this? I would greatly appreciate any insights or ideas you may have!
+
+&#x200B;
+
+EXAMPLE:
+
+I can ""simulate"" this in **ChatGPT4** or **3.5** interface by giving it this command:
+
+    based on the table below, tell me car IDs that are red, cost more than 20k USD and are older than 5 years
+    
+    data:
+    
+    id,color,year,price,max_speed,...
+    1,yellow,2010,200000,N/A,...
+    2,red,2015,100k,100,...
+    3,red,2019,100k,120,...
+
+**ChatGPT** now responds something like: *I recommend car ID 2 as it costs 100k etc...*
+
+***EDIT****: There might be more questions, so I need to keep context in the conversation. For example - ""Ok, I forgot to mention it should go faster than 100mph""*
+
+&#x200B;
+
+&#x200B;
+
+I can't send this table with each request for 2 reasons:
+
+1. the table is too big and it exceeds the limit
+2. more tokens - higher price
+
+&#x200B;
+
+So the simplest way to do that would be to wait for ChatGPT4 API and send the table inside each request. But as I mentioned, I can't.
+
+I'm not experienced in AI so I'll appreciate any advice. Should I use **gpt-3.5-turbo?** Or should I use some pre-trained model and fine tune it? Or something else?
+
+&#x200B;
+
+Thank you in advance for your help!
+
+&#x200B;
+
+&#x200B;"
+70,1394vty,ChatGPTCoding,OpenAI,relevance,2023-05-05 23:20:49,I made an AI bot of Sam Altman using Langchain and OpenAI to find the se...,phas0ruk1,False,0.56,2,https://youtube.com/watch?v=GhuWnZo65d8&feature=share,0,1683328849.0,
+71,137mab5,ChatGPTCoding,OpenAI,relevance,2023-05-04 14:22:54,Introducing ChatGPT CLI in Go: Streamlined Command-Line Interaction with OpenAI's ChatGPT,kardolus,False,0.96,24,https://www.reddit.com/r/ChatGPTCoding/comments/137mab5/introducing_chatgpt_cli_in_go_streamlined/,4,1683210174.0,"&#x200B;
+
+https://i.redd.it/bj28e2fcqtxa1.gif
+
+Hey everyone! I'm excited to share my latest project with you: ChatGPT CLI. It's a command-line interface (CLI) built for interacting with OpenAI's ChatGPT, designed to streamline and enhance your experience with the GPT model.
+
+Here are some of the key features that make ChatGPT CLI a game-changer:
+
+* **Interactive streaming mode**: Chat in real-time with the GPT model through the CLI, making your interactions fast and efficient.
+* **Query mode**: Need a quick answer? Use the query mode for single input-output interactions with the GPT model.
+* **Context management**: The CLI automatically maintains message history across calls, allowing for seamless conversations with the GPT model.
+
+&#8203;
+
+     2023-05-04 10:14:43 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → ./bin/chatgpt can you say something about the knicks?
+    Yes, the New York Knicks are a professional basketball team based in New York City. They play in the Eastern Conference of the National Basketball Association (NBA) and have won two NBA championships in their history, in 1970 and 1973. The team has a dedicated and passionate fan base and has undergone several changes over the years in terms of players, coaches, and front office personnel. They have been playing well in the current season under the head coach Tom Thibodeau and have made it to the playoffs.
+    
+     2023-05-04 10:17:16 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → ./bin/chatgpt what gave them that name?
+    The New York Knicks team name comes from the Dutch word ""knickerbocker,"" which refers to the style of pants that the early Dutch settlers wore in New York. The term ""Knickerbocker"" became associated with New York City, and it was later used as the name for the team when they were founded in 1946. So, the team name ""New York Knicks"" is essentially a shortened version of ""New York Knickerbockers.""
+    
+     2023-05-04 10:17:37 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → ./bin/chatgpt what else do you know about the settlers?
+    The early Dutch settlers in what is now New York were part of the Dutch West India Company and established a colony called New Netherland in the early 17th century. They founded several towns and settlements, including New Amsterdam, which later became New York City. The Dutch colony was established as a trading center and was a significant economic hub for the Atlantic world. The settlers had a significant impact on the development of New York City, with a lasting influence on the city's architecture, language, religion, and cultural traditions. Some of the prominent Dutch settlers include Peter Stuyvesant, who was the last Dutch governor of New Netherland, and Alexander Hamilton, who was born in the West Indies but was of Dutch descent.
+
+* **Sliding window history**: The CLI trims conversation history while preserving context, keeping token limits in check and ensuring smooth interactions.
+* **Custom context from local files**: Easily provide the GPT model with custom context using piping, so it can reference specific data during your conversation.
+
+&#8203;
+
+     2023-05-04 10:17:55 ⌚  Guillermos-MacBook-Pro in ~/workspace/chatgpt-poc
+    ± |main {1} ✓| → cat LICENSE | chatgpt what kind of license is this?
+    This is the MIT License, which is a permissive free software license that allows users to modify and distribute the software under certain conditions, including the inclusion of the original copyright notice and permission notice. This license also disclaims liability and warranties, making it a risk-free option for developers and users.
+
+* **Viper integration**: Robust configuration management is made possible through Viper integration.
+
+Getting started with ChatGPT CLI is simple: download the pre-built binary for your OS and architecture, set your OPENAI\_API\_KEY, and you're good to go. The CLI supports macOS (Intel and M1), Linux (amd64 and arm64), and Windows (amd64).
+
+You can find the project on GitHub at [github.com/kardolus/chatgpt-cli](https://github.com/kardolus/chatgpt-cli), where you'll find detailed installation and usage instructions.
+
+Whether you're a developer looking to integrate ChatGPT into your projects, or just someone who wants to explore the power of GPT models from the command line, ChatGPT CLI has got you covered. Give it a try and let me know what you think! I'm open to feedback and suggestions to make this tool even better.
+
+Happy chatting!"
+72,12iarou,ChatGPTCoding,OpenAI,relevance,2023-04-11 06:16:11,Building GPT AI Agents in .NET using the OpenAI API (for use cases beyond the conversational assistant),Ravager94,False,0.86,5,https://youtu.be/kvbInnopyRU,0,1681193771.0,
+73,10havr4,ChatGPTCoding,OpenAI,relevance,2023-01-20 22:33:24,Reducing Costs for OpenAI GPT-API with Stemming and Stopword Removal,RevolutionaryDot7,False,0.84,4,/r/ChatGPT/comments/10gehui/reducing_costs_for_openai_gptapi_with_stemming/,1,1674254004.0,
+74,1082rra,ChatGPTCoding,OpenAI,relevance,2023-01-10 06:31:10,A command-line interface for interacting with the OpenAI GPT-3 API.,rokihere,False,0.87,6,/r/ChatGPT/comments/1082cwa/a_commandline_interface_for_interacting_with_the/,1,1673332270.0,
+75,10nk2n7,ChatGPTCoding,OpenAI,relevance,2023-01-28 17:12:28,OpenAI API / Did you solve a real problem with your business ?,shahednyc,False,0.66,3,https://www.reddit.com/r/ChatGPTCoding/comments/10nk2n7/openai_api_did_you_solve_a_real_problem_with_your/,0,1674925948.0,"Hey everyone! I hope you're all doing well. I'm currently working on a fun project that showcases the creative ways businesses are using the OpenAI API and I would love to hear from you. If you've implemented the OpenAI API to solve a real business problem, I would love to chat with you and hear more about it. It's a great opportunity to share your story and maybe even inspire others in the industry. If you're interested, just drop me a message and we'll set up a casual interview over a call or video. Can't wait to hear your stories! #OpenAIAPI #BusinessInnovation #AI"
+76,11gxcho,ChatGPTCoding,OpenAI,relevance,2023-03-03 10:28:16,Build ChatGPT Turbo Swift API | OpenAI Public API | SwiftUI Apps Integration,alfianlo,False,0.67,1,https://youtu.be/9byLhs5hQjI,0,1677839296.0,
+77,11rye9e,ChatGPTCoding,OpenAI,relevance,2023-03-15 14:40:56,Is there any risk for my OpenAI account (and my API keys) to be suspended for what the users of my ChatGPT-backed app do?,tjmora,False,0.84,12,https://www.reddit.com/r/ChatGPTCoding/comments/11rye9e/is_there_any_risk_for_my_openai_account_and_my/,5,1678891256.0,"I know there is always that risk. Perhaps the better question would be on how to manage and minimize those risks?
+
+Edit: Problem solved! [Moderation Endpoint](https://platform.openai.com/docs/guides/moderation/overview)."

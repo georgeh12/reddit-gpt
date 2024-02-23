@@ -1,0 +1,2753 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,10fw2df,learnmachinelearning,GPT-4,top,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,335,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+1,13eympz,learnmachinelearning,GPT-4,top,2023-05-11 20:15:46,Top 20 Large Language Models based on the Elo rating system.,kingabzpro,False,0.96,252,https://i.redd.it/7xfqr5crf9za1.png,43,1683836146.0,
+2,10c509n,learnmachinelearning,GPT-4,top,2023-01-15 00:08:37,Is it still worth learning NLP in the age of API-accessibles LLM like GPT?,CrimsonPilgrim,False,0.94,62,https://www.reddit.com/r/learnmachinelearning/comments/10c509n/is_it_still_worth_learning_nlp_in_the_age_of/,24,1673741317.0,"A question that, I hope, you will find legitimate from a data science student.
+
+I am speaking from the point of view of a data scientist not working in research.
+
+Until now, learning NLP could be used to meet occasional business needs like sentiment analysis, text classification, topic modeling....
+
+With the opening of GPT-3 to the public, the rise of ChatGPT, and the huge wave of applications, sites, plug-ins and extensions based on this technology that are accessible with a simple API request, it's impossible not to wonder if spending dozens of hours diving into this field if ML wouldn't be as useful today as learning the source code of the Pandas library. 
+
+In some specialized cases, it could be useful, but GPT-3, and the models that will follow, seem to offer more than sufficient results for the immensity of the cases and for almost all classical NLP tasks. Not only that, but there is a good chance that the models trained by giants like Open-AI (Microsoft) or Google can never be replicated outside these companies anyway.  With ChatGPT and its incomparable mastery of language, its ability to code, summarize, extract topics, understand... why would I bother to use BERT or a TF-IDF vectorizer when an API will be released? Not only it would be easily accessible, but it also would be much better at the task, faster and cheaper.
+
+In fact, it's a concern regarding all the machine learning field in general with the arrival of powerful ""no-code"" applications, which abstract a large part of the inherent complexity of the field. There will always be a need for experts, for safeguards, but in the end, won't the Data Scientist who masters the features of GPT-3 or 4 and knows a bit of NLP be more efficient than the one who has spent hours reading Google papers and practicing on Gensim, NLTK, spacy... It is the purpose of an API to make things simpler eventually... At what point is there no more reason to be interested in the behind-the-scenes of these tools and to become simple users rather than trying to develop our own techniques?"
+3,133v9s5,learnmachinelearning,GPT-4,top,2023-04-30 15:45:04,I don't have a PhD but this just feels wrong. Can a person with a PhD confirm?,flaky_psyche,False,0.76,63,https://i.redd.it/fmkvgop7l1xa1.jpg,238,1682869504.0,
+4,12f9cvx,learnmachinelearning,GPT-4,top,2023-04-08 03:04:00,Energy Constraints and Costs in Massive Machine Learning Model Training,mechkeyboard7065,False,0.91,26,https://www.reddit.com/r/learnmachinelearning/comments/12f9cvx/energy_constraints_and_costs_in_massive_machine/,7,1680923040.0,"Adding on to my [last](https://www.reddit.com/r/learnmachinelearning/comments/12ebceo/alternatives_to_training_massive_ml_models_on/) post, here's some of what I've found about the potential constraints and costs associated with training massive machine learning models. 
+
+&#x200B;
+
+**Energy as a constraint in ML model training:**
+
+\- GPT-3, as an example, is estimated to have consumed around **936 MWh** during its training.  
+\- If there were **$100B model training runs** in the future, it would consume approximately **20,347,826 MWh** or **20,347,826,000 KWh**.  
+\- This would cost around **$1,017,391,300**, which is about **1%** of the total cost (assuming $0.05 KWh). The cost could go up to **$3B** if we assume $0.15 KWh.
+
+&#x200B;
+
+**Power generation comparison:**
+
+\- One nuclear power plant can generate around **4,727,764 MWh** in a year.
+
+&#x200B;
+
+**Main constraints in massive model training runs apart from GPUs:**
+
+\- Data movement through machines  
+\- The amount of data that can be moved  
+\- The amount of data the model has already been trained on  
+\- Networking and bandwidth limitations  
+\- System-specific bottlenecks  
+\- Model training algorithm design (e.g., parallel processing, processing power requirements)
+
+&#x200B;
+
+**Potential $10T investment in ML models: Where would the money go?**
+
+\- **17% ($1.7T)** \- Data collection, validation, and annotation  
+\- **23% ($2.3T)** \- Research  
+\- **60% ($6T)** \- Production (infrastructure, integration, maintenance)
+
+&#x200B;
+
+**Current and projected annual spend on GPUs:**  
+\- **$40B** in 2022  
+\- Projected to be **$400B** in 10 years
+
+&#x200B;
+
+I hope someone might find this information useful. It's definitely made me question the future impact as these models scale. As always, I'm open to corrections and eager to learn more. Let me know if you have any questions or additional insights."
+5,13hzvkc,learnmachinelearning,GPT-4,top,2023-05-15 06:27:00,Bilingual people : How good is AI at machine translation today?,moschles,False,0.81,19,https://www.reddit.com/r/learnmachinelearning/comments/13hzvkc/bilingual_people_how_good_is_ai_at_machine/,22,1684132020.0,"In the wake of GPT-4 and chatGPT, how good would you rank machine translators in terms of their accuracy?
+
+Are they only useful for one-off sentences? Do they fail when presented with any kind of moderately complex articles? Do they perform vastly different depending on the languages?     Are they still really stupid, or does their output blow you away now?"
+6,131yxdl,learnmachinelearning,GPT-4,top,2023-04-28 16:04:48,A Lightweight Alternative to GPT-4 for Enhanced Vision-language Understanding,kingabzpro,False,0.91,17,https://www.kdnuggets.com/2023/04/minigpt4-lightweight-alternative-gpt4-enhanced-visionlanguage-understanding.html,0,1682697888.0,
+7,13e7ydv,learnmachinelearning,GPT-4,top,2023-05-11 00:19:48,The last decade of NLP research covered in 50 concepts,AvvYaa,False,0.95,17,https://www.reddit.com/r/learnmachinelearning/comments/13e7ydv/the_last_decade_of_nlp_research_covered_in_50/,0,1683764388.0," 
+
+I just uploaded a video on my Youtube channel covering 50 important concepts discussing the last 10 years of NLP/Language Modeling research. 
+
+The video covers the basics of word embeddings, tokenizers, and then the RNN based Seq2Seq architectures of the mid 2010s… then describes Attention/Transformers and some of the key Transformer-based LM research from 2017-2021. Finally, I cover human alignment / RLHF / instruction tuning with InstructGPT, ChatGPT and GPT-4. I tried to make a video that is accessible for new researchers/students to get their feet wet, and for guys like me to reminisce and celebrate the RNNs / self-supervised Transformer era as we step into the new world of human aligned LLMs. 
+
+I am a small YT channel, and this is my first time doing a video of this scale (I normally do Reinforcement Learning stuff/paper reviews), so this was a fun and challenging video to produce. Feel free to check it out and leave any feedback for me to improve my content!
+
+Here’s a link: 
+
+[https://youtu.be/uocYQH0cWTs](https://youtu.be/uocYQH0cWTs)  
+ 
+
+If the above link doesn’t work, try:  
+ https://m.youtube.com/watch?v=uocYQH0cWTs&feature=youtu.be"
+8,12luajw,learnmachinelearning,GPT-4,top,2023-04-14 11:37:08,Post GPT-4: Answering Most Asked Questions About AI,kingabzpro,False,0.9,14,https://www.kdnuggets.com/2023/04/post-gpt4-answering-asked-questions-ai.html,1,1681472228.0,
+9,12uwd8p,learnmachinelearning,GPT-4,top,2023-04-22 05:51:13,Integrating Google search into OpenAI models like GPT-4,Ghost25,False,1.0,15,https://www.reddit.com/r/learnmachinelearning/comments/12uwd8p/integrating_google_search_into_openai_models_like/,8,1682142673.0,"Thought I'd share an explanation of how I implemented Google search into my GPT-4 based chatbot.
+
+Github here: https://github.com/sgreenb/pico_assistant
+
+One extremally simple modification that dramatically improves the ability of a GPT to answer questions: letting it Google stuff.
+
+Here’s a demo:
+
+https://imgur.com/ZR6hvLg 1
+
+The implementation works like this.
+
+1. A user enters an input.
+2. An agent called “Executive” looks at the input and decides if an API like Spotify, Twillio, or Gmail is needed or if it can be answered by the chatbot alone.
+3. If the chatbot is needed the input is first sent to a Google agent. The Google agent’s system message looks like this:
+
+```
+{""role"":""system"", ""content"": ""You analyze a user's input to a large language model with \
+training data that cuts off at September 2021. The current year is 2023. You decide how \
+likely it is that a user's request will benefit from a Google search to help address the\
+question. Respond with a number in the range 1-10, where 1 is very unlikely that a \
+Google search would be beneficial, and 10 meaning a Google search is highly necessary.""}
+```
+
+This is quite fast, since it only needs to generate one or two tokens.
+
+If the output is above some threshold (say 7), then we call another agent, the query agent, otherwise we return False and default to the normal chat agent.
+
+```
+    google_probability = int(completion.choices[0].message.content)
+    if google_probability >= cutoff:
+        search_results = trim_text(search_and_scrape(prompt))
+        query_with_context = prompt + str(search_results)
+        print(""\nPico: "", end='', flush=True)
+        response = query_agent_stream(query_with_context)
+        return response
+    else:
+        return False
+```
+
+When we call the query agent, we feed it the first part of a Google search we get from searching the input. We get that from the very simple trim_text and search_and_scrape functions that look like this:
+
+```
+
+def search_and_scrape(query):
+    try:
+        headers = {
+            ""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3""
+        }
+        url = f""https://www.google.com/search?q={query}""
+        response = requests.get(url, headers=headers)
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            text = soup.get_text()
+            cleaned_text = ' '.join(text.split())
+            return cleaned_text
+        else:
+            print(f""Failed to fetch search results for query: {query}, status code: {response.status_code}"")
+            return None
+
+    except Exception as e:
+        print(f""Error fetching search results for query: {query}, error: {e}"")
+        return None
+
+def trim_text(text, start_index = 450, length=1500):
+    return text[start_index:start_index + length]
+```
+
+The query agent has this system message:
+
+```
+{""role"":""system"", ""content"": ""You answer a user's question, given some text as context to help\
+answer the question. The user request will be followed by the context. The context given is\
+from the user's Google search results, it is current and up to date.\
+Do not contradict the contents of the given text in your answer.""}
+```
+
+And that’s it. You can change the cutoff threshold or get more sophisticated with fetching web results. I hope you find this useful."
+10,11s7ya3,learnmachinelearning,GPT-4,top,2023-03-15 20:18:13,Do multi modal LLM models just inject image description to the context?,ChessGibson,False,1.0,13,https://www.reddit.com/r/learnmachinelearning/comments/11s7ya3/do_multi_modal_llm_models_just_inject_image/,4,1678911493.0,"Hi! Small question I have been asking myself seeing multiple multi modal models recently: do they use interconnected neural networks for different input types, or do they simply convert non-text inputs into textual descriptions before processing them with their language models? What's happening for PaLM-E for instance? How about GPT-4?"
+11,12vlorx,learnmachinelearning,GPT-4,top,2023-04-22 22:24:26,PyTorch .pth file size capped at 52.8 MB?,loliko-lolikando,False,0.93,11,https://www.reddit.com/r/learnmachinelearning/comments/12vlorx/pytorch_pth_file_size_capped_at_528_mb/,3,1682202266.0,"I've created few GPT models with PyTorch, and some smaller models are about 19 kB or few MB, but the bigger ones seem capped on 52.8 or 52.7 MB. These models use same model type, but each has a different dataset, training iters (time of training) and almost everything else. But they all cant get past 52.8 MB. 
+
+I am glad its not 50 GB, but this seems that more training dosent do anything. What is going on?
+
+&#x200B;
+
+Here is one of the codes (you can see im saving the model throughout the training, but the size is still same (the problem cannto be in the saving throughout training, because other scripts with different dataset do the same)):  
+
+
+    import torch
+    import torch.nn as nn
+    from torch.nn import functional as F
+    
+    # hyperparameters
+    batch_size = 64 # how many independent sequences will we process in parallel?
+    block_size = 256 # what is the maximum context length for predictions?
+    max_iters = 70000
+    eval_interval = 500
+    learning_rate = 1e-4
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    eval_iters = 200
+    n_embd = 384
+    n_head = 6
+    n_layer = 6
+    dropout = 0.2
+    # ------------
+    print(device)
+    #torch.manual_seed(1337)
+    
+    # Read our shakespeare dataset
+    with open(r""GPT/datasets/saturninV2.txt"", ""r"", encoding=""UTF-8"") as f:
+        text = f.read()
+    
+    # here are all the unique characters that occur in this text
+    chars = sorted(list(set(text)))
+    vocab_size = len(chars)
+    # create a mapping from characters to integers
+    stoi = { ch:i for i,ch in enumerate(chars) }
+    itos = { i:ch for i,ch in enumerate(chars) }
+    encode = lambda s: [stoi[c] for c in s] # encoder: take a string, output a list of integers
+    decode = lambda l: ''.join([itos[i] for i in l]) # decoder: take a list of integers, output a string
+    
+    # Train and test splits
+    data = torch.tensor(encode(text), dtype=torch.long)
+    n = int(0.9*len(data)) # first 90% will be train, rest val
+    train_data = data[:n]
+    val_data = data[n:]
+    
+    # data loading
+    def get_batch(split):
+        # generate a small batch of data of inputs x and targets y
+        data = train_data if split == 'train' else val_data
+        ix = torch.randint(len(data) - block_size, (batch_size,))
+        x = torch.stack([data[i:i+block_size] for i in ix])
+        y = torch.stack([data[i+1:i+block_size+1] for i in ix])
+        x, y = x.to(device), y.to(device)
+        return x, y
+    
+    @torch.no_grad()
+    def estimate_loss():
+        out = {}
+        model.eval()
+        for split in ['train', 'val']:
+            losses = torch.zeros(eval_iters)
+            for k in range(eval_iters):
+                X, Y = get_batch(split)
+                logits, loss = model(X, Y)
+                losses[k] = loss.item()
+            out[split] = losses.mean()
+        model.train()
+        return out
+    
+    class Head(nn.Module):
+        """""" one head of self-attention """"""
+    
+        def __init__(self, head_size):
+            super().__init__()
+            self.key = nn.Linear(n_embd, head_size, bias=False)
+            self.query = nn.Linear(n_embd, head_size, bias=False)
+            self.value = nn.Linear(n_embd, head_size, bias=False)
+            self.register_buffer('tril', torch.tril(torch.ones(block_size, block_size)))
+    
+            self.dropout = nn.Dropout(dropout)
+    
+        def forward(self, x):
+            # input of size (batch, time-step, channels)
+            # output of size (batch, time-step, head size)
+            B,T,C = x.shape
+            k = self.key(x)   # (B,T,hs)
+            q = self.query(x) # (B,T,hs)
+            # compute attention scores (""affinities"")
+            wei = q @ k.transpose(-2,-1) * k.shape[-1]**-0.5 # (B, T, hs) @ (B, hs, T) -> (B, T, T)
+            wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf')) # (B, T, T)
+            wei = F.softmax(wei, dim=-1) # (B, T, T)
+            wei = self.dropout(wei)
+            # perform the weighted aggregation of the values
+            v = self.value(x) # (B,T,hs)
+            out = wei @ v # (B, T, T) @ (B, T, hs) -> (B, T, hs)
+            return out
+    
+    class MultiHeadAttention(nn.Module):
+        """""" multiple heads of self-attention in parallel """"""
+    
+        def __init__(self, num_heads, head_size):
+            super().__init__()
+            self.heads = nn.ModuleList([Head(head_size) for _ in range(num_heads)])
+            self.proj = nn.Linear(head_size * num_heads, n_embd)
+            self.dropout = nn.Dropout(dropout)
+    
+        def forward(self, x):
+            out = torch.cat([h(x) for h in self.heads], dim=-1)
+            out = self.dropout(self.proj(out))
+            return out
+    
+    class FeedFoward(nn.Module):
+        """""" a simple linear layer followed by a non-linearity """"""
+    
+        def __init__(self, n_embd):
+            super().__init__()
+            self.net = nn.Sequential(
+                nn.Linear(n_embd, 4 * n_embd),
+                nn.ReLU(),
+                nn.Linear(4 * n_embd, n_embd),
+                nn.Dropout(dropout),
+            )
+    
+        def forward(self, x):
+            return self.net(x)
+    
+    class Block(nn.Module):
+        """""" Transformer block: communication followed by computation """"""
+    
+        def __init__(self, n_embd, n_head):
+            # n_embd: embedding dimension, n_head: the number of heads we'd like
+            super().__init__()
+            head_size = n_embd // n_head
+            self.sa = MultiHeadAttention(n_head, head_size)
+            self.ffwd = FeedFoward(n_embd)
+            self.ln1 = nn.LayerNorm(n_embd)
+            self.ln2 = nn.LayerNorm(n_embd)
+    
+        def forward(self, x):
+            x = x + self.sa(self.ln1(x))
+            x = x + self.ffwd(self.ln2(x))
+            return x
+    
+    class GPTLanguageModel(nn.Module):
+    
+        def __init__(self):
+            super().__init__()
+            # each token directly reads off the logits for the next token from a lookup table
+            self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
+            self.position_embedding_table = nn.Embedding(block_size, n_embd)
+            self.blocks = nn.Sequential(*[Block(n_embd, n_head=n_head) for _ in range(n_layer)])
+            self.ln_f = nn.LayerNorm(n_embd) # final layer norm
+            self.lm_head = nn.Linear(n_embd, vocab_size)
+    
+            # better init, not covered in the original GPT video, but important, will cover in followup video
+            self.apply(self._init_weights)
+    
+        def _init_weights(self, module):
+            if isinstance(module, nn.Linear):
+                torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+                if module.bias is not None:
+                    torch.nn.init.zeros_(module.bias)
+            elif isinstance(module, nn.Embedding):
+                torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+    
+        def forward(self, idx, targets=None):
+            B, T = idx.shape
+    
+            # idx and targets are both (B,T) tensor of integers
+            tok_emb = self.token_embedding_table(idx) # (B,T,C)
+            pos_emb = self.position_embedding_table(torch.arange(T, device=device)) # (T,C)
+            x = tok_emb + pos_emb # (B,T,C)
+            x = self.blocks(x) # (B,T,C)
+            x = self.ln_f(x) # (B,T,C)
+            logits = self.lm_head(x) # (B,T,vocab_size)
+    
+            if targets is None:
+                loss = None
+            else:
+                B, T, C = logits.shape
+                logits = logits.view(B*T, C)
+                targets = targets.view(B*T)
+                loss = F.cross_entropy(logits, targets)
+    
+            return logits, loss
+    
+        def generate(self, idx, max_new_tokens):
+            # idx is (B, T) array of indices in the current context
+            for _ in range(max_new_tokens):
+                # crop idx to the last block_size tokens
+                idx_cond = idx[:, -block_size:]
+                # get the predictions
+                logits, loss = self(idx_cond)
+                # focus only on the last time step
+                logits = logits[:, -1, :] # becomes (B, C)
+                # apply softmax to get probabilities
+                probs = F.softmax(logits, dim=-1) # (B, C)
+                # sample from the distribution
+                idx_next = torch.multinomial(probs, num_samples=1) # (B, 1)
+                # append sampled index to the running sequence
+                idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
+            return idx
+    
+    model = GPTLanguageModel()
+    m = model.to(device)
+    # print the number of parameters in the model
+    print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
+    
+    # create a PyTorch optimizer
+    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+    
+    for iter in range(max_iters):
+    
+        # every once in a while evaluate the loss on train and val sets
+        if iter % eval_interval == 0 or iter == max_iters - 1:
+            losses = estimate_loss()
+            print(f""step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}"")
+    
+        if iter % 10000 == 0 and (iter != 0 or iter != max_iters):
+            torch.save(model.state_dict(), 'GPT_saturninV2New'+str(iter)+'.pth')
+    
+        # sample a batch of data
+        xb, yb = get_batch('train')
+    
+        # evaluate the loss
+        logits, loss = model(xb, yb)
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        optimizer.step()
+    
+    torch.save(model.state_dict(), 'GPT_saturninV2New.pth')
+
+Thanks"
+12,12j0uh5,learnmachinelearning,GPT-4,top,2023-04-11 22:53:56,I want to teach a chatbot about a world I'm creating so that it can answer my questions about it.,Common_Ad_6362,False,0.76,9,https://www.reddit.com/r/learnmachinelearning/comments/12j0uh5/i_want_to_teach_a_chatbot_about_a_world_im/,10,1681253636.0,"I've been experimenting over the last couple of days with telling ChatGPT3.5 and 4 about my world building project, but it only seems to know about our current session instead of our whole conversation.  
+
+
+I have 12 GB of VRAM, is there something I can run locally that I can teach my world to and then ask it questions about that world the same way I'm able to do with ChatGPT?   I want it to remember the content I teach it beyond our session."
+13,106aie8,learnmachinelearning,GPT-4,top,2023-01-08 05:09:46,Major drawback/limitation of GPT-3,trafalgar28,False,0.74,7,https://www.reddit.com/r/learnmachinelearning/comments/106aie8/major_drawbacklimitation_of_gpt3/,13,1673154586.0,"I have been working on a project with GPT-3 API for almost a month now. The only drawback of GPT-3 is that the prompt you can send to the model is capped at 4,000 tokens - where a token is roughly equivalent to ¾ of a word.  Due to this, providing a large context to GPT-3 is quite difficult.
+
+Is there any way to resolve this issue?"
+14,12il5t0,learnmachinelearning,GPT-4,top,2023-04-11 14:14:34,Help with pet project to learn - Running ChatGPT-2 at home,SigmaSixShooter,False,0.78,5,https://www.reddit.com/r/learnmachinelearning/comments/12il5t0/help_with_pet_project_to_learn_running_chatgpt2/,2,1681222474.0,"Greetings,
+
+(Edit on Apr 12: Realized I screwed up and forgot I had a tokenize script as well. Updated things to properly reflect the process in case this is helpful for anyone else)
+
+I know I'm probably the millionth person to ask, but I've tried as hard as I can to work through all of this and I've gotten stuck.
+
+# The Goal
+
+Train/fine-tune a model (not sure which) based on the TV show Firefly. I wanted to run this on the ChatGPT-2 model as that's what ChatGPT suggested. I've gathered the data, prepared it for training, and done the training itself. When I try to actually interact with it though, I get a lot of garbage back.
+
+This is mostly a learning exercise for me as my end goal is to train/fine-tune something using internal data, so I need something that can run on consumer-grade hardware (I've got a 2019 MacBook Pro with an 8 core I9, AMD Radeon Pro 5300 and 32 gigs of ram). This would ultimately lead to something being used for commercial purposes, so I'm trying to be careful which models I use/train etc.
+
+
+Here's a high level summary of what I've done, I'm hoping someone can help me understand where I might have went wrong. I'd greatly appreciate any assistance you're willing to provide. I've got some of my own thoughts/questions at the bottom of this post.
+
+# Download ChatGPT-2
+
+I made a clone of [https://github.com/openai/gpt-2](https://github.com/openai/gpt-2) on my local laptop
+
+# Gather and prepare the data
+
+I started out with a simple format where every line was formatted ""<Char Name>:<Dialogue>"" but ChatGPT eventually convinced me to convert this into JSON. I suspect this may be the heart of my problem. Below is a sample of what the JSON looks like. The  JSON is stored as one giant line in a text file, I'm not sure if that matters or not. It is valid JSON though.
+
+Based on the recommendation from ChatGPT, I had this broken up into 80% for training data (training-data.json) and 20% for validation (validate-data.json)
+
+```
+$ cat training-data.json| jq | head
+[
+  {
+    ""character"": ""Jayne"",
+    ""dialogue"": ""Your move.""
+  },
+  {
+    ""character"": ""Zoe"",
+    ""dialogue"": ""That's a bold move.""
+  },
+```
+# Tokenize the training data
+(At least I think that's what I did here). The end result were two new files, `train_dataset.pt` and `valid_dataset.pt`. 
+
+```
+import torch
+from transformers import GPT2TokenizerFast
+
+tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
+tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
+train_text = open('scripts/xaa', 'r').read()
+valid_text = open('scripts/xab', 'r').read()
+
+train_encodings = tokenizer(train_text, truncation=True, padding=True)
+valid_encodings = tokenizer(valid_text, truncation=True, padding=True)
+
+train_dataset = torch.utils.data.TensorDataset(
+    torch.tensor(train_encodings['input_ids']),
+    torch.tensor(train_encodings['attention_mask'])
+)
+valid_dataset = torch.utils.data.TensorDataset(
+    torch.tensor(valid_encodings['input_ids']),
+    torch.tensor(valid_encodings['attention_mask'])
+)
+
+print(""Sample"")
+print(train_encodings['input_ids'][0:10])  # print the first 10 tokens
+# Save the tokenized data to separate files
+torch.save(train_dataset, 'train_dataset.pt')
+torch.save(valid_dataset, 'valid_dataset.pt')
+```
+
+# Train the model?
+I get confused by training and fine-tuning. The result of this was something output in the `models/gpt-finetuned` folder, so I guess I'm fine-tuning it. 
+
+Code generated by ChatGPT
+
+```
+import torch
+from torch.utils.data import DataLoader
+from transformers import GPT2LMHeadModel, GPT2TokenizerFast
+from tqdm import trange
+import sys
+import time
+
+# Check if GPU is available
+device = torch.device(""mps"" if torch.backends.mps.is_available() else ""cpu"")
+print(device)
+
+if device == ""cpu"":
+    sys.exit()
+
+start_time = time.time()  # Record the start time
+
+# Load the data
+train_dataset = torch.load('train_dataset.pt')
+valid_dataset = torch.load('valid_dataset.pt')
+
+# Initialize the tokenizer and model
+tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
+model = GPT2LMHeadModel.from_pretrained('gpt2')
+
+# Set the batch size and number of epochs
+batch_size = 5
+num_epochs = 4
+
+# Create data loaders
+train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+valid_loader = DataLoader(valid_dataset, batch_size=batch_size)
+
+# Set up the optimizer and training parameters
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)
+scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
+total_steps = len(train_loader) * num_epochs
+warmup_steps = int(0.1 * total_steps)
+num_steps = 0
+
+# Set the device to GPU if available
+device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
+model.to(device)
+
+# Train the model
+for epoch in range(num_epochs):
+    epoch_loss = 0
+    progress_bar = trange(len(train_loader))
+    for i, batch in enumerate(train_loader):
+        # Move the batch to the device
+        batch = tuple(t.to(device) for t in batch)
+        inputs, labels = batch
+
+        # Zero the gradients and forward pass
+        optimizer.zero_grad()
+        outputs = model(inputs, labels=labels)
+        loss, logits = outputs[:2]
+        epoch_loss += loss.item()
+
+        # Backward pass and update parameters
+        loss.backward()
+        optimizer.step()
+        scheduler.step(loss)
+
+        # Update progress bar
+        num_steps += 1
+        progress_bar.update(1)
+        progress_bar.set_description(f""Epoch {epoch + 1}/{num_epochs}"")
+        progress_bar.set_postfix(loss=loss.item())
+
+    # Print the average loss for the epoch
+    print(f'Epoch {epoch + 1} Loss: {epoch_loss / len(train_loader)}')
+
+# Save the model
+model.save_pretrained('models/gpt2-finetuned')
+
+end_time = time.time()  # Record the end time
+total_duration = end_time - start_time  # Calculate the total duration
+print(f""Total training time: {total_duration:.2f} seconds"")
+```
+
+# Trying it out
+
+I then had ChatGPT create me a python script to run all of this.
+
+```
+import torch
+from transformers import GPT2LMHeadModel, GPT2TokenizerFast
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+
+def generate_response(model, tokenizer, prompt, max_length=100, num_return_sequences=1):
+    input_ids = tokenizer.encode(prompt, return_tensors='pt')
+    attention_mask = torch.ones(input_ids.shape, dtype=torch.long)
+    output = model.generate(
+        input_ids,
+        attention_mask=attention_mask,
+        max_length=max_length,
+        num_return_sequences=num_return_sequences,
+        no_repeat_ngram_size=2,
+        temperature=5.0,
+        top_p=1.5,
+    )
+    decoded_output = [tokenizer.decode(seq) for seq in output]
+    return decoded_output
+
+
+def main():
+    model_name = 'models/gpt2-finetuned'
+    model = GPT2LMHeadModel.from_pretrained(model_name)
+    tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')  # Use the default GPT-2 tokenizer
+    
+    print(""Type 'quit' to exit the program."")
+    while True:
+        prompt = input(""Ask a question: "")
+        if prompt.lower() == 'quit':
+            break
+
+        responses = generate_response(model, tokenizer, prompt)
+        print(""Answer:"", responses[0].strip())
+
+if __name__ == ""__main__"":
+    main()
+```
+
+Running the above gets me something like this:
+```
+Ask a question: Give me an impression of Jayne from Firefly
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Answer: Give me an impression of Jayne from Firefly""
+
+""I'm a big fan of the show""!
+.!!!""!!!!!!!!?!!!!!!!!!""
+,!!,!!:!!.!!?!!'!!"",!,!:!,!,!:!""!""!,!""!:!:!.!,!.!""!!!,!!!:!!!!!.!:!!!!,!!!!""!.!.!!!'!,!'!'!""!'!.!'!:!'!!!!!!!!?!!?!!!
+```
+
+This seems pretty far from desirable, but I can't really tell where I went wrong.
+
+# Thoughts/questions
+
+* I realize the data I gave it is just Character Name/Dialogue. Maybe it has no way of knowing everything I added was from Firefly....
+* How could I better prepare the data for training? I think this is where I likely went wrong?
+* Is there a better way I should have went about this?
+* How can I further troubleshoot this?
+* Is what I'm **trying** to do called ""fine tuning a model""?"
+15,12be7z0,learnmachinelearning,GPT-4,top,2023-04-04 10:01:30,"Text segmentation for embedding: when embedding articles for search, should I embed sentences? Sliding windows of n sentences? Paragraphs? Whole articles?",uberdev,False,1.0,6,https://www.reddit.com/r/learnmachinelearning/comments/12be7z0/text_segmentation_for_embedding_when_embedding/,5,1680602490.0,"I've read numerous articles on text segmentation strategies for embedding, for natural language search purposes. It seems there are a number of different strategies:
+
+* Paragraphs
+* Sentences
+* Sliding windows of n sentences (where n is usually around 2-4)
+* Whole article? (modern embeddings such as GPT-ada can take 1024+ tokens, this may actually be feasible)
+
+Of course, the tradeoff is precision (smaller chunks of text) vs. cost (smaller segments = higher computational power to embed, higher expense for large corpora). 
+
+Does anyone have experience with creating embeddings for search across a large corpus, and can speak to their experience with text segmentation approaches?
+
+Thanks!"
+16,12hv6qn,learnmachinelearning,GPT-4,top,2023-04-10 20:31:01,"SearchBot9k - Searches Google, checks result pages, answers the question in a headless browser using the GPT-4 or ChatGPT API [JS]",pale2hall,False,1.0,4,https://www.reddit.com/r/learnmachinelearning/comments/12hv6qn/searchbot9k_searches_google_checks_result_pages/,0,1681158661.0,"Hey guys, I made a simple Node.js script to search google
+
+1. User runs script with a question
+2. initial prompt sent to AI
+3. AI comes up with a search phrase
+4. SERP (search engine result page) sent to AI
+5. AI has a 'memory' field 
+6. We loop till we find an answer while the AI: Answers the Question, Starts a new Search, or Loads a URL
+
+All the while the user gets to watch what page is being browsed in an electron-based pop-up window, and the AI can update a 'memory' that is passed back to it to keep it on track.
+
+The AI uses JSON to respond.
+
+Project: [https://github.com/pale2hall/SearchBot9k](https://github.com/pale2hall/SearchBot9k)
+
+I welcome any feedback suggestions, if anyone wants to work on it / make a PR, feel free.  I'll be developing it in my spare time too.
+
+Current Todo:
+
+* Refactor code / break functions into individual files
+* Separate Prompt vs JS
+* Handle looping / make 
+* Make Memory always contain previous searches and urls so it doesn't get stuck in a loop.
+* Count tokens instead of Characters when truncating results for the AI"
+17,118mk1d,learnmachinelearning,GPT-4,top,2023-02-22 02:32:01,How to Use ChatGPT in Python API and Run Batch Jobs with UI,Fun_Pollution_3899,False,0.72,3,https://www.reddit.com/r/learnmachinelearning/comments/118mk1d/how_to_use_chatgpt_in_python_api_and_run_batch/,0,1677033121.0,"I wanted to share a tutorial on how to use ChatGPT in Python API and how to run batch jobs with a UI. ChatGPT is a powerful language model that can generate text in a conversational manner. It can be used for a variety of tasks, such as chatbots, text completion, and more.
+Repo: [https://github.com/CodeDiggerM/chatgpt-batch-whipper](https://github.com/CodeDiggerM/chatgpt-batch-whipper)
+
+## Installation
+### Use PIP command
+1. Install the latest version of this software directly from github with pip:
+```bash
+  pip install git+https://github.com/CodeDiggerM/chatgpt-batch-whipper.git
+```
+2. Go to **auth** mode. This will open up a browser window. Log in to ChatGPT in the browser window, then close the browser.
+```bash
+run_chatgpt auth
+```
+3. Start the UI
+```bash
+run_chatgpt ui
+```
+
+### Manually set up
+
+1. Clone the repo to your working directory
+```bash
+git clone https://github.com/CodeDiggerM/chatgpt-batch-whipper.git
+```
+2. install the dependcy.
+```bash
+pip install -r requirements.txt
+```
+
+3. Install a browser in playwright (if you haven't already).  The program will use firefox by default.
+
+```
+playwright install firefox
+```
+
+4. Go to the chatgpt-batch-whipper/
+
+```bash
+cd chatgpt_batch_whipper/
+````
+
+5. Run the main page by streamlit.
+you can got to [streamlit](https://github.com/streamlit/streamlit) to check more about streamlit.
+
+```bash
+streamlit run start_whipper.py
+````
+6. Authenticate your openAI account
+Click the **auth** button
+
+
+It will open up an authentication page in the web browser you installed using playwright. Like below, authenticate with your registered account.
+
+
+
+## Quickstart
+
+### Use API
+1. Grant auth from chatGPT.
+```python
+from chatgpt_batch_whipper.pub.chatgpt_wrapper import ChatGPT
+bot = ChatGPT()
+response = bot.auth()
+print(response) 
+```
+
+2. Ask the question to chatGPT
+```python
+from chatgpt_batch_whipper.pub.chatgpt_wrapper import ChatGPT
+bot = ChatGPT()
+response = bot.ask(""Greeting!"")
+print(response) 
+```
+
+
+### Streamlit UI
+
+Now run it to open the app!
+```
+streamlit run streamlit_app.py
+```
+
+#### Single shoot mode
+
+1. select the **Single shoot mode**.
+2. Type your prompt then click submit
+3. click the submit button
+
+Here are some tips.
+
+#### Fully Automatic mode
+You can apply your prompt to multiple records in the **Fully Automatic mode**.
+
+1. Select Fully Automatic mode.
+2. Select CSV file.
+3. Select column you want to process.
+4. Type the prompt.
+5. click to Submit.
+After processing. The result will appears in the **The processed result** section.
+
+you can check the result and check the ""is false"" then click the **Submit** to reprocess the ""failed"" one.
+
+* You can save the prompt by click **Add** button.
+* You can choose the old prompt by select **prompt list**.
+* You can delete the old prompt by click **Delete Prompt**.
+* You can delete the saved process result by click **Delete Cached result**.
+* You can update the saved process result by click **Update**.
+* You can download the result file by click **Download**."
+18,12jb3hy,learnmachinelearning,GPT-4,top,2023-04-12 05:19:38,Is OpenAI’s Study On The Labor Market Impacts Of AI Flawed?,LesleyFair,False,1.0,3,https://www.reddit.com/r/learnmachinelearning/comments/12jb3hy/is_openais_study_on_the_labor_market_impacts_of/,0,1681276778.0,"[Example img\_name](https://preview.redd.it/u4m50gaj1eta1.png?width=1451&format=png&auto=webp&s=8c9eda5aebd66ad1c6514ba8fe14bca7dc0e381a)
+
+We all have heard an uncountable amount of predictions about how AI will ***terk err jerbs!***
+
+However, here we have a proper study on the topic from OpenAI and the University of Pennsylvania. They investigate how Generative Pre-trained Transformers (GPTs) could automate tasks across different occupations \[1\].
+
+Although I’m going to discuss how the study comes with a set of “imperfections”, the findings still make me really excited. The findings suggest that machine learning is going to deliver some serious productivity gains.
+
+People in the data science world fought tooth and nail for years to squeeze some value out of incomplete data sets from scattered sources while hand-holding people on their way toward a data-driven organization. At the same time, the media was flooded with predictions of omniscient AI right around the corner.
+
+*Let’s dive in and take an* exciting glimpse into the future of labor markets\*!\*
+
+# What They Did
+
+The study looks at all US occupations. It breaks them down into tasks and assesses the possible level of for each task. They use that to estimate how much automation is possible for a given occupation.
+
+The researchers used the [O\*NET database,](https://www.onetcenter.org/database.html) which is an occupation database specifically for the U.S. market. It lists 1,016 occupations along with its standardized descriptions of tasks.
+
+The researchers annotated each task once manually and once using GPT-4. Thereby, each task was labeled as either somewhat (<50%) or significantly (>50%) automatable through LLMs. In their judgment, they considered both the direct “exposure” of a task to GPT as well as to a secondary GPT-powered system, e.g. LLMs integrated with image generation systems.
+
+To reiterate, a higher “exposure” means that an occupation is more likely to get automated.
+
+Lastly, they enriched the occupation data with wages and demographic information. This was used to determine whether e. g. high or low-paying jobs are at higher risk to be automated.
+
+So far so good. This all sounds pretty decent. Sure, there is a lot of qualitative judgment going into their data acquisition process. However, we gotta cut them some slag. These kinds of studies always struggle to get any hard data and so far they did a good job.
+
+However, there are a few obvious things to criticize. But before we get to that let’s look at their results.
+
+# Key Findings
+
+The study finds that 80% of the US workforce, across all industries, could have at least some tasks affected. Even more significantly, 19% of occupations are expected to have at least half of their tasks significantly automated!
+
+Furthermore, they find that higher levels of automation exposure are associated with:
+
+* Programming and writing skills
+* Higher wages (contrary to previous research!)
+* Higher levels of education (Bachelor’s and up)
+
+Lower levels of exposure are associated with:
+
+* Science and critical thinking skills
+* Manual work and tasks that might potentially be done using physical robots
+
+This is somewhat unsurprising. We of course know that LLMs will likely not increase productivity in the plumbing business. However, their findings underline again how different this wave is. In the past, simple and repetitive tasks fell prey to automation.
+
+*This time it’s the suits!*
+
+If we took this study at face value, many of us could start thinking about life as full-time pensioners.
+
+But not so fast! This, like all the other studies on the topic, has a number of flaws.
+
+# Necessary Criticism
+
+First, let’s address the elephant in the room!
+
+OpenAI co-authored the study. They have a vested interest in the hype around AI, both for commercial and regulatory reasons. Even if the external researchers performed their work with the utmost thoroughness and integrity, which I am sure they did, the involvement of OpenAI could have introduced an unconscious bias.
+
+*But there’s more!*
+
+The occupation database contains over 1000 occupations broken down into tasks. Neither GPT-4 nor the human labelers can possibly have a complete understanding of all the tasks across all occupations. Hence, their judgment about how much a certain task can be automated has to be rather hand-wavy in many cases.
+
+Flaws in the data also arise from the GPT-based labeling itself.
+
+The internet is flooded with countless sensationalist articles about how AI will replace jobs. It is hard to gauge whether this actually causes GPT models to be more optimistic when it comes to their own impact on society. However, it is possible and should not be neglected.
+
+The authors do also not really distinguish between labor-augmenting and labor-displacing effects and it is hard to know what “affected by” or “exposed to LLMs” actually means. Will people be replaced or will they just be able to do more?
+
+Last but not least, lists of tasks most likely do not capture all requirements in a given occupation. For instance ""making someone feel cared for"" can be an essential part of a job but might be neglected in such a list.
+
+# Take-Away And Implications
+
+GPT models have the world in a frenzy - rightfully so.
+
+Nobody knows whether 19% of knowledge work gets heavily automated or if it is only 10%.
+
+As the dust settles, we will begin to see how the ecosystem develops and how productivity in different industries can be increased. Time will tell whether foundational LLMs, specialized smaller models, or vertical tools built on top of APIs will be having the biggest impact.
+
+In any case, these technologies have the potential to create unimaginable value for the world. At the same time, change rarely happens without pain. I strongly believe in human ingenuity and our ability to adapt to change. All in all, the study - flaws aside - represents an honest attempt at gauging the future.
+
+Efforts like this and their scrutiny are our best shot at navigating the future. Well, or we all get chased out of the city by pitchforks.
+
+Jokes aside!
+
+What an exciting time for science and humanity!
+
+As always, I really enjoyed making this for you and I sincerely hope you found value in it!
+
+If you are not subscribed to the newsletter yet, [click here to sign up](https://thedecoding.net/)! I send out a thoughtful 5-minute email every week to keep you in the loop about machine learning research and the data economy.
+
+*Thank you for reading and I see you next week ⭕!*
+
+**References:**
+
+\[1\] [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)"
+19,znr9hq,learnmachinelearning,GPT-4,top,2022-12-16 22:40:24,How would I build an ML model to generate code for Fabric mods in Minecraft (text to fabric code),MachineLearner523,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/znr9hq/how_would_i_build_an_ml_model_to_generate_code/,0,1671230424.0,"Fabric is a library that mod developers can use to hook into the game's code and make changes. 
+
+For example, if I input the text ""make an orb that flies around the player in a circular motion,"" the model should be able to generate fabric library code that creates such an orb in the game. 
+
+My plan is:
+
+1. download code from all Fabric mods on Github
+
+2. tokenize the code using the GPT-2 tokenizer
+
+3. convert the tokenized code to vector embeddings using OpenAI's embeddings endpoint
+
+4. ? and then use these embeddings to train a model that can generate code based on input text. 
+
+I'm wondering if it would be more appropriate to use reinforcement learning or transformers for this task. Can anyone provide guidance on which approach might be more suitable for this problem, or suggest other approaches I should consider?"
+20,133v9s5,learnmachinelearning,GPT-4,comments,2023-04-30 15:45:04,I don't have a PhD but this just feels wrong. Can a person with a PhD confirm?,flaky_psyche,False,0.77,65,https://i.redd.it/fmkvgop7l1xa1.jpg,238,1682869504.0,
+21,10fw2df,learnmachinelearning,GPT-4,comments,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,331,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+22,13eympz,learnmachinelearning,GPT-4,comments,2023-05-11 20:15:46,Top 20 Large Language Models based on the Elo rating system.,kingabzpro,False,0.96,254,https://i.redd.it/7xfqr5crf9za1.png,43,1683836146.0,
+23,10c509n,learnmachinelearning,GPT-4,comments,2023-01-15 00:08:37,Is it still worth learning NLP in the age of API-accessibles LLM like GPT?,CrimsonPilgrim,False,0.93,60,https://www.reddit.com/r/learnmachinelearning/comments/10c509n/is_it_still_worth_learning_nlp_in_the_age_of/,24,1673741317.0,"A question that, I hope, you will find legitimate from a data science student.
+
+I am speaking from the point of view of a data scientist not working in research.
+
+Until now, learning NLP could be used to meet occasional business needs like sentiment analysis, text classification, topic modeling....
+
+With the opening of GPT-3 to the public, the rise of ChatGPT, and the huge wave of applications, sites, plug-ins and extensions based on this technology that are accessible with a simple API request, it's impossible not to wonder if spending dozens of hours diving into this field if ML wouldn't be as useful today as learning the source code of the Pandas library. 
+
+In some specialized cases, it could be useful, but GPT-3, and the models that will follow, seem to offer more than sufficient results for the immensity of the cases and for almost all classical NLP tasks. Not only that, but there is a good chance that the models trained by giants like Open-AI (Microsoft) or Google can never be replicated outside these companies anyway.  With ChatGPT and its incomparable mastery of language, its ability to code, summarize, extract topics, understand... why would I bother to use BERT or a TF-IDF vectorizer when an API will be released? Not only it would be easily accessible, but it also would be much better at the task, faster and cheaper.
+
+In fact, it's a concern regarding all the machine learning field in general with the arrival of powerful ""no-code"" applications, which abstract a large part of the inherent complexity of the field. There will always be a need for experts, for safeguards, but in the end, won't the Data Scientist who masters the features of GPT-3 or 4 and knows a bit of NLP be more efficient than the one who has spent hours reading Google papers and practicing on Gensim, NLTK, spacy... It is the purpose of an API to make things simpler eventually... At what point is there no more reason to be interested in the behind-the-scenes of these tools and to become simple users rather than trying to develop our own techniques?"
+24,13hzvkc,learnmachinelearning,GPT-4,comments,2023-05-15 06:27:00,Bilingual people : How good is AI at machine translation today?,moschles,False,0.84,21,https://www.reddit.com/r/learnmachinelearning/comments/13hzvkc/bilingual_people_how_good_is_ai_at_machine/,22,1684132020.0,"In the wake of GPT-4 and chatGPT, how good would you rank machine translators in terms of their accuracy?
+
+Are they only useful for one-off sentences? Do they fail when presented with any kind of moderately complex articles? Do they perform vastly different depending on the languages?     Are they still really stupid, or does their output blow you away now?"
+25,zwltk8,learnmachinelearning,GPT-4,comments,2022-12-27 18:05:30,Am I Too Late?,stupidSTEMquestions,False,0.5,0,https://www.reddit.com/r/learnmachinelearning/comments/zwltk8/am_i_too_late/,19,1672164330.0,"I am a college student studying math and computer science. I know how to program with high level languages, C, and a bit of C++ and Scheme. I can build basic web apps and scripts, and am focusing on machine learning with python. 
+
+With the release of ChatGPT and articles like [this](https://cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext#comments) though, I can't help but ask — am I too late?
+
+Is it simply too late for a beginner to make any contributions to the field at this point when OpenAI, Deepmind, and the like are iterating at such a rapid pace? I really love AI and machine learning so far, but I also don't want to waste my time and energy if there won't be any meaningful work for me once I finish my education in 4 or more years."
+26,106aie8,learnmachinelearning,GPT-4,comments,2023-01-08 05:09:46,Major drawback/limitation of GPT-3,trafalgar28,False,0.84,9,https://www.reddit.com/r/learnmachinelearning/comments/106aie8/major_drawbacklimitation_of_gpt3/,13,1673154586.0,"I have been working on a project with GPT-3 API for almost a month now. The only drawback of GPT-3 is that the prompt you can send to the model is capped at 4,000 tokens - where a token is roughly equivalent to ¾ of a word.  Due to this, providing a large context to GPT-3 is quite difficult.
+
+Is there any way to resolve this issue?"
+27,12j0uh5,learnmachinelearning,GPT-4,comments,2023-04-11 22:53:56,I want to teach a chatbot about a world I'm creating so that it can answer my questions about it.,Common_Ad_6362,False,0.78,10,https://www.reddit.com/r/learnmachinelearning/comments/12j0uh5/i_want_to_teach_a_chatbot_about_a_world_im/,10,1681253636.0,"I've been experimenting over the last couple of days with telling ChatGPT3.5 and 4 about my world building project, but it only seems to know about our current session instead of our whole conversation.  
+
+
+I have 12 GB of VRAM, is there something I can run locally that I can teach my world to and then ask it questions about that world the same way I'm able to do with ChatGPT?   I want it to remember the content I teach it beyond our session."
+28,12f9cvx,learnmachinelearning,GPT-4,comments,2023-04-08 03:04:00,Energy Constraints and Costs in Massive Machine Learning Model Training,mechkeyboard7065,False,0.94,28,https://www.reddit.com/r/learnmachinelearning/comments/12f9cvx/energy_constraints_and_costs_in_massive_machine/,7,1680923040.0,"Adding on to my [last](https://www.reddit.com/r/learnmachinelearning/comments/12ebceo/alternatives_to_training_massive_ml_models_on/) post, here's some of what I've found about the potential constraints and costs associated with training massive machine learning models. 
+
+&#x200B;
+
+**Energy as a constraint in ML model training:**
+
+\- GPT-3, as an example, is estimated to have consumed around **936 MWh** during its training.  
+\- If there were **$100B model training runs** in the future, it would consume approximately **20,347,826 MWh** or **20,347,826,000 KWh**.  
+\- This would cost around **$1,017,391,300**, which is about **1%** of the total cost (assuming $0.05 KWh). The cost could go up to **$3B** if we assume $0.15 KWh.
+
+&#x200B;
+
+**Power generation comparison:**
+
+\- One nuclear power plant can generate around **4,727,764 MWh** in a year.
+
+&#x200B;
+
+**Main constraints in massive model training runs apart from GPUs:**
+
+\- Data movement through machines  
+\- The amount of data that can be moved  
+\- The amount of data the model has already been trained on  
+\- Networking and bandwidth limitations  
+\- System-specific bottlenecks  
+\- Model training algorithm design (e.g., parallel processing, processing power requirements)
+
+&#x200B;
+
+**Potential $10T investment in ML models: Where would the money go?**
+
+\- **17% ($1.7T)** \- Data collection, validation, and annotation  
+\- **23% ($2.3T)** \- Research  
+\- **60% ($6T)** \- Production (infrastructure, integration, maintenance)
+
+&#x200B;
+
+**Current and projected annual spend on GPUs:**  
+\- **$40B** in 2022  
+\- Projected to be **$400B** in 10 years
+
+&#x200B;
+
+I hope someone might find this information useful. It's definitely made me question the future impact as these models scale. As always, I'm open to corrections and eager to learn more. Let me know if you have any questions or additional insights."
+29,12uwd8p,learnmachinelearning,GPT-4,comments,2023-04-22 05:51:13,Integrating Google search into OpenAI models like GPT-4,Ghost25,False,1.0,16,https://www.reddit.com/r/learnmachinelearning/comments/12uwd8p/integrating_google_search_into_openai_models_like/,8,1682142673.0,"Thought I'd share an explanation of how I implemented Google search into my GPT-4 based chatbot.
+
+Github here: https://github.com/sgreenb/pico_assistant
+
+One extremally simple modification that dramatically improves the ability of a GPT to answer questions: letting it Google stuff.
+
+Here’s a demo:
+
+https://imgur.com/ZR6hvLg 1
+
+The implementation works like this.
+
+1. A user enters an input.
+2. An agent called “Executive” looks at the input and decides if an API like Spotify, Twillio, or Gmail is needed or if it can be answered by the chatbot alone.
+3. If the chatbot is needed the input is first sent to a Google agent. The Google agent’s system message looks like this:
+
+```
+{""role"":""system"", ""content"": ""You analyze a user's input to a large language model with \
+training data that cuts off at September 2021. The current year is 2023. You decide how \
+likely it is that a user's request will benefit from a Google search to help address the\
+question. Respond with a number in the range 1-10, where 1 is very unlikely that a \
+Google search would be beneficial, and 10 meaning a Google search is highly necessary.""}
+```
+
+This is quite fast, since it only needs to generate one or two tokens.
+
+If the output is above some threshold (say 7), then we call another agent, the query agent, otherwise we return False and default to the normal chat agent.
+
+```
+    google_probability = int(completion.choices[0].message.content)
+    if google_probability >= cutoff:
+        search_results = trim_text(search_and_scrape(prompt))
+        query_with_context = prompt + str(search_results)
+        print(""\nPico: "", end='', flush=True)
+        response = query_agent_stream(query_with_context)
+        return response
+    else:
+        return False
+```
+
+When we call the query agent, we feed it the first part of a Google search we get from searching the input. We get that from the very simple trim_text and search_and_scrape functions that look like this:
+
+```
+
+def search_and_scrape(query):
+    try:
+        headers = {
+            ""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3""
+        }
+        url = f""https://www.google.com/search?q={query}""
+        response = requests.get(url, headers=headers)
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            text = soup.get_text()
+            cleaned_text = ' '.join(text.split())
+            return cleaned_text
+        else:
+            print(f""Failed to fetch search results for query: {query}, status code: {response.status_code}"")
+            return None
+
+    except Exception as e:
+        print(f""Error fetching search results for query: {query}, error: {e}"")
+        return None
+
+def trim_text(text, start_index = 450, length=1500):
+    return text[start_index:start_index + length]
+```
+
+The query agent has this system message:
+
+```
+{""role"":""system"", ""content"": ""You answer a user's question, given some text as context to help\
+answer the question. The user request will be followed by the context. The context given is\
+from the user's Google search results, it is current and up to date.\
+Do not contradict the contents of the given text in your answer.""}
+```
+
+And that’s it. You can change the cutoff threshold or get more sophisticated with fetching web results. I hope you find this useful."
+30,12hltzf,learnmachinelearning,GPT-4,comments,2023-04-10 15:17:01,"Im getting an error, that my tensors are on different devices.",loliko-lolikando,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/12hltzf/im_getting_an_error_that_my_tensors_are_on/,7,1681139821.0,"My code I created by following some tutorial:
+
+    import torch
+    import torch.nn as nn
+    from torch.nn import functional as F
+    
+    #
+    batch_size = 32
+    block_size = 8
+    max_iters = 3000
+    eval_interval = 300
+    learning_rate = 1e-2
+    device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+    eval_iters = 200
+    # ------------
+    
+    print(torch.cuda.get_device_name(torch.cuda.current_device()))
+    
+    # Read our shakespeare dataset
+    with open(r""GPT/datasets/tinyshakespeare.txt"", ""r"", encoding=""UTF-8"") as f:
+        text = f.read()
+    
+    # Print list of all the chars and symbols, that are in the dataset
+    chars = sorted(list(set(text)))
+    vocab_size = len(chars)
+    
+    # Create tokenization functions to convert all the characters and symbols from the dataset into something that GPT can process
+    
+    # Make a character to integer and integer to character dictionary
+    char_to_int = {char: index for index, char in enumerate(chars)}
+    int_to_char = {index: char for index, char in enumerate(chars)}
+    
+    # Function to convert a string to a list of integers
+    def encoder(s):
+        return [char_to_int[c] for c in s]
+    
+    # Function to convert a list of integers to a string
+    def decoder(l):
+        return ''.join([int_to_char[i] for i in l])
+    
+    # Encode the whole dataset, so that the model can read it
+    
+    encoded_text = encoder(text)
+    
+    # Storing the encoded text in a torch.tensor object
+    
+    data = torch.tensor(encoded_text, dtype=torch.long)
+    
+    
+    # Split the data into training and testing sets
+    test_size = int(0.1*len(data))
+    
+    train_data = data[:test_size]
+    test_data = data[test_size:]
+    
+    batch_size = 4 
+    block_size = 8
+    
+    def get_batch(split):
+        # generate a small batch of data of inputs x and targets y
+        data = train_data if split == 'train' else test_data
+        ix = torch.randint(len(data) - block_size, (batch_size,))
+        x = torch.stack([data[i:i+block_size] for i in ix])
+        y = torch.stack([data[i+1:i+block_size+1] for i in ix])
+        return x, y
+    
+    u/torch.no_grad()
+    def estimate_loss():
+        out = {}
+        model.eval()
+        for split in ['train', 'val']:
+            losses = torch.zeros(eval_iters)
+            for k in range(eval_iters):
+                X, Y = get_batch(split)
+                logits, loss = model(X, Y)
+                losses[k] = loss.item()
+            out[split] = losses.mean()
+        model.train()
+        return out
+    
+    xb, yb = get_batch('train')
+    
+    class BigramLanguageModel(nn.Module):
+    
+        def __init__(self, vocab_size):
+            super().__init__()
+            self.token_embedding_table = nn.Embedding(vocab_size, vocab_size)
+            self.token_embedding_table.to(device)
+    
+        def forward(self, idx, targets=None):
+    
+            logits = self.token_embedding_table(idx) # (B,T,C)
+    
+            if targets is None:
+                loss = None
+            else:
+                B, T, C = logits.shape
+                logits = logits.view(B*T, C)
+                targets = targets.view(B*T)
+                loss = F.cross_entropy(logits, targets)
+    
+            return logits, loss
+    
+        def generate(self, idx, max_new_tokens):
+            for _ in range(max_new_tokens):
+                logits, loss = self(idx)
+                logits = logits[:, -1, :] # becomes (B, C)
+                probs = F.softmax(logits, dim=-1) # (B, C)
+                idx_next = torch.multinomial(probs, num_samples=1) # (B, 1)
+                idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
+            return idx
+    
+    model = BigramLanguageModel(vocab_size)
+    print(device)
+    xb = xb.to(device)
+    yb = yb.to(device)
+    m = model.to(device)
+    logits, loss = m(xb, yb)
+    #print(decoder(m.generate(idx = torch.zeros((1, 1), dtype=torch.long), max_new_tokens=100)[0].tolist()), end=""\n\n"")
+    
+    # Lets optimize and train the model
+    
+    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+    
+    # This codeblock of training the model can be executed multiple times to train the model more
+    
+    for iter in range(max_iters):
+    
+        # every once in a while evaluate the loss on train and val sets
+        if iter % eval_interval == 0:
+            losses = estimate_loss()
+            print(f""step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}"")
+    
+        # sample a batch of data
+        xb, yb = get_batch('train')
+    
+        # evaluate the loss
+        logits, loss = model(xb, yb)
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        optimizer.step()
+    
+    print(""\nNew prediction from our model if the user input is a new line character:"", end="""")
+    print(decoder(m.generate(idx = torch.zeros((1, 1), dtype=torch.long), max_new_tokens=100)[0].tolist()))
+    
+    torch.save(model.state_dict(), 'GPT_tiny_shakespeare.pth')
+
+The error:
+
+    Traceback (most recent call last): File ""\GPT_tiny_shakespeare.py"", line 133, in <module> losses = estimate_loss() File ""\anaconda3\lib\site-packages\torch\utils_contextlib.py"", line 115, in decorate_context return func(*args, **kwargs) File ""\GPT_tiny_shakespeare.py"", line 77, in estimate_loss logits, loss = model(X, Y) File \anaconda3\lib\site-packages\torch\nn\modules\module.py"", line 1501, in _call_impl return forward_call(*args, **kwargs) File ""\GPT_tiny_shakespeare.py"", line 94, in forward logits = self.token_embedding_table(idx) # (B,T,C) File ""\anaconda3\lib\site-packages\torch\nn\modules\module.py"", line 1501, in _call_impl return forward_call(*args, **kwargs) File ""\anaconda3\lib\site-packages\torch\nn\modules\sparse.py"", line 162, in forward return F.embedding( File ""\anaconda3\lib\site-packages\torch\nn\functional.py"", line 2210, in embedding return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse) RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+
+I have installed all nvidia drivers and anything I could find. This code works on my CPU, but on my GPU it should be much faster.
+
+Thanks"
+31,12be7z0,learnmachinelearning,GPT-4,comments,2023-04-04 10:01:30,"Text segmentation for embedding: when embedding articles for search, should I embed sentences? Sliding windows of n sentences? Paragraphs? Whole articles?",uberdev,False,1.0,5,https://www.reddit.com/r/learnmachinelearning/comments/12be7z0/text_segmentation_for_embedding_when_embedding/,5,1680602490.0,"I've read numerous articles on text segmentation strategies for embedding, for natural language search purposes. It seems there are a number of different strategies:
+
+* Paragraphs
+* Sentences
+* Sliding windows of n sentences (where n is usually around 2-4)
+* Whole article? (modern embeddings such as GPT-ada can take 1024+ tokens, this may actually be feasible)
+
+Of course, the tradeoff is precision (smaller chunks of text) vs. cost (smaller segments = higher computational power to embed, higher expense for large corpora). 
+
+Does anyone have experience with creating embeddings for search across a large corpus, and can speak to their experience with text segmentation approaches?
+
+Thanks!"
+32,1393uoa,learnmachinelearning,GPT-4,comments,2023-05-05 22:39:41,Using ChatGPT for assigning ontology to KMeans labels,lukaszluk,False,0.6,1,https://www.reddit.com/r/learnmachinelearning/comments/1393uoa/using_chatgpt_for_assigning_ontology_to_kmeans/,4,1683326381.0,"Sharing a cool technique that you can use to assign categories/titles/ontology to your Kmeans results.
+
+My use case involves text data with descriptions so it won’t be applicable in every situation, but it can definitely give inspiration to anyone.
+
+I had podcast transcripts that were chunked into sections (\~3000 text documents). These sections were then transformed into summaries with [LangChain](https://langchain.com/) and [OpenAI API](https://platform.openai.com/docs/introduction). Finally, I embedded the summaries using OpenAI embeddings. Then I ran KMeans (k=30) and got labels with section names:
+
+&#x200B;
+
+https://preview.redd.it/zepzijatb3ya1.png?width=633&format=png&auto=webp&s=23313df60d798636eb6a02392e567bd4ace3587c
+
+In order to avoid exceeding the maximal number of tokens in the context window (4096 tokens), I sampled the data frame to contain 200 segment names with 5 selected labels. Then I iteratively moved to the next labels, i.e.:
+
+1. iteration — labels from 0 to 4
+
+* 2. iteration — labels from 5 to 9
+* …
+* 6. iteration — labels from 25 to 29
+
+This is an example output from our ontology detector:
+
+&#x200B;
+
+https://preview.redd.it/k3rfqo7ub3ya1.png?width=653&format=png&auto=webp&s=792944cb82b6e0d2fe8e0f8a763f0f1fbcabb57b
+
+After iterating through all labels I noticed that some of the categories and keywords overlap. Moreover, it would be hard to navigate through so many categories.
+
+That’s why I asked ChatGPT to group overlapping categories:
+
+&#x200B;
+
+https://preview.redd.it/efgrjukvb3ya1.png?width=676&format=png&auto=webp&s=f2552e7f51f63ccb668e13858d49f424baea2475
+
+Sharing the prompts in the comment section! You can check out the code here: [https://github.com/DataScienceDisciple/hubermanlab-qa/blob/main/notebooks/04\_summary-analysis.ipynb](https://github.com/DataScienceDisciple/hubermanlab-qa/blob/main/notebooks/04_summary-analysis.ipynb)"
+33,11s7ya3,learnmachinelearning,GPT-4,comments,2023-03-15 20:18:13,Do multi modal LLM models just inject image description to the context?,ChessGibson,False,0.93,11,https://www.reddit.com/r/learnmachinelearning/comments/11s7ya3/do_multi_modal_llm_models_just_inject_image/,4,1678911493.0,"Hi! Small question I have been asking myself seeing multiple multi modal models recently: do they use interconnected neural networks for different input types, or do they simply convert non-text inputs into textual descriptions before processing them with their language models? What's happening for PaLM-E for instance? How about GPT-4?"
+34,12rxm7r,learnmachinelearning,GPT-4,comments,2023-04-19 15:26:42,How to Get Hired as Data Scientist in the GPT-4 Era,kingabzpro,False,0.22,0,https://www.reddit.com/r/learnmachinelearning/comments/12rxm7r/how_to_get_hired_as_data_scientist_in_the_gpt4_era/,2,1681918002.0,"In this post, I share some tips and insights on how to stand out in the competitive data science job market, especially with the rise of GPT-4 and other advanced NLP models.  
+
+
+**You will learn how to:**
+
+* Brush up on your statistics and core data science concepts, and how to apply them in real-world scenarios.
+* Master the skills of NLP and prompt engineering, and how to leverage GPT-4 for various data science tasks.
+* Build a data science portfolio that showcases your projects and achievements, and how to use GitHub, Medium, and Kaggle to showcase your work.
+* Prepare for data science interviews, and how to ace the technical, behavioral, and case study questions.
+* Explore the emerging field of AIOps, and how to use data science to automate and optimize IT operations.
+
+[https://www.kdnuggets.com/2023/04/get-hired-data-scientist-gpt4-era.html](https://www.kdnuggets.com/2023/04/get-hired-data-scientist-gpt4-era.html)
+
+I hope you find this post useful and informative. Please feel free to share your feedback and comments."
+35,12vlorx,learnmachinelearning,GPT-4,comments,2023-04-22 22:24:26,PyTorch .pth file size capped at 52.8 MB?,loliko-lolikando,False,0.92,10,https://www.reddit.com/r/learnmachinelearning/comments/12vlorx/pytorch_pth_file_size_capped_at_528_mb/,3,1682202266.0,"I've created few GPT models with PyTorch, and some smaller models are about 19 kB or few MB, but the bigger ones seem capped on 52.8 or 52.7 MB. These models use same model type, but each has a different dataset, training iters (time of training) and almost everything else. But they all cant get past 52.8 MB. 
+
+I am glad its not 50 GB, but this seems that more training dosent do anything. What is going on?
+
+&#x200B;
+
+Here is one of the codes (you can see im saving the model throughout the training, but the size is still same (the problem cannto be in the saving throughout training, because other scripts with different dataset do the same)):  
+
+
+    import torch
+    import torch.nn as nn
+    from torch.nn import functional as F
+    
+    # hyperparameters
+    batch_size = 64 # how many independent sequences will we process in parallel?
+    block_size = 256 # what is the maximum context length for predictions?
+    max_iters = 70000
+    eval_interval = 500
+    learning_rate = 1e-4
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    eval_iters = 200
+    n_embd = 384
+    n_head = 6
+    n_layer = 6
+    dropout = 0.2
+    # ------------
+    print(device)
+    #torch.manual_seed(1337)
+    
+    # Read our shakespeare dataset
+    with open(r""GPT/datasets/saturninV2.txt"", ""r"", encoding=""UTF-8"") as f:
+        text = f.read()
+    
+    # here are all the unique characters that occur in this text
+    chars = sorted(list(set(text)))
+    vocab_size = len(chars)
+    # create a mapping from characters to integers
+    stoi = { ch:i for i,ch in enumerate(chars) }
+    itos = { i:ch for i,ch in enumerate(chars) }
+    encode = lambda s: [stoi[c] for c in s] # encoder: take a string, output a list of integers
+    decode = lambda l: ''.join([itos[i] for i in l]) # decoder: take a list of integers, output a string
+    
+    # Train and test splits
+    data = torch.tensor(encode(text), dtype=torch.long)
+    n = int(0.9*len(data)) # first 90% will be train, rest val
+    train_data = data[:n]
+    val_data = data[n:]
+    
+    # data loading
+    def get_batch(split):
+        # generate a small batch of data of inputs x and targets y
+        data = train_data if split == 'train' else val_data
+        ix = torch.randint(len(data) - block_size, (batch_size,))
+        x = torch.stack([data[i:i+block_size] for i in ix])
+        y = torch.stack([data[i+1:i+block_size+1] for i in ix])
+        x, y = x.to(device), y.to(device)
+        return x, y
+    
+    @torch.no_grad()
+    def estimate_loss():
+        out = {}
+        model.eval()
+        for split in ['train', 'val']:
+            losses = torch.zeros(eval_iters)
+            for k in range(eval_iters):
+                X, Y = get_batch(split)
+                logits, loss = model(X, Y)
+                losses[k] = loss.item()
+            out[split] = losses.mean()
+        model.train()
+        return out
+    
+    class Head(nn.Module):
+        """""" one head of self-attention """"""
+    
+        def __init__(self, head_size):
+            super().__init__()
+            self.key = nn.Linear(n_embd, head_size, bias=False)
+            self.query = nn.Linear(n_embd, head_size, bias=False)
+            self.value = nn.Linear(n_embd, head_size, bias=False)
+            self.register_buffer('tril', torch.tril(torch.ones(block_size, block_size)))
+    
+            self.dropout = nn.Dropout(dropout)
+    
+        def forward(self, x):
+            # input of size (batch, time-step, channels)
+            # output of size (batch, time-step, head size)
+            B,T,C = x.shape
+            k = self.key(x)   # (B,T,hs)
+            q = self.query(x) # (B,T,hs)
+            # compute attention scores (""affinities"")
+            wei = q @ k.transpose(-2,-1) * k.shape[-1]**-0.5 # (B, T, hs) @ (B, hs, T) -> (B, T, T)
+            wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf')) # (B, T, T)
+            wei = F.softmax(wei, dim=-1) # (B, T, T)
+            wei = self.dropout(wei)
+            # perform the weighted aggregation of the values
+            v = self.value(x) # (B,T,hs)
+            out = wei @ v # (B, T, T) @ (B, T, hs) -> (B, T, hs)
+            return out
+    
+    class MultiHeadAttention(nn.Module):
+        """""" multiple heads of self-attention in parallel """"""
+    
+        def __init__(self, num_heads, head_size):
+            super().__init__()
+            self.heads = nn.ModuleList([Head(head_size) for _ in range(num_heads)])
+            self.proj = nn.Linear(head_size * num_heads, n_embd)
+            self.dropout = nn.Dropout(dropout)
+    
+        def forward(self, x):
+            out = torch.cat([h(x) for h in self.heads], dim=-1)
+            out = self.dropout(self.proj(out))
+            return out
+    
+    class FeedFoward(nn.Module):
+        """""" a simple linear layer followed by a non-linearity """"""
+    
+        def __init__(self, n_embd):
+            super().__init__()
+            self.net = nn.Sequential(
+                nn.Linear(n_embd, 4 * n_embd),
+                nn.ReLU(),
+                nn.Linear(4 * n_embd, n_embd),
+                nn.Dropout(dropout),
+            )
+    
+        def forward(self, x):
+            return self.net(x)
+    
+    class Block(nn.Module):
+        """""" Transformer block: communication followed by computation """"""
+    
+        def __init__(self, n_embd, n_head):
+            # n_embd: embedding dimension, n_head: the number of heads we'd like
+            super().__init__()
+            head_size = n_embd // n_head
+            self.sa = MultiHeadAttention(n_head, head_size)
+            self.ffwd = FeedFoward(n_embd)
+            self.ln1 = nn.LayerNorm(n_embd)
+            self.ln2 = nn.LayerNorm(n_embd)
+    
+        def forward(self, x):
+            x = x + self.sa(self.ln1(x))
+            x = x + self.ffwd(self.ln2(x))
+            return x
+    
+    class GPTLanguageModel(nn.Module):
+    
+        def __init__(self):
+            super().__init__()
+            # each token directly reads off the logits for the next token from a lookup table
+            self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
+            self.position_embedding_table = nn.Embedding(block_size, n_embd)
+            self.blocks = nn.Sequential(*[Block(n_embd, n_head=n_head) for _ in range(n_layer)])
+            self.ln_f = nn.LayerNorm(n_embd) # final layer norm
+            self.lm_head = nn.Linear(n_embd, vocab_size)
+    
+            # better init, not covered in the original GPT video, but important, will cover in followup video
+            self.apply(self._init_weights)
+    
+        def _init_weights(self, module):
+            if isinstance(module, nn.Linear):
+                torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+                if module.bias is not None:
+                    torch.nn.init.zeros_(module.bias)
+            elif isinstance(module, nn.Embedding):
+                torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+    
+        def forward(self, idx, targets=None):
+            B, T = idx.shape
+    
+            # idx and targets are both (B,T) tensor of integers
+            tok_emb = self.token_embedding_table(idx) # (B,T,C)
+            pos_emb = self.position_embedding_table(torch.arange(T, device=device)) # (T,C)
+            x = tok_emb + pos_emb # (B,T,C)
+            x = self.blocks(x) # (B,T,C)
+            x = self.ln_f(x) # (B,T,C)
+            logits = self.lm_head(x) # (B,T,vocab_size)
+    
+            if targets is None:
+                loss = None
+            else:
+                B, T, C = logits.shape
+                logits = logits.view(B*T, C)
+                targets = targets.view(B*T)
+                loss = F.cross_entropy(logits, targets)
+    
+            return logits, loss
+    
+        def generate(self, idx, max_new_tokens):
+            # idx is (B, T) array of indices in the current context
+            for _ in range(max_new_tokens):
+                # crop idx to the last block_size tokens
+                idx_cond = idx[:, -block_size:]
+                # get the predictions
+                logits, loss = self(idx_cond)
+                # focus only on the last time step
+                logits = logits[:, -1, :] # becomes (B, C)
+                # apply softmax to get probabilities
+                probs = F.softmax(logits, dim=-1) # (B, C)
+                # sample from the distribution
+                idx_next = torch.multinomial(probs, num_samples=1) # (B, 1)
+                # append sampled index to the running sequence
+                idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
+            return idx
+    
+    model = GPTLanguageModel()
+    m = model.to(device)
+    # print the number of parameters in the model
+    print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
+    
+    # create a PyTorch optimizer
+    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+    
+    for iter in range(max_iters):
+    
+        # every once in a while evaluate the loss on train and val sets
+        if iter % eval_interval == 0 or iter == max_iters - 1:
+            losses = estimate_loss()
+            print(f""step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}"")
+    
+        if iter % 10000 == 0 and (iter != 0 or iter != max_iters):
+            torch.save(model.state_dict(), 'GPT_saturninV2New'+str(iter)+'.pth')
+    
+        # sample a batch of data
+        xb, yb = get_batch('train')
+    
+        # evaluate the loss
+        logits, loss = model(xb, yb)
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        optimizer.step()
+    
+    torch.save(model.state_dict(), 'GPT_saturninV2New.pth')
+
+Thanks"
+36,12il5t0,learnmachinelearning,GPT-4,comments,2023-04-11 14:14:34,Help with pet project to learn - Running ChatGPT-2 at home,SigmaSixShooter,False,0.88,6,https://www.reddit.com/r/learnmachinelearning/comments/12il5t0/help_with_pet_project_to_learn_running_chatgpt2/,2,1681222474.0,"Greetings,
+
+(Edit on Apr 12: Realized I screwed up and forgot I had a tokenize script as well. Updated things to properly reflect the process in case this is helpful for anyone else)
+
+I know I'm probably the millionth person to ask, but I've tried as hard as I can to work through all of this and I've gotten stuck.
+
+# The Goal
+
+Train/fine-tune a model (not sure which) based on the TV show Firefly. I wanted to run this on the ChatGPT-2 model as that's what ChatGPT suggested. I've gathered the data, prepared it for training, and done the training itself. When I try to actually interact with it though, I get a lot of garbage back.
+
+This is mostly a learning exercise for me as my end goal is to train/fine-tune something using internal data, so I need something that can run on consumer-grade hardware (I've got a 2019 MacBook Pro with an 8 core I9, AMD Radeon Pro 5300 and 32 gigs of ram). This would ultimately lead to something being used for commercial purposes, so I'm trying to be careful which models I use/train etc.
+
+
+Here's a high level summary of what I've done, I'm hoping someone can help me understand where I might have went wrong. I'd greatly appreciate any assistance you're willing to provide. I've got some of my own thoughts/questions at the bottom of this post.
+
+# Download ChatGPT-2
+
+I made a clone of [https://github.com/openai/gpt-2](https://github.com/openai/gpt-2) on my local laptop
+
+# Gather and prepare the data
+
+I started out with a simple format where every line was formatted ""<Char Name>:<Dialogue>"" but ChatGPT eventually convinced me to convert this into JSON. I suspect this may be the heart of my problem. Below is a sample of what the JSON looks like. The  JSON is stored as one giant line in a text file, I'm not sure if that matters or not. It is valid JSON though.
+
+Based on the recommendation from ChatGPT, I had this broken up into 80% for training data (training-data.json) and 20% for validation (validate-data.json)
+
+```
+$ cat training-data.json| jq | head
+[
+  {
+    ""character"": ""Jayne"",
+    ""dialogue"": ""Your move.""
+  },
+  {
+    ""character"": ""Zoe"",
+    ""dialogue"": ""That's a bold move.""
+  },
+```
+# Tokenize the training data
+(At least I think that's what I did here). The end result were two new files, `train_dataset.pt` and `valid_dataset.pt`. 
+
+```
+import torch
+from transformers import GPT2TokenizerFast
+
+tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
+tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
+train_text = open('scripts/xaa', 'r').read()
+valid_text = open('scripts/xab', 'r').read()
+
+train_encodings = tokenizer(train_text, truncation=True, padding=True)
+valid_encodings = tokenizer(valid_text, truncation=True, padding=True)
+
+train_dataset = torch.utils.data.TensorDataset(
+    torch.tensor(train_encodings['input_ids']),
+    torch.tensor(train_encodings['attention_mask'])
+)
+valid_dataset = torch.utils.data.TensorDataset(
+    torch.tensor(valid_encodings['input_ids']),
+    torch.tensor(valid_encodings['attention_mask'])
+)
+
+print(""Sample"")
+print(train_encodings['input_ids'][0:10])  # print the first 10 tokens
+# Save the tokenized data to separate files
+torch.save(train_dataset, 'train_dataset.pt')
+torch.save(valid_dataset, 'valid_dataset.pt')
+```
+
+# Train the model?
+I get confused by training and fine-tuning. The result of this was something output in the `models/gpt-finetuned` folder, so I guess I'm fine-tuning it. 
+
+Code generated by ChatGPT
+
+```
+import torch
+from torch.utils.data import DataLoader
+from transformers import GPT2LMHeadModel, GPT2TokenizerFast
+from tqdm import trange
+import sys
+import time
+
+# Check if GPU is available
+device = torch.device(""mps"" if torch.backends.mps.is_available() else ""cpu"")
+print(device)
+
+if device == ""cpu"":
+    sys.exit()
+
+start_time = time.time()  # Record the start time
+
+# Load the data
+train_dataset = torch.load('train_dataset.pt')
+valid_dataset = torch.load('valid_dataset.pt')
+
+# Initialize the tokenizer and model
+tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
+model = GPT2LMHeadModel.from_pretrained('gpt2')
+
+# Set the batch size and number of epochs
+batch_size = 5
+num_epochs = 4
+
+# Create data loaders
+train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+valid_loader = DataLoader(valid_dataset, batch_size=batch_size)
+
+# Set up the optimizer and training parameters
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)
+scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
+total_steps = len(train_loader) * num_epochs
+warmup_steps = int(0.1 * total_steps)
+num_steps = 0
+
+# Set the device to GPU if available
+device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
+model.to(device)
+
+# Train the model
+for epoch in range(num_epochs):
+    epoch_loss = 0
+    progress_bar = trange(len(train_loader))
+    for i, batch in enumerate(train_loader):
+        # Move the batch to the device
+        batch = tuple(t.to(device) for t in batch)
+        inputs, labels = batch
+
+        # Zero the gradients and forward pass
+        optimizer.zero_grad()
+        outputs = model(inputs, labels=labels)
+        loss, logits = outputs[:2]
+        epoch_loss += loss.item()
+
+        # Backward pass and update parameters
+        loss.backward()
+        optimizer.step()
+        scheduler.step(loss)
+
+        # Update progress bar
+        num_steps += 1
+        progress_bar.update(1)
+        progress_bar.set_description(f""Epoch {epoch + 1}/{num_epochs}"")
+        progress_bar.set_postfix(loss=loss.item())
+
+    # Print the average loss for the epoch
+    print(f'Epoch {epoch + 1} Loss: {epoch_loss / len(train_loader)}')
+
+# Save the model
+model.save_pretrained('models/gpt2-finetuned')
+
+end_time = time.time()  # Record the end time
+total_duration = end_time - start_time  # Calculate the total duration
+print(f""Total training time: {total_duration:.2f} seconds"")
+```
+
+# Trying it out
+
+I then had ChatGPT create me a python script to run all of this.
+
+```
+import torch
+from transformers import GPT2LMHeadModel, GPT2TokenizerFast
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+
+def generate_response(model, tokenizer, prompt, max_length=100, num_return_sequences=1):
+    input_ids = tokenizer.encode(prompt, return_tensors='pt')
+    attention_mask = torch.ones(input_ids.shape, dtype=torch.long)
+    output = model.generate(
+        input_ids,
+        attention_mask=attention_mask,
+        max_length=max_length,
+        num_return_sequences=num_return_sequences,
+        no_repeat_ngram_size=2,
+        temperature=5.0,
+        top_p=1.5,
+    )
+    decoded_output = [tokenizer.decode(seq) for seq in output]
+    return decoded_output
+
+
+def main():
+    model_name = 'models/gpt2-finetuned'
+    model = GPT2LMHeadModel.from_pretrained(model_name)
+    tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')  # Use the default GPT-2 tokenizer
+    
+    print(""Type 'quit' to exit the program."")
+    while True:
+        prompt = input(""Ask a question: "")
+        if prompt.lower() == 'quit':
+            break
+
+        responses = generate_response(model, tokenizer, prompt)
+        print(""Answer:"", responses[0].strip())
+
+if __name__ == ""__main__"":
+    main()
+```
+
+Running the above gets me something like this:
+```
+Ask a question: Give me an impression of Jayne from Firefly
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Answer: Give me an impression of Jayne from Firefly""
+
+""I'm a big fan of the show""!
+.!!!""!!!!!!!!?!!!!!!!!!""
+,!!,!!:!!.!!?!!'!!"",!,!:!,!,!:!""!""!,!""!:!:!.!,!.!""!!!,!!!:!!!!!.!:!!!!,!!!!""!.!.!!!'!,!'!'!""!'!.!'!:!'!!!!!!!!?!!?!!!
+```
+
+This seems pretty far from desirable, but I can't really tell where I went wrong.
+
+# Thoughts/questions
+
+* I realize the data I gave it is just Character Name/Dialogue. Maybe it has no way of knowing everything I added was from Firefly....
+* How could I better prepare the data for training? I think this is where I likely went wrong?
+* Is there a better way I should have went about this?
+* How can I further troubleshoot this?
+* Is what I'm **trying** to do called ""fine tuning a model""?"
+37,124u87e,learnmachinelearning,GPT-4,comments,2023-03-28 16:24:47,Specific Open Problems in ML Alignment or Capabilities to Help Develop GPT-6?,TikkunCreation,False,0.67,1,https://www.reddit.com/r/learnmachinelearning/comments/124u87e/specific_open_problems_in_ml_alignment_or/,2,1680020687.0,"As we witness the rapid advancements in large language models (LLMs) like GPT-4, I am increasingly interested in actively contributing to the research and development of even more advanced models, such as GPT-6 (given that GPT-5 is already being trained). I understand that training these models requires massive compute resources, and many people believe using LLMs is more valuable than creating them. However, I'm convinced that there's still a lot to learn, and I want to be part of the process that helps push the boundaries of AI research further.
+
+I would like to ask for your input on what are three specific open problems in ML alignment or capabilities work, where if solved, they'd help in the development of models like GPT-6. I'm not interested in pointers related to making smaller models, fine tuning, distilling, prompting, or utilizing the models. I'm specifically interested in things that could help make GPT-6 better.
+
+Basically, I'm looking for open puzzles. The most important open questions in research. Where I can play with it myself, and get a sense for some of the current challenges in the field."
+38,10344lj,learnmachinelearning,GPT-4,comments,2023-01-04 13:49:10,ML study plan according to ChatGPT,adastro,False,0.67,1,https://www.reddit.com/r/learnmachinelearning/comments/10344lj/ml_study_plan_according_to_chatgpt/,2,1672840150.0,"People often ask for recommendations about how to get involved with ML, so I thought it would have been interesting to ask ChatGPT directly (specifically about GPT-3 tech).
+
+### The prompt
+
+> Please make a detailed study plan for the math topics one needs to know in order to implement and understand GPT-3 technology. Provide them in the right order (prerequisites for one topic must come before that topic).  Add an approximate time schedule, considering the case of a person who can devote 4 hours/week to studying. Please go into the specifics and add only the best books and online course references (with their full link) for each topic.
+
+### The answer
+
+GPT-3 (short for ""Generative Pre-trained Transformer 3"") is a state-of-the-art language processing technology developed by OpenAI. It uses machine learning techniques to generate human-like text and has a wide range of applications, including language translation, question answering, and language generation.
+
+To understand and implement GPT-3 technology, you will need a strong foundation in mathematics and computer science. Specifically, you will need to be proficient in the following areas:
+
+1. **Linear algebra**: This is a fundamental mathematical discipline that deals with the study of vector spaces and linear transformations. It is a key component of machine learning and is used to represent data in a concise and efficient manner.
+    
+    Approximate time to complete: 4-6 weeks
+
+    Resources:
+
+    - Khan Academy's Linear Algebra course: https://www.khanacademy.org/math/linear-algebra
+    - Gilbert Strang's Linear Algebra textbook
+
+2. **Calculus**: This is a branch of mathematics that deals with the study of rates of change and the accumulation of quantities. It is essential for understanding the mathematical foundations of machine learning and is used to optimize machine learning models.
+
+    Approximate time to complete: 6-8 weeks
+
+    Resources:
+
+    - Khan Academy's Calculus course: https://www.khanacademy.org/math/calculus-home
+    - James Stewart's Calculus textbook
+
+3. **Probability and statistics**: This is the study of random phenomena and the analysis of data. It is used to model and understand the uncertainty inherent in machine learning systems.
+
+    Approximate time to complete: 4-6 weeks
+
+    Resources:
+
+    - Khan Academy's Probability and Statistics course: https://www.khanacademy.org/math/statistics-probability
+    - Sheldon Ross's A First Course in Probability textbook
+
+4. **Artificial intelligence**: This is the study of how to design intelligent computer systems that can learn, adapt, and make decisions. It is a broad field that encompasses a range of subdisciplines, including machine learning, natural language processing, and robotics.
+
+    Approximate time to complete: 6-8 weeks
+
+    Resources:
+
+    - Stanford's Introduction to Artificial Intelligence course: https://online.stanford.edu/courses/cs221-artificial-intelligence-principles-and-techniques
+    - Peter Norvig and Stuart Russell's Artificial Intelligence: A Modern Approach textbook
+
+5. **Natural language processing**: This is the study of how to design computer systems that can understand and generate human language. It is a key component of GPT-3 and is used to process and generate human-like text.
+    
+    Approximate time to complete: 4-6 weeks
+
+    Resources:
+
+    - Stanford's Natural Language Processing course: https://online.stanford.edu/courses/cs224n-natural-language-processing-deep-learning    - Jurafsky and Martin's Speech and Language Processing textbook
+---
+
+(I removed links to online stores since I'm not sure whether this would break some rules here. Also, some links were broken.)
+The book suggestions changed whenever I regenerated the response or made minor changes to the prompt, so I suppose that the model doesn't have a very strong opinion about what the ""best"" books are. Online courses were quite stable across answers, instead.
+
+Please share your opinions and more resources if you like :)"
+39,11xh5hr,learnmachinelearning,GPT-4,comments,2023-03-21 13:38:10,Large Language models for Summarization,vm123313223,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/11xh5hr/large_language_models_for_summarization/,2,1679405890.0,"How to get the results of OpenAI (GPT-3) for summarization with open source models?
+
+Some models which I have tried are:
+
+1. FLAN-T5
+2. Pegasus
+3. BART
+4. GPT-J
+5. FTAN--UL2
+
+I have also implemented fewshot learning with these models."
+40,11sllq8,learnmachinelearning,GPT-4,comments,2023-03-16 05:52:25,"Here's a summary of GPT-4 interesting features and it's livestream, blog, website articles",crower12,False,0.55,1,https://youtu.be/PNk_10Fdb9Y,1,1678945945.0,
+41,zo4jrk,learnmachinelearning,GPT-4,comments,2022-12-17 11:39:11,why everyone is talking about GPT-4?,M20s,False,0.11,0,https://www.reddit.com/r/learnmachinelearning/comments/zo4jrk/why_everyone_is_talking_about_gpt4/,1,1671277151.0,
+42,12br5jk,learnmachinelearning,GPT-4,comments,2023-04-04 18:03:20,Talk to ChatGPT-4 with your voice and even hear its responses spoken in your own voice.,TalkNowVoice,False,0.25,0,https://www.reddit.com/r/learnmachinelearning/comments/12br5jk/talk_to_chatgpt4_with_your_voice_and_even_hear/,1,1680631400.0,"[App Beta link.](https://testflight.apple.com/join/WYwS7eX5)
+
+&#x200B;
+
+https://reddit.com/link/12br5jk/video/4u14hkihqwra1/player"
+43,137ebj9,learnmachinelearning,GPT-4,comments,2023-05-04 08:27:11,How to create a love chatbot using llm while building proprietory data set,Thomasallnice,False,0.5,0,https://www.reddit.com/r/learnmachinelearning/comments/137ebj9/how_to_create_a_love_chatbot_using_llm_while/,1,1683188831.0,"Hi, I am looking for a roadmap on how I can build a chatbot / [ai agent](https://www.reddit.com/r/ChatGPT/comments/12diapw/gpt4_week_3_chatbots_are_yesterdays_news_ai/) that helps people to handle their romantic relationships. The idea is to start with a LLM like chatgpt and also have real humans answering and moderating the questions that the ai might struggle with. I want to somehow integrate a database of FAQs that the LLM can uss and that grows over time. Since the topic is related to love and emotions I am not sure if Chatgpt is the right tool if not somehow jailbroken.
+
+* How would your roadmap to achieving this look like?
+* What Chatbot / Ai Agent is the best for that?
+* Can I use Chatgpt 4 with the chatbot and does it also handle romantic topics?
+* How would I integrate a FAQ database that the AI can index or use?
+* Can I index other resources (like reddit) as well and give it higher weights in the LLMs?
+
+Thank you so much?"
+44,11t3fgn,learnmachinelearning,GPT-4,comments,2023-03-16 19:16:18,Problems with Wav2lip,MF3DOOM,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/11t3fgn/problems_with_wav2lip/,1,1678994178.0," 
+
+Hey everyone, I'm new to machine learning and I'm currently trying to use wav2lip on a Google Colab notebook. However, I keep running into an error that says:
+
+""ERROR: Could not find a version that satisfies the requirement opencv-python==4.1.0.25 (from versions: 3.4.0.14, 3.4.10.37, 3.4.11.39, 3.4.11.41, 3.4.11.43, 3.4.11.45, 3.4.13.47, 3.4.14.51, 3.4.14.53, 3.4.15.55, 3.4.16.57, 3.4.16.59, 3.4.17.61, 3.4.17.63, 3.4.18.65, 4.3.0.38, 4.4.0.40, 4.4.0.42, 4.4.0.44, 4.4.0.46, 4.5.1.48, 4.5.2.52, 4.5.2.54, 4.5.3.56, 4.5.4.58, 4.5.4.60, 4.5.5.62, 4.5.5.64, 4.6.0.66, 4.7.0.68, 4.7.0.72) ERROR: No matching distribution found for opencv-python==4.1.0.25""
+
+I've tried to fix the problem by running ""!pip install opencv-python==4.5.3.56"" in the code cell, as instructed by some youtube videos and ChatGPT, but it hasn't worked. Does anyone have any experience with wav2lip and knows how to solve this error? Any help would be greatly appreciated. Thank you!"
+45,11riiip,learnmachinelearning,GPT-4,comments,2023-03-15 01:54:30,How good is GPT-4 compared to ChatGPT?,OnlyProggingForFun,False,0.42,0,https://youtu.be/GroMQETFXLc,1,1678845270.0,
+46,12luajw,learnmachinelearning,GPT-4,comments,2023-04-14 11:37:08,Post GPT-4: Answering Most Asked Questions About AI,kingabzpro,False,0.94,15,https://www.kdnuggets.com/2023/04/post-gpt4-answering-asked-questions-ai.html,1,1681472228.0,
+47,12jb3hy,learnmachinelearning,GPT-4,comments,2023-04-12 05:19:38,Is OpenAI’s Study On The Labor Market Impacts Of AI Flawed?,LesleyFair,False,1.0,3,https://www.reddit.com/r/learnmachinelearning/comments/12jb3hy/is_openais_study_on_the_labor_market_impacts_of/,0,1681276778.0,"[Example img\_name](https://preview.redd.it/u4m50gaj1eta1.png?width=1451&format=png&auto=webp&s=8c9eda5aebd66ad1c6514ba8fe14bca7dc0e381a)
+
+We all have heard an uncountable amount of predictions about how AI will ***terk err jerbs!***
+
+However, here we have a proper study on the topic from OpenAI and the University of Pennsylvania. They investigate how Generative Pre-trained Transformers (GPTs) could automate tasks across different occupations \[1\].
+
+Although I’m going to discuss how the study comes with a set of “imperfections”, the findings still make me really excited. The findings suggest that machine learning is going to deliver some serious productivity gains.
+
+People in the data science world fought tooth and nail for years to squeeze some value out of incomplete data sets from scattered sources while hand-holding people on their way toward a data-driven organization. At the same time, the media was flooded with predictions of omniscient AI right around the corner.
+
+*Let’s dive in and take an* exciting glimpse into the future of labor markets\*!\*
+
+# What They Did
+
+The study looks at all US occupations. It breaks them down into tasks and assesses the possible level of for each task. They use that to estimate how much automation is possible for a given occupation.
+
+The researchers used the [O\*NET database,](https://www.onetcenter.org/database.html) which is an occupation database specifically for the U.S. market. It lists 1,016 occupations along with its standardized descriptions of tasks.
+
+The researchers annotated each task once manually and once using GPT-4. Thereby, each task was labeled as either somewhat (<50%) or significantly (>50%) automatable through LLMs. In their judgment, they considered both the direct “exposure” of a task to GPT as well as to a secondary GPT-powered system, e.g. LLMs integrated with image generation systems.
+
+To reiterate, a higher “exposure” means that an occupation is more likely to get automated.
+
+Lastly, they enriched the occupation data with wages and demographic information. This was used to determine whether e. g. high or low-paying jobs are at higher risk to be automated.
+
+So far so good. This all sounds pretty decent. Sure, there is a lot of qualitative judgment going into their data acquisition process. However, we gotta cut them some slag. These kinds of studies always struggle to get any hard data and so far they did a good job.
+
+However, there are a few obvious things to criticize. But before we get to that let’s look at their results.
+
+# Key Findings
+
+The study finds that 80% of the US workforce, across all industries, could have at least some tasks affected. Even more significantly, 19% of occupations are expected to have at least half of their tasks significantly automated!
+
+Furthermore, they find that higher levels of automation exposure are associated with:
+
+* Programming and writing skills
+* Higher wages (contrary to previous research!)
+* Higher levels of education (Bachelor’s and up)
+
+Lower levels of exposure are associated with:
+
+* Science and critical thinking skills
+* Manual work and tasks that might potentially be done using physical robots
+
+This is somewhat unsurprising. We of course know that LLMs will likely not increase productivity in the plumbing business. However, their findings underline again how different this wave is. In the past, simple and repetitive tasks fell prey to automation.
+
+*This time it’s the suits!*
+
+If we took this study at face value, many of us could start thinking about life as full-time pensioners.
+
+But not so fast! This, like all the other studies on the topic, has a number of flaws.
+
+# Necessary Criticism
+
+First, let’s address the elephant in the room!
+
+OpenAI co-authored the study. They have a vested interest in the hype around AI, both for commercial and regulatory reasons. Even if the external researchers performed their work with the utmost thoroughness and integrity, which I am sure they did, the involvement of OpenAI could have introduced an unconscious bias.
+
+*But there’s more!*
+
+The occupation database contains over 1000 occupations broken down into tasks. Neither GPT-4 nor the human labelers can possibly have a complete understanding of all the tasks across all occupations. Hence, their judgment about how much a certain task can be automated has to be rather hand-wavy in many cases.
+
+Flaws in the data also arise from the GPT-based labeling itself.
+
+The internet is flooded with countless sensationalist articles about how AI will replace jobs. It is hard to gauge whether this actually causes GPT models to be more optimistic when it comes to their own impact on society. However, it is possible and should not be neglected.
+
+The authors do also not really distinguish between labor-augmenting and labor-displacing effects and it is hard to know what “affected by” or “exposed to LLMs” actually means. Will people be replaced or will they just be able to do more?
+
+Last but not least, lists of tasks most likely do not capture all requirements in a given occupation. For instance ""making someone feel cared for"" can be an essential part of a job but might be neglected in such a list.
+
+# Take-Away And Implications
+
+GPT models have the world in a frenzy - rightfully so.
+
+Nobody knows whether 19% of knowledge work gets heavily automated or if it is only 10%.
+
+As the dust settles, we will begin to see how the ecosystem develops and how productivity in different industries can be increased. Time will tell whether foundational LLMs, specialized smaller models, or vertical tools built on top of APIs will be having the biggest impact.
+
+In any case, these technologies have the potential to create unimaginable value for the world. At the same time, change rarely happens without pain. I strongly believe in human ingenuity and our ability to adapt to change. All in all, the study - flaws aside - represents an honest attempt at gauging the future.
+
+Efforts like this and their scrutiny are our best shot at navigating the future. Well, or we all get chased out of the city by pitchforks.
+
+Jokes aside!
+
+What an exciting time for science and humanity!
+
+As always, I really enjoyed making this for you and I sincerely hope you found value in it!
+
+If you are not subscribed to the newsletter yet, [click here to sign up](https://thedecoding.net/)! I send out a thoughtful 5-minute email every week to keep you in the loop about machine learning research and the data economy.
+
+*Thank you for reading and I see you next week ⭕!*
+
+**References:**
+
+\[1\] [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)"
+48,11sdxhz,learnmachinelearning,GPT-4,comments,2023-03-16 00:03:32,OpenAI's GPT 4 is out and it's multimodal! What we know so far,gordicaleksa,False,0.3,0,https://www.youtube.com/watch?v=FY9Nlkoq4GI,0,1678925012.0,
+49,znr9hq,learnmachinelearning,GPT-4,comments,2022-12-16 22:40:24,How would I build an ML model to generate code for Fabric mods in Minecraft (text to fabric code),MachineLearner523,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/znr9hq/how_would_i_build_an_ml_model_to_generate_code/,0,1671230424.0,"Fabric is a library that mod developers can use to hook into the game's code and make changes. 
+
+For example, if I input the text ""make an orb that flies around the player in a circular motion,"" the model should be able to generate fabric library code that creates such an orb in the game. 
+
+My plan is:
+
+1. download code from all Fabric mods on Github
+
+2. tokenize the code using the GPT-2 tokenizer
+
+3. convert the tokenized code to vector embeddings using OpenAI's embeddings endpoint
+
+4. ? and then use these embeddings to train a model that can generate code based on input text. 
+
+I'm wondering if it would be more appropriate to use reinforcement learning or transformers for this task. Can anyone provide guidance on which approach might be more suitable for this problem, or suggest other approaches I should consider?"
+50,10fw2df,learnmachinelearning,GPT-4,relevance,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,334,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+51,12uwd8p,learnmachinelearning,GPT-4,relevance,2023-04-22 05:51:13,Integrating Google search into OpenAI models like GPT-4,Ghost25,False,0.95,14,https://www.reddit.com/r/learnmachinelearning/comments/12uwd8p/integrating_google_search_into_openai_models_like/,8,1682142673.0,"Thought I'd share an explanation of how I implemented Google search into my GPT-4 based chatbot.
+
+Github here: https://github.com/sgreenb/pico_assistant
+
+One extremally simple modification that dramatically improves the ability of a GPT to answer questions: letting it Google stuff.
+
+Here’s a demo:
+
+https://imgur.com/ZR6hvLg 1
+
+The implementation works like this.
+
+1. A user enters an input.
+2. An agent called “Executive” looks at the input and decides if an API like Spotify, Twillio, or Gmail is needed or if it can be answered by the chatbot alone.
+3. If the chatbot is needed the input is first sent to a Google agent. The Google agent’s system message looks like this:
+
+```
+{""role"":""system"", ""content"": ""You analyze a user's input to a large language model with \
+training data that cuts off at September 2021. The current year is 2023. You decide how \
+likely it is that a user's request will benefit from a Google search to help address the\
+question. Respond with a number in the range 1-10, where 1 is very unlikely that a \
+Google search would be beneficial, and 10 meaning a Google search is highly necessary.""}
+```
+
+This is quite fast, since it only needs to generate one or two tokens.
+
+If the output is above some threshold (say 7), then we call another agent, the query agent, otherwise we return False and default to the normal chat agent.
+
+```
+    google_probability = int(completion.choices[0].message.content)
+    if google_probability >= cutoff:
+        search_results = trim_text(search_and_scrape(prompt))
+        query_with_context = prompt + str(search_results)
+        print(""\nPico: "", end='', flush=True)
+        response = query_agent_stream(query_with_context)
+        return response
+    else:
+        return False
+```
+
+When we call the query agent, we feed it the first part of a Google search we get from searching the input. We get that from the very simple trim_text and search_and_scrape functions that look like this:
+
+```
+
+def search_and_scrape(query):
+    try:
+        headers = {
+            ""User-Agent"": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3""
+        }
+        url = f""https://www.google.com/search?q={query}""
+        response = requests.get(url, headers=headers)
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            text = soup.get_text()
+            cleaned_text = ' '.join(text.split())
+            return cleaned_text
+        else:
+            print(f""Failed to fetch search results for query: {query}, status code: {response.status_code}"")
+            return None
+
+    except Exception as e:
+        print(f""Error fetching search results for query: {query}, error: {e}"")
+        return None
+
+def trim_text(text, start_index = 450, length=1500):
+    return text[start_index:start_index + length]
+```
+
+The query agent has this system message:
+
+```
+{""role"":""system"", ""content"": ""You answer a user's question, given some text as context to help\
+answer the question. The user request will be followed by the context. The context given is\
+from the user's Google search results, it is current and up to date.\
+Do not contradict the contents of the given text in your answer.""}
+```
+
+And that’s it. You can change the cutoff threshold or get more sophisticated with fetching web results. I hope you find this useful."
+52,11riiip,learnmachinelearning,GPT-4,relevance,2023-03-15 01:54:30,How good is GPT-4 compared to ChatGPT?,OnlyProggingForFun,False,0.36,0,https://youtu.be/GroMQETFXLc,1,1678845270.0,
+53,131yxdl,learnmachinelearning,GPT-4,relevance,2023-04-28 16:04:48,A Lightweight Alternative to GPT-4 for Enhanced Vision-language Understanding,kingabzpro,False,0.89,18,https://www.kdnuggets.com/2023/04/minigpt4-lightweight-alternative-gpt4-enhanced-visionlanguage-understanding.html,0,1682697888.0,
+54,12rxm7r,learnmachinelearning,GPT-4,relevance,2023-04-19 15:26:42,How to Get Hired as Data Scientist in the GPT-4 Era,kingabzpro,False,0.13,0,https://www.reddit.com/r/learnmachinelearning/comments/12rxm7r/how_to_get_hired_as_data_scientist_in_the_gpt4_era/,2,1681918002.0,"In this post, I share some tips and insights on how to stand out in the competitive data science job market, especially with the rise of GPT-4 and other advanced NLP models.  
+
+
+**You will learn how to:**
+
+* Brush up on your statistics and core data science concepts, and how to apply them in real-world scenarios.
+* Master the skills of NLP and prompt engineering, and how to leverage GPT-4 for various data science tasks.
+* Build a data science portfolio that showcases your projects and achievements, and how to use GitHub, Medium, and Kaggle to showcase your work.
+* Prepare for data science interviews, and how to ace the technical, behavioral, and case study questions.
+* Explore the emerging field of AIOps, and how to use data science to automate and optimize IT operations.
+
+[https://www.kdnuggets.com/2023/04/get-hired-data-scientist-gpt4-era.html](https://www.kdnuggets.com/2023/04/get-hired-data-scientist-gpt4-era.html)
+
+I hope you find this post useful and informative. Please feel free to share your feedback and comments."
+55,11st9ed,learnmachinelearning,GPT-4,relevance,2023-03-16 12:50:13,Alpaca - Train Your GPT-4 for Less Than $100,deeplearningperson,False,0.2,0,https://www.reddit.com/r/learnmachinelearning/comments/11st9ed/alpaca_train_your_gpt4_for_less_than_100/,0,1678971013.0,[https://youtu.be/6qdzsDSduww](https://youtu.be/6qdzsDSduww)
+56,11sllq8,learnmachinelearning,GPT-4,relevance,2023-03-16 05:52:25,"Here's a summary of GPT-4 interesting features and it's livestream, blog, website articles",crower12,False,0.38,0,https://youtu.be/PNk_10Fdb9Y,1,1678945945.0,
+57,12hv6qn,learnmachinelearning,GPT-4,relevance,2023-04-10 20:31:01,"SearchBot9k - Searches Google, checks result pages, answers the question in a headless browser using the GPT-4 or ChatGPT API [JS]",pale2hall,False,1.0,4,https://www.reddit.com/r/learnmachinelearning/comments/12hv6qn/searchbot9k_searches_google_checks_result_pages/,0,1681158661.0,"Hey guys, I made a simple Node.js script to search google
+
+1. User runs script with a question
+2. initial prompt sent to AI
+3. AI comes up with a search phrase
+4. SERP (search engine result page) sent to AI
+5. AI has a 'memory' field 
+6. We loop till we find an answer while the AI: Answers the Question, Starts a new Search, or Loads a URL
+
+All the while the user gets to watch what page is being browsed in an electron-based pop-up window, and the AI can update a 'memory' that is passed back to it to keep it on track.
+
+The AI uses JSON to respond.
+
+Project: [https://github.com/pale2hall/SearchBot9k](https://github.com/pale2hall/SearchBot9k)
+
+I welcome any feedback suggestions, if anyone wants to work on it / make a PR, feel free.  I'll be developing it in my spare time too.
+
+Current Todo:
+
+* Refactor code / break functions into individual files
+* Separate Prompt vs JS
+* Handle looping / make 
+* Make Memory always contain previous searches and urls so it doesn't get stuck in a loop.
+* Count tokens instead of Characters when truncating results for the AI"
+58,13hzvkc,learnmachinelearning,GPT-4,relevance,2023-05-15 06:27:00,Bilingual people : How good is AI at machine translation today?,moschles,False,0.83,20,https://www.reddit.com/r/learnmachinelearning/comments/13hzvkc/bilingual_people_how_good_is_ai_at_machine/,22,1684132020.0,"In the wake of GPT-4 and chatGPT, how good would you rank machine translators in terms of their accuracy?
+
+Are they only useful for one-off sentences? Do they fail when presented with any kind of moderately complex articles? Do they perform vastly different depending on the languages?     Are they still really stupid, or does their output blow you away now?"
+59,12rgan0,learnmachinelearning,GPT-4,relevance,2023-04-19 04:10:25,"GPT-4, my best study buddy!",Somomi_,False,0.57,1,https://www.reddit.com/r/learnmachinelearning/comments/12rgan0/gpt4_my_best_study_buddy/,0,1681877425.0,"Today I find several prompts which could be very helpful for active learning.
+
+ **1. Generate Multiple Choice Question**
+
+*Topic: { }*
+
+*Write 3 multiple choice question with 1 correct answer and 3 incorrect distractor answers and let me choose an answer. Later you should let me know if I got it right or wrong and provide me with explanation.*
+
+ 
+
+**2. Generate General Question**
+
+>*Topic: { }*  
+*Write 2* *data scientist interview questions* *about this topic and let me answer them. Later you should let me know if I got it right or wrong and provide me with explanation.*
+
+ 
+
+**3. Learning by Teaching**
+
+>*Please act as a data scientist. I will tell you what I l*  
+*earn today and you can point out if I miss any step or made any mistake.*  
+*Today I learn { }*
+
+You can check my originalwith example image post here! Thank you!
+
+[https://www.kaggle.com/code/kuixizhu/gpt-4-my-best-study-buddy](https://www.kaggle.com/code/kuixizhu/gpt-4-my-best-study-buddy)"
+60,12luajw,learnmachinelearning,GPT-4,relevance,2023-04-14 11:37:08,Post GPT-4: Answering Most Asked Questions About AI,kingabzpro,False,0.94,15,https://www.kdnuggets.com/2023/04/post-gpt4-answering-asked-questions-ai.html,1,1681472228.0,
+61,zo4jrk,learnmachinelearning,GPT-4,relevance,2022-12-17 11:39:11,why everyone is talking about GPT-4?,M20s,False,0.13,0,https://www.reddit.com/r/learnmachinelearning/comments/zo4jrk/why_everyone_is_talking_about_gpt4/,1,1671277151.0,
+62,1289ann,learnmachinelearning,GPT-4,relevance,2023-04-01 03:06:13,"Title: ""Embracing the Future: Harnessing AI, GPT-4, and Moji AI for Content Creation and Social Media Engagement""",Large_Rush9013,False,0.33,0,https://www.reddit.com/r/learnmachinelearning/comments/1289ann/title_embracing_the_future_harnessing_ai_gpt4_and/,0,1680318373.0,"Hey fellow Redditors, I'm so amazed by how far AI has come in recent years, and I'm really excited to share some ideas I've come across recently. I've been learning about GPT-4 and I discovered this amazing tool called Moji AI (mojiai.io) that helps with content writing and image generation using cutting-edge technology. 
+
+Moji AI not only assists with content writing using GPT-4 but also provides image assets like icons for social media engagement. It's incredible how the new Stable Diffusion Models have improved the visual aspect of content generation! I find this technology truly impressive, and I believe it's going to make a huge impact in content creation and boosting engagement on social platforms.
+
+As a person with a technical background, I've had the chance to explore and learn various aspects of machine learning, data science, and now diving into the GPT API. It's really fascinating to see the real-world applications of these technologies and how they can bring incredible value to users.
+
+For those of you interested in learning more about AI, machine learning or even GPT, I'd highly recommend looking for beginner-friendly courses and tutorials online. The more we learn and understand these powerful tools, the better equipped we'll be to leverage them for exciting new projects and advancements in various fields.
+
+Apart from this, I'd also like to hear your thoughts and experiences with modern AI advancements, tools like Moji AI, and any useful resources you may have come across that others can benefit from. Let's keep learning and exploring this exciting domain together!
+
+Finally, if you're interested in checking out Moji AI for content writing and image generation, be sure to visit the website: [mojiai.io](https://www.mojiai.io)"
+63,11sdxhz,learnmachinelearning,GPT-4,relevance,2023-03-16 00:03:32,OpenAI's GPT 4 is out and it's multimodal! What we know so far,gordicaleksa,False,0.22,0,https://www.youtube.com/watch?v=FY9Nlkoq4GI,0,1678925012.0,
+64,12br5jk,learnmachinelearning,GPT-4,relevance,2023-04-04 18:03:20,Talk to ChatGPT-4 with your voice and even hear its responses spoken in your own voice.,TalkNowVoice,False,0.25,0,https://www.reddit.com/r/learnmachinelearning/comments/12br5jk/talk_to_chatgpt4_with_your_voice_and_even_hear/,1,1680631400.0,"[App Beta link.](https://testflight.apple.com/join/WYwS7eX5)
+
+&#x200B;
+
+https://reddit.com/link/12br5jk/video/4u14hkihqwra1/player"
+65,13eympz,learnmachinelearning,GPT-4,relevance,2023-05-11 20:15:46,Top 20 Large Language Models based on the Elo rating system.,kingabzpro,False,0.96,254,https://i.redd.it/7xfqr5crf9za1.png,43,1683836146.0,
+66,12jb3hy,learnmachinelearning,GPT-4,relevance,2023-04-12 05:19:38,Is OpenAI’s Study On The Labor Market Impacts Of AI Flawed?,LesleyFair,False,1.0,3,https://www.reddit.com/r/learnmachinelearning/comments/12jb3hy/is_openais_study_on_the_labor_market_impacts_of/,0,1681276778.0,"[Example img\_name](https://preview.redd.it/u4m50gaj1eta1.png?width=1451&format=png&auto=webp&s=8c9eda5aebd66ad1c6514ba8fe14bca7dc0e381a)
+
+We all have heard an uncountable amount of predictions about how AI will ***terk err jerbs!***
+
+However, here we have a proper study on the topic from OpenAI and the University of Pennsylvania. They investigate how Generative Pre-trained Transformers (GPTs) could automate tasks across different occupations \[1\].
+
+Although I’m going to discuss how the study comes with a set of “imperfections”, the findings still make me really excited. The findings suggest that machine learning is going to deliver some serious productivity gains.
+
+People in the data science world fought tooth and nail for years to squeeze some value out of incomplete data sets from scattered sources while hand-holding people on their way toward a data-driven organization. At the same time, the media was flooded with predictions of omniscient AI right around the corner.
+
+*Let’s dive in and take an* exciting glimpse into the future of labor markets\*!\*
+
+# What They Did
+
+The study looks at all US occupations. It breaks them down into tasks and assesses the possible level of for each task. They use that to estimate how much automation is possible for a given occupation.
+
+The researchers used the [O\*NET database,](https://www.onetcenter.org/database.html) which is an occupation database specifically for the U.S. market. It lists 1,016 occupations along with its standardized descriptions of tasks.
+
+The researchers annotated each task once manually and once using GPT-4. Thereby, each task was labeled as either somewhat (<50%) or significantly (>50%) automatable through LLMs. In their judgment, they considered both the direct “exposure” of a task to GPT as well as to a secondary GPT-powered system, e.g. LLMs integrated with image generation systems.
+
+To reiterate, a higher “exposure” means that an occupation is more likely to get automated.
+
+Lastly, they enriched the occupation data with wages and demographic information. This was used to determine whether e. g. high or low-paying jobs are at higher risk to be automated.
+
+So far so good. This all sounds pretty decent. Sure, there is a lot of qualitative judgment going into their data acquisition process. However, we gotta cut them some slag. These kinds of studies always struggle to get any hard data and so far they did a good job.
+
+However, there are a few obvious things to criticize. But before we get to that let’s look at their results.
+
+# Key Findings
+
+The study finds that 80% of the US workforce, across all industries, could have at least some tasks affected. Even more significantly, 19% of occupations are expected to have at least half of their tasks significantly automated!
+
+Furthermore, they find that higher levels of automation exposure are associated with:
+
+* Programming and writing skills
+* Higher wages (contrary to previous research!)
+* Higher levels of education (Bachelor’s and up)
+
+Lower levels of exposure are associated with:
+
+* Science and critical thinking skills
+* Manual work and tasks that might potentially be done using physical robots
+
+This is somewhat unsurprising. We of course know that LLMs will likely not increase productivity in the plumbing business. However, their findings underline again how different this wave is. In the past, simple and repetitive tasks fell prey to automation.
+
+*This time it’s the suits!*
+
+If we took this study at face value, many of us could start thinking about life as full-time pensioners.
+
+But not so fast! This, like all the other studies on the topic, has a number of flaws.
+
+# Necessary Criticism
+
+First, let’s address the elephant in the room!
+
+OpenAI co-authored the study. They have a vested interest in the hype around AI, both for commercial and regulatory reasons. Even if the external researchers performed their work with the utmost thoroughness and integrity, which I am sure they did, the involvement of OpenAI could have introduced an unconscious bias.
+
+*But there’s more!*
+
+The occupation database contains over 1000 occupations broken down into tasks. Neither GPT-4 nor the human labelers can possibly have a complete understanding of all the tasks across all occupations. Hence, their judgment about how much a certain task can be automated has to be rather hand-wavy in many cases.
+
+Flaws in the data also arise from the GPT-based labeling itself.
+
+The internet is flooded with countless sensationalist articles about how AI will replace jobs. It is hard to gauge whether this actually causes GPT models to be more optimistic when it comes to their own impact on society. However, it is possible and should not be neglected.
+
+The authors do also not really distinguish between labor-augmenting and labor-displacing effects and it is hard to know what “affected by” or “exposed to LLMs” actually means. Will people be replaced or will they just be able to do more?
+
+Last but not least, lists of tasks most likely do not capture all requirements in a given occupation. For instance ""making someone feel cared for"" can be an essential part of a job but might be neglected in such a list.
+
+# Take-Away And Implications
+
+GPT models have the world in a frenzy - rightfully so.
+
+Nobody knows whether 19% of knowledge work gets heavily automated or if it is only 10%.
+
+As the dust settles, we will begin to see how the ecosystem develops and how productivity in different industries can be increased. Time will tell whether foundational LLMs, specialized smaller models, or vertical tools built on top of APIs will be having the biggest impact.
+
+In any case, these technologies have the potential to create unimaginable value for the world. At the same time, change rarely happens without pain. I strongly believe in human ingenuity and our ability to adapt to change. All in all, the study - flaws aside - represents an honest attempt at gauging the future.
+
+Efforts like this and their scrutiny are our best shot at navigating the future. Well, or we all get chased out of the city by pitchforks.
+
+Jokes aside!
+
+What an exciting time for science and humanity!
+
+As always, I really enjoyed making this for you and I sincerely hope you found value in it!
+
+If you are not subscribed to the newsletter yet, [click here to sign up](https://thedecoding.net/)! I send out a thoughtful 5-minute email every week to keep you in the loop about machine learning research and the data economy.
+
+*Thank you for reading and I see you next week ⭕!*
+
+**References:**
+
+\[1\] [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)"
+67,133v9s5,learnmachinelearning,GPT-4,relevance,2023-04-30 15:45:04,I don't have a PhD but this just feels wrong. Can a person with a PhD confirm?,flaky_psyche,False,0.76,63,https://i.redd.it/fmkvgop7l1xa1.jpg,238,1682869504.0,
+68,124u87e,learnmachinelearning,GPT-4,relevance,2023-03-28 16:24:47,Specific Open Problems in ML Alignment or Capabilities to Help Develop GPT-6?,TikkunCreation,False,0.67,1,https://www.reddit.com/r/learnmachinelearning/comments/124u87e/specific_open_problems_in_ml_alignment_or/,2,1680020687.0,"As we witness the rapid advancements in large language models (LLMs) like GPT-4, I am increasingly interested in actively contributing to the research and development of even more advanced models, such as GPT-6 (given that GPT-5 is already being trained). I understand that training these models requires massive compute resources, and many people believe using LLMs is more valuable than creating them. However, I'm convinced that there's still a lot to learn, and I want to be part of the process that helps push the boundaries of AI research further.
+
+I would like to ask for your input on what are three specific open problems in ML alignment or capabilities work, where if solved, they'd help in the development of models like GPT-6. I'm not interested in pointers related to making smaller models, fine tuning, distilling, prompting, or utilizing the models. I'm specifically interested in things that could help make GPT-6 better.
+
+Basically, I'm looking for open puzzles. The most important open questions in research. Where I can play with it myself, and get a sense for some of the current challenges in the field."
+69,13e7ydv,learnmachinelearning,GPT-4,relevance,2023-05-11 00:19:48,The last decade of NLP research covered in 50 concepts,AvvYaa,False,0.94,16,https://www.reddit.com/r/learnmachinelearning/comments/13e7ydv/the_last_decade_of_nlp_research_covered_in_50/,0,1683764388.0," 
+
+I just uploaded a video on my Youtube channel covering 50 important concepts discussing the last 10 years of NLP/Language Modeling research. 
+
+The video covers the basics of word embeddings, tokenizers, and then the RNN based Seq2Seq architectures of the mid 2010s… then describes Attention/Transformers and some of the key Transformer-based LM research from 2017-2021. Finally, I cover human alignment / RLHF / instruction tuning with InstructGPT, ChatGPT and GPT-4. I tried to make a video that is accessible for new researchers/students to get their feet wet, and for guys like me to reminisce and celebrate the RNNs / self-supervised Transformer era as we step into the new world of human aligned LLMs. 
+
+I am a small YT channel, and this is my first time doing a video of this scale (I normally do Reinforcement Learning stuff/paper reviews), so this was a fun and challenging video to produce. Feel free to check it out and leave any feedback for me to improve my content!
+
+Here’s a link: 
+
+[https://youtu.be/uocYQH0cWTs](https://youtu.be/uocYQH0cWTs)  
+ 
+
+If the above link doesn’t work, try:  
+ https://m.youtube.com/watch?v=uocYQH0cWTs&feature=youtu.be"
+70,11s7ya3,learnmachinelearning,GPT-4,relevance,2023-03-15 20:18:13,Do multi modal LLM models just inject image description to the context?,ChessGibson,False,0.88,11,https://www.reddit.com/r/learnmachinelearning/comments/11s7ya3/do_multi_modal_llm_models_just_inject_image/,4,1678911493.0,"Hi! Small question I have been asking myself seeing multiple multi modal models recently: do they use interconnected neural networks for different input types, or do they simply convert non-text inputs into textual descriptions before processing them with their language models? What's happening for PaLM-E for instance? How about GPT-4?"
+71,106aie8,learnmachinelearning,GPT-4,relevance,2023-01-08 05:09:46,Major drawback/limitation of GPT-3,trafalgar28,False,0.74,7,https://www.reddit.com/r/learnmachinelearning/comments/106aie8/major_drawbacklimitation_of_gpt3/,13,1673154586.0,"I have been working on a project with GPT-3 API for almost a month now. The only drawback of GPT-3 is that the prompt you can send to the model is capped at 4,000 tokens - where a token is roughly equivalent to ¾ of a word.  Due to this, providing a large context to GPT-3 is quite difficult.
+
+Is there any way to resolve this issue?"
+72,10c509n,learnmachinelearning,GPT-4,relevance,2023-01-15 00:08:37,Is it still worth learning NLP in the age of API-accessibles LLM like GPT?,CrimsonPilgrim,False,0.94,63,https://www.reddit.com/r/learnmachinelearning/comments/10c509n/is_it_still_worth_learning_nlp_in_the_age_of/,24,1673741317.0,"A question that, I hope, you will find legitimate from a data science student.
+
+I am speaking from the point of view of a data scientist not working in research.
+
+Until now, learning NLP could be used to meet occasional business needs like sentiment analysis, text classification, topic modeling....
+
+With the opening of GPT-3 to the public, the rise of ChatGPT, and the huge wave of applications, sites, plug-ins and extensions based on this technology that are accessible with a simple API request, it's impossible not to wonder if spending dozens of hours diving into this field if ML wouldn't be as useful today as learning the source code of the Pandas library. 
+
+In some specialized cases, it could be useful, but GPT-3, and the models that will follow, seem to offer more than sufficient results for the immensity of the cases and for almost all classical NLP tasks. Not only that, but there is a good chance that the models trained by giants like Open-AI (Microsoft) or Google can never be replicated outside these companies anyway.  With ChatGPT and its incomparable mastery of language, its ability to code, summarize, extract topics, understand... why would I bother to use BERT or a TF-IDF vectorizer when an API will be released? Not only it would be easily accessible, but it also would be much better at the task, faster and cheaper.
+
+In fact, it's a concern regarding all the machine learning field in general with the arrival of powerful ""no-code"" applications, which abstract a large part of the inherent complexity of the field. There will always be a need for experts, for safeguards, but in the end, won't the Data Scientist who masters the features of GPT-3 or 4 and knows a bit of NLP be more efficient than the one who has spent hours reading Google papers and practicing on Gensim, NLTK, spacy... It is the purpose of an API to make things simpler eventually... At what point is there no more reason to be interested in the behind-the-scenes of these tools and to become simple users rather than trying to develop our own techniques?"
+73,11xh5hr,learnmachinelearning,GPT-4,relevance,2023-03-21 13:38:10,Large Language models for Summarization,vm123313223,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/11xh5hr/large_language_models_for_summarization/,2,1679405890.0,"How to get the results of OpenAI (GPT-3) for summarization with open source models?
+
+Some models which I have tried are:
+
+1. FLAN-T5
+2. Pegasus
+3. BART
+4. GPT-J
+5. FTAN--UL2
+
+I have also implemented fewshot learning with these models."
+74,118mk1d,learnmachinelearning,GPT-4,relevance,2023-02-22 02:32:01,How to Use ChatGPT in Python API and Run Batch Jobs with UI,Fun_Pollution_3899,False,0.83,4,https://www.reddit.com/r/learnmachinelearning/comments/118mk1d/how_to_use_chatgpt_in_python_api_and_run_batch/,0,1677033121.0,"I wanted to share a tutorial on how to use ChatGPT in Python API and how to run batch jobs with a UI. ChatGPT is a powerful language model that can generate text in a conversational manner. It can be used for a variety of tasks, such as chatbots, text completion, and more.
+Repo: [https://github.com/CodeDiggerM/chatgpt-batch-whipper](https://github.com/CodeDiggerM/chatgpt-batch-whipper)
+
+## Installation
+### Use PIP command
+1. Install the latest version of this software directly from github with pip:
+```bash
+  pip install git+https://github.com/CodeDiggerM/chatgpt-batch-whipper.git
+```
+2. Go to **auth** mode. This will open up a browser window. Log in to ChatGPT in the browser window, then close the browser.
+```bash
+run_chatgpt auth
+```
+3. Start the UI
+```bash
+run_chatgpt ui
+```
+
+### Manually set up
+
+1. Clone the repo to your working directory
+```bash
+git clone https://github.com/CodeDiggerM/chatgpt-batch-whipper.git
+```
+2. install the dependcy.
+```bash
+pip install -r requirements.txt
+```
+
+3. Install a browser in playwright (if you haven't already).  The program will use firefox by default.
+
+```
+playwright install firefox
+```
+
+4. Go to the chatgpt-batch-whipper/
+
+```bash
+cd chatgpt_batch_whipper/
+````
+
+5. Run the main page by streamlit.
+you can got to [streamlit](https://github.com/streamlit/streamlit) to check more about streamlit.
+
+```bash
+streamlit run start_whipper.py
+````
+6. Authenticate your openAI account
+Click the **auth** button
+
+
+It will open up an authentication page in the web browser you installed using playwright. Like below, authenticate with your registered account.
+
+
+
+## Quickstart
+
+### Use API
+1. Grant auth from chatGPT.
+```python
+from chatgpt_batch_whipper.pub.chatgpt_wrapper import ChatGPT
+bot = ChatGPT()
+response = bot.auth()
+print(response) 
+```
+
+2. Ask the question to chatGPT
+```python
+from chatgpt_batch_whipper.pub.chatgpt_wrapper import ChatGPT
+bot = ChatGPT()
+response = bot.ask(""Greeting!"")
+print(response) 
+```
+
+
+### Streamlit UI
+
+Now run it to open the app!
+```
+streamlit run streamlit_app.py
+```
+
+#### Single shoot mode
+
+1. select the **Single shoot mode**.
+2. Type your prompt then click submit
+3. click the submit button
+
+Here are some tips.
+
+#### Fully Automatic mode
+You can apply your prompt to multiple records in the **Fully Automatic mode**.
+
+1. Select Fully Automatic mode.
+2. Select CSV file.
+3. Select column you want to process.
+4. Type the prompt.
+5. click to Submit.
+After processing. The result will appears in the **The processed result** section.
+
+you can check the result and check the ""is false"" then click the **Submit** to reprocess the ""failed"" one.
+
+* You can save the prompt by click **Add** button.
+* You can choose the old prompt by select **prompt list**.
+* You can delete the old prompt by click **Delete Prompt**.
+* You can delete the saved process result by click **Delete Cached result**.
+* You can update the saved process result by click **Update**.
+* You can download the result file by click **Download**."
+75,10344lj,learnmachinelearning,GPT-4,relevance,2023-01-04 13:49:10,ML study plan according to ChatGPT,adastro,False,0.67,1,https://www.reddit.com/r/learnmachinelearning/comments/10344lj/ml_study_plan_according_to_chatgpt/,2,1672840150.0,"People often ask for recommendations about how to get involved with ML, so I thought it would have been interesting to ask ChatGPT directly (specifically about GPT-3 tech).
+
+### The prompt
+
+> Please make a detailed study plan for the math topics one needs to know in order to implement and understand GPT-3 technology. Provide them in the right order (prerequisites for one topic must come before that topic).  Add an approximate time schedule, considering the case of a person who can devote 4 hours/week to studying. Please go into the specifics and add only the best books and online course references (with their full link) for each topic.
+
+### The answer
+
+GPT-3 (short for ""Generative Pre-trained Transformer 3"") is a state-of-the-art language processing technology developed by OpenAI. It uses machine learning techniques to generate human-like text and has a wide range of applications, including language translation, question answering, and language generation.
+
+To understand and implement GPT-3 technology, you will need a strong foundation in mathematics and computer science. Specifically, you will need to be proficient in the following areas:
+
+1. **Linear algebra**: This is a fundamental mathematical discipline that deals with the study of vector spaces and linear transformations. It is a key component of machine learning and is used to represent data in a concise and efficient manner.
+    
+    Approximate time to complete: 4-6 weeks
+
+    Resources:
+
+    - Khan Academy's Linear Algebra course: https://www.khanacademy.org/math/linear-algebra
+    - Gilbert Strang's Linear Algebra textbook
+
+2. **Calculus**: This is a branch of mathematics that deals with the study of rates of change and the accumulation of quantities. It is essential for understanding the mathematical foundations of machine learning and is used to optimize machine learning models.
+
+    Approximate time to complete: 6-8 weeks
+
+    Resources:
+
+    - Khan Academy's Calculus course: https://www.khanacademy.org/math/calculus-home
+    - James Stewart's Calculus textbook
+
+3. **Probability and statistics**: This is the study of random phenomena and the analysis of data. It is used to model and understand the uncertainty inherent in machine learning systems.
+
+    Approximate time to complete: 4-6 weeks
+
+    Resources:
+
+    - Khan Academy's Probability and Statistics course: https://www.khanacademy.org/math/statistics-probability
+    - Sheldon Ross's A First Course in Probability textbook
+
+4. **Artificial intelligence**: This is the study of how to design intelligent computer systems that can learn, adapt, and make decisions. It is a broad field that encompasses a range of subdisciplines, including machine learning, natural language processing, and robotics.
+
+    Approximate time to complete: 6-8 weeks
+
+    Resources:
+
+    - Stanford's Introduction to Artificial Intelligence course: https://online.stanford.edu/courses/cs221-artificial-intelligence-principles-and-techniques
+    - Peter Norvig and Stuart Russell's Artificial Intelligence: A Modern Approach textbook
+
+5. **Natural language processing**: This is the study of how to design computer systems that can understand and generate human language. It is a key component of GPT-3 and is used to process and generate human-like text.
+    
+    Approximate time to complete: 4-6 weeks
+
+    Resources:
+
+    - Stanford's Natural Language Processing course: https://online.stanford.edu/courses/cs224n-natural-language-processing-deep-learning    - Jurafsky and Martin's Speech and Language Processing textbook
+---
+
+(I removed links to online stores since I'm not sure whether this would break some rules here. Also, some links were broken.)
+The book suggestions changed whenever I regenerated the response or made minor changes to the prompt, so I suppose that the model doesn't have a very strong opinion about what the ""best"" books are. Online courses were quite stable across answers, instead.
+
+Please share your opinions and more resources if you like :)"

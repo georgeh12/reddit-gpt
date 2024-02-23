@@ -1,0 +1,47 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,1320hyh,machinelearning,ChatGPT,controversial,2023-04-28 16:35:59,[P] Lamini rapidly achieves ChatGPT performance with an LLM Engine,gdiamos,False,0.48,0,https://www.reddit.com/r/MachineLearning/comments/1320hyh/p_lamini_rapidly_achieves_chatgpt_performance/,45,1682699759.0,"According to the authors, Lamini AI has invented an LLM Engine for rapidly customizing models.  
+
+Read the blog post, github, and huggingface for details.  
+
+* Blog [https://lamini.ai/blog/introducing-lamini](https://lamini.ai/blog/introducing-lamini) 
+* Code 
+   * Chat data ([https://github.com/lamini-ai/lamini/](https://github.com/lamini-ai/lamini/)) 
+   * SQL data ([https://github.com/lamini-ai/lamini-sql/](https://github.com/lamini-ai/lamini-sql/))
+* LLM Type System Playground: [https://app.lamini.ai](https://app.lamini.ai/)
+* Open-source fine-tuned LLMs that follow instructions: 
+   * [weights](https://huggingface.co/lamini/instruct-tuned-2.8b) 
+   * [playground](https://huggingface.co/spaces/lamini/instruct-playground)"
+1,1320hyh,machinelearning,LLM,controversial,2023-04-28 16:35:59,[P] Lamini rapidly achieves ChatGPT performance with an LLM Engine,gdiamos,False,0.48,0,https://www.reddit.com/r/MachineLearning/comments/1320hyh/p_lamini_rapidly_achieves_chatgpt_performance/,45,1682699759.0,"According to the authors, Lamini AI has invented an LLM Engine for rapidly customizing models.  
+
+Read the blog post, github, and huggingface for details.  
+
+* Blog [https://lamini.ai/blog/introducing-lamini](https://lamini.ai/blog/introducing-lamini) 
+* Code 
+   * Chat data ([https://github.com/lamini-ai/lamini/](https://github.com/lamini-ai/lamini/)) 
+   * SQL data ([https://github.com/lamini-ai/lamini-sql/](https://github.com/lamini-ai/lamini-sql/))
+* LLM Type System Playground: [https://app.lamini.ai](https://app.lamini.ai/)
+* Open-source fine-tuned LLMs that follow instructions: 
+   * [weights](https://huggingface.co/lamini/instruct-tuned-2.8b) 
+   * [playground](https://huggingface.co/spaces/lamini/instruct-playground)"
+2,13dk32o,machinelearning,GPT,controversial,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.5,0,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+3,13dk32o,machinelearning,GPT-3,controversial,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.5,0,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+4,13dk32o,machinelearning,GPT-4,controversial,2023-05-10 08:11:24,[D] When will a GPT-like model outperform Stockfish in chess?,ThePerson654321,False,0.5,0,https://www.reddit.com/r/MachineLearning/comments/13dk32o/d_when_will_a_gptlike_model_outperform_stockfish/,55,1683706284.0,"Hello!
+
+GPT-4 has shown significant improvement over GPT-3 in terms of playing chess, with what I estimate to be a ELO rating of around 1000 now. While this is impressive, it is still nowhere near the performance level of Stockfish. This has led me to ponder the following question:
+
+How many years do you think it will take for a GPT-like model (not specifically or even intentionally trained for chess) to surpass Stockfish in terms of chess-playing abilities?"
+5,12r91g1,machinelearning,ChatGPT,controversial,2023-04-18 23:42:21,[P] GPT4 is my new co-founder,Jman9107,False,0.47,0,https://www.reddit.com/r/MachineLearning/comments/12r91g1/p_gpt4_is_my_new_cofounder/,28,1681861341.0,"GPT4 helped me build a pretty incredible app, and in a totally full stack way. First, we identified the biggest hole in the AI market: a voice-first, web-connected, clean mobile app to bring ChatGPT to the masses. Then, it helped me with feature dev, backend, frontend, and even this post.
+
+Ended up calling it [Jackchat](https://www.jackchat.ai/) (had to name it after myself lol). You can use voice to talk to ChatGPT (big voice button), it can talk back to you with voice, it’s connected to the web, it's free, and it doesn’t require an account to use. Surprisingly, it's replaced me and most of my friend’s Google usage.
+
+Check it out for free here: [http://jackchat.ai](http://jackchat.ai/) (available on web, iOS, and Android)"
+6,11zxcn9,machinelearning,GPT,controversial,2023-03-23 21:04:16,"[D] [P] I asked GPT-4 to try & dethrone the transformer. After some iterations, this is where it got to. I am not well versed in ML at all (understatement) & did this out of curiosity. I have no way to judge it nor computational power to train it. Can anyone tell me whether it did a good job?",Heavy-Association-57,False,0.47,0,https://www.reddit.com/gallery/11zxcn9,16,1679605456.0,
+7,11zxcn9,machinelearning,GPT-4,controversial,2023-03-23 21:04:16,"[D] [P] I asked GPT-4 to try & dethrone the transformer. After some iterations, this is where it got to. I am not well versed in ML at all (understatement) & did this out of curiosity. I have no way to judge it nor computational power to train it. Can anyone tell me whether it did a good job?",Heavy-Association-57,False,0.47,0,https://www.reddit.com/gallery/11zxcn9,16,1679605456.0,

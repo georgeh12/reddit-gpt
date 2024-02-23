@@ -1,0 +1,932 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,12bkzjv,learnmachinelearning,GPT,top,2023-04-04 14:34:29,Working with chatGPT,macronancer,False,0.97,612,https://i.redd.it/5uwfzjh4pvra1.png,22,1680618869.0,
+1,yoo3ba,learnmachinelearning,GPT,top,2022-11-07 14:11:49,Been learning ML since the start of the year and built a tool with GPT-3 that let’s anyone self-serve their own data questions and create graphs and dashboards,BuggerinoKripperino,False,0.98,472,https://v.redd.it/n0vjjvr8ejy91,64,1667830309.0,
+2,12z8n4e,learnmachinelearning,GPT,top,2023-04-26 06:23:17,Hugging Face Releases Free Alternative To ChatGPT,vadhavaniyafaijan,False,0.98,389,https://www.theinsaneapp.com/2023/04/free-alternative-to-chatgpt.html,35,1682490197.0,
+3,10fw2df,learnmachinelearning,GPT,top,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,332,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+4,116au66,learnmachinelearning,GPT,top,2023-02-19 13:55:13,ChatGPT History,eforebrahim,False,0.86,252,https://i.redd.it/dv8cfj0nz6ja1.jpg,27,1676814913.0,
+5,13eympz,learnmachinelearning,GPT,top,2023-05-11 20:15:46,Top 20 Large Language Models based on the Elo rating system.,kingabzpro,False,0.96,249,https://i.redd.it/7xfqr5crf9za1.png,43,1683836146.0,
+6,12dgtry,learnmachinelearning,GPT,top,2023-04-06 11:12:52,Meta: Is it possible to ban these TikTok influencers or TikToks in general?,dasMaiMaiKamel,False,0.94,217,https://www.reddit.com/r/learnmachinelearning/comments/12dgtry/meta_is_it_possible_to_ban_these_tiktok/,14,1680779572.0,"I'm new to this sub and I'd love to contribute here. But there are soooo many TikTok videos from someone talking about ChatGPT for the 10.000th time. These videos don't contribute to learning ML nor do they give actual reliable information. I often get the feeling that these people never touched a NN, just sat on ChatGPT and read one WikiPedia article. It's also often more an ad than actual help.  
+
+
+  
+Even if I'm not a member for too long, I see comments criticizing this exact thing under every video. Is it possible to add a rule to prevent this? It would greatly improve the quality of this sub."
+7,10q34ra,learnmachinelearning,GPT,top,2023-01-31 16:17:42,ChatGPT Crossed 10 Million Daily Active Users In Just 40 Days,vadhavaniyafaijan,False,0.95,219,https://www.theinsaneapp.com/2023/01/chatgpt-crossed-10-million-user.html,32,1675181862.0,
+8,113nizs,learnmachinelearning,GPT,top,2023-02-16 10:29:31,OpenAI Has Purchased AI.Com For ChatGPT For $11M,vadhavaniyafaijan,False,0.93,209,https://www.theinsaneapp.com/2023/02/openai-purchased-ai-com-domain.html,23,1676543371.0,
+9,103rv9o,learnmachinelearning,GPT,top,2023-01-05 06:32:22,I Built A GPT-3 Powered Productivity App - Tutorial included,SupPandaHugger,False,0.97,209,https://i.redd.it/gtywivh756aa1.gif,17,1672900342.0,
+10,11szhsh,learnmachinelearning,GPT,top,2023-03-16 16:51:03,Introducing OpenChatKit - The Open-Source Alternative to ChatGPT,kingabzpro,False,0.98,201,https://www.reddit.com/r/learnmachinelearning/comments/11szhsh/introducing_openchatkit_the_opensource/,21,1678985463.0,"Hey everyone! I'm excited to share my latest article about a new open-source technology called OpenChatKit.
+
+For those who work in NLP, you're probably familiar with ChatGPT - a powerful language model that can perform various natural language processing tasks. However, ChatGPT is not open-source, which limits its accessibility and customizability.
+
+OpenChatKit, on the other hand, is an open-source alternative to ChatGPT that provides users with similar NLP capabilities while allowing for more customization and control. With OpenChatKit, users can train their own models and fine-tune them to their specific use cases.
+
+In my article, I dive into the features of OpenChatKit, the Instruction-tuned Large Language Model, and the Limitations of the Model.
+
+If you're interested in learning more about OpenChatKit and how it can enhance your NLP workflows, check out my article [OpenChatKit: Open-Source ChatGPT Alternative ](https://www.kdnuggets.com/2023/03/openchatkit-opensource-chatgpt-alternative.html). I'd love to hear your thoughts and answer any questions you may have."
+11,10ddc1f,learnmachinelearning,GPT,top,2023-01-16 12:28:25,I benchmarked OpenAI's GPT API vs other proprietary APIs on different NLP tasks,AImSamy,False,0.9,192,https://www.reddit.com/gallery/10ddc1f,37,1673872105.0,
+12,11g7h03,learnmachinelearning,GPT,top,2023-03-02 16:47:40,Build ChatGPT for Financial Documents with LangChain + Deep Lake,davidbun,False,0.95,173,https://www.reddit.com/r/learnmachinelearning/comments/11g7h03/build_chatgpt_for_financial_documents_with/,8,1677775660.0,"https://preview.redd.it/h9r6hgvfucla1.png?width=2388&format=png&auto=webp&s=5432eac3eeed8583e4309af1fdc7ebecac705796
+
+As the world is increasingly generating vast amounts of financial data, the need for advanced tools to analyze and make sense of it has never been greater. This is where [LangChain](https://github.com/hwchase17/langchain) and [Deep Lake](https://github.com/activeloopai/deeplake) come in, offering a powerful combination of technology to help build a question-answering tool based on financial data. After participating in a LangChain hackathon last week, I created a way to use Deep Lake, the data lake for deep learning (a package my team and I are building) with LangChain. I decided to put together a guide of sorts on how you can approach building your own question-answering tools with  LangChain and Deep Lake as the data store.
+
+Read [the article](https://www.activeloop.ai/resources/ultimate-guide-to-lang-chain-deep-lake-build-chat-gpt-to-answer-questions-on-your-financial-data/) to learn:
+
+1. What is LangChain, what are its benefits and use cases and how you can use to streamline your LLM (Large Language Model) development?  
+2. How to use [\#LangChain](https://www.linkedin.com/feed/hashtag/?keywords=langchain&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) and [\#DeepLake](https://www.linkedin.com/feed/hashtag/?keywords=deeplake&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) together to build [\#ChatGPT](https://www.linkedin.com/feed/hashtag/?keywords=chatgpt&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) for your financial documents.  
+3. How Deep Lake’s unified and streamable data store enables fast prototyping without the need to recompute embeddings (something that costs time & money).  
+
+
+I hope you like it, and let me know if you have any questions!"
+13,13e8of2,learnmachinelearning,GPT,top,2023-05-11 00:54:18,What do actual ML engineers think of ChatGPT?,PhillConners,False,0.96,153,https://www.reddit.com/r/learnmachinelearning/comments/13e8of2/what_do_actual_ml_engineers_think_of_chatgpt/,106,1683766458.0,"You have been doing this for awhile, now the world is obsessed with OpenAI and suddenly all full of AI “experts”."
+14,zx0ep0,learnmachinelearning,GPT,top,2022-12-28 04:37:21,University Professor Catches Student Cheating With ChatGPT,vadhavaniyafaijan,False,0.94,143,https://www.theinsaneapp.com/2022/12/university-professor-catches-student-cheating-with-chatgpt.html,108,1672202241.0,
+15,zrvshy,learnmachinelearning,GPT,top,2022-12-21 17:58:41,"Build Your Own GPT-3 App: A Step-by-Step Guide to Creating ""Gifthub,"" a Personalized Gift Recommendation Tool",bruclinbrocoli,False,0.96,139,https://www.reddit.com/r/learnmachinelearning/comments/zrvshy/build_your_own_gpt3_app_a_stepbystep_guide_to/,2,1671645521.0,"This was all built for free -- and took a weekend to ship it.  Pretty simple n a cool way to understand how to use GPT-3 for something personal. 
+
+[Here's](https://buildspace.so/notes/build-gpt3-app) the link to the tutorial. You can also try out the app n see if it gives you a good gift rec.    
+Or - share it with someone who sucks at giving gifts :)   
+
+
+https://preview.redd.it/t2mrgddqia7a1.png?width=592&format=png&auto=webp&s=dc58613a6a5a4a7f8a55c62ab0ace2fe14c4ef8a"
+16,10km46l,learnmachinelearning,GPT,top,2023-01-25 01:15:22,How ChatGPT is Trained,ariseff,False,0.98,128,https://youtu.be/VPRSBzXzavo,8,1674609322.0,
+17,104sebq,learnmachinelearning,GPT,top,2023-01-06 11:58:10,How does ChatGPT actually work? Explained simply with pen and paper,techie_ray,False,0.94,123,https://youtu.be/k9Sps7ciNTE,16,1673006290.0,
+18,10e6h7j,learnmachinelearning,GPT,top,2023-01-17 07:51:07,DeepMind To Launch ChatGPT Rival Sparrow Soon,vadhavaniyafaijan,False,0.96,124,https://www.theinsaneapp.com/2023/01/deepmind-to-launch-chatgpt-rival-sparrow.html,5,1673941867.0,
+19,zu6785,learnmachinelearning,GPT,top,2022-12-24 09:14:57,"How would I train a chatbot like ChatGPT on a specific data set, so that it answers questions as if it's belief structure was based on the information I give it?",EllyEscape,False,0.92,114,https://www.reddit.com/r/learnmachinelearning/comments/zu6785/how_would_i_train_a_chatbot_like_chatgpt_on_a/,41,1671873297.0,"This might be a noob question, so I'll write it to my best abilities. I have some experience with coding video game AI in Godot, Unity and Unreal but I've never touched ML or ""real""(?) AI that uses learning algorithms. 
+
+&#x200B;
+
+I wanted to give a sophisticated chatbot like ChatGPT a bunch of data and text from (for instance, not my end goal) a philosopher, and have it answer questions as if it was that philosopher, ague against what I say as if it was a person who believed what the text I gave it said and so on, all while still able to use online resources (like ChatGPT does) to find additional supporting information, rather than only the text I give it which might limit its ability to give coherent arguments. In summary, I want it's beliefs  and values to be limited to a specific source text, but not it's knowledge base. 
+
+&#x200B;
+
+How would I go about this? Do I have to develop a model from scratch to give it any text sources I want, or is it possible to do with an existing API? I was going to use Character.AI but the method for giving it information is too limited for what I want to do. 
+
+&#x200B;
+
+If anyone has any resources to get me started it would be very helpful! Thank you."
+20,11akisx,learnmachinelearning,GPT,top,2023-02-24 06:26:36,Is there a way to easily train ChatGPT or GPT on custom knowledge?,senttoschool,False,0.99,115,https://www.reddit.com/r/learnmachinelearning/comments/11akisx/is_there_a_way_to_easily_train_chatgpt_or_gpt_on/,46,1677219996.0,"My company has internal documents. It'd be nice to be able to have GPT look over it, and then I can ask it questions on the internal documents."
+21,1095h99,learnmachinelearning,GPT,top,2023-01-11 14:03:46,What do you all think about these “SEO is Dead” articles?,Aggressive-Twist-252,False,0.89,110,https://www.reddit.com/r/learnmachinelearning/comments/1095h99/what_do_you_all_think_about_these_seo_is_dead/,20,1673445826.0,"I keep seeing [articles](https://jina.ai/news/seo-is-dead-long-live-llmo/) like this over the years and it made me wonder. Is SEO really dead? Or will it evolve? Back then I kept wondering if it’s true or not. Some believe SEO is dead, some don’t. But now with tools like Chat GPT and Midjourney, I think it’s time to take a look back and see how this might change SEO or if it will “kill” SEO.
+
+I keep seeing threads and discussions seeing how people are excited and worried at the same time with how AI might be able to do a better job. But the way I see it, AI content still needs a person to tell it what to do and make the writing look nice. And also I think that the internet will have a lot of writing that was made by AI and that might change how we find things online. You might also see a ton of content being written by AI and trigger some plagiarism detectors and have a lot of websites get penalized. Hopefully the internet won’t be filled with boilerplate copy/pasted content coming from Chat GPT.
+
+Well we have Google to filter out trash content anyway. But I know Google has some issues lately that they need to fix. One is that they also have AI that can help people find things on the internet with their search engine, and they need to make sure they are still the best in terms of search. 
+
+The second is that Google needs to find a way to tell if something is really good or not, like how some websites that show art do. Google wants to show the best thing first, but it's hard because sometimes the thing that is the best is also something that Google's customers want people to see. It’s possible that some AI generated contentSo it's kind of tricky.
+
+I have a feeling companies that already make SEO-writing and checking bots are gonna roll out some fresh new models soon. They're gonna be even better than before. These bots are going to write some good articles and product descriptions that are almost perfect. It almost looks like a human wrote the article or description. And all a human will do is quickly check for any false claims and write a headline that doesn't sound like a robot wrote it. 
+
+We can only really tell 5-10 years from now. In the meantime, I’ll probably go back practicing some handyman skills and also go back teaching people how to drive and also be a service driver. These jobs I had in the past were way different from what I am earning now but if the worst comes to worst, at least I have these physical skills ready."
+22,108wigf,learnmachinelearning,GPT,top,2023-01-11 05:23:14,Thoughts on this ChatGPT fact-checker tool I built this past week?,QuestionAnxious,False,0.89,90,https://v.redd.it/yqudljp0ncba1,25,1673414594.0,
+23,1185dhq,learnmachinelearning,GPT,top,2023-02-21 14:59:06,I created a Search Engine For Books using GPT-3 🔎📘. Here's how you can create it too:,Pritish-Mishra,False,0.94,84,https://youtu.be/SXFP4nHAWN8,17,1676991546.0,
+24,10mmofg,learnmachinelearning,GPT,top,2023-01-27 14:51:14,Fine-tuning open source models to emulate ChatGPT for code explanation.,awesomequantity,False,0.88,86,https://www.reddit.com/r/learnmachinelearning/comments/10mmofg/finetuning_open_source_models_to_emulate_chatgpt/,13,1674831074.0,"I'm looking to step up my game and emulate ChatGPT for specific use-cases like explaining code. I'm thinking about using open source models like GPT-J, or OPT to get beyond the limitations of the closed-source nature of ChatGPT, like the amount of text it can read or respond with.
+
+I got the funding for training, hardware, etc, and I want the end product to be on-premises, so no worries there. The inference doesn't have to be super fast either. I know there are projects like OpenAssistant and petals.ml but haven’t made enough research just yet.
+
+One option I’m considering is using fine tuners like the one from [HuggingFace](https://github.com/subhasisj/HuggingFace-Transformers-FineTuning) or [Jina AI](https://github.com/jina-ai/finetuner) to fine-tune open source models like GPT-J or OPT to improve specific use-cases like code explanation. With the funding that we have, I wouldn’t want to cheap out on fine-tuning and expect something good.
+
+So, can anyone help out and point me in the right direction? Which model is the best to fine-tune and how do I fine-tune to improve specific use cases? Any help would be appreciated. Thanks!"
+25,126m5eo,learnmachinelearning,GPT,top,2023-03-30 12:56:24,I created this entire video using ChatGPT + Charactr API + D-ID. My mind is blown,3nd4u,False,0.86,66,https://www.reddit.com/r/learnmachinelearning/comments/126m5eo/i_created_this_entire_video_using_chatgpt/,15,1680180984.0,"Could this be the future of how our news is being consumed?
+
+https://reddit.com/link/126m5eo/video/hhfat6n3jvqa1/player"
+26,10c509n,learnmachinelearning,GPT,top,2023-01-15 00:08:37,Is it still worth learning NLP in the age of API-accessibles LLM like GPT?,CrimsonPilgrim,False,0.93,61,https://www.reddit.com/r/learnmachinelearning/comments/10c509n/is_it_still_worth_learning_nlp_in_the_age_of/,24,1673741317.0,"A question that, I hope, you will find legitimate from a data science student.
+
+I am speaking from the point of view of a data scientist not working in research.
+
+Until now, learning NLP could be used to meet occasional business needs like sentiment analysis, text classification, topic modeling....
+
+With the opening of GPT-3 to the public, the rise of ChatGPT, and the huge wave of applications, sites, plug-ins and extensions based on this technology that are accessible with a simple API request, it's impossible not to wonder if spending dozens of hours diving into this field if ML wouldn't be as useful today as learning the source code of the Pandas library. 
+
+In some specialized cases, it could be useful, but GPT-3, and the models that will follow, seem to offer more than sufficient results for the immensity of the cases and for almost all classical NLP tasks. Not only that, but there is a good chance that the models trained by giants like Open-AI (Microsoft) or Google can never be replicated outside these companies anyway.  With ChatGPT and its incomparable mastery of language, its ability to code, summarize, extract topics, understand... why would I bother to use BERT or a TF-IDF vectorizer when an API will be released? Not only it would be easily accessible, but it also would be much better at the task, faster and cheaper.
+
+In fact, it's a concern regarding all the machine learning field in general with the arrival of powerful ""no-code"" applications, which abstract a large part of the inherent complexity of the field. There will always be a need for experts, for safeguards, but in the end, won't the Data Scientist who masters the features of GPT-3 or 4 and knows a bit of NLP be more efficient than the one who has spent hours reading Google papers and practicing on Gensim, NLTK, spacy... It is the purpose of an API to make things simpler eventually... At what point is there no more reason to be interested in the behind-the-scenes of these tools and to become simple users rather than trying to develop our own techniques?"
+27,133v9s5,learnmachinelearning,GPT,top,2023-04-30 15:45:04,I don't have a PhD but this just feels wrong. Can a person with a PhD confirm?,flaky_psyche,False,0.76,63,https://i.redd.it/fmkvgop7l1xa1.jpg,238,1682869504.0,
+28,126x6ua,learnmachinelearning,GPT,top,2023-03-30 19:44:32,Personalize Your Own Language Model with xTuring - A Beginner-Friendly Library,x_ml,False,1.0,60,https://www.reddit.com/r/learnmachinelearning/comments/126x6ua/personalize_your_own_language_model_with_xturing/,7,1680205472.0,"Hi everyone,  
+
+
+If you are interested in customizing your own language model but don't know where to start, try  [xTuring](https://github.com/stochasticai/xturing).  
+
+
+xTuring's goal is to empower individuals to fine-tune LLM for their specific tasks with as little as 5 lines of code. With xTuring, you can perform high and low precision fine-tuning with a variety of models, including LLaMA, OPT, Cerebras-GPT, Galactica, BLOOM, and more.   
+
+
+You can also generate your OWN datasets using powerful models like GPT-3 to train a much smaller model on YOUR specific task. With the latest version, you can also use terminal and web interface to chat with your models.  
+
+
+Please do check out the repo and show your support if you like our work. Would love if you can also contribute by adding models, raising issues or raising PRs for fixes.  
+
+
+xTuring Github: [https://github.com/stochasticai/xturing](https://github.com/stochasticai/xturing)
+
+If you are interested in getting involved, I am happy to help you on our Discord: [https://discord.gg/TgHXuSJEk6](https://discord.gg/TgHXuSJEk6)
+
+https://i.redd.it/mvxb7i5fixqa1.gif"
+29,zqlqzj,learnmachinelearning,GPT,top,2022-12-20 11:12:21,What are the advantages of training your own model rather than customizing GPT3 ?,wootfacemate,False,0.9,58,https://www.reddit.com/r/learnmachinelearning/comments/zqlqzj/what_are_the_advantages_of_training_your_own/,16,1671534741.0,"Hello,   
+I am a beginner in ML, so it might sound obvious but with such powerful tool like GPT, I was wondering why wouldn't you always use a pre-trained model like GPT that is way more powerful rather than fit your own model ?"
+30,11dc5b4,learnmachinelearning,GPT,top,2023-02-27 13:42:55,Can you fine-tune chatGPT in your data as of now?,Melodic_Stomach_2704,False,0.9,57,https://www.reddit.com/r/learnmachinelearning/comments/11dc5b4/can_you_finetune_chatgpt_in_your_data_as_of_now/,33,1677505375.0, I know that model is not publicly available so it's not possible to do it locally. But can you train or fine-tune chatGPT on your data using their API? I see many misguiding articles on the internet that are fine-tuning other GPT models claiming chatGPT.
+31,zyms85,learnmachinelearning,GPT,top,2022-12-30 01:18:38,A GPT-3 based Terminal/CLI tool that helps you debug your code!,VideoTo,False,0.97,56,https://www.reddit.com/r/learnmachinelearning/comments/zyms85/a_gpt3_based_terminalcli_tool_that_helps_you/,11,1672363118.0,"Link - [https://clerkie.co/](https://clerkie.co/)
+
+We built ClerkieCLI -  a GPT-3 based tool that:
+
+\-  automatically detects errors on your terminal,
+
+\- identifies  the programming language,
+
+\- provides an explanation of the error and suggested fix right on your terminal.
+
+This is definitely early days, so if this is something you would find  valuable and wouldn't mind testing a couple iterations of, just sign up here -> [https://forms.gle/8DURoG6NCRxVazNn8](https://forms.gle/8DURoG6NCRxVazNn8)
+
+&#x200B;
+
+https://i.redd.it/xpwnazimsx8a1.gif"
+32,118iccl,learnmachinelearning,GPT,top,2023-02-21 23:18:46,"How big was GPT-3.5's training dataset, and are there any good heuristics for how large an ML dataset needs to be for it to be good?",TikkunCreation,False,0.93,51,https://www.reddit.com/r/learnmachinelearning/comments/118iccl/how_big_was_gpt35s_training_dataset_and_are_there/,6,1677021526.0,"Say I want to do a model for fixing bugs in code. How many examples do I need for it to be good?
+
+Or say I want to do a model for scoring boxing matches. How many examples do I need for it to be good?"
+33,135ffje,learnmachinelearning,GPT,top,2023-05-02 08:48:46,How GPT-3.5 crushes my high score in 2048,inishchith,False,0.74,54,https://v.redd.it/q22lna91tdxa1,28,1683017326.0,
+34,10l1zwj,learnmachinelearning,GPT,top,2023-01-25 15:59:49,a ChatGPT feature to give you prompt suggestions,QuestionAnxious,False,0.96,48,https://v.redd.it/qjt99akap7ea1,3,1674662389.0,
+35,1373csa,learnmachinelearning,GPT,top,2023-05-03 23:35:25,"CheatsheetGPT: Over 600 equations, including ML and RL",Sensitive_Head4946,False,0.88,47,https://www.reddit.com/r/learnmachinelearning/comments/1373csa/cheatsheetgpt_over_600_equations_including_ml_and/,11,1683156925.0,"Hi everyone,
+
+Recently I got access to GPT4 and decided to try something a little peculiar: what if I asked it to generate hundreds of equations on topics that are relatively important but also less covered subjects for brainstorming reasons. I then asked GPT to grade the importance of every relation or even explain it.
+
+I tried to make this practical for my own consumption but wanted to share in case someone has some good feedback or can find it useful. 
+
+It’s interactive and settings are saved in the link. Recommended consumption on a desktop: 
+
+https://tchristos.com/other/the-wall/
+
+https://tchristos.com/other/the-wall/?darkMode=false&option=data-ds-grade&palette=5&zen=true
+
+Hope you enjoy and let me know if you have any feedback or want access to the list of equations
+
+PS: some hallucination"
+36,134yhpy,learnmachinelearning,GPT,top,2023-05-01 19:17:41,From Zero to GPT & beyond (a beginner friendly tutorial with PyTorch),brainxyz,False,0.9,44,https://youtu.be/l-CjXFmcVzY,0,1682968661.0,
+37,10doqua,learnmachinelearning,GPT,top,2023-01-16 19:21:18,Today we go over creating an Unity ChatGPT Client to allow us to communicate with our ChatGPT API and this will be the beginnings of getting ChatGPT HTTP responses into Unity (full video and playlist in comments),dilmerv,False,0.92,43,https://v.redd.it/ixwf3g7syhca1,2,1673896878.0,
+38,11l4x5i,learnmachinelearning,GPT,top,2023-03-07 17:07:23,"ChatGPT is coming to Slack, Microsoft's dynamics 365 copilots & all other things in AI.",Opening-Ad-8849,False,0.94,37,https://aibulletin.substack.com/p/chatgpt-is-coming-to-slack-microsofts,2,1678208843.0,
+39,106868c,learnmachinelearning,GPT,top,2023-01-08 03:14:39,"Question : ( CS, Mathematics, AI, ML, Data Science ) Where and How I Would start",0xSowrd,False,0.79,24,https://www.reddit.com/r/learnmachinelearning/comments/106868c/question_cs_mathematics_ai_ml_data_science_where/,10,1673147679.0,"if I wanted to build things like tech's we see today ( ChatGPT, Midjourney, stable diffusion ) from the perspective of principle  "" trivial "" version of it
+
+&#x200B;
+
+&#x200B;
+
+I really feel overwhelmed and I want accomplish this so bad I'll put the time and the effort for it to understand truly how things works "" from scratch "" and be able to build my own things if I want too  
+
+
+Note:  
+I'm not saying that I want to be a master in each of these field but I want at least to be an advanced in each one and to be able to keep up if I need to learn something or create something, I hope someone truly help!   
+
+
+thank you"
+40,11mzbrs,learnmachinelearning,GPT,top,2023-03-09 18:15:03,Training Transformer Networks in Scikit-Learn?!,cmauck10,False,0.84,25,https://www.reddit.com/r/learnmachinelearning/comments/11mzbrs/training_transformer_networks_in_scikitlearn/,2,1678385703.0,"Have you ever wanted to use handy scikit-learn functionalities with your neural networks, but couldn’t because TensorFlow models are not compatible with the scikit-learn API?
+
+I’m excited to introduce one-line wrappers for TensorFlow/Keras models that enable you to use TensorFlow models within scikit-learn workflows with features like Pipeline, GridSearch, and more.
+
+[Swap in one line of code to use keras\/TF models with scikit-learn.](https://preview.redd.it/ulmww4ovwqma1.png?width=960&format=png&auto=webp&s=6da7628298976fc3d72e771abe2546bbf32c1e0e)
+
+Transformers are extremely popular for modeling text nowadays with GPT3, ChatGPT, Bard, PaLM, FLAN excelling for conversational AI and other Transformers like T5 & BERT excelling for text classification. Scikit-learn offers a broadly useful suite of features for classifier models, but these are hard to use with Transformers. However not if you use these wrappers we developed, which only require changing one line of code to make your existing Tensorflow/Keras model compatible with scikit-learn’s rich ecosystem!
+
+All you have to do is swap `keras.Model` → `KerasWrapperModel`, or `keras.Sequential` → `KerasSequentialWrapper`. The wrapper objects have all the same methods as their keras counterparts, plus you can use them with tons of awesome scikit-learn methods.
+
+You can find a demo jupyter notebook and read more about the wrappers here: [https://cleanlab.ai/blog/transformer-sklearn/](https://cleanlab.ai/blog/transformer-sklearn/)"
+41,12f9cvx,learnmachinelearning,GPT,top,2023-04-08 03:04:00,Energy Constraints and Costs in Massive Machine Learning Model Training,mechkeyboard7065,False,0.94,27,https://www.reddit.com/r/learnmachinelearning/comments/12f9cvx/energy_constraints_and_costs_in_massive_machine/,7,1680923040.0,"Adding on to my [last](https://www.reddit.com/r/learnmachinelearning/comments/12ebceo/alternatives_to_training_massive_ml_models_on/) post, here's some of what I've found about the potential constraints and costs associated with training massive machine learning models. 
+
+&#x200B;
+
+**Energy as a constraint in ML model training:**
+
+\- GPT-3, as an example, is estimated to have consumed around **936 MWh** during its training.  
+\- If there were **$100B model training runs** in the future, it would consume approximately **20,347,826 MWh** or **20,347,826,000 KWh**.  
+\- This would cost around **$1,017,391,300**, which is about **1%** of the total cost (assuming $0.05 KWh). The cost could go up to **$3B** if we assume $0.15 KWh.
+
+&#x200B;
+
+**Power generation comparison:**
+
+\- One nuclear power plant can generate around **4,727,764 MWh** in a year.
+
+&#x200B;
+
+**Main constraints in massive model training runs apart from GPUs:**
+
+\- Data movement through machines  
+\- The amount of data that can be moved  
+\- The amount of data the model has already been trained on  
+\- Networking and bandwidth limitations  
+\- System-specific bottlenecks  
+\- Model training algorithm design (e.g., parallel processing, processing power requirements)
+
+&#x200B;
+
+**Potential $10T investment in ML models: Where would the money go?**
+
+\- **17% ($1.7T)** \- Data collection, validation, and annotation  
+\- **23% ($2.3T)** \- Research  
+\- **60% ($6T)** \- Production (infrastructure, integration, maintenance)
+
+&#x200B;
+
+**Current and projected annual spend on GPUs:**  
+\- **$40B** in 2022  
+\- Projected to be **$400B** in 10 years
+
+&#x200B;
+
+I hope someone might find this information useful. It's definitely made me question the future impact as these models scale. As always, I'm open to corrections and eager to learn more. Let me know if you have any questions or additional insights."
+42,133v9s5,learnmachinelearning,GPT,comments,2023-04-30 15:45:04,I don't have a PhD but this just feels wrong. Can a person with a PhD confirm?,flaky_psyche,False,0.76,62,https://i.redd.it/fmkvgop7l1xa1.jpg,238,1682869504.0,
+43,zx0ep0,learnmachinelearning,GPT,comments,2022-12-28 04:37:21,University Professor Catches Student Cheating With ChatGPT,vadhavaniyafaijan,False,0.94,145,https://www.theinsaneapp.com/2022/12/university-professor-catches-student-cheating-with-chatgpt.html,108,1672202241.0,
+44,13e8of2,learnmachinelearning,GPT,comments,2023-05-11 00:54:18,What do actual ML engineers think of ChatGPT?,PhillConners,False,0.96,151,https://www.reddit.com/r/learnmachinelearning/comments/13e8of2/what_do_actual_ml_engineers_think_of_chatgpt/,106,1683766458.0,"You have been doing this for awhile, now the world is obsessed with OpenAI and suddenly all full of AI “experts”."
+45,yoo3ba,learnmachinelearning,GPT,comments,2022-11-07 14:11:49,Been learning ML since the start of the year and built a tool with GPT-3 that let’s anyone self-serve their own data questions and create graphs and dashboards,BuggerinoKripperino,False,0.98,465,https://v.redd.it/n0vjjvr8ejy91,64,1667830309.0,
+46,10fw2df,learnmachinelearning,GPT,comments,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,328,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+47,11akisx,learnmachinelearning,GPT,comments,2023-02-24 06:26:36,Is there a way to easily train ChatGPT or GPT on custom knowledge?,senttoschool,False,0.99,119,https://www.reddit.com/r/learnmachinelearning/comments/11akisx/is_there_a_way_to_easily_train_chatgpt_or_gpt_on/,46,1677219996.0,"My company has internal documents. It'd be nice to be able to have GPT look over it, and then I can ask it questions on the internal documents."
+48,13eympz,learnmachinelearning,GPT,comments,2023-05-11 20:15:46,Top 20 Large Language Models based on the Elo rating system.,kingabzpro,False,0.96,250,https://i.redd.it/7xfqr5crf9za1.png,43,1683836146.0,
+49,zu6785,learnmachinelearning,GPT,comments,2022-12-24 09:14:57,"How would I train a chatbot like ChatGPT on a specific data set, so that it answers questions as if it's belief structure was based on the information I give it?",EllyEscape,False,0.92,115,https://www.reddit.com/r/learnmachinelearning/comments/zu6785/how_would_i_train_a_chatbot_like_chatgpt_on_a/,41,1671873297.0,"This might be a noob question, so I'll write it to my best abilities. I have some experience with coding video game AI in Godot, Unity and Unreal but I've never touched ML or ""real""(?) AI that uses learning algorithms. 
+
+&#x200B;
+
+I wanted to give a sophisticated chatbot like ChatGPT a bunch of data and text from (for instance, not my end goal) a philosopher, and have it answer questions as if it was that philosopher, ague against what I say as if it was a person who believed what the text I gave it said and so on, all while still able to use online resources (like ChatGPT does) to find additional supporting information, rather than only the text I give it which might limit its ability to give coherent arguments. In summary, I want it's beliefs  and values to be limited to a specific source text, but not it's knowledge base. 
+
+&#x200B;
+
+How would I go about this? Do I have to develop a model from scratch to give it any text sources I want, or is it possible to do with an existing API? I was going to use Character.AI but the method for giving it information is too limited for what I want to do. 
+
+&#x200B;
+
+If anyone has any resources to get me started it would be very helpful! Thank you."
+50,10ddc1f,learnmachinelearning,GPT,comments,2023-01-16 12:28:25,I benchmarked OpenAI's GPT API vs other proprietary APIs on different NLP tasks,AImSamy,False,0.9,192,https://www.reddit.com/gallery/10ddc1f,37,1673872105.0,
+51,12z8n4e,learnmachinelearning,GPT,comments,2023-04-26 06:23:17,Hugging Face Releases Free Alternative To ChatGPT,vadhavaniyafaijan,False,0.98,389,https://www.theinsaneapp.com/2023/04/free-alternative-to-chatgpt.html,35,1682490197.0,
+52,11dc5b4,learnmachinelearning,GPT,comments,2023-02-27 13:42:55,Can you fine-tune chatGPT in your data as of now?,Melodic_Stomach_2704,False,0.91,59,https://www.reddit.com/r/learnmachinelearning/comments/11dc5b4/can_you_finetune_chatgpt_in_your_data_as_of_now/,33,1677505375.0, I know that model is not publicly available so it's not possible to do it locally. But can you train or fine-tune chatGPT on your data using their API? I see many misguiding articles on the internet that are fine-tuning other GPT models claiming chatGPT.
+53,10q34ra,learnmachinelearning,GPT,comments,2023-01-31 16:17:42,ChatGPT Crossed 10 Million Daily Active Users In Just 40 Days,vadhavaniyafaijan,False,0.95,213,https://www.theinsaneapp.com/2023/01/chatgpt-crossed-10-million-user.html,32,1675181862.0,
+54,12my20o,learnmachinelearning,GPT,comments,2023-04-15 10:38:45,Can we upscale neural network layers?,alcanthro,False,0.75,4,https://www.reddit.com/r/learnmachinelearning/comments/12my20o/can_we_upscale_neural_network_layers/,17,1681555125.0,"Might be a beginner question, might not be. I'm not sure. The organic brain grows over time in early childhood, making more room for more connections as the organism gains more experiences. GPTs and most other neural networks are pre-trained and then experience only minor fine-tuning.
+
+But what if we upscale the neural network to make more room for new connections? Basically, what if we increase the size of the weight tensor and then use something like Gaussian interpolation to smooth out the weights? 
+
+The process seems to work alright, based on the [testing I've done](https://www.researchgate.net/publication/369998746_Organic_Growth_of_GPT_Models_A_Brain-Inspired_Incremental_Model_Scaling_Approach), but it might just be due to some weird error that I get decent results. Of course, we wouldn't use this process to train a general use LLM. This process would result in a very unique neural network with its own connections based on its own experiences and self directed learning, i.e they'd be much more like organic minds that ""grew up"" over time.
+
+If this process is viable I'd imagine there'd already be something on the topic of model/network upscaling, but I'm not seeing anything."
+55,135ffje,learnmachinelearning,GPT,comments,2023-05-02 08:48:46,How GPT-3.5 crushes my high score in 2048,inishchith,False,0.74,53,https://v.redd.it/q22lna91tdxa1,28,1683017326.0,
+56,116au66,learnmachinelearning,GPT,comments,2023-02-19 13:55:13,ChatGPT History,eforebrahim,False,0.86,253,https://i.redd.it/dv8cfj0nz6ja1.jpg,27,1676814913.0,
+57,108wigf,learnmachinelearning,GPT,comments,2023-01-11 05:23:14,Thoughts on this ChatGPT fact-checker tool I built this past week?,QuestionAnxious,False,0.89,88,https://v.redd.it/yqudljp0ncba1,25,1673414594.0,
+58,10c509n,learnmachinelearning,GPT,comments,2023-01-15 00:08:37,Is it still worth learning NLP in the age of API-accessibles LLM like GPT?,CrimsonPilgrim,False,0.94,63,https://www.reddit.com/r/learnmachinelearning/comments/10c509n/is_it_still_worth_learning_nlp_in_the_age_of/,24,1673741317.0,"A question that, I hope, you will find legitimate from a data science student.
+
+I am speaking from the point of view of a data scientist not working in research.
+
+Until now, learning NLP could be used to meet occasional business needs like sentiment analysis, text classification, topic modeling....
+
+With the opening of GPT-3 to the public, the rise of ChatGPT, and the huge wave of applications, sites, plug-ins and extensions based on this technology that are accessible with a simple API request, it's impossible not to wonder if spending dozens of hours diving into this field if ML wouldn't be as useful today as learning the source code of the Pandas library. 
+
+In some specialized cases, it could be useful, but GPT-3, and the models that will follow, seem to offer more than sufficient results for the immensity of the cases and for almost all classical NLP tasks. Not only that, but there is a good chance that the models trained by giants like Open-AI (Microsoft) or Google can never be replicated outside these companies anyway.  With ChatGPT and its incomparable mastery of language, its ability to code, summarize, extract topics, understand... why would I bother to use BERT or a TF-IDF vectorizer when an API will be released? Not only it would be easily accessible, but it also would be much better at the task, faster and cheaper.
+
+In fact, it's a concern regarding all the machine learning field in general with the arrival of powerful ""no-code"" applications, which abstract a large part of the inherent complexity of the field. There will always be a need for experts, for safeguards, but in the end, won't the Data Scientist who masters the features of GPT-3 or 4 and knows a bit of NLP be more efficient than the one who has spent hours reading Google papers and practicing on Gensim, NLTK, spacy... It is the purpose of an API to make things simpler eventually... At what point is there no more reason to be interested in the behind-the-scenes of these tools and to become simple users rather than trying to develop our own techniques?"
+59,113nizs,learnmachinelearning,GPT,comments,2023-02-16 10:29:31,OpenAI Has Purchased AI.Com For ChatGPT For $11M,vadhavaniyafaijan,False,0.93,211,https://www.theinsaneapp.com/2023/02/openai-purchased-ai-com-domain.html,23,1676543371.0,
+60,13hzvkc,learnmachinelearning,GPT,comments,2023-05-15 06:27:00,Bilingual people : How good is AI at machine translation today?,moschles,False,0.83,20,https://www.reddit.com/r/learnmachinelearning/comments/13hzvkc/bilingual_people_how_good_is_ai_at_machine/,22,1684132020.0,"In the wake of GPT-4 and chatGPT, how good would you rank machine translators in terms of their accuracy?
+
+Are they only useful for one-off sentences? Do they fail when presented with any kind of moderately complex articles? Do they perform vastly different depending on the languages?     Are they still really stupid, or does their output blow you away now?"
+61,12bkzjv,learnmachinelearning,GPT,comments,2023-04-04 14:34:29,Working with chatGPT,macronancer,False,0.97,610,https://i.redd.it/5uwfzjh4pvra1.png,22,1680618869.0,
+62,11szhsh,learnmachinelearning,GPT,comments,2023-03-16 16:51:03,Introducing OpenChatKit - The Open-Source Alternative to ChatGPT,kingabzpro,False,0.98,201,https://www.reddit.com/r/learnmachinelearning/comments/11szhsh/introducing_openchatkit_the_opensource/,21,1678985463.0,"Hey everyone! I'm excited to share my latest article about a new open-source technology called OpenChatKit.
+
+For those who work in NLP, you're probably familiar with ChatGPT - a powerful language model that can perform various natural language processing tasks. However, ChatGPT is not open-source, which limits its accessibility and customizability.
+
+OpenChatKit, on the other hand, is an open-source alternative to ChatGPT that provides users with similar NLP capabilities while allowing for more customization and control. With OpenChatKit, users can train their own models and fine-tune them to their specific use cases.
+
+In my article, I dive into the features of OpenChatKit, the Instruction-tuned Large Language Model, and the Limitations of the Model.
+
+If you're interested in learning more about OpenChatKit and how it can enhance your NLP workflows, check out my article [OpenChatKit: Open-Source ChatGPT Alternative ](https://www.kdnuggets.com/2023/03/openchatkit-opensource-chatgpt-alternative.html). I'd love to hear your thoughts and answer any questions you may have."
+63,ztcyig,learnmachinelearning,GPT,comments,2022-12-23 11:21:17,Learning ML as a software engineer,Taltalonix,False,0.85,9,https://www.reddit.com/r/learnmachinelearning/comments/ztcyig/learning_ml_as_a_software_engineer/,21,1671794477.0,"
+Hi, I’m currently a 3rd year software engineering student, and a frontend engineer in work.
+
+Seeing all the recent advancements in machine learning and ai in general (especially with chatGPT), I think it is inevitable to learn how everything works and how to develop in this field.
+
+I have some good knowledge of programming, system architecture and computer science fundamentals.  As well as decent knowledge on various programming languages, algorithms and design patterns.
+
+My question is, where can I start to learn ML the fastest way possible, knowing already a lot about python and programming in general?
+
+Where can I learn only what’s necessary for developing a product for the industry in ML? (if it’s possible to skip all the theoretical stuff)
+
+Also, Is statistics really that necessary for industry work? I have some decent knowledge about math from university but in real life I rarely use linear algebra or calculus in work (since I don’t do graphics or anything related to that)."
+64,121h5ii,learnmachinelearning,GPT,comments,2023-03-25 09:59:57,Are chat gpt code outputs plain wrong?,SnooHabits4550,False,0.43,0,https://www.reddit.com/r/learnmachinelearning/comments/121h5ii/are_chat_gpt_code_outputs_plain_wrong/,19,1679738397.0,"I asked chatgpt how can I standardize give time series and it gave me following:
+
+https://preview.redd.it/ax6hgvnuyupa1.png?width=711&format=png&auto=webp&s=409bfb5657461bb52718a80ea92b553e842c0959
+
+It gave output which seem incorrect (I tried running that code). So asked it whether it executed that code and it confirmed it indeed executed that code!
+
+**Update**
+
+In case you want to know further conversation:
+
+https://preview.redd.it/bh8uwiidmvpa1.png?width=672&format=png&auto=webp&s=6309e5b149106bfdaa46b457e0cd0ef24149b72c
+
+https://preview.redd.it/avdrdf3gmvpa1.png?width=787&format=png&auto=webp&s=a9886ab88c67406f2bedf0bdeaa9a6bf04f38883
+
+Still wrong output.
+
+&#x200B;
+
+https://preview.redd.it/gsplbvzkmvpa1.png?width=696&format=png&auto=webp&s=cd6dff676d1ec5f472bde05c070b8072764a8007
+
+&#x200B;
+
+https://preview.redd.it/fdkleplmmvpa1.png?width=677&format=png&auto=webp&s=8698d565059cd5749e5fba7fd3df270f07a92a4c"
+65,1095h99,learnmachinelearning,GPT,comments,2023-01-11 14:03:46,What do you all think about these “SEO is Dead” articles?,Aggressive-Twist-252,False,0.89,113,https://www.reddit.com/r/learnmachinelearning/comments/1095h99/what_do_you_all_think_about_these_seo_is_dead/,20,1673445826.0,"I keep seeing [articles](https://jina.ai/news/seo-is-dead-long-live-llmo/) like this over the years and it made me wonder. Is SEO really dead? Or will it evolve? Back then I kept wondering if it’s true or not. Some believe SEO is dead, some don’t. But now with tools like Chat GPT and Midjourney, I think it’s time to take a look back and see how this might change SEO or if it will “kill” SEO.
+
+I keep seeing threads and discussions seeing how people are excited and worried at the same time with how AI might be able to do a better job. But the way I see it, AI content still needs a person to tell it what to do and make the writing look nice. And also I think that the internet will have a lot of writing that was made by AI and that might change how we find things online. You might also see a ton of content being written by AI and trigger some plagiarism detectors and have a lot of websites get penalized. Hopefully the internet won’t be filled with boilerplate copy/pasted content coming from Chat GPT.
+
+Well we have Google to filter out trash content anyway. But I know Google has some issues lately that they need to fix. One is that they also have AI that can help people find things on the internet with their search engine, and they need to make sure they are still the best in terms of search. 
+
+The second is that Google needs to find a way to tell if something is really good or not, like how some websites that show art do. Google wants to show the best thing first, but it's hard because sometimes the thing that is the best is also something that Google's customers want people to see. It’s possible that some AI generated contentSo it's kind of tricky.
+
+I have a feeling companies that already make SEO-writing and checking bots are gonna roll out some fresh new models soon. They're gonna be even better than before. These bots are going to write some good articles and product descriptions that are almost perfect. It almost looks like a human wrote the article or description. And all a human will do is quickly check for any false claims and write a headline that doesn't sound like a robot wrote it. 
+
+We can only really tell 5-10 years from now. In the meantime, I’ll probably go back practicing some handyman skills and also go back teaching people how to drive and also be a service driver. These jobs I had in the past were way different from what I am earning now but if the worst comes to worst, at least I have these physical skills ready."
+66,11jhl4y,learnmachinelearning,GPT,comments,2023-03-05 23:30:47,How does the transformer model lead to emergent intelligence?,VanillaSnake21,False,0.56,1,https://www.reddit.com/r/learnmachinelearning/comments/11jhl4y/how_does_the_transformer_model_lead_to_emergent/,18,1678059047.0,"I'm trying to understand how a transformer model such as the one used by Bing or ChatGPT leads to the emergence of intelligence, memory etc. I'm not too versed in ML but you can explain using advanced terms - I'll just ask Bing to elaborate on the details."
+67,zwltk8,learnmachinelearning,GPT,comments,2022-12-27 18:05:30,Am I Too Late?,stupidSTEMquestions,False,0.5,0,https://www.reddit.com/r/learnmachinelearning/comments/zwltk8/am_i_too_late/,19,1672164330.0,"I am a college student studying math and computer science. I know how to program with high level languages, C, and a bit of C++ and Scheme. I can build basic web apps and scripts, and am focusing on machine learning with python. 
+
+With the release of ChatGPT and articles like [this](https://cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext#comments) though, I can't help but ask — am I too late?
+
+Is it simply too late for a beginner to make any contributions to the field at this point when OpenAI, Deepmind, and the like are iterating at such a rapid pace? I really love AI and machine learning so far, but I also don't want to waste my time and energy if there won't be any meaningful work for me once I finish my education in 4 or more years."
+68,1185dhq,learnmachinelearning,GPT,comments,2023-02-21 14:59:06,I created a Search Engine For Books using GPT-3 🔎📘. Here's how you can create it too:,Pritish-Mishra,False,0.94,85,https://youtu.be/SXFP4nHAWN8,17,1676991546.0,
+69,126m5eo,learnmachinelearning,GPT,comments,2023-03-30 12:56:24,I created this entire video using ChatGPT + Charactr API + D-ID. My mind is blown,3nd4u,False,0.87,67,https://www.reddit.com/r/learnmachinelearning/comments/126m5eo/i_created_this_entire_video_using_chatgpt/,15,1680180984.0,"Could this be the future of how our news is being consumed?
+
+https://reddit.com/link/126m5eo/video/hhfat6n3jvqa1/player"
+70,103rv9o,learnmachinelearning,GPT,comments,2023-01-05 06:32:22,I Built A GPT-3 Powered Productivity App - Tutorial included,SupPandaHugger,False,0.97,210,https://i.redd.it/gtywivh756aa1.gif,17,1672900342.0,
+71,104sebq,learnmachinelearning,GPT,comments,2023-01-06 11:58:10,How does ChatGPT actually work? Explained simply with pen and paper,techie_ray,False,0.94,125,https://youtu.be/k9Sps7ciNTE,16,1673006290.0,
+72,zqlqzj,learnmachinelearning,GPT,comments,2022-12-20 11:12:21,What are the advantages of training your own model rather than customizing GPT3 ?,wootfacemate,False,0.9,58,https://www.reddit.com/r/learnmachinelearning/comments/zqlqzj/what_are_the_advantages_of_training_your_own/,16,1671534741.0,"Hello,   
+I am a beginner in ML, so it might sound obvious but with such powerful tool like GPT, I was wondering why wouldn't you always use a pre-trained model like GPT that is way more powerful rather than fit your own model ?"
+73,12dgtry,learnmachinelearning,GPT,comments,2023-04-06 11:12:52,Meta: Is it possible to ban these TikTok influencers or TikToks in general?,dasMaiMaiKamel,False,0.94,218,https://www.reddit.com/r/learnmachinelearning/comments/12dgtry/meta_is_it_possible_to_ban_these_tiktok/,14,1680779572.0,"I'm new to this sub and I'd love to contribute here. But there are soooo many TikTok videos from someone talking about ChatGPT for the 10.000th time. These videos don't contribute to learning ML nor do they give actual reliable information. I often get the feeling that these people never touched a NN, just sat on ChatGPT and read one WikiPedia article. It's also often more an ad than actual help.  
+
+
+  
+Even if I'm not a member for too long, I see comments criticizing this exact thing under every video. Is it possible to add a rule to prevent this? It would greatly improve the quality of this sub."
+74,1259tlx,learnmachinelearning,GPT,comments,2023-03-29 02:00:28,"Running something like GPT-2 locally, training with my own data",SigmaSixShooter,False,0.78,5,https://www.reddit.com/r/learnmachinelearning/comments/1259tlx/running_something_like_gpt2_locally_training_with/,15,1680055228.0,"Greetings, I hope I'm asking in the right place. 
+
+I've been really amazed with ChatGTP-3 and ChatGTP-4 and started thinking how I can use them in my own company. I'd love to train something based on all of our previous tickets. The issue is, these tickets contain sensitive information and customer data, so I can't use some cloud based API. 
+
+So let's say Bob is an excellent worker. His tickets are the gold standard, he always writes in a professional voice with detailed information. There's 20 different issues we fix as part of our business, and over the past 3 years, Bob has covered all of them 100 times over. 
+
+So, I'd like to export all of the tickets Bob has worked and use them to train some GTP/AI type model. I'd like to be able to write a prompt like 'For Issue A with these variables, write up an issue description for our customer"" 
+
+I've been trying to wrap my head around this, but it's an awfully overwhelming subject. Talking with GTP-4 it looks like I can try either GTP-2 or DistilGTP. I also came across Llama.cpp which just came out the other day it seems. 
+
+With this in mind, I've got a few questions
+
+1. Is there any option I should consider that lets me run this on something with 32 gigs of ram and 8 to 16 cores? I've got access to a few pieces of hardware. Again, so far I'm looking at DistilGTP, GTP-2, or llama.cpp
+2. Will I need other data sets if I ever figure out how to train this on Bob's tickets? Or will that be enough? I'm trying to figure out if I need the several hundred gigs of other models out there. 
+3. How the heck do I go about getting started? :) If someone can help me narrow things down to which LLM (if that's even the right term) I should use to accomplish my goals, and some basic instructions on how to train the data, I think I can figure out the rest after a few thousand rounds of trial and error. 
+
+&#x200B;
+
+Thanks in advance for your time and help."
+75,123fcrq,learnmachinelearning,GPT,comments,2023-03-27 07:34:58,i tried to get a grasp of LLMs using ChatGPT. Im not quite sure what to think of it. Can someone asses the conversation and tell me wether it is valuable or basically fanfiction?,overlydelicioustea,False,0.58,4,https://www.reddit.com/r/learnmachinelearning/comments/123fcrq/i_tried_to_get_a_grasp_of_llms_using_chatgpt_im/,13,1679902498.0,"https://pastebin.com/sEsDHQFG
+
+IT is a very long conversation, i apologize. Also its missing the initial conversation i had with Bing chat (this is why i suddenly know how neurons work, that part is basically the culmination of the bing chat it all started with..). As far as i can tell there is no way to access previous bing chats again...
+
+
+Now, theres propably some errors in it, but what i want to know is, is this a viable approach, is the picture it created in my head accurate enough to at least have somewhat of an opinion about things?
+
+remember, before i talked to it I had no idea about how LLMs actually work. I had heard of parameters of transformer, of neurons but that was about it, I didnt knew what these words actually stood for.
+
+
+Now mind you, my goal wasnt to get a deep scientific understanding so that i can build my own models. I wanted to end up with a valid general overview of the technology so that i can build somehwat(!) of an imformed opinion about what is about to come. Would you say this ended up successfully?
+
+im also trying to assess how valuable this process is for other things i diont know yet. Will I / Can I in the future just talk to the bot for a few hours to get an understanding of $new instead of googling and sifting through crap?
+
+edit: acutally forgot to link it initially... https://pastebin.com/sEsDHQFG"
+76,11si7ku,learnmachinelearning,GPT,comments,2023-03-16 02:58:26,I want to create a ChatGPT-like interface but to interact with a smaller specialized dataset.,ohai777,False,0.9,15,https://www.reddit.com/r/learnmachinelearning/comments/11si7ku/i_want_to_create_a_chatgptlike_interface_but_to/,11,1678935506.0,I want to create a ChatGPT interface but to interact with a smaller specialized set of data for my website's support. Can you help me with what terms I need to google to learn more about researching a project like this or any tutorials on this topic? Natural Language processing?
+77,106aie8,learnmachinelearning,GPT,comments,2023-01-08 05:09:46,Major drawback/limitation of GPT-3,trafalgar28,False,0.82,7,https://www.reddit.com/r/learnmachinelearning/comments/106aie8/major_drawbacklimitation_of_gpt3/,13,1673154586.0,"I have been working on a project with GPT-3 API for almost a month now. The only drawback of GPT-3 is that the prompt you can send to the model is capped at 4,000 tokens - where a token is roughly equivalent to ¾ of a word.  Due to this, providing a large context to GPT-3 is quite difficult.
+
+Is there any way to resolve this issue?"
+78,10mmofg,learnmachinelearning,GPT,comments,2023-01-27 14:51:14,Fine-tuning open source models to emulate ChatGPT for code explanation.,awesomequantity,False,0.88,88,https://www.reddit.com/r/learnmachinelearning/comments/10mmofg/finetuning_open_source_models_to_emulate_chatgpt/,13,1674831074.0,"I'm looking to step up my game and emulate ChatGPT for specific use-cases like explaining code. I'm thinking about using open source models like GPT-J, or OPT to get beyond the limitations of the closed-source nature of ChatGPT, like the amount of text it can read or respond with.
+
+I got the funding for training, hardware, etc, and I want the end product to be on-premises, so no worries there. The inference doesn't have to be super fast either. I know there are projects like OpenAssistant and petals.ml but haven’t made enough research just yet.
+
+One option I’m considering is using fine tuners like the one from [HuggingFace](https://github.com/subhasisj/HuggingFace-Transformers-FineTuning) or [Jina AI](https://github.com/jina-ai/finetuner) to fine-tune open source models like GPT-J or OPT to improve specific use-cases like code explanation. With the funding that we have, I wouldn’t want to cheap out on fine-tuning and expect something good.
+
+So, can anyone help out and point me in the right direction? Which model is the best to fine-tune and how do I fine-tune to improve specific use cases? Any help would be appreciated. Thanks!"
+79,12j0uh5,learnmachinelearning,GPT,comments,2023-04-11 22:53:56,I want to teach a chatbot about a world I'm creating so that it can answer my questions about it.,Common_Ad_6362,False,0.76,9,https://www.reddit.com/r/learnmachinelearning/comments/12j0uh5/i_want_to_teach_a_chatbot_about_a_world_im/,10,1681253636.0,"I've been experimenting over the last couple of days with telling ChatGPT3.5 and 4 about my world building project, but it only seems to know about our current session instead of our whole conversation.  
+
+
+I have 12 GB of VRAM, is there something I can run locally that I can teach my world to and then ask it questions about that world the same way I'm able to do with ChatGPT?   I want it to remember the content I teach it beyond our session."
+80,117adwo,learnmachinelearning,GPT,comments,2023-02-20 15:42:13,"ChatGPT Response about the vinyl chloride spill in East Palestine, Ohio.",listenandlearn2,False,0.25,0,https://www.reddit.com/r/learnmachinelearning/comments/117adwo/chatgpt_response_about_the_vinyl_chloride_spill/,12,1676907733.0," ChatGPT responded my prompt.  I'd love to hear your thoughts:
+
+Vinyl Chloride spilled in East Palestine, Ohio about 300 miles away from Cincinnati. The chemical leaked into the Ohio River. How long will it take for the chemical to reach the water supply of Cincinnati which is also on the Ohio River?
+
+The time it will take for Vinyl Chloride to reach Cincinnati's water supply from the spill site in East Palestine, Ohio will depend on several factors such as the amount of Vinyl Chloride spilled, the concentration of the chemical in the river, the flow rate of the river, and any barriers or dams along the river that may affect the movement of the chemical.
+
+Assuming there are no significant barriers or dams along the river, the average flow rate of the Ohio River is approximately 1.5 miles per hour. Therefore, if the spill occurred in East Palestine, Ohio, which is 300 miles upstream from Cincinnati, it could take up to 200 hours (300 miles / 1.5 miles per hour) for the Vinyl Chloride to reach Cincinnati's water supply.
+
+However, it is important to note that the actual time for the chemical to reach Cincinnati's water supply could be longer or shorter depending on the specific conditions of the spill and the river. It's also possible that officials may take steps to prevent the chemical from reaching the water supply, such as by diverting the river or shutting off water intake valves, in order to protect public health and safety.
+
+📷📷Please timestamp this response
+
+This response was generated on 2023-02-20.
+
+📷📷Can you add the time the response was generated
+
+Certainly! This response was generated at 2023-02-20 04:28:00 UTC.
+
+Regenerate response[ChatGPT Feb 13 Version](https://help.openai.com/en/articles/6825453-chatgpt-release-notes). Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve."
+81,1373csa,learnmachinelearning,GPT,comments,2023-05-03 23:35:25,"CheatsheetGPT: Over 600 equations, including ML and RL",Sensitive_Head4946,False,0.88,46,https://www.reddit.com/r/learnmachinelearning/comments/1373csa/cheatsheetgpt_over_600_equations_including_ml_and/,11,1683156925.0,"Hi everyone,
+
+Recently I got access to GPT4 and decided to try something a little peculiar: what if I asked it to generate hundreds of equations on topics that are relatively important but also less covered subjects for brainstorming reasons. I then asked GPT to grade the importance of every relation or even explain it.
+
+I tried to make this practical for my own consumption but wanted to share in case someone has some good feedback or can find it useful. 
+
+It’s interactive and settings are saved in the link. Recommended consumption on a desktop: 
+
+https://tchristos.com/other/the-wall/
+
+https://tchristos.com/other/the-wall/?darkMode=false&option=data-ds-grade&palette=5&zen=true
+
+Hope you enjoy and let me know if you have any feedback or want access to the list of equations
+
+PS: some hallucination"
+82,12bkzjv,learnmachinelearning,GPT,relevance,2023-04-04 14:34:29,Working with chatGPT,macronancer,False,0.97,610,https://i.redd.it/5uwfzjh4pvra1.png,22,1680618869.0,
+83,11akisx,learnmachinelearning,GPT,relevance,2023-02-24 06:26:36,Is there a way to easily train ChatGPT or GPT on custom knowledge?,senttoschool,False,0.99,119,https://www.reddit.com/r/learnmachinelearning/comments/11akisx/is_there_a_way_to_easily_train_chatgpt_or_gpt_on/,46,1677219996.0,"My company has internal documents. It'd be nice to be able to have GPT look over it, and then I can ask it questions on the internal documents."
+84,13e8of2,learnmachinelearning,GPT,relevance,2023-05-11 00:54:18,What do actual ML engineers think of ChatGPT?,PhillConners,False,0.96,153,https://www.reddit.com/r/learnmachinelearning/comments/13e8of2/what_do_actual_ml_engineers_think_of_chatgpt/,106,1683766458.0,"You have been doing this for awhile, now the world is obsessed with OpenAI and suddenly all full of AI “experts”."
+85,zx0ep0,learnmachinelearning,GPT,relevance,2022-12-28 04:37:21,University Professor Catches Student Cheating With ChatGPT,vadhavaniyafaijan,False,0.94,146,https://www.theinsaneapp.com/2022/12/university-professor-catches-student-cheating-with-chatgpt.html,108,1672202241.0,
+86,116au66,learnmachinelearning,GPT,relevance,2023-02-19 13:55:13,ChatGPT History,eforebrahim,False,0.86,254,https://i.redd.it/dv8cfj0nz6ja1.jpg,27,1676814913.0,
+87,12z8n4e,learnmachinelearning,GPT,relevance,2023-04-26 06:23:17,Hugging Face Releases Free Alternative To ChatGPT,vadhavaniyafaijan,False,0.98,394,https://www.theinsaneapp.com/2023/04/free-alternative-to-chatgpt.html,35,1682490197.0,
+88,10fw2df,learnmachinelearning,GPT,relevance,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,333,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+89,10mqyvu,learnmachinelearning,GPT,relevance,2023-01-27 17:44:56,VoiceGPT - ChatGPT Voice Assistant,nickbild,False,0.75,4,https://www.youtube.com/watch?v=ajUCMu7de80,3,1674841496.0,
+90,121849l,learnmachinelearning,GPT,relevance,2023-03-25 02:47:27,[P] ChatGPT with GPT-2: A minimum example of aligning language models with RLHF similar to ChatGPT,liyanjia92,False,1.0,3,/r/MachineLearning/comments/120csub/p_chatgpt_with_gpt2_a_minimum_example_of_aligning/,1,1679712447.0,
+91,11riiip,learnmachinelearning,GPT,relevance,2023-03-15 01:54:30,How good is GPT-4 compared to ChatGPT?,OnlyProggingForFun,False,0.36,0,https://youtu.be/GroMQETFXLc,1,1678845270.0,
+92,10q34ra,learnmachinelearning,GPT,relevance,2023-01-31 16:17:42,ChatGPT Crossed 10 Million Daily Active Users In Just 40 Days,vadhavaniyafaijan,False,0.95,217,https://www.theinsaneapp.com/2023/01/chatgpt-crossed-10-million-user.html,32,1675181862.0,
+93,113nizs,learnmachinelearning,GPT,relevance,2023-02-16 10:29:31,OpenAI Has Purchased AI.Com For ChatGPT For $11M,vadhavaniyafaijan,False,0.93,213,https://www.theinsaneapp.com/2023/02/openai-purchased-ai-com-domain.html,23,1676543371.0,
+94,135ffje,learnmachinelearning,GPT,relevance,2023-05-02 08:48:46,How GPT-3.5 crushes my high score in 2048,inishchith,False,0.73,51,https://v.redd.it/q22lna91tdxa1,28,1683017326.0,
+95,10km46l,learnmachinelearning,GPT,relevance,2023-01-25 01:15:22,How ChatGPT is Trained,ariseff,False,0.98,128,https://youtu.be/VPRSBzXzavo,8,1674609322.0,
+96,11szhsh,learnmachinelearning,GPT,relevance,2023-03-16 16:51:03,Introducing OpenChatKit - The Open-Source Alternative to ChatGPT,kingabzpro,False,0.98,206,https://www.reddit.com/r/learnmachinelearning/comments/11szhsh/introducing_openchatkit_the_opensource/,21,1678985463.0,"Hey everyone! I'm excited to share my latest article about a new open-source technology called OpenChatKit.
+
+For those who work in NLP, you're probably familiar with ChatGPT - a powerful language model that can perform various natural language processing tasks. However, ChatGPT is not open-source, which limits its accessibility and customizability.
+
+OpenChatKit, on the other hand, is an open-source alternative to ChatGPT that provides users with similar NLP capabilities while allowing for more customization and control. With OpenChatKit, users can train their own models and fine-tune them to their specific use cases.
+
+In my article, I dive into the features of OpenChatKit, the Instruction-tuned Large Language Model, and the Limitations of the Model.
+
+If you're interested in learning more about OpenChatKit and how it can enhance your NLP workflows, check out my article [OpenChatKit: Open-Source ChatGPT Alternative ](https://www.kdnuggets.com/2023/03/openchatkit-opensource-chatgpt-alternative.html). I'd love to hear your thoughts and answer any questions you may have."
+97,11hvv2o,learnmachinelearning,GPT,relevance,2023-03-04 10:13:56,ChatGPT is now available on Line! https://github.com/hunkim/line-gpt,hunkims,False,0.5,0,https://i.redd.it/fixjj3oc6pla1.jpg,3,1677924836.0,
+98,10ddc1f,learnmachinelearning,GPT,relevance,2023-01-16 12:28:25,I benchmarked OpenAI's GPT API vs other proprietary APIs on different NLP tasks,AImSamy,False,0.9,197,https://www.reddit.com/gallery/10ddc1f,37,1673872105.0,
+99,103rv9o,learnmachinelearning,GPT,relevance,2023-01-05 06:32:22,I Built A GPT-3 Powered Productivity App - Tutorial included,SupPandaHugger,False,0.97,206,https://i.redd.it/gtywivh756aa1.gif,17,1672900342.0,
+100,121h5ii,learnmachinelearning,GPT,relevance,2023-03-25 09:59:57,Are chat gpt code outputs plain wrong?,SnooHabits4550,False,0.44,0,https://www.reddit.com/r/learnmachinelearning/comments/121h5ii/are_chat_gpt_code_outputs_plain_wrong/,19,1679738397.0,"I asked chatgpt how can I standardize give time series and it gave me following:
+
+https://preview.redd.it/ax6hgvnuyupa1.png?width=711&format=png&auto=webp&s=409bfb5657461bb52718a80ea92b553e842c0959
+
+It gave output which seem incorrect (I tried running that code). So asked it whether it executed that code and it confirmed it indeed executed that code!
+
+**Update**
+
+In case you want to know further conversation:
+
+https://preview.redd.it/bh8uwiidmvpa1.png?width=672&format=png&auto=webp&s=6309e5b149106bfdaa46b457e0cd0ef24149b72c
+
+https://preview.redd.it/avdrdf3gmvpa1.png?width=787&format=png&auto=webp&s=a9886ab88c67406f2bedf0bdeaa9a6bf04f38883
+
+Still wrong output.
+
+&#x200B;
+
+https://preview.redd.it/gsplbvzkmvpa1.png?width=696&format=png&auto=webp&s=cd6dff676d1ec5f472bde05c070b8072764a8007
+
+&#x200B;
+
+https://preview.redd.it/fdkleplmmvpa1.png?width=677&format=png&auto=webp&s=8698d565059cd5749e5fba7fd3df270f07a92a4c"
+101,131yri4,learnmachinelearning,GPT,relevance,2023-04-28 15:59:07,Experience using CustomGPT,evenaccessibility,False,0.91,18,https://www.reddit.com/r/learnmachinelearning/comments/131yri4/experience_using_customgpt/,4,1682697547.0,"Hello everyone here …. 
+
+What AI Language model are you using except from Langchain , we’ve struggling with Langchain lately, content is too generic and does not provide enough customization options to meet our specific needs.
+
+I came across CustomGPT and trying to implement it …. 
+
+Before we proceed, I wanted to reach out to the community and see if anyone has had a similar experience with Langchain and ended up finding success with CustomGPT.
+
+If you have, I would greatly appreciate any insights you can offer on your experience.
+
+&#x200B;
+
+Thank you in advance for your help!"
+102,10l2ucg,learnmachinelearning,GPT,relevance,2023-01-25 16:33:21,I wrote a book using ChatGPT to teach ChatGPT,anefiox,False,0.5,0,https://www.reddit.com/r/learnmachinelearning/comments/10l2ucg/i_wrote_a_book_using_chatgpt_to_teach_chatgpt/,0,1674664401.0,"I found ChatGPT to be quite repetitive and it would not always listen to your prompts. So using it actually ended up creating more content for the book. It's a great way of getting a skeleton of a book ready fast but I don't think it's ready yet for creating full books. I hope to write an article about the process once I have my website up and running. Here's a link to the book if you're interested:  
+
+
+[https://www.amazon.com/Mastering-ChatGPT-Comprehensive-Engineering-Fine-tuning-ebook/dp/B0BSR5HN4X/](https://www.amazon.com/Mastering-ChatGPT-Comprehensive-Engineering-Fine-tuning-ebook/dp/B0BSR5HN4X/)"
+103,zfz9cs,learnmachinelearning,GPT,relevance,2022-12-08 13:41:28,Generating Text With Contrastive Search vs GPT-3/ChatGPT,ledmmaster,False,0.67,2,https://forecastegy.com/posts/generating-text-with-contrastive-search-vs-gpt-3-chatgpt/,0,1670506888.0,
+104,11dc5b4,learnmachinelearning,GPT,relevance,2023-02-27 13:42:55,Can you fine-tune chatGPT in your data as of now?,Melodic_Stomach_2704,False,0.91,56,https://www.reddit.com/r/learnmachinelearning/comments/11dc5b4/can_you_finetune_chatgpt_in_your_data_as_of_now/,33,1677505375.0, I know that model is not publicly available so it's not possible to do it locally. But can you train or fine-tune chatGPT on your data using their API? I see many misguiding articles on the internet that are fine-tuning other GPT models claiming chatGPT.
+105,1373csa,learnmachinelearning,GPT,relevance,2023-05-03 23:35:25,"CheatsheetGPT: Over 600 equations, including ML and RL",Sensitive_Head4946,False,0.88,46,https://www.reddit.com/r/learnmachinelearning/comments/1373csa/cheatsheetgpt_over_600_equations_including_ml_and/,11,1683156925.0,"Hi everyone,
+
+Recently I got access to GPT4 and decided to try something a little peculiar: what if I asked it to generate hundreds of equations on topics that are relatively important but also less covered subjects for brainstorming reasons. I then asked GPT to grade the importance of every relation or even explain it.
+
+I tried to make this practical for my own consumption but wanted to share in case someone has some good feedback or can find it useful. 
+
+It’s interactive and settings are saved in the link. Recommended consumption on a desktop: 
+
+https://tchristos.com/other/the-wall/
+
+https://tchristos.com/other/the-wall/?darkMode=false&option=data-ds-grade&palette=5&zen=true
+
+Hope you enjoy and let me know if you have any feedback or want access to the list of equations
+
+PS: some hallucination"
+106,10mtvn5,learnmachinelearning,GPT,relevance,2023-01-27 19:38:05,"A python module to generate optimized prompts, Prompt-engineering & solve different NLP problems using GPT-n (GPT-3, ChatGPT) based models and return structured python object for easy parsing",StoicBatman,False,1.0,13,https://www.reddit.com/r/learnmachinelearning/comments/10mtvn5/a_python_module_to_generate_optimized_prompts/,2,1674848285.0,"Hi folks,
+
+I was working on a personal experimental project related to GPT-3, which I thought of making it open source now. It saves much time while working with LLMs.
+
+If you are an industrial researcher or application developer, you probably have worked with GPT-3 apis. A common challenge when utilizing LLMs such as #GPT-3 and BLOOM is their tendency to produce uncontrollable & unstructured outputs, making it difficult to use them for various NLP tasks and applications.
+
+To address this, we developed **Promptify**, a library that allows for the use of LLMs to solve NLP problems, including Named Entity Recognition, Binary Classification, Multi-Label Classification, and Question-Answering and return a python object for easy parsing to construct additional applications on top of GPT-n based models.
+
+Features 🚀
+
+* 🧙‍♀️ NLP Tasks (NER, Binary Text Classification, Multi-Label Classification etc.) in 2 lines of code with no training data required
+* 🔨 Easily add one-shot, two-shot, or few-shot examples to the prompt
+* ✌ Output is always provided as a Python object (e.g. list, dictionary) for easy parsing and filtering
+* 💥 Custom examples and samples can be easily added to the prompt
+* 💰 Optimized prompts to reduce OpenAI token costs
+
+&#x200B;
+
+* GITHUB: [https://github.com/promptslab/Promptify](https://github.com/promptslab/Promptify)
+* Examples: [https://github.com/promptslab/Promptify/tree/main/examples](https://github.com/promptslab/Promptify/tree/main/examples)
+* For quick demo -> [Colab](https://colab.research.google.com/drive/16DUUV72oQPxaZdGMH9xH1WbHYu6Jqk9Q?usp=sharing)
+
+Try out and share your feedback. Thanks :)
+
+Join our discord for Prompt-Engineering, LLMs and other latest research discussions  
+[discord.gg/m88xfYMbK6](https://discord.gg/m88xfYMbK6)
+
+[NER Example](https://preview.redd.it/bwnl67gu1nea1.png?width=1236&format=png&auto=webp&s=6c180552f65413c3a94ed06f5d47da93a9641392)
+
+&#x200B;
+
+https://preview.redd.it/vx9nb94w1nea1.png?width=1398&format=png&auto=webp&s=fc392c8ee5add4ee82f45c22a65532da89491f69"
+107,11pkcci,learnmachinelearning,GPT,relevance,2023-03-12 17:31:52,ChatGPT Enabled Dashboard,Reasonable-Angle-500,False,0.86,15,https://v.redd.it/r8d1p7vrfcna1,2,1678642312.0,
+108,106aie8,learnmachinelearning,GPT,relevance,2023-01-08 05:09:46,Major drawback/limitation of GPT-3,trafalgar28,False,0.84,9,https://www.reddit.com/r/learnmachinelearning/comments/106aie8/major_drawbacklimitation_of_gpt3/,13,1673154586.0,"I have been working on a project with GPT-3 API for almost a month now. The only drawback of GPT-3 is that the prompt you can send to the model is capped at 4,000 tokens - where a token is roughly equivalent to ¾ of a word.  Due to this, providing a large context to GPT-3 is quite difficult.
+
+Is there any way to resolve this issue?"
+109,108wigf,learnmachinelearning,GPT,relevance,2023-01-11 05:23:14,Thoughts on this ChatGPT fact-checker tool I built this past week?,QuestionAnxious,False,0.89,87,https://v.redd.it/yqudljp0ncba1,25,1673414594.0,
+110,11g7h03,learnmachinelearning,GPT,relevance,2023-03-02 16:47:40,Build ChatGPT for Financial Documents with LangChain + Deep Lake,davidbun,False,0.95,170,https://www.reddit.com/r/learnmachinelearning/comments/11g7h03/build_chatgpt_for_financial_documents_with/,8,1677775660.0,"https://preview.redd.it/h9r6hgvfucla1.png?width=2388&format=png&auto=webp&s=5432eac3eeed8583e4309af1fdc7ebecac705796
+
+As the world is increasingly generating vast amounts of financial data, the need for advanced tools to analyze and make sense of it has never been greater. This is where [LangChain](https://github.com/hwchase17/langchain) and [Deep Lake](https://github.com/activeloopai/deeplake) come in, offering a powerful combination of technology to help build a question-answering tool based on financial data. After participating in a LangChain hackathon last week, I created a way to use Deep Lake, the data lake for deep learning (a package my team and I are building) with LangChain. I decided to put together a guide of sorts on how you can approach building your own question-answering tools with  LangChain and Deep Lake as the data store.
+
+Read [the article](https://www.activeloop.ai/resources/ultimate-guide-to-lang-chain-deep-lake-build-chat-gpt-to-answer-questions-on-your-financial-data/) to learn:
+
+1. What is LangChain, what are its benefits and use cases and how you can use to streamline your LLM (Large Language Model) development?  
+2. How to use [\#LangChain](https://www.linkedin.com/feed/hashtag/?keywords=langchain&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) and [\#DeepLake](https://www.linkedin.com/feed/hashtag/?keywords=deeplake&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) together to build [\#ChatGPT](https://www.linkedin.com/feed/hashtag/?keywords=chatgpt&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) for your financial documents.  
+3. How Deep Lake’s unified and streamable data store enables fast prototyping without the need to recompute embeddings (something that costs time & money).  
+
+
+I hope you like it, and let me know if you have any questions!"
+111,104sebq,learnmachinelearning,GPT,relevance,2023-01-06 11:58:10,How does ChatGPT actually work? Explained simply with pen and paper,techie_ray,False,0.94,124,https://youtu.be/k9Sps7ciNTE,16,1673006290.0,
+112,118cq36,learnmachinelearning,GPT,relevance,2023-02-21 18:49:26,RPG & ChatGPT,TekeelaMockingbird,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/118cq36/rpg_chatgpt/,0,1677005366.0,Hey we're doing an RPG podcast with ChatGPT as the GM. This episode was a Valentine's Day theme. The name of the podcast is Constructed Chronicles. https://open.spotify.com/episode/0sOtO4CM2w6tsRhhEwYAJ5?si=mfqJHVJ-QU21x538w9HnMA

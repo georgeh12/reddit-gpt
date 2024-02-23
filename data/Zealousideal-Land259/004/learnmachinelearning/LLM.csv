@@ -1,0 +1,602 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,10fw2df,learnmachinelearning,LLM,top,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,336,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+1,13eympz,learnmachinelearning,LLM,top,2023-05-11 20:15:46,Top 20 Large Language Models based on the Elo rating system.,kingabzpro,False,0.96,251,https://i.redd.it/7xfqr5crf9za1.png,43,1683836146.0,
+2,zenanj,learnmachinelearning,LLM,top,2022-12-07 00:36:25,For anyone new to ML: DON’T start with pop content about hot new implementations,yourfinepettingduck,False,0.95,176,https://www.reddit.com/r/learnmachinelearning/comments/zenanj/for_anyone_new_to_ml_dont_start_with_pop_content/,26,1670373385.0,"I’ve been seeing these threads and guides blow up recently about “prompt engineering” and other applications related to trendy models. 
+
+But the unsupervised LLM / NN approaches used in productized ML is a TERRIBLE way to learn. I studied for years and still am way out of my league there. Besides, if the models are proprietary you can’t even use the assumptions, algorithms, or design choices to actually learn. It’s just glorified trial and error. 
+
+The same thing goes for 30 min cookbook copy/paste scikit implementations that are everywhere online.
+
+The best way to learn is to start with old un-sexy supervised theory that you can actually understand. Even try implementing a model without having to rely on a packaged function. Then work up. Even if you don’t get far, that time is worth way more and it’ll give you the language and principles to think more critically about the harder stuff. 
+
+You’ll never actually understand the unsupervised black-box LLM that dozens of data scientists have worked on full time for years. So why start there?
+
+Example: For someone with less math background Springer has a textbook “Text analysis with R for student of Literature”. I signed up as a coast elective then it ended up being really cool. English majors were fluent in the basic ideas of language processing in few months and they taught me a ton too. 
+
+That stuff exists in all sorts of fields but they look boring. You won’t find a “how to profit from enterprise neural nets in 7 months” textbook"
+3,11g7h03,learnmachinelearning,LLM,top,2023-03-02 16:47:40,Build ChatGPT for Financial Documents with LangChain + Deep Lake,davidbun,False,0.95,171,https://www.reddit.com/r/learnmachinelearning/comments/11g7h03/build_chatgpt_for_financial_documents_with/,8,1677775660.0,"https://preview.redd.it/h9r6hgvfucla1.png?width=2388&format=png&auto=webp&s=5432eac3eeed8583e4309af1fdc7ebecac705796
+
+As the world is increasingly generating vast amounts of financial data, the need for advanced tools to analyze and make sense of it has never been greater. This is where [LangChain](https://github.com/hwchase17/langchain) and [Deep Lake](https://github.com/activeloopai/deeplake) come in, offering a powerful combination of technology to help build a question-answering tool based on financial data. After participating in a LangChain hackathon last week, I created a way to use Deep Lake, the data lake for deep learning (a package my team and I are building) with LangChain. I decided to put together a guide of sorts on how you can approach building your own question-answering tools with  LangChain and Deep Lake as the data store.
+
+Read [the article](https://www.activeloop.ai/resources/ultimate-guide-to-lang-chain-deep-lake-build-chat-gpt-to-answer-questions-on-your-financial-data/) to learn:
+
+1. What is LangChain, what are its benefits and use cases and how you can use to streamline your LLM (Large Language Model) development?  
+2. How to use [\#LangChain](https://www.linkedin.com/feed/hashtag/?keywords=langchain&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) and [\#DeepLake](https://www.linkedin.com/feed/hashtag/?keywords=deeplake&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) together to build [\#ChatGPT](https://www.linkedin.com/feed/hashtag/?keywords=chatgpt&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) for your financial documents.  
+3. How Deep Lake’s unified and streamable data store enables fast prototyping without the need to recompute embeddings (something that costs time & money).  
+
+
+I hope you like it, and let me know if you have any questions!"
+4,123hlg0,learnmachinelearning,LLM,top,2023-03-27 09:31:27,tensor_parallel: one-line multi-GPU training for PyTorch,black_samorez,False,0.95,71,https://www.reddit.com/r/learnmachinelearning/comments/123hlg0/tensor_parallel_oneline_multigpu_training_for/,3,1679909487.0,"Hi all! We made a PyTorch [library](https://github.com/BlackSamorez/tensor_parallel) that makes your model tensor-parallel in one line of code.
+
+Our library is designed to work with any model architecture out of the box and can be customized for a specific architecture using a custom config. Additionally, our library is integrated with Hugging Face transformers, which means you can use utilities like .generate() on parallelized models. Optimal parallelism configs for the most popular models are used automatically, making it even more accessible and user-friendly.
+
+We're looking forward to hearing your feedback on how we can make our library even more useful and accessible to the community.
+
+[Try with 20B LLMs now in Kaggle](https://www.kaggle.com/code/blacksamorez/tensor-parallel-int8-llm/)"
+5,10c509n,learnmachinelearning,LLM,top,2023-01-15 00:08:37,Is it still worth learning NLP in the age of API-accessibles LLM like GPT?,CrimsonPilgrim,False,0.94,63,https://www.reddit.com/r/learnmachinelearning/comments/10c509n/is_it_still_worth_learning_nlp_in_the_age_of/,24,1673741317.0,"A question that, I hope, you will find legitimate from a data science student.
+
+I am speaking from the point of view of a data scientist not working in research.
+
+Until now, learning NLP could be used to meet occasional business needs like sentiment analysis, text classification, topic modeling....
+
+With the opening of GPT-3 to the public, the rise of ChatGPT, and the huge wave of applications, sites, plug-ins and extensions based on this technology that are accessible with a simple API request, it's impossible not to wonder if spending dozens of hours diving into this field if ML wouldn't be as useful today as learning the source code of the Pandas library. 
+
+In some specialized cases, it could be useful, but GPT-3, and the models that will follow, seem to offer more than sufficient results for the immensity of the cases and for almost all classical NLP tasks. Not only that, but there is a good chance that the models trained by giants like Open-AI (Microsoft) or Google can never be replicated outside these companies anyway.  With ChatGPT and its incomparable mastery of language, its ability to code, summarize, extract topics, understand... why would I bother to use BERT or a TF-IDF vectorizer when an API will be released? Not only it would be easily accessible, but it also would be much better at the task, faster and cheaper.
+
+In fact, it's a concern regarding all the machine learning field in general with the arrival of powerful ""no-code"" applications, which abstract a large part of the inherent complexity of the field. There will always be a need for experts, for safeguards, but in the end, won't the Data Scientist who masters the features of GPT-3 or 4 and knows a bit of NLP be more efficient than the one who has spent hours reading Google papers and practicing on Gensim, NLTK, spacy... It is the purpose of an API to make things simpler eventually... At what point is there no more reason to be interested in the behind-the-scenes of these tools and to become simple users rather than trying to develop our own techniques?"
+6,121qvqn,learnmachinelearning,LLM,top,2023-03-25 16:23:09,What's the current state of actually free and open source LLMs?,maquinary,False,0.97,58,https://www.reddit.com/r/learnmachinelearning/comments/121qvqn/whats_the_current_state_of_actually_free_and_open/,25,1679761389.0,"*People, take easy on me, I just a newbie that tests stuff made by A.I. in a very amateur manner.*
+
+---------------------
+
+Yesterday a played a bit with [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp), but despite the fact that the software itself is in the MIT license, it has serious limitations because of licensing factors, as you can see [here](https://crfm.stanford.edu/2023/03/13/alpaca.html):
+
+>[...]
+
+>
+
+> We emphasize that Alpaca is intended only for academic research and any commercial use is prohibited. There are three factors in this decision: First, Alpaca is based on LLaMA, which has a non-commercial license, so we necessarily inherit this decision. Second, the instruction data is based on OpenAI’s text-davinci-003, whose terms of use prohibit developing models that compete with OpenAI. Finally, we have not designed adequate safety measures, so Alpaca is not ready to be deployed for general use.
+
+>
+
+> [...]
+
+So, do we have anything that is **completely free** that reaches at least the level of GTP-3?
+
+And what about the data that people use to train the models? Those big companies can ""scan"" the entire web to get insane amounts of data, but can free software developers use these already harvested data to train their own models? Or, in order to have a completely free LLM, people will have to collect data again from the Internet?
+
+-------------
+
+*When I say ""free"", I mean free from licensing limitations, in a sense that I can implement the A.I. in my software without the need of being forced to apply a limited range of licenses, or without the need to pay.*"
+7,126x6ua,learnmachinelearning,LLM,top,2023-03-30 19:44:32,Personalize Your Own Language Model with xTuring - A Beginner-Friendly Library,x_ml,False,0.98,58,https://www.reddit.com/r/learnmachinelearning/comments/126x6ua/personalize_your_own_language_model_with_xturing/,7,1680205472.0,"Hi everyone,  
+
+
+If you are interested in customizing your own language model but don't know where to start, try  [xTuring](https://github.com/stochasticai/xturing).  
+
+
+xTuring's goal is to empower individuals to fine-tune LLM for their specific tasks with as little as 5 lines of code. With xTuring, you can perform high and low precision fine-tuning with a variety of models, including LLaMA, OPT, Cerebras-GPT, Galactica, BLOOM, and more.   
+
+
+You can also generate your OWN datasets using powerful models like GPT-3 to train a much smaller model on YOUR specific task. With the latest version, you can also use terminal and web interface to chat with your models.  
+
+
+Please do check out the repo and show your support if you like our work. Would love if you can also contribute by adding models, raising issues or raising PRs for fixes.  
+
+
+xTuring Github: [https://github.com/stochasticai/xturing](https://github.com/stochasticai/xturing)
+
+If you are interested in getting involved, I am happy to help you on our Discord: [https://discord.gg/TgHXuSJEk6](https://discord.gg/TgHXuSJEk6)
+
+https://i.redd.it/mvxb7i5fixqa1.gif"
+8,12lnnml,learnmachinelearning,LLM,top,2023-04-14 07:03:30,"Ok so I've got a language model architecture that can run locally on cell phones and probably pi's, both for training and text prediction. What now?",saturn_since_day1,False,0.85,23,https://www.reddit.com/r/learnmachinelearning/comments/12lnnml/ok_so_ive_got_a_language_model_architecture_that/,20,1681455810.0,"I'm going to feed it dolly and maybe alpaca to see if it can follow instructions well, but if it doesn't, is there a market for an LLM that can train and run on potatoes with as little as 6Megabytes of RAM and a few gigs of storage, for the text prediction type of things? 
+
+
+It Should be able to handle something like customer service chat easily. Or looking up facts it knows. Includes a confidence tell on replies and can think of several replies before giving one.
+
+
+ It can also learn on the fly. 
+
+
+so far I have it rehashing facts from Wikipedia articles and writing poetry as tests, and learning whatever facts I type into it. It's very adjustable in terms of creativity or precision to the point of memorization of book chapters on the accurate end.
+
+
+It also expands as it learns and learns faster than you can read as a human.
+
+
+I feel like with instruction-taking models like llama and dolly existing on consumer hardware already I might be a bit late if this can't do that well and is only good at text finishing/prediction/creation, but I also feel like my architecture makes it very accessible to train and run your own and that will be worth something regardless.
+
+
+I know if it can follow instructions it will be worth billions just in hardware and energy savings. But do any of you see a use case if it can't? But can only text predict?
+
+
+Oh and it is multilingual.
+
+
+Thoughts?"
+9,1275el6,learnmachinelearning,LLM,top,2023-03-31 01:09:30,How should I go about publishing a dataset so other engineers/scientists will use it?,tylersuard,False,1.0,22,https://www.reddit.com/r/learnmachinelearning/comments/1275el6/how_should_i_go_about_publishing_a_dataset_so/,9,1680224970.0,"Hello.  I have a dataset that could be really helpful to a lot of researchers, particularly in the LLM field.  How and where should I post it to get their attention?"
+10,13ikxwt,learnmachinelearning,LLM,top,2023-05-15 21:21:01,Resource for creating your own personal ChatGPT tailored to your own data,rajatarya,False,0.78,16,https://www.reddit.com/r/learnmachinelearning/comments/13ikxwt/resource_for_creating_your_own_personal_chatgpt/,6,1684185661.0,"Hey everyone,  
+
+
+I was trying to create a personal ChatGPT that can answer questions and create expert content based on an existing dataset. I thought there are tons of applications for this, so [I created a workshop](https://app.livestorm.co/xethub/mygpt-free-workshop-build-a-chatgpt-clone-tailored-to-your-data?type=detailed&utm_source=reddit&utm_medium=social&utm_campaign=openaireddit) so you can create your own app - I’m calling it “MyGPT”.  
+
+
+In this workshop I’ll be covering:
+
+* How to create a Generative AI app using the DaVinci model (the same one used by ChatGPT) 
+* How a Generative AI application is structured (the tech stack)
+* Integrating your own data into a Large Language Model (LLM)
+* Getting started with XetHub (similar to GitHub but easier for ML models)
+* Create a Python app that uses Gradio & LangChain
+
+If you’d like to check it out, [sign up here](https://app.livestorm.co/xethub/mygpt-free-workshop-build-a-chatgpt-clone-tailored-to-your-data?type=detailed&utm_source=reddit&utm_medium=social&utm_campaign=openaireddit)!"
+11,zotnbu,learnmachinelearning,LLM,top,2022-12-18 08:16:46,"Looking for good learning sources around generative AI, specifically LLM",Global_Lab8010,False,1.0,18,https://www.reddit.com/r/learnmachinelearning/comments/zotnbu/looking_for_good_learning_sources_around/,10,1671351406.0,"Are there any good video content sources that explains all the concepts associated with generative AI (ex: RL, RLHF, transformer, etc) from the ground up in extremely simple language (using analogies/stories of things that would be familiar to say a 10-12 year old)? Also would prefer channels which explain the concepts in a sequential manner (so that easy to follow) and make short and crisp videos
+
+If yes, could you kindly comment below with the suggestions. 
+If not, could you comment whether something like that would be useful to you and ideally why also?
+
+Big thanks in advance 🙏"
+12,11xijaq,learnmachinelearning,LLM,top,2023-03-21 14:29:47,Doublespeak.chat: an LLM sandbox escape game,Eriner_,False,0.9,14,https://doublespeak.chat,3,1679408987.0,
+13,11s7ya3,learnmachinelearning,LLM,top,2023-03-15 20:18:13,Do multi modal LLM models just inject image description to the context?,ChessGibson,False,0.89,12,https://www.reddit.com/r/learnmachinelearning/comments/11s7ya3/do_multi_modal_llm_models_just_inject_image/,4,1678911493.0,"Hi! Small question I have been asking myself seeing multiple multi modal models recently: do they use interconnected neural networks for different input types, or do they simply convert non-text inputs into textual descriptions before processing them with their language models? What's happening for PaLM-E for instance? How about GPT-4?"
+14,135u3vt,learnmachinelearning,LLM,top,2023-05-02 17:15:02,How to Fine-Tune OpenAI Language Models with Noisily Labeled Data (37% error reduction),cmauck10,False,1.0,10,https://www.reddit.com/r/learnmachinelearning/comments/135u3vt/how_to_finetune_openai_language_models_with/,0,1683047702.0,"Hello Redditors! 
+
+It's pretty well known that LLMs have solidified their place at the forefront of natural language processing, and are constantly pushing the boundaries of what is possible in terms of language understanding and generation.
+
+I spent some time playing around with the OpenAI fine-tuning API and I discovered that noisy data still has drastic effects even on powerful LLMs like Davinci.
+
+[Improving fine-tuning accuracy by improving data quality.](https://preview.redd.it/v5kro8wzagxa1.png?width=1085&format=png&auto=webp&s=39e0309aa94048dc08a0879d99008f00ec32fd9e)
+
+I wrote up a [quick article](https://www.kdnuggets.com/2023/04/finetuning-openai-language-models-noisily-labeled-data.html) in KDNuggets that shows how I used data-centric AI to automatically clean the noisy data in order to fine-tune a more robust OpenAI LLM. The resulting model has 37% fewer errors than the same LLM fine-tuned on the noisy data.
+
+Let me know what you think!"
+15,12tg061,learnmachinelearning,LLM,top,2023-04-20 21:37:12,"Finetuning a commercially viable open source LLM (Flan-UL2) using Alpaca, Dolly15K and LoRA",meowkittykitty510,False,1.0,7,https://www.reddit.com/r/learnmachinelearning/comments/12tg061/finetuning_a_commercially_viable_open_source_llm/,0,1682026632.0,"Links:
+
+* [Blog Post Write Up](https://medium.com/@krohling/finetuning-a-commercially-viable-open-source-llm-flan-ul2-3b84e568c458) (includes benchmarks)
+* [Flan-UL2-Alpaca (HuggingFace)](https://huggingface.co/coniferlabs/flan-ul2-alpaca-lora)
+* [Flan-UL2-Alpaca (Github)](https://github.com/ConiferLabsWA/flan-ul2-alpaca)
+* [Flan-UL2-Dolly15K (HuggingFace)](https://huggingface.co/coniferlabs/flan-ul2-dolly-lora)
+* [Flan-UL2-Dolly15K (Github)](https://github.com/ConiferLabsWA/flan-ul2-dolly)
+
+&#x200B;
+
+Hey Redditors,
+
+This is a project I've been wanting to do for a while. I've spoken to a lot of folks lately who are interested in using LLMs for their business but there's a ton of confusion around the licensing situation. It seems like the Llama platform has been getting all the love lately and I wanted to see what kind of performance I could get out of the Flan-UL2 model. It's underappreciated in my opinion given it has really strong performance on benchmarks (relative to other models in it's size category) and it supports up to 2048 input tokens which is on par with the Alpaca variants. Additionally, it's available under an Apache 2.0 license which means it's viable for commercial usage. 🔥
+
+Despite being a strong model the base Flan-UL2 doesn't give great ""conversational"" responses, so I wanted to see what it was capable of using a newer dataset. I decided to try both Alpaca and Dolly15K. Alpaca is interesting given the massive improvement it had on Llama. It obviously has some licensing caveats which I discuss in the blog post. Dolly15K, which just came out last week, has none of the licensing ambiguity so I was very interested in seeing how those results compared to Alpaca finetuning.
+
+All of the code I used for training is available in the Github links and the final LoRA models are on HuggingFace. I included benchmark results, comparisons and conclusions in the blog post. 
+
+Note that this is one of my first end-to-end finetuning experiments using an LLM so if you see I've made a mistake or have any feedback I'd love to hear it! ❤️"
+16,133ityb,learnmachinelearning,LLM,top,2023-04-30 07:37:19,What LLM should I try to run locally? I have a workstation with two RTX 6000 Ada’s.,Worldbuilder87,False,0.83,8,https://www.reddit.com/r/learnmachinelearning/comments/133ityb/what_llm_should_i_try_to_run_locally_i_have_a/,6,1682840239.0,
+17,12elfp1,learnmachinelearning,LLM,top,2023-04-07 13:31:28,Training opensource LLM (eg Alpaca/GPT4All) on my own docs?,Soc13In,False,1.0,7,https://www.reddit.com/r/learnmachinelearning/comments/12elfp1/training_opensource_llm_eg_alpacagpt4all_on_my/,6,1680874288.0,Is it possible to train an LLM on documents of my organization and ask it questions on that? Like what are the conditions in which a person can be dismissed from service in my organization or what are the requirements for promotion to manager etc. All this information is captured in PDFs. How would one go about doing this?
+18,12c97u7,learnmachinelearning,LLM,top,2023-04-05 05:09:01,Source Code Search with AI/LLM possible?,MarcRFC,False,0.83,7,https://www.reddit.com/r/learnmachinelearning/comments/12c97u7/source_code_search_with_aillm_possible/,1,1680671341.0,"I would like to use AI to search a large (private) code base and ask questions like ""What is program ABC doing?"" or ""Who is using this module?"" Are there already projects or approaches to achieve something similar?"
+19,10fw2df,learnmachinelearning,LLM,comments,2023-01-19 07:56:20,GPT-4 Will Be 500x Smaller Than People Think - Here Is Why,LesleyFair,False,0.96,332,https://www.reddit.com/r/learnmachinelearning/comments/10fw2df/gpt4_will_be_500x_smaller_than_people_think_here/,47,1674114980.0,"&#x200B;
+
+[Number Of Parameters GPT-3 vs. GPT-4](https://preview.redd.it/yio0v3zqgyca1.png?width=575&format=png&auto=webp&s=a2ee034ce7ed48c9adc1793bfdb495e0f0812609)
+
+The rumor mill is buzzing around the release of GPT-4.
+
+People are predicting the model will have 100 trillion parameters. That’s a *trillion* with a “t”.
+
+The often-used graphic above makes GPT-3 look like a cute little breadcrumb that is about to have a live-ending encounter with a bowling ball.
+
+Sure, OpenAI’s new brainchild will certainly be mind-bending and language models have been getting bigger — fast!
+
+But this time might be different and it makes for a good opportunity to look at the research on scaling large language models (LLMs).
+
+*Let’s go!*
+
+Training 100 Trillion Parameters
+
+The creation of GPT-3 was a marvelous feat of engineering. The training was done on 1024 GPUs, took 34 days, and cost $4.6M in compute alone \[1\].
+
+Training a 100T parameter model on the same data, using 10000 GPUs, would take 53 Years. To avoid overfitting such a huge model the dataset would also need to be much(!) larger.
+
+So, where is this rumor coming from?
+
+The Source Of The Rumor:
+
+It turns out OpenAI itself might be the source of it.
+
+In August 2021 the CEO of Cerebras told [wired](https://www.wired.com/story/cerebras-chip-cluster-neural-networks-ai/): “From talking to OpenAI, GPT-4 will be about 100 trillion parameters”.
+
+A the time, that was most likely what they believed, but that was in 2021. So, basically forever ago when machine learning research is concerned.
+
+Things have changed a lot since then!
+
+To understand what happened we first need to look at how people decide the number of parameters in a model.
+
+Deciding The Number Of Parameters:
+
+The enormous hunger for resources typically makes it feasible to train an LLM only once.
+
+In practice, the available compute budget (how much money will be spent, available GPUs, etc.) is known in advance. Before the training is started, researchers need to accurately predict which hyperparameters will result in the best model.
+
+*But there’s a catch!*
+
+Most research on neural networks is empirical. People typically run hundreds or even thousands of training experiments until they find a good model with the right hyperparameters.
+
+With LLMs we cannot do that. Training 200 GPT-3 models would set you back roughly a billion dollars. Not even the deep-pocketed tech giants can spend this sort of money.
+
+Therefore, researchers need to work with what they have. Either they investigate the few big models that have been trained or they train smaller models in the hope of learning something about how to scale the big ones.
+
+This process can very noisy and the community’s understanding has evolved a lot over the last few years.
+
+What People Used To Think About Scaling LLMs
+
+In 2020, a team of researchers from OpenAI released a [paper](https://arxiv.org/pdf/2001.08361.pdf) called: “Scaling Laws For Neural Language Models”.
+
+They observed a predictable decrease in training loss when increasing the model size over multiple orders of magnitude.
+
+So far so good. But they made two other observations, which resulted in the model size ballooning rapidly.
+
+1. To scale models optimally the parameters should scale quicker than the dataset size. To be exact, their analysis showed when increasing the model size 8x the dataset only needs to be increased 5x.
+2. Full model convergence is not compute-efficient. Given a fixed compute budget it is better to train large models shorter than to use a smaller model and train it longer.
+
+Hence, it seemed as if the way to improve performance was to scale models faster than the dataset size \[2\].
+
+And that is what people did. The models got larger and larger with GPT-3 (175B), [Gopher](https://arxiv.org/pdf/2112.11446.pdf) (280B), [Megatron-Turing NLG](https://arxiv.org/pdf/2201.11990) (530B) just to name a few.
+
+But the bigger models failed to deliver on the promise.
+
+*Read on to learn why!*
+
+What We know About Scaling Models Today
+
+It turns out you need to scale training sets and models in equal proportions. So, every time the model size doubles, the number of training tokens should double as well.
+
+This was published in DeepMind’s 2022 [paper](https://arxiv.org/pdf/2203.15556.pdf): “Training Compute-Optimal Large Language Models”
+
+The researchers fitted over 400 language models ranging from 70M to over 16B parameters. To assess the impact of dataset size they also varied the number of training tokens from 5B-500B tokens.
+
+The findings allowed them to estimate that a compute-optimal version of GPT-3 (175B) should be trained on roughly 3.7T tokens. That is more than 10x the data that the original model was trained on.
+
+To verify their results they trained a fairly small model on vastly more data. Their model, called Chinchilla, has 70B parameters and is trained on 1.4T tokens. Hence it is 2.5x smaller than GPT-3 but trained on almost 5x the data.
+
+Chinchilla outperforms GPT-3 and other much larger models by a fair margin \[3\].
+
+This was a great breakthrough!  
+The model is not just better, but its smaller size makes inference cheaper and finetuning easier.
+
+*So What Will Happen?*
+
+What GPT-4 Might Look Like:
+
+To properly fit a model with 100T parameters, open OpenAI needs a dataset of roughly 700T tokens. Given 1M GPUs and using the calculus from above, it would still take roughly 2650 years to train the model \[1\].
+
+So, here is what GPT-4 could look like:
+
+* Similar size to GPT-3, but trained optimally on 10x more data
+* ​[Multi-modal](https://thealgorithmicbridge.substack.com/p/gpt-4-rumors-from-silicon-valley) outputting text, images, and sound
+* Output conditioned on document chunks from a memory bank that the model has access to during prediction \[4\]
+* Doubled context size allows longer predictions before the model starts going off the rails​
+
+Regardless of the exact design, it will be a solid step forward. However, it will not be the 100T token human-brain-like AGI that people make it out to be.
+
+Whatever it will look like, I am sure it will be amazing and we can all be excited about the release.
+
+Such exciting times to be alive!
+
+As always, I really enjoyed making this for you and I sincerely hope you found it useful!
+
+Would you like to receive an article such as this one straight to your inbox every Thursday? Consider signing up for **The Decoding** ⭕.
+
+I send out a thoughtful newsletter about ML research and the data economy once a week. No Spam. No Nonsense. [Click here to sign up!](https://thedecoding.net/)
+
+**References:**
+
+\[1\] D. Narayanan, M. Shoeybi, J. Casper , P. LeGresley, M. Patwary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer, B. Catanzaro, A. Phanishayee , M. Zaharia, [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021), SC21
+
+\[2\] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child,… & D. Amodei, [Scaling laws for neural language model](https://arxiv.org/abs/2001.08361)s (2020), arxiv preprint
+
+\[3\] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai, E. Rutherford, D. Casas, L. Hendricks, J. Welbl, A. Clark, T. Hennigan, [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022). *arXiv preprint arXiv:2203.15556*.
+
+\[4\] S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. Driessche, J. Lespiau, B. Damoc, A. Clark, D. Casas, [Improving language models by retrieving from trillions of tokens](https://arxiv.org/abs/2112.04426) (2021). *arXiv preprint arXiv:2112.04426*.Vancouver"
+20,13eympz,learnmachinelearning,LLM,comments,2023-05-11 20:15:46,Top 20 Large Language Models based on the Elo rating system.,kingabzpro,False,0.96,252,https://i.redd.it/7xfqr5crf9za1.png,43,1683836146.0,
+21,12my20o,learnmachinelearning,LLM,comments,2023-04-15 10:38:45,Can we upscale neural network layers?,alcanthro,False,0.83,4,https://www.reddit.com/r/learnmachinelearning/comments/12my20o/can_we_upscale_neural_network_layers/,17,1681555125.0,"Might be a beginner question, might not be. I'm not sure. The organic brain grows over time in early childhood, making more room for more connections as the organism gains more experiences. GPTs and most other neural networks are pre-trained and then experience only minor fine-tuning.
+
+But what if we upscale the neural network to make more room for new connections? Basically, what if we increase the size of the weight tensor and then use something like Gaussian interpolation to smooth out the weights? 
+
+The process seems to work alright, based on the [testing I've done](https://www.researchgate.net/publication/369998746_Organic_Growth_of_GPT_Models_A_Brain-Inspired_Incremental_Model_Scaling_Approach), but it might just be due to some weird error that I get decent results. Of course, we wouldn't use this process to train a general use LLM. This process would result in a very unique neural network with its own connections based on its own experiences and self directed learning, i.e they'd be much more like organic minds that ""grew up"" over time.
+
+If this process is viable I'd imagine there'd already be something on the topic of model/network upscaling, but I'm not seeing anything."
+22,zenanj,learnmachinelearning,LLM,comments,2022-12-07 00:36:25,For anyone new to ML: DON’T start with pop content about hot new implementations,yourfinepettingduck,False,0.95,177,https://www.reddit.com/r/learnmachinelearning/comments/zenanj/for_anyone_new_to_ml_dont_start_with_pop_content/,26,1670373385.0,"I’ve been seeing these threads and guides blow up recently about “prompt engineering” and other applications related to trendy models. 
+
+But the unsupervised LLM / NN approaches used in productized ML is a TERRIBLE way to learn. I studied for years and still am way out of my league there. Besides, if the models are proprietary you can’t even use the assumptions, algorithms, or design choices to actually learn. It’s just glorified trial and error. 
+
+The same thing goes for 30 min cookbook copy/paste scikit implementations that are everywhere online.
+
+The best way to learn is to start with old un-sexy supervised theory that you can actually understand. Even try implementing a model without having to rely on a packaged function. Then work up. Even if you don’t get far, that time is worth way more and it’ll give you the language and principles to think more critically about the harder stuff. 
+
+You’ll never actually understand the unsupervised black-box LLM that dozens of data scientists have worked on full time for years. So why start there?
+
+Example: For someone with less math background Springer has a textbook “Text analysis with R for student of Literature”. I signed up as a coast elective then it ended up being really cool. English majors were fluent in the basic ideas of language processing in few months and they taught me a ton too. 
+
+That stuff exists in all sorts of fields but they look boring. You won’t find a “how to profit from enterprise neural nets in 7 months” textbook"
+23,121qvqn,learnmachinelearning,LLM,comments,2023-03-25 16:23:09,What's the current state of actually free and open source LLMs?,maquinary,False,0.97,58,https://www.reddit.com/r/learnmachinelearning/comments/121qvqn/whats_the_current_state_of_actually_free_and_open/,25,1679761389.0,"*People, take easy on me, I just a newbie that tests stuff made by A.I. in a very amateur manner.*
+
+---------------------
+
+Yesterday a played a bit with [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp), but despite the fact that the software itself is in the MIT license, it has serious limitations because of licensing factors, as you can see [here](https://crfm.stanford.edu/2023/03/13/alpaca.html):
+
+>[...]
+
+>
+
+> We emphasize that Alpaca is intended only for academic research and any commercial use is prohibited. There are three factors in this decision: First, Alpaca is based on LLaMA, which has a non-commercial license, so we necessarily inherit this decision. Second, the instruction data is based on OpenAI’s text-davinci-003, whose terms of use prohibit developing models that compete with OpenAI. Finally, we have not designed adequate safety measures, so Alpaca is not ready to be deployed for general use.
+
+>
+
+> [...]
+
+So, do we have anything that is **completely free** that reaches at least the level of GTP-3?
+
+And what about the data that people use to train the models? Those big companies can ""scan"" the entire web to get insane amounts of data, but can free software developers use these already harvested data to train their own models? Or, in order to have a completely free LLM, people will have to collect data again from the Internet?
+
+-------------
+
+*When I say ""free"", I mean free from licensing limitations, in a sense that I can implement the A.I. in my software without the need of being forced to apply a limited range of licenses, or without the need to pay.*"
+24,10c509n,learnmachinelearning,LLM,comments,2023-01-15 00:08:37,Is it still worth learning NLP in the age of API-accessibles LLM like GPT?,CrimsonPilgrim,False,0.93,61,https://www.reddit.com/r/learnmachinelearning/comments/10c509n/is_it_still_worth_learning_nlp_in_the_age_of/,24,1673741317.0,"A question that, I hope, you will find legitimate from a data science student.
+
+I am speaking from the point of view of a data scientist not working in research.
+
+Until now, learning NLP could be used to meet occasional business needs like sentiment analysis, text classification, topic modeling....
+
+With the opening of GPT-3 to the public, the rise of ChatGPT, and the huge wave of applications, sites, plug-ins and extensions based on this technology that are accessible with a simple API request, it's impossible not to wonder if spending dozens of hours diving into this field if ML wouldn't be as useful today as learning the source code of the Pandas library. 
+
+In some specialized cases, it could be useful, but GPT-3, and the models that will follow, seem to offer more than sufficient results for the immensity of the cases and for almost all classical NLP tasks. Not only that, but there is a good chance that the models trained by giants like Open-AI (Microsoft) or Google can never be replicated outside these companies anyway.  With ChatGPT and its incomparable mastery of language, its ability to code, summarize, extract topics, understand... why would I bother to use BERT or a TF-IDF vectorizer when an API will be released? Not only it would be easily accessible, but it also would be much better at the task, faster and cheaper.
+
+In fact, it's a concern regarding all the machine learning field in general with the arrival of powerful ""no-code"" applications, which abstract a large part of the inherent complexity of the field. There will always be a need for experts, for safeguards, but in the end, won't the Data Scientist who masters the features of GPT-3 or 4 and knows a bit of NLP be more efficient than the one who has spent hours reading Google papers and practicing on Gensim, NLTK, spacy... It is the purpose of an API to make things simpler eventually... At what point is there no more reason to be interested in the behind-the-scenes of these tools and to become simple users rather than trying to develop our own techniques?"
+25,12lnnml,learnmachinelearning,LLM,comments,2023-04-14 07:03:30,"Ok so I've got a language model architecture that can run locally on cell phones and probably pi's, both for training and text prediction. What now?",saturn_since_day1,False,0.85,23,https://www.reddit.com/r/learnmachinelearning/comments/12lnnml/ok_so_ive_got_a_language_model_architecture_that/,20,1681455810.0,"I'm going to feed it dolly and maybe alpaca to see if it can follow instructions well, but if it doesn't, is there a market for an LLM that can train and run on potatoes with as little as 6Megabytes of RAM and a few gigs of storage, for the text prediction type of things? 
+
+
+It Should be able to handle something like customer service chat easily. Or looking up facts it knows. Includes a confidence tell on replies and can think of several replies before giving one.
+
+
+ It can also learn on the fly. 
+
+
+so far I have it rehashing facts from Wikipedia articles and writing poetry as tests, and learning whatever facts I type into it. It's very adjustable in terms of creativity or precision to the point of memorization of book chapters on the accurate end.
+
+
+It also expands as it learns and learns faster than you can read as a human.
+
+
+I feel like with instruction-taking models like llama and dolly existing on consumer hardware already I might be a bit late if this can't do that well and is only good at text finishing/prediction/creation, but I also feel like my architecture makes it very accessible to train and run your own and that will be worth something regardless.
+
+
+I know if it can follow instructions it will be worth billions just in hardware and energy savings. But do any of you see a use case if it can't? But can only text predict?
+
+
+Oh and it is multilingual.
+
+
+Thoughts?"
+26,1259tlx,learnmachinelearning,LLM,comments,2023-03-29 02:00:28,"Running something like GPT-2 locally, training with my own data",SigmaSixShooter,False,0.86,5,https://www.reddit.com/r/learnmachinelearning/comments/1259tlx/running_something_like_gpt2_locally_training_with/,15,1680055228.0,"Greetings, I hope I'm asking in the right place. 
+
+I've been really amazed with ChatGTP-3 and ChatGTP-4 and started thinking how I can use them in my own company. I'd love to train something based on all of our previous tickets. The issue is, these tickets contain sensitive information and customer data, so I can't use some cloud based API. 
+
+So let's say Bob is an excellent worker. His tickets are the gold standard, he always writes in a professional voice with detailed information. There's 20 different issues we fix as part of our business, and over the past 3 years, Bob has covered all of them 100 times over. 
+
+So, I'd like to export all of the tickets Bob has worked and use them to train some GTP/AI type model. I'd like to be able to write a prompt like 'For Issue A with these variables, write up an issue description for our customer"" 
+
+I've been trying to wrap my head around this, but it's an awfully overwhelming subject. Talking with GTP-4 it looks like I can try either GTP-2 or DistilGTP. I also came across Llama.cpp which just came out the other day it seems. 
+
+With this in mind, I've got a few questions
+
+1. Is there any option I should consider that lets me run this on something with 32 gigs of ram and 8 to 16 cores? I've got access to a few pieces of hardware. Again, so far I'm looking at DistilGTP, GTP-2, or llama.cpp
+2. Will I need other data sets if I ever figure out how to train this on Bob's tickets? Or will that be enough? I'm trying to figure out if I need the several hundred gigs of other models out there. 
+3. How the heck do I go about getting started? :) If someone can help me narrow things down to which LLM (if that's even the right term) I should use to accomplish my goals, and some basic instructions on how to train the data, I think I can figure out the rest after a few thousand rounds of trial and error. 
+
+&#x200B;
+
+Thanks in advance for your time and help."
+27,zotnbu,learnmachinelearning,LLM,comments,2022-12-18 08:16:46,"Looking for good learning sources around generative AI, specifically LLM",Global_Lab8010,False,0.96,17,https://www.reddit.com/r/learnmachinelearning/comments/zotnbu/looking_for_good_learning_sources_around/,10,1671351406.0,"Are there any good video content sources that explains all the concepts associated with generative AI (ex: RL, RLHF, transformer, etc) from the ground up in extremely simple language (using analogies/stories of things that would be familiar to say a 10-12 year old)? Also would prefer channels which explain the concepts in a sequential manner (so that easy to follow) and make short and crisp videos
+
+If yes, could you kindly comment below with the suggestions. 
+If not, could you comment whether something like that would be useful to you and ideally why also?
+
+Big thanks in advance 🙏"
+28,1275el6,learnmachinelearning,LLM,comments,2023-03-31 01:09:30,How should I go about publishing a dataset so other engineers/scientists will use it?,tylersuard,False,0.96,20,https://www.reddit.com/r/learnmachinelearning/comments/1275el6/how_should_i_go_about_publishing_a_dataset_so/,9,1680224970.0,"Hello.  I have a dataset that could be really helpful to a lot of researchers, particularly in the LLM field.  How and where should I post it to get their attention?"
+29,11g7h03,learnmachinelearning,LLM,comments,2023-03-02 16:47:40,Build ChatGPT for Financial Documents with LangChain + Deep Lake,davidbun,False,0.95,171,https://www.reddit.com/r/learnmachinelearning/comments/11g7h03/build_chatgpt_for_financial_documents_with/,8,1677775660.0,"https://preview.redd.it/h9r6hgvfucla1.png?width=2388&format=png&auto=webp&s=5432eac3eeed8583e4309af1fdc7ebecac705796
+
+As the world is increasingly generating vast amounts of financial data, the need for advanced tools to analyze and make sense of it has never been greater. This is where [LangChain](https://github.com/hwchase17/langchain) and [Deep Lake](https://github.com/activeloopai/deeplake) come in, offering a powerful combination of technology to help build a question-answering tool based on financial data. After participating in a LangChain hackathon last week, I created a way to use Deep Lake, the data lake for deep learning (a package my team and I are building) with LangChain. I decided to put together a guide of sorts on how you can approach building your own question-answering tools with  LangChain and Deep Lake as the data store.
+
+Read [the article](https://www.activeloop.ai/resources/ultimate-guide-to-lang-chain-deep-lake-build-chat-gpt-to-answer-questions-on-your-financial-data/) to learn:
+
+1. What is LangChain, what are its benefits and use cases and how you can use to streamline your LLM (Large Language Model) development?  
+2. How to use [\#LangChain](https://www.linkedin.com/feed/hashtag/?keywords=langchain&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) and [\#DeepLake](https://www.linkedin.com/feed/hashtag/?keywords=deeplake&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) together to build [\#ChatGPT](https://www.linkedin.com/feed/hashtag/?keywords=chatgpt&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7037082545263448064) for your financial documents.  
+3. How Deep Lake’s unified and streamable data store enables fast prototyping without the need to recompute embeddings (something that costs time & money).  
+
+
+I hope you like it, and let me know if you have any questions!"
+30,126x6ua,learnmachinelearning,LLM,comments,2023-03-30 19:44:32,Personalize Your Own Language Model with xTuring - A Beginner-Friendly Library,x_ml,False,0.99,57,https://www.reddit.com/r/learnmachinelearning/comments/126x6ua/personalize_your_own_language_model_with_xturing/,7,1680205472.0,"Hi everyone,  
+
+
+If you are interested in customizing your own language model but don't know where to start, try  [xTuring](https://github.com/stochasticai/xturing).  
+
+
+xTuring's goal is to empower individuals to fine-tune LLM for their specific tasks with as little as 5 lines of code. With xTuring, you can perform high and low precision fine-tuning with a variety of models, including LLaMA, OPT, Cerebras-GPT, Galactica, BLOOM, and more.   
+
+
+You can also generate your OWN datasets using powerful models like GPT-3 to train a much smaller model on YOUR specific task. With the latest version, you can also use terminal and web interface to chat with your models.  
+
+
+Please do check out the repo and show your support if you like our work. Would love if you can also contribute by adding models, raising issues or raising PRs for fixes.  
+
+
+xTuring Github: [https://github.com/stochasticai/xturing](https://github.com/stochasticai/xturing)
+
+If you are interested in getting involved, I am happy to help you on our Discord: [https://discord.gg/TgHXuSJEk6](https://discord.gg/TgHXuSJEk6)
+
+https://i.redd.it/mvxb7i5fixqa1.gif"
+31,133ityb,learnmachinelearning,LLM,comments,2023-04-30 07:37:19,What LLM should I try to run locally? I have a workstation with two RTX 6000 Ada’s.,Worldbuilder87,False,0.83,8,https://www.reddit.com/r/learnmachinelearning/comments/133ityb/what_llm_should_i_try_to_run_locally_i_have_a/,6,1682840239.0,
+32,12elfp1,learnmachinelearning,LLM,comments,2023-04-07 13:31:28,Training opensource LLM (eg Alpaca/GPT4All) on my own docs?,Soc13In,False,1.0,7,https://www.reddit.com/r/learnmachinelearning/comments/12elfp1/training_opensource_llm_eg_alpacagpt4all_on_my/,6,1680874288.0,Is it possible to train an LLM on documents of my organization and ask it questions on that? Like what are the conditions in which a person can be dismissed from service in my organization or what are the requirements for promotion to manager etc. All this information is captured in PDFs. How would one go about doing this?
+33,12diqjw,learnmachinelearning,LLM,comments,2023-04-06 12:27:29,[question] What Architecture Or Model Would You Use To Build A Non-Speech Acoustic Encoder?,Simusid,False,1.0,5,https://www.reddit.com/r/learnmachinelearning/comments/12diqjw/question_what_architecture_or_model_would_you_use/,6,1680784049.0,"I have lots of domain specific acoustic data, mostly of mechanical machinery.    I want to build an embedding model of this audio.    My hope is that if well trained, then similar acoustic events will have similar embeddings.    This follows from NLP semantic similarity of two sentences.  
+
+I've been training VITMAE on spectrograms for days and while the loss continues to go down, I'm not encouraged by the results.    I've tried simple autoencoders in the past with time domain inputs and again, not seeing great results.    I'm considering building something with wav2vec 2.0 or wavenet next.
+
+Ideally, I want a ""Large Acoustic Model"" similar in scale and capability to that of a LLM (a lofty goal, I know).    I'd like to hear your thoughts about other approaches to build embedding models for non-speech acoustics."
+34,13ikxwt,learnmachinelearning,LLM,comments,2023-05-15 21:21:01,Resource for creating your own personal ChatGPT tailored to your own data,rajatarya,False,0.8,17,https://www.reddit.com/r/learnmachinelearning/comments/13ikxwt/resource_for_creating_your_own_personal_chatgpt/,6,1684185661.0,"Hey everyone,  
+
+
+I was trying to create a personal ChatGPT that can answer questions and create expert content based on an existing dataset. I thought there are tons of applications for this, so [I created a workshop](https://app.livestorm.co/xethub/mygpt-free-workshop-build-a-chatgpt-clone-tailored-to-your-data?type=detailed&utm_source=reddit&utm_medium=social&utm_campaign=openaireddit) so you can create your own app - I’m calling it “MyGPT”.  
+
+
+In this workshop I’ll be covering:
+
+* How to create a Generative AI app using the DaVinci model (the same one used by ChatGPT) 
+* How a Generative AI application is structured (the tech stack)
+* Integrating your own data into a Large Language Model (LLM)
+* Getting started with XetHub (similar to GitHub but easier for ML models)
+* Create a Python app that uses Gradio & LangChain
+
+If you’d like to check it out, [sign up here](https://app.livestorm.co/xethub/mygpt-free-workshop-build-a-chatgpt-clone-tailored-to-your-data?type=detailed&utm_source=reddit&utm_medium=social&utm_campaign=openaireddit)!"
+35,128we58,learnmachinelearning,LLM,comments,2023-04-01 19:39:01,Fine Tuning + Quantizing LLaMa on rented instance?,dev-matt,False,1.0,1,https://www.reddit.com/r/learnmachinelearning/comments/128we58/fine_tuning_quantizing_llama_on_rented_instance/,6,1680377941.0,"New researcher here. Out of curiosity, has anyone had success in both fine tuning a pretrained model (llama or open source LLM with weights) on a virtualized/rented gpu instance and then also quantizing the model to run via alpaca.cpp or pyllama etc. for consumer hardware? If so, please reach out. Will pay for your expertise! Or if you know a better approach then let me know.
+
+I've tried with alpaca.cpp, but the training requires docker which won't work on virtualized instance.
+
+I've tried alpaca-lora, but got many errors running the training script.
+
+Still looking at other open source options like Lit-LLaMa and GPT4All."
+36,131qajt,learnmachinelearning,LLM,comments,2023-04-28 12:28:22,Training a (L)LM with free Colab tier/Midrange GPU?,Every-Dust9140,False,0.67,2,https://www.reddit.com/r/learnmachinelearning/comments/131qajt/training_a_llm_with_free_colab_tiermidrange_gpu/,5,1682684902.0,"Hello,
+
+I'm new to machine learning, especially language models. I want to train a model that talks like me (or any other style), but I don't want to spend money on a cloud GPU(s). Is it possible to do it with what I have, or will the model be too small to be useful? 
+
+I have tried to train/fine-tune a number of different models and the only one that would actually work was ""GPT-2"" however output from it was really bad.
+
+From all the recently released LLMs the closest one I got to train successfully was ""LLaMa 7b hf"", I was training it using LoRA and peft, it would train it but then crash during the execution of \`model.save\_pretrained\`
+
+Perhaps I could be understanding it wrong but having tried out multiple LLMs such as LLaMa Alpaca (7B), StableLM (3B) and GPT4ALL, seeing how well they run and understand language, especially given that I only have 8GB of VRAM and 16GB of RAM on my PC, It is surprising to me that free Colab tier with almost double the amount of VRAM can't handle training any of those models?
+
+My question is can someone recommend a model or preferably a GitHub repo/Colab notebook that could help me achieve what I want.
+
+&#x200B;
+
+&#x200B;
+
+TLDR: I am trying to train/fine-tune a LLM using free Colab tier but most of them crash due to out of memory error, can someone help me out without requiring me to pay for GPU(s)."
+37,13ak7jk,learnmachinelearning,LLM,relevance,2023-05-07 10:45:15,LLM custom dictionary,Tuppitapp1,False,1.0,5,https://www.reddit.com/r/learnmachinelearning/comments/13ak7jk/llm_custom_dictionary/,2,1683456315.0,Is it possible to extend the token dictionary of LLMs with new custom tokens when fine-tuning? I'm working on a project for generating text that includes terminology and device IDs (+20 character long random strings) that are not in public domain. I imagine it would be easier for the LLM if these were distinct tokens.
+38,12m2j24,learnmachinelearning,LLM,relevance,2023-04-14 16:18:14,The LLM Hacker's Handbook,Eriner_,False,1.0,3,https://doublespeak.chat/#/handbook,0,1681489094.0,
+39,12f3h56,learnmachinelearning,LLM,relevance,2023-04-07 23:24:38,Concurrent Throughput to LLM,Mr_Nice_,False,1.0,1,https://www.reddit.com/r/MachineLearning/comments/12ezjdn/d_llm_concurrent_throughput/,0,1680909878.0,
+40,11xijaq,learnmachinelearning,LLM,relevance,2023-03-21 14:29:47,Doublespeak.chat: an LLM sandbox escape game,Eriner_,False,0.84,11,https://doublespeak.chat,3,1679408987.0,

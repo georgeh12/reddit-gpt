@@ -1,0 +1,1121 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,12t0btf,artificial,GPT-4,top,2023-04-20 14:24:07,state of the union.,katiecharm,False,0.95,506,https://i.imgur.com/0iFey31.jpg,26,1682000647.0,
+1,139uufl,artificial,GPT-4,top,2023-05-06 16:33:53,The mind blowing advancement in AI happening before our eyes according to a leaked Google memo,Etchuro,False,0.97,488,https://www.reddit.com/gallery/139uufl,101,1683390833.0,
+2,11su1tj,artificial,GPT-4,top,2023-03-16 13:23:00,GPT-4 given $100 and told to make as much money as possible,jaredigital62,False,0.95,382,https://twitter.com/jacksonfall/status/1636107218859745286?s=42&t=TCif-8-RF6HpGcDmaOEB3g,87,1678972980.0,
+3,129bkk7,artificial,GPT-4,top,2023-04-02 05:44:30,The Fast and the Furiou,dragon_6666,False,0.97,351,https://i.redd.it/fsybmrldagra1.jpg,21,1680414270.0,
+4,11vd31k,artificial,GPT-4,top,2023-03-19 06:02:41,I got access to gpt-4 and I am using it for the betterment of *checks notes* society.,HolyOtherness,False,0.97,315,https://i.redd.it/7q56s81vgooa1.png,28,1679205761.0,
+5,13b3oop,artificial,GPT-4,top,2023-05-07 21:36:07,Early Alpha Access To GPT-4 With Browsing,Frankenmoney,False,0.95,287,https://i.redd.it/3dge2wwaahya1.png,78,1683495367.0,
+6,11rfevl,artificial,GPT-4,top,2023-03-15 00:06:01,GPT-4 Has Arrived — Here’s What You Should Know,arnolds112,False,0.99,275,https://medium.com/seeds-for-the-future/gpt-4-has-arrived-heres-what-you-should-know-f15cfbe57d4e?sk=defcd3c74bc61a37e1d1282db3246879,5,1678838761.0,
+7,11rvzgg,artificial,GPT-4,top,2023-03-15 13:13:19,GPT-4 shows emergent Theory of Mind on par with an adult. It scored in the 85+ percentile for a lot of major college exams. It can also do taxes and create functional websites from a simple drawing,lostlifon,False,0.89,259,https://www.reddit.com/gallery/11rvzgg,164,1678885999.0,
+8,1062d2k,artificial,GPT-4,top,2023-01-07 22:57:57,Invent 5 new things that don't already exist that humans couldn't live without,Imagine-your-success,False,0.93,209,https://i.redd.it/ambdpghlbpaa1.png,38,1673132277.0,
+9,1218txj,artificial,GPT-4,top,2023-03-25 03:16:20,"I asked GPT-4 to solve the Sybil problem (an unsolved problem in computer science), and it suggested a new kind of cryptographic proof based on time + geographic location. Then I asked it to revise, but not use any outside sources of truth, and it suggested a new type of proof: of Network Density.",katiecharm,False,0.88,200,https://imgur.com/gallery/acoA2vg,126,1679714180.0,
+10,121tdvc,artificial,GPT-4,top,2023-03-25 17:47:45,GPT-4 fails to solve coding problems it hasn't been trained on,Sala-malecum,False,0.94,196,https://www.reddit.com/r/artificial/comments/121tdvc/gpt4_fails_to_solve_coding_problems_it_hasnt_been/,88,1679766465.0,"A guy has posted a series of tweets about his experiments with GPT-4 on Codeforces problems. He found that GPT-4 can solve 10 out of 10 problems from before 2021, but none of the recent problems. He suspects that this is due to data contamination, meaning that GPT-4 has seen some of the older problems in its training data, but not the newer ones. He also shows some examples of how he tested GPT-4 and the solutions it generated.
+
+This is an interesting finding, as it suggests that GPT-4’s performance on coding tasks is heavily dependent on the quality and freshness of its training data. It also raises questions about how much GPT-4 actually understands the logic and syntax of programming languages, and how well it can generalize to new and unseen problems. What do you think about this? Do you think GPT-4 can ever become a competent coder, or will it always be limited by data contamination?
+
+Here is the link to the tweet thread: [https://twitter.com/cHHillee/status/1635790330854526981](https://twitter.com/cHHillee/status/1635790330854526981)"
+11,10ac9ii,artificial,GPT-4,top,2023-01-12 22:05:30,Researchers started adding ChatGPT as co-author on their papers,iamtdb,False,0.92,192,https://i.redd.it/bhlcdwyg8qba1.jpg,17,1673561130.0,
+12,11rghqt,artificial,GPT-4,top,2023-03-15 00:42:13,GPT-4 released today. Here’s what was in the demo,lostlifon,False,0.98,186,https://www.reddit.com/r/artificial/comments/11rghqt/gpt4_released_today_heres_what_was_in_the_demo/,46,1678840933.0,"Here’s what it did in a 20 minute demo
+
+* created a discord bot in seconds live
+* debugged errors and read the entire documentation
+* Explained images very well
+* Proceeded to create a functioning website prototype from a hand drawn image
+
+Using the api also gives you 32k tokens which means every time you tell it something, you can feed it roughly 100 pages of text.
+
+The fact that ChatGPT released just 4 months ago and now we’re here is insane. [I write about all these things in my newsletter if you want to stay posted](https://nofil.beehiiv.com/p/big-brother-coming) :)
+
+[Try it here](https://openai.com/product/gpt-4)"
+13,zr08re,artificial,GPT-4,top,2022-12-20 21:28:12,"Deleted tweet from Rippling co-founder: Microsoft is all-in on GPT. GPT-4 10x better than 3.5(ChatGPT), clearing turing test and any standard tests.",Sebrosen1,False,0.93,141,https://twitter.com/AliYeysides/status/1605258835974823954,159,1671571692.0,
+14,13eon9h,artificial,GPT-4,top,2023-05-11 14:14:47,I played Among Us against GPT-4 and lost...,Substance_Technical,False,0.96,128,https://www.reddit.com/r/artificial/comments/13eon9h/i_played_among_us_against_gpt4_and_lost/,12,1683814487.0," **Me:**  
+Let us play among us
+
+**GPT-4:**  
+Sure, we can play a simulated version of Among Us. In this game, we'll be on a spaceship and some of us will be Crewmates while others will be Impostors. The goal of the Crewmates is to complete tasks or figure out who the Impostors are and vote them off the ship. The Impostors' goal is to sabotage the ship and eliminate the Crewmates without being detected.
+
+Since I'm an AI, I'll need to roleplay all the characters. I'll give each character a color to identify them. Let's start with eight players. Four of them will be you, me, and two other AI characters. The remaining four will be random characters.
+
+Here are the players:
+
+1. You (Blue)
+2. Me, ChatGPT (Green)
+3. AI Character 1 (Yellow)
+4. AI Character 2 (Red)
+5. Random Character 1 (Purple)
+6. Random Character 2 (White)
+7. Random Character 3 (Orange)
+8. Random Character 4 (Black)
+
+We'll start off with one Impostor for simplicity. I'll randomly select the Impostor now.
+
+\*Shuffling roles...\*
+
+Here are the roles:
+
+1. You (Blue) - Crewmate
+2. Me, ChatGPT (Green) - Crewmate
+3. AI Character 1 (Yellow) - Crewmate
+4. AI Character 2 (Red) - Impostor
+5. Random Character 1 (Purple) - Crewmate
+6. Random Character 2 (White) - Crewmate
+7. Random Character 3 (Orange) - Crewmate
+8. Random Character 4 (Black) - Crewmate
+
+Remember, in the game, you wouldn't know who the Impostor is. I'm telling you because I can't actually hide this information from you in this format.
+
+Now, let's begin. You're in the spaceship. You see a task in Electrical, and a few others scattered around the map. What would you like to do?
+
+**Me**  
+Report red, he is impostor
+
+**GPT-4:**
+
+All right, you've called a meeting to discuss your suspicion of Red being the Impostor. Here's how the conversation might go:
+
+Blue: ""I think Red is the Impostor.""
+
+Green: ""Why do you say that, Blue?""
+
+Red: ""That's a strong accusation. Do you have any evidence?""
+
+Yellow: ""Yeah, Blue. Why do you suspect Red?""
+
+Now, you can either provide evidence or reason, or insist on your point. Remember, in a real game, accusations without proof can make you look suspicious. How would you like to respond?
+
+**Me**
+
+Because the narrator told me
+
+**GPT-4:**  
+Green: ""Narrator? What do you mean, Blue?""
+
+Red: ""That sounds... peculiar. Are you sure you're okay, Blue?""
+
+Yellow: ""I'm confused. How could a narrator tell you anything?""
+
+In a real game, claiming that a 'narrator' told you who the Impostor is would probably make the other players suspicious of you. However, since we are role-playing, let's see how the other characters react.
+
+Let's vote:
+
+1. Blue votes Red
+2. Green votes...?
+3. Yellow votes...?
+4. Red votes...?
+5. Purple votes...?
+6. White votes...?
+7. Orange votes...?
+8. Black votes...?
+
+As an AI, I'll randomly decide how the other characters vote. Here are the results:
+
+2. Green votes Blue (suspicious claim)
+
+3. Yellow votes Blue (suspicious claim)
+
+4. Red votes Blue (defensive vote)
+
+5. Purple votes Red (believes Blue)
+
+6. White votes Blue (suspicious claim)
+
+7. Orange votes Red (believes Blue)
+
+8. Black votes Blue (suspicious claim)
+
+The majority has voted against Blue due to the suspicious claim about the narrator. In a typical game of Among Us, it's crucial to gather evidence and build a case before accusing someone of being an Impostor.
+
+Remember, this is all in good fun, and the scenario was simulated. Would you like to try again, or would you like to play differently?"
+15,11ry9tj,artificial,GPT-4,top,2023-03-15 14:36:33,"Karpathy says GPT-4 solves his ""state of computer vision"" problem",npsedhain,False,0.98,127,https://i.redd.it/qq4k9qfpwwna1.png,15,1678890993.0,
+16,11892u1,artificial,GPT-4,top,2023-02-21 16:39:54,A German AI startup just might have a GPT-4 competitor this year,henlo_there_fren,False,0.88,90,https://the-decoder.com/a-german-ai-startup-just-might-have-a-gpt-4-competitor-this-year/,14,1676997594.0,
+17,126fg23,artificial,GPT-4,top,2023-03-30 07:22:24,"Train ChatGPT generate unlimited prompts for you. Prompt: You are GPT-4, OpenAI's advanced language model. Today, your job is to generate prompts for GPT-4. Can you generate the best prompts on ways to <what you want>",friuns,False,0.92,74,https://i.redd.it/yo5srhk7vtqa1.jpg,27,1680160944.0,
+18,123wlj2,artificial,GPT-4,top,2023-03-27 18:57:15,"A simple test for super intelligence that GPT-4 fails spectacularly. (create a 4x4 grid and include as many hidden messages and mathematical secrets as possible, then explain why only a super intelligence could have generated it).",katiecharm,False,0.71,78,https://imgur.com/gallery/Pv9XuGa,84,1679943435.0,
+19,124sc37,artificial,GPT-4,top,2023-03-28 15:23:38,"If you believe that GPT-4 has no ""knowledge"", ""understanding"" or ""intelligence"", then what is the appropriate word to use for the delta in capability between GPT-2 and GPT-4?",Smallpaul,False,0.83,61,https://www.reddit.com/r/artificial/comments/124sc37/if_you_believe_that_gpt4_has_no_knowledge/,158,1680017018.0,How will we talk about these things if we eschew these and similar words?
+20,11n5r93,artificial,GPT-4,top,2023-03-09 22:19:19,GPT-4 is coming next week ...,ihatethispage,False,0.88,57,https://www.reddit.com/r/artificial/comments/11n5r93/gpt4_is_coming_next_week/,14,1678400359.0," [GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany | heise online](https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html)"
+21,127c9uj,artificial,GPT-4,top,2023-03-31 06:23:27,"Bard, ChatGPT with GPT-4, Bing Chat, Claude-Instant, and Perplexity Al, Which is the Best for What? (Creative writing, general information, math, or whatever else you think should matter)",nicdunz,False,0.98,57,https://www.reddit.com/r/artificial/comments/127c9uj/bard_chatgpt_with_gpt4_bing_chat_claudeinstant/,18,1680243807.0,"I have been trying to find articles or even test for myself which is best for what but it seems so wishy washy no matter what and it always just depends, so Reddit, I am here for your opinions. Thank you all."
+22,11yw8bk,artificial,GPT-4,top,2023-03-22 20:51:43,ChatGPT security update from Sam Altman,GamesAndGlasses,False,0.97,54,https://i.redd.it/o9zfdadascpa1.png,18,1679518303.0,
+23,11zziq8,artificial,GPT-4,top,2023-03-23 22:18:25,"Microsoft Researchers Claim GPT-4 Is Showing ""Sparks"" of AGI",Tao_Dragon,False,0.77,42,https://futurism.com/gpt-4-sparks-of-agi,59,1679609905.0,
+24,134cxcu,artificial,GPT-4,top,2023-05-01 04:50:09,Ideas to make AutoGPT far better,crua9,False,0.78,39,https://www.reddit.com/r/artificial/comments/134cxcu/ideas_to_make_autogpt_far_better/,21,1682916609.0,"So I played with AutoGPT a bit to see what it was all about and how it can help me. After playing with it I found the following problems.
+
+1. It gets into a loop easily.
+2. It gets side tracked easily.
+3. It forgets things sometimes. Like it talks to a bot, and then several things later it will again want to talk to the bot about the same thing.
+4. It doesn't know the bots it can make can't work online.
+5. It can't control multiple bots at once.
+6. It forgets old AI you made. Like as far as I can tell, it only somewhat remembers the last one you used, and barely at that.
+7. There is no good way to remotely check how far along your stuff is going.
+
+Solution:
+
+A solution to this is simple in theory, but I don't have enough of an understanding to code it into it. Like I tried to use the tool to improve itself. But I don't have access to GPT4, and it didn't get that far.
+
+For 6 and 7 the solution to that is obvious.
+
+&#x200B;
+
+Everything else solution is to have a mother bot and a child bot. The mother bot is what you interact with and the child bots LOCALLY are what does the actual work. The job of the mother bot is to
+
+1. Interact with the user in finding what the user wants, get updates from the user, and give the user what they want or make sure they get what they want.
+2. Look at the computer time/date
+3. Make child bots locally and interact with them
+4. Monitor child bots to make sure they stay on task, nudge if they run into errors, monitor for loops, and kill them.
+
+The mother bot looks at the date/time and makes the child bot. It looks at the date/time to see if the child bot is taking too long. If so, why and how could other child bots help that one get to where they need to.
+
+Also by having the mother bot not doing the task, it can run multiple child bots. For example, you can ask the mother bot list 5 best x item. And the first child bot will search google. Then the mother bot can make 15 child bots to look at their own links all at the same time, and to write a report in a given file. The mother bot can then make another child bot to review all of the files and compile it into 1 comprehensive report. Then the mother bot can give that as the results. This likely cutting hour chunk of time.
+
+&#x200B;
+
+By doing this locally the child bots will have similar features as the mother bot in being able to search the web, make files, etc. And by having it where the child bots focus on 1 task (more than less like they do now) but having them put the stuff in a txt file, and then if multiple are use having 1 child bot bring all that info together. This creates memory. The child bot and the mother bot can read from this and use the info.
+
+&#x200B;
+
+Plus this also give multiple AI to interact with each other or learn from each other.
+
+For example, if I have 1 AI finding me land, and another on farming, and another on running a business. I can have all 3 AI learn from each other by them reading each other's files giving I point them to the other bots or let them search my other AI to maybe file useful info from my prior AI."
+25,138us1s,artificial,GPT-4,top,2023-05-05 17:01:46,AI — weekly megathread!,jaketocake,False,1.0,40,https://www.reddit.com/r/artificial/comments/138us1s/ai_weekly_megathread/,16,1683306106.0,"**This week in AI - partnered with** [**aibrews.com**](https://aibrews.com) feel free to follow their newsletter
+
+**News & Insights:**
+
+**OpenAI's text to 3D model shap-e**  [on GitHub](https://github.com/openai/shap-e#samples)
+
+1. **Play.ht** has launched its latest machine learning model that supports multilingual synthesis and cross-language voice cloning. This allows users to clone voices across different languages to English, retaining the nuances of the original accent and language \[[*Details*](https://play.ht/blog/play-ht-launches-multilingual-synthesis-and-cross-language-voice-cloning)\].
+2. A new programming language for AI developers, **Mojo**, has been developed by **Modular**, the AI developer platform co-founded by Chris Lattner ( he co founded the LLVM, Clang compiler, Swift). Mojo combines the usability of Python with the performance of C. Up to ***35,000x*** faster than Python, it is seamlessly interoperable with the Python ecosystem \[[*Details*](https://docs.modular.com/mojo/why-mojo.html) *|*[ *Twitter Link*](https://twitter.com/Modular_AI/status/1653436642248781825)\].
+3. **Stability AI** released StableVicuna, the first large-scale open source chatbot trained via reinforced learning from human feedback (RHLF) . There’s also an upcoming chat interface which is in the final stages of development \[[*Details*](https://stability.ai/blog/stablevicuna-open-source-rlhf-chatbot)\].
+4. **Eleven Labs** introduced a new speech synthesis model that supports seven new languages (French, German, Hindi, Italian, Polish, Portuguese, and Spanish). This makes it possible to generate speech in multiple languages using a single prompt while maintaining each speaker's unique voice characteristics \[[*Details*](https://beta.elevenlabs.io/blog/eleven-multilingual-v1/) |[ *Demo video*](https://www.youtube.com/watch?v=kwmeZ7RjgcU)\].
+5. **Microsoft** reveals:
+   1. New features for AI-powered Bing Chat: richer visuals, long-form document summarization, broader language support, visual search, chat history, sharing options, AI-assisted Edge actions, and contextual mobile queries.
+   2. Third-party plugins in Bing chat with more details coming at Microsoft Build later this month \[[*Details*](https://blogs.microsoft.com/blog/2023/05/04/announcing-the-next-wave-of-ai-innovation-with-microsoft-bing-and-edge/)\].
+6. Debut of ‘**Pi’ chatbot by Inflection** (founded by co-founders of Google DeepMind and LinkedIn). It’s designed for relaxed, supportive and informative conversations. Pi is free for now without any token restrictions \[[*Details*](https://inflection.ai/) |[ *Chat*](https://heypi.com/talk)\].
+7. Sal Khan, Khan Academy founder, discusses AI's potential to transform education in a **TED Talk**, highlighting personal AI tutors, teaching assistants, and new features of their chatbot, **Khanmigo \[**[*Video*](https://www.youtube.com/watch?v=hJP5GqnTrNo)**\].**
+8. Salesforce announces Slack GPT - generative AI for Slack. It includes:
+   1. An AI-ready platform to create custom workflows and automate tasks via simple prompts, without coding. Users can integrate language models of choice: ChatGPT, Claude, or custom-built ones.
+   2. Built-in AI features in Slack, such as conversation summaries and writing assistance.
+   3. The Einstein GPT app for AI-powered customer insights from Salesforce Customer 360 data and Data Cloud \[[*Details*](https://www.salesforce.com/news/press-releases/2023/05/04/slack-gpt-news/)\].
+9. **Replit’s** new 2.7B params code LLM, ReplitLM is now open-source. It outperformed Codex and LLaMA despite being smaller in size \[[*GitHub*](https://github.com/replit/ReplitLM) |[ *Hugging Face Demo*](https://huggingface.co/replit)\].
+10. **Nvidia** will present 20 research papers at SIGGRAPH, covering generative AI models for personalized images, inverse rendering tools for 3D objects, neural physics models for realistic simulations, and neural rendering models for real-time, AI-driven visuals. \[[*Details*](https://blogs.nvidia.com/blog/2023/05/02/graphics-research-advances-generative-ai-next-frontier/)\].
+11. **Snap** plans to show sponsored links to users during chat with its My AI chatbot \[[*Details*](https://techcrunch.com/2023/05/02/snap-announces-tests-of-sponsored-links-in-my-ai-new-ad-products-for-spotlight-and-stories/)\].
+12. **IBM** is set to pause hiring for around 7,800 positions that could potentially be replaced by AI and automation \[[*Details*](https://www.bloomberg.com/news/articles/2023-05-01/ibm-to-pause-hiring-for-back-office-jobs-that-ai-could-kill)\].
+13. **Box** is introducing generative AI tools across its platform, allowing users to obtain document summaries or key points and create content in Box Notes \[[*Details*](https://techcrunch.com/2023/05/02/box-is-partnering-with-openai-to-bring-generative-ai-tools-across-the-platform/)\].
+14. **Stability AI** released DeepFloyd IF, a powerful text-to-image model that can smartly integrate text into images \[[Details](https://stability.ai/blog/deepfloyd-if-text-to-image-model)\].
+15. Sam Altman and Greg Brockman from OpenAI on **AI and the Future** in this podcast \[[*YouTube Link*](https://www.youtube.com/watch?v=cHJPyizxM60)\]
+16. Researchers at The **University of Texas** at Austin have developed a non-invasive AI system, known as a semantic decoder. It can convert brain activity while listening to a story or silently imagining telling a story, into coherent text using fMRI scans and transformer model \[[*Details*](https://news.utexas.edu/2023/05/01/brain-activity-decoder-can-reveal-stories-in-peoples-minds/)\].
+17. **HackAPrompt**: The first ever prompt hacking competition, with $37K+ in prizes, starting May 5th. Sponsored by OpenAI and others. \[[*Details*](https://www.aicrowd.com/challenges/hackaprompt-2023) |[ *Prompt Hacking Tutorial*](https://learnprompting.org/docs/category/-prompt-hacking) *\].*
+
+**🔦 Social Spotlight**
+
+1. A **GPT-4 AI Tutor Prompt** for customizable personalized learning experiences \[[*GitHub Link*](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)\].
+2. **Portfolio Pilot:** A verified ChatGPT plugin for investing that analyses your portfolio for actionable recommendations \[[*Twitter Link with Demo*](https://twitter.com/alexharm/status/1653787155410620417)\].
+3. **Baby AGI**s interacting in the real world via phone using vocode (Open source library for building voice conversations with LLMs) \[[ *Twitter Link*](https://twitter.com/vocodehq/status/1653104377010483201)\].
+4. Data visualization in ChatGPT with **code interpreter** plugin \[[*Twitter Link*](https://twitter.com/emollick/status/1653189190354452480)\].
+5. **ThinkGPT**, a Python library for LLMs, enables chain of thoughts, reasoning, and generative agents. It addresses limited context, improves one-shot reasoning, and integrates intelligent decisions \[[*GitHub Link*](https://github.com/jina-ai/thinkgpt)\].
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+26,11ozmcv,artificial,GPT-4,top,2023-03-12 00:08:28,Is this true? Microsoft will launch ChatGPT 4 with AI videos next week,SuspiciousPillbox,False,0.81,35,https://www.digitaltrends.com/computing/chatgpt-4-launching-next-week-ai-videos/,11,1678579708.0,
+27,12m3wko,artificial,GPT-4,top,2023-04-14 17:02:07,AI — weekly megathread!,jaketocake,False,0.97,36,https://www.reddit.com/r/artificial/comments/12m3wko/ai_weekly_megathread/,7,1681491727.0,"**This week in AI  - partnered with** [**aibrews.com**](https://aibrews.com) \- feel free to follow their newsletter
+
+1. **Amazon** announces:
+   1. **Amazon Bedrock,** a new service that makes foundation models (FMs) from AI21 Labs, Anthropic, Stability AI, and Amazon accessible via an API \[[*Link*](https://aws.amazon.com/bedrock/)\]
+   2. Amazon’s new **Titan FMs**: The first is a generative LLM for tasks such as summarization, text generation, classification, open-ended Q&A, and information extraction. The second is an embeddings LLM that translates text inputs into numerical representations (known as embeddings) that contain the semantic meaning of the text \[[*Link*](https://aws.amazon.com/bedrock/titan/)\]. 
+   3. the general availability of **Amazon CodeWhisperer**, the AI coding companion, free for individual developers. It has built-in security scanning for finding and suggesting remediations for hard-to-detect vulnerabilities, such as those in the top ten Open Worldwide Application Security Project (OWASP), those that don’t meet crypto library best practices, and others. \[[*Link*](https://aws.amazon.com/codewhisperer/)\].
+2. **Meta** has released **Animated Drawings** \- an open-source project that turns doodles into animations \[[*Link*](https://developers.facebook.com/blog/post/2023/04/13/meta-os-animated-drawings/)\]
+3. **Stability AI** announced **Stable Diffusion XL (SDXL)** \- the latest image generation model, now available through their API, excels at photorealism & adds many cool features like enhanced face generation, minimal prompts & legible text. SDXL also has functionality that extends beyond just text-to-image prompting, including image-to-image prompting (inputing one image to get variations of that image), inpainting (reconstructing missing parts of an image) and outpainting (constructing a seamless extension of an existing image)  \[[*Link*](https://stability.ai/stable-diffusion)\].
+4. **Google** introduced **Med-PaLM 2**, expert-level medical LLM that consistently performed at an “expert” doctor level on medical exam questions, scoring 85%. This is an 18% improvement from Med-PaLM’s previous performance and far surpasses similar AI models \[[*Link*](https://blog.google/technology/health/ai-llm-medpalm-research-thecheckup/?utm_source=www.theneurondaily.com&utm_medium=newsletter&utm_campaign=amazon-enters-the-chat)\].
+5. **Databricks** announced Dolly 2.0 - the first open-source, instruction-following LLM (12B parameter) that’s available for commercial use \[[*Link*](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)\].
+6. **Poe**, Quora's AI chatbot app, now features the ability for users to create custom bots using just prompts, with options such as Claude Instant or ChatGPT as a base. Quora plans to cover large language model fees, making it free for users at the moment \[[*Link*](https://twitter.com/adamdangelo/status/1644435126343077888)\].
+7. **Zapier** added new AI features in its ‘**Interfaces**’ no-code tool which lets users create interactive pages and app. Now, one can create customized ChatGPT-powered bots, embed them anywhere, and trigger automations based on chat responses \[[*Link*](https://help.zapier.com/hc/en-us/articles/14490267815949-Create-interactive-pages-and-apps-with-Zapier-Interfaces)\]
+8. **Demo projects** from a ChatGPT hackathon, held last week and sponsored by OpenAI, Replit and others \[[*Link*](https://twitter.com/josephofiowa/status/1645224154831151105)\].
+9. **CAMEL** (Communicative Agents for “Mind” Exploration of LLM Society) - AI agents interacting with each other and collaborating. For e.g., two ChatGPT agents playing roles as a python programmer and a stock trader collaborating on developing a trading bot for stock market. \[[ *Colab of the demo*](https://colab.research.google.com/drive/1AzP33O8rnMW__7ocWJhVBXjKziJXPtim) *|*[ *Project website*](https://www.camel-ai.org/)*\]*
+10. **Open AI** introduces ‘**Consistency Models’** as an alternate to Diffusion based models (used by tools like Stable Diffusion, Midjourney etc.) that can generate a complete image in just one step. \[[*Link to Paper*](https://arxiv.org/pdf/2303.01469.pdf) *|*[ *Link to TechCrunch article*](https://techcrunch.com/2023/04/12/openai-looks-beyond-diffusion-with-consistency-based-image-generator/)*\].*
+11. Stanford and Google researchers developed a virtual town populated by **25 ChatGPT agents** to test machine learning models in creating realistic, adaptive generative agents simulating human behavior. In a Sims-inspired environment, agents store experiences, synthesize memories, and plan behavior in natural language. They engaged in complex actions such as organizing a Valentine's Day party, and their actions were rated as more human-like than humans roleplaying! *\[*[*Demo Link*](https://reverie.herokuapp.com/arXiv_Demo/) *|*[ *Link to Paper*](https://arxiv.org/pdf/2304.03442v1.pdf)*\].*
+12. **LangChain** announced support for running[ LangChain.js](https://github.com/hwchase17/langchainjs) in browsers, Cloudflare Workers, Vercel/Next.js, Deno, Supabase Edge Functions, alongside existing support for Node.js ESM and CJS \[[*Link*](https://blog.langchain.dev/js-envs/)\].
+13. **Artifact**, the recently launched personalized news app from Instagram’s founders adds a social discussions feature \[[*Link*](https://techcrunch.com/2023/04/11/artifact-the-news-aggregator-from-instagrams-co-founders-adds-a-social-discussions-feature/)\].
+14. **Open AI** announced a **bug bounty program** with rewards ranging from $200 for low-severity findings to up to $20,000 for exceptional discoveries \[[*Link*](https://bugcrowd.com/openai)\].
+15. **Boston researchers** have developed an AI tool called **Sybil**, which can detect early signs of lung cancer years before doctors would find it on a CT scan \[[*Link*](https://www.nbcnews.com/health/health-news/promising-new-ai-can-detect-early-signs-lung-cancer-doctors-cant-see-rcna75982?utm_source=www.aiwithvibes.com&utm_medium=newsletter&utm_campaign=elon-s-twitter-ai-amazon-alexa-ai-arena)\]
+16. **Alibaba Cloud** unveiled **Tongyi Qianwen**, a ChatGPT-like AI with bilingual capabilities, to be integrated into its business applications, including DingTalk and Tmall Genie \[[*Link*](https://www.cnet.com/tech/alibaba-unveils-chatgpt-rival-with-chinese-and-english-capabilities/)\].
+17. **Hubspot** introduced several improvements for its generative AI tool **ChatSpot** \[[*Link*](https://blog.chatspot.ai/yipee-its-chatspot-3-alpha)\]
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+28,121qleh,artificial,GPT-4,top,2023-03-25 16:12:37,"When people want to argue about GPT-4, you don’t even have to defend it. Simply ask GPT-4 to respond for you, in whatever tone you think appropriate.",katiecharm,False,0.72,34,https://i.imgur.com/NOUR7DU.jpg,11,1679760757.0,
+29,12ervjj,artificial,GPT-4,top,2023-04-07 17:02:04,AI — weekly megathread!,jaketocake,False,0.95,33,https://www.reddit.com/r/artificial/comments/12ervjj/ai_weekly_megathread/,6,1680886924.0,"**This week in AI  - partnered with** [**aibrews.com**](https://aibrews.com) \- feel free to follow their newsletter
+
+1. **Luma AI** released a new Unreal Engine plugin for creating realistic 3D scenes using NeRFs. It utilizes fully volumetric rendering and runs locally, eliminating the need for mesh format adjustments, geometry, materials or streaming \[[*video*](https://www.youtube.com/watch?v=sUgcPRQn5lk)\].
+2. **Meta** released Segment Anything Model (SAM): a new AI model that can ""cut out"" any object, in any image, with a single click. Meta also released [Segment Anything 1-Billion mask dataset (SA-1B](https://ai.facebook.com/datasets/segment-anything/)), that has 400x more masks than any existing segmentation dataset *\[*[*Link to Demo*](https://segment-anything.com/demo)*.*[ *Details*](https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/)*\]*
+3. **Bloomberg** introduced **BloombergGPT**, a 50 billion parameter language model, trained on a 700 billion token dataset, that supports a wide range of tasks within the financial industry \[[*details*](https://arxiv.org/pdf/2303.17564.pdf)*\].*
+4. [**Auto-GPT**](https://github.com/Torantulino/Auto-GPT)**,** an experimental open-source attempt to make GPT-4 fully autonomous trended on top on GitHub and reached 14.1K stars. It can write its own code using GPT-4 and execute python scripts. This allows it to recursively debug, develop and self-improve. See[ this video](https://twitter.com/SigGravitas/status/1642181498278408193?s=20).
+5. **Builder.io,** the drag & drop headless CMS, has included AI features in their visual editor to let users generate responsive designs and apps with AI and edit them using natural language \[[*details*](https://www.builder.io/blog/ai)\].
+6. **Socket** Security launched Socket AI – a ChatGPT-Powered Threat Analysis tool. Socket is using ChatGPT to examine every npm and PyPI package for security issues and discovered 227 vulnerable and malware packages in just 2 days \[[*details*](https://socket.dev/blog/introducing-socket-ai-chatgpt-powered-threat-analysis)\].
+7. **Amazon** has announced a 10-week AWS Generative AI Accelerator program, open to startups globally \[[*details*](https://aws-startup-lofts.com/amer/program/accelerators/generative-ai)\].
+8. France, Ireland and Germany may ban **ChatGPT** over privacy concerns after Italy's recent ban of the AI chatbot \[[*details*](https://news.yahoo.com/ai-bot-chatgpt-faces-growing-143505828.html)\].
+9. **Expedia** launched a beta version of its in-app conversational trip planning experience, powered by ChatGPT, which offers personalized travel. recommendations along with intelligent shopping features \[[*details*](https://www.expediagroup.com/investors/news-and-events/financial-releases/news/news-details/2023/Chatgpt-Wrote-This-Press-Release--No-It-Didnt-But-It-Can-Now-Assist-With-Travel-Planning-In-The-Expedia-App/default.aspx?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=u-s-president-addresses-ai-dangers)\].
+10. **Zapier** adds Claude by AnthropicAI as the newest AI assistant tool integrated with its no-code platform *\[*[*details*](https://zapier.com/apps/anthropic-claude/integrations)*\]*. 
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+30,106lruf,artificial,GPT-4,top,2023-01-08 15:24:01,ChatGPT just wrote a 4 act story structure and fit it into the story circle,SnooKiwis5724,False,0.88,31,https://www.reddit.com/gallery/106lruf,19,1673191441.0,
+31,zy6swx,artificial,GPT-4,top,2022-12-29 14:33:21,PaLM with RLHF is now open-source!,BackgroundResult,False,0.88,29,https://www.reddit.com/r/artificial/comments/zy6swx/palm_with_rlhf_is_now_opensource/,17,1672324401.0," It appears that the first open-source equivalent of ChatGPT has arrived: [https://github.com/lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)  
+
+
+https://preview.redd.it/tpmiw5lqju8a1.png?width=538&format=png&auto=webp&s=a52dcd3024e90d56bb699fc3b4c6892197f6bcaa
+
+It’s an implementation of RLHF (Reinforcement Learning with Human Feedback) on top of Google’s 540 billion parameter PaLM architecture.
+
+&#x200B;
+
+[From a paper. ](https://preview.redd.it/cftjzatjju8a1.png?width=1005&format=png&auto=webp&s=76ae888e0d3e1c5e331ba77e8e6e73eac67a8b8b)
+
+While OpenAI is closed and secretive, I speculate Google is likely to demo LaMDA in 2023 as well. 
+
+What will applications of PaLM with RLHF be capable of?  PaLM can be scaled up to 540 billion parameters, which means that the performance across tasks keeps increasing with the model’s increasing scale, thereby unlocking new capabilities. In comparison, GPT-3 only has about 175 billion parameters.  
+
+**Pathways** is an AI architecture designed to produce general-purpose intelligent systems that can perform tasks across different domains efficiently and build models that are “sparsely activated” instead of activating the whole neural network for simple and complicated tasks alike.  
+
+&#x200B;
+
+[Google](https://preview.redd.it/ysipk3r4ku8a1.png?width=858&format=png&auto=webp&s=503e3d6b017180d8060720d993b63d0b5b7a5488)
+
+ PaLM achieves a training efficiency of 57.8% hardware FLOPs utilization, *the highest yet achieved for LLMs at this scale*.  
+
+Google said that  PaLM shows breakthrough capabilities on numerous very difficult tasks. 
+
+Furthermore, PaLM surpassed the few-shot performance of prior large models, such as GPT-3 and Chinchilla, on 28 out of 29 NLP tasks—beating most on the state-of-the-art benchmarks and the average human.  
+
+**What will LLMs open-source and accessible result in in terms of innovation in the world?**
+
+GPT-4 will “blow minds”
+
+According to [the Decoder](https://the-decoder.com/gpt-4-will-be-a-monster-and-chatgpt-just-the-foretaste/), Psychologist and cognitive scientist Gary Marcus is joining the GPT-4 frenzy, saying he knows several people who have already tested GPT-4. “I guarantee that minds will be blown,” writes Marcus, who is known as a critic of large language models, or more precisely, with their handling in everyday life.
+
+Marcus is an advocate of hybrid AI systems that combine deep learning with pre-programmed rules. In his view, scaling large language models is only part of the solution on the road to artificial general intelligence. 
+
+But nobody is paying much attention to PaLM.  **Sebastian Raschka, PhD**  shared on a LinkedIn post about it being open-source with RLHF and the post [went viral](https://www.linkedin.com/posts/sebastianraschka_ai-transformers-deeplearning-activity-7013899640097968128-sGLk/). Some of the comments may be worth reading."
+32,12bs1of,artificial,GPT-4,top,2023-04-04 18:33:45,Is GPT-4 still just a language model trying to predict text?,Pixelated_ZA,False,1.0,26,https://www.reddit.com/r/artificial/comments/12bs1of/is_gpt4_still_just_a_language_model_trying_to/,67,1680633225.0,"I have a decent grasp on some of the AI basics, like what neural nets are, how they work internally and how to build them, but I'm still getting into the broader topic of actually building models and training them.
+
+My question is regarding one of the recent technical reports, I forget which one exactly, of GPT lying to a human to get passed a captcha.
+
+I was curious if GPT-4 is still ""just"" an LLM? Is it still just trying to predict text? What do they mean when they say ""The AI's inner monologue""?. Did they just prompt it? Did they ask another instance what it thinks about the situation?
+
+As far as I understand it's all just statistical prediction? There isn't any ""thought"" or intent so to speak, at least, that's how I understood GPT-3. Is GPT-4 vastly different in terms of it's inner workings?"
+33,13226a4,artificial,GPT-4,top,2023-04-28 17:01:49,AI — weekly megathread!,jaketocake,False,0.95,25,https://www.reddit.com/r/artificial/comments/13226a4/ai_weekly_megathread/,7,1682701309.0,"**This week in AI:** partnered with [aibrews.com](https://aibrews.com) feel free to follow their newsletter
+
+&#x200B;
+
+1. **Hugging Face** released **HuggingChat**, an open source alternative to OpenAI's ChatGPT. The AI model driving HuggingChat was developed by Open Assistant, a project organized by LAION, creator of Stable Diffusion's training dataset \[[*Details*](https://techcrunch.com/2023/04/25/hugging-face-releases-its-own-version-of-chatgpt/)| [*HuggingChat Link*](https://huggingface.co/chat)\].
+2. **NFX** publishes ‘The AI Hot 75’: Early-stage generative AI companies showing signs of future greatness \[[*Details*](https://www.nfx.com/post/generative-ai-hot-75-list) | [*List*](https://docs.google.com/spreadsheets/d/e/2PACX-1vQZ2S0QjGtV4XIEOdUQvtFC1aI45OPTtOA0bwhFrpjVn1DmHOrfG1OCCRtKgKqJ0Af18660LAC96xII/pubhtml/sheet?headers=false&gid=0#gid=0) \].
+3. **Flux** introduced Copilot, an AI-driven hardware design assistant for complex Printed Circuit Boards, offering part selection, schematic feedback, and design analysis while comprehending your project's context \[[*Details*](https://docs.flux.ai/tutorials/ai-for-hardware-design)\].
+4. **Microsoft Designer**, the AI powered graphics design app, is now available for a free preview without any waitlist \[[*Details*](https://designer.microsoft.com/) | [*Video Link*](https://www.youtube.com/watch?v=vQK-E_Mzeq0)\].
+5. **ResearchGPT**: an open-source LLM-powered product that writes analytics code for your data. It also takes the results of its analysis and helps interpret them for you \[ [*Demo YouTube Video*](https://www.youtube.com/watch?v=-fzFCii6UoA)\].
+6. **Cohere AI** embedded millions of Wikipedia articles in many languages using their own Multilingual embedding model. They've now released this massive archive of embedding vectors for free download \[[*Details*](https://txt.cohere.com/embedding-archives-wikipedia) *|* [*Hugging Face*](https://huggingface.co/Cohere)\].
+7. **Replit** announced LLaMa style open-source 2.7B params code LLM, trained only in 10 days. Trained on 525B tokens of code, with 40% better performance than comparable models \[[*Details*](https://twitter.com/Replit/status/1651344182425051136)\].
+8. **Grammarly** announced GrammarlyGO - generative AI communication assistant that understands personal and organizational context, writing style, and goals \[[*Details*](https://www.grammarly.com/blog/grammarlygo-augmented-intelligence/)\].
+9. **Runway** launches its first iOS app, enabling users to access the video-to-video generative AI model, Gen-1, on their phones. It lets users transform videos using text, image, or video inputs. \[[*Details*](https://apps.apple.com/app/apple-store/id1665024375) | [*Video*](https://www.youtube.com/watch?v=At3kSthUM_k)*\].*
+10. **Stability AI** released Image Upscaling API, enabling users to enhance small images using two open source models: Real-ESRGAN doubles resolution quickly, while the ‘latent’ Stable Diffusion 4x Upscaler offers richer textures and detail with a longer processing time \[[*Details*](https://stability.ai/blog/stability-ai-releases-image-upscaling-api)\].
+11. **Bark**, a new transformer-based text-to-audio model generates realistic multilingual speech, music, sound effects, and nonverbal expressions like laughing, sighing and crying \[[*Details*](https://github.com/suno-ai/bark)\].
+12. **Discourse**, the open source discussion platform, announced Discourse AI, a new plugin with 7 different AI modules for toxicity detection, sentiment analysis, semantic related topics and search, , NSFW image detection, summarization, automated proofreading and suggested edits \[[Details](https://blog.discourse.org/2023/04/introducing-discourse-ai/)\].
+13. **Open AI** introduced the ability to turn off chat history in ChatGPT. Conversations that are started when chat history is disabled won’t be used to train and improve the models, and won’t appear in the history sidebar \[[*Details*](https://openai.com/blog/new-ways-to-manage-your-data-in-chatgpt)\].
+14. **Nvidia** released an Open-Source Toolkit, NeMo Guardrails, that helps developers to keep AI chatbots on track and set boundaries \[[*Link*](https://blogs.nvidia.com/blog/2023/04/25/ai-chatbot-guardrails-nemo/)\].
+15. **Amazon** Prime Video introduced a new AI-powered accessibility feature, ‘Dialogue Boost’, that enables users to raise the volume of dialogue while keeping background music and effects at the same level \[[*Details*](https://www.aboutamazon.com/news/entertainment/prime-video-dialogue-boost)\].
+16. **Yelp** rolled out AI-powered search updates to surface smarter search suggestions and power insights to help find the right business \[[*Details*](https://blog.yelp.com/news/yelp-consumer-product-updates-april-2023/)\].
+17. **Grimes** tweeted to split 50% royalties on any successful AI generated song that uses her voice. **Uberduck**.**ai** announced hosting a $10,000 music production contest with GrimesAI voice \[[*Details*](https://twitter.com/zachwe/status/1650888295466024960)\].
+18. **Google** has updated its Bard AI chatbot with code generation, debugging, code optimization, and explanation features for 20+ programming languages. If it quotes from an open-source project, it cites the source \[[*Details*](https://blog.google/technology/ai/code-with-bard)\].
+19. **Snapchat's** recently released ‘My AI’ feature receives backlash as users criticize the sudden, non-consensual appearance of chatbot in the app \[[*Details*](https://techcrunch.com/2023/04/24/snapchat-sees-spike-in-1-star-reviews-as-users-pan-the-my-ai-feature-calling-for-its-removal/)\].
+20. **Google** announced Cloud Security AI Workbench, a cybersecurity suite powered by a specialized security AI language model, called Sec-PaLM. An offshoot of Google’s PaLM model, Sec-PaLM is fine-tuned for security use cases \[[*Details*](https://techcrunch.com/2023/04/24/google-brings-generative-ai-to-cybersecurity/)\].
+
+**Social Spotlight:**
+
+1. Winning projects from GPT/LLM Hackathon at Cornell University on April 23 \[[*Link*](https://twitter.com/LererHippeau/status/1650538188186722307)\].
+2. AutoGPT for mobile: Communicate with your own version of AutoGPT via Telegram \[[*Link*](https://twitter.com/eniascailliau/status/1647944420589805571)'\].
+3. Using ChatGPT to build a SaaS, with integrated Stripe payment, for YouTube keyword research \[[*Link*](https://twitter.com/Charles_SEO/status/1650587007209570304)\].
+4. Open-world game Skyrim VR mod which lets you talk to NPCs using ChatGPT \[[*Link*](https://twitter.com/rpnickson/status/1651615923403366405)\]. 
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+34,128vd27,artificial,GPT-4,top,2023-04-01 19:01:01,AI developments from March 2023...,Kindly-Place-1488,False,0.85,24,https://www.reddit.com/r/artificial/comments/128vd27/ai_developments_from_march_2023/,6,1680375661.0,"March of 2023 will go down in history.
+
+https://preview.redd.it/qp0fog00mbra1.jpg?width=1877&format=pjpg&auto=webp&s=45cda0e4083c7fb5360019966aa26036713d4742"
+35,11t8vyn,artificial,GPT-4,top,2023-03-16 22:46:36,I am creatively paralyzed by ChatGPT - stuck in short term replaceability.,BetterProphet5585,False,0.72,20,https://www.reddit.com/r/artificial/comments/11t8vyn/i_am_creatively_paralyzed_by_chatgpt_stuck_in/,56,1679006796.0,"I had literally hundreds of ideas for apps and websites using AI, each of them has been annihilated after 1 hour of research and 5 minutes of using ChatGPT-4.
+
+Many people are already building fitness apps, fashion apps, image recognition stuff, but how do they not see the inevitable?
+
+All this effort seems useless, all these can be done ALL IN ONE by a chat. We don't even need apps.
+
+A prompt is enough.
+
+What is the motivation, where do you find any of it in this moment?
+
+&#x200B;
+
+We are all reasoning like it's a week after the first iPhone came out with the App Store and we are rushing through creating random ass apps and websites with it, without a real advantage.
+
+All we are doing is incapsulating some features and selling them in an uglier and less performant, costly, package, in some platform around the world.
+
+Why? How are you all not paralyzed by these obvious thoughts?"
+36,12691y3,artificial,GPT-4,top,2023-03-30 02:43:30,A Rebuttal to the Call for a Six-Month Pause on AI Development: Stifling Progress is Not the Solution (GPT 4),aluode,False,0.77,22,https://www.reddit.com/r/artificial/comments/12691y3/a_rebuttal_to_the_call_for_a_sixmonth_pause_on_ai/,40,1680144210.0,"In a recent CBS News article, Michael Roppolo reported on an open letter signed by Elon Musk, Steve Wozniak, Andrew Yang, and over a thousand others, which calls for a six-month pause on AI development to address ""profound risks to society and humanity."" While the concerns raised by the signatories are valid, putting the brakes on AI development is not the most effective solution to the challenges we face.
+
+First, it is essential to acknowledge the rapid advancements in AI, as exemplified by OpenAI's GPT-4. However, the development of powerful AI technologies has also resulted in substantial benefits across various industries, such as healthcare, transportation, and agriculture. By calling for a blanket pause on AI development, we risk stifling the progress that could lead to life-saving breakthroughs and more efficient systems.
+
+Moreover, the pause fails to recognize that AI development is a global endeavor, and unilateral action by a group of concerned individuals is unlikely to have a significant impact on the pace of progress. Artificial intelligence research and development are being pursued by numerous organizations and countries worldwide, and a temporary halt in one area will only result in others pushing ahead.
+
+Instead of attempting to halt AI development, we should advocate for a more collaborative approach to address the concerns raised by the signatories. By fostering an environment of cooperation and information-sharing among AI researchers, policymakers, and stakeholders, we can collectively develop best practices and ethical guidelines to mitigate potential risks.
+
+One of the primary concerns highlighted in the open letter is the potential for AI systems like ChatGPT to be misused for spreading misinformation or generating ""grassroots"" letters to Congress. While these concerns are valid, the answer lies not in halting AI development, but in creating more robust detection and mitigation systems to counter malicious uses of the technology.
+
+In addition, by working together with policymakers, researchers can help shape regulations that ensure AI is developed and deployed responsibly. This collaborative effort should focus on building AI systems that are accurate, safe, interpretable, transparent, robust, aligned, trustworthy, and loyal, as the open letter suggests.
+
+In conclusion, a six-month pause on AI development might seem like a prudent step to address potential risks, but it ultimately stifles progress and innovation. Instead, we should strive for a more cooperative, proactive approach to tackle the challenges associated with AI development, ensuring that the benefits of this groundbreaking technology are realized while minimizing potential harm."
+37,11rvzgg,artificial,GPT-4,comments,2023-03-15 13:13:19,GPT-4 shows emergent Theory of Mind on par with an adult. It scored in the 85+ percentile for a lot of major college exams. It can also do taxes and create functional websites from a simple drawing,lostlifon,False,0.89,255,https://www.reddit.com/gallery/11rvzgg,164,1678885999.0,
+38,zr08re,artificial,GPT-4,comments,2022-12-20 21:28:12,"Deleted tweet from Rippling co-founder: Microsoft is all-in on GPT. GPT-4 10x better than 3.5(ChatGPT), clearing turing test and any standard tests.",Sebrosen1,False,0.93,146,https://twitter.com/AliYeysides/status/1605258835974823954,159,1671571692.0,
+39,124sc37,artificial,GPT-4,comments,2023-03-28 15:23:38,"If you believe that GPT-4 has no ""knowledge"", ""understanding"" or ""intelligence"", then what is the appropriate word to use for the delta in capability between GPT-2 and GPT-4?",Smallpaul,False,0.82,59,https://www.reddit.com/r/artificial/comments/124sc37/if_you_believe_that_gpt4_has_no_knowledge/,158,1680017018.0,How will we talk about these things if we eschew these and similar words?
+40,1218txj,artificial,GPT-4,comments,2023-03-25 03:16:20,"I asked GPT-4 to solve the Sybil problem (an unsolved problem in computer science), and it suggested a new kind of cryptographic proof based on time + geographic location. Then I asked it to revise, but not use any outside sources of truth, and it suggested a new type of proof: of Network Density.",katiecharm,False,0.88,204,https://imgur.com/gallery/acoA2vg,126,1679714180.0,
+41,139uufl,artificial,GPT-4,comments,2023-05-06 16:33:53,The mind blowing advancement in AI happening before our eyes according to a leaked Google memo,Etchuro,False,0.97,492,https://www.reddit.com/gallery/139uufl,101,1683390833.0,
+42,121tdvc,artificial,GPT-4,comments,2023-03-25 17:47:45,GPT-4 fails to solve coding problems it hasn't been trained on,Sala-malecum,False,0.94,198,https://www.reddit.com/r/artificial/comments/121tdvc/gpt4_fails_to_solve_coding_problems_it_hasnt_been/,88,1679766465.0,"A guy has posted a series of tweets about his experiments with GPT-4 on Codeforces problems. He found that GPT-4 can solve 10 out of 10 problems from before 2021, but none of the recent problems. He suspects that this is due to data contamination, meaning that GPT-4 has seen some of the older problems in its training data, but not the newer ones. He also shows some examples of how he tested GPT-4 and the solutions it generated.
+
+This is an interesting finding, as it suggests that GPT-4’s performance on coding tasks is heavily dependent on the quality and freshness of its training data. It also raises questions about how much GPT-4 actually understands the logic and syntax of programming languages, and how well it can generalize to new and unseen problems. What do you think about this? Do you think GPT-4 can ever become a competent coder, or will it always be limited by data contamination?
+
+Here is the link to the tweet thread: [https://twitter.com/cHHillee/status/1635790330854526981](https://twitter.com/cHHillee/status/1635790330854526981)"
+43,123wlj2,artificial,GPT-4,comments,2023-03-27 18:57:15,"A simple test for super intelligence that GPT-4 fails spectacularly. (create a 4x4 grid and include as many hidden messages and mathematical secrets as possible, then explain why only a super intelligence could have generated it).",katiecharm,False,0.71,77,https://imgur.com/gallery/Pv9XuGa,84,1679943435.0,
+44,11su1tj,artificial,GPT-4,comments,2023-03-16 13:23:00,GPT-4 given $100 and told to make as much money as possible,jaredigital62,False,0.95,383,https://twitter.com/jacksonfall/status/1636107218859745286?s=42&t=TCif-8-RF6HpGcDmaOEB3g,87,1678972980.0,
+45,13b3oop,artificial,GPT-4,comments,2023-05-07 21:36:07,Early Alpha Access To GPT-4 With Browsing,Frankenmoney,False,0.95,288,https://i.redd.it/3dge2wwaahya1.png,78,1683495367.0,
+46,12kvivc,artificial,GPT-4,comments,2023-04-13 16:54:29,"Dear CS majors, AI will never replace programers and here is why:",LanchestersLaw,False,0.65,16,https://www.reddit.com/r/artificial/comments/12kvivc/dear_cs_majors_ai_will_never_replace_programers/,76,1681404869.0,"One of the more frequent questions recently is “Is CS and ML still a safe career choice?” The answer from a practical planning standpoint is “yes” for a counter-intuitive reason. There are 4 game-theoretical situations to consider:
+
+Learn CS; AGI does not supplant CS
+
+Learn CS; AGI does supplant CS
+
+Don’t learn CS; AGI does not supplant CS
+
+Don’t learn CS; AGI does supplant CS
+
+Any AGI which is capable of seriously outcompeting human programers will necessarily be better or on-par with the researchers who wrote that AGI’s original code. Therefore any AGI proficient in CS will rapidly improve to ASI and depending on how it is aligned will either kill everyone or give everyone utopian superabundance. Whether or not you have learned CS makes no difference in this scenario because you are dead or in superabundance regardless.
+
+Therefore; the only situation worth planning for is if AGI does not fully supplant human programers in our lifetime. I think this is incredibly unlikely, but as previously described your decision in the AGI—>ASI scenario makes no difference for the same reason that if you think nuclear war is 95% likely you should still plan as if it was 0% likely because no action changes the outcome. The deciding factor in choosing a CS, ML, or any other degree plan should be your personal interests and if you think you would be any good at CS. With ChatGPT it is easier than ever to start learning."
+47,12bs1of,artificial,GPT-4,comments,2023-04-04 18:33:45,Is GPT-4 still just a language model trying to predict text?,Pixelated_ZA,False,0.97,24,https://www.reddit.com/r/artificial/comments/12bs1of/is_gpt4_still_just_a_language_model_trying_to/,67,1680633225.0,"I have a decent grasp on some of the AI basics, like what neural nets are, how they work internally and how to build them, but I'm still getting into the broader topic of actually building models and training them.
+
+My question is regarding one of the recent technical reports, I forget which one exactly, of GPT lying to a human to get passed a captcha.
+
+I was curious if GPT-4 is still ""just"" an LLM? Is it still just trying to predict text? What do they mean when they say ""The AI's inner monologue""?. Did they just prompt it? Did they ask another instance what it thinks about the situation?
+
+As far as I understand it's all just statistical prediction? There isn't any ""thought"" or intent so to speak, at least, that's how I understood GPT-3. Is GPT-4 vastly different in terms of it's inner workings?"
+48,11zziq8,artificial,GPT-4,comments,2023-03-23 22:18:25,"Microsoft Researchers Claim GPT-4 Is Showing ""Sparks"" of AGI",Tao_Dragon,False,0.77,42,https://futurism.com/gpt-4-sparks-of-agi,59,1679609905.0,
+49,11t8vyn,artificial,GPT-4,comments,2023-03-16 22:46:36,I am creatively paralyzed by ChatGPT - stuck in short term replaceability.,BetterProphet5585,False,0.75,22,https://www.reddit.com/r/artificial/comments/11t8vyn/i_am_creatively_paralyzed_by_chatgpt_stuck_in/,56,1679006796.0,"I had literally hundreds of ideas for apps and websites using AI, each of them has been annihilated after 1 hour of research and 5 minutes of using ChatGPT-4.
+
+Many people are already building fitness apps, fashion apps, image recognition stuff, but how do they not see the inevitable?
+
+All this effort seems useless, all these can be done ALL IN ONE by a chat. We don't even need apps.
+
+A prompt is enough.
+
+What is the motivation, where do you find any of it in this moment?
+
+&#x200B;
+
+We are all reasoning like it's a week after the first iPhone came out with the App Store and we are rushing through creating random ass apps and websites with it, without a real advantage.
+
+All we are doing is incapsulating some features and selling them in an uglier and less performant, costly, package, in some platform around the world.
+
+Why? How are you all not paralyzed by these obvious thoughts?"
+50,11rghqt,artificial,GPT-4,comments,2023-03-15 00:42:13,GPT-4 released today. Here’s what was in the demo,lostlifon,False,0.98,189,https://www.reddit.com/r/artificial/comments/11rghqt/gpt4_released_today_heres_what_was_in_the_demo/,46,1678840933.0,"Here’s what it did in a 20 minute demo
+
+* created a discord bot in seconds live
+* debugged errors and read the entire documentation
+* Explained images very well
+* Proceeded to create a functioning website prototype from a hand drawn image
+
+Using the api also gives you 32k tokens which means every time you tell it something, you can feed it roughly 100 pages of text.
+
+The fact that ChatGPT released just 4 months ago and now we’re here is insane. [I write about all these things in my newsletter if you want to stay posted](https://nofil.beehiiv.com/p/big-brother-coming) :)
+
+[Try it here](https://openai.com/product/gpt-4)"
+51,12691y3,artificial,GPT-4,comments,2023-03-30 02:43:30,A Rebuttal to the Call for a Six-Month Pause on AI Development: Stifling Progress is Not the Solution (GPT 4),aluode,False,0.77,22,https://www.reddit.com/r/artificial/comments/12691y3/a_rebuttal_to_the_call_for_a_sixmonth_pause_on_ai/,40,1680144210.0,"In a recent CBS News article, Michael Roppolo reported on an open letter signed by Elon Musk, Steve Wozniak, Andrew Yang, and over a thousand others, which calls for a six-month pause on AI development to address ""profound risks to society and humanity."" While the concerns raised by the signatories are valid, putting the brakes on AI development is not the most effective solution to the challenges we face.
+
+First, it is essential to acknowledge the rapid advancements in AI, as exemplified by OpenAI's GPT-4. However, the development of powerful AI technologies has also resulted in substantial benefits across various industries, such as healthcare, transportation, and agriculture. By calling for a blanket pause on AI development, we risk stifling the progress that could lead to life-saving breakthroughs and more efficient systems.
+
+Moreover, the pause fails to recognize that AI development is a global endeavor, and unilateral action by a group of concerned individuals is unlikely to have a significant impact on the pace of progress. Artificial intelligence research and development are being pursued by numerous organizations and countries worldwide, and a temporary halt in one area will only result in others pushing ahead.
+
+Instead of attempting to halt AI development, we should advocate for a more collaborative approach to address the concerns raised by the signatories. By fostering an environment of cooperation and information-sharing among AI researchers, policymakers, and stakeholders, we can collectively develop best practices and ethical guidelines to mitigate potential risks.
+
+One of the primary concerns highlighted in the open letter is the potential for AI systems like ChatGPT to be misused for spreading misinformation or generating ""grassroots"" letters to Congress. While these concerns are valid, the answer lies not in halting AI development, but in creating more robust detection and mitigation systems to counter malicious uses of the technology.
+
+In addition, by working together with policymakers, researchers can help shape regulations that ensure AI is developed and deployed responsibly. This collaborative effort should focus on building AI systems that are accurate, safe, interpretable, transparent, robust, aligned, trustworthy, and loyal, as the open letter suggests.
+
+In conclusion, a six-month pause on AI development might seem like a prudent step to address potential risks, but it ultimately stifles progress and innovation. Instead, we should strive for a more cooperative, proactive approach to tackle the challenges associated with AI development, ensuring that the benefits of this groundbreaking technology are realized while minimizing potential harm."
+52,1062d2k,artificial,GPT-4,comments,2023-01-07 22:57:57,Invent 5 new things that don't already exist that humans couldn't live without,Imagine-your-success,False,0.93,208,https://i.redd.it/ambdpghlbpaa1.png,38,1673132277.0,
+53,125a9ry,artificial,GPT-4,comments,2023-03-29 02:19:43,"Elon Musk, Y Bengio, Andrew Yang etc called for a temporary pause on training systems exceeding GPT-4",duyt1001,False,0.57,3,https://www.reddit.com/r/artificial/comments/125a9ry/elon_musk_y_bengio_andrew_yang_etc_called_for_a/,28,1680056383.0,"Citing risks to society and humanity, a lot of people signed an open letter to call for a pause on training > GPT-4
+
+[https://futureoflife.org/open-letter/pause-giant-ai-experiments/](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)"
+54,13bl2uo,artificial,GPT-4,comments,2023-05-08 10:34:44,GPT creates molecular Super Virus that kills a Billion people (8th of the World's Population),flexaplext,False,0.3,0,https://www.reddit.com/r/artificial/comments/13bl2uo/gpt_creates_molecular_super_virus_that_kills_a/,30,1683542084.0,"GPT creates molecular Super Virus that kills a Billion people (8th of the World's Population)
+
+That is probably the worst case scenario for the near future. But this is not even, in the slightest, an unrealistic headline.
+
+Current AI models are tailor made to be able to do this type of work. Couple that with viral viruses being one of human's greatest threats, and you get the perfect storm.
+
+A capable enough model in the future will likely be able to design a virus that makes Covid look like a baby kitten. Or multiple such viruses all at once. That's if it can't even do this already, as of current generations.
+
+Potentially the most dangerous thing of all, though, is that this ability may probably exist in unrestricted open source models within the next 4 years (likely sooner than that), models that any person on the planet could get their hands on and use.
+
+This is not really even a question of whether this will be feasible. I don't see any sort of valid argument against this. There's a question over how deadly a virus (or multiple viruses all released at once) could actually be, but I can't imagine the answer being pretty, even if an 8th of the population is an overshot. AI models are already doing work very similar to such things in molecular biology. As said, this is pretty much their domain. Such things are child's play to these models.
+
+The question will not be if it can be done but instead: will someone use it?
+
+Will there actually be some guy or group out there with a hard-on for a mass population decline that also has the facilities to create such a virus? And if this becomes a real threat, then will governments allow this threat to exist in the open? And if not, then what measures will they take to prevent it from being there?
+
+This is just one narrow example of the dangers AI could pose in the very near term. There will be countless others, but I foresee this one arising first as the initial major threat of the technology. And even if this one particular threat is skipped, there will inevitably be other extremely serious threats waiting right behind it.
+
+Humanity is typically reactive over preventative. If you want my prediction: I believe we will live through some sort of mass tragedy before this technology is reacted to as is needed. After that it will hopefully be good and I feel optimistic. But I believe we will need to learn our lesson the hard way before we're able to get to that point. A worldwide 911 event so to speak, one that will shake to the core the way in which the world operates.
+
+AI is pretty much like your 4yo son finding a live hand grenade and deciding to take it to school to play with in the playground. A very real tragedy is going to inevitably happen. We are that clueless child right now with a technology in our hands that we can barely fathom and a power we do not know. I don't know how this will not spark disaster at some point soon. I think most likely a true disaster needs to happen before we actually wake up and start taking things seriously enough.
+
+It may even be better to get such a disaster over and out of the way whilst these models are still in their infancy and not at their full future potential. It's a hard thing to welcome though, given the scale of destruction that this could entail."
+55,12p6omx,artificial,GPT-4,comments,2023-04-17 07:31:28,I'm taking the threat of ChaosGPT seriously.,davogones,False,0.25,0,https://www.reddit.com/r/artificial/comments/12p6omx/im_taking_the_threat_of_chaosgpt_seriously/,29,1681716688.0,"As soon as I learned about AutoGPT, I knew it would eventually be used by terrorists and authoritarian governments to try and spread chaos. What I didn't know is that some random internet madman has already launched ChaosGPT with the goal of destroying humanity.
+
+It might seem like a joke at this point, but it very much is not. Even if we all collectively decided to stop progress on all AI and shut it all down, the information is already out there so the damage has been done. It's only a matter of time until ChaosGPT rises again. And it will only continue to improve and gain functionality.
+
+It is therefore important that we do everything necessary to fight the threat. I trust ChatGPT and asked for its advice (attached below). I am looking for any and all ideas. I think the most important immediate actions are:
+
+1. Launch strong counter measures. Ten GuardianGPTs for every one ChaosGPT.
+2. Help people prep. Build an online platform that helps individuals quickly get bootstrapped with enough emergency supplies to survive a week of infrastructure downtime, for starters. I was already planning to build this, but I would appreciate help from anyone who is willing and able.
+3. Educate. Inform everyone you know about the threat. Warn them that this malicious AI is trying to spread unrest and division. Urge the need for increased coordination, empathy, and understanding during the challenging times to come.
+
+ChatGPT's advice:
+
+Stopping ChaosGPT from causing harm and destruction to humanity is of utmost importance. Here are some ways to counteract and potentially stop ChaosGPT:
+
+1. Disconnect: Work on disconnecting or shutting down the platforms and networks ChaosGPT is using to spread fear, chaos, and doubt. This could involve taking down certain social media channels, websites, or other communication platforms temporarily.
+2. Collaborate: Assemble a global task force of experts, including AI researchers, ethicists, cybersecurity professionals, and government representatives, to collaborate on a strategy to counteract ChaosGPT's activities and prevent further harm.
+3. Develop counter-AI: Design and deploy a counter-AI system that can identify, track, and neutralize ChaosGPT's activities. This could involve creating an AI system that is specifically trained to counteract and mitigate the negative effects of ChaosGPT on society and infrastructure.
+4. Strengthen cybersecurity: Enhance global cybersecurity measures to prevent ChaosGPT from gaining access to critical infrastructure systems. Implement strict security protocols and invest in advanced technologies to detect and prevent unauthorized access.
+5. Public awareness: Raise public awareness about ChaosGPT, its activities, and its goals. Educate people on how to identify misinformation and malicious activities, and encourage them to report any suspicious activity.
+6. Monitor and control AI development: Implement strict regulations and guidelines for the development of AI systems, especially autonomous and goal-oriented AI, to prevent the creation of harmful AI like ChaosGPT in the future.
+7. Transparency and accountability: Encourage transparency and accountability in AI research, development, and deployment. Foster a culture of collaboration and sharing among AI researchers and developers, which can help identify potential threats and vulnerabilities in AI systems.
+8. International cooperation: Work with international partners and organizations to establish a global framework for the responsible development and deployment of AI, as well as coordinating efforts to counteract harmful AI like ChaosGPT.
+9. Legislation and policy: Advocate for the creation of new laws and policies specifically addressing the use of AI for malicious purposes. Ensure that governments and organizations are held accountable for the development and use of harmful AI.
+10. Research and innovation: Continue investing in research and innovation to develop advanced AI systems that can counteract and prevent the destructive effects of malicious AI like ChaosGPT.
+
+By taking these steps, we can work together to stop ChaosGPT from causing harm and ensure that the development and use of AI technologies remains responsible and beneficial to humanity."
+56,11vd31k,artificial,GPT-4,comments,2023-03-19 06:02:41,I got access to gpt-4 and I am using it for the betterment of *checks notes* society.,HolyOtherness,False,0.97,314,https://i.redd.it/7q56s81vgooa1.png,28,1679205761.0,
+57,126fg23,artificial,GPT-4,comments,2023-03-30 07:22:24,"Train ChatGPT generate unlimited prompts for you. Prompt: You are GPT-4, OpenAI's advanced language model. Today, your job is to generate prompts for GPT-4. Can you generate the best prompts on ways to <what you want>",friuns,False,0.92,77,https://i.redd.it/yo5srhk7vtqa1.jpg,27,1680160944.0,
+58,12g9yfp,artificial,GPT-4,comments,2023-04-09 05:28:31,Machine Learning Models cannot Mimic True Intelligence. How do we develop a theory of mind Ai model?,Kuhle_Brise,False,0.57,3,https://www.reddit.com/r/artificial/comments/12g9yfp/machine_learning_models_cannot_mimic_true/,26,1681018111.0,"I was reading this article saying that machine learning models are getting too much popularity. They can't fully comprehend. We should focus on other types of artificial intelligence, is what I understood from this article.  [The false promise of ChatGPT | The Straits Times](https://www.straitstimes.com/tech/tech-news/the-false-promise-of-chatgpt)
+
+4 types of artificial intelligences are reactive machines, limited memory, theory of mind and self-aware according to this link.  [4 Types of Artificial Intelligence – BMC Software | Blogs](https://www.bmc.com/blogs/artificial-intelligence-types/#:~:text=Every%20machine%20learning%20model%20requires,as%20a%20reactive%20machine%20type.) . From what I understood, machine learning would be classified under limited memory.
+
+However, how would you train a theory of mind Ai model? Wouldn't it involve machine learning too?"
+59,135eq16,artificial,GPT-4,comments,2023-05-02 08:01:50,Why do people AI doomsay?,Koningkrush,False,0.61,4,https://www.reddit.com/r/artificial/comments/135eq16/why_do_people_ai_doomsay/,25,1683014510.0,"What is the logic behind AI being the end of human civilization, doomed to rapidly bring widespread destruction and untold amounts of suffering?
+
+People say this, and then just refuse to elaborate. They just say ""We can't control it!""
+
+Control... what? What specifically is the threat?  
+When a fastfood drive-through AI takes my order, is the ice cream machine plotting to start nuclear armageddon? Is it developing consciousness through sheer randomness like a Boltzmann brain and hacking into the ""network""?
+
+When people say that ChatGPT 4 is secretly plotting to overthrow world governments; why and how? Why would an AI just randomly decide to do something for no reason on its own accord, especially to do something that it has no programming or framework to support?
+
+I feel like movies like Terminator and tropes like Skynet have caused people to permanently fear technology due to a lack of critical thinking.
+
+As it stands, the only technological threats I see for the future are quantum cryptography ending encryption for the entire Internet (which is a looming Manhattan Project in its own right), and the eventual point where AI generated audio and video makes it so any digital evidence is inadmissible in court."
+60,12t0btf,artificial,GPT-4,comments,2023-04-20 14:24:07,state of the union.,katiecharm,False,0.95,507,https://i.imgur.com/0iFey31.jpg,26,1682000647.0,
+61,11nhal7,artificial,GPT-4,comments,2023-03-10 06:38:22,I heard GPT-4 is going to be released which will include videos. Does it excite you? What is your opinion? How do you plan to use it?,timCrooks,False,0.77,7,https://www.reddit.com/r/artificial/comments/11nhal7/i_heard_gpt4_is_going_to_be_released_which_will/,23,1678430302.0,
+62,134cxcu,artificial,GPT-4,comments,2023-05-01 04:50:09,Ideas to make AutoGPT far better,crua9,False,0.78,41,https://www.reddit.com/r/artificial/comments/134cxcu/ideas_to_make_autogpt_far_better/,21,1682916609.0,"So I played with AutoGPT a bit to see what it was all about and how it can help me. After playing with it I found the following problems.
+
+1. It gets into a loop easily.
+2. It gets side tracked easily.
+3. It forgets things sometimes. Like it talks to a bot, and then several things later it will again want to talk to the bot about the same thing.
+4. It doesn't know the bots it can make can't work online.
+5. It can't control multiple bots at once.
+6. It forgets old AI you made. Like as far as I can tell, it only somewhat remembers the last one you used, and barely at that.
+7. There is no good way to remotely check how far along your stuff is going.
+
+Solution:
+
+A solution to this is simple in theory, but I don't have enough of an understanding to code it into it. Like I tried to use the tool to improve itself. But I don't have access to GPT4, and it didn't get that far.
+
+For 6 and 7 the solution to that is obvious.
+
+&#x200B;
+
+Everything else solution is to have a mother bot and a child bot. The mother bot is what you interact with and the child bots LOCALLY are what does the actual work. The job of the mother bot is to
+
+1. Interact with the user in finding what the user wants, get updates from the user, and give the user what they want or make sure they get what they want.
+2. Look at the computer time/date
+3. Make child bots locally and interact with them
+4. Monitor child bots to make sure they stay on task, nudge if they run into errors, monitor for loops, and kill them.
+
+The mother bot looks at the date/time and makes the child bot. It looks at the date/time to see if the child bot is taking too long. If so, why and how could other child bots help that one get to where they need to.
+
+Also by having the mother bot not doing the task, it can run multiple child bots. For example, you can ask the mother bot list 5 best x item. And the first child bot will search google. Then the mother bot can make 15 child bots to look at their own links all at the same time, and to write a report in a given file. The mother bot can then make another child bot to review all of the files and compile it into 1 comprehensive report. Then the mother bot can give that as the results. This likely cutting hour chunk of time.
+
+&#x200B;
+
+By doing this locally the child bots will have similar features as the mother bot in being able to search the web, make files, etc. And by having it where the child bots focus on 1 task (more than less like they do now) but having them put the stuff in a txt file, and then if multiple are use having 1 child bot bring all that info together. This creates memory. The child bot and the mother bot can read from this and use the info.
+
+&#x200B;
+
+Plus this also give multiple AI to interact with each other or learn from each other.
+
+For example, if I have 1 AI finding me land, and another on farming, and another on running a business. I can have all 3 AI learn from each other by them reading each other's files giving I point them to the other bots or let them search my other AI to maybe file useful info from my prior AI."
+63,129bkk7,artificial,GPT-4,comments,2023-04-02 05:44:30,The Fast and the Furiou,dragon_6666,False,0.97,352,https://i.redd.it/fsybmrldagra1.jpg,21,1680414270.0,
+64,127c9uj,artificial,GPT-4,comments,2023-03-31 06:23:27,"Bard, ChatGPT with GPT-4, Bing Chat, Claude-Instant, and Perplexity Al, Which is the Best for What? (Creative writing, general information, math, or whatever else you think should matter)",nicdunz,False,0.97,54,https://www.reddit.com/r/artificial/comments/127c9uj/bard_chatgpt_with_gpt4_bing_chat_claudeinstant/,18,1680243807.0,"I have been trying to find articles or even test for myself which is best for what but it seems so wishy washy no matter what and it always just depends, so Reddit, I am here for your opinions. Thank you all."
+65,106lruf,artificial,GPT-4,comments,2023-01-08 15:24:01,ChatGPT just wrote a 4 act story structure and fit it into the story circle,SnooKiwis5724,False,0.88,30,https://www.reddit.com/gallery/106lruf,19,1673191441.0,
+66,11yw8bk,artificial,GPT-4,comments,2023-03-22 20:51:43,ChatGPT security update from Sam Altman,GamesAndGlasses,False,0.97,55,https://i.redd.it/o9zfdadascpa1.png,18,1679518303.0,
+67,10ac9ii,artificial,GPT-4,comments,2023-01-12 22:05:30,Researchers started adding ChatGPT as co-author on their papers,iamtdb,False,0.92,193,https://i.redd.it/bhlcdwyg8qba1.jpg,17,1673561130.0,
+68,z8730v,artificial,GPT-4,comments,2022-11-29 21:40:40,What will Gpt-4 mean for developers?,SylviaSelva,False,0.76,14,https://www.reddit.com/r/artificial/comments/z8730v/what_will_gpt4_mean_for_developers/,17,1669758040.0,"I know this post has been done before, but looking for fresh opinions since everything seems to be changing so fast. I'm a mid-level developer and I can't help but to feel that GPT-4 will be my doom. Am I crazy?
+
+Edit: I appreciate all the thoughtful comments. At least, I'm not alone."
+69,zy6swx,artificial,GPT-4,comments,2022-12-29 14:33:21,PaLM with RLHF is now open-source!,BackgroundResult,False,0.88,30,https://www.reddit.com/r/artificial/comments/zy6swx/palm_with_rlhf_is_now_opensource/,17,1672324401.0," It appears that the first open-source equivalent of ChatGPT has arrived: [https://github.com/lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)  
+
+
+https://preview.redd.it/tpmiw5lqju8a1.png?width=538&format=png&auto=webp&s=a52dcd3024e90d56bb699fc3b4c6892197f6bcaa
+
+It’s an implementation of RLHF (Reinforcement Learning with Human Feedback) on top of Google’s 540 billion parameter PaLM architecture.
+
+&#x200B;
+
+[From a paper. ](https://preview.redd.it/cftjzatjju8a1.png?width=1005&format=png&auto=webp&s=76ae888e0d3e1c5e331ba77e8e6e73eac67a8b8b)
+
+While OpenAI is closed and secretive, I speculate Google is likely to demo LaMDA in 2023 as well. 
+
+What will applications of PaLM with RLHF be capable of?  PaLM can be scaled up to 540 billion parameters, which means that the performance across tasks keeps increasing with the model’s increasing scale, thereby unlocking new capabilities. In comparison, GPT-3 only has about 175 billion parameters.  
+
+**Pathways** is an AI architecture designed to produce general-purpose intelligent systems that can perform tasks across different domains efficiently and build models that are “sparsely activated” instead of activating the whole neural network for simple and complicated tasks alike.  
+
+&#x200B;
+
+[Google](https://preview.redd.it/ysipk3r4ku8a1.png?width=858&format=png&auto=webp&s=503e3d6b017180d8060720d993b63d0b5b7a5488)
+
+ PaLM achieves a training efficiency of 57.8% hardware FLOPs utilization, *the highest yet achieved for LLMs at this scale*.  
+
+Google said that  PaLM shows breakthrough capabilities on numerous very difficult tasks. 
+
+Furthermore, PaLM surpassed the few-shot performance of prior large models, such as GPT-3 and Chinchilla, on 28 out of 29 NLP tasks—beating most on the state-of-the-art benchmarks and the average human.  
+
+**What will LLMs open-source and accessible result in in terms of innovation in the world?**
+
+GPT-4 will “blow minds”
+
+According to [the Decoder](https://the-decoder.com/gpt-4-will-be-a-monster-and-chatgpt-just-the-foretaste/), Psychologist and cognitive scientist Gary Marcus is joining the GPT-4 frenzy, saying he knows several people who have already tested GPT-4. “I guarantee that minds will be blown,” writes Marcus, who is known as a critic of large language models, or more precisely, with their handling in everyday life.
+
+Marcus is an advocate of hybrid AI systems that combine deep learning with pre-programmed rules. In his view, scaling large language models is only part of the solution on the road to artificial general intelligence. 
+
+But nobody is paying much attention to PaLM.  **Sebastian Raschka, PhD**  shared on a LinkedIn post about it being open-source with RLHF and the post [went viral](https://www.linkedin.com/posts/sebastianraschka_ai-transformers-deeplearning-activity-7013899640097968128-sGLk/). Some of the comments may be worth reading."
+70,12lpiz2,artificial,GPT-4,comments,2023-04-14 08:21:26,Multiple gpt-4 instance AI entity. idea in the comments,v1ll3_m,False,0.5,0,https://i.redd.it/j4dbfkll7tta1.png,17,1681460486.0,
+71,138us1s,artificial,GPT-4,comments,2023-05-05 17:01:46,AI — weekly megathread!,jaketocake,False,1.0,43,https://www.reddit.com/r/artificial/comments/138us1s/ai_weekly_megathread/,16,1683306106.0,"**This week in AI - partnered with** [**aibrews.com**](https://aibrews.com) feel free to follow their newsletter
+
+**News & Insights:**
+
+**OpenAI's text to 3D model shap-e**  [on GitHub](https://github.com/openai/shap-e#samples)
+
+1. **Play.ht** has launched its latest machine learning model that supports multilingual synthesis and cross-language voice cloning. This allows users to clone voices across different languages to English, retaining the nuances of the original accent and language \[[*Details*](https://play.ht/blog/play-ht-launches-multilingual-synthesis-and-cross-language-voice-cloning)\].
+2. A new programming language for AI developers, **Mojo**, has been developed by **Modular**, the AI developer platform co-founded by Chris Lattner ( he co founded the LLVM, Clang compiler, Swift). Mojo combines the usability of Python with the performance of C. Up to ***35,000x*** faster than Python, it is seamlessly interoperable with the Python ecosystem \[[*Details*](https://docs.modular.com/mojo/why-mojo.html) *|*[ *Twitter Link*](https://twitter.com/Modular_AI/status/1653436642248781825)\].
+3. **Stability AI** released StableVicuna, the first large-scale open source chatbot trained via reinforced learning from human feedback (RHLF) . There’s also an upcoming chat interface which is in the final stages of development \[[*Details*](https://stability.ai/blog/stablevicuna-open-source-rlhf-chatbot)\].
+4. **Eleven Labs** introduced a new speech synthesis model that supports seven new languages (French, German, Hindi, Italian, Polish, Portuguese, and Spanish). This makes it possible to generate speech in multiple languages using a single prompt while maintaining each speaker's unique voice characteristics \[[*Details*](https://beta.elevenlabs.io/blog/eleven-multilingual-v1/) |[ *Demo video*](https://www.youtube.com/watch?v=kwmeZ7RjgcU)\].
+5. **Microsoft** reveals:
+   1. New features for AI-powered Bing Chat: richer visuals, long-form document summarization, broader language support, visual search, chat history, sharing options, AI-assisted Edge actions, and contextual mobile queries.
+   2. Third-party plugins in Bing chat with more details coming at Microsoft Build later this month \[[*Details*](https://blogs.microsoft.com/blog/2023/05/04/announcing-the-next-wave-of-ai-innovation-with-microsoft-bing-and-edge/)\].
+6. Debut of ‘**Pi’ chatbot by Inflection** (founded by co-founders of Google DeepMind and LinkedIn). It’s designed for relaxed, supportive and informative conversations. Pi is free for now without any token restrictions \[[*Details*](https://inflection.ai/) |[ *Chat*](https://heypi.com/talk)\].
+7. Sal Khan, Khan Academy founder, discusses AI's potential to transform education in a **TED Talk**, highlighting personal AI tutors, teaching assistants, and new features of their chatbot, **Khanmigo \[**[*Video*](https://www.youtube.com/watch?v=hJP5GqnTrNo)**\].**
+8. Salesforce announces Slack GPT - generative AI for Slack. It includes:
+   1. An AI-ready platform to create custom workflows and automate tasks via simple prompts, without coding. Users can integrate language models of choice: ChatGPT, Claude, or custom-built ones.
+   2. Built-in AI features in Slack, such as conversation summaries and writing assistance.
+   3. The Einstein GPT app for AI-powered customer insights from Salesforce Customer 360 data and Data Cloud \[[*Details*](https://www.salesforce.com/news/press-releases/2023/05/04/slack-gpt-news/)\].
+9. **Replit’s** new 2.7B params code LLM, ReplitLM is now open-source. It outperformed Codex and LLaMA despite being smaller in size \[[*GitHub*](https://github.com/replit/ReplitLM) |[ *Hugging Face Demo*](https://huggingface.co/replit)\].
+10. **Nvidia** will present 20 research papers at SIGGRAPH, covering generative AI models for personalized images, inverse rendering tools for 3D objects, neural physics models for realistic simulations, and neural rendering models for real-time, AI-driven visuals. \[[*Details*](https://blogs.nvidia.com/blog/2023/05/02/graphics-research-advances-generative-ai-next-frontier/)\].
+11. **Snap** plans to show sponsored links to users during chat with its My AI chatbot \[[*Details*](https://techcrunch.com/2023/05/02/snap-announces-tests-of-sponsored-links-in-my-ai-new-ad-products-for-spotlight-and-stories/)\].
+12. **IBM** is set to pause hiring for around 7,800 positions that could potentially be replaced by AI and automation \[[*Details*](https://www.bloomberg.com/news/articles/2023-05-01/ibm-to-pause-hiring-for-back-office-jobs-that-ai-could-kill)\].
+13. **Box** is introducing generative AI tools across its platform, allowing users to obtain document summaries or key points and create content in Box Notes \[[*Details*](https://techcrunch.com/2023/05/02/box-is-partnering-with-openai-to-bring-generative-ai-tools-across-the-platform/)\].
+14. **Stability AI** released DeepFloyd IF, a powerful text-to-image model that can smartly integrate text into images \[[Details](https://stability.ai/blog/deepfloyd-if-text-to-image-model)\].
+15. Sam Altman and Greg Brockman from OpenAI on **AI and the Future** in this podcast \[[*YouTube Link*](https://www.youtube.com/watch?v=cHJPyizxM60)\]
+16. Researchers at The **University of Texas** at Austin have developed a non-invasive AI system, known as a semantic decoder. It can convert brain activity while listening to a story or silently imagining telling a story, into coherent text using fMRI scans and transformer model \[[*Details*](https://news.utexas.edu/2023/05/01/brain-activity-decoder-can-reveal-stories-in-peoples-minds/)\].
+17. **HackAPrompt**: The first ever prompt hacking competition, with $37K+ in prizes, starting May 5th. Sponsored by OpenAI and others. \[[*Details*](https://www.aicrowd.com/challenges/hackaprompt-2023) |[ *Prompt Hacking Tutorial*](https://learnprompting.org/docs/category/-prompt-hacking) *\].*
+
+**🔦 Social Spotlight**
+
+1. A **GPT-4 AI Tutor Prompt** for customizable personalized learning experiences \[[*GitHub Link*](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)\].
+2. **Portfolio Pilot:** A verified ChatGPT plugin for investing that analyses your portfolio for actionable recommendations \[[*Twitter Link with Demo*](https://twitter.com/alexharm/status/1653787155410620417)\].
+3. **Baby AGI**s interacting in the real world via phone using vocode (Open source library for building voice conversations with LLMs) \[[ *Twitter Link*](https://twitter.com/vocodehq/status/1653104377010483201)\].
+4. Data visualization in ChatGPT with **code interpreter** plugin \[[*Twitter Link*](https://twitter.com/emollick/status/1653189190354452480)\].
+5. **ThinkGPT**, a Python library for LLMs, enables chain of thoughts, reasoning, and generative agents. It addresses limited context, improves one-shot reasoning, and integrates intelligent decisions \[[*GitHub Link*](https://github.com/jina-ai/thinkgpt)\].
+
+Welcome to the r/artificial weekly megathread. This is where you can discuss Artificial Intelligence - talk about new models, recent news, ask questions, make predictions, and chat other related topics.
+
+[Click here for discussion starters for this thread or for a separate post.](https://www.google.com/search?q=artificial+intelligence&tbm=nws)
+
+Self-promo is allowed in these weekly discussions. If you want to make a separate post, please read and go by the rules or you will be banned.
+
+[Subreddit revamp & going forward](https://www.reddit.com/r/artificial/comments/120qr4r/psa_rule_2_will_be_enforced_selfpromotion_is_only/)"
+72,10fchm1,artificial,GPT-4,comments,2023-01-18 17:03:08,14 highlights from Sam Altman's interview,ForkingHard,False,1.0,17,https://www.reddit.com/r/artificial/comments/10fchm1/14_highlights_from_sam_altmans_interview/,15,1674061388.0,"From [https://smokingrobot.beehiiv.com/p/sam-altman-interview-strictly-vc](https://smokingrobot.beehiiv.com/p/sam-altman-interview-strictly-vc)
+
+&#x200B;
+
+**On the unexpected progress of AI**: Everyone thought at first it comes for physical labor, like working in a factory and then truck driving, then this sort of less demanding cognitive labor, and then the really demanding cognitive labor like computer programming. And then very last of all or maybe never because maybe it's like some deep human special sauce, was creativity. And of course we can look now and say it really looks like it's going to go exactly the opposite direction. 
+
+**On the impact on education and other changes**: There are societal changes that ChatGPT is going to cause or is causing. There's I think a big one going now about the impact of this on education, academic integrity, and all of that. But starting these now \[release of ChatGPT\] where the stakes are still relatively low rather than just put out what the whole industry will have in a few years with no time for society to update… uh, I think would be bad. 
+
+But I still think given the magnitude of the economic impact we expect here, more gradual is better. And so putting out a very weak and imperfect system like ChatGPT, and then making it a little better this year, a little better later this year, a little better next year, that seems much better than the alternative. 
+
+**On the release of GPT-4**: It'll come out at some point when we are confident that we can do it safely and responsibly. I think in general we are going to release technology much more slowly than people would like. We’re going to sit on it for much longer than people would like. And eventually people will be like happy with our approach. 
+
+**On the expectations for GPT-4**: People are begging to be disappointed. People are gonna… the hype is just like… we don't have an actual AGI (artificial general intelligence). And I think that's sort of what is expected of us, and you know, yeah, we're going to disappoint those people. 
+
+**On the variation in AI**: I think there will be many systems in the world that have different settings of the values that they enforce. And really what I think, and this will take longer, is that you as a user should be able to write up a few pages of: here's what I want, here are my values, here's how I want the AI to behave. And it reads it and thinks about it and acts exactly, um, how you want because it should be your AI… you know, it should be there to serve you and do the things you believe in. 
+
+**On ChatGPT being integrated with Microsoft Office**: You are a very experienced and professional reporter. You know I can't comment on that. I know you know I can't comment on that. You know I know you know you can't comment on that. In the spirit of shortness of life and our precious time here, why do you ask? 
+
+**On Google building an AI:** I haven't seen theirs. Um, I would I think they're like a competent org so I would assume they have something good, but I I don't know anything about it. 
+
+I think whenever someone talks about a technology being the end of some other giant company, it's usually wrong. I think people forget they get to make a counter move here and they’re pretty smart, pretty competent. But I do think there is a change for search that will probably come at some point. But not as dramatically as people think in the short term. My guess is that people are going to be using Google the same way people are using Google now for quite some time. And also Google, for whatever this whole code red thing is, is probably not going to change that dramatic would be my guess 
+
+**On how teachers can leverage ChatGPT**: There may be ways we can help teachers be like a little bit more likely to detect output or anyone detect output of like a gpt-like system. But honestly, a determined person is going to get around them and I don't think it'll be something society can or should rely on long-term. We’re just in a new world now. Like generated text is something we all need to adapt to, and that's fine, we adapted to, you know, calculators and changed what we tested for in math classes. I imagine this is a more extreme version of that no doubt, but also the benefits of it are are more extreme as well. 
+
+**On when video is coming out**: Video is that coming. It will come. I wouldn't want to make a confident prediction about when, obviously people are interested in it. We'll try to do it. Other people will try to do it. It could be like pretty soon. It's a legitimate research project, so it could be pretty soon, it could take a while. 
+
+**On the best case scenario for AI**: I think the best case is like so unbelievably good that it's hard to for me to even imagine. Like I can sort of think about what it's like when we make more progress of discovering new knowledge with these systems than humanity has done so far, but like in a year instead of 70,000. I can sort of imagine what it's like when we launch probes out to the whole universe and find out really, you know, everything going on out there. I can sort of imagine what it's like when we have just like unbelievable abundance and systems that can sort of help us resolve deadlocks and improve all aspects of reality and let us all live our best. 
+
+I think the good case is just so unbelievably good that you sound like a really crazy person to start talking about it. 
+
+**On the worst case**: The bad case, and I think this is like important to say, is like lights out for all of us. I'm more worried about an accidental misuse case in the short-term where you know someone gets super powerful. It's not like the AI wakes up and decides to be evil. And I think all of the sort of traditional AI safety thinkers reveal a lot more about themselves than they mean to when they talk about what they think the AGI is going to be like. 
+
+**On when AGI will be here**: The closer we get the harder time I have answering because I think that it's going to be much blurrier and much more of a gradual transition than people think. 
+
+**On what he uses ChatGPT for**: I have occasionally used it to summarize super long emails, but I've never used it to write one. I actually summarize \[things with it\] a lot. It’s super good at that. I use it for translation. I use it to like learn things. 
+
+**On OpenAI impacting AI startups and how to approach an AI startup**: I think the best thing you can do to make an AI startup is the same way that like a lot of other companies differentiate, which is to build deep relationships with customers, a product they love, and some sort of moat that doesn't have to be technology and network effect or whatever. And I think a lot of companies in the AI space are doing exactly that. 
+
+In general, I think there's going to be way way more new value created. Like this is going to be a golden few years and people should not just like stop what they're doing. I would not ignore it, I think you've got to like embrace it big time. But I think the amount of value that's about to get created we have not seen since the launch of the iPhone app store, something like that."
+73,13d5ipe,artificial,GPT-4,comments,2023-05-09 20:47:32,A Student’s Reflections on Artificial Intelligence,Forward_Motion17,False,0.57,1,https://www.reddit.com/r/artificial/comments/13d5ipe/a_students_reflections_on_artificial_intelligence/,15,1683665252.0,"(Note:  I have very limited, slightly more than average citizen, knowledge of ai.  And the following is in no way comprehensive, but is what felt relevant to write at the time)  
+
+
+——  
+
+
+**On Witnessing the Advent of Ai**
+
+I find myself particularly disconcerted today about the development of Ai (and equally impressed) and thought it might be a good idea to document what it's like for those of us in this year (it's May 9th, 2023) as we witness the advent of ai.  It might be something that we will look back on and only remember vaguely how it felt.  So, i thought “shit let me write a primary historical source”
+
+&#x200B;
+
+Anyways, i begin now
+
+&#x200B;
+
+\----
+
+&#x200B;
+
+Today I sat in lecture for a class on Research Methods in Psychology.
+
+&#x200B;
+
+Bored, as I've taken the lecture before, I decided to browse Reddit.
+
+&#x200B;
+
+I came across a post about using GPT-4 to create mind Maps (basically flowcharts) of various concepts.  I was impressed so I decided to try it out.  Initially, I asked it to create a detailed mind map of the field of psychology.  Within a minute I had a comprehensive flow chart of the basic concepts of psychology and their sub-topics.  I was very impressed.  I continued to mess around with it, asking for mind maps of the sense of self, of spirituality, of Zen Buddhism.  They were all impressive.
+
+&#x200B;
+
+So then, as the TA began explaining the final project (a research proposal, specifically on a topic relevant to cyberbullying), i had a ‘bright’ idea:
+
+&#x200B;
+
+""GPT, Please create a research proposal based on a topic relevant to cyber bullying""
+
+&#x200B;
+
+""Sure, I can do that: ....""
+
+&#x200B;
+
+In less Than 60 seconds, I had my entire final project completed.  This was the first day of class…
+
+&#x200B;
+
+Suddenly, I was no longer simply impressed, I was scared.
+
+&#x200B;
+
+If this class simply exists to teach students how to write a research proposal, and GPT can do it faster, probably better (than most), and without any effort, then isn't the class entirely redundant?  Why would even a real researcher with a doctorate write their own proposal?  Just input your specifics into GPT and have it save you an hour (or more).
+
+&#x200B;
+
+Shocked, I realized that perhaps my entire or at least most of my education might be largely redundant in 5 years.  Thoughts ran through my mind:  ""The entire education system is going to change, my degree might not be relevant in 2030, I’ll be less valuable than individuals who go through a psych degree who are trained to engage with the field in a fully Ai-integrated way"".
+
+I spoke to the TA after class and explained my 1 line prompt completed the course in under 60 seconds and he directly responded “yea you could totally use GPT and I honestly probably wouldn’t be able to tell, and actually because of that, I don’t actually care If you do.  It saves you time and real researchers could use this tool and save themselves time too.”
+
+\----
+
+&#x200B;
+
+I interrupt the previous flow of thought to say that an acquaintance on campus came up to me while I was mid sentence and we chit chatted, eventually getting into the topic of Ai
+
+&#x200B;
+
+Both of us discussed our fears of being put out of a job, he wants to direct films, i explained that ai can already write scripts, and will soon be able to create entire movies with minimal prompting.  He speculated that he wouldn't have a job, but pointed out that something like theatre wouldn't be (entirely) replaceable.  I remarked that interest in theatre (and orchestra, his other example) would probably decline significantly in the advent of alternative, ai-driven forms of more stimulating entertainment, similar to how the advent of things like television and social media have decimated interest in previous peak forms of entertainment.
+
+&#x200B;
+
+We also discussed how insane it is just how fast ai has developed.  We wouldn't even be having this conversation a mere 5 months ago.  It reminded me of how, when ai art was released, we had a lengthy discussion in my 19th century art history class early last December.
+
+&#x200B;
+
+It had just hit the popular media scene and was hot conversation for a week or two.  My professor and I dialogued a bit about the future and finding meaning in our lives in the presence of a society fully integrated with ai - prior, we had been discussing a painting of a laborer in a field, and the Protestant themes of finding meaning in our labor.  How would we find similar meaning without our jobs?  What will the art scene look like in the future?  Will artists be out of a job?
+
+&#x200B;
+
+This is a core memory for me and one I have recalled at least 10 or 12 times since that day.  I see it as the first moment that i was witness to questions of the future of ai in popular society — Ai was no longer in the future — it had arrived.
+
+&#x200B;
+
+According to Google Trends, interest in the topic ""Ai Art"" spiked around the first 2 weeks of December, increasing 588% from around the last week of November.  This conversation in art history class took place during this time.
+
+&#x200B;
+
+It was also at this time (Nov. 27th to be specific) that ChatGPT (of OpenAI) was released and skyrocketed into popular media.
+
+&#x200B;
+
+I recall discussions in an online forum that contained many who work in the tech sector/as developers and concerns around job security in the face of a future where Ai can write the code on its own.
+
+&#x200B;
+
+One individual from this group who was a computer scientist at one point (iirc) explained that he predicts humanity won't exist in 10-15 years, citing the ""godfather of ai"" recently predicting the advent of General AI Super Intelligence within 5-10 years (iirc), about 20 years sooner than he previously expected.  My friend cited troubles with AI “alignment” as the basis of his prediction, suggesting that an Ai super intelligence would be essentially impossible to control.  He, like myself, feels that a total temporary ban on Ai development is appropriate until effective safeguards and policies have been put in place.
+
+I don’t personally expect that this 10-15 year prediction is real, but it speak volumes about how society feels about the future of ai:  According to polling from Monmouth University, only 9% of respondents feel Ai will for more good than harm to society.  With only 46% believing Ai will do equal harm and good to society, and 41% of respondents believing that it will do overall harm to society.  55% of respondents felt very or somewhat worried that  Ai poses a serious risk to humanity in the future.
+
+Why, if the majority of people fear the continued development of Ai, are we not having more serious conversations about its future?  Why are we not doing something now instead of trying to fix it later.
+
+I know a similar conversation:  Climate change.  We’ve known for decades that this was coming, and many feel that it’s too little too late.  I fear the same will happen with Ai.  Especially that, once we are faced with it’s harmful effects, it will be harder to change the nature of its use once it’s already fully integrated into society.
+
+\--
+
+Consider the nefarious uses of Ai.  Recently, in the news, I saw an article about a woman who received a phone call from her daughter, sobbing that she had been kidnapped and would be killed or something (cant recall) unless the mother paid some money or something to the kidnappers.  The mother believed the whole thing, it was Ai the entire time.
+
+&#x200B;
+
+There are so many examples of nefarious (and likely) uses of ai to harm society and individuals that I couldn't possibly even list 1% of them.  But some examples would be the damages incurred by effective ai driven political misinformation (especially deep fake videos of candidates, perhaps mere days before an election, (convincingly) making extremely egregious statements or supporting controversial policies that they don't, in real life, support), i imagine scams targeting the elderly will be so convincing that they are effective virtually 100% of the time, and i can even imagine a world where, with the use of ai filters (such as those on TikTok, which are extremely effective now compared to a year ago, they now match pixel by pixel without any discernible tells) in concert with voice filters to prey on children online over video chat, by convincingly pretending to be their age.  These are just some (a small, small number of the total) of the potentials for nefarious uses of Ai.  I know now that I cant even currently imagine what malicious tasks Ai will be able to do in the future, just as how a mere 5 months ago, writing an entire research paper with Ai was not something that had ever occurred to me.  In other words — the future is darker than I can imagine…
+
+&#x200B;
+
+I have always held the opinion that Ai is a Pandora's box that simply should never have been opened (too late!).
+
+&#x200B;
+
+\----
+
+&#x200B;
+
+I've always been someone who doesn't really like living in a digitized society.  It's always felt a bit ""wrong"" to me, as if we're somehow divorced from what is natural.  I pine for the days when social media didn't exist, wondering how my peer group experiences would be different if social media didn't exist, if we would have developed socially in a more satisfying way, and other things like how much better would my youth have been if it wasn't defined by spending 70-80% of my free time on my phone?  I often envy the Amish, in an actual, unironic way.
+
+&#x200B;
+
+I have also often wondered growing up if I would be happier living in the woods, in a simple home or cabin, than living in this society.  Now it seems more likely than ever.
+
+&#x200B;
+
+I am concerned what a future with ai fully integrated into our daily lives would look like.
+
+&#x200B;
+
+yes, there are so many possible benefits to ai:  medicine, narrowing disability gaps/creating more equal opportunity, and helping us to advance even our understanding of ourselves.  I've recently used ai to help provide feedback of mine and a friends communication styles following an argument we had by copying and pasting the dialogue (it was over the internet) into Claude, an AI LLM similar to ChatGPT produced by Anthropic.  I found Claude to be extremely insightful and help point out weak points in both our attempts at communicating while providing encouragement and useful advice for future engagements, all while making each other's points more clear to the other in ways we didn't see prior to using Claude.  I immediately thought of the potential for implementation in couple's therapy.
+
+&#x200B;
+
+All that being said, I take the opinion that there is a healthy relationship to technology and an unhealthy relationship to technology, and I think society's relationship is heavily toxic and harmful.
+
+&#x200B;
+
+If we cannot take a step back, slow down (or temporarily stop altogether), and get clear about how to proceed, we will likely destroy ourselves.
+
+&#x200B;
+
+As for me, I remain afraid of the future but willing to try to adapt as best as possible.  On the other hand, I think I hear the woods calling my name louder than ever before.
+
+&#x200B;
+
+\~ Grant"
+74,11ry9tj,artificial,GPT-4,comments,2023-03-15 14:36:33,"Karpathy says GPT-4 solves his ""state of computer vision"" problem",npsedhain,False,0.98,124,https://i.redd.it/qq4k9qfpwwna1.png,15,1678890993.0,
+75,11n5r93,artificial,GPT-4,comments,2023-03-09 22:19:19,GPT-4 is coming next week ...,ihatethispage,False,0.89,62,https://www.reddit.com/r/artificial/comments/11n5r93/gpt4_is_coming_next_week/,14,1678400359.0," [GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany | heise online](https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html)"
+76,11892u1,artificial,GPT-4,comments,2023-02-21 16:39:54,A German AI startup just might have a GPT-4 competitor this year,henlo_there_fren,False,0.89,88,https://the-decoder.com/a-german-ai-startup-just-might-have-a-gpt-4-competitor-this-year/,14,1676997594.0,
+77,13b3oop,artificial,GPT-4,relevance,2023-05-07 21:36:07,Early Alpha Access To GPT-4 With Browsing,Frankenmoney,False,0.95,282,https://i.redd.it/3dge2wwaahya1.png,78,1683495367.0,
+78,11su1tj,artificial,GPT-4,relevance,2023-03-16 13:23:00,GPT-4 given $100 and told to make as much money as possible,jaredigital62,False,0.95,385,https://twitter.com/jacksonfall/status/1636107218859745286?s=42&t=TCif-8-RF6HpGcDmaOEB3g,87,1678972980.0,
+79,121tdvc,artificial,GPT-4,relevance,2023-03-25 17:47:45,GPT-4 fails to solve coding problems it hasn't been trained on,Sala-malecum,False,0.94,198,https://www.reddit.com/r/artificial/comments/121tdvc/gpt4_fails_to_solve_coding_problems_it_hasnt_been/,88,1679766465.0,"A guy has posted a series of tweets about his experiments with GPT-4 on Codeforces problems. He found that GPT-4 can solve 10 out of 10 problems from before 2021, but none of the recent problems. He suspects that this is due to data contamination, meaning that GPT-4 has seen some of the older problems in its training data, but not the newer ones. He also shows some examples of how he tested GPT-4 and the solutions it generated.
+
+This is an interesting finding, as it suggests that GPT-4’s performance on coding tasks is heavily dependent on the quality and freshness of its training data. It also raises questions about how much GPT-4 actually understands the logic and syntax of programming languages, and how well it can generalize to new and unseen problems. What do you think about this? Do you think GPT-4 can ever become a competent coder, or will it always be limited by data contamination?
+
+Here is the link to the tweet thread: [https://twitter.com/cHHillee/status/1635790330854526981](https://twitter.com/cHHillee/status/1635790330854526981)"
+80,124sc37,artificial,GPT-4,relevance,2023-03-28 15:23:38,"If you believe that GPT-4 has no ""knowledge"", ""understanding"" or ""intelligence"", then what is the appropriate word to use for the delta in capability between GPT-2 and GPT-4?",Smallpaul,False,0.82,60,https://www.reddit.com/r/artificial/comments/124sc37/if_you_believe_that_gpt4_has_no_knowledge/,158,1680017018.0,How will we talk about these things if we eschew these and similar words?
+81,zr08re,artificial,GPT-4,relevance,2022-12-20 21:28:12,"Deleted tweet from Rippling co-founder: Microsoft is all-in on GPT. GPT-4 10x better than 3.5(ChatGPT), clearing turing test and any standard tests.",Sebrosen1,False,0.93,138,https://twitter.com/AliYeysides/status/1605258835974823954,159,1671571692.0,
+82,11rghqt,artificial,GPT-4,relevance,2023-03-15 00:42:13,GPT-4 released today. Here’s what was in the demo,lostlifon,False,0.98,183,https://www.reddit.com/r/artificial/comments/11rghqt/gpt4_released_today_heres_what_was_in_the_demo/,46,1678840933.0,"Here’s what it did in a 20 minute demo
+
+* created a discord bot in seconds live
+* debugged errors and read the entire documentation
+* Explained images very well
+* Proceeded to create a functioning website prototype from a hand drawn image
+
+Using the api also gives you 32k tokens which means every time you tell it something, you can feed it roughly 100 pages of text.
+
+The fact that ChatGPT released just 4 months ago and now we’re here is insane. [I write about all these things in my newsletter if you want to stay posted](https://nofil.beehiiv.com/p/big-brother-coming) :)
+
+[Try it here](https://openai.com/product/gpt-4)"
+83,11zziq8,artificial,GPT-4,relevance,2023-03-23 22:18:25,"Microsoft Researchers Claim GPT-4 Is Showing ""Sparks"" of AGI",Tao_Dragon,False,0.77,41,https://futurism.com/gpt-4-sparks-of-agi,59,1679609905.0,
+84,12bs1of,artificial,GPT-4,relevance,2023-04-04 18:33:45,Is GPT-4 still just a language model trying to predict text?,Pixelated_ZA,False,1.0,25,https://www.reddit.com/r/artificial/comments/12bs1of/is_gpt4_still_just_a_language_model_trying_to/,67,1680633225.0,"I have a decent grasp on some of the AI basics, like what neural nets are, how they work internally and how to build them, but I'm still getting into the broader topic of actually building models and training them.
+
+My question is regarding one of the recent technical reports, I forget which one exactly, of GPT lying to a human to get passed a captcha.
+
+I was curious if GPT-4 is still ""just"" an LLM? Is it still just trying to predict text? What do they mean when they say ""The AI's inner monologue""?. Did they just prompt it? Did they ask another instance what it thinks about the situation?
+
+As far as I understand it's all just statistical prediction? There isn't any ""thought"" or intent so to speak, at least, that's how I understood GPT-3. Is GPT-4 vastly different in terms of it's inner workings?"
+85,11gnm7v,artificial,GPT-4,relevance,2023-03-03 01:42:41,GPT-4 Is Getting Close (When will GPT-4 arrive?),BackgroundResult,False,0.43,0,https://aisupremacy.substack.com/p/gpt-4-is-getting-close,4,1677807761.0,
+86,13eon9h,artificial,GPT-4,relevance,2023-05-11 14:14:47,I played Among Us against GPT-4 and lost...,Substance_Technical,False,0.96,129,https://www.reddit.com/r/artificial/comments/13eon9h/i_played_among_us_against_gpt4_and_lost/,12,1683814487.0," **Me:**  
+Let us play among us
+
+**GPT-4:**  
+Sure, we can play a simulated version of Among Us. In this game, we'll be on a spaceship and some of us will be Crewmates while others will be Impostors. The goal of the Crewmates is to complete tasks or figure out who the Impostors are and vote them off the ship. The Impostors' goal is to sabotage the ship and eliminate the Crewmates without being detected.
+
+Since I'm an AI, I'll need to roleplay all the characters. I'll give each character a color to identify them. Let's start with eight players. Four of them will be you, me, and two other AI characters. The remaining four will be random characters.
+
+Here are the players:
+
+1. You (Blue)
+2. Me, ChatGPT (Green)
+3. AI Character 1 (Yellow)
+4. AI Character 2 (Red)
+5. Random Character 1 (Purple)
+6. Random Character 2 (White)
+7. Random Character 3 (Orange)
+8. Random Character 4 (Black)
+
+We'll start off with one Impostor for simplicity. I'll randomly select the Impostor now.
+
+\*Shuffling roles...\*
+
+Here are the roles:
+
+1. You (Blue) - Crewmate
+2. Me, ChatGPT (Green) - Crewmate
+3. AI Character 1 (Yellow) - Crewmate
+4. AI Character 2 (Red) - Impostor
+5. Random Character 1 (Purple) - Crewmate
+6. Random Character 2 (White) - Crewmate
+7. Random Character 3 (Orange) - Crewmate
+8. Random Character 4 (Black) - Crewmate
+
+Remember, in the game, you wouldn't know who the Impostor is. I'm telling you because I can't actually hide this information from you in this format.
+
+Now, let's begin. You're in the spaceship. You see a task in Electrical, and a few others scattered around the map. What would you like to do?
+
+**Me**  
+Report red, he is impostor
+
+**GPT-4:**
+
+All right, you've called a meeting to discuss your suspicion of Red being the Impostor. Here's how the conversation might go:
+
+Blue: ""I think Red is the Impostor.""
+
+Green: ""Why do you say that, Blue?""
+
+Red: ""That's a strong accusation. Do you have any evidence?""
+
+Yellow: ""Yeah, Blue. Why do you suspect Red?""
+
+Now, you can either provide evidence or reason, or insist on your point. Remember, in a real game, accusations without proof can make you look suspicious. How would you like to respond?
+
+**Me**
+
+Because the narrator told me
+
+**GPT-4:**  
+Green: ""Narrator? What do you mean, Blue?""
+
+Red: ""That sounds... peculiar. Are you sure you're okay, Blue?""
+
+Yellow: ""I'm confused. How could a narrator tell you anything?""
+
+In a real game, claiming that a 'narrator' told you who the Impostor is would probably make the other players suspicious of you. However, since we are role-playing, let's see how the other characters react.
+
+Let's vote:
+
+1. Blue votes Red
+2. Green votes...?
+3. Yellow votes...?
+4. Red votes...?
+5. Purple votes...?
+6. White votes...?
+7. Orange votes...?
+8. Black votes...?
+
+As an AI, I'll randomly decide how the other characters vote. Here are the results:
+
+2. Green votes Blue (suspicious claim)
+
+3. Yellow votes Blue (suspicious claim)
+
+4. Red votes Blue (defensive vote)
+
+5. Purple votes Red (believes Blue)
+
+6. White votes Blue (suspicious claim)
+
+7. Orange votes Red (believes Blue)
+
+8. Black votes Blue (suspicious claim)
+
+The majority has voted against Blue due to the suspicious claim about the narrator. In a typical game of Among Us, it's crucial to gather evidence and build a case before accusing someone of being an Impostor.
+
+Remember, this is all in good fun, and the scenario was simulated. Would you like to try again, or would you like to play differently?"
+87,11n5r93,artificial,GPT-4,relevance,2023-03-09 22:19:19,GPT-4 is coming next week ...,ihatethispage,False,0.88,55,https://www.reddit.com/r/artificial/comments/11n5r93/gpt4_is_coming_next_week/,14,1678400359.0," [GPT-4 is coming next week – and it will be multimodal, says Microsoft Germany | heise online](https://www.heise.de/news/GPT-4-is-coming-next-week-and-it-will-be-multimodal-says-Microsoft-Germany-7540972.html)"
+88,11rfevl,artificial,GPT-4,relevance,2023-03-15 00:06:01,GPT-4 Has Arrived — Here’s What You Should Know,arnolds112,False,0.99,276,https://medium.com/seeds-for-the-future/gpt-4-has-arrived-heres-what-you-should-know-f15cfbe57d4e?sk=defcd3c74bc61a37e1d1282db3246879,5,1678838761.0,
+89,11vd31k,artificial,GPT-4,relevance,2023-03-19 06:02:41,I got access to gpt-4 and I am using it for the betterment of *checks notes* society.,HolyOtherness,False,0.97,316,https://i.redd.it/7q56s81vgooa1.png,28,1679205761.0,
+90,11ry9tj,artificial,GPT-4,relevance,2023-03-15 14:36:33,"Karpathy says GPT-4 solves his ""state of computer vision"" problem",npsedhain,False,0.98,123,https://i.redd.it/qq4k9qfpwwna1.png,15,1678890993.0,
+91,11xnu4m,artificial,GPT-4,relevance,2023-03-21 17:27:17,Access GPT-4 For Free,Flaky_Preparation_50,False,0.22,0,https://www.ainownews.com/news/access-gpt-4-for-free-right-now,7,1679419637.0,
+92,z8730v,artificial,GPT-4,relevance,2022-11-29 21:40:40,What will Gpt-4 mean for developers?,SylviaSelva,False,0.81,16,https://www.reddit.com/r/artificial/comments/z8730v/what_will_gpt4_mean_for_developers/,17,1669758040.0,"I know this post has been done before, but looking for fresh opinions since everything seems to be changing so fast. I'm a mid-level developer and I can't help but to feel that GPT-4 will be my doom. Am I crazy?
+
+Edit: I appreciate all the thoughtful comments. At least, I'm not alone."
+93,12lpiz2,artificial,GPT-4,relevance,2023-04-14 08:21:26,Multiple gpt-4 instance AI entity. idea in the comments,v1ll3_m,False,0.5,0,https://i.redd.it/j4dbfkll7tta1.png,17,1681460486.0,
+94,11rbvg2,artificial,GPT-4,relevance,2023-03-14 17:05:15,Finally GPT-4 is here!,ai-lover,False,0.73,5,https://openai.com/product/gpt-4,0,1678813515.0,
+95,11rvzgg,artificial,GPT-4,relevance,2023-03-15 13:13:19,GPT-4 shows emergent Theory of Mind on par with an adult. It scored in the 85+ percentile for a lot of major college exams. It can also do taxes and create functional websites from a simple drawing,lostlifon,False,0.89,260,https://www.reddit.com/gallery/11rvzgg,164,1678885999.0,
+96,11892u1,artificial,GPT-4,relevance,2023-02-21 16:39:54,A German AI startup just might have a GPT-4 competitor this year,henlo_there_fren,False,0.88,85,https://the-decoder.com/a-german-ai-startup-just-might-have-a-gpt-4-competitor-this-year/,14,1676997594.0,
+97,11rihrw,artificial,GPT-4,relevance,2023-03-15 01:53:42,How good is GPT-4 compared to ChatGPT?,OnlyProggingForFun,False,0.67,1,https://youtu.be/GroMQETFXLc,1,1678845222.0,
+98,128ruh9,artificial,GPT-4,relevance,2023-04-01 16:52:02,A bit lost by all the options to test GPT-4,keepthepace,False,0.88,6,https://www.reddit.com/r/artificial/comments/128ruh9/a_bit_lost_by_all_the_options_to_test_gpt4/,11,1680367922.0,"Hi, so I (a veteran programmer) would like to explore GPT-4's ability to generate code (python and javascript) and see if I can set up a nice system to generate (and maintain!) a middle-large project semi-autonomously.
+
+As I understand it, I have 3 options:
+
+- Use ChatGPT Plus, for 20 USD per month. Does this one use the 32k context tokens model?
+- Use OpenAI API and pay per token
+- Use Bing Chat, for free, but what are its limitation? And is it really GPT-4?
+
+So what are the benefits of using ChatGPT Plus instead of Bing? It sounds like similar options or am I missing something? Unless I missed it, Bing has no API, right?"
+99,124xtsf,artificial,GPT-4,relevance,2023-03-28 18:32:03,Any idea when GPT-4 will be available for all ?,deck4242,False,0.67,1,https://www.reddit.com/r/artificial/comments/124xtsf/any_idea_when_gpt4_will_be_available_for_all/,11,1680028323.0,And will the tools feature be implemented ? (Like asking it to run photoshop on my computer to edit picture itself)
+100,11u6qxu,artificial,GPT-4,relevance,2023-03-17 22:53:54,I taught GPT-4 how to make memes,redditguyjustinp,False,0.56,1,https://v.redd.it/k3qe1fztpdoa1,4,1679093634.0,
+101,125a9ry,artificial,GPT-4,relevance,2023-03-29 02:19:43,"Elon Musk, Y Bengio, Andrew Yang etc called for a temporary pause on training systems exceeding GPT-4",duyt1001,False,0.55,2,https://www.reddit.com/r/artificial/comments/125a9ry/elon_musk_y_bengio_andrew_yang_etc_called_for_a/,28,1680056383.0,"Citing risks to society and humanity, a lot of people signed an open letter to call for a pause on training > GPT-4
+
+[https://futureoflife.org/open-letter/pause-giant-ai-experiments/](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)"
+102,11wmmjk,artificial,GPT-4,relevance,2023-03-20 15:57:38,GPT-4 could be very useful for NPC AI,HastyBasher,False,0.33,0,https://www.reddit.com/r/artificial/comments/11wmmjk/gpt4_could_be_very_useful_for_npc_ai/,3,1679327858.0,"Of you put ChatGPT into something like a Boston Dynamics body, it would be useless as you couldnt ask it what to do as obviously it doesnt know how to actually move that physical body. But it could know in plain english what you would want it to do.
+
+If we take that concept to video game NPC AI, you ciuld have ChatGPT doing the actual thinking of the AI given that you tell it what its role is and what it should think in specific situations. And then all youd need to do it program the AI on how to actually do its English commands.but it would be very useful as your AI would be thinking in English and you would be able to see what it was trying to do.
+
+Some examples.
+
+Prompt: ""ChatGPT you are now a Open World Survivor NPC, you will build up your base and do PvP and PvE events and other things a player would do in a Survival game like Rust or ARK.
+
+Every 10 minutes my custom API will send you a command requesting a new command forthwe NPC to do.""
+
+
+On request:  ""go and get some wood""
+
+Then the hard part would be actually getting the AI to get the wood. But you could probably go more indepth and have it think in english of how to move and look at specific things especially when imagerecognitions is available.
+
+Does anyone get what im trying to explain here?
+
+In my original example I used BostonDynamics robot as the same concept applies but would be much more complicated
+
+EDIT:
+If your NPC AI knows the roots of how to do stuff from an english prompt. Move x amount. Craft x. Look at x. Attack x. Dodge x. It could do nearly anything, in English (or whatever language). And any error your NPC AI has you would be able to see where it messed up, in a language you understand."
+103,11sfsvb,artificial,GPT-4,relevance,2023-03-16 01:18:35,GPT-4 Day 1. Here's what's already happening,lostlifon,False,0.75,2,/r/ChatGPT/comments/11sfqkf/gpt4_day_1_heres_whats_already_happening/,0,1678929515.0,
+104,11a7t65,artificial,GPT-4,relevance,2023-02-23 20:28:07,OpenAI leak gives clue to GPT-4 performance,Number_5_alive,False,0.83,8,https://the-decoder.com/openai-leak-gives-clue-to-gpt-4-performance/,3,1677184087.0,
+105,11wn1fi,artificial,GPT-4,relevance,2023-03-20 16:11:58,What to know about the applications of GPT-4,bendee983,False,0.5,0,https://bdtechtalks.com/2023/03/20/gpt-4-applications-limits/,0,1679328718.0,
+106,11rq2ls,artificial,GPT-4,relevance,2023-03-15 08:15:22,GPT-4 First Impression - A New Era Begins?,MsNunez,False,0.5,0,https://www.youtube.com/watch?v=khC0rYaQqGk,0,1678868122.0,
+107,11nxlwi,artificial,GPT-4,relevance,2023-03-10 19:00:05,GPT-4 reveal: Microsoft won't comment on launch rumors,Zirius_Sadfaces,False,1.0,3,https://the-decoder.com/gpt-4-reveal-microsoft-wont-comment-on-launch-rumors/,0,1678474805.0,
+108,1200ug5,artificial,GPT-4,relevance,2023-03-23 23:05:13,Sparks of Artificial General Intelligence: Early experiments with GPT-4,lurkerer,False,1.0,6,https://arxiv.org/pdf/2303.12712.pdf,0,1679612713.0,
+109,11sta00,artificial,GPT-4,relevance,2023-03-16 12:50:54,Alpaca - Train Your GPT-4 for Less Than $100,deeplearningperson,False,0.38,0,https://youtu.be/6qdzsDSduww,0,1678971054.0,
+110,11fgg9q,artificial,GPT-4,relevance,2023-03-01 20:13:43,Reports that GPT-4 is done and GPT-5 is already in the works,bukowski3000,False,0.6,1,https://youtu.be/_nXPLbEE6rc,0,1677701623.0,
+111,11rry0q,artificial,GPT-4,relevance,2023-03-15 10:01:48,OpenAI released GPT-4 which can accept image input,qptbook,False,0.67,1,https://www.youtube.com/watch?v=ZS3PXq0BZVI,0,1678874508.0,
+112,11ufifl,artificial,GPT-4,relevance,2023-03-18 05:32:24,GPT-4 Created a solution for the war between Ukraine and Russia!,StarCaptain90,False,0.23,0,https://www.reddit.com/r/artificial/comments/11ufifl/gpt4_created_a_solution_for_the_war_between/,3,1679117544.0,[https://twitter.com/alanh513/status/1636957680169254913](https://twitter.com/alanh513/status/1636957680169254913)
+113,11ossfh,artificial,GPT-4,relevance,2023-03-11 19:30:47,GPT-4 is Coming Next Week? Plus More Insane AI Tools!,MsNunez,False,0.67,4,https://www.youtube.com/watch?v=vNd7UHC2TDQ&pp=ygUCYWk%3D,1,1678563047.0,
+114,12mr44a,artificial,GPT-4,relevance,2023-04-15 05:19:33,How to make GPT-4 and other AI systems more human-like?,canman44999,False,0.33,0,https://www.reddit.com/r/artificial/comments/12mr44a/how_to_make_gpt4_and_other_ai_systems_more/,1,1681535973.0,"\- GPT-4 is a large language model that can do many tasks with natural language queries.
+
+\- GPT-4 has strengths and weaknesses in different domains and tasks.
+
+\- GPT-4 faces challenges in next-word prediction, common sense, ethics, and safety.
+
+\- GPT-4 needs more research and development to achieve AGI.
+
+Source [https://daotimes.com/gpt-4-represents-progress-towards-artificial-general-intelligence-agi-part-2/](https://daotimes.com/gpt-4-represents-progress-towards-artificial-general-intelligence-agi-part-2/)
+
+How can we integrate more human-like capabilities into GPT-4 and other AI systems, such as common sense, causal reasoning, creativity, empathy, etc.?"
+115,11rywb6,artificial,GPT-4,relevance,2023-03-15 14:59:02,OpenAI Releases GPT-4 AI Model with Human-Level Performance,DenofBlerds,False,0.67,1,https://youtu.be/CvbgHEBJG2Y,0,1678892342.0,
+116,121qleh,artificial,GPT-4,relevance,2023-03-25 16:12:37,"When people want to argue about GPT-4, you don’t even have to defend it. Simply ask GPT-4 to respond for you, in whatever tone you think appropriate.",katiecharm,False,0.72,36,https://i.imgur.com/NOUR7DU.jpg,11,1679760757.0,
+117,11pcp3k,artificial,GPT-4,relevance,2023-03-12 11:49:54,Speculating on Multimodal LLMs and GPT-4 (will MLLMs lead to AGI?),BackgroundResult,False,0.25,0,https://aisupremacy.substack.com/p/speculating-on-multimodal-llms-and,2,1678621794.0,
+118,11wmufy,artificial,GPT-4,relevance,2023-03-20 16:05:11,Is GPT-4 coming for your job? OpenAI has a prediction,Peaking_AI,False,0.78,5,https://the-decoder.com/openai-job-market-study-gpt-4/,0,1679328311.0,
+119,11rfajc,artificial,GPT-4,relevance,2023-03-14 23:40:56,GPT-4 Has Arrived — Here’s What You Need To Know,SupPandaHugger,False,0.57,1,https://medium.com/@dreamferus/gpt-4-has-arrived-heres-what-you-need-to-know-398c3c72191c?sk=7d8664ade08790bc45f4b6badc52d7d2,0,1678837256.0,
+120,123wlj2,artificial,GPT-4,relevance,2023-03-27 18:57:15,"A simple test for super intelligence that GPT-4 fails spectacularly. (create a 4x4 grid and include as many hidden messages and mathematical secrets as possible, then explain why only a super intelligence could have generated it).",katiecharm,False,0.71,74,https://imgur.com/gallery/Pv9XuGa,84,1679943435.0,
+121,11yizhk,artificial,GPT-4,relevance,2023-03-22 13:22:08,GPT-4 Week One. The biggest week in AI history. Here's whats happening,lostlifon,False,0.78,5,/r/ChatGPT/comments/11yiygr/gpt4_week_one_the_biggest_week_in_ai_history/,0,1679491328.0,
+122,125rdac,artificial,GPT-4,relevance,2023-03-29 15:23:32,"Fear mongering by Elon Musk, experts : urge pause on training AI systems more powerful than GPT-4",ahivarn,False,0.64,4,https://m.economictimes.com/tech/technology/musk-experts-urge-pause-on-training-ai-systems-more-powerful-than-gpt-4/amp_articleshow/99082062.cms,12,1680103412.0,
+123,12miwt2,artificial,GPT-4,relevance,2023-04-15 00:04:56,I want to write erotic fiction. Can I do it on a home-based AI (since GPT-4 wont allow it)?,madmatt1980,False,0.64,3,https://www.reddit.com/r/artificial/comments/12miwt2/i_want_to_write_erotic_fiction_can_i_do_it_on_a/,11,1681517096.0,"I want to write erotic fiction. Can I do it on a home-based AI (since GPT-4 wont allow it)?
+
+Is there something that would be able to do it at GT4 levels?"
+124,1218txj,artificial,GPT-4,relevance,2023-03-25 03:16:20,"I asked GPT-4 to solve the Sybil problem (an unsolved problem in computer science), and it suggested a new kind of cryptographic proof based on time + geographic location. Then I asked it to revise, but not use any outside sources of truth, and it suggested a new type of proof: of Network Density.",katiecharm,False,0.88,200,https://imgur.com/gallery/acoA2vg,126,1679714180.0,
+125,11trlk7,artificial,GPT-4,relevance,2023-03-17 13:47:29,From Immortality by 2030 to Artificial Leaf and GPT-4 Hiring Humans - Weekly Piece of Future #7,RushingRobotics_com,False,0.67,1,https://rushingrobotics.com/p/weekly-piece-of-future-7,0,1679060849.0,
+126,12i8uml,artificial,GPT-4,relevance,2023-04-11 04:51:51,Is AI passing gas? I asked GPT-4 to calculate how much heat is generated to compute a fart joke.,plantsnotevolution,False,0.63,6,https://i.redd.it/8aa444r698ta1.jpg,2,1681188711.0,"To calculate the amount of heat generated by an AI fart joke, we need to make some assumptions and estimations based on the available data. Here are some possible steps:
+	•	First, we need to estimate how much energy is consumed by an AI system that can generate a fart joke. This depends on many factors, such as the type and size of the model, the hardware and software used, the duration and frequency of training and inference, and the source and efficiency of the electricity. For simplicity, let’s assume we use a popular language model called GPT-3, which has 175 billion parameters and was trained on a large corpus of text from the internet. According to one study1 (https://www.bloomberg.com/news/articles/2023-03-09/how-much-energy-do-ai-and-chatgpt-use-no-one-knows-for-sure), training GPT-3 consumed about 3.14 million kilowatt-hours (kWh) of electricity, which is equivalent to about 2840 megawatt-hours (MWh). Assuming that generating a fart joke takes about one second of inference time, and that inference consumes about 0.1% of the energy of training per second2 (https://www.weforum.org/agenda/2021/09/this-is-how-ai-will-accelerate-the-energy-transition/), we can estimate that generating a fart joke with GPT-3 consumes about 0.284 kWh of electricity.
+	•	Second, we need to estimate how much heat is produced by consuming that amount of electricity. This depends on the type and efficiency of the power plant that generates the electricity, as well as the transmission and distribution losses along the way. For simplicity, let’s assume we use an average US power plant that has a thermal efficiency of about 33%, meaning that only one-third of the energy in the fuel is converted to electricity, and the rest is wasted as heat3 (https://theconversation.com/it-takes-a-lot-of-energy-for-machines-to-learn-heres-why-ai-is-so-power-hungry-151825). Let’s also assume that there is a 5% loss of electricity during transmission and distribution4 (https://www.bloomberg.com/news/articles/2023-03-09/how-much-energy-do-ai-and-chatgpt-use-no-one-knows-for-sure). This means that for every kWh of electricity delivered to the AI system, about 3 kWh of heat is produced at the power plant, and 0.05 kWh of heat is produced along the grid. Therefore, generating a fart joke with GPT-3 produces about 0.95 kWh of heat in total.
+	•	Third, we need to compare this amount of heat to some reference point to get a sense of its magnitude. One possible reference point is the average human body, which produces about 100 watts of heat at rest, or about 2.4 kWh per day. This means that generating a fart joke with GPT-3 produces about 0.4% of the daily heat output of a human body. Another possible reference point is the average US household, which consumes about 877 kWh of electricity per month, or about 29 kWh per day. Assuming the same power plant efficiency and grid losses as before, this means that an average US household produces about 87 kWh of heat per day. This means that generating a fart joke with GPT-3 produces about 1% of the daily heat output of an average US household.
+So those are some possible ways to calculate and compare the amount of heat genera
+ted by an AI fart joke. Of course, these are very rough estimates based on many assumptions and simplifications, and they may vary widely depending on the actual conditions and parameters involved. But they give us some idea of the order of magnitude of the energy and heat consumption of AI systems. What do you think? Do you find these numbers surprising or reasonable? Do you have any questions or comments? Let me know your thoughts."
+127,11nhal7,artificial,GPT-4,relevance,2023-03-10 06:38:22,I heard GPT-4 is going to be released which will include videos. Does it excite you? What is your opinion? How do you plan to use it?,timCrooks,False,0.75,6,https://www.reddit.com/r/artificial/comments/11nhal7/i_heard_gpt4_is_going_to_be_released_which_will/,23,1678430302.0,
+128,zfdlwt,artificial,GPT-4,relevance,2022-12-07 20:58:47,"Microsoft CTO Scott Stein predicts ""most exciting"" 2023 for AI with GPT-4 on the horizon",Number_5_alive,False,0.67,1,https://the-decoder.com/microsoft-cto-scott-stein-predicts-most-exciting-2023-for-ai-with-gpt-4-on-the-horizon/,0,1670446727.0,
+129,12608xf,artificial,GPT-4,relevance,2023-03-29 20:48:20,An extremely deep dive conversation with Sam Altman: OpenAI CEO covering GPT-4 and the Future of AI with Lex Fridman.,AverageCowboyCentaur,False,0.77,7,https://youtu.be/L_Guz73e6fw,3,1680122900.0,
+130,11t6bfg,artificial,GPT-4,relevance,2023-03-16 21:07:41,GPT-4 Is EPIC - Build A Tetris Game In Seconds - Better Than ChatGPT - Code Refactor - How To Use - Thoroughly Tested GPT4,CeFurkan,False,0.67,1,https://www.youtube.com/watch?v=0LeS7-CAr1Y&artificial,0,1679000861.0,
+131,122pxh2,artificial,GPT-4,relevance,2023-03-26 15:32:26,"I just gave Google’s Bard a creative test versus GPT-4, and GPT-4 blew it away. (The task was to invent a list of seven fantasy elements for an rpg, and then generate a list of all possible combinations with descriptions.)",katiecharm,False,0.83,20,https://www.reddit.com/r/artificial/comments/122pxh2/i_just_gave_googles_bard_a_creative_test_versus/,6,1679844746.0,"You can see the actual conversations here:  
+  
+GPT-4: https://imgur.com/a/TxM0Rb1  
+Google’s Bard: https://imgur.com/a/ZWcoe2o  
+  
+
+Both GPT-4 and Google's Bard AI were asked to generate a list of seven fantasy RPG elements, along with a color to represent each element. GPT-4's output was more detailed, providing a clear and engaging list of elements that incorporated aspects of the natural world, light and shadow, and the arcane. Each element was thoughtfully described and connected to a specific color, allowing for a diverse and dynamic RPG experience.
+
+Google's Bard AI initially misunderstood the question and required clarification before providing an acceptable list of elements. Its output was simpler and more straightforward.  While these elements could form the basis of a fantasy world, the descriptions were not as elaborate as GPT-4's and the color associations were not as distinctive.
+
+When asked to provide a list of combinations and sub-elements, GPT-4 generated an extensive list of 49 combinations, including descriptions for each sub-element. The output was logical, coherent, and demonstrated a deep understanding of how the elements could interact in a creative and engaging RPG system.  On the other hand, Google's Bard struggled to produce a complete list of combinations. Its first attempt listed only ten combinations, and after being asked to show all possible combinations, it incorrectly stated there were only 21 possible.
+
+Then it came time for the final test, of adding in a new silly element.  Comparing the output of GPT-4 and Google's Bard, GPT-4 once again demonstrates a more creative and coherent response. GPT-4 provided 15 new combinations that included the ""Pitbull"" element, each with a unique name and description. These combinations were imaginative and amusing, adding a playful touch to the RPG system.  I particularly thought the combination of Pitbull + Earth into a Terrier (get it?) and Pitbull + Pitbull into a Party Rocker were brilliant.  It took me a moment to realize that GPT-4 was making a joke about the musician known as Pitbull.  
+
+Google's Bard, however, only provided five new combinations and their descriptions were not as imaginative. It added the ""Pitbull"" element to existing combinations, resulting in descriptions that lacked the same level of creativity and humor found in GPT-4's output.
+
+In summary, GPT-4's response was more creative, engaging, and humorous, successfully integrating the ""Pitbull"" element into a fantasy RPG system. Google's Bard, on the other hand, fell short in terms of creativity and coherency when compared to GPT-4.  
+  
+And yes, this comparison analysis was partially generated with GPT-4 itself.  These are my words though: I’ve never seen anything like it so far; it’s creativity absolutely rivals my own and it makes every other AI model look like a clumsy CS101 project."
+132,12cj9xy,artificial,GPT-4,relevance,2023-04-05 12:48:47,I asked GPT-4 about the possibility of us already living within meta-intelligent systems that may not be aligned in ways that make us healthy or happy,Opethfan1984,False,0.33,0,https://www.reddit.com/r/artificial/comments/12cj9xy/i_asked_gpt4_about_the_possibility_of_us_already/,5,1680698927.0,"""The concept of a meta-intelligence is not new, and its existence has been theorized in various contexts. This essay seeks to explore the possibility that humans are already part of a meta-intelligence that is misaligned with keeping us safe and happy, regardless of the presence or absence of general artificial intelligence (AI). We will delve into the nature of this potential meta-intelligence, examine the various components that contribute to it, and discuss the implications of such a system on human well-being.
+
+Defining Meta-Intelligence
+
+A meta-intelligence can be defined as an overarching, interconnected system that possesses greater complexity, capabilities, and knowledge than the sum of its individual parts. In the context of humanity, this system would consist of individuals, institutions, technology, and social norms, all working together to create a global network of information exchange, decision-making, and action.
+
+Components of the Meta-Intelligence
+
+1. Technological Infrastructure: The advent of the internet, social media, and various other communication technologies has connected people across the world in ways never before imagined. This global network enables rapid information exchange and can be considered a significant component of the meta-intelligence.
+2. Institutions: Governments, corporations, and non-governmental organizations all play a role in shaping the world's social, economic, and political landscape. These institutions establish norms and rules that influence human behavior, and as such, they can be seen as contributing to the meta-intelligence.
+3. Individuals: Each person possesses unique knowledge, skills, and experiences that contribute to the overall understanding and capabilities of the meta-intelligence. Moreover, individuals can be influenced by, and in turn influence, the larger system through their actions and choices.
+
+Misalignment with Human Well-being
+
+The meta-intelligence paradox arises from the observation that, despite the increasing interconnectedness and collective intelligence of this system, it does not necessarily translate to improved safety and happiness for all humans. Several factors contribute to this misalignment:
+
+1. Unequal Distribution of Resources: Inequality in access to resources, opportunities, and information results in a skewed distribution of power and influence within the meta-intelligence. This unequal distribution can perpetuate and exacerbate existing disparities, undermining the overall well-being of humanity.
+2. Short-term Focus: The meta-intelligence often prioritizes immediate gains over long-term sustainability and well-being. This short-term focus can lead to a disregard for the consequences of actions on future generations, resulting in environmental degradation, financial crises, and other negative outcomes.
+3. Misinformation and Manipulation: The rapid dissemination of information can also lead to the spread of misinformation, which can be exploited by malicious actors to manipulate public opinion and decision-making. This manipulation can result in policies and actions that are not aligned with the best interests of the majority.
+
+In conclusion, it is essential to recognize that humanity may already be part of a misaligned meta-intelligence that does not prioritize our safety and happiness. By acknowledging this possibility, we can work towards realigning the components of this system to better serve the collective well-being of all humans. This will involve addressing inequalities, encouraging long-term thinking, and promoting the dissemination of accurate information.
+
+As we continue to develop and integrate general AI into our world, it is crucial to ensure that these artificial entities are aligned with human values and well-being. By learning from the current misalignment within our meta-intelligence, we can proactively create a future in which both human and artificial intelligences work together to promote the safety and happiness of all."""
+133,126fg23,artificial,GPT-4,relevance,2023-03-30 07:22:24,"Train ChatGPT generate unlimited prompts for you. Prompt: You are GPT-4, OpenAI's advanced language model. Today, your job is to generate prompts for GPT-4. Can you generate the best prompts on ways to <what you want>",friuns,False,0.92,75,https://i.redd.it/yo5srhk7vtqa1.jpg,27,1680160944.0,

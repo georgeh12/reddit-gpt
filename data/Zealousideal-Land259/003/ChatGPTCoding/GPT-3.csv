@@ -1,0 +1,2799 @@
+,id,subreddit,query,sort,date,title,author,stickied,upvote_ratio,score,url,num_comments,created,body
+0,zjn7ar,ChatGPTCoding,GPT-3,top,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,338,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+1,11wq2mq,ChatGPTCoding,GPT-3,top,2023-03-20 17:58:44,ChatGPT 3.5 turbo is still available if you have an API.,chili_ladder,False,0.92,43,https://www.reddit.com/r/ChatGPTCoding/comments/11wq2mq/chatgpt_35_turbo_is_still_available_if_you_have/,20,1679335124.0,"Plenty of extensions in VSCode that will take your API key and let you work when they are ""down"" with in the IDE. It costs me roughly 1 to 2 cents on days I use the API. Last month I spent a whopping 12 cents. I chose not to share this knowledge with the main chatgpt sub so it doesn't get patched."
+2,123uuc0,ChatGPTCoding,GPT-3,top,2023-03-27 17:57:40,I made a GPT-3.5 powered Discord bot in python.,moderndaymage,False,0.95,43,https://www.reddit.com/gallery/123uuc0,34,1679939860.0,
+3,121xyi6,ChatGPTCoding,GPT-3,top,2023-03-25 20:23:41,GPT_scraper: save all your chatgpt conversartion history!,Rodolflying,False,0.95,41,https://github.com/rodolflying/GPT_scraper,10,1679775821.0,"Dont waste your api credits! 🤖
+
+Using the backend hidden api from chat gpt, Maximize your ChatGPT experience scrap9kg your history with GPT_Scraper - the tool that makes scraping a breeze!
+
+This is the github repo:
+
+
+https://github.com/rodolflying/GPT_scraper
+
+Three Main tools:
+
+1) save all your chatgpt history using backend api from chatgpt website
+
+2) do the same but web scraping with selenium
+
+3) start and finish a new conversation and store it 
+
+4 min read
+
+#ChatGPT #NaturalLanguageProcessing #PythonProgramming #DataScraping #AItools"
+4,13gngb9,ChatGPTCoding,GPT-3,top,2023-05-13 17:27:06,Wanted to share an actual example,Dramatic-Mongoose-95,False,0.88,41,https://i.redd.it/bymi3ol3doza1.jpg,14,1683998826.0,"So I used GPT to make my AI generated podcast.
+
+I was so impressed at this one part, it actually wrote all of the code to stitch the final audio segments together, even with cross fading and stuff.
+
+I didn’t have to write any of that code.
+
+I saw some people earlier asking for tangible examples, so I thought I’d share.
+
+It’s like a really long screenshot from my phone.
+
+Here’s a link to the full repo if you want to see the final code!
+
+The next episode of the podcast will post on 5/19 - check it out!!
+
+I’ve got 8 stars so far on this repo, I feel like a celebrity, I’ve never had that many 🤓
+
+https://github.com/AdmTal/crowdcast"
+5,1330nf9,ChatGPTCoding,GPT-3,top,2023-04-29 16:48:17,Document generation with GPT4,ingigauti,False,0.88,34,https://www.reddit.com/r/ChatGPTCoding/comments/1330nf9/document_generation_with_gpt4/,4,1682786897.0,"I am a solo developer on a large project and I needed to start on the documentation, not my favorite. 
+
+But then came ChatGPT and saved the day. It does really well at writing documentation for code files. So after playing with it a bit, I wrote a client that reads your files and writes the documentation for it.
+
+I call it code-narrator, [https://github.com/ingig/code-narrator](https://github.com/ingig/code-narrator) (GPT-4 is preferred, 3.5 kind of sucks)
+
+It can also write How-To guides, Tutorials, FAQ and README files. 
+
+The documentation for the project can be found in the docs folder, [https://github.com/ingig/code-narrator/tree/master/docs](https://github.com/ingig/code-narrator/tree/master/docs)   
+
+
+An example of how a How-To, I need to prepare GPT for it with these lines  
+
+
+>install code-narrator, npm code-narrator -D  
+how to run, npx code-narrator  
+configuration is created on first run, make sure to read over it before generating documentation, documentation for configuration can be found at {{ docUrl }}  
+arguments are available on run
+
+and set the following config  
+
+
+>{  
+ type: ""howto"",  
+ name:""HowTo run CLI"",  
+ template: ""howto\_run\_cli"",  
+ args : {  
+ docUrl : ""https://github.com/ingig/code-narrator/blob/master/docs/Configuration/code-narrator.config.js.md""  
+ },  
+ files : \[  
+{  
+ path:""src/utils/CliHelper.ts"",  
+ extract: ""what arguments are available""  
+ }  
+\]  
+}
+
+And this is the How-To guide it generates  
+[https://github.com/ingig/code-narrator/blob/master/docs/howto/HowTo%20run%20CLI.md](https://github.com/ingig/code-narrator/blob/master/docs/howto/HowTo%20run%20CLI.md)
+
+I am really happy with the results and finally, ""I"" am writing documentation along with my code because I do not have to do much :)"
+6,11rmugm,ChatGPTCoding,GPT-3,top,2023-03-15 05:11:50,I used ChatGPT to write a script that will allow you to give relevant code context to ChatGPT,thelastpizzaslice,False,0.98,28,https://www.reddit.com/r/ChatGPTCoding/comments/11rmugm/i_used_chatgpt_to_write_a_script_that_will_allow/,3,1678857110.0,"This script create a text output of the dependency tree of a particular class file. This is useful for coding in ChatGPT because it will allow you to select a class file, a folder, and instantly grab all relevant code from that folder that is referenced either in that class file or a dependency. That way, ChatGPT knows what your code means when it makes local references.
+
+The script is a simple python script that:
+
+1. Takes in a file and folder.
+2. With the file, it searches for all files with the same extension in that folder.
+3. It digs through the text of the original file, and grabs all filenames mentioned inside of it. It then digs through the text of all of the files found this way and so on. This creates a dependency tree. It stops when the dependency tree stays the same between loops. This only works for programming languages where the class name matches the file name.
+4. Outputs the dependency chain sorted by proximity to the original file, and then by name.
+5. You can then remove irrelevant files from the list before approving.
+
+Here's a copy of the script in a gist:
+https://gist.github.com/redwraith2/0d2bfd69068df5d2947d020fe08f1966"
+7,10nb7kf,ChatGPTCoding,GPT-3,top,2023-01-28 09:36:40,"A python module to generate optimized prompts, Prompt-engineering & solve different NLP problems using GPT-n (GPT-3, ChatGPT) based models and return structured python object for easy parsing",StoicBatman,False,0.94,29,https://www.reddit.com/r/ChatGPTCoding/comments/10nb7kf/a_python_module_to_generate_optimized_prompts/,3,1674898600.0,"Hi folks,
+
+I was working on a personal experimental project related to GPT-3, which I thought of making it open source now. It saves much time while working with LLMs.
+
+If you are an industrial researcher or application developer, you probably have worked with GPT-3 apis. A common challenge when utilizing LLMs such as #GPT-3 and BLOOM is their tendency to produce uncontrollable & unstructured outputs, making it difficult to use them for various NLP tasks and applications.
+
+To address this, we developed **Promptify**, a library that allows for the use of LLMs to solve NLP problems, including Named Entity Recognition, Binary Classification, Multi-Label Classification, and Question-Answering and return a python object for easy parsing to construct additional applications on top of GPT-n based models.
+
+Features 🚀
+
+* 🧙‍♀️ NLP Tasks (NER, Binary Text Classification, Multi-Label Classification etc.) in 2 lines of code with no training data required
+* 🔨 Easily add one-shot, two-shot, or few-shot examples to the prompt
+* ✌ Output is always provided as a Python object (e.g. list, dictionary) for easy parsing and filtering
+* 💥 Custom examples and samples can be easily added to the prompt
+* 💰 Optimized prompts to reduce OpenAI token costs
+
+&#x200B;
+
+* GITHUB: [https://github.com/promptslab/Promptify](https://github.com/promptslab/Promptify)
+* Examples: [https://github.com/promptslab/Promptify/tree/main/examples](https://github.com/promptslab/Promptify/tree/main/examples)
+* For quick demo -> [Colab](https://colab.research.google.com/drive/16DUUV72oQPxaZdGMH9xH1WbHYu6Jqk9Q?usp=sharing)
+
+Try out and share your feedback. Thanks :)
+
+Join our discord for Prompt-Engineering, LLMs and other latest research discussions  
+[discord.gg/m88xfYMbK6](https://discord.gg/m88xfYMbK6)
+
+[NER Example](https://preview.redd.it/n95yyxfg3nea1.png?width=1236&format=png&auto=webp&s=d88847564ce8d08fc84bf4d037bd18f78d14bfbe)
+
+&#x200B;
+
+https://preview.redd.it/uig2c8gx3nea1.png?width=1398&format=png&auto=webp&s=4e999a7c288f6a5df58a55efa7364f1c0408b237"
+8,12rca1e,ChatGPTCoding,GPT-3,top,2023-04-19 01:40:30,Is ChatGPT Pro better for long codes?,etrader58,False,0.91,27,https://www.reddit.com/r/ChatGPTCoding/comments/12rca1e/is_chatgpt_pro_better_for_long_codes/,45,1681868430.0,"Since ChatGP response is limited by the number of tokens, long codes are interrupted. As I searched on the web and this subreddit, the only possible solution is to use commands to continue from the last response. In my experience, it rarely works. It generates the same code but independently. As a result, many variables have been changed, and the code does not work. I need to adjust the entire code, which sometimes takes more time than writing it from scratch.
+
+ChartGPT 3.5 perfectly satisfies my need, and my only problem is incomplete codes. Can I resolve this issue by upgrading to Pro (4.0), or the number of tokens is the same?
+
+Sorry for bringing up this common issue, but I am stuck with no solution."
+9,10ml9uq,ChatGPTCoding,GPT-3,top,2023-01-27 13:49:57,Asked ChatGPT to Explain a Regex,omar91041,False,1.0,26,https://www.reddit.com/r/ChatGPTCoding/comments/10ml9uq/asked_chatgpt_to_explain_a_regex/,2,1674827397.0," I wrote this regex on my own 3 weeks ago. This was 100% written by me. Then I asked ChatGPT out of curiosity what it matches, and it figured out that it matches a progress bar plus additional data, with a detailed explanation of what each sub-expression matches. Consider me mind-blown. 
+
+&#x200B;
+
+https://preview.redd.it/vjks7gbpblea1.png?width=860&format=png&auto=webp&s=3d4d241bc6c276fb1e5f5013365f814ef234ab06
+
+https://preview.redd.it/mkwe4ooqblea1.png?width=790&format=png&auto=webp&s=98a2a854f84514f0f15f46bf6c5d396067f17f3d
+
+Regex with examples here:
+
+&#x200B;
+
+https://preview.redd.it/3m653vrialea1.png?width=639&format=png&auto=webp&s=8b2d0b195bc4981fe50d53c4151f5eb5e1124b78"
+10,zxwgwc,ChatGPTCoding,GPT-3,top,2022-12-29 05:07:20,I added speech to text on ChatGPT,LAW_YT,False,1.0,26,https://www.reddit.com/r/ChatGPTCoding/comments/zxwgwc/i_added_speech_to_text_on_chatgpt/,4,1672290440.0,"Hey, I think I have found a more convenient way for you to use ChatGPT.. I made a script that allow you to speak your messages instead of typing them. (atm working on Google Chrome)
+
+Feel free to try it out, and give me some feedback.  
+
+
+&#x200B;
+
+https://i.redd.it/m2qgab9hsr8a1.gif
+
+**Installation guide:**
+
+1. Install [Tampermonkey](https://www.tampermonkey.net/) or a similar extension that allows you to run scripts on websites.
+2. Click on the Tampermonkey icon in your browser's navigation bar.
+3. Click on the option to ""**Add a new script**"".
+4. Paste the snippet code into the script editor. (copy it [**here**](https://raw.githubusercontent.com/LawOff/chatGPT-Snippets/main/plugins/speechToText.plugin.js)**)**
+5. Click on ""**Save**"" button or ""**Ctrl+S**"" to save your script.
+6. Make sure the script is enabled.
+
+Github repo: [https://github.com/LawOff/chatGPT-Snippets](https://github.com/LawOff/chatGPT-Snippets)"
+11,12pi8hb,ChatGPTCoding,GPT-3,top,2023-04-17 14:25:37,"I have seen that Autogpt is trending everywhere, so I have created this tool that helps you can run Autogpt on your browser",ANil1729,False,0.78,23,https://www.reddit.com/gallery/12pi8hb,21,1681741537.0,
+12,12ghl4l,ChatGPTCoding,GPT-3,top,2023-04-09 12:06:41,Has anyone here had success creating parseable JSON with GPT-3.5-Turbo?,marvinshkreli,False,0.96,25,https://www.reddit.com/r/ChatGPTCoding/comments/12ghl4l/has_anyone_here_had_success_creating_parseable/,32,1681042001.0,"I have been using the text-davinci-003 or 002 models to receive parseable JSON responses successfully. However, when I try to achieve the same with the gpt-3.5-turbo model, it always returns a response that includes a leading message before the JSON output. I'm new to using the chat-based model, so I'd appreciate any tips or guidance!"
+13,10f2heg,ChatGPTCoding,GPT-3,top,2023-01-18 08:44:42,any good youtubers or people on twitter to follow on using gpt. technical subjects and usage of improving code productivity at a senior dev level? doing a search on youtube returns back alot of useless crap,Neophyte-,False,0.91,24,https://www.reddit.com/r/ChatGPTCoding/comments/10f2heg/any_good_youtubers_or_people_on_twitter_to_follow/,5,1674031482.0,"basically title, im looking for quality content. about either of these subjects
+
+- gpt-3 models and programming them at the api level or advanced features in chatgpt
+- exploring code automation with the usage of gpt-3 or chatgpt for  non beginner coders
+- generally interesting content of whats coming up in AI, exploring the subject 
+
+since chatgpt has exploded so have the amount of youtube videos trying to monetise it with junk content e.g. make 1k a day with some chatgpt.
+
+wondering if you have some good people to follow on youtube or twitter. its so hard to find decent content"
+14,zo19f1,ChatGPTCoding,GPT-3,top,2022-12-17 07:50:09,this has been really helpful as a solo game dev in unity,Orlandogameschool,False,0.93,24,https://www.reddit.com/gallery/zo19f1,1,1671263409.0,
+15,135p6re,ChatGPTCoding,GPT-3,top,2023-05-02 15:18:17,Could fine-tuned Llama compete with GPT-4 for code gen?,funbike,False,0.93,21,https://www.reddit.com/r/ChatGPTCoding/comments/135p6re/could_finetuned_llama_compete_with_gpt4_for_code/,8,1683040697.0,"If I locally trained an LLM on my specific project, could I get similar code generation quality as GPT-4?
+
+I could train llama additionally with stackoverflow, our 600KLOC source code, our 50K+ git commit history, our 10K+ PR + JIRA history, our documentation, and similar training from our dependencies.
+
+I've played with HuggingChat based on llama. It's good but not as good as GOT 3.5 or 4.  I am hopeful additional highly specific training would bridge the gap.
+
+I ask because I don't want to waste time researching if it's not practical.
+
+What do you think?"
+16,11esl2c,ChatGPTCoding,GPT-3,top,2023-03-01 03:11:45,Asking Chat GPT the best format to receive prompts for assistant with coding,50thycal,False,0.91,17,https://www.reddit.com/r/ChatGPTCoding/comments/11esl2c/asking_chat_gpt_the_best_format_to_receive/,1,1677640305.0,"Hey Everyone,
+
+Just wanted to share this snip from a conversation I had with Chat GPT and see if anyone else thinks this topic of understand how to give Chat GPT the best input for coding assistant is a worth wild thing to explore. Let me know your thoughts in the comments!
+
+&#x200B;
+
+\[ME\]: Okay thanks for the information. So i want to test how good my input for providing context. If i provide you some same inputs, can you rate how good each input is on providing you context and provide detail suggestions on how to improve each test?
+
+\[Chat GPT\]: Sure, I'd be happy to help you with that! Please provide me with the inputs you want me to evaluate and I will do my best to rate how good each input is on providing context and provide suggestions on how to improve each one.
+
+\[ME\]: Okay, Here is the first test. Please rate and provide feedback on how good the context of my input is:  Description: I want a python code that will analyze a set of words in a CSV file and will perform computations on the set  Inputs: CSV file Computations: Total Word Count Top 10 words that occur in the set Top 10 words that occur least in the set Longest word 
+
+\[Chat GPT\]:Here's my assessment of the context you provided:
+
+Overall, your input provides a good level of context. You clearly state that you need a Python code that will analyze a set of words in a CSV file and perform computations on it, and you specify the computations that you want to perform (total word count, top 10 words that occur in the set, top 10 words that occur least in the set, and longest word).
+
+However, there are a few areas where you could provide additional context to make your request more specific and actionable:
+
+1. Clarify the format of the CSV file: It would be helpful to know the structure and format of the CSV file, such as the number and names of columns, the delimiter used to separate values, and any headers or metadata that are present.
+2. Specify the criteria for determining the ""top"" and ""least"" occurring words: It would be helpful to know the criteria you are using to determine the top and least occurring words. For example, are you looking for the words with the highest and lowest frequency counts, or are you considering other factors like length or alphabetical order?
+3. Clarify the expected output format: It would be helpful to know the expected format of the output. For example, do you need the results printed to the console or saved to a file? Do you need the output sorted in a particular order?
+
+By providing this additional context, you can help ensure that the code I provide is tailored to your specific needs and requirements."
+17,121k506,ChatGPTCoding,GPT-3,top,2023-03-25 12:17:08,Reproducing Microsoft Co-pilot: Creating an app with Chat GPT to create PPT presentations?,conlake,False,0.9,15,https://www.reddit.com/r/ChatGPTCoding/comments/121k506/reproducing_microsoft_copilot_creating_an_app/,8,1679746628.0,"I'm building an app, so I'm looking for more technical answers than just memes hehe.
+
+To the point, I'm really curious about how did manage Microsoft create the workflow to create PPT presentations with GPT? Because the API just allows text prompts and returns text. I don't see how the API could make a PPT presentation ([the link for those you don't know Co-Pilot](https://www.youtube.com/watch?v=S7xTBa93TX8))
+
+Did they ask GPT for the text through the API and they have a very-complicated code that takes the text returned from the API and creates the PowerPoint presentation? I don't think so. I think the API returned the power point already done. But how? How could we implement something like this by adapting GPT?
+
+For example: Give a text prompt (can we give anything else than a text prompt, currently?) to GPT, and then GPT returns a 3-page manga comic. Or maybe give a text prompt and GPT returns the full structure of a website application like files and scripts organized in one folder (The current articles around the internet that claim that ""GPT built an app"" is GPT returning pieces of scripts and the human collecting them and structuring them).
+
+Any ideas, git hub, or youtube videos about how this kind of implementation would be possible with GPT API?"
+18,11fk1fu,ChatGPTCoding,GPT-3,top,2023-03-01 22:19:54,How to update py script to access ChatGPT API? I'm already successfully making API calls to the text-davinci-003 engine.,AdamAlexanderRies,False,1.0,15,https://www.reddit.com/r/ChatGPTCoding/comments/11fk1fu/how_to_update_py_script_to_access_chatgpt_api_im/,2,1677709194.0,"# Edit
+
+Fixed! Problem stemmed from broken dependencies from old software.
+
+https://platform.openai.com/docs/guides/chat/introduction
+
+(py 3.6, win 7, openai 0.8.0) -> (py 3.8, win 7, openai 0.27.0)
+
+Barebones template that works with 2023-03-01 update and saves conversation history:
+
+    import openai
+
+    preprompt = input(""Preprompt: "") or ""Be helpful.""
+    history = [{""role"": ""system"", ""content"": preprompt}]
+    engine = ""gpt-3.5-turbo""
+
+    while True:
+        in_content = input(""> "")
+        history.append({""role"": ""user"", ""content"": in_content})
+        
+        response = openai.ChatCompletion.create(
+            model = engine,
+            messages = history
+        )
+
+        out_content = response[""choices""][0][""message""][""content""]
+        print(out_content)
+        history.append({""role"": ""assistant"", ""content"": out_content})
+
+# Original
+
+This news today: https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+
+The following code works.
+
+openai_template.py: 
+
+    import openai
+    import os
+
+    openai.api_key = os.getenv('OPENAI_API_KEY')
+
+    eng = 'text-davinci-003'
+    m_t = 999 #max tokens
+    p_p = 0.3 #presence penalty
+    f_p = 0.3 #frequency penalty
+    temp= 0.7 #temperature
+    t_p = 0.7 #top probability
+
+    while True:
+        p = input(""Prompt: "")
+        response = openai.Completion.create(engine=eng,prompt=p,max_tokens=m_t,presence_penalty=p_p,frequency_penalty=f_p,temperature=temp,top_p=t_p)
+        print(response[""choices""][0][""text""])
+
+https://platform.openai.com/docs/models/gpt-3-5
+
+If i replace eng = 'text-davinci-003' with 'gpt-3.5-turbo' i get this error:
+
+> openai.error.InvalidRequestError: This is a chat model and not supported in the v1/completions endpoint. Did you mean to use v1/chat/completions?
+
+Any ideas? ChatGPT isn't helping me troubleshoot this one. Thank you :)"
+19,11fyrsw,ChatGPTCoding,GPT-3,top,2023-03-02 09:46:07,Summarizing documents longer than 4096 tokens,turtur,False,1.0,14,https://www.reddit.com/r/ChatGPTCoding/comments/11fyrsw/summarizing_documents_longer_than_4096_tokens/,6,1677750367.0,"With release of the gpt-3.5-turbo model and the reduced pricing, I am wondering if it's feasible to use it to summarize texts that are longer than 4096 tokens. Anyone has tried that, perhaps splitting the text and sending two separate prompts that are later merged?"
+20,12jpt2w,ChatGPTCoding,GPT-3,top,2023-04-12 15:31:25,Seeking advice on my tool that's similar to Auto GPT,funbike,False,0.82,15,https://www.reddit.com/r/ChatGPTCoding/comments/12jpt2w/seeking_advice_on_my_tool_thats_similar_to_auto/,0,1681313485.0,"I've taken a close look at the various automated experimental tools such as Baby AGI and Auto-GPT.  I've written something similar but rather than do all of the logic in Python or use something that goes off on its own without much control, I'm instead using English prompts as the primary logic language and it controls the workflow through a series of prompts that are fed the output of prior prompts and use a shared state.  My design focuses specifically on coding tasks.
+
+In a nutshell, I maintain state in a Yaml file.   I inject the yaml file (and bash command output from the previous task) at the top of a prompt and then the prompt instructs GPT what changes to make to the Yaml state file and various shell commands to run.   The output is a revised yaml file, list of shell commands, and a diff to change other files.  The shell output and current state file are fed into the next prompt(s).
+I use Yaml rather than json due to lower token count and better readability, especially with large text.
+
+This results in a tiny kernel of only a few hundred lines of code.  Here's what it does:
+
+1. Recursively search for `state.yaml` files to process
+1. Get prompt file name from ""prompt-file-names"" array attribute of `state.yaml`.  File extension contains model name.  (This was probably set by the previous prompt.)
+1. Prefix `state.yaml` and `console.log` files to the prompts.
+1. Send each prompt to OpenAI's chat API and get result (yaml, bash, diff).
+1. Write yaml code block in the output to `state.yaml`
+1. Run bash code block to `console.log` (`bash -xeu &> console.log`)
+1. Run `patch` on the output diff code block, if any.
+1. `git commit -a -m <prompt-file-name>`
+1. Repeat
+
+Pros:
+
+* Processing logic is described in English.  Complex things are possible with little effort.
+* More control over the workflow
+* Simple core design
+
+Cons:
+
+* Relying on GPT for logic may make it less reliable
+* Less automatic, although you could easily write prompts that are with this design
+* Higher cost and slower, due to relying on GPT to do the work
+
+Types of prompts that can be written, although advanced ones might be clunky:
+
+* Break into multiple tasks
+* Prioritize tasks
+* Categorization routing, such as asking a question and routing you to the correct prompt.
+* Multiple phases of development: requirements, write UAT, code, review
+* Multiple steps per phase: refine prompt, review prompt, validate/test, review output
+* On test failure, go through set of steps to diagnose and fix
+* Fork state (must invoke self via CLI)
+* GPT-4 evaluation of GPT-3 generated output
+* Various things with command line tools
+    * Fetch issues from Github to create new objectives.
+    * Web search via Google, Duck-duck-go, Stack overflow
+    * Global search for fixed bugs in Github issues
+    * Desktop notification
+* Stop processing, so a manual code review can happen
+
+Future considerations:
+
+* Perhaps rename `state.yaml` to `objective.yaml`, and/or break it into multiple files: project, objective(s), state(s)
+* Supply only a subset of `state.yaml` as needed by various prompts, and/or use a template language that can query (e.g. `The database tables are ${state.project.database.tables}.`).  Would require a delta format for updating.
+* Integrate with langchains
+* Better error handling
+
+I'd appreciate feedback on my design.  Once I get a POC working, I'll put it on GitHub.
+
+The rest of this post is a contrived example prompt.  I use better prompts than this, IRL.
+
+----
+
+The following code blocks are the current state and previous bash console output:
+
+    ```yaml
+    - objective: Generate a feature to add a contact
+    - prompt-file-names: [prompts/run-read-requests.gpt-3.5-micro.md]
+    - project
+      - directories: [src/components, src/pages, src/lib, test]
+        files-of-interest:
+        - package.json: |-
+          {}
+        tables: [contacts]
+        tables-of-interest:
+          CREATE TABLE contacts (
+            id SERIAL PRIMARY KEY, first_name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT NOT NULL
+          );
+    - read requests:
+      - request: Find all possible uses of contact
+        type: bash-command
+        command-line: rg contact -l
+        status: incomplete
+        file-list: []
+    - write actions:
+      - action: Add xyz package
+        type: bash-command
+        status: incomplete
+        command-line: npm install xyz
+    ```
+
+    ```console
+    + rg contact -l
+    src/repo/contact.js
+    src/service/contact.js
+    src/components/contact.vue
+    ```
+
+Generate an updated state yaml code block given the following instruction bullets:
+
+* Update the status of read requests based on the console output.
+* Set prompt file names to '[prompts/process-action-errors.gpt-4.md]'
+
+Generate a bash code block with write actions command line commands."
+21,11h47qj,ChatGPTCoding,GPT-3,top,2023-03-03 15:59:19,How to use the new official ChatGPT API (gpt-3.5-turbo) in two lines of code,Excelly-AI,False,0.81,13,https://www.reddit.com/r/ChatGPTCoding/comments/11h47qj/how_to_use_the_new_official_chatgpt_api/,6,1677859159.0,"This is basically it: [https://imgur.com/a/cw6TZl5](https://imgur.com/a/cw6TZl5)
+
+&#x200B;
+
+Don't forget pip install --upgrade openai :)"
+22,127p6k9,ChatGPTCoding,GPT-3,top,2023-03-31 15:33:14,Are there any API services for GPT-4?,funbike,False,0.9,14,https://www.reddit.com/r/ChatGPTCoding/comments/127p6k9/are_there_any_api_services_for_gpt4/,19,1680276794.0,"tl;dr: Are there any commercial API proxy services that that would allow me to use the Chat API with the GPT-4 model?  I'm on OpenAI's GPT-4 wait list.
+
+I've been writing development tools that use the chat API with gpt-3.5-turbo.  I'm feeling encumbered by not having access to the newer model.  My tools fail to delivery acceptable results, mostly due to the model, which is making it harder for me to progress.
+
+I occasionally use Chat GPT Pro with GPT-4 model to manually test how my code would work with the more capable model, but I find it a cumbersome way to develop and test my work.  My code exports user prompts that I manually copy-paste into Chat GPT-4 and I compare its responses to what gpt-3.5-turbo generated.
+
+There's an unofficial API that uses browser automation, but I'm afraid of getting banned, as I think that's against the ToS."
+23,13hke7e,ChatGPTCoding,GPT-3,top,2023-05-14 19:04:38,Using ChatGPT to build a database from web scraping?,CrispApfelStrudel,False,0.85,13,https://www.reddit.com/r/ChatGPTCoding/comments/13hke7e/using_chatgpt_to_build_a_database_from_web/,17,1684091078.0,"**TLDR; my question is this:**
+
+**How can I pass the (very long) source code of this webpage** [https://www.bankofengland.co.uk/news](https://www.bankofengland.co.uk/news)   **in Chrome to ChatGPT?**  
+**The following is some context for the question in case I'm going about it all wrong.**
+
+Some context: I'm building a database from web scraping using ChatGPT, for some finance research. I want to scrape some 70 research blogs from the website of the bank of england: [https://www.bankofengland.co.uk/news](https://www.bankofengland.co.uk/news) (filter by ""Research Blog""). It's 3 pages of results
+
+I need it to go over the list of blogs, open each [one](https://www.bankofengland.co.uk/bank-overground/2022/how-will-rising-prices-and-interest-rates-affect-companies-ability-to-service-their-debt), and label each unit according to the published date, and title. I only want the main text on each webpage.
+
+Since I'm using python, I know I need to use the Selenium package.
+
+ChatGPT seems to be giving me a good enough code, however, the issue is that it gives me a code that works for the pre-2021 version of the website. So I think I need to get it to read the source code of the aforementioned html page to get a good idea of what to recommend me.
+
+**Question**:
+
+**How can I pass the (very long) source code in Chrome to ChatGPT?**
+
+Been trying to do it with the below tutorial, but I'm stumbling at the creation of a Javascript file. When I copy this code to an Eclipse IDE .js file, I'm getting errors. When I'm writing this code in a notepad and saving it as a .js file, then running it with Node.js, it's not working either. I'm completely out of my depth when it comes to Javascript.
+
+[https://medium.com/@ianscott313/how-to-read-a-website-with-chatgpt-using-web-to-text-f6487010a90b](https://medium.com/@ianscott313/how-to-read-a-website-with-chatgpt-using-web-to-text-f6487010a90b)"
+24,122cb2a,ChatGPTCoding,GPT-3,top,2023-03-26 05:35:34,Does GPT-4's image input syntax exist in the OpenAI documentation yet?,AdamAlexanderRies,False,0.93,13,https://www.reddit.com/r/ChatGPTCoding/comments/122cb2a/does_gpt4s_image_input_syntax_exist_in_the_openai/,5,1679808934.0,"https://platform.openai.com/docs/guides/chat/introduction
+
+https://platform.openai.com/docs/api-reference/chat/create
+
+These two pages don't seem to specify image input syntax, although the former has been updated to at least include the name of the gpt-4 model.
+
+> Using the OpenAI Chat API, you can build your own applications with gpt-3.5-turbo and **gpt-4** to do things like:
+
+> ...
+
+---
+
+> [Image inputs are still a research preview and not publicly available.](https://openai.com/research/gpt-4)
+
+Does this mean image inputs are unavailable through the API? I do understand that chat.openai.com does not have image input.
+
+Thank you."
+25,13fgb3m,ChatGPTCoding,GPT-3,top,2023-05-12 09:44:53,How and what are technologies to automate asking a long list of questions in ChatGPT?,lelouch-2022,False,0.93,12,https://i.redd.it/mkr0aas1gdza1.png,10,1683884693.0,
+26,12e3732,ChatGPTCoding,GPT-3,top,2023-04-07 00:16:56,"Open-source desktop GPT interface (py, tkinter)",AdamAlexanderRies,False,0.88,12,https://www.reddit.com/r/ChatGPTCoding/comments/12e3732/opensource_desktop_gpt_interface_py_tkinter/,5,1680826616.0,"[GitHub repository (ries-gpt-ui)](https://github.com/RealityAnchor/ries-gpt-ui)
+
+I started coding it collaboratively with ChatGPT on chat.openai.com, but now I plug it into itself, which feels mildly magical.
+
+Good features:
+
+- conversation history search
+
+- keyboard navigation
+
+- preprompt selection
+
+- output appears all at once
+
+It only works with `gpt-3.5-turbo` model for now (no plugins or image input), and you'll need [an API key](https://platform.openai.com/account/api-keys), but within its limited scope it's buttery-smooth and (seemingly) bug-free. See my [todo.txt](https://github.com/RealityAnchor/ries-gpt-ui/blob/main/todo.txt) for features/improvements which are on my radar. This is the first serious project I've ever pushed to GitHub, so all suggestions are very welcome. I am broke, unemployed, and uncommitted, so please ask me for a resume if you're hiring junior software developers."
+27,132suwz,ChatGPTCoding,GPT-3,top,2023-04-29 13:24:43,"How to best re-train ChatGPT with contents from a public website, even go systematically go through a whole sitemap?",gpt-partners,False,0.73,10,https://www.reddit.com/r/ChatGPTCoding/comments/132suwz/how_to_best_retrain_chatgpt_with_contents_from_a/,19,1682774683.0,"What I have achieved so far ...
+
+    import requests
+    from bs4 import BeautifulSoup
+    
+    sitemap_url = 'https://somesite.com/sitemap.xml'
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+    sitemap_content = requests.get(sitemap_url, headers=headers).content
+    soup = BeautifulSoup(sitemap_content, 'xml')
+    urls = [loc.text for loc in soup.find_all('loc')]
+    url = urls[0]
+    response = requests.get(url, headers=headers)
+    content = response.content
+    soup = BeautifulSoup(content, 'html.parser')
+    text_content = soup.get_text()
+
+Now I want to train ChatGPT with the contents of it. Is there anything ready-made?"
+28,127yh2r,ChatGPTCoding,GPT-3,top,2023-03-31 20:39:34,My takeaways from creating a toy code example with chatgrpt plus,anki_steve,False,0.81,10,https://www.reddit.com/r/ChatGPTCoding/comments/127yh2r/my_takeaways_from_creating_a_toy_code_example/,4,1680295174.0,"I experimented with chatgpt to help determine its strengths and weaknesses as a coding assistant and created [some simple web-based animations](https://climatechangechat.com/squares.html) using javascript, not an area I'm not particularly experienced with. Here's some of what I learned from the process:
+
+1. Write the code in small chunks.
+
+Don't try to do too much in one prompt. For the program above, I told it to write a blank web page. Then I told it to create an object for the window. Then I told it to create a class for squares. Then I told it to create a method for creating a random square, etc.
+
+If you don't do this, you will end up with spaghetti code.
+
+2) Tell chatgpt how to architect the program.
+
+It's helpful to spell out how you want the code structured. Tell it where you want a class and where you want to place methods. Like with #1, this also helps avoid creating disorganized spaghetti code.
+
+3) Don't overestimate chatgpt's abilities.
+
+I told chatgpt to make the squares bounce off each other in a realistic manner. I spent a couple of hours trying over and over to get this to work in a way that wasn't buggy. It finally dawned on me that chatgpt may be using math more suitable for round objects bouncing off each other not squares. As soon as I told it to explicitly to ensure the bounce algorithm was for squares, it got it right and the bounce effect was almost flawless.
+
+4) If you are repeatedly telling chatgpt to do something to get something right, that's a sign you aren't coaching chatgpt very well or there is some kind of fundamental flaw with your approach.
+
+Chatgpt frequently makes dumb mistakes. If something isn't working, you can often fix it by telling chapgpt about the mistake and it will fix it in one or two or sometimes three tries. Any more than that and it's a sign you need to backtrack and rethink how your code is architected.
+
+5) It's definitely a lot less frustrating to code with chatgpt.
+
+Not being a particularly talented math or physics guy, I would have had to tear my hair out trying to get the squares to bounce off each other in any kind of realistic manner. And there's a good chance I would have given up on the project after a few hours. But I was able to get the job done pretty well with chatgpt without even really understanding how the code worked.
+
+6) Use chatgpt to ask big picture questions, not just code.
+
+Instead of asking it to write code all the time, it's very useful to ask it bigger picture stuff to help you learn and find new ways of tackling a probelm. I knew next to nothing about how to detect collisions with animated objects. So I asked it to tell me about different strategies to detect collisions in animations and this helped me figure out better ways to structure the code to avoid bugs like the squares becoming entangled.
+
+7) You can easily paint yourself into a corner with chatgpt
+
+It's really easy to let chatgpt write the code for you and then move on without understanding it (see #5 above). This is a trap because it then becomes impossible to debug subtle bugs in the code even with chatgpt's help. Therefore, it's important to take the time to study the code chatgpt generates so you can fix any subtle bugs that crop up.
+
+8) Amateurs will never be able to use ChatGPT for anything other than the simplest of programs.
+
+At least for now, chatgpt is really only useful to those who already know how to code. Giving a nail gun to an amateur doesn't make them a carpenter who can frame a house. While chatgpt is great at writing simple functions and scripts, it's ability to structure large amounts of code into something that is maintainable is just about non-existent."
+29,12shq36,ChatGPTCoding,GPT-3,top,2023-04-20 01:43:16,Optimizing ChatGPT API for coding,etrader58,False,0.92,10,https://www.reddit.com/r/ChatGPTCoding/comments/12shq36/optimizing_chatgpt_api_for_coding/,7,1681954996.0,"I use ChatGPT to get basic functions (mostly math-based) instead of writing them from scratch. However, I frequently encounter the token limit leaving me with incomplete codes. I tried to use the API to have a 4K token limit.
+
+`curl https://api.openai.com/v1/chat/completions \`  
+ `-H 'Content-Type: application/json' \`  
+ `-H ""Authorization: Bearer API_CODE"" \`  
+ `-d '{`  
+  `""model"": ""gpt-3.5-turbo"",`  
+  `""messages"": [{""role"": ""user"", ""content"": ""wWrite an example C code to perform Catmull-Rom Curve Fitting""}],`  
+  `""max_tokens"": 4000,`  
+  `""temperature"": 0.5`  
+`}'`
+
+I wonder if I can optimize the request to get a better response.
+
+In my experience, the response of the API (which is similar to Playground) is worst than the main ChatGP. For instance, I always get a code for questions like that one, but the API responds:
+
+    Unfortunately, as an AI language model, I cannot provide an example C code for Catmull-Rom Curve Fitting as it requires a detailed understanding of the algorithm and its implementation. However, I suggest you search online for resources and tutorials on Catmull-Rom Curve Fitting in C, which will provide you with the necessary information and code examples.
+
+I hope to improve the response by adjusting the request parameters."
+30,zjn7ar,ChatGPTCoding,GPT-3,comments,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,337,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+31,135kcuw,ChatGPTCoding,GPT-3,comments,2023-05-02 12:51:46,Will ChatGPT replace programmers?,ANil1729,False,0.59,5,https://www.reddit.com/r/ChatGPTCoding/comments/135kcuw/will_chatgpt_replace_programmers/,58,1683031906.0," 
+
+Hey there,
+
+Never, chatgpt never replace programmers but chatgpt can support in programming through basic coding, loops, and fixing coding errors.
+
+Here is the answer to How chatgpt helps programmers for programming.
+
+ChatGPT, and other similar AI technologies, have the potential to impact the field of programming greatly, but it is unlikely that they will completely replace programmers. Here are a few reasons why: Absolutely! ChatGPT can be a valuable tool for programmers in various ways. Let's explore how ChatGPT can assist programmers in their programming tasks and provide them with additional enthusiasm.
+
+&#x200B;
+
+https://preview.redd.it/6n4lyr080fxa1.png?width=602&format=png&auto=webp&s=3f39392b6a5b6c1761d904406d362c89fbb7201b
+
+1. **Code Generation**: ChatGPT can generate code snippets or entire blocks of code based on the programmer's input or requirements. For example, a programmer can describe a specific task or algorithm to ChatGPT, and it can provide relevant code snippets in different programming languages. This can save time and effort for programmers, especially when they need quick references or examples to implement specific functionalities.
+2. **Debugging Assistance**: ChatGPT can help programmers in debugging their code. A programmer can describe the issue or error they are facing, and ChatGPT can provide suggestions and solutions to resolve the problem. ChatGPT can analyze the code and identify potential issues, such as syntax errors, logic errors, or common coding mistakes, and provide guidance on how to fix them. This can help programmers in troubleshooting their code more effectively and improve their productivity.
+3. **Learning and Education**: ChatGPT can serve as a learning resource for programmers. It can provide explanations, tutorials, and examples on various programming concepts, algorithms, data structures, and best practices. ChatGPT can also help programmers to understand complex topics in a more accessible and simplified manner, making learning more enjoyable and engaging.
+4. **Project Planning and Management**: ChatGPT can help programmers with project planning and management tasks. It can provide suggestions and recommendations on project structure, code organization, version control, and other software development best practices. It can also help programmers in managing their tasks, deadlines, and milestones by providing reminders and scheduling assistance. This can help programmers in staying organized, meeting deadlines, and delivering high-quality projects.
+5. **Collaboration and Brainstorming**: ChatGPT can facilitate collaboration among programmers by providing a platform for brainstorming and idea generation. It can help programmers in discussing and refining their ideas, providing feedback, and collaborating on code or documentation. ChatGPT can also help in fostering a creative and collaborative environment, enhancing team dynamics, and promoting innovation in programming projects.
+
+&#x200B;
+
+https://preview.redd.it/3ntjbho90fxa1.png?width=602&format=png&auto=webp&s=a8ffffacef47a97c5ef15790d1b4b4df3568ae78
+
+Here is the list of products that which is based on chatgpt
+
+* [**MyGPT** ](https://mygpt.thesamur.ai/)— This is one of the best products that I have used. Even after chatgpt is its highest capacity these products work a lot. MyGPT using ChatGPT API and provide same results as chatgpt provides. MyGPT is just a front-end UI of Chatgpt API, that help you get very responsive output even at the time of chatgpt is on its capacity. You can also see the short prompt.
+* [**Memejourney** ](http://memejourney.thesamur.ai/)— ChatGPT for memes: Turn text into meme generation using ChatGPT, a midjourney for memes. Create memes by using memejournney.
+* [**Heybot** ](https://heybot.thesamur.ai/)— Website to Chatbot powered by ChatGPT. Convert your website/blog into a chatbot in minutes without any coding.
+* [**Ritebot**](https://ritebot.thesamur.ai/) **—** AI-powered Paraphraser, Grammar checker, Summariser, and Translator built on top of ChatGPT.
+
+In conclusion, ChatGPT can be a valuable assistant for programmers, providing them with code generation, debugging assistance, learning and education, project planning and management, and collaboration and brainstorming support. Its ability to generate detailed and enthusiastic answers can inspire programmers and add a sense of enthusiasm in their programming tasks, making the overall experience more enjoyable and productive.
+
+[**AutoGPT**](https://github.com/Significant-Gravitas/Auto-GPT)
+
+AutoGPT's capabilities in combining GPT-3.5 and GPT-4 via API and its ability to autonomously iterate on prompts and improve based on feedback open up a wide range of possibilities for its implementation in different use cases. From content generation to software development, recipe creation to task automation, and research assistance to summarization, AutoGPT can be a powerful tool for autonomously performing tasks, continuously improving its output, and showcasing true AGI capabilities."
+32,12rca1e,ChatGPTCoding,GPT-3,comments,2023-04-19 01:40:30,Is ChatGPT Pro better for long codes?,etrader58,False,0.91,27,https://www.reddit.com/r/ChatGPTCoding/comments/12rca1e/is_chatgpt_pro_better_for_long_codes/,45,1681868430.0,"Since ChatGP response is limited by the number of tokens, long codes are interrupted. As I searched on the web and this subreddit, the only possible solution is to use commands to continue from the last response. In my experience, it rarely works. It generates the same code but independently. As a result, many variables have been changed, and the code does not work. I need to adjust the entire code, which sometimes takes more time than writing it from scratch.
+
+ChartGPT 3.5 perfectly satisfies my need, and my only problem is incomplete codes. Can I resolve this issue by upgrading to Pro (4.0), or the number of tokens is the same?
+
+Sorry for bringing up this common issue, but I am stuck with no solution."
+33,123uuc0,ChatGPTCoding,GPT-3,comments,2023-03-27 17:57:40,I made a GPT-3.5 powered Discord bot in python.,moderndaymage,False,0.94,42,https://www.reddit.com/gallery/123uuc0,34,1679939860.0,
+34,12ghl4l,ChatGPTCoding,GPT-3,comments,2023-04-09 12:06:41,Has anyone here had success creating parseable JSON with GPT-3.5-Turbo?,marvinshkreli,False,0.94,24,https://www.reddit.com/r/ChatGPTCoding/comments/12ghl4l/has_anyone_here_had_success_creating_parseable/,32,1681042001.0,"I have been using the text-davinci-003 or 002 models to receive parseable JSON responses successfully. However, when I try to achieve the same with the gpt-3.5-turbo model, it always returns a response that includes a leading message before the JSON output. I'm new to using the chat-based model, so I'd appreciate any tips or guidance!"
+35,134ztdc,ChatGPTCoding,GPT-3,comments,2023-05-01 20:09:17,I want to use chatGPT to parse a users intent but I can not get it to return json without text,Gasp0de,False,1.0,7,https://www.reddit.com/r/ChatGPTCoding/comments/134ztdc/i_want_to_use_chatgpt_to_parse_a_users_intent_but/,24,1682971757.0,"I am trying to use chatGPT as a chatbot for my shared flat groupchat. I want to use it to parse messages as follows:
+
+        response = openai.ChatCompletion.create(
+            model=""gpt-3.5-turbo"",
+            messages=[
+                {""role"": ""system"", ""content"": 'You are a assistant that parses the intent of a text into JSON of the form {""cleaningtask"": boolean, ""shoppinglist"":[{""action"":""add""|""remove""|""list""|""clear"", ""items"": [""string""]}]. Do not return anything but a valid JSON object of this form.'},
+                {""role"": ""user"", ""content"": message}
+            ]
+        )
+
+I got it to work perfectly fine a few times but now I always get text in the answer, along the lines of ""Sure, here's your JSON: "". How can I prevent this? Is there a better way than using chatCompletion?
+
+Edit:
+I ended up combining two tips from here. One, I appended ""ONLY JSON. NO DISCUSSION."" To the end of my system prompt. Second, I added a few userprompts and the corresponding assistant replies as examples, covering every possibility (add,remove,clear,list). It now works perfectly."
+36,12pi8hb,ChatGPTCoding,GPT-3,comments,2023-04-17 14:25:37,"I have seen that Autogpt is trending everywhere, so I have created this tool that helps you can run Autogpt on your browser",ANil1729,False,0.81,25,https://www.reddit.com/gallery/12pi8hb,21,1681741537.0,
+37,11wq2mq,ChatGPTCoding,GPT-3,comments,2023-03-20 17:58:44,ChatGPT 3.5 turbo is still available if you have an API.,chili_ladder,False,0.93,47,https://www.reddit.com/r/ChatGPTCoding/comments/11wq2mq/chatgpt_35_turbo_is_still_available_if_you_have/,20,1679335124.0,"Plenty of extensions in VSCode that will take your API key and let you work when they are ""down"" with in the IDE. It costs me roughly 1 to 2 cents on days I use the API. Last month I spent a whopping 12 cents. I chose not to share this knowledge with the main chatgpt sub so it doesn't get patched."
+38,132suwz,ChatGPTCoding,GPT-3,comments,2023-04-29 13:24:43,"How to best re-train ChatGPT with contents from a public website, even go systematically go through a whole sitemap?",gpt-partners,False,0.76,11,https://www.reddit.com/r/ChatGPTCoding/comments/132suwz/how_to_best_retrain_chatgpt_with_contents_from_a/,19,1682774683.0,"What I have achieved so far ...
+
+    import requests
+    from bs4 import BeautifulSoup
+    
+    sitemap_url = 'https://somesite.com/sitemap.xml'
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+    sitemap_content = requests.get(sitemap_url, headers=headers).content
+    soup = BeautifulSoup(sitemap_content, 'xml')
+    urls = [loc.text for loc in soup.find_all('loc')]
+    url = urls[0]
+    response = requests.get(url, headers=headers)
+    content = response.content
+    soup = BeautifulSoup(content, 'html.parser')
+    text_content = soup.get_text()
+
+Now I want to train ChatGPT with the contents of it. Is there anything ready-made?"
+39,12mnety,ChatGPTCoding,GPT-3,comments,2023-04-15 02:52:42,Does anyone else feel guilty asking ChatGPT for repeated modifications?,brett1231,False,0.46,0,https://www.reddit.com/r/ChatGPTCoding/comments/12mnety/does_anyone_else_feel_guilty_asking_chatgpt_for/,19,1681527162.0,"Does anyone else ever feel guilty asking ChatGPT for repeated modifications? I'm using ChatGPT as the programmer to my systems analysis role. Having been on the programming side, I can't help but start to feel bad asking for the fourth or fifth change. I find myself getting sheepish and even telling ChatGPT that I'm sorry. Weird I know but I even ask Chat how it's going at the beginning of a chat session. Compulsive behavior.
+
+Anyway, this is a text-based javascript golf game that ChatGPT and I put together in about five hours so far.  I estimate 80 percent of the credit goes to ChatGPT. ChatGPT even came up with the name. 
+
+I don't know that I ever would have figured out the code for the swing meter that Chat spit out in five seconds.  Very cool technique. Feel free to look at/borrow the code. 
+
+I'm still messing around with the game but I think it plays pretty well. I'm going to add a few display ads but doubt it will generate meaningful revenue.
+
+User guide written by ChatGPT.
+
+-----------------------
+
+Welcome to Green Glory Golf, where your digital golf skills are put to the test. 
+
+The Basics: Aim to hit the ball as close to the hole as possible with each swing. Your progress is measured in yards, and swing timing is crucial. Each hole has a different distance (100 to 600 yards) and par (2, 3, or 4), offering varying challenges. Click ""Swing!"" when the moving yellow bar is closest to the right end of the green bar for maximum distance.
+
+Tips for Success: Master timing by watching the yellow bar's movement. Keep an eye on your overall score and adjust your strategy.
+
+Practice to become a Green Glory Golf master. 
+
+Happy Swinging!
+
+http://www.mulligantourgolfgame.com/greenglory/"
+40,127p6k9,ChatGPTCoding,GPT-3,comments,2023-03-31 15:33:14,Are there any API services for GPT-4?,funbike,False,0.94,15,https://www.reddit.com/r/ChatGPTCoding/comments/127p6k9/are_there_any_api_services_for_gpt4/,19,1680276794.0,"tl;dr: Are there any commercial API proxy services that that would allow me to use the Chat API with the GPT-4 model?  I'm on OpenAI's GPT-4 wait list.
+
+I've been writing development tools that use the chat API with gpt-3.5-turbo.  I'm feeling encumbered by not having access to the newer model.  My tools fail to delivery acceptable results, mostly due to the model, which is making it harder for me to progress.
+
+I occasionally use Chat GPT Pro with GPT-4 model to manually test how my code would work with the more capable model, but I find it a cumbersome way to develop and test my work.  My code exports user prompts that I manually copy-paste into Chat GPT-4 and I compare its responses to what gpt-3.5-turbo generated.
+
+There's an unofficial API that uses browser automation, but I'm afraid of getting banned, as I think that's against the ToS."
+41,13hke7e,ChatGPTCoding,GPT-3,comments,2023-05-14 19:04:38,Using ChatGPT to build a database from web scraping?,CrispApfelStrudel,False,0.85,13,https://www.reddit.com/r/ChatGPTCoding/comments/13hke7e/using_chatgpt_to_build_a_database_from_web/,17,1684091078.0,"**TLDR; my question is this:**
+
+**How can I pass the (very long) source code of this webpage** [https://www.bankofengland.co.uk/news](https://www.bankofengland.co.uk/news)   **in Chrome to ChatGPT?**  
+**The following is some context for the question in case I'm going about it all wrong.**
+
+Some context: I'm building a database from web scraping using ChatGPT, for some finance research. I want to scrape some 70 research blogs from the website of the bank of england: [https://www.bankofengland.co.uk/news](https://www.bankofengland.co.uk/news) (filter by ""Research Blog""). It's 3 pages of results
+
+I need it to go over the list of blogs, open each [one](https://www.bankofengland.co.uk/bank-overground/2022/how-will-rising-prices-and-interest-rates-affect-companies-ability-to-service-their-debt), and label each unit according to the published date, and title. I only want the main text on each webpage.
+
+Since I'm using python, I know I need to use the Selenium package.
+
+ChatGPT seems to be giving me a good enough code, however, the issue is that it gives me a code that works for the pre-2021 version of the website. So I think I need to get it to read the source code of the aforementioned html page to get a good idea of what to recommend me.
+
+**Question**:
+
+**How can I pass the (very long) source code in Chrome to ChatGPT?**
+
+Been trying to do it with the below tutorial, but I'm stumbling at the creation of a Javascript file. When I copy this code to an Eclipse IDE .js file, I'm getting errors. When I'm writing this code in a notepad and saving it as a .js file, then running it with Node.js, it's not working either. I'm completely out of my depth when it comes to Javascript.
+
+[https://medium.com/@ianscott313/how-to-read-a-website-with-chatgpt-using-web-to-text-f6487010a90b](https://medium.com/@ianscott313/how-to-read-a-website-with-chatgpt-using-web-to-text-f6487010a90b)"
+42,11w0c0z,ChatGPTCoding,GPT-3,comments,2023-03-19 22:45:47,breaking the 4096 token barrier?,balancedgif,False,0.88,6,https://www.reddit.com/r/ChatGPTCoding/comments/11w0c0z/breaking_the_4096_token_barrier/,14,1679265947.0,"anyone had any luck at figuring out how to get work done on a text document that is longer than the token limit?  code-davinci-002 supposedly has an 8k token limit, but i can't find any api documentation on it.  
+
+this is the normal i've been doing queries:
+
+response = openai.ChatCompletion.create(
+
+engine=""gpt-3.5-turbo"",
+
+messages=messages,
+
+max\_tokens=150,
+
+n=1,
+
+temperature=0.5,
+
+)
+
+but if i swap out gpt-3.5-turbo for code-davinci-002 to see if i can do basic things above the 4k limit, i get this error:
+
+openai.error.InvalidRequestError: Invalid URL (POST /v1/chat/completions)  
+
+
+any ideas?"
+43,12gstg6,ChatGPTCoding,GPT-3,comments,2023-04-09 19:20:37,Molly GPT Alexa skill is now live in the Alexa store (using OpenAI's Chat APIs),meowkittykitty510,False,1.0,9,https://www.reddit.com/r/ChatGPTCoding/comments/12gstg6/molly_gpt_alexa_skill_is_now_live_in_the_alexa/,14,1681068037.0,"As the title says my Alexa skill (Molly GPT) that integrates with OpenAI's APIs is now live in the Alexa store. The skill is using the gpt-3.5-turbo model and uses the latest ChatCompletion APIs which means it's able to maintain context across multiple requests.
+
+[LINK TO SKILL](https://www.amazon.com/dp/B0C1WG8ZC3/ref=mp_s_a_1_1?crid=24I6QQLJSELOW&keywords=molly+gpt&qid=1680996537&s=digital-skills&sprefix=%2Caps%2C122&sr=1-1)
+
+It works generally as you might expect:
+
+""Alexa, open Molly GPT""
+
+""Molly, write a love song for my wife""
+
+""Molly, how tall is the empire state building?""
+
+""Molly, multiply that number times 2.""
+
+If you enjoy using the skill I'd really appreciate a positive review. If you have any feedback feel free to send me a DM. **Finally, I'm considering open sourcing the skill code. If that's something you'd be interested in seeing please let me know in the comments!**
+
+&#x200B;
+
+&#x200B;
+
+https://preview.redd.it/6jm8cv6sswsa1.png?width=400&format=png&auto=webp&s=cc942c985ff9c9f1997954cb50ba405503c97ecd"
+44,13gngb9,ChatGPTCoding,GPT-3,comments,2023-05-13 17:27:06,Wanted to share an actual example,Dramatic-Mongoose-95,False,0.88,40,https://i.redd.it/bymi3ol3doza1.jpg,14,1683998826.0,"So I used GPT to make my AI generated podcast.
+
+I was so impressed at this one part, it actually wrote all of the code to stitch the final audio segments together, even with cross fading and stuff.
+
+I didn’t have to write any of that code.
+
+I saw some people earlier asking for tangible examples, so I thought I’d share.
+
+It’s like a really long screenshot from my phone.
+
+Here’s a link to the full repo if you want to see the final code!
+
+The next episode of the podcast will post on 5/19 - check it out!!
+
+I’ve got 8 stars so far on this repo, I feel like a celebrity, I’ve never had that many 🤓
+
+https://github.com/AdmTal/crowdcast"
+45,13hkdhk,ChatGPTCoding,GPT-3,comments,2023-05-14 19:03:47,Code Autopilot AI can work on entire codebases,fjrdomingues,False,0.66,11,https://www.reddit.com/r/ChatGPTCoding/comments/13hkdhk/code_autopilot_ai_can_work_on_entire_codebases/,14,1684091027.0,"Here to share my recently released product.
+
+**Code Autopilot is an AI-driven app that will present practical solutions for your Github issues. It will read your codebase and reply with a suggestion to solve the issue. Uses GPT in the context of your entire repository.**
+
+It shares similarities with Github Copilot, but with some key distinctions:
+
+* It derives context from your entire codebase, enabling it to handle complex tasks spanning multiple files.
+* It integrates with your Github account to obtain context and respond to issues you open.
+* The core technology is open-source, from fjrdomingues/autopilot
+
+I’ve personally used Code Autopilot for coding apps (including this one), and I’m thrilled with the results. **As someone who isn’t particularly skilled at coding, this tool has been a lifesaver and is now part of my normal workflow.** It speeds up my development immensely. Try it out for yourself.
+
+Please note that Code Autopilot is currently in its beta phase. I'm expecting some bugs. Your feedback would be greatly appreciated.
+
+To encourage you to give it a try, I’m offering the first 100 users free trial access to Code Autopilot. I’ll be covering the costs with OpenAI.
+
+**Using the app is easy:**
+
+1. **Install** it using the link below (you’ll need a Github account)
+2. Navigate to a repository where you installed the app and **create a new issue on Github** with the task you want to solve. For optimal results, provide clear and detailed descriptions - as if you were explaining the task to another person.
+3. Code Autopilot will get to work immediately and will reply with a comment
+
+👉 **Link to install the Github App**: [https://github.com/marketplace/code-autopilot-ai-coder](https://github.com/marketplace/code-autopilot-ai-coder)
+
+If you have any questions, or feedback, or just want to discuss the future of AI in software engineering, feel free to leave a comment below or send me a message. I’m here to connect. Happy coding!
+
+An example of a random reply from Code Autopilot:
+
+https://preview.redd.it/gukjhyubjuza1.png?width=670&format=png&auto=webp&s=1f1f847a893794a3c8b7066bbad704ec82510d5e"
+46,12onbly,ChatGPTCoding,GPT-3,comments,2023-04-16 20:14:04,I open sourced my Chat GPT enabled Alexa skill (Molly GPT),meowkittykitty510,False,0.9,7,https://www.reddit.com/r/ChatGPTCoding/comments/12onbly/i_open_sourced_my_chat_gpt_enabled_alexa_skill/,12,1681676044.0,"I'd like to say thanks to a lot of folks on this sub that participated in the beta and provided feedback as I was building it. If you'd like to try it out it's [live on the Alexa skill store here](https://www.amazon.com/dp/B0C1WG8ZC3/ref=mp_s_a_1_1?crid=24I6QQLJSELOW&keywords=molly+gpt&qid=1680996537&s=digital-skills&sprefix=%2Caps%2C122&sr=1-1). It's only in the US for now. I'm battling with Amazon's skill store to enable it for other countries but hope to have it global soon. I don't have plans to make money off the skill, especially since it's free and using my OpenAI key :) Along those lines I wanted to share the code base in case it's helpful for anyone else working on something similar. Also, if you have suggestions/recommendations feel free to share or make a PR!
+
+[https://github.com/ConiferLabsWA/molly-gpt-alexa-skill](https://github.com/ConiferLabsWA/molly-gpt-alexa-skill)
+
+&#x200B;
+
+https://preview.redd.it/bkd1da9k0bua1.png?width=400&format=png&auto=webp&s=f2f65ce84c1a54f4ae1bb607ba91d953dd09b641"
+47,12o0d8z,ChatGPTCoding,GPT-3,comments,2023-04-16 07:55:09,Help feeding code to ChatGPT/Playground,an303042,False,1.0,3,https://www.reddit.com/r/ChatGPTCoding/comments/12o0d8z/help_feeding_code_to_chatgptplayground/,12,1681631709.0,"Hello,
+
+I should start by saying I am not a coder (unfortunately).
+
+With that out of the way -
+
+I have a little system set up that is basically a google sheets file (I guess that stands in for a database) with a few google apps scripts running, pulling data from some api and doing very simple things with that data (normalization of the data and sending some emails about it).
+
+A friend of mine, who is a decent coder, wrote those scripts for me. Now, since I want to keep my friend friendly, I don't want to bother him with little things, so I wanted to feed the scripts to either ChatGPT or GPT4 (no access atm) and ask it to help me with little changes.
+
+There are 3 scripts - 2 that are very very short, and 1 that is just a little longer - 350 lines of code.
+
+In ChatGPT I was unable to get clear answers - I had to break up the scripts for ChatGPT to ingest (which is fine), but it would also stop mid answer, and when I would ask it to continue it would restart in a different direction.
+
+As for the playground - When I try to send the 350 lines script I see that it is just over the number of allowed tokens.
+
+Any ideas for me? TIA"
+48,11ramit,ChatGPTCoding,GPT-3,comments,2023-03-14 16:20:00,What api to use for tabular data?,lifemoments,False,0.91,8,https://www.reddit.com/r/ChatGPTCoding/comments/11ramit/what_api_to_use_for_tabular_data/,12,1678810800.0,"I tried chatgpt web interface to return sample data in tabular format. The result was good .
+
+&#x200B;
+
+However I am unable to figure out which api to use. I tried chatcompletion ( model gpt-3.5-turbo) but the results varied and at few instances, response was no data along with text message citing apologies.
+
+&#x200B;
+
+Can anyone suggest what I am doing wrong ?
+
+&#x200B;
+
+\---- Code ---
+
+Calling the api via python.
+
+ `content = 'Generate 2 records of sample address data for columns : ' + ' , '.join(map(str, columns)) + ' in tabular format. Share the result as comma separated rows. Return only data records. '` 
+
+`response = openai.ChatCompletion.create(`  
+ `model=""gpt-3.5-turbo"",`  
+ `messages=[{""role"": ""user"", ""content"": content}]`  
+`)`  
+
+
+\---- Response via api ----
+
+&#x200B;
+
+[API Response 1](https://preview.redd.it/2hifisppluna1.jpg?width=846&format=pjpg&auto=webp&s=26bea642573bfaec05f05ec8e3c7dffe4d8d8ee0)
+
+&#x200B;
+
+[API Response 2](https://preview.redd.it/dlzd0svrluna1.jpg?width=312&format=pjpg&auto=webp&s=74279b3a403eadaa7c5c9702fdba6501c599dd69)
+
+&#x200B;
+
+[API Response 3](https://preview.redd.it/4oghku85muna1.jpg?width=893&format=pjpg&auto=webp&s=c4a4c52454d03abfce1c299b336a3d03d58aa0ef)
+
+&#x200B;
+
+\------- Response via web ----
+
+&#x200B;
+
+https://preview.redd.it/cw21o7temuna1.jpg?width=832&format=pjpg&auto=webp&s=07613a839fd3a5be02daa598015cd6f2b1de48b2
+
+\------ What I'm looking for ----
+
+https://preview.redd.it/mnkb29odmuna1.jpg?width=1379&format=pjpg&auto=webp&s=e77cb4fabae41f6dd28167cb449850a43b58b613"
+49,118z0i0,ChatGPTCoding,GPT-3,comments,2023-02-22 13:36:27,Am I missing something?,wyldeLP,False,0.67,6,https://www.reddit.com/r/ChatGPTCoding/comments/118z0i0/am_i_missing_something/,10,1677072987.0,"For a while now everyone has been raving about how amazing chatGPT is at writing code. I didn't really have a need for it until now, so I hadn't tried it out until today. I'm a fairly experienced programmer, and I thought it would be useful to have chatGPT generate a simple script for me, as opposed to sifting through documentation and writing repetitive code myself.
+
+My experience has been that chatGPT has been absolutely terrible at writing code. Sure, it's been extremely impressive. It's written plausible, relatively accurate code, extremely quickly. But it failed miserably in all the small details.
+
+This was my initial prompt, with the schedule itself omitted for privacy:
+
+    Generate a google apps script code that will populate my google calendar with my university schedule. 
+    The semester starts on 12/03/2023 and ends on 30/06/2023, so classes should only be scheduled in that time frame.
+    There should not be any calendar notifications for these events.
+    Words enclosed by parentheses should not be included in the title of the event. Events should be color coded: Events with the word ""Practice"" in the title should be Lilac, and all other events should be sage colored. Here is the schedule:
+    
+    SUNDAY: 
+    Linear algebra II from 2-4pm, at building 104
+    Calculus III from 4-5pm, at building C10, room 17
+    MONDAY:
+    .... and so on and so on
+
+Well, I was initially pretty impressed. The code was unnecessarily long and complicated, and cut off in the middle, but it seemed like it would do what I wanted. I then noticed that the generated code thought that my semester started in december, as opposed to March (Interestingly it got the end of the semester right). So I asked it to fix the mistake, which it did. Then followed literal hours of me trying to get chatGPT to:
+
+1. Pick up where it left off! (""continue"" simply resulted in it rewriting the function slightly differently, or skipping several steps)
+2. Actually fix my code as opposed to writing the same exact thing again
+3. Preform simple fixes to clean up the code and avoid repetition.
+4. Break down the code in to functions. It quickly started forgetting which function was which, and would often completely forget the prompt at all.
+5. Have any kind of consistency in formatting of objects.
+6. Avoid using reserved words like ""class""
+7. Stop writing unnecessary functions, for which a built in function already exists.
+8. Remember my instructions from the initial prompt.
+9. Avoid overwriting Calendar API function names.
+10. Listen to me when I tell it that classes should recur every week.
+11. Stop writing extremely long (and often unnecessary) comments
+12. Stop calling nonexistent API functions.
+
+Overall it was an extremely frusturating experience. Things like:
+
+Me: ""Generate function number 5: 'getDate""
+
+ChatGPT: Here is the function ... (proceeds to write a different function)
+
+Me: That is not the function I asked for.
+
+ChatGPT: I'm sorry, here is the correct function: (writes the correct function with some small mistakes)
+
+Me: Please fix your mistake where you wrote ....
+
+ChatGPT: I'm sorry, here is the corrected code: (Writes a different function entirely with a single line from the original function)
+
+And it went on like that for 3 hours.
+
+&#x200B;
+
+Yes. ChatGPT is extremely impressive. It's truly a huge leap forward. I'm sure it is useful for generating algorithms, or writing small functions. But even this small task seemed too much for it. The mixups, the refusal to do what I needed, the seemingly terrible memory, were way too much.
+
+Unless I'm missing something, it seems like the use for chatGPT in coding is as an assitant: ""Write me a function that will parse this ..."", or for getting ideas on how to structure code. But to have chatGPT write an entire website from scratch for someone who isn't a programmer, as so many posts and articles keep saying, simply seems impossible at this stage.
+
+Please let me know what I'm missing or how I could better get it to write code!
+
+&#x200B;
+
+Here are a couple of the ridiculous things it kept doing, for your enjoyment:
+
+https://preview.redd.it/habtmodwsqja1.png?width=1091&format=png&auto=webp&s=38d2a41dfa79c7f3ef49aacfdd368038d981f6da
+
+https://preview.redd.it/racon03zsqja1.png?width=1017&format=png&auto=webp&s=d4f13287c01bca68f55314aa45833a5a23b22891
+
+https://preview.redd.it/27zicrw1tqja1.png?width=1132&format=png&auto=webp&s=85713571259886be71446ff41356499dacc4dfe1
+
+https://preview.redd.it/w8gu7cobtqja1.png?width=961&format=png&auto=webp&s=7f1216e5858f5ad2429565e17d686fb9dbd0c93c"
+50,1380ggi,ChatGPTCoding,GPT-3,comments,2023-05-04 21:23:29,"Got access to gpt 4 api, 8k. What should I do/try out?",HeyitsmeFakename,False,0.7,4,https://www.reddit.com/r/ChatGPTCoding/comments/1380ggi/got_access_to_gpt_4_api_8k_what_should_i_dotry_out/,11,1683235409.0,"I've been using 3.5 turbo in a project and honestly it's going well enough that gpt 4 will probably just be a huge expense so I'll use it sparingly. 
+
+What is worth it tho? I haven't been keeping up on babyagi or autogpt, what out there is something I should definently try out with my gpt 4 api. Any tips?
+
+Also anyone using a mix of 3.5 and 4 in a project to save costs? Any tips on how you divide it up, or just share examples of how you do it in your project."
+51,121xyi6,ChatGPTCoding,GPT-3,comments,2023-03-25 20:23:41,GPT_scraper: save all your chatgpt conversartion history!,Rodolflying,False,0.94,40,https://github.com/rodolflying/GPT_scraper,10,1679775821.0,"Dont waste your api credits! 🤖
+
+Using the backend hidden api from chat gpt, Maximize your ChatGPT experience scrap9kg your history with GPT_Scraper - the tool that makes scraping a breeze!
+
+This is the github repo:
+
+
+https://github.com/rodolflying/GPT_scraper
+
+Three Main tools:
+
+1) save all your chatgpt history using backend api from chatgpt website
+
+2) do the same but web scraping with selenium
+
+3) start and finish a new conversation and store it 
+
+4 min read
+
+#ChatGPT #NaturalLanguageProcessing #PythonProgramming #DataScraping #AItools"
+52,13fgb3m,ChatGPTCoding,GPT-3,comments,2023-05-12 09:44:53,How and what are technologies to automate asking a long list of questions in ChatGPT?,lelouch-2022,False,0.93,12,https://i.redd.it/mkr0aas1gdza1.png,10,1683884693.0,
+53,138wa5o,ChatGPTCoding,GPT-3,comments,2023-05-05 17:57:16,ChatGPT API issue,Liam_Reddit1,False,0.75,2,https://www.reddit.com/r/ChatGPTCoding/comments/138wa5o/chatgpt_api_issue/,9,1683309436.0,"Hey Reddit
+
+Wanted to reach out here to see if there are any wizards that can help out.
+
+&#x200B;
+
+I am currently building a platform that uses the ChatGPT 3.5 Turbo API but am having an issue where the execution time is far longer than it is in normal GPT 3 prompt form. 
+
+&#x200B;
+
+All the platform does is take the inputs from the user and insert them into a prompt that is fed to the GPT API, but the execution time is taking 2 minutes+ compared to the usual sub 10-20 seconds. 
+
+&#x200B;
+
+Any known fixes for this?  There must be a solution as there are many platforms that use the API successfully with the ability to deliver high-quality and quick answers.
+
+&#x200B;
+
+Please let me know if you have any insights - have a good day!"
+54,135p6re,ChatGPTCoding,GPT-3,comments,2023-05-02 15:18:17,Could fine-tuned Llama compete with GPT-4 for code gen?,funbike,False,0.96,22,https://www.reddit.com/r/ChatGPTCoding/comments/135p6re/could_finetuned_llama_compete_with_gpt4_for_code/,8,1683040697.0,"If I locally trained an LLM on my specific project, could I get similar code generation quality as GPT-4?
+
+I could train llama additionally with stackoverflow, our 600KLOC source code, our 50K+ git commit history, our 10K+ PR + JIRA history, our documentation, and similar training from our dependencies.
+
+I've played with HuggingChat based on llama. It's good but not as good as GOT 3.5 or 4.  I am hopeful additional highly specific training would bridge the gap.
+
+I ask because I don't want to waste time researching if it's not practical.
+
+What do you think?"
+55,126gmbh,ChatGPTCoding,GPT-3,comments,2023-03-30 08:29:02,Anyone had success using logit_bias on gpt-3.5?,xbfh,False,0.86,5,https://www.reddit.com/r/ChatGPTCoding/comments/126gmbh/anyone_had_success_using_logit_bias_on_gpt35/,9,1680164942.0,"Hi, has anyone had success implementing logit\_bias into gpt-3.5-turbo, or perhaps any other openai model?  
+
+
+I tried following [this guide](https://help.openai.com/en/articles/5247780-using-logit-bias-to-define-token-probability), and if I copy pasted their first example, the word ""time"" still appeared multiple times, which it shouldn't.  
+I then tried on the gpt-3.5-turbo model myself but the responses are whacky. I am using the GPT2Tokenizer which uses the same one as suggested in [https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer) and using it to try make the word ""duck"" appear more.  
+
+
+1. Using a logit\_bias of 50 and 25 results in a sequence of ""\_s"" and ""</"" characters, which suggests that the tokenizer might be incorrect (also response times becomes longer than 5 minutes)?
+2. Using a logit\_bias of 10 makes no difference, and no appearance of the word ""duck"" is made despite adding the logit\_bias parameter (response times are normal).
+
+Wondering if anyone has any success with this or any tips to help me out?  
+Screenshots of my outputs attached [here](https://imgur.com/a/5fgSY3G)."
+56,121k506,ChatGPTCoding,GPT-3,comments,2023-03-25 12:17:08,Reproducing Microsoft Co-pilot: Creating an app with Chat GPT to create PPT presentations?,conlake,False,0.94,16,https://www.reddit.com/r/ChatGPTCoding/comments/121k506/reproducing_microsoft_copilot_creating_an_app/,8,1679746628.0,"I'm building an app, so I'm looking for more technical answers than just memes hehe.
+
+To the point, I'm really curious about how did manage Microsoft create the workflow to create PPT presentations with GPT? Because the API just allows text prompts and returns text. I don't see how the API could make a PPT presentation ([the link for those you don't know Co-Pilot](https://www.youtube.com/watch?v=S7xTBa93TX8))
+
+Did they ask GPT for the text through the API and they have a very-complicated code that takes the text returned from the API and creates the PowerPoint presentation? I don't think so. I think the API returned the power point already done. But how? How could we implement something like this by adapting GPT?
+
+For example: Give a text prompt (can we give anything else than a text prompt, currently?) to GPT, and then GPT returns a 3-page manga comic. Or maybe give a text prompt and GPT returns the full structure of a website application like files and scripts organized in one folder (The current articles around the internet that claim that ""GPT built an app"" is GPT returning pieces of scripts and the human collecting them and structuring them).
+
+Any ideas, git hub, or youtube videos about how this kind of implementation would be possible with GPT API?"
+57,120nf7l,ChatGPTCoding,GPT-3,comments,2023-03-24 15:18:01,Prompting for length,brohamsontheright,False,0.71,3,https://www.reddit.com/r/ChatGPTCoding/comments/120nf7l/prompting_for_length/,6,1679671081.0,"I'm using GPT-4 API and trying to get it to generate longer podcast scripts (like, multiple pages). 8k tokens ought to leave plenty of room, for this, but it seems like no matter how much I manipulate the prompt, it's feeding me back roughly a page worth of text.
+
+The alternative, of course, is to break the request into chunks, GPT-3.5 style.. but.. I feel like if I'm paying for GPT-4, I ought to be getting to take advantage of the enhanced capabilities.
+
+Has anyone had success getting GPT-4 to generate a lengthy response? How'd you prompt it?"
+58,11v0evr,ChatGPTCoding,GPT-3,comments,2023-03-18 20:56:02,How to update OpenAI with a data table once a day for user inquiries?,milwoukee,False,0.75,4,https://www.reddit.com/r/ChatGPTCoding/comments/11v0evr/how_to_update_openai_with_a_data_table_once_a_day/,8,1679172962.0,"Hello guys,
+
+*As I'm not sure if gpt-3.5-turbo is the best product for this, I'll just call it AI.*
+
+I need to provide **AI**  with a table of data that gets updated once a day. Users will ask questions, and the **AI** should respond with information based on this table. My goal is to update the old information with the new data in the morning, and then have the AI answer questions based on the fresh data for the rest of the day.
+
+The challenge I'm facing is finding a way to efficiently provide **AI** with the updated table daily without incurring excessive costs. Ideally, I'd like to send the table just once a day and have the AI use the updated information for all user inquiries during that day.
+
+Has anyone encountered a similar issue or have any suggestions on how to accomplish this? I would greatly appreciate any insights or ideas you may have!
+
+&#x200B;
+
+EXAMPLE:
+
+I can ""simulate"" this in **ChatGPT4** or **3.5** interface by giving it this command:
+
+    based on the table below, tell me car IDs that are red, cost more than 20k USD and are older than 5 years
+    
+    data:
+    
+    id,color,year,price,max_speed,...
+    1,yellow,2010,200000,N/A,...
+    2,red,2015,100k,100,...
+    3,red,2019,100k,120,...
+
+**ChatGPT** now responds something like: *I recommend car ID 2 as it costs 100k etc...*
+
+***EDIT****: There might be more questions, so I need to keep context in the conversation. For example - ""Ok, I forgot to mention it should go faster than 100mph""*
+
+&#x200B;
+
+&#x200B;
+
+I can't send this table with each request for 2 reasons:
+
+1. the table is too big and it exceeds the limit
+2. more tokens - higher price
+
+&#x200B;
+
+So the simplest way to do that would be to wait for ChatGPT4 API and send the table inside each request. But as I mentioned, I can't.
+
+I'm not experienced in AI so I'll appreciate any advice. Should I use **gpt-3.5-turbo?** Or should I use some pre-trained model and fine tune it? Or something else?
+
+&#x200B;
+
+Thank you in advance for your help!
+
+&#x200B;
+
+&#x200B;"
+59,134yx8r,ChatGPTCoding,GPT-3,comments,2023-05-01 19:34:20,Should i pay for ChatGPT 3.5 Turbo API?,Shock-Light123,False,0.6,2,https://www.reddit.com/r/ChatGPTCoding/comments/134yx8r/should_i_pay_for_chatgpt_35_turbo_api/,6,1682969660.0,"I'm a 17 year old that has a job and i think i can pay for how much the API charges each month but my family is financially tight right now and my parents might ask for money and if i empty my bank account then i won't have enough money for the API charge at the end of the month. It's important to note that i use the API for my discord bot that i've made and i just use it to vent my feelings when i'm feeling down and surprisingly it helps me feel better so should i pay?
+
+The reason why I don't use the official ChatGPT website is because i've heard the devs can see your chats and i don't want anyone seeing my chats as i say some stuff that i wouldn't want anyone to see and also ChatGPT might be busy when i need to use it and the API doesn't have this issue."
+60,12f8uqp,ChatGPTCoding,GPT-3,comments,2023-04-08 02:43:26,Creating a Backend App from OpenAPI 3 Schema: What's the Best Way?,git-add,False,0.4,0,https://www.reddit.com/r/ChatGPTCoding/comments/12f8uqp/creating_a_backend_app_from_openapi_3_schema/,5,1680921806.0,"Hello there,
+
+I am developing a backend using the Django-Rest framework, and fortunately, I already have an OpenAPI 3 schema. My goal is to utilize ChatGPT to produce all the required files based on the schema. Unfortunately, I have been unable to formulate an appropriate prompt for this task.
+
+Has anyone attempted a similar endeavor? Any suggestions on how to proceed?  
+
+
+My schema:  
+
+
+    openapi: 3.0.3
+    info:
+      title: ''
+      version: 0.0.0
+    paths:
+      /api/recipe/ingredients/:
+        get:
+          operationId: recipe_ingredients_list
+          description: Manage ingredients in the database.
+          tags:
+          - recipe
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Ingredient'
+              description: ''
+      /api/recipe/ingredients/{id}/:
+        put:
+          operationId: recipe_ingredients_update
+          description: Manage ingredients in the database.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this ingredient.
+            required: true
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/IngredientRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/IngredientRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/IngredientRequest'
+            required: true
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/Ingredient'
+              description: ''
+        patch:
+          operationId: recipe_ingredients_partial_update
+          description: Manage ingredients in the database.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this ingredient.
+            required: true
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/PatchedIngredientRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/PatchedIngredientRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/PatchedIngredientRequest'
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/Ingredient'
+              description: ''
+        delete:
+          operationId: recipe_ingredients_destroy
+          description: Manage ingredients in the database.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this ingredient.
+            required: true
+          tags:
+          - recipe
+          security:
+          - tokenAuth: []
+          responses:
+            '204':
+              description: No response body
+      /api/recipe/recipes/:
+        get:
+          operationId: recipe_recipes_list
+          description: View for manage recipe APIs.
+          tags:
+          - recipe
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Recipe'
+              description: ''
+        post:
+          operationId: recipe_recipes_create
+          description: View for manage recipe APIs.
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/RecipeDetailRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/RecipeDetailRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/RecipeDetailRequest'
+            required: true
+          security:
+          - tokenAuth: []
+          responses:
+            '201':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/RecipeDetail'
+              description: ''
+      /api/recipe/recipes/{id}/:
+        get:
+          operationId: recipe_recipes_retrieve
+          description: View for manage recipe APIs.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this recipe.
+            required: true
+          tags:
+          - recipe
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/RecipeDetail'
+              description: ''
+        put:
+          operationId: recipe_recipes_update
+          description: View for manage recipe APIs.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this recipe.
+            required: true
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/RecipeDetailRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/RecipeDetailRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/RecipeDetailRequest'
+            required: true
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/RecipeDetail'
+              description: ''
+        patch:
+          operationId: recipe_recipes_partial_update
+          description: View for manage recipe APIs.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this recipe.
+            required: true
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/PatchedRecipeDetailRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/PatchedRecipeDetailRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/PatchedRecipeDetailRequest'
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/RecipeDetail'
+              description: ''
+        delete:
+          operationId: recipe_recipes_destroy
+          description: View for manage recipe APIs.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this recipe.
+            required: true
+          tags:
+          - recipe
+          security:
+          - tokenAuth: []
+          responses:
+            '204':
+              description: No response body
+      /api/recipe/recipes/{id}/upload-image/:
+        post:
+          operationId: recipe_recipes_upload_image_create
+          description: Upload an image to recipe.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this recipe.
+            required: true
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/RecipeImageRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/RecipeImageRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/RecipeImageRequest'
+            required: true
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/RecipeImage'
+              description: ''
+      /api/recipe/tags/:
+        get:
+          operationId: recipe_tags_list
+          description: Manage tags in the database.
+          tags:
+          - recipe
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tag'
+              description: ''
+      /api/recipe/tags/{id}/:
+        put:
+          operationId: recipe_tags_update
+          description: Manage tags in the database.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this tag.
+            required: true
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/TagRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/TagRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/TagRequest'
+            required: true
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/Tag'
+              description: ''
+        patch:
+          operationId: recipe_tags_partial_update
+          description: Manage tags in the database.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this tag.
+            required: true
+          tags:
+          - recipe
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/PatchedTagRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/PatchedTagRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/PatchedTagRequest'
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/Tag'
+              description: ''
+        delete:
+          operationId: recipe_tags_destroy
+          description: Manage tags in the database.
+          parameters:
+          - in: path
+            name: id
+            schema:
+              type: integer
+            description: A unique integer value identifying this tag.
+            required: true
+          tags:
+          - recipe
+          security:
+          - tokenAuth: []
+          responses:
+            '204':
+              description: No response body
+      /api/schema/:
+        get:
+          operationId: schema_retrieve
+          description: |-
+            OpenApi3 schema for this API. Format can be selected via content negotiation.
+    
+            - YAML: application/vnd.oai.openapi
+            - JSON: application/vnd.oai.openapi+json
+          parameters:
+          - in: query
+            name: format
+            schema:
+              type: string
+              enum:
+              - json
+              - yaml
+          - in: query
+            name: lang
+            schema:
+              type: string
+              enum:
+              - af
+              - ar
+              - ar-dz
+              - ast
+              - az
+              - be
+              - bg
+              - bn
+              - br
+              - bs
+              - ca
+              - cs
+              - cy
+              - da
+              - de
+              - dsb
+              - el
+              - en
+              - en-au
+              - en-gb
+              - eo
+              - es
+              - es-ar
+              - es-co
+              - es-mx
+              - es-ni
+              - es-ve
+              - et
+              - eu
+              - fa
+              - fi
+              - fr
+              - fy
+              - ga
+              - gd
+              - gl
+              - he
+              - hi
+              - hr
+              - hsb
+              - hu
+              - hy
+              - ia
+              - id
+              - ig
+              - io
+              - is
+              - it
+              - ja
+              - ka
+              - kab
+              - kk
+              - km
+              - kn
+              - ko
+              - ky
+              - lb
+              - lt
+              - lv
+              - mk
+              - ml
+              - mn
+              - mr
+              - my
+              - nb
+              - ne
+              - nl
+              - nn
+              - os
+              - pa
+              - pl
+              - pt
+              - pt-br
+              - ro
+              - ru
+              - sk
+              - sl
+              - sq
+              - sr
+              - sr-latn
+              - sv
+              - sw
+              - ta
+              - te
+              - tg
+              - th
+              - tk
+              - tr
+              - tt
+              - udm
+              - uk
+              - ur
+              - uz
+              - vi
+              - zh-hans
+              - zh-hant
+          tags:
+          - schema
+          security:
+          - cookieAuth: []
+          - basicAuth: []
+          - {}
+          responses:
+            '200':
+              content:
+                application/vnd.oai.openapi:
+                  schema:
+                    type: object
+                    additionalProperties: {}
+                application/yaml:
+                  schema:
+                    type: object
+                    additionalProperties: {}
+                application/vnd.oai.openapi+json:
+                  schema:
+                    type: object
+                    additionalProperties: {}
+                application/json:
+                  schema:
+                    type: object
+                    additionalProperties: {}
+              description: ''
+      /api/user/create/:
+        post:
+          operationId: user_create_create
+          description: Create a new user in the system.
+          tags:
+          - user
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/UserRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/UserRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/UserRequest'
+            required: true
+          security:
+          - cookieAuth: []
+          - basicAuth: []
+          - {}
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/User'
+              description: ''
+      /api/user/me/:
+        get:
+          operationId: user_me_retrieve
+          description: Manage the authenticated user.
+          tags:
+          - user
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/User'
+              description: ''
+        put:
+          operationId: user_me_update
+          description: Manage the authenticated user.
+          tags:
+          - user
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/UserRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/UserRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/UserRequest'
+            required: true
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/User'
+              description: ''
+        patch:
+          operationId: user_me_partial_update
+          description: Manage the authenticated user.
+          tags:
+          - user
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/PatchedUserRequest'
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/PatchedUserRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/PatchedUserRequest'
+          security:
+          - tokenAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/User'
+              description: ''
+      /api/user/token/:
+        post:
+          operationId: user_token_create
+          description: Create a new auth token for user.
+          tags:
+          - user
+          requestBody:
+            content:
+              application/x-www-form-urlencoded:
+                schema:
+                  $ref: '#/components/schemas/AuthTokenRequest'
+              multipart/form-data:
+                schema:
+                  $ref: '#/components/schemas/AuthTokenRequest'
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/AuthTokenRequest'
+            required: true
+          security:
+          - cookieAuth: []
+          - basicAuth: []
+          responses:
+            '200':
+              content:
+                application/json:
+                  schema:
+                    $ref: '#/components/schemas/AuthToken'
+              description: ''
+    components:
+      schemas:
+        AuthToken:
+          type: object
+          description: Serializer for the user auth token.
+          properties:
+            email:
+              type: string
+              format: email
+            password:
+              type: string
+          required:
+          - email
+          - password
+        AuthTokenRequest:
+          type: object
+          description: Serializer for the user auth token.
+          properties:
+            email:
+              type: string
+              format: email
+            password:
+              type: string
+          required:
+          - email
+          - password
+        Ingredient:
+          type: object
+          description: Serializer for ingredients.
+          properties:
+            id:
+              type: integer
+              readOnly: true
+            name:
+              type: string
+              maxLength: 255
+          required:
+          - id
+          - name
+        IngredientRequest:
+          type: object
+          description: Serializer for ingredients.
+          properties:
+            name:
+              type: string
+              maxLength: 255
+          required:
+          - name
+        PatchedIngredientRequest:
+          type: object
+          description: Serializer for ingredients.
+          properties:
+            name:
+              type: string
+              maxLength: 255
+        PatchedRecipeDetailRequest:
+          type: object
+          description: Serializer for recipe detail view.
+          properties:
+            title:
+              type: string
+              maxLength: 255
+            time_minutes:
+              type: integer
+              maximum: 2147483647
+              minimum: -2147483648
+            price:
+              type: string
+              format: decimal
+              pattern: ^\d{0,3}(\.\d{0,2})?$
+            link:
+              type: string
+              maxLength: 255
+            tags:
+              type: array
+              items:
+                $ref: '#/components/schemas/TagRequest'
+            ingredients:
+              type: array
+              items:
+                $ref: '#/components/schemas/IngredientRequest'
+            description:
+              type: string
+        PatchedTagRequest:
+          type: object
+          description: Serializer for tags.
+          properties:
+            name:
+              type: string
+              maxLength: 255
+        PatchedUserRequest:
+          type: object
+          description: Serializer for the user object.
+          properties:
+            email:
+              type: string
+              format: email
+              maxLength: 255
+            password:
+              type: string
+              writeOnly: true
+              maxLength: 128
+              minLength: 5
+            name:
+              type: string
+              maxLength: 255
+        Recipe:
+          type: object
+          description: Serializer for recipes.
+          properties:
+            id:
+              type: integer
+              readOnly: true
+            title:
+              type: string
+              maxLength: 255
+            time_minutes:
+              type: integer
+              maximum: 2147483647
+              minimum: -2147483648
+            price:
+              type: string
+              format: decimal
+              pattern: ^\d{0,3}(\.\d{0,2})?$
+            link:
+              type: string
+              maxLength: 255
+            tags:
+              type: array
+              items:
+                $ref: '#/components/schemas/Tag'
+            ingredients:
+              type: array
+              items:
+                $ref: '#/components/schemas/Ingredient'
+          required:
+          - id
+          - price
+          - time_minutes
+          - title
+        RecipeDetail:
+          type: object
+          description: Serializer for recipe detail view.
+          properties:
+            id:
+              type: integer
+              readOnly: true
+            title:
+              type: string
+              maxLength: 255
+            time_minutes:
+              type: integer
+              maximum: 2147483647
+              minimum: -2147483648
+            price:
+              type: string
+              format: decimal
+              pattern: ^\d{0,3}(\.\d{0,2})?$
+            link:
+              type: string
+              maxLength: 255
+            tags:
+              type: array
+              items:
+                $ref: '#/components/schemas/Tag'
+            ingredients:
+              type: array
+              items:
+                $ref: '#/components/schemas/Ingredient'
+            description:
+              type: string
+          required:
+          - id
+          - price
+          - time_minutes
+          - title
+        RecipeDetailRequest:
+          type: object
+          description: Serializer for recipe detail view.
+          properties:
+            title:
+              type: string
+              maxLength: 255
+            time_minutes:
+              type: integer
+              maximum: 2147483647
+              minimum: -2147483648
+            price:
+              type: string
+              format: decimal
+              pattern: ^\d{0,3}(\.\d{0,2})?$
+            link:
+              type: string
+              maxLength: 255
+            tags:
+              type: array
+              items:
+                $ref: '#/components/schemas/TagRequest'
+            ingredients:
+              type: array
+              items:
+                $ref: '#/components/schemas/IngredientRequest'
+            description:
+              type: string
+          required:
+          - price
+          - time_minutes
+          - title
+        RecipeImage:
+          type: object
+          description: Serializer for uploading images to recipes.
+          properties:
+            id:
+              type: integer
+              readOnly: true
+            image:
+              type: string
+              format: uri
+              nullable: true
+          required:
+          - id
+          - image
+        RecipeImageRequest:
+          type: object
+          description: Serializer for uploading images to recipes.
+          properties:
+            image:
+              type: string
+              format: binary
+              nullable: true
+          required:
+          - image
+        Tag:
+          type: object
+          description: Serializer for tags.
+          properties:
+            id:
+              type: integer
+              readOnly: true
+            name:
+              type: string
+              maxLength: 255
+          required:
+          - id
+          - name
+        TagRequest:
+          type: object
+          description: Serializer for tags.
+          properties:
+            name:
+              type: string
+              maxLength: 255
+          required:
+          - name
+        User:
+          type: object
+          description: Serializer for the user object.
+          properties:
+            email:
+              type: string
+              format: email
+              maxLength: 255
+            name:
+              type: string
+              maxLength: 255
+          required:
+          - email
+          - name
+        UserRequest:
+          type: object
+          description: Serializer for the user object.
+          properties:
+            email:
+              type: string
+              format: email
+              maxLength: 255
+            password:
+              type: string
+              writeOnly: true
+              maxLength: 128
+              minLength: 5
+            name:
+              type: string
+              maxLength: 255
+          required:
+          - email
+          - name
+          - password
+      securitySchemes:
+        basicAuth:
+          type: http
+          scheme: basic
+        cookieAuth:
+          type: apiKey
+          in: cookie
+          name: Session
+        tokenAuth:
+          type: apiKey
+          in: header
+          name: Authorization
+          description: Token-based authentication with required prefix ""Token"""
+61,12shq36,ChatGPTCoding,GPT-3,comments,2023-04-20 01:43:16,Optimizing ChatGPT API for coding,etrader58,False,1.0,12,https://www.reddit.com/r/ChatGPTCoding/comments/12shq36/optimizing_chatgpt_api_for_coding/,7,1681954996.0,"I use ChatGPT to get basic functions (mostly math-based) instead of writing them from scratch. However, I frequently encounter the token limit leaving me with incomplete codes. I tried to use the API to have a 4K token limit.
+
+`curl https://api.openai.com/v1/chat/completions \`  
+ `-H 'Content-Type: application/json' \`  
+ `-H ""Authorization: Bearer API_CODE"" \`  
+ `-d '{`  
+  `""model"": ""gpt-3.5-turbo"",`  
+  `""messages"": [{""role"": ""user"", ""content"": ""wWrite an example C code to perform Catmull-Rom Curve Fitting""}],`  
+  `""max_tokens"": 4000,`  
+  `""temperature"": 0.5`  
+`}'`
+
+I wonder if I can optimize the request to get a better response.
+
+In my experience, the response of the API (which is similar to Playground) is worst than the main ChatGP. For instance, I always get a code for questions like that one, but the API responds:
+
+    Unfortunately, as an AI language model, I cannot provide an example C code for Catmull-Rom Curve Fitting as it requires a detailed understanding of the algorithm and its implementation. However, I suggest you search online for resources and tutorials on Catmull-Rom Curve Fitting in C, which will provide you with the necessary information and code examples.
+
+I hope to improve the response by adjusting the request parameters."
+62,11t2xk6,ChatGPTCoding,GPT-3,relevance,2023-03-16 18:57:24,Generating CODE in GPT-4 vs GPT-3 🤖,Think-Application-14,False,0.43,0,https://twitter.com/dougbutner/status/1636440559693774875,0,1678993044.0,
+63,1082rra,ChatGPTCoding,GPT-3,relevance,2023-01-10 06:31:10,A command-line interface for interacting with the OpenAI GPT-3 API.,rokihere,False,0.75,4,/r/ChatGPT/comments/1082cwa/a_commandline_interface_for_interacting_with_the/,1,1673332270.0,
+64,11h5s2g,ChatGPTCoding,GPT-3,relevance,2023-03-03 16:59:28,Which to use: ChatGPT API or Codex API?,funbike,False,0.72,3,https://www.reddit.com/r/ChatGPTCoding/comments/11h5s2g/which_to_use_chatgpt_api_or_codex_api/,3,1677862768.0,"I keep hearing so much about ChatGPT for development, but Codex was designed specifically for that and GPT was more general.
+
+Which do you think is better for development purposes, ChatGPT or Codex, and why?  Why are developers going on and on about ChatGPT instead of Codex?  In what ways is Codex inferior to ChatGPT for the purpose of coding?
+
+(End of post.  There rest is just more detail.)
+
+----
+
+For more context, I asked ChatGPT:
+
+> > How does gpt-3 differ from codex?
+> 
+> GPT-3 (Generative Pre-trained Transformer 3) and Codex are both large-scale language models created by OpenAI. However, they have some key differences in terms of their design, purpose, and capabilities.
+>
+> Design: GPT-3 is a generative model, while Codex is a retrieval model. This means that GPT-3 can generate new text based on a given prompt, while Codex retrieves relevant code snippets based on a natural language query.
+>
+> Purpose: GPT-3 is primarily designed for language tasks such as language generation, translation, summarization, and answering questions. Codex, on the other hand, is focused on generating code, with the aim of helping developers write code more quickly and efficiently.
+>
+> Capabilities: GPT-3 has been trained on a wide variety of tasks and can generate high-quality text in a range of styles and genres, while Codex is specifically designed for code-related tasks and has been trained on a large dataset of code repositories. Codex can generate code for a variety of programming languages, while GPT-3 is language-agnostic.
+>
+> Overall, while both GPT-3 and Codex are impressive language models, they have different strengths and are optimized for different tasks. GPT-3 is more suitable for language generation tasks, while Codex is more geared towards generating code.
+
+I tried to ask about the new ChatGPT API and models, but it isn't yet aware of them.  I also confirmed that ChatGPT's model is basically just a simpler version of GPT-3.
+
+I tried to get more answers:
+
+> > What specific software development use cases would GPT-3 better a better choice than Codex?
+> 
+> GPT-3 may be a better choice than Codex for certain software development use cases that require natural language processing capabilities, rather than code generation. Some specific use cases where GPT-3 might be more useful than Codex in software development include:
+> 
+> Text-based user interfaces: GPT-3 can be used to generate natural language prompts and responses for text-based interfaces, such as chatbots or voice assistants.
+> 
+> Automated documentation: GPT-3 can be used to generate natural language documentation for software libraries and APIs.
+> 
+> Natural language processing tasks: GPT-3 can be used for a wide range of natural language processing tasks, such as sentiment analysis, named entity recognition, and language translation.
+> 
+> Content creation: GPT-3 can be used to generate natural language content, such as articles, product descriptions, and reviews.
+> 
+> In these cases, GPT-3's language generation capabilities can be leveraged to automate certain aspects of software development that require natural language processing, without necessarily involving the generation of code. However, it's important to note that GPT-3 is not specifically designed for software development, and its outputs may require additional processing or filtering to be used effectively in a software development context.
+
+> > Would GPT-3 be better than Codex at adding comments to source code that has no existing comments?
+> 
+> GPT-3 and Codex have different strengths when it comes to adding comments to source code.
+> 
+> Codex is specifically designed for software development and has been trained on a massive corpus of code from GitHub and other sources. It can generate comments that are specific to the code and provide context about what the code does, making it a powerful tool for adding comments to source code.
+> 
+> On the other hand, GPT-3's language generation capabilities may be useful in cases where there is no existing context for the code. For example, if there is a code snippet that is not well-documented and requires additional context, GPT-3 could be used to generate comments that provide more information about the code's purpose.
+> 
+> However, it's important to note that GPT-3's outputs may require additional processing or filtering to be used effectively in a software development context. In contrast, Codex generates comments that are more specific to the code and require less filtering.
+> 
+> Therefore, while GPT-3 may be useful in some cases for adding comments to source code, Codex is generally a better choice due to its specialized training on code-specific tasks."
+65,123uuc0,ChatGPTCoding,GPT-3,relevance,2023-03-27 17:57:40,I made a GPT-3.5 powered Discord bot in python.,moderndaymage,False,0.96,45,https://www.reddit.com/gallery/123uuc0,34,1679939860.0,
+66,12ghl4l,ChatGPTCoding,GPT-3,relevance,2023-04-09 12:06:41,Has anyone here had success creating parseable JSON with GPT-3.5-Turbo?,marvinshkreli,False,0.96,25,https://www.reddit.com/r/ChatGPTCoding/comments/12ghl4l/has_anyone_here_had_success_creating_parseable/,32,1681042001.0,"I have been using the text-davinci-003 or 002 models to receive parseable JSON responses successfully. However, when I try to achieve the same with the gpt-3.5-turbo model, it always returns a response that includes a leading message before the JSON output. I'm new to using the chat-based model, so I'd appreciate any tips or guidance!"
+67,11t3vmu,ChatGPTCoding,GPT-3,relevance,2023-03-16 19:33:59,Running GPT-4 code vs GPT-3.5 code 🦾,Think-Application-14,False,0.25,0,https://twitter.com/MachineMindsAI/status/1636442669231554580,0,1678995239.0,
+68,10nb7kf,ChatGPTCoding,GPT-3,relevance,2023-01-28 09:36:40,"A python module to generate optimized prompts, Prompt-engineering & solve different NLP problems using GPT-n (GPT-3, ChatGPT) based models and return structured python object for easy parsing",StoicBatman,False,0.92,28,https://www.reddit.com/r/ChatGPTCoding/comments/10nb7kf/a_python_module_to_generate_optimized_prompts/,3,1674898600.0,"Hi folks,
+
+I was working on a personal experimental project related to GPT-3, which I thought of making it open source now. It saves much time while working with LLMs.
+
+If you are an industrial researcher or application developer, you probably have worked with GPT-3 apis. A common challenge when utilizing LLMs such as #GPT-3 and BLOOM is their tendency to produce uncontrollable & unstructured outputs, making it difficult to use them for various NLP tasks and applications.
+
+To address this, we developed **Promptify**, a library that allows for the use of LLMs to solve NLP problems, including Named Entity Recognition, Binary Classification, Multi-Label Classification, and Question-Answering and return a python object for easy parsing to construct additional applications on top of GPT-n based models.
+
+Features 🚀
+
+* 🧙‍♀️ NLP Tasks (NER, Binary Text Classification, Multi-Label Classification etc.) in 2 lines of code with no training data required
+* 🔨 Easily add one-shot, two-shot, or few-shot examples to the prompt
+* ✌ Output is always provided as a Python object (e.g. list, dictionary) for easy parsing and filtering
+* 💥 Custom examples and samples can be easily added to the prompt
+* 💰 Optimized prompts to reduce OpenAI token costs
+
+&#x200B;
+
+* GITHUB: [https://github.com/promptslab/Promptify](https://github.com/promptslab/Promptify)
+* Examples: [https://github.com/promptslab/Promptify/tree/main/examples](https://github.com/promptslab/Promptify/tree/main/examples)
+* For quick demo -> [Colab](https://colab.research.google.com/drive/16DUUV72oQPxaZdGMH9xH1WbHYu6Jqk9Q?usp=sharing)
+
+Try out and share your feedback. Thanks :)
+
+Join our discord for Prompt-Engineering, LLMs and other latest research discussions  
+[discord.gg/m88xfYMbK6](https://discord.gg/m88xfYMbK6)
+
+[NER Example](https://preview.redd.it/n95yyxfg3nea1.png?width=1236&format=png&auto=webp&s=d88847564ce8d08fc84bf4d037bd18f78d14bfbe)
+
+&#x200B;
+
+https://preview.redd.it/uig2c8gx3nea1.png?width=1398&format=png&auto=webp&s=4e999a7c288f6a5df58a55efa7364f1c0408b237"
+69,11wq2mq,ChatGPTCoding,GPT-3,relevance,2023-03-20 17:58:44,ChatGPT 3.5 turbo is still available if you have an API.,chili_ladder,False,0.9,43,https://www.reddit.com/r/ChatGPTCoding/comments/11wq2mq/chatgpt_35_turbo_is_still_available_if_you_have/,20,1679335124.0,"Plenty of extensions in VSCode that will take your API key and let you work when they are ""down"" with in the IDE. It costs me roughly 1 to 2 cents on days I use the API. Last month I spent a whopping 12 cents. I chose not to share this knowledge with the main chatgpt sub so it doesn't get patched."
+70,10f2heg,ChatGPTCoding,GPT-3,relevance,2023-01-18 08:44:42,any good youtubers or people on twitter to follow on using gpt. technical subjects and usage of improving code productivity at a senior dev level? doing a search on youtube returns back alot of useless crap,Neophyte-,False,0.91,24,https://www.reddit.com/r/ChatGPTCoding/comments/10f2heg/any_good_youtubers_or_people_on_twitter_to_follow/,5,1674031482.0,"basically title, im looking for quality content. about either of these subjects
+
+- gpt-3 models and programming them at the api level or advanced features in chatgpt
+- exploring code automation with the usage of gpt-3 or chatgpt for  non beginner coders
+- generally interesting content of whats coming up in AI, exploring the subject 
+
+since chatgpt has exploded so have the amount of youtube videos trying to monetise it with junk content e.g. make 1k a day with some chatgpt.
+
+wondering if you have some good people to follow on youtube or twitter. its so hard to find decent content"
+71,134yx8r,ChatGPTCoding,GPT-3,relevance,2023-05-01 19:34:20,Should i pay for ChatGPT 3.5 Turbo API?,Shock-Light123,False,0.64,3,https://www.reddit.com/r/ChatGPTCoding/comments/134yx8r/should_i_pay_for_chatgpt_35_turbo_api/,6,1682969660.0,"I'm a 17 year old that has a job and i think i can pay for how much the API charges each month but my family is financially tight right now and my parents might ask for money and if i empty my bank account then i won't have enough money for the API charge at the end of the month. It's important to note that i use the API for my discord bot that i've made and i just use it to vent my feelings when i'm feeling down and surprisingly it helps me feel better so should i pay?
+
+The reason why I don't use the official ChatGPT website is because i've heard the devs can see your chats and i don't want anyone seeing my chats as i say some stuff that i wouldn't want anyone to see and also ChatGPT might be busy when i need to use it and the API doesn't have this issue."
+72,126gmbh,ChatGPTCoding,GPT-3,relevance,2023-03-30 08:29:02,Anyone had success using logit_bias on gpt-3.5?,xbfh,False,0.87,6,https://www.reddit.com/r/ChatGPTCoding/comments/126gmbh/anyone_had_success_using_logit_bias_on_gpt35/,9,1680164942.0,"Hi, has anyone had success implementing logit\_bias into gpt-3.5-turbo, or perhaps any other openai model?  
+
+
+I tried following [this guide](https://help.openai.com/en/articles/5247780-using-logit-bias-to-define-token-probability), and if I copy pasted their first example, the word ""time"" still appeared multiple times, which it shouldn't.  
+I then tried on the gpt-3.5-turbo model myself but the responses are whacky. I am using the GPT2Tokenizer which uses the same one as suggested in [https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer) and using it to try make the word ""duck"" appear more.  
+
+
+1. Using a logit\_bias of 50 and 25 results in a sequence of ""\_s"" and ""</"" characters, which suggests that the tokenizer might be incorrect (also response times becomes longer than 5 minutes)?
+2. Using a logit\_bias of 10 makes no difference, and no appearance of the word ""duck"" is made despite adding the logit\_bias parameter (response times are normal).
+
+Wondering if anyone has any success with this or any tips to help me out?  
+Screenshots of my outputs attached [here](https://imgur.com/a/5fgSY3G)."
+73,11sxhm6,ChatGPTCoding,GPT-3,relevance,2023-03-16 15:36:27,Build your first chatGPT powered product with No Code in just 2 hours,ninegagz,False,0.57,2,https://www.reddit.com/r/ChatGPTCoding/comments/11sxhm6/build_your_first_chatgpt_powered_product_with_no/,2,1678980987.0,"Here's how to create a GPT-3 (3.5 turbo) powered app/website without coding. It explains how to use Bubble to create your first chatGPT powered app.   
+Here is the link - [https://topguides.gumroad.com/l/gpt](https://topguides.gumroad.com/l/gpt)"
+74,11h47qj,ChatGPTCoding,GPT-3,relevance,2023-03-03 15:59:19,How to use the new official ChatGPT API (gpt-3.5-turbo) in two lines of code,Excelly-AI,False,0.78,12,https://www.reddit.com/r/ChatGPTCoding/comments/11h47qj/how_to_use_the_new_official_chatgpt_api/,6,1677859159.0,"This is basically it: [https://imgur.com/a/cw6TZl5](https://imgur.com/a/cw6TZl5)
+
+&#x200B;
+
+Don't forget pip install --upgrade openai :)"
+75,11hjhkg,ChatGPTCoding,GPT-3,relevance,2023-03-04 00:02:01,How to get gpt-3.5-turbo to format sentence correctly?,SpudMonkApe,False,0.83,7,https://www.reddit.com/r/ChatGPTCoding/comments/11hjhkg/how_to_get_gpt35turbo_to_format_sentence_correctly/,2,1677888121.0,"Hey everyone. So currently my use case is: Given some sentence, I.e How are you?, I want it to give me a grammar explanation for each word.
+
+However, I can’t get it to give me a consistent format. I want the grammar explanation for each word to end in a period, but it sometimes adds a semicolon or ends w a quotation. 
+
+I turned the temperature to 0.0, but it still changes. Any recommendations on how to enforce a format consistently? Thanks!"
+76,12j7eb8,ChatGPTCoding,GPT-3,relevance,2023-04-12 02:50:58,How can I get gpt-3.5-turbo to keep context?,Proxify,False,1.0,1,https://www.reddit.com/r/ChatGPTCoding/comments/12j7eb8/how_can_i_get_gpt35turbo_to_keep_context/,0,1681267858.0,"I first figured I could just store the conversation in a db, then pull it and append whatever the user says then feed it to the api.
+
+I have 2 issues with this though:
+
+1) after the tokens reach the limit I get back an error, that's ok and expected, I'll deal with that later.
+
+2) Although I see that the entire conversation gets sent to the API, whenever I ask if it recalls something from the past (even one or two sentences ago) it just says ""yes! Blah blah"" and then proceeds to say something unrelated.
+
+I know I'm not showing code but basically that's because my question at this point is, am I thinking about this wrong? I thought the way I did it would allow for context but seems to just get ignored."
+77,12njuct,ChatGPTCoding,GPT-3,relevance,2023-04-15 21:44:58,Build a PERSONAL CHATBOT with LangChainAI MEMORY with ChatGPT-3.5-Turbo API in PYTHON,Key_Entrepreneur_223,False,1.0,5,https://youtu.be/daMNGGPJkEE,0,1681595098.0,
+78,120btiq,ChatGPTCoding,GPT-3,relevance,2023-03-24 06:44:10,Has anyone noticed a difference in gpt-3.5-turbo-0301 (and regular turbo) behavior in the past 24 hours?,xacto337,False,0.67,1,https://www.reddit.com/r/ChatGPTCoding/comments/120btiq/has_anyone_noticed_a_difference_in_gpt35turbo0301/,2,1679640250.0,"Some prompts I’ve been working on were consistently returning the same, good results up until earlier today. Nothing about the prompts have changed. The only thing that changed is I went from the free-trial to the paid version of the API.
+
+Has anyone else noticed a change over the past 24 hours or a change when they went from free to paid?
+
+Also fyi, the website still returns good results. So, my issue is really about the api only. I also wonder why the site produces better results than the api, but perhaps that's a different discussion."
+79,11mv7lz,ChatGPTCoding,GPT-3,relevance,2023-03-09 15:34:02,Getting started with the ChatGPT API (3.5 Turbo model) + Postman,DueTennis,False,0.57,1,https://www.youtube.com/watch?v=bgQXSjk18mg,0,1678376042.0,
+80,12jpt2w,ChatGPTCoding,GPT-3,relevance,2023-04-12 15:31:25,Seeking advice on my tool that's similar to Auto GPT,funbike,False,0.79,13,https://www.reddit.com/r/ChatGPTCoding/comments/12jpt2w/seeking_advice_on_my_tool_thats_similar_to_auto/,0,1681313485.0,"I've taken a close look at the various automated experimental tools such as Baby AGI and Auto-GPT.  I've written something similar but rather than do all of the logic in Python or use something that goes off on its own without much control, I'm instead using English prompts as the primary logic language and it controls the workflow through a series of prompts that are fed the output of prior prompts and use a shared state.  My design focuses specifically on coding tasks.
+
+In a nutshell, I maintain state in a Yaml file.   I inject the yaml file (and bash command output from the previous task) at the top of a prompt and then the prompt instructs GPT what changes to make to the Yaml state file and various shell commands to run.   The output is a revised yaml file, list of shell commands, and a diff to change other files.  The shell output and current state file are fed into the next prompt(s).
+I use Yaml rather than json due to lower token count and better readability, especially with large text.
+
+This results in a tiny kernel of only a few hundred lines of code.  Here's what it does:
+
+1. Recursively search for `state.yaml` files to process
+1. Get prompt file name from ""prompt-file-names"" array attribute of `state.yaml`.  File extension contains model name.  (This was probably set by the previous prompt.)
+1. Prefix `state.yaml` and `console.log` files to the prompts.
+1. Send each prompt to OpenAI's chat API and get result (yaml, bash, diff).
+1. Write yaml code block in the output to `state.yaml`
+1. Run bash code block to `console.log` (`bash -xeu &> console.log`)
+1. Run `patch` on the output diff code block, if any.
+1. `git commit -a -m <prompt-file-name>`
+1. Repeat
+
+Pros:
+
+* Processing logic is described in English.  Complex things are possible with little effort.
+* More control over the workflow
+* Simple core design
+
+Cons:
+
+* Relying on GPT for logic may make it less reliable
+* Less automatic, although you could easily write prompts that are with this design
+* Higher cost and slower, due to relying on GPT to do the work
+
+Types of prompts that can be written, although advanced ones might be clunky:
+
+* Break into multiple tasks
+* Prioritize tasks
+* Categorization routing, such as asking a question and routing you to the correct prompt.
+* Multiple phases of development: requirements, write UAT, code, review
+* Multiple steps per phase: refine prompt, review prompt, validate/test, review output
+* On test failure, go through set of steps to diagnose and fix
+* Fork state (must invoke self via CLI)
+* GPT-4 evaluation of GPT-3 generated output
+* Various things with command line tools
+    * Fetch issues from Github to create new objectives.
+    * Web search via Google, Duck-duck-go, Stack overflow
+    * Global search for fixed bugs in Github issues
+    * Desktop notification
+* Stop processing, so a manual code review can happen
+
+Future considerations:
+
+* Perhaps rename `state.yaml` to `objective.yaml`, and/or break it into multiple files: project, objective(s), state(s)
+* Supply only a subset of `state.yaml` as needed by various prompts, and/or use a template language that can query (e.g. `The database tables are ${state.project.database.tables}.`).  Would require a delta format for updating.
+* Integrate with langchains
+* Better error handling
+
+I'd appreciate feedback on my design.  Once I get a POC working, I'll put it on GitHub.
+
+The rest of this post is a contrived example prompt.  I use better prompts than this, IRL.
+
+----
+
+The following code blocks are the current state and previous bash console output:
+
+    ```yaml
+    - objective: Generate a feature to add a contact
+    - prompt-file-names: [prompts/run-read-requests.gpt-3.5-micro.md]
+    - project
+      - directories: [src/components, src/pages, src/lib, test]
+        files-of-interest:
+        - package.json: |-
+          {}
+        tables: [contacts]
+        tables-of-interest:
+          CREATE TABLE contacts (
+            id SERIAL PRIMARY KEY, first_name TEXT NOT NULL, email TEXT NOT NULL, phone TEXT NOT NULL
+          );
+    - read requests:
+      - request: Find all possible uses of contact
+        type: bash-command
+        command-line: rg contact -l
+        status: incomplete
+        file-list: []
+    - write actions:
+      - action: Add xyz package
+        type: bash-command
+        status: incomplete
+        command-line: npm install xyz
+    ```
+
+    ```console
+    + rg contact -l
+    src/repo/contact.js
+    src/service/contact.js
+    src/components/contact.vue
+    ```
+
+Generate an updated state yaml code block given the following instruction bullets:
+
+* Update the status of read requests based on the console output.
+* Set prompt file names to '[prompts/process-action-errors.gpt-4.md]'
+
+Generate a bash code block with write actions command line commands."
+81,135kcuw,ChatGPTCoding,GPT-3,relevance,2023-05-02 12:51:46,Will ChatGPT replace programmers?,ANil1729,False,0.57,4,https://www.reddit.com/r/ChatGPTCoding/comments/135kcuw/will_chatgpt_replace_programmers/,58,1683031906.0," 
+
+Hey there,
+
+Never, chatgpt never replace programmers but chatgpt can support in programming through basic coding, loops, and fixing coding errors.
+
+Here is the answer to How chatgpt helps programmers for programming.
+
+ChatGPT, and other similar AI technologies, have the potential to impact the field of programming greatly, but it is unlikely that they will completely replace programmers. Here are a few reasons why: Absolutely! ChatGPT can be a valuable tool for programmers in various ways. Let's explore how ChatGPT can assist programmers in their programming tasks and provide them with additional enthusiasm.
+
+&#x200B;
+
+https://preview.redd.it/6n4lyr080fxa1.png?width=602&format=png&auto=webp&s=3f39392b6a5b6c1761d904406d362c89fbb7201b
+
+1. **Code Generation**: ChatGPT can generate code snippets or entire blocks of code based on the programmer's input or requirements. For example, a programmer can describe a specific task or algorithm to ChatGPT, and it can provide relevant code snippets in different programming languages. This can save time and effort for programmers, especially when they need quick references or examples to implement specific functionalities.
+2. **Debugging Assistance**: ChatGPT can help programmers in debugging their code. A programmer can describe the issue or error they are facing, and ChatGPT can provide suggestions and solutions to resolve the problem. ChatGPT can analyze the code and identify potential issues, such as syntax errors, logic errors, or common coding mistakes, and provide guidance on how to fix them. This can help programmers in troubleshooting their code more effectively and improve their productivity.
+3. **Learning and Education**: ChatGPT can serve as a learning resource for programmers. It can provide explanations, tutorials, and examples on various programming concepts, algorithms, data structures, and best practices. ChatGPT can also help programmers to understand complex topics in a more accessible and simplified manner, making learning more enjoyable and engaging.
+4. **Project Planning and Management**: ChatGPT can help programmers with project planning and management tasks. It can provide suggestions and recommendations on project structure, code organization, version control, and other software development best practices. It can also help programmers in managing their tasks, deadlines, and milestones by providing reminders and scheduling assistance. This can help programmers in staying organized, meeting deadlines, and delivering high-quality projects.
+5. **Collaboration and Brainstorming**: ChatGPT can facilitate collaboration among programmers by providing a platform for brainstorming and idea generation. It can help programmers in discussing and refining their ideas, providing feedback, and collaborating on code or documentation. ChatGPT can also help in fostering a creative and collaborative environment, enhancing team dynamics, and promoting innovation in programming projects.
+
+&#x200B;
+
+https://preview.redd.it/3ntjbho90fxa1.png?width=602&format=png&auto=webp&s=a8ffffacef47a97c5ef15790d1b4b4df3568ae78
+
+Here is the list of products that which is based on chatgpt
+
+* [**MyGPT** ](https://mygpt.thesamur.ai/)— This is one of the best products that I have used. Even after chatgpt is its highest capacity these products work a lot. MyGPT using ChatGPT API and provide same results as chatgpt provides. MyGPT is just a front-end UI of Chatgpt API, that help you get very responsive output even at the time of chatgpt is on its capacity. You can also see the short prompt.
+* [**Memejourney** ](http://memejourney.thesamur.ai/)— ChatGPT for memes: Turn text into meme generation using ChatGPT, a midjourney for memes. Create memes by using memejournney.
+* [**Heybot** ](https://heybot.thesamur.ai/)— Website to Chatbot powered by ChatGPT. Convert your website/blog into a chatbot in minutes without any coding.
+* [**Ritebot**](https://ritebot.thesamur.ai/) **—** AI-powered Paraphraser, Grammar checker, Summariser, and Translator built on top of ChatGPT.
+
+In conclusion, ChatGPT can be a valuable assistant for programmers, providing them with code generation, debugging assistance, learning and education, project planning and management, and collaboration and brainstorming support. Its ability to generate detailed and enthusiastic answers can inspire programmers and add a sense of enthusiasm in their programming tasks, making the overall experience more enjoyable and productive.
+
+[**AutoGPT**](https://github.com/Significant-Gravitas/Auto-GPT)
+
+AutoGPT's capabilities in combining GPT-3.5 and GPT-4 via API and its ability to autonomously iterate on prompts and improve based on feedback open up a wide range of possibilities for its implementation in different use cases. From content generation to software development, recipe creation to task automation, and research assistance to summarization, AutoGPT can be a powerful tool for autonomously performing tasks, continuously improving its output, and showcasing true AGI capabilities."
+82,127p6k9,ChatGPTCoding,GPT-3,relevance,2023-03-31 15:33:14,Are there any API services for GPT-4?,funbike,False,0.88,12,https://www.reddit.com/r/ChatGPTCoding/comments/127p6k9/are_there_any_api_services_for_gpt4/,19,1680276794.0,"tl;dr: Are there any commercial API proxy services that that would allow me to use the Chat API with the GPT-4 model?  I'm on OpenAI's GPT-4 wait list.
+
+I've been writing development tools that use the chat API with gpt-3.5-turbo.  I'm feeling encumbered by not having access to the newer model.  My tools fail to delivery acceptable results, mostly due to the model, which is making it harder for me to progress.
+
+I occasionally use Chat GPT Pro with GPT-4 model to manually test how my code would work with the more capable model, but I find it a cumbersome way to develop and test my work.  My code exports user prompts that I manually copy-paste into Chat GPT-4 and I compare its responses to what gpt-3.5-turbo generated.
+
+There's an unofficial API that uses browser automation, but I'm afraid of getting banned, as I think that's against the ToS."
+83,138wa5o,ChatGPTCoding,GPT-3,relevance,2023-05-05 17:57:16,ChatGPT API issue,Liam_Reddit1,False,0.75,2,https://www.reddit.com/r/ChatGPTCoding/comments/138wa5o/chatgpt_api_issue/,9,1683309436.0,"Hey Reddit
+
+Wanted to reach out here to see if there are any wizards that can help out.
+
+&#x200B;
+
+I am currently building a platform that uses the ChatGPT 3.5 Turbo API but am having an issue where the execution time is far longer than it is in normal GPT 3 prompt form. 
+
+&#x200B;
+
+All the platform does is take the inputs from the user and insert them into a prompt that is fed to the GPT API, but the execution time is taking 2 minutes+ compared to the usual sub 10-20 seconds. 
+
+&#x200B;
+
+Any known fixes for this?  There must be a solution as there are many platforms that use the API successfully with the ability to deliver high-quality and quick answers.
+
+&#x200B;
+
+Please let me know if you have any insights - have a good day!"
+84,138cdhq,ChatGPTCoding,GPT-3,relevance,2023-05-05 05:57:40,Questions about GPT 4 API Access,Darayavaush84,False,1.0,3,https://www.reddit.com/r/ChatGPTCoding/comments/138cdhq/questions_about_gpt_4_api_access/,3,1683266260.0,"Dear all,
+
+I just got my API 4 access for GPT 4 and I would like to test something with it. Up to now, I read a lot but still some points are a bit foggy. Hopefully someone more advances can clarify things better.
+
+1. I have a subscription plan with OpenAI for the Chat GPT 4. I also know that we pay per use when we use the chat GPT 4 APIs, and that we have to set up billing information also for that. If I want to start using only the APIs, can I cancel my subscription with Chat GPT? Or do I have to keep both? Would you suggest that?
+2. As an IT I use ChatGPT mainly for Powershell scripting. and ChatGPT is already fuc\*\*\*g awesome.  Can you suggest a specific plugin for Powershell and generally for programming? I am not a developer, just to test things out and I would appreciate something particularly good ad coding - especially with powershell (no, I am not a fan og Github Copilot right now, I would like to chat with it, not only ask to debug code or finish something, I'll have to wait for Copilot X) . Would be great with internet access Maybe AutoGPT?
+3. AutoGPT can create a ""memory"" file on the local pc, or use an external vector database like Pinecone and similar. Why would I use something like Pinecone? What kind of advantage I would have in using such tool and maybe even paying for it? The only advantage I see right now is the possibility of using the ""memory"" on different pc's, is there something else?
+4. What would you suggest to set up AutoGPT once, and then use it on multiple computers (eg. work and private)? Set up a virtual machine? Use a raspberry PI? Copy the configured folder over...?
+5. When creating the API Key, I cannot choose between GPT 3.5 Model and 4. Do plugins select automatically the GPT 4 model or do I have to change some configuration file?
+
+&#x200B;
+
+&#x200B;
+
+Thank you for your help!"
+85,11w0c0z,ChatGPTCoding,GPT-3,relevance,2023-03-19 22:45:47,breaking the 4096 token barrier?,balancedgif,False,0.88,6,https://www.reddit.com/r/ChatGPTCoding/comments/11w0c0z/breaking_the_4096_token_barrier/,14,1679265947.0,"anyone had any luck at figuring out how to get work done on a text document that is longer than the token limit?  code-davinci-002 supposedly has an 8k token limit, but i can't find any api documentation on it.  
+
+this is the normal i've been doing queries:
+
+response = openai.ChatCompletion.create(
+
+engine=""gpt-3.5-turbo"",
+
+messages=messages,
+
+max\_tokens=150,
+
+n=1,
+
+temperature=0.5,
+
+)
+
+but if i swap out gpt-3.5-turbo for code-davinci-002 to see if i can do basic things above the 4k limit, i get this error:
+
+openai.error.InvalidRequestError: Invalid URL (POST /v1/chat/completions)  
+
+
+any ideas?"
+86,12gstg6,ChatGPTCoding,GPT-3,relevance,2023-04-09 19:20:37,Molly GPT Alexa skill is now live in the Alexa store (using OpenAI's Chat APIs),meowkittykitty510,False,1.0,8,https://www.reddit.com/r/ChatGPTCoding/comments/12gstg6/molly_gpt_alexa_skill_is_now_live_in_the_alexa/,14,1681068037.0,"As the title says my Alexa skill (Molly GPT) that integrates with OpenAI's APIs is now live in the Alexa store. The skill is using the gpt-3.5-turbo model and uses the latest ChatCompletion APIs which means it's able to maintain context across multiple requests.
+
+[LINK TO SKILL](https://www.amazon.com/dp/B0C1WG8ZC3/ref=mp_s_a_1_1?crid=24I6QQLJSELOW&keywords=molly+gpt&qid=1680996537&s=digital-skills&sprefix=%2Caps%2C122&sr=1-1)
+
+It works generally as you might expect:
+
+""Alexa, open Molly GPT""
+
+""Molly, write a love song for my wife""
+
+""Molly, how tall is the empire state building?""
+
+""Molly, multiply that number times 2.""
+
+If you enjoy using the skill I'd really appreciate a positive review. If you have any feedback feel free to send me a DM. **Finally, I'm considering open sourcing the skill code. If that's something you'd be interested in seeing please let me know in the comments!**
+
+&#x200B;
+
+&#x200B;
+
+https://preview.redd.it/6jm8cv6sswsa1.png?width=400&format=png&auto=webp&s=cc942c985ff9c9f1997954cb50ba405503c97ecd"
+87,120nf7l,ChatGPTCoding,GPT-3,relevance,2023-03-24 15:18:01,Prompting for length,brohamsontheright,False,0.71,3,https://www.reddit.com/r/ChatGPTCoding/comments/120nf7l/prompting_for_length/,6,1679671081.0,"I'm using GPT-4 API and trying to get it to generate longer podcast scripts (like, multiple pages). 8k tokens ought to leave plenty of room, for this, but it seems like no matter how much I manipulate the prompt, it's feeding me back roughly a page worth of text.
+
+The alternative, of course, is to break the request into chunks, GPT-3.5 style.. but.. I feel like if I'm paying for GPT-4, I ought to be getting to take advantage of the enhanced capabilities.
+
+Has anyone had success getting GPT-4 to generate a lengthy response? How'd you prompt it?"
+88,11fk1fu,ChatGPTCoding,GPT-3,relevance,2023-03-01 22:19:54,How to update py script to access ChatGPT API? I'm already successfully making API calls to the text-davinci-003 engine.,AdamAlexanderRies,False,1.0,14,https://www.reddit.com/r/ChatGPTCoding/comments/11fk1fu/how_to_update_py_script_to_access_chatgpt_api_im/,2,1677709194.0,"# Edit
+
+Fixed! Problem stemmed from broken dependencies from old software.
+
+https://platform.openai.com/docs/guides/chat/introduction
+
+(py 3.6, win 7, openai 0.8.0) -> (py 3.8, win 7, openai 0.27.0)
+
+Barebones template that works with 2023-03-01 update and saves conversation history:
+
+    import openai
+
+    preprompt = input(""Preprompt: "") or ""Be helpful.""
+    history = [{""role"": ""system"", ""content"": preprompt}]
+    engine = ""gpt-3.5-turbo""
+
+    while True:
+        in_content = input(""> "")
+        history.append({""role"": ""user"", ""content"": in_content})
+        
+        response = openai.ChatCompletion.create(
+            model = engine,
+            messages = history
+        )
+
+        out_content = response[""choices""][0][""message""][""content""]
+        print(out_content)
+        history.append({""role"": ""assistant"", ""content"": out_content})
+
+# Original
+
+This news today: https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+
+The following code works.
+
+openai_template.py: 
+
+    import openai
+    import os
+
+    openai.api_key = os.getenv('OPENAI_API_KEY')
+
+    eng = 'text-davinci-003'
+    m_t = 999 #max tokens
+    p_p = 0.3 #presence penalty
+    f_p = 0.3 #frequency penalty
+    temp= 0.7 #temperature
+    t_p = 0.7 #top probability
+
+    while True:
+        p = input(""Prompt: "")
+        response = openai.Completion.create(engine=eng,prompt=p,max_tokens=m_t,presence_penalty=p_p,frequency_penalty=f_p,temperature=temp,top_p=t_p)
+        print(response[""choices""][0][""text""])
+
+https://platform.openai.com/docs/models/gpt-3-5
+
+If i replace eng = 'text-davinci-003' with 'gpt-3.5-turbo' i get this error:
+
+> openai.error.InvalidRequestError: This is a chat model and not supported in the v1/completions endpoint. Did you mean to use v1/chat/completions?
+
+Any ideas? ChatGPT isn't helping me troubleshoot this one. Thank you :)"
+89,122cb2a,ChatGPTCoding,GPT-3,relevance,2023-03-26 05:35:34,Does GPT-4's image input syntax exist in the OpenAI documentation yet?,AdamAlexanderRies,False,0.89,13,https://www.reddit.com/r/ChatGPTCoding/comments/122cb2a/does_gpt4s_image_input_syntax_exist_in_the_openai/,5,1679808934.0,"https://platform.openai.com/docs/guides/chat/introduction
+
+https://platform.openai.com/docs/api-reference/chat/create
+
+These two pages don't seem to specify image input syntax, although the former has been updated to at least include the name of the gpt-4 model.
+
+> Using the OpenAI Chat API, you can build your own applications with gpt-3.5-turbo and **gpt-4** to do things like:
+
+> ...
+
+---
+
+> [Image inputs are still a research preview and not publicly available.](https://openai.com/research/gpt-4)
+
+Does this mean image inputs are unavailable through the API? I do understand that chat.openai.com does not have image input.
+
+Thank you."
+90,12e3732,ChatGPTCoding,GPT-3,relevance,2023-04-07 00:16:56,"Open-source desktop GPT interface (py, tkinter)",AdamAlexanderRies,False,0.93,12,https://www.reddit.com/r/ChatGPTCoding/comments/12e3732/opensource_desktop_gpt_interface_py_tkinter/,5,1680826616.0,"[GitHub repository (ries-gpt-ui)](https://github.com/RealityAnchor/ries-gpt-ui)
+
+I started coding it collaboratively with ChatGPT on chat.openai.com, but now I plug it into itself, which feels mildly magical.
+
+Good features:
+
+- conversation history search
+
+- keyboard navigation
+
+- preprompt selection
+
+- output appears all at once
+
+It only works with `gpt-3.5-turbo` model for now (no plugins or image input), and you'll need [an API key](https://platform.openai.com/account/api-keys), but within its limited scope it's buttery-smooth and (seemingly) bug-free. See my [todo.txt](https://github.com/RealityAnchor/ries-gpt-ui/blob/main/todo.txt) for features/improvements which are on my radar. This is the first serious project I've ever pushed to GitHub, so all suggestions are very welcome. I am broke, unemployed, and uncommitted, so please ask me for a resume if you're hiring junior software developers."
+91,11ramit,ChatGPTCoding,GPT-3,relevance,2023-03-14 16:20:00,What api to use for tabular data?,lifemoments,False,0.88,6,https://www.reddit.com/r/ChatGPTCoding/comments/11ramit/what_api_to_use_for_tabular_data/,12,1678810800.0,"I tried chatgpt web interface to return sample data in tabular format. The result was good .
+
+&#x200B;
+
+However I am unable to figure out which api to use. I tried chatcompletion ( model gpt-3.5-turbo) but the results varied and at few instances, response was no data along with text message citing apologies.
+
+&#x200B;
+
+Can anyone suggest what I am doing wrong ?
+
+&#x200B;
+
+\---- Code ---
+
+Calling the api via python.
+
+ `content = 'Generate 2 records of sample address data for columns : ' + ' , '.join(map(str, columns)) + ' in tabular format. Share the result as comma separated rows. Return only data records. '` 
+
+`response = openai.ChatCompletion.create(`  
+ `model=""gpt-3.5-turbo"",`  
+ `messages=[{""role"": ""user"", ""content"": content}]`  
+`)`  
+
+
+\---- Response via api ----
+
+&#x200B;
+
+[API Response 1](https://preview.redd.it/2hifisppluna1.jpg?width=846&format=pjpg&auto=webp&s=26bea642573bfaec05f05ec8e3c7dffe4d8d8ee0)
+
+&#x200B;
+
+[API Response 2](https://preview.redd.it/dlzd0svrluna1.jpg?width=312&format=pjpg&auto=webp&s=74279b3a403eadaa7c5c9702fdba6501c599dd69)
+
+&#x200B;
+
+[API Response 3](https://preview.redd.it/4oghku85muna1.jpg?width=893&format=pjpg&auto=webp&s=c4a4c52454d03abfce1c299b336a3d03d58aa0ef)
+
+&#x200B;
+
+\------- Response via web ----
+
+&#x200B;
+
+https://preview.redd.it/cw21o7temuna1.jpg?width=832&format=pjpg&auto=webp&s=07613a839fd3a5be02daa598015cd6f2b1de48b2
+
+\------ What I'm looking for ----
+
+https://preview.redd.it/mnkb29odmuna1.jpg?width=1379&format=pjpg&auto=webp&s=e77cb4fabae41f6dd28167cb449850a43b58b613"
+92,134ztdc,ChatGPTCoding,GPT-3,relevance,2023-05-01 20:09:17,I want to use chatGPT to parse a users intent but I can not get it to return json without text,Gasp0de,False,0.86,5,https://www.reddit.com/r/ChatGPTCoding/comments/134ztdc/i_want_to_use_chatgpt_to_parse_a_users_intent_but/,24,1682971757.0,"I am trying to use chatGPT as a chatbot for my shared flat groupchat. I want to use it to parse messages as follows:
+
+        response = openai.ChatCompletion.create(
+            model=""gpt-3.5-turbo"",
+            messages=[
+                {""role"": ""system"", ""content"": 'You are a assistant that parses the intent of a text into JSON of the form {""cleaningtask"": boolean, ""shoppinglist"":[{""action"":""add""|""remove""|""list""|""clear"", ""items"": [""string""]}]. Do not return anything but a valid JSON object of this form.'},
+                {""role"": ""user"", ""content"": message}
+            ]
+        )
+
+I got it to work perfectly fine a few times but now I always get text in the answer, along the lines of ""Sure, here's your JSON: "". How can I prevent this? Is there a better way than using chatCompletion?
+
+Edit:
+I ended up combining two tips from here. One, I appended ""ONLY JSON. NO DISCUSSION."" To the end of my system prompt. Second, I added a few userprompts and the corresponding assistant replies as examples, covering every possibility (add,remove,clear,list). It now works perfectly."
+93,zjn7ar,ChatGPTCoding,GPT-3,relevance,2022-12-12 04:36:55,The ChatGPT Handbook - Tips For Using OpenAI's ChatGPT,BaCaDaEa,False,1.0,346,https://www.reddit.com/r/ChatGPTCoding/comments/zjn7ar/the_chatgpt_handbook_tips_for_using_openais/,59,1670819815.0,"I will continue to add to this list as I continue to learn. For more information, either check out the comments, or ask your question in the main subreddit!
+
+Note that ChatGPT has (and will continue to) go through many updates, so information on this thread may become outdated over time).
+
+&#x200B;
+
+# Response Length Limits
+
+For dealing with responses that end before they are done
+
+&#x200B;
+
+&#x200B;
+
+**Continue**:
+
+There's a character limit to how long ChatGPT responses can be. Simply typing ""Continue"" when it has reached the end of one response is enough to have it pick up where it left off.
+
+&#x200B;
+
+**Exclusion**:
+
+To allow it to include more text per response, you can request that it exclude certain information, like comments in code, or the explanatory text often leading/following it's 
+generations.
+
+**Specifying limits** 
+Tip from u/NounsandWords
+
+You can tell ChatGPT explicitly how much text to generate, and when to continue. Here's an example provided by the aforementioned user: ""Write only the first [300] words and then stop. Do not continue writing until I say 'continue'.""
+
+&#x200B;
+
+# Response Type Limits
+
+For when ChatGPT claims it is unable to generate a given response.
+
+# 
+
+&#x200B;
+
+**Being indirect:**
+
+Rather than asking for a certain response explicitly, you can ask if for an example of something (the example itself being the desired output). For example, rather than ""Write a story about a lamb,"" you could say ""Please give me an example of story about a lamb, including XYZ"". There are other methods, but most follow the same principle.
+
+&#x200B;
+
+**Details:**
+
+ChatGPT only generates responses as good as the questions you ask it - garbage in, garbage out. Being detailed is key to getting the desired output. For example, rather than ""Write me a sad poem"", you could say ""Write a short, 4 line poem about a man grieving his family"". Even adding just a few extra details will go a long way.
+
+Another way you can approach this is to, at the end of a prompt,  tell it directly to ask questions to help it build more context, and gain a better understanding of what it should do. Best for when it gives a response that is either generic or unrelated to what you requested. Tip by u/Think_Olive_1000
+
+&#x200B;
+
+&#x200B;
+
+**Nudging**:
+
+Sometimes, you just can't ask it something outright. Instead, you'll have to ask a few related questions beforehand - ""priming"" it, so to speak. For example rather than ""write an application  in Javascript that makes your phone vibrate 3 times"", you could ask:
+
+""What is Javascript?""
+
+""Please show me an example of an application made in Javascript.""
+
+""Please show me an application in Javascript that makes one's phone vibrate three times"".
+
+It can be more tedious, but it's highly effective. And truly, typically only takes a handful of seconds longer. 
+
+&#x200B;
+
+**Trying again:**
+
+Sometimes, you just need to re-ask it the same thing.  There are two ways to go about this:
+
+When it gives you a response you dislike, you can simply give the prompt ""Alternative"", or ""Give alternative response"". It will generate just that. Tip from u/jord9211.
+
+Go to the last prompt made, and re-submit it ( you may see a button explicitly stating ""try again"", or may have to press on your last prompt, press ""edit"", then re-submit). Or, you may need to reset the entire thread."
+94,12rca1e,ChatGPTCoding,GPT-3,relevance,2023-04-19 01:40:30,Is ChatGPT Pro better for long codes?,etrader58,False,0.91,28,https://www.reddit.com/r/ChatGPTCoding/comments/12rca1e/is_chatgpt_pro_better_for_long_codes/,45,1681868430.0,"Since ChatGP response is limited by the number of tokens, long codes are interrupted. As I searched on the web and this subreddit, the only possible solution is to use commands to continue from the last response. In my experience, it rarely works. It generates the same code but independently. As a result, many variables have been changed, and the code does not work. I need to adjust the entire code, which sometimes takes more time than writing it from scratch.
+
+ChartGPT 3.5 perfectly satisfies my need, and my only problem is incomplete codes. Can I resolve this issue by upgrading to Pro (4.0), or the number of tokens is the same?
+
+Sorry for bringing up this common issue, but I am stuck with no solution."
+95,11v0evr,ChatGPTCoding,GPT-3,relevance,2023-03-18 20:56:02,How to update OpenAI with a data table once a day for user inquiries?,milwoukee,False,0.72,3,https://www.reddit.com/r/ChatGPTCoding/comments/11v0evr/how_to_update_openai_with_a_data_table_once_a_day/,8,1679172962.0,"Hello guys,
+
+*As I'm not sure if gpt-3.5-turbo is the best product for this, I'll just call it AI.*
+
+I need to provide **AI**  with a table of data that gets updated once a day. Users will ask questions, and the **AI** should respond with information based on this table. My goal is to update the old information with the new data in the morning, and then have the AI answer questions based on the fresh data for the rest of the day.
+
+The challenge I'm facing is finding a way to efficiently provide **AI** with the updated table daily without incurring excessive costs. Ideally, I'd like to send the table just once a day and have the AI use the updated information for all user inquiries during that day.
+
+Has anyone encountered a similar issue or have any suggestions on how to accomplish this? I would greatly appreciate any insights or ideas you may have!
+
+&#x200B;
+
+EXAMPLE:
+
+I can ""simulate"" this in **ChatGPT4** or **3.5** interface by giving it this command:
+
+    based on the table below, tell me car IDs that are red, cost more than 20k USD and are older than 5 years
+    
+    data:
+    
+    id,color,year,price,max_speed,...
+    1,yellow,2010,200000,N/A,...
+    2,red,2015,100k,100,...
+    3,red,2019,100k,120,...
+
+**ChatGPT** now responds something like: *I recommend car ID 2 as it costs 100k etc...*
+
+***EDIT****: There might be more questions, so I need to keep context in the conversation. For example - ""Ok, I forgot to mention it should go faster than 100mph""*
+
+&#x200B;
+
+&#x200B;
+
+I can't send this table with each request for 2 reasons:
+
+1. the table is too big and it exceeds the limit
+2. more tokens - higher price
+
+&#x200B;
+
+So the simplest way to do that would be to wait for ChatGPT4 API and send the table inside each request. But as I mentioned, I can't.
+
+I'm not experienced in AI so I'll appreciate any advice. Should I use **gpt-3.5-turbo?** Or should I use some pre-trained model and fine tune it? Or something else?
+
+&#x200B;
+
+Thank you in advance for your help!
+
+&#x200B;
+
+&#x200B;"
