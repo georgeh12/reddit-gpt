@@ -1,5 +1,6 @@
 .venv/**
 data/**
+output/**/raw/**
 reddit.json
 login.json
 config.json
