@@ -1,0 +1,5 @@
+myenv/*
+data/*
+output/raw/*
+output/model/*
+reddit.json

@@ -3,6 +3,5 @@ data/**
 output/raw/**
 output/model/**
 reddit.json
-login.json
 config.json
 mlruns/**
