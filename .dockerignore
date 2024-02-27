@@ -1,5 +1,3 @@
 myenv/*
-data/*
-output/raw/*
-output/model/*
+output/*
 reddit.json
